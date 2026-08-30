@@ -46,6 +46,8 @@
   .books label{display:flex;align-items:flex-start;gap:5px;cursor:pointer;
     padding:3px 0;line-height:1.45;user-select:none}
   .books .sub{color:var(--sub);font-size:10.5px}
+  .sheetbar{display:none}
+  .grip{width:36px;height:4px;border-radius:2px;background:var(--line);display:block}
   .btn{padding:4px 9px;border:1px solid var(--line);border-radius:3px;background:var(--bg);
     color:var(--ink);font-size:12px;cursor:pointer}
   .btn:hover{background:var(--code)}
@@ -86,16 +88,55 @@
   ol.refs .url{color:var(--sub);font-size:10.5px;word-break:break-all;opacity:.75;margin-top:1px}
   .norefs{color:var(--sub);font-size:11.5px;line-height:1.7;border-left:2px solid var(--line);
     padding-left:9px;margin:5px 0 0}
+  /* --- スマホ：3段積みをやめ、下からせり上がるシートにする --- */
   @media (max-width:760px){
-    #wrap{flex-direction:column}
-    #side{width:auto;max-height:40%;border-left:0;border-top:1px solid var(--line)}
-    #list{width:auto;max-height:38%;border-right:0;border-bottom:1px solid var(--line)}
+    #wrap{flex-direction:column;position:relative;overflow:hidden}
+    #main{flex:1;min-height:0}
+    header{padding:8px 10px;gap:8px}
+    h1{font-size:14px}
+    h1 small{display:none}
+    input[type=search]{width:104px}
+    .filters{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;
+      max-width:100%;padding-bottom:2px}
+    .filters label{flex:none}
+
+    #list, #side{
+      position:fixed;left:0;right:0;bottom:0;top:auto;
+      width:auto;max-height:none;
+      height:80vh;
+      height:80dvh;            /* アドレスバーで画面高が変わる端末むけ */
+      border:0;border-top:1px solid var(--line);
+      border-radius:14px 14px 0 0;
+      box-shadow:0 -10px 28px rgba(0,0,0,.22);
+      transform:translateY(101%);
+      transition:transform .24s ease;
+      z-index:30;
+      padding:0 16px calc(26px + env(safe-area-inset-bottom));
+      overscroll-behavior:contain;
+    }
+    /* .open が付いているときだけ出す（デスクトップの .closed より後に書いて勝たせる） */
+    #list.open, #side.open{transform:translateY(0)}
+
+    .sheetbar{display:flex;align-items:center;justify-content:flex-end;
+      position:sticky;top:0;background:var(--panel);padding:10px 0 9px;z-index:2;
+      isolation:isolate}
+    .sheetbar .grip{position:absolute;left:50%;transform:translateX(-50%);top:5px}
+
+    /* 読むための文字組み。スマホは指で読むので大きめに */
+    #side{font-size:14px;line-height:1.85}
+    #side h2{font-size:19px}
+    #side h3{font-size:12.5px;margin:18px 0 6px}
+    #list{font-size:14px}
+    #list a{padding:6px 6px}
+    .books label{padding:6px 0}
   }
 </style>
 </head>
 <body>
 <div id="wrap">
   <aside id="list">
+    <div class="sheetbar"><span class="grip"></span>
+      <button class="btn xbtn" data-close="list">閉じる</button></div>
     <h3>本でしぼる</h3>
     <div class="books" id="books"></div>
     <div style="margin-top:6px;display:flex;gap:6px">
@@ -120,11 +161,15 @@
     <div id="cy"></div>
   </div>
   <aside id="side">
+    <div class="sheetbar"><span class="grip"></span>
+      <button class="btn xbtn" data-close="side">閉じる</button></div>
+    <div id="sidebody">
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
       形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験、八角＝症例。<br><br>
       <b>破線の灰色</b>は「まだ書いていない用語」。線でつながっているのに中身が無いもの＝
       <b>次に調べる場所</b>が地図の上に見えている状態。<br><br>
       <b>赤い線</b>は「対立」。どこで論争が起きているかが、地図を見るだけで分かる。</p>
+    </div>
   </aside>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.2/cytoscape.min.js"></script>
@@ -160,6 +205,16 @@ const BRAIN_AREAS = {
 // 正中矢状断（左を向いた頭を、まんなかで切った断面）では見えず、
 // 外側や深部にあるので位置だけを破線で示すもの
 const DEEP = ['amygdala','hippocampus','insula','dlpfc','temporal'];
+
+// スマホでは、左右のパネルを「下からせり上がるシート」として扱う
+const isPhone = () => window.matchMedia('(max-width:760px)').matches;
+const sheet = id => document.getElementById(id);
+function openSheet(id){
+  ['list','side'].forEach(k => sheet(k).classList.toggle('open', k === id));
+}
+function closeSheets(){
+  ['list','side'].forEach(k => sheet(k).classList.remove('open'));
+}
 
 let cy, DATA;
 let HAS_FCOSE = false;
@@ -212,7 +267,9 @@ function boot(data){
   });
 
   cy.on('tap','node', ev => show(ev.target.data('node')));
-  cy.on('tap', ev => { if (ev.target === cy) clearDim(); });
+  cy.on('tap', ev => { if (ev.target === cy){ clearDim(); if (isPhone()) closeSheets(); } });
+  document.querySelectorAll('[data-close]').forEach(b =>
+    b.onclick = () => sheet(b.dataset.close).classList.remove('open'));
 
   buildFilters(data);
   buildList(data);
@@ -331,8 +388,14 @@ function buildList(data){
   document.getElementById('bAll').onclick = () => setBooks(true);
   document.getElementById('bNone').onclick = () => setBooks(false);
   document.getElementById('toggleList').onclick = () => {
-    document.getElementById('list').classList.toggle('closed');
-    setTimeout(() => cy.resize(), 60);
+    const el = sheet('list');
+    if (isPhone()){
+      if (el.classList.contains('open')) el.classList.remove('open');
+      else openSheet('list');
+    } else {
+      el.classList.toggle('closed');
+      setTimeout(() => cy.resize(), 60);
+    }
   };
   renderLists();
 }
@@ -430,6 +493,7 @@ function md(s){
 
 function show(n){
   const side = document.getElementById('side');
+  const body = document.getElementById('sidebody') || side;
   const color = TYPE_COLOR[n.type] || '#7a6da8';
   let h = '<h2>' + esc(n.id) +
     (n.stub ? '<span class="stubmark">これから調べる</span>' : '') + '</h2>';
@@ -488,9 +552,10 @@ function show(n){
          'ここに書かれているのは大河の記憶による。</p>';
   }
 
-  side.innerHTML = h;
+  body.innerHTML = h;
   side.scrollTop = 0;
-  side.querySelectorAll('a[data-go]').forEach(a => a.onclick = () => {
+  if (isPhone()) openSheet('side');     // スマホは中身を大きく出す
+  body.querySelectorAll('a[data-go]').forEach(a => a.onclick = () => {
     const t = cy.getElementById(a.dataset.go);
     if (t.length){
       cy.animate({ fit:{ eles:t.closedNeighborhood(), padding:80 }, duration:380 });
