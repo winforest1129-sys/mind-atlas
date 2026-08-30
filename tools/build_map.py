@@ -5,7 +5,7 @@
 
 frontmatter の書式（自前パース。PyYAML は不要）:
 ---
-type: 用語            # 用語 / 人物 / 実験 / 書物 / 理論
+type: 用語            # 用語 / 人物 / 実験 / 症例 / 書物 / 理論
 label: 中核意識        # 省略可。省略時はファイル名を使う
 出典: 01_ダマシオ      # カンマ区切りで複数可
 確度: 推測            # 確認済 / 推測 / 未調査
@@ -27,7 +27,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NODES_DIR = os.path.join(ROOT, 'nodes')
 OUT = os.path.join(ROOT, 'data.json')
 
-VALID_TYPES = ['用語', '人物', '実験', '書物', '理論']
+VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論']
 VALID_CONF = ['確認済', '推測', '未調査']
 
 LINK_RE = re.compile(r'^\s*-\s*\{\s*to\s*:\s*(?P<to>[^,}]+?)\s*,\s*rel\s*:\s*(?P<rel>[^}]+?)\s*\}\s*$')

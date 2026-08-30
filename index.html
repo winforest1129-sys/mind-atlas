@@ -68,7 +68,7 @@
   </div>
   <aside id="side">
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
-      形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験。<br><br>
+      形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験、八角＝症例。<br><br>
       <b>破線の灰色</b>は「まだ書いていない用語」。線でつながっているのに中身が無いもの＝
       <b>次に調べる場所</b>が地図の上に見えている状態。<br><br>
       <b>赤い線</b>は「対立」。どこで論争が起きているかが、地図を見るだけで分かる。</p>
@@ -78,10 +78,10 @@
 <script>
 const TYPE_SHAPE = {
   '用語':'ellipse', '人物':'hexagon', '理論':'diamond',
-  '実験':'triangle', '書物':'round-rectangle'
+  '実験':'triangle', '症例':'octagon', '書物':'round-rectangle'
 };
 const TYPE_COLOR = {
-  '用語':'#7a6da8','人物':'#4f8a6b','理論':'#c07a3e','実験':'#3f8b96','書物':'#3d5a80'
+  '用語':'#7a6da8','人物':'#4f8a6b','理論':'#c07a3e','実験':'#3f8b96','症例':'#8a6250','書物':'#3d5a80'
 };
 const DARK = window.matchMedia('(prefers-color-scheme:dark)').matches;
 const INK  = DARK ? '#e6e2da' : '#2f2b26';
