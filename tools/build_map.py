@@ -14,6 +14,7 @@ links:
   - {to: 構成主義的情動理論, rel: 対立}
 refs:
   - {title: 論文や記事の題, url: https://..., note: 何を確かめたか}
+脳部位: vmpfc, ofc      # 脳の模式図で光らせる領域。BRAIN_AREAS のIDをカンマ区切りで
 ---
 本文は "## 見出し" ごとに切って JSON に入れる。
 
@@ -35,6 +36,15 @@ OUT = os.path.join(ROOT, 'data.json')
 
 VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論']
 VALID_CONF = ['確認済', '推測', '未調査']
+
+# 脳の模式図に載せられる領域。index.html の BRAIN_AREAS と必ず揃えること
+BRAIN_AREAS = [
+    'pfc', 'vmpfc', 'ofc', 'dlpfc', 'motor', 'somatosensory',
+    'parietal', 'occipital', 'temporal', 'insula',
+    'acc', 'pcc', 'corpus_callosum',
+    'amygdala', 'hippocampus', 'thalamus', 'hypothalamus',
+    'brainstem', 'cerebellum',
+]
 
 LINK_RE = re.compile(
     r'^\s*-\s*\{\s*to\s*:\s*(?P<to>[^,}]+?)\s*,\s*rel\s*:\s*(?P<rel>[^}]+?)\s*\}\s*$')
@@ -136,9 +146,16 @@ def main():
 
         sources = [s.strip() for s in meta.get('出典', '').split(',') if s.strip()]
 
+        brain = [b.strip() for b in meta.get('脳部位', '').split(',') if b.strip()]
+        for b in brain:
+            if b not in BRAIN_AREAS:
+                warnings.append(fn + ': 脳部位 "' + b + '" は図に無い（使えるのは ' +
+                                ', '.join(BRAIN_AREAS) + '）')
+        brain = [b for b in brain if b in BRAIN_AREAS]
+
         nodes[nid] = {
             'id': nid, 'type': ntype, 'confidence': conf,
-            'sources': sources, 'refs': refs, 'file': 'nodes/' + fn,
+            'sources': sources, 'refs': refs, 'brain': brain, 'file': 'nodes/' + fn,
             'sections': split_sections(body), 'stub': False,
         }
         for lk in meta['links']:
@@ -149,7 +166,8 @@ def main():
         if e['target'] not in nodes:
             nodes[e['target']] = {
                 'id': e['target'], 'type': '用語', 'confidence': '未調査',
-                'sources': [], 'refs': [], 'file': None, 'sections': {}, 'stub': True,
+                'sources': [], 'refs': [], 'brain': [], 'file': None,
+                'sections': {}, 'stub': True,
             }
 
     # 線が1本も無いノードを警告

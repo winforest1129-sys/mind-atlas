@@ -29,6 +29,26 @@
   .filters{display:flex;gap:9px;flex-wrap:wrap;font-size:12px;color:var(--sub)}
   .filters label{display:flex;align-items:center;gap:3px;cursor:pointer;user-select:none}
   .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+  #list{width:250px;border-right:1px solid var(--line);background:var(--panel);
+    overflow-y:auto;padding:12px 14px;font-size:12.5px;flex:none}
+  #list.closed{display:none}
+  #list h3{font-size:11.5px;color:var(--sub);margin:14px 0 5px;font-weight:600;
+    letter-spacing:.06em;display:flex;align-items:center;gap:5px}
+  #list h3:first-child{margin-top:0}
+  #list ul{list-style:none;padding:0;margin:0}
+  #list li{padding:2px 0;line-height:1.5}
+  #list a{color:var(--ink);cursor:pointer;text-decoration:none;display:block;
+    padding:2px 5px;border-radius:3px}
+  #list a:hover{background:var(--code)}
+  #list a.on{background:var(--code);font-weight:600}
+  #list .n{color:var(--sub);font-size:10.5px;font-weight:400}
+  #list .mk{font-size:9.5px;color:var(--sub);margin-left:3px}
+  .books label{display:flex;align-items:flex-start;gap:5px;cursor:pointer;
+    padding:3px 0;line-height:1.45;user-select:none}
+  .books .sub{color:var(--sub);font-size:10.5px}
+  .btn{padding:4px 9px;border:1px solid var(--line);border-radius:3px;background:var(--bg);
+    color:var(--ink);font-size:12px;cursor:pointer}
+  .btn:hover{background:var(--code)}
   #side{width:330px;border-left:1px solid var(--line);background:var(--panel);
     overflow-y:auto;padding:16px;font-size:13px;line-height:1.75}
   #side h2{font-size:17px;margin:0 0 3px}
@@ -44,6 +64,21 @@
   ul.links li{padding:2px 0}
   ul.links a{color:var(--accent);cursor:pointer;text-decoration:none;border-bottom:1px dotted}
   .stubmark{color:var(--sub);font-size:11px;margin-left:4px}
+  .brain{margin:7px 0 2px;border:1px solid var(--line);border-radius:4px;
+    padding:6px 4px 2px;background:var(--bg)}
+  .brain svg{width:100%;height:auto;display:block}
+  .brain .base{fill:var(--code);stroke:var(--line);stroke-width:1.1}
+  .brain .sub2{fill:var(--code);stroke:var(--line);stroke-width:1}
+  .brain .area{fill:transparent;stroke:var(--line);stroke-width:.9}
+  .brain .area.hit{fill:#d2603f;fill-opacity:.92;
+    filter:drop-shadow(0 0 5px rgba(210,96,63,.95)) drop-shadow(0 0 11px rgba(210,96,63,.55))}
+  .brain .deep{stroke:var(--line);stroke-width:.9;stroke-dasharray:3 2;fill:transparent}
+  .brain .deep.hit{fill:#d2603f;fill-opacity:.92;stroke:#d2603f;
+    filter:drop-shadow(0 0 5px rgba(210,96,63,.95))}
+  .brain .front{font-size:9px;fill:var(--sub)}
+  .brainnames{font-size:11.5px;color:var(--ink);margin:5px 0 0;line-height:1.65}
+  .brainnames .hit{color:#c2542f;font-weight:600}
+  .brainnote{font-size:10.5px;color:var(--sub);margin-top:2px;line-height:1.55}
   ol.refs{padding-left:1.3em;margin:4px 0 0}
   ol.refs li{margin-bottom:9px}
   ol.refs a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(0,0,0,.12)}
@@ -53,15 +88,26 @@
     padding-left:9px;margin:5px 0 0}
   @media (max-width:760px){
     #wrap{flex-direction:column}
-    #side{width:auto;max-height:44%;border-left:0;border-top:1px solid var(--line)}
+    #side{width:auto;max-height:40%;border-left:0;border-top:1px solid var(--line)}
+    #list{width:auto;max-height:38%;border-right:0;border-bottom:1px solid var(--line)}
   }
 </style>
 </head>
 <body>
 <div id="wrap">
+  <aside id="list">
+    <h3>本でしぼる</h3>
+    <div class="books" id="books"></div>
+    <div style="margin-top:6px;display:flex;gap:6px">
+      <button class="btn" id="bAll">ぜんぶ</button>
+      <button class="btn" id="bNone">なし</button>
+    </div>
+    <div id="lists"></div>
+  </aside>
   <div id="main">
     <header>
       <h1>mind-atlas<small>こころの地図</small></h1>
+      <button class="btn" id="toggleList" title="一覧の開け閉め">一覧</button>
       <input type="search" id="q" placeholder="用語をさがす">
       <select id="layout">
         <option value="cose">ネットワーク</option>
@@ -101,6 +147,20 @@ const BG   = DARK ? '#1b1a18' : '#f7f6f3';
 const EDGE = DARK ? '#4a463f' : '#c9c3b8';
 const RED  = '#b4483f';
 
+// ---- ② 脳の模式図 ----------------------------------------------------
+// build_map.py の BRAIN_AREAS と必ず揃えること
+const BRAIN_AREAS = {
+  pfc:'前頭前野', vmpfc:'腹内側前頭前野', ofc:'眼窩前頭皮質', dlpfc:'背外側前頭前野',
+  motor:'一次運動野', somatosensory:'体性感覚野',
+  parietal:'頭頂葉', occipital:'後頭葉', temporal:'側頭葉', insula:'島皮質',
+  acc:'前部帯状回', pcc:'後部帯状回', corpus_callosum:'脳梁',
+  amygdala:'扁桃体', hippocampus:'海馬', thalamus:'視床', hypothalamus:'視床下部',
+  brainstem:'脳幹', cerebellum:'小脳'
+};
+// 正中矢状断（左を向いた頭を、まんなかで切った断面）では見えず、
+// 外側や深部にあるので位置だけを破線で示すもの
+const DEEP = ['amygdala','hippocampus','insula','dlpfc','temporal'];
+
 let cy, DATA;
 let HAS_FCOSE = false;
 try {
@@ -122,7 +182,7 @@ function boot(data){
   cy = cytoscape({
     container: document.getElementById('cy'),
     elements: elements,
-    wheelSensitivity: 0.25,
+    wheelSensitivity: 0.75,   // ③ 0.25 は拡大に時間がかかりすぎた
     style: [
       { selector:'node', style:{
           'label':'data(label)', 'font-size':11, 'color':INK,
@@ -155,11 +215,56 @@ function boot(data){
   cy.on('tap', ev => { if (ev.target === cy) clearDim(); });
 
   buildFilters(data);
+  buildList(data);
   document.getElementById('layout').onchange = e => cy.layout(layoutOpts(e.target.value)).run();
   document.getElementById('q').oninput = e => search(e.target.value.trim());
   document.querySelector('h1 small').textContent =
     'こころの地図　' + data.nodes.filter(n=>!n.stub).length + '語＋これから' +
     data.nodes.filter(n=>n.stub).length + '　（' + data.generated + '）';
+}
+
+function brainSVG(ids){
+  const cls = id => (DEEP.indexOf(id) >= 0 ? 'deep' : 'area') +
+                    (ids.indexOf(id) >= 0 ? ' hit' : '');
+  const E = (id, cx, cy, rx, ry) =>
+    '<ellipse class="' + cls(id) + '" cx="' + cx + '" cy="' + cy +
+    '" rx="' + rx + '" ry="' + ry + '"/>';
+  const P = (id, d) => '<path class="' + cls(id) + '" d="' + d + '"/>';
+
+  return '<svg viewBox="0 0 400 300" role="img" aria-label="脳の模式図">' +
+    // 大脳の外形（これ自体は光らない土台）
+    '<path class="base" d="M 62,155 C 60,116 82,90 118,76 C 156,61 214,60 258,73 ' +
+      'C 302,86 341,114 347,152 C 352,184 337,206 313,215 C 282,227 240,234 200,236 ' +
+      'C 158,238 118,233 98,220 C 76,205 63,184 62,155 Z"/>' +
+    // 葉のレベル
+    E('pfc', 112, 142, 50, 62) +
+    E('parietal', 268, 104, 44, 32) +
+    E('occipital', 323, 160, 26, 32) +
+    E('temporal', 185, 214, 64, 22) +
+    E('dlpfc', 113, 100, 34, 21) +
+    // 中心溝をはさむ2つ
+    E('motor', 190, 76, 21, 13) +
+    E('somatosensory', 228, 79, 21, 13) +
+    // 脳梁とその周りの帯状回
+    P('corpus_callosum', 'M 142,172 C 148,142 178,127 212,127 C 246,127 272,142 278,168 ' +
+      'L 264,168 C 258,150 240,139 212,139 C 184,139 158,150 152,172 Z') +
+    P('acc', 'M 130,174 C 134,138 166,116 206,114 L 208,126 C 174,128 146,146 142,174 Z') +
+    P('pcc', 'M 246,116 C 274,124 290,144 290,170 L 278,170 C 278,150 264,134 242,127 Z') +
+    // 前頭の下面
+    E('vmpfc', 92, 184, 27, 17) +
+    E('ofc', 103, 207, 32, 11) +
+    // 深部
+    E('insula', 160, 176, 21, 15) +
+    E('thalamus', 214, 170, 26, 17) +
+    E('hypothalamus', 199, 193, 14, 9) +
+    E('amygdala', 153, 207, 12, 9) +
+    E('hippocampus', 182, 214, 21, 8) +
+    // 脳幹と小脳
+    P('brainstem', 'M 202,185 L 226,185 L 234,262 L 212,268 L 197,238 Z') +
+    E('cerebellum', 298, 234, 45, 32) +
+    '<text class="front" x="10" y="158">前</text>' +
+    '<text class="front" x="374" y="158">後</text>' +
+    '</svg>';
 }
 
 function layoutOpts(name){
@@ -204,12 +309,100 @@ function buildFilters(data){
   lab.querySelector('input').onchange = applyFilters;
 }
 
+// ---- ① 一覧パネル ----------------------------------------------------
+const ORDER = ['書物','人物','理論','症例','実験','用語'];
+
+function buildList(data){
+  // 「本でしぼる」= 書物ノードごとのチェックボックス。キーは その本の 出典 の値
+  const books = data.nodes.filter(n => n.type === '書物' && !n.stub)
+                          .sort((a,b) => (a.sources[0]||'').localeCompare(b.sources[0]||''));
+  const bbox = document.getElementById('books');
+  bbox.innerHTML = '';
+  books.forEach(b => {
+    const key = b.sources[0] || b.id;
+    const lab = document.createElement('label');
+    lab.innerHTML = '<input type="checkbox" data-book="' + esc(key) + '" checked>' +
+      '<span>' + esc(b.id) + '<br><span class="sub">' + esc(key) + '</span></span>';
+    bbox.appendChild(lab);
+    lab.querySelector('input').onchange = applyFilters;
+  });
+  if (!books.length) bbox.innerHTML = '<p class="sub">まだ書物のノードが無い。</p>';
+
+  document.getElementById('bAll').onclick = () => setBooks(true);
+  document.getElementById('bNone').onclick = () => setBooks(false);
+  document.getElementById('toggleList').onclick = () => {
+    document.getElementById('list').classList.toggle('closed');
+    setTimeout(() => cy.resize(), 60);
+  };
+  renderLists();
+}
+
+function setBooks(on){
+  document.querySelectorAll('#books input').forEach(i => i.checked = on);
+  applyFilters();
+}
+
+function renderLists(){
+  let h = '';
+  const group = (title, ns, color) => {
+    if (!ns.length) return '';
+    let g = '<h3><span class="dot" style="background:' + color + '"></span>' +
+            esc(title) + ' <span class="n">' + ns.length + '</span></h3><ul>';
+    ns.forEach(n => {
+      const mk = (!n.stub && !(n.refs && n.refs.length))
+        ? '<span class="mk" title="外部の情報源に当たっていない">記憶</span>' : '';
+      g += '<li><a data-id="' + esc(n.id) + '">' + esc(n.id) + mk + '</a></li>';
+    });
+    return g + '</ul>';
+  };
+  const byId = (a,b) => a.id.localeCompare(b.id, 'ja');
+  ORDER.forEach(t => {
+    h += group(t, DATA.nodes.filter(n => n.type === t && !n.stub).sort(byId),
+               TYPE_COLOR[t] || '#888');
+  });
+  h += group('これから調べる', DATA.nodes.filter(n => n.stub).sort(byId), SUB);
+  const box = document.getElementById('lists');
+  box.innerHTML = h;
+  box.querySelectorAll('a[data-id]').forEach(a =>
+    a.onclick = () => focusNode(a.dataset.id));
+}
+
+function focusNode(id){
+  const t = cy.getElementById(id);
+  if (!t.length) return;
+  cy.nodes().unselect();
+  t.select();
+  cy.animate({ fit:{ eles:t.closedNeighborhood(), padding:90 }, duration:380 });
+  show(t.data('node'));
+  markActive(id);
+}
+
+function markActive(id){
+  document.querySelectorAll('#lists a[data-id]').forEach(a =>
+    a.classList.toggle('on', a.dataset.id === id));
+}
+
 function applyFilters(){
   const stubOn = document.getElementById('f_stub').checked;
+  // チェックが入っている本のキー
+  const on = new Set([...document.querySelectorAll('#books input:checked')]
+                     .map(i => i.dataset.book));
   cy.nodes().forEach(n => {
+    const d = n.data('node');
     const box = document.getElementById('f_' + n.data('type'));
-    const vis = (!box || box.checked) && (stubOn || !n.data('stub'));
+    let vis = (!box || box.checked) && (stubOn || !n.data('stub'));
+    // 本でしぼる：出典を持つノードだけが対象。
+    // 出典を1つも持たないノード（本に紐づかない概念・stub）は常に残す。
+    // 複数の本にまたがるノードは、どれか1冊でも表示中なら残る（橋を切らないため）。
+    if (vis && d && d.sources && d.sources.length)
+      vis = d.sources.some(k => on.has(k));
     n.style('display', vis ? 'element' : 'none');
+  });
+  // 一覧側でも、消えているものを薄くする
+  document.querySelectorAll('#lists a[data-id]').forEach(a => {
+    const el = cy.getElementById(a.dataset.id);
+    const hidden = el.length && el.style('display') === 'none';
+    a.style.opacity = hidden ? 0.3 : 1;
   });
 }
 
@@ -254,6 +447,16 @@ function show(n){
     const keys = Object.keys(n.sections);
     if (!keys.length) h += '<p class="empty">本文がまだ空。</p>';
     keys.forEach(k => { h += '<h3>' + esc(k) + '</h3><div>' + md(n.sections[k]) + '</div>'; });
+  }
+
+  // ② 脳の部位が指定されていれば、模式図で光らせる
+  if (n.brain && n.brain.length){
+    h += '<h3>脳のどこか</h3><div class="brain">' + brainSVG(n.brain) + '</div>';
+    h += '<p class="brainnames">' + n.brain.map(b =>
+      '<span class="hit">' + esc(BRAIN_AREAS[b] || b) + '</span>').join(' ／ ') + '</p>';
+    h += '<p class="brainnote">正中矢状断（頭をまんなかで切った断面）の模式図。左が前。' +
+         '破線は、この断面には現れない（外側や深部にある）ので位置だけを示したもの。' +
+         '脳溝の形までは正確ではない。</p>';
   }
 
   const out = DATA.edges.filter(e => e.source === n.id);
