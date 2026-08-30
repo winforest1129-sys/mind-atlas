@@ -7,13 +7,19 @@ frontmatter の書式（自前パース。PyYAML は不要）:
 ---
 type: 用語            # 用語 / 人物 / 実験 / 症例 / 書物 / 理論
 label: 中核意識        # 省略可。省略時はファイル名を使う
-出典: 01_ダマシオ      # カンマ区切りで複数可
+出典: 01_ダマシオ      # 蔵書リストの番号。カンマ区切りで複数可
 確度: 推測            # 確認済 / 推測 / 未調査
 links:
   - {to: 原自己, rel: 土台}
   - {to: 構成主義的情動理論, rel: 対立}
+refs:
+  - {title: 論文や記事の題, url: https://..., note: 何を確かめたか}
 ---
 本文は "## 見出し" ごとに切って JSON に入れる。
+
+refs = そのノードを書くときに実際に当たった外部の情報源。
+右パネルのいちばん下に、リンクとして出る。
+**当たっていないなら書かない。** 空であることが「これは記憶で書いた」という印になる。
 
 links の to が nodes/ にまだ無いときは、
 「これから調べる用語」として stub ノードを自動で作る（地図上に破線で出る）。
@@ -30,7 +36,11 @@ OUT = os.path.join(ROOT, 'data.json')
 VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論']
 VALID_CONF = ['確認済', '推測', '未調査']
 
-LINK_RE = re.compile(r'^\s*-\s*\{\s*to\s*:\s*(?P<to>[^,}]+?)\s*,\s*rel\s*:\s*(?P<rel>[^}]+?)\s*\}\s*$')
+LINK_RE = re.compile(
+    r'^\s*-\s*\{\s*to\s*:\s*(?P<to>[^,}]+?)\s*,\s*rel\s*:\s*(?P<rel>[^}]+?)\s*\}\s*$')
+REF_RE = re.compile(
+    r'^\s*-\s*\{\s*title\s*:\s*(?P<title>.+?)\s*,\s*url\s*:\s*(?P<url>\S+?)\s*'
+    r'(?:,\s*note\s*:\s*(?P<note>[^}]*?)\s*)?\}\s*$')
 
 
 def parse_front_matter(text):
@@ -43,7 +53,7 @@ def parse_front_matter(text):
     raw = text[3:end].strip('\n')
     body = text[end + 4:].lstrip('\n')
 
-    meta, links, in_links = {}, [], False
+    meta, links, refs, bad = {}, [], [], []
     for line in raw.split('\n'):
         if not line.strip() or line.strip().startswith('#'):
             continue
@@ -51,19 +61,28 @@ def parse_front_matter(text):
         if m:
             links.append({'to': m.group('to').strip(), 'rel': m.group('rel').strip()})
             continue
+        m = REF_RE.match(line)
+        if m:
+            refs.append({'title': m.group('title').strip(),
+                         'url': m.group('url').strip(),
+                         'note': (m.group('note') or '').strip()})
+            continue
+        if line.lstrip().startswith('- {'):
+            bad.append(line.strip())      # どちらの書式にも合わない行は警告に回す
+            continue
         if line.startswith((' ', '\t')):
-            continue                      # links 以外のインデント行は無視
+            continue                      # links/refs 以外のインデント行は無視
         if ':' not in line:
             continue
         key, _, val = line.partition(':')
         key, val = key.strip(), val.strip()
-        if key == 'links':
-            in_links = True
+        if key in ('links', 'refs'):
             continue
-        in_links = False
         val = val.strip('[]')             # 出典: [a, b] も許す
         meta[key] = val
     meta['links'] = links
+    meta['refs'] = refs
+    meta['_bad'] = bad
     return meta, body
 
 
@@ -99,6 +118,9 @@ def main():
 
         if nid in nodes:
             warnings.append('id が重複: ' + nid + '（' + fn + '）')
+        for b in meta.get('_bad', []):
+            warnings.append(fn + ': 書式が読めない行 → ' + b)
+
         ntype = meta.get('type', '用語')
         if ntype not in VALID_TYPES:
             warnings.append(fn + ': type が不正 "' + ntype + '" → 用語 に倒した')
@@ -108,13 +130,16 @@ def main():
             warnings.append(fn + ': 確度 が不正 "' + conf + '" → 未調査 に倒した')
             conf = '未調査'
 
+        refs = meta.get('refs', [])
+        if conf == '確認済' and not refs and ntype not in ('書物', '人物'):
+            warnings.append(fn + ': 確度が「確認済」なのに refs が無い（出典を書くか、推測に落とす）')
+
         sources = [s.strip() for s in meta.get('出典', '').split(',') if s.strip()]
-        sections = split_sections(body)
 
         nodes[nid] = {
             'id': nid, 'type': ntype, 'confidence': conf,
-            'sources': sources, 'file': 'nodes/' + fn,
-            'sections': sections, 'stub': False,
+            'sources': sources, 'refs': refs, 'file': 'nodes/' + fn,
+            'sections': split_sections(body), 'stub': False,
         }
         for lk in meta['links']:
             edges.append({'source': nid, 'target': lk['to'], 'rel': lk['rel']})
@@ -124,14 +149,14 @@ def main():
         if e['target'] not in nodes:
             nodes[e['target']] = {
                 'id': e['target'], 'type': '用語', 'confidence': '未調査',
-                'sources': [], 'file': None, 'sections': {}, 'stub': True,
+                'sources': [], 'refs': [], 'file': None, 'sections': {}, 'stub': True,
             }
 
-    # 孤立ノード（線が1本も無い）を警告
+    # 線が1本も無いノードを警告
     linked = set()
     for e in edges:
         linked.add(e['source']); linked.add(e['target'])
-    for nid, n in nodes.items():
+    for nid in nodes:
         if nid not in linked:
             warnings.append('線が1本も無い: ' + nid)
 
@@ -145,6 +170,7 @@ def main():
 
     written = [n for n in nodes.values() if not n['stub']]
     stubs = [n for n in nodes.values() if n['stub']]
+    with_refs = [n for n in written if n['refs']]
     print('data.json を書いた: ' + OUT)
     print('  ノード ' + str(len(nodes)) + '（書いた ' + str(len(written)) +
           ' ／ これから調べる ' + str(len(stubs)) + '）  線 ' + str(len(edges)))
@@ -152,6 +178,8 @@ def main():
     for n in written:
         by_type[n['type']] = by_type.get(n['type'], 0) + 1
     print('  内訳: ' + ' / '.join(k + ' ' + str(v) for k, v in sorted(by_type.items())))
+    print('  引用元つき: ' + str(len(with_refs)) + ' / ' + str(len(written)) +
+          '（残り ' + str(len(written) - len(with_refs)) + ' は記憶だけで書かれている）')
     if stubs:
         print('  これから調べる: ' + ', '.join(sorted(n['id'] for n in stubs)))
     if warnings:
