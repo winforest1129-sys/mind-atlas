@@ -1,6 +1,49 @@
 {
- "generated": "2026-08-31 00:10",
+ "generated": "2026-08-31 06:22",
  "nodes": [
+  {
+   "id": "HEXACO",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Lee K, Ashton MC (2005) Psychopathy Machiavellianism and Narcissism in the Five-Factor Model and the HEXACO Model of Personality Structure. Personality and Individual Differences 38:1571-1582",
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S019188690400296X",
+     "note": "⭐この地図でHEXACOを置く理由そのもの。ダーク・トライアド3つとも正直さ-謙虚さと強く負に相関し（r=-.72/-.57/-.53）、3つの間の相関もHEXACOなら説明できるが五因子では説明できなかった。2026-08-31に確認"
+    },
+    {
+     "title": "Ashton MC, Lee K (2008) The HEXACO Model of Personality Structure and the Importance of the H Factor. Social and Personality Psychology Compass 2(5)",
+     "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1751-9004.2008.00134.x",
+     "note": "提唱者自身によるH因子の解説。2026-08-31に確認"
+    },
+    {
+     "title": "John OP, Naumann LP, Soto CJ (2008) Paradigm Shift to the Integrative Big Five Trait Taxonomy. In Handbook of Personality 3rd ed, Guilford Press, pp.114-158",
+     "url": "https://www.semanticscholar.org/paper/Paradigm-shift-to-the-integrative-Big-Five-trait-John-Naumann/14bb7bba3a4e34685a36907bd170042dcc1dc073",
+     "note": "ビッグファイブ側から見た評価。複数言語の再分析（Ashton ら 2004）で6番目の正直さ-謙虚さ因子が示唆される、と認めたうえで慎重な留保をつけている"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/HEXACO.md",
+   "sections": {
+    "調べたこと": "**HEXACO**。[[語彙仮説]] に基づく点はビッグファイブとまったく同じで、\n**複数言語のデータを再分析すると因子は6つ出る**と主張するモデル（Ashton ら 2004）。\n\n**H**onesty-Humility ／ **E**motionality ／ e**X**traversion ／ **A**greeableness ／\n**C**onscientiousness ／ **O**penness\n\n⭐ 6つ目の **正直さ-謙虚さ（Honesty-Humility, H因子）** が本体で、あとの5つはビッグファイブとほぼ重なる\n（ただしEとAの境目は引き直されている）。H因子は、**誠実さ・公正さ・欲のなさ・見栄のなさ**をまとめた次元。",
+    "⭐なぜこの地図に置くか ── ダーク・トライアドの穴を埋める": "Lee & Ashton (2005) が両モデルを同じ標本で突き合わせた結果が、はっきりしている。\n\n| | 五因子の協調性との相関 | HEXACOの正直さ-謙虚さとの相関 |\n|---|---|---|\n| サイコパシー | −.39 | **−.72** |\n| マキャベリアニズム | −.44 | **−.57** |\n| 自己愛 | **−.04** | **−.53** |\n\n⚠ **自己愛が協調性とほぼ無相関（−.04）** なのが効いている。\nビッグファイブの枠組みでは、**自己愛だけが行き場を失う**。ところがH因子から見ると、3つはきれいに並ぶ。\n\nさらに決定的なのは、**ダーク・トライアド3つのあいだの相関**（[[ダーク・トライアド]] の核心である\n「概念的には別なのに測ると重なる」というあの事実）を、**HEXACOの変数は満足に説明できたが、\n五因子モデルの変数では説明できなかった**という結果のほう。\n\nつまり ── **3つを束ねている共通の核が何なのかという問いに、H因子が一つの答えを出している。**\n[[ダーク・トライアド]] が「冷淡な操作性」と呼んだものは、**正直さ-謙虚さの低極**として測れるかもしれない。",
+    "⚠ 決着はついていない": "ビッグファイブ側（John ら 2008）の評価は慎重だ。\n\n- 6因子を支持する再分析はあるが、**5因子より多い因子は、独立した研究者による複数の研究で再現しにくい**。\n- 見つかっている追加因子は「ビッグファイブ**プラス**1〜2」であって、**5因子を否定してはいない**。\n- 現時点の総説の結論は、あくまで「ビッグファイブの大まかな輪郭が、最良の作業仮説」。\n\nだからこの地図では、[[ビッグファイブ]] との線を**対立**として引いてある。\n⚠ **どちらが正しいかは、まだ決まっていない。** ただし「ダークな特性を扱う」という一点に絞れば、\nHEXACOのほうが説明力が高いという証拠がある、というのが今わかっていること。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "MBTI",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "sections": {},
+   "stub": true
+  },
   {
    "id": "アイオワ・ギャンブリング課題",
    "type": "実験",
@@ -51,6 +94,17 @@
     "燻太さんの考え": ""
    },
    "stub": false
+  },
+  {
+   "id": "ゴードン・オールポート",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "sections": {},
+   "stub": true
   },
   {
    "id": "サイコパシー",
@@ -229,16 +283,55 @@
   {
    "id": "ビッグファイブ",
    "type": "理論",
-   "confidence": "推測",
+   "confidence": "確認済",
    "sources": [
     "03_ジーグラーヒル"
    ],
-   "refs": [],
+   "refs": [
+    {
+     "title": "John OP, Naumann LP, Soto CJ (2008) Paradigm Shift to the Integrative Big Five Trait Taxonomy - History, Measurement, and Conceptual Issues. In Handbook of Personality - Theory and Research 3rd ed, Guilford Press, pp.114-158",
+     "url": "https://www.semanticscholar.org/paper/Paradigm-shift-to-the-integrative-Big-Five-trait-John-Naumann/14bb7bba3a4e34685a36907bd170042dcc1dc073",
+     "note": "この分野の標準的な総説。歴史・測定・限界がすべて入っている。手元のPDFを2026-08-31に通読。以下の記述はほぼこれに拠る"
+    },
+    {
+     "title": "Lee K, Ashton MC (2005) Psychopathy Machiavellianism and Narcissism in the Five-Factor Model and the HEXACO Model of Personality Structure. Personality and Individual Differences 38:1571-1582",
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S019188690400296X",
+     "note": "ダーク・トライアドと五因子の関係を測った研究。自己愛は協調性とほぼ無相関 r=-.04 だった。2026-08-31に確認"
+    },
+    {
+     "title": "Goldberg LR ほか (2006) The International Personality Item Pool and the Future of Public-Domain Personality Measures. Journal of Research in Personality 40:84-96",
+     "url": "https://doi.org/10.1016/j.jrp.2005.08.007",
+     "note": "IPIP。著作権のかかっていない項目プールを公開する運動そのものの説明"
+    },
+    {
+     "title": "Soto CJ, John OP (2017) The Next Big Five Inventory (BFI-2) - Developing and Assessing a Hierarchical Model With 15 Facets. Journal of Personality and Social Psychology 113(1)",
+     "url": "https://doi.org/10.1037/pspp0000096",
+     "note": "いま使うならこれ。5領域それぞれに3つのファセットを置いた階層モデル"
+    },
+    {
+     "title": "Gosling SD, Rentfrow PJ, Swann WB (2003) A Very Brief Measure of the Big-Five Personality Domains. Journal of Research in Personality 37:504-528",
+     "url": "https://doi.org/10.1016/S0092-6566(03)00046-1",
+     "note": "TIPI（10項目）。⚠著者自身が limitations の節で標準尺度に劣ると明記している"
+    },
+    {
+     "title": "Donnellan MB ほか (2006) The Mini-IPIP Scales - Tiny-Yet-Effective Measures of the Big Five Factors of Personality. Psychological Assessment 18(2):192-203",
+     "url": "https://doi.org/10.1037/1040-3590.18.2.192",
+     "note": "20項目版。α係数は各因子.60以上"
+    },
+    {
+     "title": "Rammstedt B, John OP (2007) Measuring Personality in One Minute or Less - A 10-item Short Version of the Big Five Inventory in English and German. Journal of Research in Personality 41:203-212",
+     "url": "https://doi.org/10.1016/j.jrp.2006.02.001",
+     "note": "BFI-10。1分で測る用"
+    }
+   ],
    "brain": [],
    "file": "nodes/ビッグファイブ.md",
    "sections": {
-    "調べたこと": "Big Five / 五因子モデル（FFM）。パーソナリティを**5つの連続量**で捉える、学術的な標準。\n\n**外向性 / 協調性 / 誠実性 / 神経症的傾向 / 開放性**\n\n⭐ **この地図では、ハブになる位置にいる。**\n`03_ジーグラーヒル` の狙いが「病理的なパーソナリティ特徴を**ビッグファイブ次元と結びつける**」ことなので、\nダークな特性の話は、すべてここに接続する。\n\nそして本書のPart構成（**敵対／脱抑制／柔軟性の欠如／否定的情動性**）は、\nそのまま**5因子の病理的な極**に見える。⚠ただしこれは大河の推測で、未確認。",
-    "⭐手元にすでに原典がある": "燻太さんの `心理学\\FFM\\` に、尺度の原典PDFが6本ある。\n\n- `2003_Gosling_USA●TIPI.pdf`（10項目版）\n- `2006_Donnellan_USA●Mini-IPIP.pdf`\n- `2006_Goldberg_USA●IPIP.pdf`\n- `2007_Rammstedt_Germany●BFI-10.pdf`\n- `2008_John_USA●BigFiveTaxonomy.pdf`（分類学の総説）\n- `2017_Soto_USA●BFI-2.pdf`\n\n⚠ **確度を「推測」にしてあるのは、大河がまだこれらのPDFを読んでいないから。**\n読めば `確認済` に上げられる。**手を伸ばせば届くところに出典がある**、という状態。\n\nまた、燻太さんは MBTI との対応も学習ずみ\n（E/I=外向性、S/N=開放性、T/F=協調性、J/P=誠実性。**神経症的傾向に対応軸がない**）。",
+    "調べたこと": "Big Five / 五因子モデル（FFM）。パーソナリティを**5つの連続量**で捉える、学術的な標準。\n\n**外向性 / 協調性 / 誠実性 / 神経症的傾向 / 開放性**（頭文字を並べて **OCEAN**）\n\n⭐ この地図では**ハブ**の位置にいる。`03_ジーグラーヒル` の狙いが「病理的なパーソナリティ特徴を\nビッグファイブ次元と結びつける」ことなので、ダークな特性の話はすべてここに接続する。\n\n### 5つの定義（John ら 2008, Table 4.2）\n| 因子 | 何を対比しているか |\n|---|---|\n| 外向性 E | 社会的・物質的世界への**エネルギッシュな接近**（社交性・活動性・自己主張・肯定的情動） |\n| 協調性 A | **向社会的・共同的な方向づけ** ⇔ **敵対（antagonism）**（利他性・優しさ・信頼・慎み） |\n| 誠実性 C | 課題と目標に向かうための**社会規範的な衝動制御**（考えてから動く・満足を先延ばす・計画する） |\n| 神経症的傾向 N | **情緒安定** ⇔ **否定的情動性**（不安・緊張・悲しみ） |\n| 開放性 O | 精神生活と経験の**幅・深さ・独創性・複雑さ** |\n\n⚠ 右列の太字は、`03_ジーグラーヒル` のPart名（**敵対／脱抑制／柔軟性の欠如／否定的情動性**）と\n言葉づかいがそのまま重なっている。この照合はまだ確かめていない（→ 地図の宿題）。",
+    "⭐名前の由来 ── 「大きい」ではなく「広い」": "「Big Five」と名づけたのは **Goldberg (1981)**。ただしこれは\n**5つが偉いという意味ではなく、一つひとつが極端に広い（broad）ことを強調するため**だった、と総説は明言している。\n\nだから「人格は5つに還元できる」という主張ではない。5因子は**とても粗い抽象度の層**であって、\nその下に無数のより具体的な特性がぶら下がっている。総説の比喩がわかりやすい ──\n**グッピーと言うほうが、魚と言うより情報が多い。魚と言うほうが、脊椎動物と言うより情報が多い。**\nビッグファイブは生物でいう「植物」「動物」くらいの位置にいる。**帯域は広いが、忠実度は低い。**",
+    "⚠ どこまで確かなのか（ここが一番大事）": "- **普遍的だと確定してはいない。** ゲルマン語圏ではよく再現するが、非西洋の言語では話が複雑になる。\n  総説自身が引く結論は「**現時点で最良の作業仮説**（best working hypothesis）」まで。\n- **一番あやしいのは第5因子（開放性）**。ドイツ語では純粋な「知性」、オランダ語・イタリア語では\n  「非慣習性・反抗性」として出てくる。**言語によって別のものを指してしまう。**\n- **因子を減らしたほうが（2つや3つ）再現性が高いことすらある。**\n- 逆に**6因子**（Ashton ら 2004）を支持する再分析もある → [[HEXACO]]\n- ⭐ただし総説は同時に、**言語相対主義の否定**という強い結果も指摘している。\n  「文化ごとに固有の人格次元がある」という予想は**データに支持されなかった**。広い次元のレベルでは、文化は予想よりずっと似ている。\n- **理論ではなく分類学**。Big Five は**記述するもの**であって、**説明するものではない**（Goldberg 1993）。\n  なぜそうなるかを言う理論は、McCrae & Costa の五因子理論など別立て。",
+    "測る道具（手元にPDFがある6本）": "**唯一の標準（gold standard）はない**、と総説ははっきり書いている。用途で選ぶもの。\n\n| 尺度 | 項目数 | 位置づけ |\n|---|---|---|\n| NEO-PI-R / NEO-FFI | 240 / 60 | 質問紙系で最もよく検証されている |\n| TDA（Goldberg 1992） | 100（短縮40） | 単語1語で答える形式の定番 |\n| **BFI-2**（Soto & John 2017） | 60 | いま新しく測るならこれ。**15ファセット**の階層構造つき |\n| BFI-10（Rammstedt & John 2007） | 10 | 1分版 |\n| Mini-IPIP（Donnellan 2006） | 20 | IPIP由来。α ≧ .60 |\n| TIPI（Gosling 2003） | 10 | ⚠**著者自身が「標準尺度に劣る」と明記**。使うなら時間がない時だけ |\n| IPIP（Goldberg 2006） | 可変 | ⭐**パブリックドメイン**。著作権に縛られない |\n\n**信頼性**（Berkeley 829名, BFI/TDA/NEO-FFI）＝ α平均 .84 / .83 / .81。\n**尺度間の収束的妥当性**＝平均 r = .75（信頼性で補正すると .93）。弁別的相関は平均 .19。\n⚠ただし **E・A・C は .95 前後で一致するのに、N（.86）と O（.90）は落ちる**。\nとくにNEO-FFIの開放性は、他の2尺度とかみ合いが悪い。**同じ「開放性」という名前でも中身が同じとは限らない。**",
+    "⭐MBTIに神経症的傾向の軸がない理由がわかった": "燻太さんはMBTIとの対応を学習ずみだった（E/I=外向性、S/N=開放性、T/F=協調性、J/P=誠実性。\n**神経症的傾向に対応する軸がない**）。総説の Table 4.1 はこの対応をそのまま裏づけている。\n本文でも、MBTIの4尺度は **extraversion / feeling / judging / intuition を測る** と書かれていて、5つ目がない。\n\n⭐**そして、なぜ無いのかまで書いてある。**\n\n> 情緒安定は2番目にほぼ普遍的に認められる次元だが、Table 4.1 の研究者全員が\n> それに独立した尺度を置いているわけではない。とくにそうなのが、**基本的に健常でよく機能している大人の\n> アセスメントを主目的とする質問紙** ── Gough の CPI、**MBTI**、Jackson の PRF である。\n\nつまり**MBTIに神経症的傾向が無いのは、うっかり漏れたのではなく、健常者の「タイプ分け」という\n出自からくる設計上の選択**だということになる。裏返すと、**MBTIは苦しさの次元を最初から見ない道具**になっている。\n（気質ベースのモデルは、逆に全部が神経症的傾向を含んでいる）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -775,6 +868,28 @@
    "stub": false
   },
   {
+   "id": "語彙仮説",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "John OP, Naumann LP, Soto CJ (2008) Paradigm Shift to the Integrative Big Five Trait Taxonomy. In Handbook of Personality 3rd ed, Guilford Press, pp.114-158",
+     "url": "https://www.semanticscholar.org/paper/Paradigm-shift-to-the-integrative-Big-Five-trait-John-Naumann/14bb7bba3a4e34685a36907bd170042dcc1dc073",
+     "note": "語彙アプローチの歴史（Klages 1932 / Baumgarten 1933 / Allport & Odbert 1936 / Cattell / Tupes & Christal 1961 / Norman 1963）はこの総説から。2026-08-31に通読"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/語彙仮説.md",
+   "sections": {
+    "調べたこと": "**lexical hypothesis（語彙仮説）**。ビッグファイブの土台にある、たった一文の仮定。\n\n> **社会的に重要で目立つ人格の特徴は、そのほとんどが自然言語の中に符号化されているはずだ。**\n\nだから**辞書を引けば、その言語を話す人たちが日々の関わりの中で重要だと見なしてきた属性が、\n広範だが有限のセットとして手に入る**（Allport 1937 / Goldberg 1981）。\n\n⭐ **ここが決定的に面白いところだ。**\nビッグファイブは、誰かが理論から演繹した5つではない。**辞書を数えて、あとから出てきた5つ**だ。\n出発点にあるのは理論ではなく、**「言葉は、人が気にしてきたことの化石である」**という一種の民族誌的な賭けだった。",
+    "実際にたどった道すじ": "1. **Allport & Odbert (1936)** — 英語の大型辞書から、人間どうしを区別しうる語を**約18,000語**抜き出した。\n   Allport 自身がこれを「**意味論的な悪夢**」と呼び、心理学者を「一生ぶん働かせる」と書いた。実際60年以上かかった。\n   彼らは語を4つに仕分けた ── ①**特性**（社交的・攻撃的）②**一時的な状態・気分・活動**（おびえた・喜んでいる）\n   ③**評価的な判断**（優秀・立派）④**身体的特徴・能力**。\n   ⚠ **この仕分けが、その後ずっと効いてくる。** 特性の研究ばかりが進み、②③は長く手つかずだった。\n2. **Cattell (1943)** — 18,000語のうち特性語 4,500 を出発点に、**35変数まで削った**（99%以上の削除）。\n   ⚠ これは理論的判断ではなく、**当時の計算能力の限界**による。この削減のしかたが、のちに批判の的になる。\n   Digman & Takemoto-Chock (1981) は Cattell の元モデルを「事務的な誤りに基づいていて、正しかったはずがない」と結論した。\n3. **Fiske (1949)** — Cattell の22変数から、のちにビッグファイブになる構造の原型を見つける。\n4. ⭐**Tupes & Christal (1961)** — 8標本を再分析し、「**5つの比較的強く反復して現れる因子。それ以上に意味のあるものは何もない**」。\n5. **Norman (1963)** が再現し、因子に名前をつけた ── I 外向性・II 協調性・III 誠実性・IV 情緒安定・**V 文化（Culture）**。\n   ※第5因子はこのとき「文化」で、のちに「知性」「開放性」と揺れ続ける。→ [[ビッグファイブ]] の弱いところ\n6. **Goldberg (1990)** — Cattell の変数選択に引きずられていない、1,710語の網羅リストで検証。\n   抽出法・回転法を変えても、**5因子より多く回転させても**、最初の5つは変わらなかった。",
+    "⚠ 弱点": "語彙仮説は**言語に頼りきっている**ので、辞書に載る語の選び方（**誰が、どの基準で選ぶか**）で結果が動く。\n実際、第5因子がドイツ語で「知性」、オランダ語で「非慣習性」に見えるのは、\n**言語の違いというより、オランダの研究者が採った語の選択基準のせいらしい**と総説は書いている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "道徳的判断",
    "type": "用語",
    "confidence": "推測",
@@ -826,6 +941,26 @@
   }
  ],
  "edges": [
+  {
+   "source": "HEXACO",
+   "target": "ビッグファイブ",
+   "rel": "6因子だと主張"
+  },
+  {
+   "source": "HEXACO",
+   "target": "ダーク・トライアド",
+   "rel": "説明できる"
+  },
+  {
+   "source": "HEXACO",
+   "target": "自己愛",
+   "rel": "五因子では捉えそこねる"
+  },
+  {
+   "source": "HEXACO",
+   "target": "語彙仮説",
+   "rel": "同じ土台"
+  },
   {
    "source": "アイオワ・ギャンブリング課題",
    "target": "腹内側前頭前野",
@@ -925,6 +1060,21 @@
    "source": "パーソナリティのダークサイド",
    "target": "ビッグファイブ",
    "rel": "つなぐ先"
+  },
+  {
+   "source": "ビッグファイブ",
+   "target": "語彙仮説",
+   "rel": "土台"
+  },
+  {
+   "source": "ビッグファイブ",
+   "target": "HEXACO",
+   "rel": "対立"
+  },
+  {
+   "source": "ビッグファイブ",
+   "target": "MBTI",
+   "rel": "部分的に対応"
   },
   {
    "source": "フィニアス・ゲージ",
@@ -1095,6 +1245,16 @@
    "source": "認知的再評価",
    "target": "感情の抑制",
    "rel": "より効果的"
+  },
+  {
+   "source": "語彙仮説",
+   "target": "ビッグファイブ",
+   "rel": "生んだ"
+  },
+  {
+   "source": "語彙仮説",
+   "target": "ゴードン・オールポート",
+   "rel": "出発点"
   },
   {
    "source": "道徳的判断",
