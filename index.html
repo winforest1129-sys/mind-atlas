@@ -66,21 +66,24 @@
   ul.links li{padding:2px 0}
   ul.links a{color:var(--accent);cursor:pointer;text-decoration:none;border-bottom:1px dotted}
   .stubmark{color:var(--sub);font-size:11px;margin-left:4px}
+  /* 下敷きは白地の医学イラストなので、カードごと白で固定する */
   .brain{margin:7px 0 2px;border:1px solid var(--line);border-radius:4px;
-    padding:6px 4px 2px;background:var(--bg)}
+    padding:4px;background:#fff}
   .brain svg{width:100%;height:auto;display:block}
-  .brain .base{fill:var(--code);stroke:var(--line);stroke-width:1.1}
-  .brain .sub2{fill:var(--code);stroke:var(--line);stroke-width:1}
-  .brain .area{fill:transparent;stroke:var(--line);stroke-width:.9}
-  .brain .area.hit{fill:#d2603f;fill-opacity:.92;
-    filter:drop-shadow(0 0 5px rgba(210,96,63,.95)) drop-shadow(0 0 11px rgba(210,96,63,.55))}
-  .brain .deep{stroke:var(--line);stroke-width:.9;stroke-dasharray:3 2;fill:transparent}
-  .brain .deep.hit{fill:#d2603f;fill-opacity:.92;stroke:#d2603f;
-    filter:drop-shadow(0 0 5px rgba(210,96,63,.95))}
-  .brain .front{font-size:9px;fill:var(--sub)}
+  .brain .area{fill:transparent;stroke:none}
+  .brain .area.hit{fill:#e0402a;fill-opacity:.42;stroke:#c2361f;stroke-width:1.1;
+    filter:drop-shadow(0 0 3px rgba(224,64,42,.9)) drop-shadow(0 0 8px rgba(224,64,42,.5))}
+  .brain .deep{fill:transparent;stroke:none}
+  .brain .deep.hit{fill:#e0402a;fill-opacity:.26;stroke:#c2361f;stroke-width:1;
+    stroke-dasharray:3.5 2.5;
+    filter:drop-shadow(0 0 3px rgba(224,64,42,.75))}
+  .brain .front{font-size:9px;fill:#8b857c}
+  .brain .noimg{font-size:11px;fill:#8b857c}
   .brainnames{font-size:11.5px;color:var(--ink);margin:5px 0 0;line-height:1.65}
   .brainnames .hit{color:#c2542f;font-weight:600}
-  .brainnote{font-size:10.5px;color:var(--sub);margin-top:2px;line-height:1.55}
+  .brainnote{font-size:10.5px;color:var(--sub);margin-top:3px;line-height:1.55}
+  .brainnote a{color:var(--accent);text-decoration:none;border-bottom:1px dotted}
+  .brcredit{padding-top:3px;border-top:1px solid var(--line)}
   ol.refs{padding-left:1.3em;margin:4px 0 0}
   ol.refs li{margin-bottom:9px}
   ol.refs a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(0,0,0,.12)}
@@ -217,6 +220,13 @@ function closeSheets(){
   ['list','side'].forEach(k => sheet(k).classList.remove('open'));
 }
 
+let BRAIN_BASE = null;   // brain.svg（Lynch の解剖図）の中身
+fetch('brain.svg').then(r => r.ok ? r.text() : null).then(t => {
+  if (!t) return;
+  const m = t.match(/<svg[^>]*>([\s\S]*)<\/svg>/i);
+  if (m) BRAIN_BASE = m[1];
+}).catch(() => { BRAIN_BASE = null; });
+
 let cy, DATA;
 let HAS_FCOSE = false;
 try {
@@ -287,42 +297,44 @@ function brainSVG(ids){
   const E = (id, cx, cy, rx, ry) =>
     '<ellipse class="' + cls(id) + '" cx="' + cx + '" cy="' + cy +
     '" rx="' + rx + '" ry="' + ry + '"/>';
-  const P = (id, d) => '<path class="' + cls(id) + '" d="' + d + '"/>';
+  const G = (id, pts) => '<polygon class="' + cls(id) + '" points="' + pts + '"/>';
 
-  return '<svg viewBox="0 0 400 300" role="img" aria-label="脳の模式図">' +
-    // 大脳の外形（これ自体は光らない土台）
-    '<path class="base" d="M 62,155 C 60,116 82,90 118,76 C 156,61 214,60 258,73 ' +
-      'C 302,86 341,114 347,152 C 352,184 337,206 313,215 C 282,227 240,234 200,236 ' +
-      'C 158,238 118,233 98,220 C 76,205 63,184 62,155 Z"/>' +
-    // 葉のレベル
-    E('pfc', 112, 142, 50, 62) +
-    E('parietal', 268, 104, 44, 32) +
-    E('occipital', 323, 160, 26, 32) +
-    E('temporal', 185, 214, 64, 22) +
-    E('dlpfc', 113, 100, 34, 21) +
-    E('vlpfc', 104, 152, 30, 18) +
-    // 中心溝をはさむ2つ
-    E('motor', 190, 76, 21, 13) +
-    E('somatosensory', 228, 79, 21, 13) +
-    // 脳梁とその周りの帯状回
-    P('corpus_callosum', 'M 142,172 C 148,142 178,127 212,127 C 246,127 272,142 278,168 ' +
-      'L 264,168 C 258,150 240,139 212,139 C 184,139 158,150 152,172 Z') +
-    P('acc', 'M 130,174 C 134,138 166,116 206,114 L 208,126 C 174,128 146,146 142,174 Z') +
-    P('pcc', 'M 246,116 C 274,124 290,144 290,170 L 278,170 C 278,150 264,134 242,127 Z') +
-    // 前頭の下面
-    E('vmpfc', 92, 184, 27, 17) +
-    E('ofc', 103, 207, 32, 11) +
+  // 座標は brain.svg（Lynch の解剖図）の viewBox 0 0 295.248 326.109 に合わせてある。
+  // 下敷きの図に重ねて4回引き直し、目視で位置を合わせた。左が前。
+  return '<svg viewBox="0 0 295.248 326.109" role="img" aria-label="脳の正中矢状断">' +
+    (BRAIN_BASE
+      ? '<g class="baseimg">' + BRAIN_BASE + '</g>'
+      : '<text class="noimg" x="12" y="24">brain.svg が読めなかった</text>') +
+    // 前頭葉のなかの区分
+    E('pfc', 56, 95, 40, 52) +
+    E('dlpfc', 55, 55, 37, 25) +
+    E('vlpfc', 52, 112, 34, 20) +
+    E('vmpfc', 76, 122, 15, 14) +
+    E('ofc', 78, 140, 22, 7) +
+    // 中心溝をはさむ2つ（内側面では傍中心小葉のあたり）
+    E('motor', 120, 17, 12, 11) +
+    E('somatosensory', 145, 17, 12, 11) +
+    // 後方の葉
+    E('parietal', 192, 40, 45, 30) +
+    E('occipital', 263, 112, 29, 35) +
+    E('temporal', 110, 134, 18, 10) +
+    // 脳梁と、その外側を囲む帯状回
+    G('corpus_callosum',
+      '88,123 86,100 93,80 110,63 140,58 175,58 200,66 214,90 217,115 210,126 ' +
+      '202,120 203,100 196,80 180,70 150,68 120,72 105,84 100,100 102,120') +
+    G('acc', '76,128 72,98 80,70 100,48 135,36 155,34 154,45 132,47 105,58 92,76 85,98 88,124') +
+    G('pcc', '190,70 210,82 222,100 224,118 220,130 211,127 214,114 212,98 203,86 186,78') +
     // 深部
-    E('insula', 160, 176, 21, 15) +
-    E('thalamus', 214, 170, 26, 17) +
-    E('hypothalamus', 199, 193, 14, 9) +
-    E('amygdala', 153, 207, 12, 9) +
-    E('hippocampus', 182, 214, 21, 8) +
+    E('insula', 106, 124, 13, 10) +
+    E('thalamus', 157, 110, 28, 18) +
+    E('hypothalamus', 133, 136, 10, 7) +
+    E('amygdala', 106, 137, 8, 6) +
+    E('hippocampus', 120, 140, 10, 5) +
     // 脳幹と小脳
-    P('brainstem', 'M 202,185 L 226,185 L 234,262 L 212,268 L 197,238 Z') +
-    E('cerebellum', 298, 234, 45, 32) +
-    '<text class="front" x="10" y="158">前</text>' +
-    '<text class="front" x="374" y="158">後</text>' +
+    G('brainstem', '130,130 182,128 184,155 178,200 172,250 168,324 148,324 150,270 147,195 138,160') +
+    E('cerebellum', 228, 171, 43, 42) +
+    '<text class="front" x="4" y="150">前</text>' +
+    '<text class="front" x="278" y="150">後</text>' +
     '</svg>';
 }
 
@@ -520,9 +532,15 @@ function show(n){
     h += '<h3>脳のどこか</h3><div class="brain">' + brainSVG(n.brain) + '</div>';
     h += '<p class="brainnames">' + n.brain.map(b =>
       '<span class="hit">' + esc(BRAIN_AREAS[b] || b) + '</span>').join(' ／ ') + '</p>';
-    h += '<p class="brainnote">正中矢状断（頭をまんなかで切った断面）の模式図。左が前。' +
-         '破線は、この断面には現れない（外側や深部にある）ので位置だけを示したもの。' +
-         '脳溝の形までは正確ではない。</p>';
+    h += '<p class="brainnote">正中矢状断（頭をまんなかで切った断面）。左が前。' +
+         '色を重ねた場所が、その用語の関わる領域。<b>境界はおおよそ</b>で、' +
+         '研究によって定義が違う。破線は、この断面には現れない' +
+         '（外側や深部にある）ので位置だけを示したもの。</p>' +
+         '<p class="brainnote brcredit">図：<a href="https://commons.wikimedia.org/wiki/' +
+         'File:Brain_human_sagittal_section.svg" target="_blank" rel="noopener noreferrer">' +
+         'Patrick J. Lynch, medical illustrator</a>（<a href="https://creativecommons.org/' +
+         'licenses/by/2.5/" target="_blank" rel="noopener noreferrer">CC BY 2.5</a>）を改変。' +
+         '色を重ねた部分は本サイトによる。</p>';
   }
 
   const out = DATA.edges.filter(e => e.source === n.id);

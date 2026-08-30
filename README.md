@@ -107,8 +107,42 @@ PowerShell 5.1 が引数を割ってしまい `pathspec did not match` で落ち
 | `index.html` | 地図の本体。Cytoscape.js 3.34.2 を CDN から読む |
 | `data.json` | `nodes/` から作られる。HTMLが読む |
 | `nodes/*.md` | ⭐書く場所。1用語1ファイル |
+| `brain.svg` | 脳の正中矢状断の解剖図。⭐**他人の著作物**（下のライセンスを見ること） |
 | `tools/build_map.py` | `nodes/` → `data.json`。PyYAML不要（frontmatterは自前パース） |
 | `.nojekyll` | Jekyllを止める。植物図鑑でビルドが10分タイムアウトして落ちた対策 |
 
 植物図鑑（`plant-guide`）とは違って、**道具もリポジトリの中に入れてある**。
 図鑑では `tools/` がリポジトリの外にあって、スクリプトの修正が履歴に残らないのが引っかかっていたため。
+
+---
+
+## ライセンスと出どころ
+
+### `brain.svg`（脳の解剖図）
+
+**この1ファイルだけは、他人の著作物である。**
+
+- 原図：**Patrick J. Lynch, medical illustrator**
+- 出どころ： https://commons.wikimedia.org/wiki/File:Brain_human_sagittal_section.svg
+- ライセンス：**Creative Commons Attribution 2.5 Generic（CC BY 2.5）**
+  https://creativecommons.org/licenses/by/2.5/
+- 改変：mind-atlas で対話的な図の下敷きとして使っている。
+  機能領域（vmPFC・dlPFC・vlPFC・ACC など）を上に重ねたのは本プロジェクトで、**原図には無い**。
+
+CC BY 2.5 は **帰属表示と、改変した旨の明示**を求める。
+サイト上では、図が出るたびにその下にクレジットを表示している。この表示を消してはいけない。
+
+### 機能領域の位置について
+
+⚠ **境界はおおよそである。**
+解剖図に描いてあるのは構造（脳梁・視床・脳幹・小脳・脳回）であって、機能領域ではない。
+機能領域の境界は研究によって定義が違う。
+座標は下敷きの図に重ねて4回引き直し、目視で合わせたもので、それ以上の精度は無い。
+
+破線で描かれる領域（扁桃体・海馬・島皮質・背外側前頭前野・腹外側前頭前野・側頭葉）は、
+**この断面には現れない**（外側や深部にある）ため、位置だけを示している。
+
+### それ以外
+
+`nodes/` の文章、`index.html`、`tools/` は本プロジェクトのもの。
+各ノードの内容の出どころは、ノードごとの `refs`（右パネルの「引用元」）に書いてある。
