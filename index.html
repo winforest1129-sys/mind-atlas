@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>mind-atlas ── こころの地図</title>
+<style>
+  :root{
+    --bg:#f7f6f3; --panel:#fffdfa; --line:#ddd8ce; --ink:#2f2b26; --sub:#6f675c;
+    --accent:#5a6b8c; --code:#efece5;
+  }
+  @media (prefers-color-scheme:dark){
+    :root{ --bg:#1b1a18; --panel:#242220; --line:#3d3a35; --ink:#e6e2da;
+           --sub:#9a938a; --accent:#8fa4c4; --code:#2e2b27; }
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;background:var(--bg);color:var(--ink);
+    font-family:"Hiragino Kaku Gothic ProN","Yu Gothic UI","Meiryo",system-ui,sans-serif}
+  #wrap{display:flex;height:100%}
+  #main{flex:1;display:flex;flex-direction:column;min-width:0}
+  header{padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);
+    display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.04em}
+  h1 small{font-weight:400;color:var(--sub);font-size:12px;margin-left:8px}
+  #cy{flex:1;min-height:0}
+  input[type=search],select{padding:5px 9px;border:1px solid var(--line);border-radius:3px;
+    background:var(--bg);color:var(--ink);font-size:13px}
+  input[type=search]{width:170px}
+  .filters{display:flex;gap:9px;flex-wrap:wrap;font-size:12px;color:var(--sub)}
+  .filters label{display:flex;align-items:center;gap:3px;cursor:pointer;user-select:none}
+  .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+  #side{width:330px;border-left:1px solid var(--line);background:var(--panel);
+    overflow-y:auto;padding:16px;font-size:13px;line-height:1.75}
+  #side h2{font-size:17px;margin:0 0 3px}
+  #side .meta{color:var(--sub);font-size:11.5px;margin-bottom:14px;
+    padding-bottom:10px;border-bottom:1px solid var(--line)}
+  #side h3{font-size:12px;color:var(--sub);margin:16px 0 5px;font-weight:600;letter-spacing:.06em}
+  #side .empty{color:var(--sub);line-height:1.9}
+  code{background:var(--code);padding:1px 4px;border-radius:2px;font-size:12px}
+  .badge{display:inline-block;padding:1px 7px;border-radius:2px;font-size:11px;color:#fff;margin-right:5px}
+  .conf{border:1px solid var(--line);padding:1px 6px;border-radius:2px;font-size:11px;color:var(--sub)}
+  .rel{color:var(--sub);font-size:11px}
+  ul.links{list-style:none;padding:0;margin:4px 0}
+  ul.links li{padding:2px 0}
+  ul.links a{color:var(--accent);cursor:pointer;text-decoration:none;border-bottom:1px dotted}
+  .stubmark{color:var(--sub);font-size:11px;margin-left:4px}
+  @media (max-width:760px){
+    #wrap{flex-direction:column}
+    #side{width:auto;max-height:44%;border-left:0;border-top:1px solid var(--line)}
+  }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <div id="main">
+    <header>
+      <h1>mind-atlas<small>こころの地図</small></h1>
+      <input type="search" id="q" placeholder="用語をさがす">
+      <select id="layout">
+        <option value="cose">ネットワーク</option>
+        <option value="concentric">放射状</option>
+        <option value="breadthfirst">木</option>
+        <option value="circle">円</option>
+      </select>
+      <div class="filters" id="filters"></div>
+    </header>
+    <div id="cy"></div>
+  </div>
+  <aside id="side">
+    <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
+      形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験。<br><br>
+      <b>破線の灰色</b>は「まだ書いていない用語」。線でつながっているのに中身が無いもの＝
+      <b>次に調べる場所</b>が地図の上に見えている状態。<br><br>
+      <b>赤い線</b>は「対立」。どこで論争が起きているかが、地図を見るだけで分かる。</p>
+  </aside>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.34.2/cytoscape.min.js"></script>
+<script>
+const TYPE_SHAPE = {
+  '用語':'ellipse', '人物':'hexagon', '理論':'diamond',
+  '実験':'triangle', '書物':'round-rectangle'
+};
+const TYPE_COLOR = {
+  '用語':'#7a6da8','人物':'#4f8a6b','理論':'#c07a3e','実験':'#3f8b96','書物':'#3d5a80'
+};
+const DARK = window.matchMedia('(prefers-color-scheme:dark)').matches;
+const INK  = DARK ? '#e6e2da' : '#2f2b26';
+const SUB  = DARK ? '#9a938a' : '#8b857c';
+const BG   = DARK ? '#1b1a18' : '#f7f6f3';
+const EDGE = DARK ? '#4a463f' : '#c9c3b8';
+const RED  = '#b4483f';
+
+let cy, DATA;
+
+fetch('data.json?' + Date.now()).then(r => r.json()).then(d => { DATA = d; boot(d); })
+  .catch(e => { document.getElementById('cy').innerHTML =
+    '<p style="padding:20px">data.json が読めなかった: ' + e + '</p>'; });
+
+function boot(data){
+  const elements = [];
+  data.nodes.forEach(n => elements.push({ data:{
+    id:n.id, label:n.id, type:n.type, stub:n.stub?1:0, node:n } }));
+  data.edges.forEach((e,i) => elements.push({ data:{
+    id:'e'+i, source:e.source, target:e.target, rel:e.rel,
+    conflict:(e.rel.indexOf('対立')>=0 || e.rel.indexOf('批判')>=0)?1:0 } }));
+
+  cy = cytoscape({
+    container: document.getElementById('cy'),
+    elements: elements,
+    wheelSensitivity: 0.25,
+    style: [
+      { selector:'node', style:{
+          'label':'data(label)', 'font-size':11, 'color':INK,
+          'text-valign':'bottom', 'text-margin-y':4, 'text-wrap':'wrap',
+          'text-max-width':110, 'width':26, 'height':26, 'border-width':0,
+          'background-color': e => TYPE_COLOR[e.data('type')] || '#7a6da8',
+          'shape': e => TYPE_SHAPE[e.data('type')] || 'ellipse' } },
+      { selector:'node[stub = 1]', style:{
+          'background-color':SUB, 'background-opacity':0.25, 'border-width':1.5,
+          'border-style':'dashed', 'border-color':SUB, 'color':SUB } },
+      { selector:'node:selected', style:{
+          'border-width':3, 'border-color':RED, 'border-style':'solid' } },
+      { selector:'edge', style:{
+          'width':1.3, 'line-color':EDGE, 'curve-style':'bezier',
+          'target-arrow-shape':'triangle', 'target-arrow-color':EDGE,
+          'arrow-scale':0.7, 'label':'data(rel)', 'font-size':9, 'color':SUB,
+          'text-rotation':'autorotate', 'text-background-color':BG,
+          'text-background-opacity':0.85, 'text-background-padding':2 } },
+      { selector:'edge[conflict = 1]', style:{
+          'width':2.2, 'line-color':RED, 'target-arrow-color':RED, 'color':RED } },
+      { selector:'.dim', style:{ 'opacity':0.12 } }
+    ],
+    layout: layoutOpts('cose')
+  });
+
+  cy.on('tap','node', ev => show(ev.target.data('node')));
+  cy.on('tap', ev => { if (ev.target === cy) clearDim(); });
+
+  buildFilters(data);
+  document.getElementById('layout').onchange = e => cy.layout(layoutOpts(e.target.value)).run();
+  document.getElementById('q').oninput = e => search(e.target.value.trim());
+  document.querySelector('h1 small').textContent =
+    'こころの地図　' + data.nodes.filter(n=>!n.stub).length + '語＋これから' +
+    data.nodes.filter(n=>n.stub).length + '　（' + data.generated + '）';
+}
+
+function layoutOpts(name){
+  const base = { name:name, animate:true, animationDuration:420, padding:40 };
+  if (name === 'cose')
+    return Object.assign(base, { idealEdgeLength:110, nodeRepulsion:9000,
+      nodeOverlap:18, gravity:0.25, numIter:1200, randomize:false });
+  if (name === 'concentric')
+    return Object.assign(base, { minNodeSpacing:38,
+      concentric: n => n.degree(), levelWidth: () => 1 });
+  if (name === 'breadthfirst')
+    return Object.assign(base, { spacingFactor:1.25, circle:false });
+  return base;
+}
+
+function buildFilters(data){
+  const box = document.getElementById('filters');
+  [...new Set(data.nodes.map(n => n.type))].sort().forEach(t => {
+    const lab = document.createElement('label');
+    lab.innerHTML = '<input type="checkbox" id="f_' + t + '" checked>' +
+      '<span class="dot" style="background:' + (TYPE_COLOR[t]||'#888') + '"></span>' + t;
+    box.appendChild(lab);
+    lab.querySelector('input').onchange = applyFilters;
+  });
+  const lab = document.createElement('label');
+  lab.innerHTML = '<input type="checkbox" id="f_stub" checked>' +
+    '<span class="dot" style="background:' + SUB + '"></span>これから調べる';
+  box.appendChild(lab);
+  lab.querySelector('input').onchange = applyFilters;
+}
+
+function applyFilters(){
+  const stubOn = document.getElementById('f_stub').checked;
+  cy.nodes().forEach(n => {
+    const box = document.getElementById('f_' + n.data('type'));
+    const vis = (!box || box.checked) && (stubOn || !n.data('stub'));
+    n.style('display', vis ? 'element' : 'none');
+  });
+}
+
+function search(q){
+  clearDim();
+  if (!q) return;
+  const hit = cy.nodes().filter(n => n.data('label').indexOf(q) >= 0);
+  if (!hit.length) return;
+  cy.elements().addClass('dim');
+  hit.removeClass('dim');
+  hit.neighborhood().removeClass('dim');
+  hit.connectedEdges().removeClass('dim');
+  cy.animate({ fit:{ eles:hit.union(hit.neighborhood()), padding:70 }, duration:380 });
+  if (hit.length === 1) show(hit[0].data('node'));
+}
+function clearDim(){ if (cy) cy.elements().removeClass('dim'); }
+
+function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+function md(s){
+  return esc(s)
+    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+    .replace(/`(.+?)`/g, '<code>$1</code>')
+    .replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+}
+
+function show(n){
+  const side = document.getElementById('side');
+  const color = TYPE_COLOR[n.type] || '#7a6da8';
+  let h = '<h2>' + esc(n.id) +
+    (n.stub ? '<span class="stubmark">これから調べる</span>' : '') + '</h2>';
+  h += '<div class="meta"><span class="badge" style="background:' + color + '">' +
+       esc(n.type) + '</span><span class="conf">' + esc(n.confidence) + '</span>';
+  if (n.sources.length) h += '<br>出典: ' + n.sources.map(esc).join(' / ');
+  if (n.file) h += '<br><span style="opacity:.7">' + esc(n.file) + '</span>';
+  h += '</div>';
+
+  if (n.stub){
+    h += '<p class="empty">この用語は、まだ中身を書いていない。<br>' +
+         '他のノードから線が引かれているので、地図には出ている。<br><br>' +
+         '<code>nodes/' + esc(n.id) + '.md</code> を作れば、ここに中身が出る。</p>';
+  } else {
+    const keys = Object.keys(n.sections);
+    if (!keys.length) h += '<p class="empty">本文がまだ空。</p>';
+    keys.forEach(k => { h += '<h3>' + esc(k) + '</h3><div>' + md(n.sections[k]) + '</div>'; });
+  }
+
+  const out = DATA.edges.filter(e => e.source === n.id);
+  const inn = DATA.edges.filter(e => e.target === n.id);
+  if (out.length || inn.length){
+    h += '<h3>つながり</h3><ul class="links">';
+    out.forEach(e => h += '<li><a data-go="' + esc(e.target) + '">' + esc(e.target) +
+      '</a> <span class="rel">← ' + esc(e.rel) + '</span></li>');
+    inn.forEach(e => h += '<li><a data-go="' + esc(e.source) + '">' + esc(e.source) +
+      '</a> <span class="rel">→ ' + esc(e.rel) + '（こちらへ）</span></li>');
+    h += '</ul>';
+  }
+  side.innerHTML = h;
+  side.scrollTop = 0;
+  side.querySelectorAll('a[data-go]').forEach(a => a.onclick = () => {
+    const t = cy.getElementById(a.dataset.go);
+    if (t.length){
+      cy.animate({ fit:{ eles:t.closedNeighborhood(), padding:80 }, duration:380 });
+      show(t.data('node'));
+    }
+  });
+}
+</script>
+</body>
+</html>
