@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-30 22:39",
+ "generated": "2026-08-30 23:14",
  "nodes": [
   {
    "id": "アイオワ・ギャンブリング課題",
@@ -203,17 +203,73 @@
    "stub": false
   },
   {
+   "id": "感情の抑制",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "02_恩蔵"
+   ],
+   "refs": [
+    {
+     "title": "Richards JM, Gross JJ (2000) Emotion regulation and memory - the cognitive costs of keeping one's cool. J Pers Soc Psychol 79(3):410-424",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/10981843/",
+     "note": "抑制すると出来事の記憶が悪くなる。とくに社会的に重要な情報の記憶が落ちる。2026-08-30に確認"
+    },
+    {
+     "title": "Cognitive reappraisal and expressive suppression strategies role in the emotion regulation - an overview on their modulatory effects and neural correlates（Frontiers in Systems Neuroscience, 2014）",
+     "url": "https://www.frontiersin.org/journals/systems-neuroscience/articles/10.3389/fnsys.2014.00175/full",
+     "note": "再評価と抑制の両方について、効果と神経相関をまとめた総説"
+    },
+    {
+     "title": "Response Modulation - Expressive Suppression（Psychology of Human Emotion, オープンアクセス教科書）",
+     "url": "https://psu.pb.unizin.org/psych425/chapter/response-modulation-expressive-suppression/",
+     "note": "Grossのプロセスモデルの中での位置づけ"
+    }
+   ],
+   "brain": [
+    "dlpfc",
+    "vlpfc",
+    "acc",
+    "amygdala"
+   ],
+   "file": "nodes/感情の抑制.md",
+   "sections": {
+    "調べたこと": "学術的な名前は **表出抑制（expressive suppression）**。\n湧いてしまった感情の**外への出かた**を抑えて、その場にふさわしい振る舞いを保つこと。\n\n**Gross のプロセスモデル**（1998, 2002）では、感情調整を5つに分ける\n── 状況選択・状況修正・注意の配置・認知的変化・**反応調整**。\n表出抑制はこの最後、**反応調整**に属する。\n\n⭐ **決定的なのは「いつ」介入するか。**\n表出抑制は **反応焦点型（response-focused）**。\n**感情がもう立ち上がったあと**に、その表れかたを抑えにいく。\nだから感情そのものは残っている。蓋をしているだけ、という言い方に近い。",
+    "⚠ 測定されているコスト": "ここが感情労働の話につながる。抑制は**ただでは済まない**ことが分かっている。\n\n- **記憶が悪くなる**。Richards & Gross (2000) は、抑制した人が出来事の細部を思い出しにくくなることを示した。\n  とくに**社会的に重要な情報**の記憶が落ちる。\n- **心血管系の活動が上がる**。身体的な負荷がむしろ増える。\n- ポジティブな感情や生活満足度の低下、抑うつ・社会不安との関連が報告されている。\n- **対人コミュニケーションが損なわれる。**\n\n仕組みの説明はこうだ。**抑制は認知的に重い作業で、ワーキングメモリを食う。**\n抑え続けているあいだ、目の前の会話を処理して適切に返す余裕が減る。\n\nつまり **「表に出さないでおく」ことは、その場をしのぐが、静かに消耗させる。**",
+    "脳のはたらき": "外側の前頭前野を中心とした認知的な制御が働く点は、認知的再評価と共通する。\nただし ⚠ **扁桃体の活動が下がるかどうかは、再評価ほど一貫していない。**\n図で扁桃体を光らせているのは「関わる場所」という意味で、\n「必ず下がる」という意味ではない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "感情労働",
    "type": "用語",
    "confidence": "推測",
    "sources": [
     "02_恩蔵"
    ],
-   "refs": [],
-   "brain": [],
+   "refs": [
+    {
+     "title": "Grandey AA (2000) Emotion regulation in the workplace - a new way to conceptualize emotional labor",
+     "url": "https://www.researchgate.net/publication/12655757_Emotion_regulation_in_the_workplace_A_new_way_to_conceptualize_emotional_labor",
+     "note": "⭐表層演技＝反応焦点型（抑制）／深層演技＝先行焦点型（再評価・注意配置）という対応を定式化した論文。Journal of Occupational Health Psychology 掲載と記憶しているが巻号は未確認。2026-08-30に確認"
+    },
+    {
+     "title": "Grandey AA, Sayre GM (2019) Emotional Labor - Regulating Emotions for a Wage. Current Directions in Psychological Science",
+     "url": "https://journals.sagepub.com/doi/abs/10.1177/0963721418812771",
+     "note": "感情労働研究の現在地をまとめた総説"
+    }
+   ],
+   "brain": [
+    "dlpfc",
+    "vlpfc",
+    "acc",
+    "amygdala"
+   ],
    "file": "nodes/感情労働.md",
    "sections": {
     "調べたこと": "emotional labor。**もともと社会学の概念**で、A・R・ホックシールド *The Managed Heart*（1983）が原典。\n「職務として、自分の感情を抑え、適切な感情を作り出して見せる労働」を指す。\n\n原典の文脈では、**負担・搾取として語られる**言葉だった。客室乗務員の研究が出発点。\n\n本書はここに脳科学を持ち込み、**負担ではなく能力として捉えなおす**方向へ進むように見える。\n⚠ この見立ては帯と第1章から立てたもの。読み進めて確かめる必要がある。",
+    "⭐ 感情調整の2つの型との対応（2026-08-30に確認）": "ホックシールドは、感情労働のやり方を2つに分けた。\n\n- **表層演技（surface acting）** … 感じていない感情を装う。内面はそのまま\n- **深層演技（deep acting）** … 実際にその感情を感じようとして、内面のほうを変えにいく\n\n本書の著者は、これが **表層演技＝感情の抑制／深層演技＝認知的再評価** に対応すると述べている（燻太さん談）。\n\n**この対応は著者の思いつきではない。** Grandey (2000) が定式化した、\n感情労働研究では確立した見方だった。深層演技を**先行焦点型**（再評価・注意の配置）、\n表層演技を**反応焦点型**（抑制）として、Gross の感情調整理論に接続したのが Grandey である。\n\n⭐ **ここが効いてくる。** 表出抑制には記憶の低下・心血管系の負荷といった\n測定されたコストがある（Richards & Gross, 2000）。\nつまり **「表層演技が消耗を生む」ことに、認知・生理のレベルの裏づけがある**ということになる。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -350,6 +406,46 @@
    "stub": true
   },
   {
+   "id": "認知的再評価",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "02_恩蔵"
+   ],
+   "refs": [
+    {
+     "title": "Ochsner KN, Gross JJ (2008) Cognitive Emotion Regulation - Insights from Social Cognitive and Affective Neuroscience. Current Directions in Psychological Science 17(2):153-158",
+     "url": "https://journals.sagepub.com/doi/abs/10.1111/j.1467-8721.2008.00566.x",
+     "note": "前頭前野・帯状回の認知的制御と、扁桃体などの感情的評価との相互作用として再評価を説明する枠組み。2026-08-30に確認"
+    },
+    {
+     "title": "The Neural Bases of Distraction and Reappraisal（PMC）",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4136451/",
+     "note": "再評価と注意そらしはどちらも外側前頭前野・前部帯状回・頭頂領域を使い、扁桃体の活動と主観的な負の感情をともに下げる"
+    },
+    {
+     "title": "Process Model of Emotion Regulation（Psychology of Human Emotion, オープンアクセス教科書）",
+     "url": "https://psu.pb.unizin.org/psych425/chapter/process-model-of-emotion-regulation/",
+     "note": "Grossの5つの戦略と、先行焦点型／反応焦点型の区別"
+    }
+   ],
+   "brain": [
+    "dlpfc",
+    "vlpfc",
+    "acc",
+    "parietal",
+    "amygdala"
+   ],
+   "file": "nodes/認知的再評価.md",
+   "sections": {
+    "調べたこと": "**cognitive reappraisal**。出来事の**意味づけそのものを変える**ことで、湧いてくる感情を作り変える技術。\nGross のプロセスモデルでは **認知的変化** に属する。\n\n⭐ **決定的なのは「いつ」介入するか。**\n再評価は **先行焦点型（antecedent-focused）**。\n**感情が本格的に立ち上がる前**に、出来事の解釈のほうへ手を入れる。\nだから、抑え込むのではなく **そもそも別の感情が生まれる**。ここが表出抑制と根本的に違う。\n\n例えば、きつい言葉を投げられたとき。\n「馬鹿にされた」と受け取れば怒りが湧く。「この人はいま余裕がないのだ」と読み替えれば、湧くものが変わる。\n**蓋をするのではなく、蛇口の手前を変える。**",
+    "どちらが効くか": "**実験でも個人差研究でも、一貫して再評価のほうが効果的**という結果が出ている。\n表出抑制に伴う記憶の低下や心血管系の負荷が、再評価では見られない。\n\n⚠ ただし「常に再評価が正しい」わけではない。\n状況によって使い分けの妥当性が変わる、という議論もある。そこまでは今回調べていない。",
+    "脳のはたらき": "**外側の前頭前野**（認知的な制御）と **前部帯状回**（うまく調整できているかの見張り）、\nそれに**頭頂領域**（注意の切り替え）が働き、その結果として **扁桃体の活動が下がる**。\n再評価がうまくいっているときは、扁桃体が下がると同時に中前頭回の活動が上がる、と報告されている。\n\n負の感情を下げる向きの再評価では、右の外側および眼窩前頭前野が動くという報告もある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "道徳的判断",
    "type": "用語",
    "confidence": "推測",
@@ -439,9 +535,24 @@
    "rel": "材料"
   },
   {
+   "source": "感情の抑制",
+   "target": "認知的再評価",
+   "rel": "対になる"
+  },
+  {
    "source": "感情労働",
    "target": "ホックシールド",
    "rel": "提唱"
+  },
+  {
+   "source": "感情労働",
+   "target": "感情の抑制",
+   "rel": "表層演技"
+  },
+  {
+   "source": "感情労働",
+   "target": "認知的再評価",
+   "rel": "深層演技"
   },
   {
    "source": "感情労働の未来",
@@ -522,6 +633,11 @@
    "source": "腹内側前頭前野",
    "target": "ソマティック・マーカー仮説",
    "rel": "座"
+  },
+  {
+   "source": "認知的再評価",
+   "target": "感情の抑制",
+   "rel": "より効果的"
   },
   {
    "source": "道徳的判断",

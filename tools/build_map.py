@@ -39,7 +39,7 @@ VALID_CONF = ['確認済', '推測', '未調査']
 
 # 脳の模式図に載せられる領域。index.html の BRAIN_AREAS と必ず揃えること
 BRAIN_AREAS = [
-    'pfc', 'vmpfc', 'ofc', 'dlpfc', 'motor', 'somatosensory',
+    'pfc', 'vmpfc', 'ofc', 'dlpfc', 'vlpfc', 'motor', 'somatosensory',
     'parietal', 'occipital', 'temporal', 'insula',
     'acc', 'pcc', 'corpus_callosum',
     'amygdala', 'hippocampus', 'thalamus', 'hypothalamus',

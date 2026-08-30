@@ -196,6 +196,7 @@ const RED  = '#b4483f';
 // build_map.py の BRAIN_AREAS と必ず揃えること
 const BRAIN_AREAS = {
   pfc:'前頭前野', vmpfc:'腹内側前頭前野', ofc:'眼窩前頭皮質', dlpfc:'背外側前頭前野',
+  vlpfc:'腹外側前頭前野',
   motor:'一次運動野', somatosensory:'体性感覚野',
   parietal:'頭頂葉', occipital:'後頭葉', temporal:'側頭葉', insula:'島皮質',
   acc:'前部帯状回', pcc:'後部帯状回', corpus_callosum:'脳梁',
@@ -204,7 +205,7 @@ const BRAIN_AREAS = {
 };
 // 正中矢状断（左を向いた頭を、まんなかで切った断面）では見えず、
 // 外側や深部にあるので位置だけを破線で示すもの
-const DEEP = ['amygdala','hippocampus','insula','dlpfc','temporal'];
+const DEEP = ['amygdala','hippocampus','insula','dlpfc','vlpfc','temporal'];
 
 // スマホでは、左右のパネルを「下からせり上がるシート」として扱う
 const isPhone = () => window.matchMedia('(max-width:760px)').matches;
@@ -299,6 +300,7 @@ function brainSVG(ids){
     E('occipital', 323, 160, 26, 32) +
     E('temporal', 185, 214, 64, 22) +
     E('dlpfc', 113, 100, 34, 21) +
+    E('vlpfc', 104, 152, 30, 18) +
     // 中心溝をはさむ2つ
     E('motor', 190, 76, 21, 13) +
     E('somatosensory', 228, 79, 21, 13) +
