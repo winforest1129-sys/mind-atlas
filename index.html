@@ -190,6 +190,8 @@
     <div id="sidebody">
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
       形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験、八角＝症例。<br><br>
+      <b>ダブルクリック</b>すると、そのノードと<b>直接つながっているものだけ</b>が光る
+      （検索欄に名前を打つのと同じ）。背景をクリックすると戻る。<br><br>
       <b>破線の灰色</b>は「まだ書いていない用語」。線でつながっているのに中身が無いもの＝
       <b>次に調べる場所</b>が地図の上に見えている状態。<br><br>
       <b>赤い線</b>は「対立」。どこで論争が起きているかが、地図を見るだけで分かる。</p>
@@ -301,7 +303,24 @@ function boot(data){
   });
 
   cy.on('tap','node', ev => show(ev.target.data('node')));
-  cy.on('tap', ev => { if (ev.target === cy){ clearDim(); if (isPhone()) closeSheets(); } });
+  // ダブルクリックで、そのノードのつながりを光らせる（検索欄に打つのと同じこと）
+  let lastTap = { id:null, t:0 };
+  cy.on('tap','node', ev => {
+    const id = ev.target.id(), now = Date.now();
+    if (lastTap.id === id && now - lastTap.t < 400){
+      lastTap = { id:null, t:0 };
+      const box = document.getElementById('q');
+      if (box) box.value = ev.target.data('label');   // 検索欄と状態をそろえる
+      spotlight(ev.target);
+    } else {
+      lastTap = { id:id, t:now };
+    }
+  });
+  cy.on('tap', ev => { if (ev.target === cy){
+    clearDim(); hitCount('');
+    const box = document.getElementById('q'); if (box) box.value = '';
+    if (isPhone()) closeSheets();
+  } });
   document.querySelectorAll('[data-close]').forEach(b =>
     b.onclick = () => sheet(b.dataset.close).classList.remove('open'));
 
@@ -536,17 +555,20 @@ function search(q){
   const exact = hit.filter(n => n.data('label').toLowerCase() === k);
   const narrowed = exact.length > 0 && exact.length < hit.length;
   if (exact.length) hit = exact;
+  spotlight(hit, narrowed ? '（完全一致）' : '');
+}
 
+/* 光らせる処理の本体。検索とダブルクリックの両方から呼ぶ。
+   直接つながっているノードとその線だけを残し、あとは薄くする。 */
+function spotlight(hit, note){
   cy.elements().addClass('dim');
   hit.removeClass('dim');
   hit.neighborhood().removeClass('dim');       // 直接つながっているノード
   hit.connectedEdges().removeClass('dim');     // その線
   cy.animate({ fit:{ eles:hit.union(hit.neighborhood()), padding:70 }, duration:380 });
   if (hit.length === 1) show(hit[0].data('node'));
-
   const around = hit.neighborhood('node').length;
-  hitCount(hit.length + '件' + (narrowed ? '（完全一致）' : '') +
-           ' ／ つながり ' + around + '件');
+  hitCount(hit.length + '件' + (note || '') + ' ／ つながり ' + around + '件');
 }
 function hitCount(s){
   const el = document.getElementById('qhit');
