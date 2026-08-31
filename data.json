@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31 19:48",
+ "generated": "2026-08-31 20:00",
  "nodes": [
   {
    "id": "DSM-5代替モデル",
@@ -1999,647 +1999,776 @@
   {
    "source": "DSM-5代替モデル",
    "target": "ビッグファイブ",
-   "rel": "病理的な極"
+   "rel": "病理的な極",
+   "weight": "標準"
   },
   {
    "source": "DSM-5代替モデル",
    "target": "パーソナリティのダークサイド",
-   "rel": "構成の骨格"
+   "rel": "構成の骨格",
+   "weight": "標準"
   },
   {
    "source": "DSM-5代替モデル",
    "target": "柔軟性の欠如",
-   "rel": "取りこぼす"
+   "rel": "取りこぼす",
+   "weight": "標準"
   },
   {
    "source": "HEXACO",
    "target": "ビッグファイブ",
-   "rel": "6因子だと主張"
+   "rel": "6因子だと主張",
+   "weight": "標準"
   },
   {
    "source": "HEXACO",
    "target": "語彙仮説",
-   "rel": "同じ土台"
+   "rel": "同じ土台",
+   "weight": "標準"
   },
   {
    "source": "HEXACO",
    "target": "正直さ-謙虚さ",
-   "rel": "H因子"
+   "rel": "H因子",
+   "weight": "強"
   },
   {
    "source": "HEXACO",
    "target": "HEXACOの情動性",
-   "rel": "E因子"
+   "rel": "E因子",
+   "weight": "強"
   },
   {
    "source": "HEXACO",
    "target": "HEXACOの外向性",
-   "rel": "X因子"
+   "rel": "X因子",
+   "weight": "強"
   },
   {
    "source": "HEXACO",
    "target": "HEXACOの協調性",
-   "rel": "A因子"
+   "rel": "A因子",
+   "weight": "強"
   },
   {
    "source": "HEXACO",
    "target": "HEXACOの誠実性",
-   "rel": "C因子"
+   "rel": "C因子",
+   "weight": "強"
   },
   {
    "source": "HEXACO",
    "target": "HEXACOの開放性",
-   "rel": "O因子"
+   "rel": "O因子",
+   "weight": "強"
   },
   {
    "source": "HEXACOの協調性",
    "target": "協調性",
-   "rel": "回転している"
+   "rel": "回転している",
+   "weight": "標準"
   },
   {
    "source": "HEXACOの協調性",
    "target": "正直さ-謙虚さ",
-   "rel": "同じ互恵的利他行動"
+   "rel": "同じ互恵的利他行動",
+   "weight": "標準"
   },
   {
    "source": "HEXACOの外向性",
    "target": "外向性",
-   "rel": "ほぼ共通"
+   "rel": "ほぼ共通",
+   "weight": "標準"
   },
   {
    "source": "HEXACOの情動性",
    "target": "神経症的傾向",
-   "rel": "回転している"
+   "rel": "回転している",
+   "weight": "標準"
   },
   {
    "source": "HEXACOの誠実性",
    "target": "誠実性",
-   "rel": "ほぼ共通"
+   "rel": "ほぼ共通",
+   "weight": "標準"
   },
   {
    "source": "HEXACOの開放性",
    "target": "開放性",
-   "rel": "ほぼ共通"
+   "rel": "ほぼ共通",
+   "weight": "標準"
   },
   {
    "source": "アイオワ・ギャンブリング課題",
    "target": "腹内側前頭前野",
-   "rel": "損傷部位"
+   "rel": "損傷部位",
+   "weight": "標準"
   },
   {
    "source": "アイオワ・ギャンブリング課題",
    "target": "アントニオ・R・ダマシオ",
-   "rel": "考案"
+   "rel": "考案",
+   "weight": "標準"
   },
   {
    "source": "アントニオ・R・ダマシオ",
    "target": "ソマティック・マーカー仮説",
-   "rel": "提唱"
+   "rel": "提唱",
+   "weight": "標準"
   },
   {
    "source": "アントニオ・R・ダマシオ",
    "target": "情動と感情の区別",
-   "rel": "提唱"
+   "rel": "提唱",
+   "weight": "標準"
   },
   {
    "source": "エド・ヨン",
    "target": "環世界",
-   "rel": "一般に広めた"
+   "rel": "一般に広めた",
+   "weight": "標準"
   },
   {
    "source": "カール・フリストン",
    "target": "自由エネルギー原理",
-   "rel": "提唱"
+   "rel": "提唱",
+   "weight": "標準"
   },
   {
    "source": "ソマティック・マーカー仮説",
    "target": "アイオワ・ギャンブリング課題",
-   "rel": "検証"
+   "rel": "検証",
+   "weight": "標準"
   },
   {
    "source": "ソマティック・マーカー仮説",
    "target": "フィニアス・ゲージ",
-   "rel": "出発点"
+   "rel": "出発点",
+   "weight": "標準"
   },
   {
    "source": "ダーク・トライアド",
    "target": "自己愛",
-   "rel": "構成要素"
+   "rel": "構成要素",
+   "weight": "強"
   },
   {
    "source": "ダーク・トライアド",
    "target": "マキャベリアニズム",
-   "rel": "構成要素"
+   "rel": "構成要素",
+   "weight": "強"
   },
   {
    "source": "ダーク・トライアド",
    "target": "サイコパシー",
-   "rel": "構成要素"
+   "rel": "構成要素",
+   "weight": "強"
   },
   {
    "source": "ダーク・トライアド",
    "target": "日常的サディズム",
-   "rel": "4つ目の候補"
+   "rel": "4つ目の候補",
+   "weight": "標準"
   },
   {
    "source": "ツノゼミ",
    "target": "振動コミュニケーション",
-   "rel": "使う"
+   "rel": "使う",
+   "weight": "標準"
   },
   {
    "source": "デルロイ・ポーロス",
    "target": "ダーク・トライアド",
-   "rel": "提唱"
+   "rel": "提唱",
+   "weight": "標準"
   },
   {
    "source": "デルロイ・ポーロス",
    "target": "日常的サディズム",
-   "rel": "拡張"
+   "rel": "拡張",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "ヴァージル・ジーグラー・ヒル",
-   "rel": "編者"
+   "rel": "編者",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "デヴィッド・K・マーカス",
-   "rel": "編者"
+   "rel": "編者",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "ダーク・トライアド",
-   "rel": "背景"
+   "rel": "背景",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "自己愛",
-   "rel": "第1章"
+   "rel": "第1章",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "マキャベリアニズム",
-   "rel": "第4章"
+   "rel": "第4章",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "日常的サディズム",
-   "rel": "第5章"
+   "rel": "第5章",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "スパイト",
-   "rel": "第6章"
+   "rel": "第6章",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "ビッグファイブ",
-   "rel": "つなぐ先"
+   "rel": "つなぐ先",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "DSM-5代替モデル",
-   "rel": "構成の骨格"
+   "rel": "構成の骨格",
+   "weight": "標準"
   },
   {
    "source": "パーソナリティのダークサイド",
    "target": "柔軟性の欠如",
-   "rel": "第3部"
+   "rel": "第3部",
+   "weight": "標準"
   },
   {
    "source": "ビッグファイブ",
    "target": "語彙仮説",
-   "rel": "土台"
+   "rel": "土台",
+   "weight": "標準"
   },
   {
    "source": "ビッグファイブ",
    "target": "HEXACO",
-   "rel": "対立"
+   "rel": "対立",
+   "weight": "標準"
   },
   {
    "source": "ビッグファイブ",
    "target": "MBTI",
-   "rel": "部分的に対応"
+   "rel": "部分的に対応",
+   "weight": "標準"
   },
   {
    "source": "ビッグファイブ",
    "target": "DSM-5代替モデル",
-   "rel": "病理的な極を切り出した"
+   "rel": "病理的な極を切り出した",
+   "weight": "標準"
   },
   {
    "source": "ビッグファイブ",
    "target": "外向性",
-   "rel": "第I因子"
+   "rel": "第I因子",
+   "weight": "強"
   },
   {
    "source": "ビッグファイブ",
    "target": "協調性",
-   "rel": "第II因子"
+   "rel": "第II因子",
+   "weight": "強"
   },
   {
    "source": "ビッグファイブ",
    "target": "誠実性",
-   "rel": "第III因子"
+   "rel": "第III因子",
+   "weight": "強"
   },
   {
    "source": "ビッグファイブ",
    "target": "神経症的傾向",
-   "rel": "第IV因子"
+   "rel": "第IV因子",
+   "weight": "強"
   },
   {
    "source": "ビッグファイブ",
    "target": "開放性",
-   "rel": "第V因子"
+   "rel": "第V因子",
+   "weight": "強"
   },
   {
    "source": "フィニアス・ゲージ",
    "target": "腹内側前頭前野",
-   "rel": "損傷部位"
+   "rel": "損傷部位",
+   "weight": "標準"
   },
   {
    "source": "フィニアス・ゲージ",
    "target": "道徳的判断",
-   "rel": "証拠"
+   "rel": "証拠",
+   "weight": "標準"
   },
   {
    "source": "フィニアス・ゲージ",
    "target": "アントニオ・R・ダマシオ",
-   "rel": "再検討"
+   "rel": "再検討",
+   "weight": "標準"
   },
   {
    "source": "ボイコットする身体",
    "target": "スザンヌ・オサリバン",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "ボイコットする身体",
    "target": "高橋洋",
-   "rel": "訳者"
+   "rel": "訳者",
+   "weight": "標準"
   },
   {
    "source": "ボイコットする身体",
    "target": "心因性疾患",
-   "rel": "主題"
+   "rel": "主題",
+   "weight": "標準"
   },
   {
    "source": "ボイコットする身体",
    "target": "無意識の脳 自己意識の脳",
-   "rel": "矢印が逆"
+   "rel": "矢印が逆",
+   "weight": "標準"
   },
   {
    "source": "マルコフ・ブランケット",
    "target": "能動的推論",
-   "rel": "王道の入口"
+   "rel": "王道の入口",
+   "weight": "標準"
   },
   {
    "source": "ユクスキュル",
    "target": "環世界",
-   "rel": "提唱した"
+   "rel": "提唱した",
+   "weight": "標準"
   },
   {
    "source": "レックス・コクロフト",
    "target": "ツノゼミ",
-   "rel": "研究対象"
+   "rel": "研究対象",
+   "weight": "標準"
   },
   {
    "source": "レックス・コクロフト",
    "target": "振動コミュニケーション",
-   "rel": "聞こえるようにした"
+   "rel": "聞こえるようにした",
+   "weight": "標準"
   },
   {
    "source": "中核意識",
    "target": "拡張意識",
-   "rel": "発展"
+   "rel": "発展",
+   "weight": "標準"
   },
   {
    "source": "中核意識",
    "target": "環世界",
-   "rel": "つながる"
+   "rel": "つながる",
+   "weight": "標準"
   },
   {
    "source": "乾敏郎",
    "target": "自由エネルギー原理",
-   "rel": "日本語の入門を書いた"
+   "rel": "日本語の入門を書いた",
+   "weight": "標準"
   },
   {
    "source": "人為振動ノイズ",
    "target": "振動コミュニケーション",
-   "rel": "脅かす"
+   "rel": "脅かす",
+   "weight": "標準"
   },
   {
    "source": "人為振動ノイズ",
    "target": "環世界",
-   "rel": "感覚風景の破壊"
+   "rel": "感覚風景の破壊",
+   "weight": "標準"
   },
   {
    "source": "動物には何が見え_聞こえ_感じられるのか",
    "target": "エド・ヨン",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "動物には何が見え_聞こえ_感じられるのか",
    "target": "環世界",
-   "rel": "全体を貫く概念"
+   "rel": "全体を貫く概念",
+   "weight": "標準"
   },
   {
    "source": "動物には何が見え_聞こえ_感じられるのか",
    "target": "ユクスキュル",
-   "rel": "原典"
+   "rel": "原典",
+   "weight": "標準"
   },
   {
    "source": "協調性",
    "target": "HEXACO",
-   "rel": "境目が引き直される"
+   "rel": "境目が引き直される",
+   "weight": "標準"
   },
   {
    "source": "原自己",
    "target": "中核意識",
-   "rel": "土台"
+   "rel": "土台",
+   "weight": "標準"
   },
   {
    "source": "外向性",
    "target": "協調性",
-   "rel": "温かさの帰属で揉める"
+   "rel": "温かさの帰属で揉める",
+   "weight": "標準"
   },
   {
    "source": "心因性疾患",
    "target": "機能性神経症状症",
-   "rel": "現在の呼びかた"
+   "rel": "現在の呼びかた",
+   "weight": "標準"
   },
   {
    "source": "情動と感情の区別",
    "target": "構成主義的情動理論",
-   "rel": "対立"
+   "rel": "対立",
+   "weight": "標準"
   },
   {
    "source": "情動と感情の区別",
    "target": "中核意識",
-   "rel": "材料"
+   "rel": "材料",
+   "weight": "標準"
   },
   {
    "source": "感情の抑制",
    "target": "認知的再評価",
-   "rel": "対になる"
+   "rel": "対になる",
+   "weight": "標準"
   },
   {
    "source": "感情労働",
    "target": "ホックシールド",
-   "rel": "提唱"
+   "rel": "提唱",
+   "weight": "標準"
   },
   {
    "source": "感情労働",
    "target": "感情の抑制",
-   "rel": "表層演技"
+   "rel": "表層演技",
+   "weight": "標準"
   },
   {
    "source": "感情労働",
    "target": "認知的再評価",
-   "rel": "深層演技"
+   "rel": "深層演技",
+   "weight": "標準"
   },
   {
    "source": "感情労働の未来",
    "target": "恩蔵絢子",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "感情労働の未来",
    "target": "感情労働",
-   "rel": "主題"
+   "rel": "主題",
+   "weight": "標準"
   },
   {
    "source": "感情労働の未来",
    "target": "ソマティック・マーカー仮説",
-   "rel": "引用"
+   "rel": "引用",
+   "weight": "標準"
   },
   {
    "source": "感情労働の未来",
    "target": "フィニアス・ゲージ",
-   "rel": "登場"
+   "rel": "登場",
+   "weight": "標準"
   },
   {
    "source": "感情労働の未来",
    "target": "道徳的判断",
-   "rel": "登場"
+   "rel": "登場",
+   "weight": "標準"
   },
   {
    "source": "感情労働の未来",
    "target": "集団的知性",
-   "rel": "行き先"
+   "rel": "行き先",
+   "weight": "標準"
   },
   {
    "source": "拡張意識",
    "target": "自伝的記憶",
-   "rel": "支え"
+   "rel": "支え",
+   "weight": "標準"
   },
   {
    "source": "振動コミュニケーション",
    "target": "環世界",
-   "rel": "実例"
+   "rel": "実例",
+   "weight": "標準"
   },
   {
    "source": "振動コミュニケーション",
    "target": "動物には何が見え_聞こえ_感じられるのか",
-   "rel": "第7章"
+   "rel": "第7章",
+   "weight": "標準"
   },
   {
    "source": "期待自由エネルギー",
    "target": "能動的推論",
-   "rel": "行動を決める"
+   "rel": "行動を決める",
+   "weight": "標準"
   },
   {
    "source": "期待自由エネルギー",
    "target": "変分自由エネルギー",
-   "rel": "対になる量"
+   "rel": "対になる量",
+   "weight": "標準"
   },
   {
    "source": "柔軟性の欠如",
    "target": "DSM-5代替モデル",
-   "rel": "抜けている領域"
+   "rel": "抜けている領域",
+   "weight": "標準"
   },
   {
    "source": "柔軟性の欠如",
    "target": "パーソナリティのダークサイド",
-   "rel": "第3部"
+   "rel": "第3部",
+   "weight": "標準"
   },
   {
    "source": "構成主義的情動理論",
    "target": "リサ・フェルドマン・バレット",
-   "rel": "提唱"
+   "rel": "提唱",
+   "weight": "標準"
   },
   {
    "source": "正直さ-謙虚さ",
    "target": "ダーク・トライアド",
-   "rel": "束ねている核かもしれない"
+   "rel": "束ねている核かもしれない",
+   "weight": "標準"
   },
   {
    "source": "正直さ-謙虚さ",
    "target": "自己愛",
-   "rel": "五因子が取り逃す"
+   "rel": "五因子が取り逃す",
+   "weight": "標準"
   },
   {
    "source": "無意識の脳 自己意識の脳",
    "target": "アントニオ・R・ダマシオ",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "無意識の脳 自己意識の脳",
    "target": "情動と感情の区別",
-   "rel": "登場"
+   "rel": "登場",
+   "weight": "標準"
   },
   {
    "source": "無意識の脳 自己意識の脳",
    "target": "原自己",
-   "rel": "登場"
+   "rel": "登場",
+   "weight": "標準"
   },
   {
    "source": "無意識の脳 自己意識の脳",
    "target": "中核意識",
-   "rel": "登場"
+   "rel": "登場",
+   "weight": "標準"
   },
   {
    "source": "無意識の脳 自己意識の脳",
    "target": "拡張意識",
-   "rel": "登場"
+   "rel": "登場",
+   "weight": "標準"
   },
   {
    "source": "無意識の脳 自己意識の脳",
    "target": "生存する脳",
-   "rel": "前著"
+   "rel": "前著",
+   "weight": "標準"
   },
   {
    "source": "生物から見た世界",
    "target": "ユクスキュル",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "生物から見た世界",
    "target": "環世界",
-   "rel": "原典"
+   "rel": "原典",
+   "weight": "標準"
   },
   {
    "source": "神経症的傾向",
    "target": "MBTI",
-   "rel": "対応する軸が無い"
+   "rel": "対応する軸が無い",
+   "weight": "標準"
   },
   {
    "source": "能動的推論",
    "target": "自由エネルギー原理",
-   "rel": "土台"
+   "rel": "土台",
+   "weight": "標準"
   },
   {
    "source": "能動的推論",
    "target": "構成主義的情動理論",
-   "rel": "動かしている仕組み"
+   "rel": "動かしている仕組み",
+   "weight": "標準"
   },
   {
    "source": "能動的推論",
    "target": "マルコフ・ブランケット",
-   "rel": "境界を定める"
+   "rel": "境界を定める",
+   "weight": "標準"
   },
   {
    "source": "能動的推論",
    "target": "生成モデル",
-   "rel": "中身"
+   "rel": "中身",
+   "weight": "標準"
   },
   {
    "source": "能動的推論",
    "target": "期待自由エネルギー",
-   "rel": "行動を決める量"
+   "rel": "行動を決める量",
+   "weight": "標準"
   },
   {
    "source": "能動的推論",
    "target": "予測処理",
-   "rel": "隣接する枠組み"
+   "rel": "隣接する枠組み",
+   "weight": "標準"
   },
   {
    "source": "能動的推論_心_脳_行動の自由エネルギー原理",
    "target": "カール・フリストン",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "能動的推論_心_脳_行動の自由エネルギー原理",
    "target": "乾敏郎",
-   "rel": "訳者"
+   "rel": "訳者",
+   "weight": "標準"
   },
   {
    "source": "能動的推論_心_脳_行動の自由エネルギー原理",
    "target": "能動的推論",
-   "rel": "主題"
+   "rel": "主題",
+   "weight": "標準"
   },
   {
    "source": "脳の大統一理論",
    "target": "乾敏郎",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "脳の大統一理論",
    "target": "自由エネルギー原理",
-   "rel": "入門その1"
+   "rel": "入門その1",
+   "weight": "標準"
   },
   {
    "source": "腹内側前頭前野",
    "target": "ソマティック・マーカー仮説",
-   "rel": "座"
+   "rel": "座",
+   "weight": "標準"
   },
   {
    "source": "自由エネルギー原理",
    "target": "変分自由エネルギー",
-   "rel": "最小化する量"
+   "rel": "最小化する量",
+   "weight": "標準"
   },
   {
    "source": "自由エネルギー原理入門",
    "target": "乾敏郎",
-   "rel": "著者"
+   "rel": "著者",
+   "weight": "標準"
   },
   {
    "source": "自由エネルギー原理入門",
    "target": "自由エネルギー原理",
-   "rel": "入門その2"
+   "rel": "入門その2",
+   "weight": "標準"
   },
   {
    "source": "認知的再評価",
    "target": "感情の抑制",
-   "rel": "より効果的"
+   "rel": "より効果的",
+   "weight": "標準"
   },
   {
    "source": "語彙仮説",
    "target": "ビッグファイブ",
-   "rel": "生んだ"
+   "rel": "生んだ",
+   "weight": "標準"
   },
   {
    "source": "語彙仮説",
    "target": "ゴードン・オールポート",
-   "rel": "出発点"
+   "rel": "出発点",
+   "weight": "標準"
   },
   {
    "source": "誠実性",
    "target": "柔軟性の欠如",
-   "rel": "高すぎる極"
+   "rel": "高すぎる極",
+   "weight": "標準"
   },
   {
    "source": "道徳的判断",
    "target": "情動と感情の区別",
-   "rel": "源"
+   "rel": "源",
+   "weight": "標準"
   },
   {
    "source": "道徳的判断",
    "target": "ソマティック・マーカー仮説",
-   "rel": "支え"
+   "rel": "支え",
+   "weight": "標準"
   },
   {
    "source": "開放性",
    "target": "語彙仮説",
-   "rel": "一番揺れる"
+   "rel": "一番揺れる",
+   "weight": "標準"
   },
   {
    "source": "高橋洋",
    "target": "リサ・フェルドマン・バレット",
-   "rel": "訳した"
+   "rel": "訳した",
+   "weight": "標準"
   },
   {
    "source": "高橋洋",
    "target": "アントニオ・R・ダマシオ",
-   "rel": "訳した"
+   "rel": "訳した",
+   "weight": "標準"
   }
  ]
 }

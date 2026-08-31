@@ -262,7 +262,7 @@ function boot(data){
   data.nodes.forEach(n => elements.push({ data:{
     id:n.id, label:n.id, type:n.type, stub:n.stub?1:0, node:n } }));
   data.edges.forEach((e,i) => elements.push({ data:{
-    id:'e'+i, source:e.source, target:e.target, rel:e.rel,
+    id:'e'+i, source:e.source, target:e.target, rel:e.rel, w:(e.weight||'標準'),
     conflict:(e.rel.indexOf('対立')>=0 || e.rel.indexOf('批判')>=0)?1:0 } }));
 
   cy = cytoscape({
@@ -290,6 +290,8 @@ function boot(data){
           'arrow-scale':0.7, 'label':'data(rel)', 'font-size':9, 'color':SUB,
           'text-rotation':'autorotate', 'text-background-color':BG,
           'text-background-opacity':0.85, 'text-background-padding':2 } },
+      { selector:'edge[w = "強"]',  style:{ 'width':2.0 } },
+      { selector:'edge[w = "弱"]',  style:{ 'width':0.9, 'line-style':'dashed' } },
       { selector:'edge[conflict = 1]', style:{
           'width':2.2, 'line-color':RED, 'target-arrow-color':RED, 'color':RED } },
       { selector:'.dim', style:{ 'opacity':0.12 } }
@@ -358,6 +360,18 @@ function brainSVG(ids){
     '</svg>';
 }
 
+/* ── 線の強さ → レイアウトのばね ──────────────────────────
+   強いほど「短く・硬い」ばねになり、子が親の近くに寄る。
+   ⚠ len を小さくしすぎると団子になって名前が読めなくなる。
+   重なりの歯止めは nodeSeparation と nodeDimensionsIncludeLabels のほう。
+   調整するときはこの表だけ触ればいい。 */
+const PULL = {
+  '強'  : { len:105, elas:0.80 },
+  '標準': { len:170, elas:0.45 },
+  '弱'  : { len:235, elas:0.25 }
+};
+const pullOf = e => PULL[e.data('w')] || PULL['標準'];
+
 function layoutOpts(name){
   // nodeDimensionsIncludeLabels = ラベルの大きさも「ノードの大きさ」として扱う。
   // これが重なりの根治。丸だけを避けて置くと、下に伸びる文字がぶつかる。
@@ -366,13 +380,18 @@ function layoutOpts(name){
   if (name === 'cose'){
     if (HAS_FCOSE)
       return Object.assign(base, { name:'fcose', quality:'proof', randomize:true,
-        idealEdgeLength:170, nodeRepulsion:14000, nodeSeparation:150,
-        gravity:0.12, gravityRange:3.2, numIter:2500,
+        idealEdgeLength: e => pullOf(e).len,
+        edgeElasticity:  e => pullOf(e).elas,
+        // 引き寄せを強めたぶん、反発と最小間隔も上げて重なりを防ぐ
+        nodeRepulsion:16000, nodeSeparation:170,
+        gravity:0.12, gravityRange:3.2, numIter:2800,
         packComponents:true, tile:true });
     // fcose が読めなかったときの受け皿。組み込み cose を目一杯広げる
-    return Object.assign(base, { idealEdgeLength:190, nodeRepulsion:45000,
-      nodeOverlap:90, gravity:0.15, numIter:2000, componentSpacing:160,
-      randomize:false });
+    return Object.assign(base, {
+      idealEdgeLength: e => pullOf(e).len + 20,
+      edgeElasticity:  e => pullOf(e).elas * 100,
+      nodeRepulsion:48000, nodeOverlap:100, gravity:0.15, numIter:2200,
+      componentSpacing:170, randomize:false });
   }
   if (name === 'concentric')
     return Object.assign(base, { minNodeSpacing:95,

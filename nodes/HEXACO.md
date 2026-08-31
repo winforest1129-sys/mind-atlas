@@ -10,12 +10,12 @@ refs:
 links:
   - {to: ビッグファイブ, rel: 6因子だと主張}
   - {to: 語彙仮説, rel: 同じ土台}
-  - {to: 正直さ-謙虚さ, rel: H因子}
-  - {to: HEXACOの情動性, rel: E因子}
-  - {to: HEXACOの外向性, rel: X因子}
-  - {to: HEXACOの協調性, rel: A因子}
-  - {to: HEXACOの誠実性, rel: C因子}
-  - {to: HEXACOの開放性, rel: O因子}
+  - {to: 正直さ-謙虚さ, rel: H因子, 強さ: 強}
+  - {to: HEXACOの情動性, rel: E因子, 強さ: 強}
+  - {to: HEXACOの外向性, rel: X因子, 強さ: 強}
+  - {to: HEXACOの協調性, rel: A因子, 強さ: 強}
+  - {to: HEXACOの誠実性, rel: C因子, 強さ: 強}
+  - {to: HEXACOの開放性, rel: O因子, 強さ: 強}
 ---
 ## 調べたこと
 **HEXACO**。[[語彙仮説]] に基づく点はビッグファイブとまったく同じで、

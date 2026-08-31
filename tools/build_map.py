@@ -46,8 +46,12 @@ BRAIN_AREAS = [
     'brainstem', 'cerebellum',
 ]
 
+# 強さ は省略可。省略すると 標準。⚠ rel に半角カンマは書けない（2026-08-31時点で1件も無い）
 LINK_RE = re.compile(
-    r'^\s*-\s*\{\s*to\s*:\s*(?P<to>[^,}]+?)\s*,\s*rel\s*:\s*(?P<rel>[^}]+?)\s*\}\s*$')
+    r'^\s*-\s*\{\s*to\s*:\s*(?P<to>[^,}]+?)\s*,\s*rel\s*:\s*(?P<rel>[^,}]+?)\s*'
+    r'(?:,\s*強さ\s*:\s*(?P<w>[^,}]+?)\s*)?\}\s*$')
+
+VALID_WEIGHT = ['強', '標準', '弱']
 REF_RE = re.compile(
     r'^\s*-\s*\{\s*title\s*:\s*(?P<title>.+?)\s*,\s*url\s*:\s*(?P<url>\S+?)\s*'
     r'(?:,\s*note\s*:\s*(?P<note>[^}]*?)\s*)?\}\s*$')
@@ -75,7 +79,9 @@ def parse_front_matter(text):
             continue
         m = LINK_RE.match(line)
         if m:
-            links.append({'to': m.group('to').strip(), 'rel': m.group('rel').strip()})
+            links.append({'to': m.group('to').strip(),
+                          'rel': m.group('rel').strip(),
+                          'weight': (m.group('w') or '標準').strip()})
             continue
         m = REF_RE.match(line)
         if m:
@@ -184,7 +190,13 @@ def main():
             'sections': split_sections(body), 'stub': False,
         }
         for lk in meta['links']:
-            edges.append({'source': nid, 'target': lk['to'], 'rel': lk['rel']})
+            w = lk.get('weight', '標準')
+            if w not in VALID_WEIGHT:
+                warnings.append(fn + ': 強さ が不正 "' + w + '" → 標準 に倒した'
+                                '（使えるのは ' + ' / '.join(VALID_WEIGHT) + '）')
+                w = '標準'
+            edges.append({'source': nid, 'target': lk['to'],
+                          'rel': lk['rel'], 'weight': w})
 
     # まだ書いていない用語を stub として起こす
     for e in edges:
@@ -222,6 +234,11 @@ def main():
     for n in written:
         by_type[n['type']] = by_type.get(n['type'], 0) + 1
     print('  内訳: ' + ' / '.join(k + ' ' + str(v) for k, v in sorted(by_type.items())))
+    strong = [e for e in edges if e.get('weight') == '強']
+    weak = [e for e in edges if e.get('weight') == '弱']
+    if strong or weak:
+        print('  線の強さ: 強 ' + str(len(strong)) + ' 本 ／ 弱 ' + str(len(weak)) + ' 本'
+              '（残り ' + str(len(edges) - len(strong) - len(weak)) + ' 本は標準）')
     print('  引用元つき: ' + str(len(with_refs)) + ' / ' + str(len(written)) +
           '（残り ' + str(len(written) - len(with_refs)) + ' は記憶だけで書かれている）')
     if stubs:
