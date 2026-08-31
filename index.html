@@ -26,6 +26,7 @@
   input[type=search],select{padding:5px 9px;border:1px solid var(--line);border-radius:3px;
     background:var(--bg);color:var(--ink);font-size:13px}
   input[type=search]{width:170px}
+  #qhit{font-size:11px;color:var(--sub);margin-left:6px;white-space:nowrap}
   .filters{display:flex;gap:9px;flex-wrap:wrap;font-size:12px;color:var(--sub)}
   .filters label{display:flex;align-items:center;gap:3px;cursor:pointer;user-select:none}
   .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
@@ -171,7 +172,7 @@
     <header>
       <h1>mind-atlas<small>こころの地図</small></h1>
       <button class="btn" id="toggleList" title="一覧の開け閉め">一覧</button>
-      <input type="search" id="q" placeholder="用語をさがす">
+      <input type="search" id="q" placeholder="用語をさがす"><span id="qhit"></span>
       <select id="layout">
         <option value="cose">ネットワーク</option>
         <option value="concentric">放射状</option>
@@ -524,15 +525,32 @@ function applyFilters(){
 
 function search(q){
   clearDim();
+  hitCount('');
   if (!q) return;
-  const hit = cy.nodes().filter(n => n.data('label').indexOf(q) >= 0);
-  if (!hit.length) return;
+  const k = q.toLowerCase();
+  // ① 大文字小文字は区別しない（HEXACO / MBTI / DSM-5 などを小文字で打っても出る）
+  let hit = cy.nodes().filter(n => n.data('label').toLowerCase().indexOf(k) >= 0);
+  if (!hit.length){ hitCount('見つからない'); return; }
+  // ② 名前がぴたり一致するノードがあれば、そこだけに絞る。
+  //    「協調性」で HEXACOの協調性 まで拾ってしまうのを防ぐ（部分一致は一致が無いときだけ）
+  const exact = hit.filter(n => n.data('label').toLowerCase() === k);
+  const narrowed = exact.length > 0 && exact.length < hit.length;
+  if (exact.length) hit = exact;
+
   cy.elements().addClass('dim');
   hit.removeClass('dim');
-  hit.neighborhood().removeClass('dim');
-  hit.connectedEdges().removeClass('dim');
+  hit.neighborhood().removeClass('dim');       // 直接つながっているノード
+  hit.connectedEdges().removeClass('dim');     // その線
   cy.animate({ fit:{ eles:hit.union(hit.neighborhood()), padding:70 }, duration:380 });
   if (hit.length === 1) show(hit[0].data('node'));
+
+  const around = hit.neighborhood('node').length;
+  hitCount(hit.length + '件' + (narrowed ? '（完全一致）' : '') +
+           ' ／ つながり ' + around + '件');
+}
+function hitCount(s){
+  const el = document.getElementById('qhit');
+  if (el) el.textContent = s;
 }
 function clearDim(){ if (cy) cy.elements().removeClass('dim'); }
 
