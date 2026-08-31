@@ -51,6 +51,15 @@
   .btn{padding:4px 9px;border:1px solid var(--line);border-radius:3px;background:var(--bg);
     color:var(--ink);font-size:12px;cursor:pointer}
   .btn:hover{background:var(--code)}
+  /* 説明欄の幅を手で変えるつまみ。ドラッグで動かし、ダブルクリックで既定に戻る */
+  #drag{width:7px;flex:none;cursor:col-resize;background:var(--panel);
+    position:relative;user-select:none;touch-action:none}
+  #drag::before{content:"";position:absolute;top:50%;left:50%;
+    transform:translate(-50%,-50%);width:1px;height:26px;background:var(--line)}
+  #drag:hover,#drag.on{background:var(--code)}
+  #drag:hover::before,#drag.on::before{background:var(--accent);width:2px}
+  body.dragging{cursor:col-resize}
+  body.dragging #cy{pointer-events:none}
   #side{width:330px;border-left:1px solid var(--line);background:var(--panel);
     overflow-y:auto;padding:16px;font-size:13px;line-height:1.75}
   #side h2{font-size:17px;margin:0 0 3px}
@@ -112,6 +121,7 @@
       max-width:100%;padding-bottom:2px}
     .filters label{flex:none}
 
+    #drag{display:none}
     #list, #side{
       position:fixed;left:0;right:0;bottom:0;top:auto;
       width:auto;max-height:none;
@@ -172,6 +182,7 @@
     </header>
     <div id="cy"></div>
   </div>
+  <div id="drag" title="ドラッグで説明欄の幅を変える／ダブルクリックで既定にもどす"></div>
   <aside id="side">
     <div class="sheetbar"><span class="grip"></span>
       <button class="btn xbtn" data-close="side">閉じる</button></div>
@@ -611,6 +622,60 @@ function show(n){
     }
   });
 }
+
+/* ── 説明欄の幅を手で変える ──────────────────────────
+   つまみをドラッグ／ダブルクリックで既定にもどす。
+   幅はこのブラウザに覚えさせる（localStorage）。スマホは下からのシートなので効かせない。 */
+(function(){
+  const drag = document.getElementById('drag');
+  const side = document.getElementById('side');
+  if (!drag || !side) return;
+  const MIN = 260, DEF = 330, KEY = 'mindatlas.sideW';
+  const maxW  = () => Math.max(MIN, Math.round(window.innerWidth * 0.72));
+  const clamp = w  => Math.min(maxW(), Math.max(MIN, Math.round(w)));
+
+  function apply(w, save){
+    const v = clamp(w);
+    side.style.width = v + 'px';
+    if (save){ try { localStorage.setItem(KEY, String(v)); } catch(e){} }
+    return v;
+  }
+  // 前回の幅を思い出す
+  try {
+    const saved = parseInt(localStorage.getItem(KEY), 10);
+    if (saved > 0) apply(saved, false);
+  } catch(e){}
+
+  let dragging = false;
+  drag.addEventListener('pointerdown', e => {
+    if (isPhone()) return;
+    dragging = true;
+    drag.classList.add('on');
+    document.body.classList.add('dragging');
+    try { drag.setPointerCapture(e.pointerId); } catch(err){}
+    e.preventDefault();
+  });
+  drag.addEventListener('pointermove', e => {
+    if (dragging) apply(window.innerWidth - e.clientX, false);
+  });
+  function stop(){
+    if (!dragging) return;
+    dragging = false;
+    drag.classList.remove('on');
+    document.body.classList.remove('dragging');
+    apply(parseInt(side.style.width, 10) || DEF, true);
+    if (cy) cy.resize();
+  }
+  drag.addEventListener('pointerup', stop);
+  drag.addEventListener('pointercancel', stop);
+  drag.addEventListener('lostpointercapture', stop);
+  drag.addEventListener('dblclick', () => { apply(DEF, true); if (cy) cy.resize(); });
+
+  // 窓を小さくしたときに、説明欄が画面を食いつぶさないようにする
+  window.addEventListener('resize', () => {
+    if (side.style.width) apply(parseInt(side.style.width, 10) || DEF, false);
+  });
+})();
 </script>
 </body>
 </html>
