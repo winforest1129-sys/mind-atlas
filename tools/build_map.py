@@ -51,6 +51,12 @@ LINK_RE = re.compile(
 REF_RE = re.compile(
     r'^\s*-\s*\{\s*title\s*:\s*(?P<title>.+?)\s*,\s*url\s*:\s*(?P<url>\S+?)\s*'
     r'(?:,\s*note\s*:\s*(?P<note>[^}]*?)\s*)?\}\s*$')
+# 入手: 買える場所。refs（出典）とは別物なので、店名キーで書き分ける
+SHOP_RE = re.compile(
+    r'^\s*-\s*\{\s*店\s*:\s*(?P<shop>[^,}]+?)\s*,\s*url\s*:\s*(?P<url>\S+?)\s*'
+    r'(?:,\s*note\s*:\s*(?P<note>[^}]*?)\s*)?\}\s*$')
+
+VALID_OWNED = ['有', '無', '不明']
 
 
 def parse_front_matter(text):
@@ -63,7 +69,7 @@ def parse_front_matter(text):
     raw = text[3:end].strip('\n')
     body = text[end + 4:].lstrip('\n')
 
-    meta, links, refs, bad = {}, [], [], []
+    meta, links, refs, shops, bad = {}, [], [], [], []
     for line in raw.split('\n'):
         if not line.strip() or line.strip().startswith('#'):
             continue
@@ -77,6 +83,12 @@ def parse_front_matter(text):
                          'url': m.group('url').strip(),
                          'note': (m.group('note') or '').strip()})
             continue
+        m = SHOP_RE.match(line)
+        if m:
+            shops.append({'shop': m.group('shop').strip(),
+                          'url': m.group('url').strip(),
+                          'note': (m.group('note') or '').strip()})
+            continue
         if line.lstrip().startswith('- {'):
             bad.append(line.strip())      # どちらの書式にも合わない行は警告に回す
             continue
@@ -86,12 +98,13 @@ def parse_front_matter(text):
             continue
         key, _, val = line.partition(':')
         key, val = key.strip(), val.strip()
-        if key in ('links', 'refs'):
+        if key in ('links', 'refs', '入手'):
             continue
         val = val.strip('[]')             # 出典: [a, b] も許す
         meta[key] = val
     meta['links'] = links
     meta['refs'] = refs
+    meta['shops'] = shops
     meta['_bad'] = bad
     return meta, body
 
@@ -144,6 +157,17 @@ def main():
         if conf == '確認済' and not refs and ntype not in ('書物', '人物'):
             warnings.append(fn + ': 確度が「確認済」なのに refs が無い（出典を書くか、推測に落とす）')
 
+        owned = meta.get('所持', '不明')
+        if owned not in VALID_OWNED:
+            warnings.append(fn + ': 所持 が不正 "' + owned + '" → 不明 に倒した')
+            owned = '不明'
+        shops = meta.get('shops', [])
+        if owned == '無' and not shops:
+            warnings.append(fn + ': 所持が「無」なのに 入手 のリンクが無い'
+                            '（読みたくなったときに買えるようにする）')
+        if owned != '無' and shops:
+            warnings.append(fn + ': 入手 のリンクがあるのに 所持 が「無」でない')
+
         sources = [s.strip() for s in meta.get('出典', '').split(',') if s.strip()]
 
         brain = [b.strip() for b in meta.get('脳部位', '').split(',') if b.strip()]
@@ -156,6 +180,7 @@ def main():
         nodes[nid] = {
             'id': nid, 'type': ntype, 'confidence': conf,
             'sources': sources, 'refs': refs, 'brain': brain, 'file': 'nodes/' + fn,
+            'owned': owned, 'shops': shops,
             'sections': split_sections(body), 'stub': False,
         }
         for lk in meta['links']:
@@ -167,6 +192,7 @@ def main():
             nodes[e['target']] = {
                 'id': e['target'], 'type': '用語', 'confidence': '未調査',
                 'sources': [], 'refs': [], 'brain': [], 'file': None,
+                'owned': '不明', 'shops': [],
                 'sections': {}, 'stub': True,
             }
 

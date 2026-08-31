@@ -91,6 +91,15 @@
   ol.refs .url{color:var(--sub);font-size:10.5px;word-break:break-all;opacity:.75;margin-top:1px}
   .norefs{color:var(--sub);font-size:11.5px;line-height:1.7;border-left:2px solid var(--line);
     padding-left:9px;margin:5px 0 0}
+  /* まだ手元に無い本。読みたくなったときに買えるようにしておく欄 */
+  .shop{border:1px solid var(--accent);padding:8px 10px;margin:9px 0 2px;
+    font-size:12px;line-height:1.7}
+  .shop .ttl{font-weight:700}
+  .shop ul{padding-left:1.25em;margin:5px 0 0;list-style:none}
+  .shop li{margin-bottom:4px}
+  .shop li::before{content:"→ ";color:var(--sub)}
+  .shop a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(0,0,0,.25)}
+  .shop .note{color:var(--sub);font-size:11px}
   /* --- スマホ：3段積みをやめ、下からせり上がるシートにする --- */
   @media (max-width:760px){
     #wrap{flex-direction:column;position:relative;overflow:hidden}
@@ -516,6 +525,25 @@ function show(n){
   if (n.sources.length) h += '<br>出典: ' + n.sources.map(esc).join(' / ');
   if (n.file) h += '<br><span style="opacity:.7">' + esc(n.file) + '</span>';
   h += '</div>';
+
+  // まだ手元に無い本は、買える場所をいちばん上に出す
+  if (n.owned === '無'){
+    h += '<div class="shop"><span class="ttl">まだ手元に無い</span>';
+    if (n.shops && n.shops.length){
+      h += '<ul>';
+      n.shops.forEach(s => {
+        const safe = /^https?:\/\//i.test(s.url) ? s.url : '';
+        h += '<li>';
+        h += safe ? '<a href="' + esc(safe) + '" target="_blank" rel="noopener noreferrer">' +
+                    esc(s.shop) + '</a>'
+                  : esc(s.shop);
+        if (s.note) h += ' <span class="note">' + esc(s.note) + '</span>';
+        h += '</li>';
+      });
+      h += '</ul>';
+    }
+    h += '</div>';
+  }
 
   if (n.stub){
     h += '<p class="empty">この用語は、まだ中身を書いていない。<br>' +
