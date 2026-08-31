@@ -4,7 +4,6 @@ type: 用語
 refs:
   - {title: McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40, url: https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x, note: ⚠この型そのものを支持する研究ではない。逆に「真に二分的な選好・質的に異なるタイプを測るという見方に支持は無い」と結論した研究。⭐4文字の各指標がビッグファイブの次元を測っていることは示されているので、下の記述はその4指標の定義から組み立ててある}
 links:
-  - {to: NF群, rel: 所属}
   - {to: Fe（外向的感情）, rel: 主機能とされる}
   - {to: Ni（内向的直観）, rel: 補助機能とされる}
 ---

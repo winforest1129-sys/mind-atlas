@@ -8,7 +8,6 @@ refs:
   - {title: Ashton MC, Lee K (2007) Empirical Theoretical and Practical Advantages of the HEXACO Model of Personality Structure. Personality and Social Psychology Review 11:150-166, url: https://journals.sagepub.com/doi/10.1177/1088868306294907, note: ⭐6因子を立てる理論的な根拠を述べた論文。doi 10.1177/1088868306294907。2026-08-31に書誌を確認}
   - {title: HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）, url: https://hexaco.org/scaledescriptions, note: ⭐6因子それぞれの4ファセットと、どの因子にも属しきらない中間ファセット「利他性」の一覧。ファセット名はここから取った。2026-08-31に確認}
 links:
-  - {to: ビッグファイブ, rel: 6因子だと主張}
   - {to: 語彙仮説, rel: 同じ土台}
   - {to: 正直さ-謙虚さ, rel: H因子, 強さ: 強}
   - {to: HEXACOの情動性, rel: E因子, 強さ: 強}

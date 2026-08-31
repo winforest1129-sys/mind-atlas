@@ -34,7 +34,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 NODES_DIR = os.path.join(ROOT, 'nodes')
 OUT = os.path.join(ROOT, 'data.json')
 
-VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論']
+# 予感 = 燻太さんが「関連がありそう」と感じたところから生まれた項目。
+# まだ主張ではなく、筋の通るところ・切れるところを並べて置いておくための型。
+VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論', '予感']
 VALID_CONF = ['確認済', '推測', '未調査']
 
 # 脳の模式図に載せられる領域。index.html の BRAIN_AREAS と必ず揃えること

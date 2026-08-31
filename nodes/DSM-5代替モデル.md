@@ -7,7 +7,6 @@ refs:
   - {title: Alternative DSM-5 Model for Personality Disorders（Focus, American Psychiatric Association）, url: https://www.psychiatryonline.org/doi/10.1176/appi.focus.11.2.189, note: AMPDの一次的な解説。基準Bは5領域＋25ファセットの階層構造で、5領域は五因子モデルの病理的な極に対応する}
 links:
   - {to: ビッグファイブ, rel: 病理的な極}
-  - {to: パーソナリティのダークサイド, rel: 構成の骨格}
   - {to: 柔軟性の欠如, rel: 取りこぼす}
 ---
 ## 調べたこと
