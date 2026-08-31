@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31 20:09",
+ "generated": "2026-08-31 20:19",
  "nodes": [
   {
    "id": "DSM-5代替モデル",
@@ -28,6 +28,52 @@
     "調べたこと": "**AMPD**（Alternative Model for Personality Disorders／パーソナリティ症の代替DSM-5モデル）。\nパーソナリティ障害を**カテゴリ（あるかないか）ではなく次元（連続量）で**捉えなおす枠組み。\n\n⚠ **DSM-5の「第III部＝さらなる研究を要する新しい尺度とモデル」に置かれている。**\n正式な診断基準ではなく、**併記された代替案**という位置づけ。（ICDには対応物がない）\n\n- **基準A** … パーソナリティ機能の水準（自己と対人関係）\n- **基準B** … 病理的パーソナリティ特性 ＝ **5領域 ＋ 25ファセット**\n  測定する道具が **PID-5**（Krueger ら 2012、220項目）",
     "⭐5領域は、ビッグファイブの「病理的な極」である": "これがこの地図でAMPDを置く理由。**AMPDは五因子モデルの不適応的なバリアントとして設計されている。**\n\n| AMPDの領域 | 中身（編者の定義） | 五因子のどの極か |\n|---|---|---|\n| **否定的感情** negative affect | さまざまな否定的情動を経験しやすい | 神経症的傾向の高極（＝情緒安定の低極） |\n| **離脱** detachment | 内向性・社会的孤立・アンヘドニア | **外向性の低極** |\n| **敵対** antagonism | 支配の主張と誇大性をともなう攻撃性 | **協調性の低極** |\n| **脱抑制** disinhibition | 衝動性・刺激希求 | **誠実性の低極** |\n| **精神病性** psychoticism | 現実からの遊離・非論理的な思考 | 開放性の（極端な）極 |",
     "⚠⚠ 決定的な限界 ── 「片側しか見ていない」": "編者（Zeigler-Hill & Marcus 2016）が、PID-5の弱点をはっきり書いている。\n\n> PID-5は……**ビッグファイブの不適応的な側面を、一方向にしか見ていない**という点でまだ限界がある。\n> ……**極端に低い**誠実性は衝動的で当てにならないが、**極端に高い**誠実性は\n> **硬く柔軟性を欠く（rigid and inflexible）**かもしれない。\n> PID-5モデルは極端に低い誠実性を捉えるようにできているが、**極端に高い誠実性**\n> ── 権威主義的・強迫的な特徴を持ちうる ── **を検出する力は限られている**。\n> 他の次元でも同様で、たとえば敵対は極端に低い協調性を捉えるが、\n> **極端に高い協調性**（**だまされやすさ** gullibility など）にはほとんど注意が払われていない。\n\n⭐ **つまりAMPDは「低いほうの端」だけを病理として並べた地図**になっている。\n高いほうの端にもダークな領域があるのに、そこは空白のまま残っている。\n→ [[柔軟性の欠如]] は、まさにその空白を埋めようとして足された章だ。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Fe（外向的感情）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Fe（外向的感情）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Fe（外向的感情, extraverted Feeling）**。[[認知機能]] の8つのうちのひとつ。\n\n外に向いた感情。**その場の人たちの調和や必要**に合わせて判断する。空気を読み、場を整える。\n\n[[MBTI]] の指標でいうと [[思考-感情]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Fi（内向的感情）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Fi（内向的感情）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Fi（内向的感情, introverted Feeling）**。[[認知機能]] の8つのうちのひとつ。\n\n内に向いた感情。**自分の中の価値の基準**に照らして判断する。人に合わせるより、自分がどう感じるか。\n\n[[MBTI]] の指標でいうと [[思考-感情]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -226,16 +272,176 @@
   },
   {
    "id": "MBTI",
-   "type": "用語",
-   "confidence": "未調査",
+   "type": "理論",
+   "confidence": "確認済",
    "sources": [],
-   "refs": [],
+   "refs": [
+    {
+     "title": "McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40",
+     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x",
+     "note": "⭐⭐この地図でMBTIを扱う土台。19-93歳の男性267名・女性201名。4指標がビッグファイブのうち4次元の側面を測っていることを相関で示す一方、真に二分的な選好や質的に異なるタイプを測っているという見方には支持が無い、と結論。doi 10.1111/j.1467-6494.1989.tb00759.x。2026-08-31に確認"
+    },
+    {
+     "title": "John OP, Naumann LP, Soto CJ (2008) Paradigm Shift to the Integrative Big Five Trait Taxonomy. In Handbook of Personality 3rd ed, Guilford Press, pp.114-158",
+     "url": "https://www.semanticscholar.org/paper/Paradigm-shift-to-the-integrative-Big-Five-trait-John-Naumann/14bb7bba3a4e34685a36907bd170042dcc1dc073",
+     "note": "Table 4.1 がMBTIの4尺度をビッグファイブの領域に割りつけている。MBTIに情緒安定の軸が無い理由もここ"
+    },
+    {
+     "title": "MBTI Preferences（The Myers & Briggs Foundation 公式）",
+     "url": "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/",
+     "note": "4つの選好ペアの公式の説明。2026-08-31に確認"
+    }
+   ],
    "brain": [],
-   "file": null,
+   "file": "nodes/MBTI.md",
    "owned": "不明",
    "shops": [],
-   "sections": {},
-   "stub": true
+   "sections": {
+    "調べたこと": "**Myers-Briggs Type Indicator（MBTI）**。**4つの指標**の組み合わせで人を **16タイプ**に分ける道具。\nユングの類型論を土台に、**キャサリン・ブリッグスとイザベル・マイヤーズの母娘**が作った。\n\n| 指標 | 何の向きか | 対応するビッグファイブ |\n|---|---|---|\n| [[外向-内向]] E/I | エネルギーと注意をどちらに向けるか | [[外向性]] |\n| [[感覚-直観]] S/N | 情報をどう集めるか | [[開放性]] |\n| [[思考-感情]] T/F | どう判断するか | [[協調性]] |\n| [[判断-知覚]] J/P | 外の世界にどう構えるか | [[誠実性]] |\n\n⭐ **[[神経症的傾向]] に対応する軸が無い。** これは漏れではなく、\n**「基本的に健常でよく機能している大人」を測る質問紙という出自からくる設計上の選択**\n（John ら 2008）。裏返すと、**MBTIは苦しさの次元を最初から見ない道具**になっている。",
+    "⚠⚠ いちばん大事なこと ── 「タイプ」は測れていない": "**McCrae & Costa (1989)** が468名で検証した結論が、この道具の性格を決めている。\n\n> **MBTIが真に二分的な選好、あるいは質的に異なるタイプを測っているという見方には、支持が無い。**\n> そうではなく、この道具は**比較的独立した4つの次元**を測っている。\n> ⭐ 一方で、相関分析は**4つのMBTI指標が、正常なパーソナリティの主要5次元のうち4つの側面を\n> 実際に測っている**ことを示した。\n\n⭐ **つまり「4つの軸は本物だが、16の箱は本物ではない」。**\n軸そのものはビッグファイブの4次元をちゃんと拾っている。\n⚠ 問題は、連続量を真ん中でぶつ切りにして「あなたはこちら側」と言い切るところにある。\n\n⭐ 燻太さん自身がその実例だった ── **自認テストが A5:B2**。5対2は「Aの人」ではなく「Aよりの中間」だ。",
+    "⚠ 同じ論文が、ユング理論そのものにも触れている": "McCrae & Costa は、データが示すのは\n**ユングの理論が誤っているか、MBTIによる操作化が不十分であるかのいずれかであり、\nユング理論はMBTIを解釈する健全な土台を与えない**、という向きの結論だった。\n→ ここが [[認知機能]] の扱いに直結する。",
+    "⚠ 日本語名とグループ分けについて": "「提唱者」「仲介者」や「分析家NT／外交官NF／番人SJ／探検家SP」という呼び方は\n**16Personalities（NERIS社）由来**で、**公式のMBTIとは別物**。\n使ってもいいが、**公式の用語だと思わないこと。**",
+    "燻太さんの考え": "（2026-07-05の学習マップより。本人の結論をそのまま置いてある）\n\n- **INFJ寄り**。芯は **Fe＝外向きの感情**（場の空気を読み調和をつくる）。\n- **発散思考（Ne）と自分軸（Fi）で INFP の色もにじむ** → 一つの箱に収まらない、連続体上の個性。\n- 「INFJかINFPか」の迷いは正解だった。本当に中間あたりにいる。\n- 使い分けの結論 ── **厳密に知るならビッグファイブ、楽しむ・入口ならMBTI。**\n  どれも「連続体を粗く切った地図」と分かって使えば役に立つ。"
+   },
+   "stub": false
+  },
+  {
+   "id": "Ne（外向的直観）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Ne（外向的直観）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Ne（外向的直観, extraverted iNtuition）**。[[認知機能]] の8つのうちのひとつ。\n\n外に向いた直観。**ひとつのものから可能性を広げる**。発散して選択肢を増やす。\n\n[[MBTI]] の指標でいうと [[感覚-直観]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Ni（内向的直観）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Ni（内向的直観）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Ni（内向的直観, introverted iNtuition）**。[[認知機能]] の8つのうちのひとつ。\n\n内に向いた直観。**多くのものをひとつの像に収束させる**。先の見通しが不意にまとまって現れる。\n\n[[MBTI]] の指標でいうと [[感覚-直観]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Se（外向的感覚）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Se（外向的感覚）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Se（外向的感覚, extraverted Sensing）**。[[認知機能]] の8つのうちのひとつ。\n\n外に向いた感覚。**いま目の前で起きていること**を、そのまま受け取る。現在と実物に強い。\n\n[[MBTI]] の指標でいうと [[感覚-直観]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Si（内向的感覚）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Si（内向的感覚）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Si（内向的感覚, introverted Sensing）**。[[認知機能]] の8つのうちのひとつ。\n\n内に向いた感覚。**過去に自分が経験した感覚**と照らし合わせる。積み重ねと慣れ親しんだ手ざわりに強い。\n\n[[MBTI]] の指標でいうと [[感覚-直観]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Te（外向的思考）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Te（外向的思考）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Te（外向的思考, extraverted Thinking）**。[[認知機能]] の8つのうちのひとつ。\n\n外に向いた思考。**外の世界を効率よく動かす**ために、手順や仕組みを組み立てる。\n\n[[MBTI]] の指標でいうと [[思考-感情]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "Ti（内向的思考）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "この機能ノードの中身は理論の要約。その理論の実証状況を批判的に検討した論文。確度を推測にしてある理由は認知機能ノードに書いた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/Ti（内向的思考）.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Ti（内向的思考, introverted Thinking）**。[[認知機能]] の8つのうちのひとつ。\n\n内に向いた思考。**自分の中の筋が通っているか**を詰める。整合性を優先する。\n\n[[MBTI]] の指標でいうと [[思考-感情]] の側にあたるはたらきを、**外向き／内向き**に分けたもの。",
+    "⚠ 確度について": "**このノートの確度は「推測」にしてある。**\n書いてあるのは理論が主張している中身の要約で、大河の思いつきではない。\nただし**その理論そのものの足場が弱い**ので、\nこの地図の「どれだけ寄りかかれるか」という意味では `推測` が正しい。\n→ 根拠と経緯は [[認知機能]] にまとめてある。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
   },
   {
    "id": "アイオワ・ギャンブリング課題",
@@ -954,6 +1160,35 @@
    "stub": false
   },
   {
+   "id": "判断-知覚",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40",
+     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x",
+     "note": "J/P が誠実性に対応することを示す。2026-08-31に確認"
+    },
+    {
+     "title": "MBTI Preferences（The Myers & Briggs Foundation 公式）",
+     "url": "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/",
+     "note": "公式の説明"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/判断-知覚.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**J / P（Judging - Perceiving）**。[[MBTI]] の第4指標。\n**外の世界にどう構えるか** ── 決めて片づけたいか、開いたままにしておきたいか。\n\n⭐ ビッグファイブの [[誠実性]] に対応する。",
+    "⭐ 4指標の中で、この軸だけ性格が違う": "E/I・S/N・T/F がユング由来なのに対し、**J/P はマイヤーズらが付け加えた軸**とされる。\nそしてこの軸は [[認知機能]] の理論の中では、**どの機能が外に向いているかを決めるための鍵**\nという役割を負っている。⚠ その理論の足場が弱いことは [[認知機能]] のとおり。",
+    "⚠ 対応先には強い予測力がある": "[[誠実性]] は**ビッグファイブの中でいちばん予測力が強い因子**で、\n職務遂行や学業成績を広く予測する。\n⭐ **だからJ/Pは、4指標の中では「実用的な当たり」がいちばん期待できる軸**かもしれない。\n⚠ ただし「MBTIのJ/Pが誠実性と同じ予測力を持つ」という研究には当たっていない。**未調査。**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "動物には何が見え_聞こえ_感じられるのか",
    "type": "書物",
    "confidence": "確認済",
@@ -1048,6 +1283,33 @@
    "stub": true
   },
   {
+   "id": "外向-内向",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40",
+     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x",
+     "note": "4指標がビッグファイブの4次元の側面を測っていることを相関で示した研究。2026-08-31に確認"
+    },
+    {
+     "title": "MBTI Preferences（The Myers & Briggs Foundation 公式）",
+     "url": "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/",
+     "note": "4つの選好ペアの公式の説明"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/外向-内向.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**E / I（Extraversion - Introversion）**。[[MBTI]] の第1指標。\n**エネルギーと注意をどちらに向けるか** ── 外の世界（人・活動）か、内の世界（考え・内省）か。\n\n⭐ ビッグファイブの [[外向性]] に対応する。**4指標の中で対応がいちばん素直**な軸。\n\n⚠ よくある誤解 ── **「社交的か人見知りか」ではない。**\n公式の枠組みでは**どこからエネルギーを得るか**の話で、\n[[外向性]] のファセット（社交性・自己主張性・活力水準）のうち**社交性だけを見ているのではない**。\n\n⚠ そして [[MBTI]] 全体の限界がここにも掛かる ── **真ん中で切っても、人は二つに分かれない**。\n測っているのは連続量で、EかIかという箱ではない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "外向性",
    "type": "用語",
    "confidence": "確認済",
@@ -1098,6 +1360,34 @@
    "sections": {
     "調べたこと": "psychosomatic illness。**心の状態が、本物の身体症状として現れるもの**。\n検査をしても、症状を説明する器質的な異常が見つからない。\n\n⭐ **「気のせい」ではない。** 症状そのものは実在し、生活を損なう。\n`04_オサリバン` が正面から扱っているのは、まさにこの誤解 ──\n医学の文化と社会の側が、この病をどう扱ってきたか、という問題である。",
     "この地図での向き": "`01_ダマシオ` が **身体 → 心** を論じたのに対し、こちらは **心 → 身体**。\n同じループの逆向きの半分にあたる。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "思考-感情",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40",
+     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x",
+     "note": "T/F が協調性に対応することを示す。2026-08-31に確認"
+    },
+    {
+     "title": "MBTI Preferences（The Myers & Briggs Foundation 公式）",
+     "url": "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/",
+     "note": "公式の説明"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/思考-感情.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**T / F（Thinking - Feeling）**。[[MBTI]] の第3指標。\n**どう判断するか** ── 論理的な分析か、価値と人への配慮か。\n\n⭐ ビッグファイブの [[協調性]] に対応する。",
+    "⚠ 名前に引きずられないこと": "**「思考」の反対は「感情的」ではない。** どちらも判断のしかたであって、\nFの人が論理を使わないわけでも、Tの人に感情が無いわけでもない。\n⭐ 公式の枠組みでも、これは**能力ではなく選好**として置かれている。\n\n⚠ この軸は [[認知機能]] の話といちばん結びつきやすい。\nFの向きが外か内か（[[Fe（外向的感情）]] か [[Fi（内向的感情）]] か）で、\nINFJとINFPが分かれるとされる ── ⚠**ただしその理論の足場は弱い。**",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1242,6 +1532,34 @@
     "調べたこと": "恩蔵絢子『感情労働の未来 ── 脳はなぜ他者の〝見えない心〟を推しはかるのか？』\n河出書房新社。**発売 2025年10月17日**、244ページ、2,090円。ISBN 978-4-309-25495-1。\n燻太さんの手元にあるのは奥付が「2025年10月30日 初版発行」の**初版**。\n\n核心は **脳科学の側から〈感情労働〉を定義しなおすこと**。\n帯の言葉は「AI時代、人間最大の能力は感情になる」。\n自分の感情を抑えて他者にあわせる〝感情労働〟から、他者を理解する〝集団的知性〟へ、という道筋を示す。\n\n**第1章**でソマティック・マーカー仮説を引き、フィニアス・ゲージの症例を挙げて、\n**道徳的判断は理性ではなく感情を源とする**と説明している。\n\n⚠ 大河は本文を読んでいない。上は帯と、燻太さんから聞いた第1章の内容による。",
     "⭐1冊目とのつながり": "第1章は `01_ダマシオ` の系譜の上にある。ソマティック・マーカー仮説はダマシオの仮説であり、\nフィニアス・ゲージを現代神経科学に呼び戻したのもダマシオ夫妻（Damasio H. ら, Science, 1994）。\n**土台を1冊目で読み、その応用を2冊目で読んでいる**ことになる。",
     "燻太さんの考え": "読書中。"
+   },
+   "stub": false
+  },
+  {
+   "id": "感覚-直観",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40",
+     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x",
+     "note": "S/N が開放性に対応することを示す。2026-08-31に確認"
+    },
+    {
+     "title": "MBTI Preferences（The Myers & Briggs Foundation 公式）",
+     "url": "https://www.myersbriggs.org/my-mbti-personality-type/the-mbti-preferences/",
+     "note": "公式の説明"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/感覚-直観.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**S / N（Sensing - iNtuition）**。[[MBTI]] の第2指標。\n**情報をどう集めるか** ── 具体的で観察できる事実か、パターンと可能性か。\n（N を使うのは、I が [[外向-内向]] で埋まっているため）\n\n⭐ ビッグファイブの [[開放性]] に対応する。",
+    "⚠ ここは対応がいちばん怪しい": "[[開放性]] は**ビッグファイブの中でいちばんあやしい因子**だ ──\n名前が定まらず（文化／知性／想像力／開放性）、言語をまたぐと別のものになる\n（ドイツ語では知性、オランダ語・イタリア語では非慣習性）。\n\n⭐ **つまりこの対応は、対応先そのものが揺れている。**\n「S/N＝開放性」と覚えるのは正しいが、**その開放性が何なのかが決まっていない**。\n⚠ 4つの対応のうち、いちばん割り引いて見るべき軸だと思う（これは大河の見立て）。",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -1810,6 +2128,35 @@
    "stub": false
   },
   {
+   "id": "認知機能",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Reynierse JH (2009) The Case Against Type Dynamics. Journal of Psychological Type 69(1):1-24",
+     "url": "https://www.semanticscholar.org/paper/The-Case-Against-Type-Dynamics-Reynierse/78591ba42c54c74fa430e3b91cd94a5d3507d72f",
+     "note": "⭐⭐この節の根拠。⭐1998年のMBTIマニュアル自身が挙げたタイプダイナミクスの研究は全部で8本しかなく、その内訳が「6本は失敗、1本は解釈が疑わしく、1本は反証を支持として提示していた」。タイプダイナミクスは逸話的な証拠に頼り、有効性の検定のほとんどに落ち、経験的事実に合っていない、と結論。2026-08-31に確認"
+    },
+    {
+     "title": "McCrae RR, Costa PT (1989) Reinterpreting the Myers-Briggs Type Indicator From the Perspective of the Five-Factor Model of Personality. Journal of Personality 57(1):17-40",
+     "url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-6494.1989.tb00759.x",
+     "note": "ユング理論は誤っているかMBTIによる操作化が不十分であるかのいずれかで、MBTIを解釈する健全な土台を与えない、という向きの結論"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/認知機能.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**cognitive functions（認知機能）／ type dynamics（タイプダイナミクス）**。\n[[MBTI]] の4文字の**背後にあるとされる**仕組み。\n\n**4つの心のはたらき**（感情 F／思考 T／感覚 S／直観 N）に、それぞれ\n**外向き（e）と内向き（i）**の向きを掛けて **8つの機能**を立て、\n16タイプそれぞれに**順序のついた並び（スタック）**を割り当てる。\n\n例：**INFJ ＝ Ni - Fe - Ti - Se** ／ **INFP ＝ Fi - Ne - Si - Te**\n\n⭐ 4文字だけだと「INFJとINFPは1文字違い」に見えるが、この並びで見ると\n**主機能がまるで違う**（Ni と Fi）。⭐**そこがこの理論の魅力**で、燻太さんの\n「INFJかINFPか」の迷いに言葉を与えたのもここだった。\n\n---",
+    "⚠⚠ この節は、地図の中でいちばん確度が低い": "⭐ **だからこの地図では、8つの機能ノードの確度をすべて「推測」にしてある。**\n書いてある中身は理論の忠実な要約で、大河の思いつきではない。\nただし**この地図の「確度」は「どれだけ寄りかかれるか」を表す欄**として使っているので、\nその意味では `推測` が正しい。**理論を紹介することと、理論を支持することは別**だ。\n\n### 数字が出ている\n**Reynierse (2009)** がマニュアル自身を数えている。\n\n> **1998年のMBTIマニュアルが挙げたタイプダイナミクスの研究は、全部で8本。\n> そのうち6本は失敗し、1本は解釈が疑わしく、1本は反証を支持として提示していた。**\n\n彼の結論は、タイプダイナミクスは**逸話的な証拠に頼り、有効性の検定のほとんどに落ち、\n経験的事実に合っていない**、というもの。\n\n### 上流でも支えられていない\n[[MBTI]] のところに書いたとおり、**McCrae & Costa (1989)** は\n**ユング理論は誤っているかMBTIによる操作化が不十分であるかのいずれかで、\nMBTIを解釈する健全な土台を与えない**という向きの結論だった。\n⚠ **つまり、この理論は上（ユング）でも下（実証）でも足場が無い。**\n\n### ⚠ そもそも「誰の理論か」が曖昧\nいま広く流通している**スタックの並べ方**は、**ハロルド・グラント**が広めた形で、\nマイヤーズ本人の記述そのものではない。\n⚠ **「MBTIの公式理論」だと思って扱わないこと。**\n\n---",
+    "⭐ では、なぜ地図に載せるのか": "**役に立たないから載せない、ではなく、扱い方を書いておくために載せる。**\n\n燻太さんは2026-07-05の学習で、この節を **⚠「雰囲気だけ・深入りしない」** と決めていた。\nその判断はいまも正しいと思う。⭐ **自分の中の傾きに言葉を与える道具としては働く。**\n実際「芯はFe、Neで発散してFiがにじむ」という言い方は、**4文字より本人を説明できていた。**\n\n⚠ ただし ── **これは説明であって、証拠ではない。**\n人に当てはめて診断したり、向き不向きを決めたりする使い方には耐えない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "認知的再評価",
    "type": "用語",
    "confidence": "確認済",
@@ -2015,6 +2362,24 @@
    "weight": "標準"
   },
   {
+   "source": "Fe（外向的感情）",
+   "target": "思考-感情",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
+   "source": "Fe（外向的感情）",
+   "target": "Fi（内向的感情）",
+   "rel": "同じはたらきの逆向き",
+   "weight": "標準"
+  },
+  {
+   "source": "Fi（内向的感情）",
+   "target": "思考-感情",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
    "source": "HEXACO",
    "target": "ビッグファイブ",
    "rel": "6因子だと主張",
@@ -2096,6 +2461,96 @@
    "source": "HEXACOの開放性",
    "target": "開放性",
    "rel": "ほぼ共通",
+   "weight": "標準"
+  },
+  {
+   "source": "MBTI",
+   "target": "外向-内向",
+   "rel": "第1指標",
+   "weight": "強"
+  },
+  {
+   "source": "MBTI",
+   "target": "感覚-直観",
+   "rel": "第2指標",
+   "weight": "強"
+  },
+  {
+   "source": "MBTI",
+   "target": "思考-感情",
+   "rel": "第3指標",
+   "weight": "強"
+  },
+  {
+   "source": "MBTI",
+   "target": "判断-知覚",
+   "rel": "第4指標",
+   "weight": "強"
+  },
+  {
+   "source": "MBTI",
+   "target": "認知機能",
+   "rel": "背後の理論",
+   "weight": "標準"
+  },
+  {
+   "source": "MBTI",
+   "target": "ビッグファイブ",
+   "rel": "4軸が対応",
+   "weight": "標準"
+  },
+  {
+   "source": "Ne（外向的直観）",
+   "target": "感覚-直観",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
+   "source": "Ne（外向的直観）",
+   "target": "Ni（内向的直観）",
+   "rel": "同じはたらきの逆向き",
+   "weight": "標準"
+  },
+  {
+   "source": "Ni（内向的直観）",
+   "target": "感覚-直観",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
+   "source": "Se（外向的感覚）",
+   "target": "感覚-直観",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
+   "source": "Se（外向的感覚）",
+   "target": "Si（内向的感覚）",
+   "rel": "同じはたらきの逆向き",
+   "weight": "標準"
+  },
+  {
+   "source": "Si（内向的感覚）",
+   "target": "感覚-直観",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
+   "source": "Te（外向的思考）",
+   "target": "思考-感情",
+   "rel": "この軸の機能",
+   "weight": "標準"
+  },
+  {
+   "source": "Te（外向的思考）",
+   "target": "Ti（内向的思考）",
+   "rel": "同じはたらきの逆向き",
+   "weight": "標準"
+  },
+  {
+   "source": "Ti（内向的思考）",
+   "target": "思考-感情",
+   "rel": "この軸の機能",
    "weight": "標準"
   },
   {
@@ -2399,6 +2854,12 @@
    "weight": "標準"
   },
   {
+   "source": "判断-知覚",
+   "target": "誠実性",
+   "rel": "対応する",
+   "weight": "標準"
+  },
+  {
    "source": "動物には何が見え_聞こえ_感じられるのか",
    "target": "エド・ヨン",
    "rel": "著者",
@@ -2429,6 +2890,12 @@
    "weight": "標準"
   },
   {
+   "source": "外向-内向",
+   "target": "外向性",
+   "rel": "対応する",
+   "weight": "標準"
+  },
+  {
    "source": "外向性",
    "target": "協調性",
    "rel": "温かさの帰属で揉める",
@@ -2438,6 +2905,12 @@
    "source": "心因性疾患",
    "target": "機能性神経症状症",
    "rel": "現在の呼びかた",
+   "weight": "標準"
+  },
+  {
+   "source": "思考-感情",
+   "target": "協調性",
+   "rel": "対応する",
    "weight": "標準"
   },
   {
@@ -2510,6 +2983,12 @@
    "source": "感情労働の未来",
    "target": "集団的知性",
    "rel": "行き先",
+   "weight": "標準"
+  },
+  {
+   "source": "感覚-直観",
+   "target": "開放性",
+   "rel": "対応する",
    "weight": "標準"
   },
   {
@@ -2714,6 +3193,60 @@
    "source": "自由エネルギー原理入門",
    "target": "自由エネルギー原理",
    "rel": "入門その2",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "MBTI",
+   "rel": "背後の理論",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Fe（外向的感情）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Fi（内向的感情）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Te（外向的思考）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Ti（内向的思考）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Se（外向的感覚）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Si（内向的感覚）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Ne（外向的直観）",
+   "rel": "機能",
+   "weight": "標準"
+  },
+  {
+   "source": "認知機能",
+   "target": "Ni（内向的直観）",
+   "rel": "機能",
    "weight": "標準"
   },
   {
