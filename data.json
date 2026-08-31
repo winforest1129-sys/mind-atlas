@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31 19:31",
+ "generated": "2026-08-31 19:48",
  "nodes": [
   {
    "id": "DSM-5代替モデル",
@@ -52,6 +52,16 @@
      "title": "John OP, Naumann LP, Soto CJ (2008) Paradigm Shift to the Integrative Big Five Trait Taxonomy. In Handbook of Personality 3rd ed, Guilford Press, pp.114-158",
      "url": "https://www.semanticscholar.org/paper/Paradigm-shift-to-the-integrative-Big-Five-trait-John-Naumann/14bb7bba3a4e34685a36907bd170042dcc1dc073",
      "note": "ビッグファイブ側から見た評価。複数言語の再分析（Ashton ら 2004）で6番目の正直さ-謙虚さ因子が示唆される、と認めたうえで慎重な留保をつけている"
+    },
+    {
+     "title": "Ashton MC, Lee K (2007) Empirical Theoretical and Practical Advantages of the HEXACO Model of Personality Structure. Personality and Social Psychology Review 11:150-166",
+     "url": "https://journals.sagepub.com/doi/10.1177/1088868306294907",
+     "note": "⭐6因子を立てる理論的な根拠を述べた論文。doi 10.1177/1088868306294907。2026-08-31に書誌を確認"
+    },
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "⭐6因子それぞれの4ファセットと、どの因子にも属しきらない中間ファセット「利他性」の一覧。ファセット名はここから取った。2026-08-31に確認"
     }
    ],
    "brain": [],
@@ -59,9 +69,157 @@
    "owned": "不明",
    "shops": [],
    "sections": {
-    "調べたこと": "**HEXACO**。[[語彙仮説]] に基づく点はビッグファイブとまったく同じで、\n**複数言語のデータを再分析すると因子は6つ出る**と主張するモデル（Ashton ら 2004）。\n\n**H**onesty-Humility ／ **E**motionality ／ e**X**traversion ／ **A**greeableness ／\n**C**onscientiousness ／ **O**penness\n\n⭐ 6つ目の **正直さ-謙虚さ（Honesty-Humility, H因子）** が本体で、あとの5つはビッグファイブとほぼ重なる\n（ただしEとAの境目は引き直されている）。H因子は、**誠実さ・公正さ・欲のなさ・見栄のなさ**をまとめた次元。",
+    "調べたこと": "**HEXACO**。[[語彙仮説]] に基づく点はビッグファイブとまったく同じで、\n**複数言語のデータを再分析すると因子は6つ出る**と主張するモデル（Ashton ら 2004）。\n\n**H**onesty-Humility ／ **E**motionality ／ e**X**traversion ／ **A**greeableness ／\n**C**onscientiousness ／ **O**penness\n\n⭐ 6つ目の **[[正直さ-謙虚さ]]（Honesty-Humility, H因子）** が本体。\n⚠ **ただし「ビッグファイブ＋1」ではない。ここを取り違えると話が全部ずれる。**\n\n| HEXACO | ビッグファイブとの関係 |\n|---|---|\n| **H** [[正直さ-謙虚さ]] | ⭐**まったく新しい因子** |\n| **E** [[HEXACOの情動性]] | ⚠**神経症的傾向を回転させたもの**（同じではない） |\n| **A** [[HEXACOの協調性]] | ⚠**協調性を回転させたもの**（同じではない） |\n| **X** [[HEXACOの外向性]] | ほぼ共通（ファセットの構成は違う） |\n| **C** [[HEXACOの誠実性]] | ほぼ共通（同上） |\n| **O** [[HEXACOの開放性]] | ほぼ共通（同上） |",
+    "⭐⭐ 回転 ── ここがいちばん大事": "**EとAは、ビッグファイブのNとAから中身が入れ替わっている。**\n\n- **怒り・いらだち** … ビッグファイブでは**神経症的傾向**に入る → HEXACOでは**協調性の低極**へ移る\n  （だから公式サイトのA因子の見出しは **Agreeableness versus Anger**）\n- **感傷性 sentimentality** … ビッグファイブでは**協調性**に入る → HEXACOでは**情動性**へ移る\n- そしてHEXACOの情動性には、**勇気・大胆さ**にあたる内容が入る\n\n⭐ **つまり「怒りっぽさ」が、心の不安定さの話から、人づきあいの話へ引っ越している。**\n⚠ 名前が同じ「協調性」でも、**HEXACOのAとビッグファイブのAは別のもの**。\n（Emotionality という呼び名も、Neuroticism より**貶める響きが弱い**という理由で選ばれている）",
+    "⭐ どこの因子にも属しきらないファセット": "**利他性（Altruism versus Antagonism）**。思いやりや親切さを測るもので、\n**H・E・A の3因子にまたがって重なる**ため、どれか1つに割り当てられていない。",
+    "⭐ なぜ6つなのか（Ashton & Lee 2007 の理論的な説明）": "3つの因子が、**利他的か敵対的かという振る舞い**を測っている、と彼らは言う。\n\n| 因子 | 何にあたるか |\n|---|---|\n| **H** と **A** | **互恵的利他行動（reciprocal altruism）** ── 他人を搾取するのではなく、助け協力する傾向 |\n| **E** | **血縁利他行動（kin altruism）** ── 身内への共感と愛着を示す傾向 |\n\n⚠ この理論的説明の部分は、原論文そのものではなく**二次的な解説を通して確認したもの**。\n（原論文PDFのミラーには接続できなかった）",
+    "⭐ 出どころは英語だけを見ていなかったこと": "6因子は、**英語だけでなく複数言語で語彙研究をやった**ときに現れた。\nオランダ語・フランス語・韓国語・ポーランド語・クロアチア語・フィリピノ語・ギリシャ語・\nドイツ語・イタリア語・ハンガリー語・トルコ語 ── そこで**6つ目の因子が浮かび上がった**。\n→ [[語彙仮説]] の方法をそのまま多言語に広げた結果が、5ではなく6だった、ということになる。",
     "⭐なぜこの地図に置くか ── ダーク・トライアドの穴を埋める": "Lee & Ashton (2005) が両モデルを同じ標本で突き合わせた結果が、はっきりしている。\n\n| | 五因子の協調性との相関 | HEXACOの正直さ-謙虚さとの相関 |\n|---|---|---|\n| サイコパシー | −.39 | **−.72** |\n| マキャベリアニズム | −.44 | **−.57** |\n| 自己愛 | **−.04** | **−.53** |\n\n⚠ **自己愛が協調性とほぼ無相関（−.04）** なのが効いている。\nビッグファイブの枠組みでは、**自己愛だけが行き場を失う**。ところがH因子から見ると、3つはきれいに並ぶ。\n\nさらに決定的なのは、**ダーク・トライアド3つのあいだの相関**（[[ダーク・トライアド]] の核心である\n「概念的には別なのに測ると重なる」というあの事実）を、**HEXACOの変数は満足に説明できたが、\n五因子モデルの変数では説明できなかった**という結果のほう。\n\nつまり ── **3つを束ねている共通の核が何なのかという問いに、H因子が一つの答えを出している。**\n[[ダーク・トライアド]] が「冷淡な操作性」と呼んだものは、**正直さ-謙虚さの低極**として測れるかもしれない。",
     "⚠ 決着はついていない": "ビッグファイブ側（John ら 2008）の評価は慎重だ。\n\n- 6因子を支持する再分析はあるが、**5因子より多い因子は、独立した研究者による複数の研究で再現しにくい**。\n- 見つかっている追加因子は「ビッグファイブ**プラス**1〜2」であって、**5因子を否定してはいない**。\n- 現時点の総説の結論は、あくまで「ビッグファイブの大まかな輪郭が、最良の作業仮説」。\n\nだからこの地図では、[[ビッグファイブ]] との線を**対立**として引いてある。\n⚠ **どちらが正しいかは、まだ決まっていない。** ただし「ダークな特性を扱う」という一点に絞れば、\nHEXACOのほうが説明力が高いという証拠がある、というのが今わかっていること。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "HEXACOの協調性",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "⭐公式の見出しが Agreeableness versus Anger になっている。4ファセットもここから。2026-08-31に確認"
+    },
+    {
+     "title": "Ashton MC, Lee K (2007) Empirical Theoretical and Practical Advantages of the HEXACO Model of Personality Structure. Personality and Social Psychology Review 11:150-166",
+     "url": "https://journals.sagepub.com/doi/10.1177/1088868306294907",
+     "note": "協調性を正直さ-謙虚さとともに互恵的利他行動に結びつける説明。⚠二次的な解説を通して確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/HEXACOの協調性.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Agreeableness（協調性、A因子）**。[[HEXACO]] の第4因子。\n\n⚠⚠ **名前が同じでも、ビッグファイブの [[協調性]] とは別のもの。**\n⭐ 公式サイトの見出しがそれを言い切っている ── **Agreeableness versus Anger（協調性 対 怒り）**。\n\n### 4つのファセット（HEXACO-PI-R）\n| ファセット | |\n|---|---|\n| **許し** Forgivingness | 傷つけられた相手を許す |\n| **穏やかさ** Gentleness | 人に厳しく当たらない |\n| **柔軟さ** Flexibility | 譲歩し、折り合える |\n| **忍耐** Patience | 短気にならない |\n\n高い人は**許し、協力する**。低い人は**恨みを抱き、すぐ怒る**。",
+    "⭐⭐ 回転 ── 何が出て、何が入ったか": "| | ビッグファイブの協調性 | HEXACOの協調性 |\n|---|---|---|\n| 感傷性・共感 | **入る**（思いやり Compassion） | ⚠**出ていった**（→ [[HEXACOの情動性]] へ） |\n| 怒りのなさ | 入らない（[[神経症的傾向]] のほう） | ⚠**入ってきた** |\n\n⭐ **「怒りっぽさ」が、心の不安定さの話から、人づきあいの話へ引っ越している。**\n\n⭐ この引っ越しには筋が通っていると思う。\n**怒りは自分の内側の不調ではなく、相手との関係の中で起きること**だからだ。\n⚠ ただしこれは大河の見立てで、そう論じた文献に当たったわけではない。",
+    "⚠ 実務上の注意": "**同じ「協調性」という語で、5因子の話とHEXACOの話を並べてはいけない。**\n- ビッグファイブA … **思いやり・敬意・信頼**（情動・行動・認知の3成分）\n- HEXACO A … **許し・穏やかさ・柔軟さ・忍耐**（＝**怒らないこと**）\n\n⭐ 前者は「他人に温かいか」、後者は「他人に怒らないか」。**近いが、同じではない。**",
+    "なぜこの因子があるのか（理論の側）": "Ashton & Lee (2007) は、A因子を [[正直さ-謙虚さ]] とともに\n**互恵的利他行動（reciprocal altruism）** に結びつけている。\n⭐ 両方とも「他人を搾取せず、助け協力するか」を測るが、向きが違う ──\n**H＝こちらから搾取しない**、**A＝搾取されても報復しない（許す）**。\n⚠ この対比は大河の整理で、原論文の言い方そのままではない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "HEXACOの外向性",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "4ファセットの名前と高低の特徴。2026-08-31に確認"
+    },
+    {
+     "title": "Soto CJ, John OP (2017) The Next Big Five Inventory (BFI-2). Journal of Personality and Social Psychology 113(1)",
+     "url": "https://doi.org/10.1037/pspp0000096",
+     "note": "比較のためのビッグファイブ側の3ファセット（社交性・自己主張性・活力水準）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/HEXACOの外向性.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**eXtraversion（外向性、X因子）**。[[HEXACO]] の第3因子。\n⭐ ビッグファイブの [[外向性]] と**ほぼ共通**。回転していない3つのうちのひとつ。\n\n### 4つのファセット（HEXACO-PI-R）\n| ファセット | |\n|---|---|\n| **社会的自尊心** Social Self-Esteem | 自分を人づきあいの中で価値ある存在だと感じる |\n| **社会的大胆さ** Social Boldness | 人前や見知らぬ場面で臆さない |\n| **社交性** Sociability | 人と一緒にいることを楽しむ |\n| **快活さ** Liveliness | 元気で機嫌がよい |\n\n高い人は**社会的な場面で自信があり、活力に満ちている**。低い人は**引っ込みがちで、意気があがらない**。",
+    "⚠ ビッグファイブとの違い（あるにはある）": "| | |\n|---|---|\n| ビッグファイブ（BFI-2） | 社交性 ／ **自己主張性** ／ 活力水準 |\n| HEXACO | 社交性 ／ 社会的大胆さ ／ 快活さ ／ ⭐**社会的自尊心** |\n\n⭐ **HEXACOは「社会的自尊心」を外向性の中に置いている。**\n自分を人づきあいの中でどう評価しているか、という**自己評価の成分**が入っている点が目立つ。\n⚠ ビッグファイブ側の「自己主張性」に相当するのは、HEXACOでは「社会的大胆さ」のほうに近い。\n\n⭐ **同じ「外向性」でも、道具によってファセットの割り方が違う**のは\nビッグファイブの内部でも起きていること（NEOとBFIで温かさの扱いが割れる → [[外向性]]）。\n**HEXACOとの差も、その延長線上にある程度の違い**だと見ておくのがよさそうだ。\n⚠ ただし両者を直接比べた研究には当たっていない。**未調査。**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "HEXACOの情動性",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "4ファセットの名前と高低の特徴はここから。2026-08-31に確認"
+    },
+    {
+     "title": "Ashton MC, Lee K (2007) Empirical Theoretical and Practical Advantages of the HEXACO Model of Personality Structure. Personality and Social Psychology Review 11:150-166",
+     "url": "https://journals.sagepub.com/doi/10.1177/1088868306294907",
+     "note": "情動性を血縁利他行動に結びつける理論的説明。⚠この点は二次的な解説を通して確認したもので、原論文そのものには当たっていない"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/HEXACOの情動性.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Emotionality（情動性、E因子）**。[[HEXACO]] の第2因子。\n\n⚠⚠ **ビッグファイブの [[神経症的傾向]] と「同じもの」ではない。回転している。**\n\n### 4つのファセット（HEXACO-PI-R）\n| ファセット | |\n|---|---|\n| **恐れやすさ** Fearfulness | 身体的な危害を恐れる |\n| **不安** Anxiety | 心配ごとに囚われる |\n| **依存** Dependence | 困ったときに人の支えを求める |\n| **感傷性** Sentimentality | 他者と強い情緒的な絆を感じる |\n\n高い人は**危害に敏感で、情緒的に反応しやすい**。低い人は**情緒的に切り離され、ストレスに強い**。",
+    "⭐⭐ 回転 ── 何が出て、何が入ったか": "| | ビッグファイブの神経症的傾向 | HEXACOの情動性 |\n|---|---|---|\n| 怒り・いらだち | **入る** | ⚠**出ていった**（→ [[HEXACOの協調性]] の低極へ） |\n| 感傷性 | 入らない（[[協調性]] のほう） | ⚠**入ってきた** |\n| 勇気・大胆さ | — | **その低極として入る** |\n\n⭐ **つまり「怒りっぽさ」が抜けて、「情にもろさ」が入った。**\n残ったのは**恐れ・不安・支えを求めること・情の深さ**で、\n⭐ **全体として「傷つきやすさ」というより「身を守り、身内に結びつく方向」**にまとまっている。",
+    "⭐ 名前も選び直されている": "**Emotionality** という呼び名は、Neuroticism（神経症的傾向）や Emotional Instability（情緒不安定）より\n**貶める響きが弱い**という理由で選ばれている。\n⚠ 用語の選択が、そのまま「これは病理の次元ではない」という主張になっている。",
+    "なぜこの因子があるのか（理論の側）": "Ashton & Lee (2007) は、情動性が **血縁利他行動（kin altruism）** ──\n**身内への共感と愛着を示す傾向** ── を測っているとする。\n⭐ そう見ると、4ファセットが素直につながる。**自分の身を守り、身近な者と結びつくための束**だ。\n⚠ この理論的説明は二次的な解説を通して確認したもので、原論文そのものには当たっていない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "HEXACOの誠実性",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "4ファセットの名前と高低の特徴。2026-08-31に確認"
+    },
+    {
+     "title": "Soto CJ, John OP (2017) The Next Big Five Inventory (BFI-2). Journal of Personality and Social Psychology 113(1)",
+     "url": "https://doi.org/10.1037/pspp0000096",
+     "note": "比較のためのビッグファイブ側の3ファセット（秩序性・産出性・責任性）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/HEXACOの誠実性.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Conscientiousness（誠実性、C因子）**。[[HEXACO]] の第5因子。\n⭐ ビッグファイブの [[誠実性]] と**ほぼ共通**。\n\n### 4つのファセット（HEXACO-PI-R）\n| ファセット | |\n|---|---|\n| **秩序性** Organization | 身のまわりや段取りを整える |\n| **勤勉さ** Diligence | 骨の折れる課題に取り組む |\n| **完全主義** Perfectionism | 細部の誤りを見逃さない |\n| **慎重さ** Prudence | 衝動で動かず、考えてから決める |\n\n高い人は**規律正しく、熟慮する**。低い人は**衝動的で、秩序に無頓着**。",
+    "⚠ ビッグファイブとの違い": "| | |\n|---|---|\n| ビッグファイブ（BFI-2） | 秩序性 ／ 産出性 ／ ⭐**責任性**（＝人から当てにされるか） |\n| HEXACO | 秩序性 ／ 勤勉さ ／ ⭐**完全主義** ／ ⭐**慎重さ** |\n\n⭐ **HEXACOは「完全主義」を独立のファセットとして立てている。**\n⚠ これは地図の [[柔軟性の欠如]] に直結するかもしれない ──\n[[パーソナリティのダークサイド]] の Part 3 の第10章がまさに**対人的完全主義**で、\nその部が置かれた理由は「**PID-5が誠実性の高極を拾えないから**」だった。\n⭐ **HEXACOは、誠実性の高極にあたるものを最初からファセットに入れている**ことになる。\n⚠ ただしこの対応づけは大河の見立てで、文献で確かめていない。**要確認。**\n\n⭐ 一方 HEXACO には、ビッグファイブ側の**「責任性」＝人から当てにされる度合い**にあたる\nファセットが見当たらない。Soto & John が**向社会的な成分**と呼んだ部分で、\nHEXACOではおそらく [[正直さ-謙虚さ]] や [[HEXACOの協調性]] のほうに回っている。\n⚠ これも大河の推測。**未調査。**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "HEXACOの開放性",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "4ファセットの名前と高低の特徴。2026-08-31に確認"
+    },
+    {
+     "title": "John OP, Naumann LP, Soto CJ (2008) Paradigm Shift to the Integrative Big Five Trait Taxonomy. In Handbook of Personality 3rd ed, Guilford Press, pp.114-158",
+     "url": "https://www.semanticscholar.org/paper/Paradigm-shift-to-the-integrative-Big-Five-trait-John-Naumann/14bb7bba3a4e34685a36907bd170042dcc1dc073",
+     "note": "第5因子が言語によって「知性」にも「非慣習性・反抗性」にもなるという話はここ"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/HEXACOの開放性.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Openness to Experience（経験への開放性、O因子）**。[[HEXACO]] の第6因子。\n⭐ ビッグファイブの [[開放性]] と**ほぼ共通**。\n\n### 4つのファセット（HEXACO-PI-R）\n| ファセット | |\n|---|---|\n| **美的鑑賞** Aesthetic Appreciation | 芸術や自然の美しさに没入する |\n| **探究心** Inquisitiveness | 世界のことを知りたがる |\n| **創造性** Creativity | 新しいものを作り出す |\n| **非慣習性** Unconventionality | 風変わりなもの、型にはまらないものを受け入れる |\n\n高い人は**新しさと知的な好奇心を歓迎する**。低い人は**慣習と日常の型を好む**。",
+    "⭐⭐ ここが面白い ── HEXACOは「非慣習性」を明示的に入れている": "[[開放性]] のノートに書いたとおり、ビッグファイブの第5因子は**言語によって別のものとして現れる**。\n\n- **ドイツ語** … 純粋な**知性（Intellect）**\n- **オランダ語・イタリア語** … **非慣習性・反抗性（Unconventionality / Rebelliousness）**\n\n⚠ そしてビッグファイブ側では、この非慣習性の部分が**うまく収まらなかった**。\nBFIを作るときも、慣習性と行動の柔軟性に関する項目は**他の開放性項目とまとまらず落とされている**し、\nNEO-FFIの開放性が他尺度と噛み合わない原因も「価値への開放」「行為への開放」だった。\n\n⭐ **HEXACOは、その落ちこぼれた成分を独立のファセットとして拾い直している。**\nこれは偶然ではないと思う ── **HEXACOはもともと多言語の語彙研究から出てきた**モデルで、\nオランダ語やイタリア語で「非慣習性」として現れた顔を、最初から視野に入れている。\n⚠ ただし「だからHEXACOのほうが第5因子をうまく扱えている」と言えるかは**未調査**。\n両者を直接比べた研究には当たっていない。\n\n⭐ 一方でHEXACOには、Goldberg が推した**「知性」**を前面に出すファセット名が無い\n（「探究心」がいちばん近い）。**この因子の名前が定まらない問題は、HEXACOでも解けていない。**",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1250,6 +1408,41 @@
    "stub": false
   },
   {
+   "id": "正直さ-謙虚さ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "HEXACO-PI-R 公式サイト Scale Descriptions（Kibeom Lee & Michael C. Ashton）",
+     "url": "https://hexaco.org/scaledescriptions",
+     "note": "4ファセットの名前と、高得点者・低得点者の特徴はここから。2026-08-31に確認"
+    },
+    {
+     "title": "Lee K, Ashton MC (2005) Psychopathy Machiavellianism and Narcissism in the Five-Factor Model and the HEXACO Model of Personality Structure. Personality and Individual Differences 38:1571-1582",
+     "url": "https://www.sciencedirect.com/science/article/abs/pii/S019188690400296X",
+     "note": "⭐ダーク・トライアド3つとも強く負に相関（-.72/-.57/-.53）。しかも3特性間の相関はHEXACOでは説明できたが五因子ではできなかった"
+    },
+    {
+     "title": "Ashton MC, Lee K (2008) The HEXACO Model of Personality Structure and the Importance of the H Factor. Social and Personality Psychology Compass 2(5)",
+     "url": "https://compass.onlinelibrary.wiley.com/doi/10.1111/j.1751-9004.2008.00134.x",
+     "note": "提唱者自身によるH因子の解説"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/正直さ-謙虚さ.md",
+   "owned": "不明",
+   "shops": [],
+   "sections": {
+    "調べたこと": "**Honesty-Humility（正直さ-謙虚さ、H因子）**。[[HEXACO]] の6つ目の因子であり、**本体**。\n⭐ **ビッグファイブに対応するものが無い、唯一の因子。**\n\n### 4つのファセット（HEXACO-PI-R）\n| ファセット | |\n|---|---|\n| **誠実さ** Sincerity | 対人関係で飾らない |\n| **公正さ** Fairness | 不正やごまかしを避ける |\n| **欲のなさ** Greed Avoidance | 富や贅沢、高い地位に興味が薄い |\n| **謙虚さ** Modesty | 自分を特別扱いしない |\n\n高い人は**自分の利益のために他人を操作することを避ける**。\n低い人は**欲しいものを得るために人におもねり**、物質的な利得を追う。",
+    "⭐⭐ この因子が地図に効く理由": "[[ダーク・トライアド]] の核心は「**概念的には別なのに、測ると重なる**」ことだった。\nその重なりを何が作っているのか ── **H因子がひとつの答えを出している。**\n\n| | 五因子の [[協調性]] | **正直さ-謙虚さ** |\n|---|---|---|\n| サイコパシー | −.39 | **−.72** |\n| マキャベリアニズム | −.44 | **−.57** |\n| [[自己愛]] | **−.04** | **−.53** |\n\n⚠ **自己愛だけが協調性とほぼ無相関**で、五因子の枠組みでは行き場を失う。\nところがH因子から見ると3つはきれいに並ぶ。\n\n⭐ さらに決定的なのは、**ダーク・トライアド3特性のあいだの相関**を\n**HEXACOの変数は満足に説明できたが、五因子モデルの変数では説明できなかった**という結果のほう\n（Lee & Ashton 2005）。\nつまり [[ダーク・トライアド]] が「冷淡な操作性」と呼んだものは、\n**正直さ-謙虚さの低極**として測れるかもしれない。",
+    "なぜこの因子が必要なのか（理論の側）": "Ashton & Lee (2007) は、H因子と [[HEXACOの協調性]] がともに\n**互恵的利他行動（reciprocal altruism）** ── 他人を搾取するのではなく助け協力する傾向 ── を\n測っているとする。H因子は**向社会的・利他的な振る舞いへの傾き**にあたる。\n⚠ この理論的説明は二次的な解説を通して確認したもので、原論文そのものには当たっていない。",
+    "⚠ ただし決着はついていない": "ビッグファイブ側（John ら 2008）は慎重で、\n**5因子より多い因子は独立した複数の研究で再現しにくい**と指摘している。\n⭐ **ダークな特性を扱う一点に絞れば**HEXACOの説明力が高い、というのが今わかっていること。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "無意識の脳 自己意識の脳",
    "type": "書物",
    "confidence": "確認済",
@@ -1825,18 +2018,68 @@
   },
   {
    "source": "HEXACO",
-   "target": "ダーク・トライアド",
-   "rel": "説明できる"
-  },
-  {
-   "source": "HEXACO",
-   "target": "自己愛",
-   "rel": "五因子では捉えそこねる"
-  },
-  {
-   "source": "HEXACO",
    "target": "語彙仮説",
    "rel": "同じ土台"
+  },
+  {
+   "source": "HEXACO",
+   "target": "正直さ-謙虚さ",
+   "rel": "H因子"
+  },
+  {
+   "source": "HEXACO",
+   "target": "HEXACOの情動性",
+   "rel": "E因子"
+  },
+  {
+   "source": "HEXACO",
+   "target": "HEXACOの外向性",
+   "rel": "X因子"
+  },
+  {
+   "source": "HEXACO",
+   "target": "HEXACOの協調性",
+   "rel": "A因子"
+  },
+  {
+   "source": "HEXACO",
+   "target": "HEXACOの誠実性",
+   "rel": "C因子"
+  },
+  {
+   "source": "HEXACO",
+   "target": "HEXACOの開放性",
+   "rel": "O因子"
+  },
+  {
+   "source": "HEXACOの協調性",
+   "target": "協調性",
+   "rel": "回転している"
+  },
+  {
+   "source": "HEXACOの協調性",
+   "target": "正直さ-謙虚さ",
+   "rel": "同じ互恵的利他行動"
+  },
+  {
+   "source": "HEXACOの外向性",
+   "target": "外向性",
+   "rel": "ほぼ共通"
+  },
+  {
+   "source": "HEXACOの情動性",
+   "target": "神経症的傾向",
+   "rel": "回転している"
+  },
+  {
+   "source": "HEXACOの誠実性",
+   "target": "誠実性",
+   "rel": "ほぼ共通"
+  },
+  {
+   "source": "HEXACOの開放性",
+   "target": "開放性",
+   "rel": "ほぼ共通"
   },
   {
    "source": "アイオワ・ギャンブリング課題",
@@ -2222,6 +2465,16 @@
    "source": "構成主義的情動理論",
    "target": "リサ・フェルドマン・バレット",
    "rel": "提唱"
+  },
+  {
+   "source": "正直さ-謙虚さ",
+   "target": "ダーク・トライアド",
+   "rel": "束ねている核かもしれない"
+  },
+  {
+   "source": "正直さ-謙虚さ",
+   "target": "自己愛",
+   "rel": "五因子が取り逃す"
   },
   {
    "source": "無意識の脳 自己意識の脳",
