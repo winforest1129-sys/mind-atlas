@@ -3,7 +3,7 @@ type: 用語
 出典: 07_ラスキー
 確度: 確認済
 links:
-  - {to: 発達段階測定インタビュー, rel: 比較対象}
+  - {to: 社会的・感情的発達インタビュー, rel: 比較対象}
 refs:
   - {title: Laske 2015, Laske's Dialectical Thought Form Framework (DTF)（Integral Review 11-3）, url: https://integral-review.org/issues/vol_11_no_3_laske_laske's_dialectical_thought_form_framework.pdf, note: ⭐採点者間一致が「指導者つき合議で担保される」と書かれている一次資料。assures / guarantees inter-rater reliability の二箇所。2026-09-01に全文を読んで確認}
   - {title: Constructive developmental framework（英語版Wikipedia）, url: https://en.wikipedia.org/wiki/Constructive_developmental_framework, note: ⚠記事冒頭に利益相反のバナー（主要な寄稿者が主題と近い関係にあるように見える）。参考文献の大半がラスキー自身の著作。妥当性・信頼性・批判の記述は無い。2026-09-01に確認}
@@ -63,7 +63,7 @@ refs:
 
 | 道具 | 土台 | 大河の見立て |
 |---|---|---|
-| **ED**（社会情緒） | キーガンの [[主体と客体]]・[[発達段階測定インタビュー]] | ⭐**いちばん強い**。研究道具としての蓄積がある |
+| **ED**（社会情緒） | キーガンの [[主体と客体]]・[[社会的・感情的発達インタビュー]] | ⭐**いちばん強い**。研究道具としての蓄積がある |
 | **CD**（認知） | バシェックの24図式＋バスカーのMELD → [[弁証法的思考形式の枠組み]] | ⚠**哲学の枠に心理学を接ぎ木**した形。土台の性質が二つで違う |
 | **NP**（心理） | [[モリス・アダーマン]] の1970年の自己記入式質問票 | ⚠**出自も年代も別**。2002年に後から組み入れられた |
 
