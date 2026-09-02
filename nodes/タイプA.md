@@ -6,6 +6,7 @@ links:
   - {to: タイプB, rel: 残余としての対}
   - {to: タイプC, rel: がんへ広げた発想}
   - {to: タイプD, rel: 生き残った系統, 強さ: 強}
+  - {to: 敵意, rel: 生き残った成分, 強さ: 強}
 refs:
   - {title: Petticrew ら 2012, Type A Behavior Pattern and Coronary Heart Disease - Philip Morris's Crown Jewel（American Journal of Public Health 102-11）, url: https://ajph.aphapublications.org/doi/full/10.2105/AJPH.2012.300816, note: ⭐18件の病因研究と15件の予後研究の系統的レビューで、タイプAと心疾患の有意な関連を見出した研究はどちらも少数派。タバコ産業が主要な資金提供者で、フィリップ・モリスは1985-89年に500万ドルを拠出。2026-09-02に確認}
   - {title: 同論文（PubMed）, url: https://pubmed.ncbi.nlm.nih.gov/22994187/, note: 書誌。2026-09-02に確認}
@@ -62,7 +63,7 @@ refs:
 ⚠**だから新しい「〇〇になりやすい性格」を見たら、まず効果量と資金源と追試を見る。**
 
 ## ⭐ 「やせ我慢」はタイプAの成分ではないかもしれない
-⭐**タイプAで生き残ったのは敵意の成分**。
+⭐**タイプAで生き残ったのは [[敵意]] の成分**。
 ⚠**「健康問題を後回しにする」「この程度ではくたばらないと我慢する」は、
 タイプAの記述の中心ではない。**
 
