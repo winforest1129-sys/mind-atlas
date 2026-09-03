@@ -139,6 +139,9 @@
     }
     /* .open が付いているときだけ出す（デスクトップの .closed より後に書いて勝たせる） */
     #list.open, #side.open{transform:translateY(0)}
+    /* ⚠⚠transform では display:none に勝てない。#list は最初から .closed が付いているので、
+       display も明示的に戻さないと、スマホで「一覧」を押しても何も出ない。 */
+    #list.open{display:block}
 
     .sheetbar{display:flex;align-items:center;justify-content:flex-end;
       position:sticky;top:0;background:var(--panel);padding:10px 0 9px;z-index:2;
@@ -157,7 +160,10 @@
 </head>
 <body>
 <div id="wrap">
-  <aside id="list">
+  <!-- ⭐最初は閉じておく（2026-09-03・燻太さんの依頼）。地図を広く見せるため。
+       ⚠スマホでは #list は「下からせり上がるシート」なので、.closed の display:none が
+         .open に勝たないよう、メディアクエリで #list.open{display:block} を後に置いてある。 -->
+  <aside id="list" class="closed">
     <div class="sheetbar"><span class="grip"></span>
       <button class="btn xbtn" data-close="list">閉じる</button></div>
     <h3>本でしぼる</h3>
@@ -179,6 +185,8 @@
         <option value="breadthfirst">木</option>
         <option value="circle">円</option>
       </select>
+      <button class="btn" id="resetview"
+              title="拡大・縮小や移動でどこを見ているか分からなくなったら、これで戻す（Homeキーでも同じ）">表示を戻す</button>
       <div class="filters" id="filters"></div>
     </header>
     <div id="cy"></div>
@@ -194,7 +202,14 @@
       <b>予感</b>だけ性格が違う。<b>燻太さんが「関連がありそう」と感じたところ</b>から生まれた項目で、
       まだ主張ではない。筋の通るところと切れるところを並べて置いてある。<br><br>
       <b>ダブルクリック</b>すると、そのノードと<b>直接つながっているものだけ</b>が光る
-      （検索欄に名前を打つのと同じ）。背景をクリックすると戻る。<br><br>
+      （検索欄に名前を打つのと同じ）。<b>背景をクリックすると戻る。</b><br>
+      ⭐<b>薄くなっているものは、触っても動かない</b>
+      （掴めない・押しても中身が出ない）。⚠見えにくいものをうっかり動かさないため。<br>
+      ⭐<b>薄いノードや線を「ダブルクリック」すれば、そこからでも元の表示に戻せる。</b>
+      網の真ん中では背景が見つからないので。<br>
+      ⭐<b>拡大・縮小で迷子になったら、上の「表示を戻す」（または Home キー）。</b>
+      光らせているときは、光っているところに戻る。<br>
+      ⭐左の<b>一覧</b>は最初は閉じている。上の「一覧」で開け閉めできる。<br><br>
       <b>破線の灰色</b>は「まだ書いていない用語」。線でつながっているのに中身が無いもの＝
       <b>次に調べる場所</b>が地図の上に見えている状態。<br><br>
       <b>赤い線</b>は「対立」。どこで論争が起きているかが、地図を見るだけで分かる。</p>
@@ -309,22 +324,49 @@ function boot(data){
     layout: layoutOpts('cose')
   });
 
-  cy.on('tap','node', ev => show(ev.target.data('node')));
-  // ダブルクリックで、そのノードのつながりを光らせる（検索欄に打つのと同じこと）
+  /* ⭐⭐押したときの決まり（2026-09-03に gene-atlas とそろえた）
+       ┌ 光っているノード … 1回＝中身を出す ／ 2回＝そこを中心に光らせ直す
+       ├ 薄いノード       … 1回＝**何も起きない**（うっかり動かさないため）
+       │                    ⭐**2回＝元の表示に戻す**
+       └ 薄い線           … ⭐**2回＝元の表示に戻す**
+     ⚠⚠**なぜ薄いものにも「2回で戻す」を付けたか**＝
+       網の真ん中を見ているときは、**背景がどこにも無くて戻れない**から。
+       薄いところは見た目には背景と同じなので、そこで戻せるほうが素直。
+     ⚠cytoscape 3.x に dbltap は無いので、**400ms以内の2回**を自前で数えている。
+     ⚠薄いものは掴めない・選べないようにしてあるが、**tap の合図自体は届く**ので数えられる
+       （スタイルで `events:'no'` にしてしまうと届かなくなる。そうしていないのが効いている）。 */
   let lastTap = { id:null, t:0 };
+  const isDouble = el => {
+    const id = el.id(), now = Date.now();
+    const dbl = (lastTap.id === id && now - lastTap.t < 400);
+    lastTap = dbl ? { id:null, t:0 } : { id:id, t:now };
+    return dbl;
+  };
+  const backToNormal = () => {
+    clearDim();
+    const box = document.getElementById('q');
+    if (box) box.value = '';
+    hitCount('元の表示に戻した');
+    setTimeout(() => hitCount(''), 1400);
+  };
+
   cy.on('tap','node', ev => {
-    const id = ev.target.id(), now = Date.now();
-    if (lastTap.id === id && now - lastTap.t < 400){
-      lastTap = { id:null, t:0 };
+    const el = ev.target, dbl = isDouble(el);
+    if (el.hasClass('dim')){ if (dbl) backToNormal(); return; }
+    if (dbl){
       const box = document.getElementById('q');
-      if (box) box.value = ev.target.data('label');   // 検索欄と状態をそろえる
-      spotlight(ev.target);
+      if (box) box.value = el.data('label');   // 検索欄と状態をそろえる
+      spotlight(el);
     } else {
-      lastTap = { id:id, t:now };
+      show(el.data('node'));
     }
   });
+  // ⭐薄い線も、2回押せば元の表示に戻せる
+  cy.on('tap','edge', ev => {
+    if (ev.target.hasClass('dim') && isDouble(ev.target)) backToNormal();
+  });
   cy.on('tap', ev => { if (ev.target === cy){
-    clearDim(); hitCount('');
+    clearDim();
     const box = document.getElementById('q'); if (box) box.value = '';
     if (isPhone()) closeSheets();
   } });
@@ -334,6 +376,15 @@ function boot(data){
   buildFilters(data);
   buildList(data);
   document.getElementById('layout').onchange = e => cy.layout(layoutOpts(e.target.value)).run();
+  document.getElementById('resetview').onclick = resetView;
+  // ⭐Home キーでも戻せる（⚠検索欄などに入力しているときは邪魔しない）
+  document.addEventListener('keydown', e => {
+    if (e.key !== 'Home') return;
+    const a = document.activeElement;
+    if (a && /^(INPUT|TEXTAREA|SELECT)$/.test(a.tagName)) return;
+    e.preventDefault();
+    resetView();
+  });
   document.getElementById('q').oninput = e => search(e.target.value.trim());
   document.querySelector('h1 small').textContent =
     'こころの地図　' + data.nodes.filter(n=>!n.stub).length + '語＋これから' +
@@ -578,6 +629,14 @@ function spotlight(hit, note){
   hit.removeClass('dim');
   hit.neighborhood().removeClass('dim');       // 直接つながっているノード
   hit.connectedEdges().removeClass('dim');     // その線
+  // ⭐⭐薄くしたものは**触っても動かない**ようにする（2026-09-03・gene-atlas とそろえた）。
+  //   ⚠見えにくいものを、うっかり掴んで動かしてしまうのを防ぐ。
+  //   ⭐掴めない（ungrabify）・選べない（unselectify）に加えて、
+  //     タップの受け口でも `.dim` を弾いている（上の cy.on('tap','node') ）。
+  cy.elements('.dim').unselectify();
+  cy.nodes('.dim').ungrabify();
+  cy.elements().not('.dim').selectify();
+  cy.nodes().not('.dim').grabify();
   cy.animate({ fit:{ eles:hit.union(hit.neighborhood()), padding:70 }, duration:380 });
   if (hit.length === 1) show(hit[0].data('node'));
   const around = hit.neighborhood('node').length;
@@ -585,9 +644,35 @@ function spotlight(hit, note){
 }
 function hitCount(s){
   const el = document.getElementById('qhit');
-  if (el) el.textContent = s;
+  if (el) el.textContent = s || '';
 }
-function clearDim(){ if (cy) cy.elements().removeClass('dim'); }
+function clearDim(){
+  if (!cy) return;
+  cy.elements().removeClass('dim').selectify();
+  cy.nodes().grabify();     // ⚠薄くしたときに外した「掴める」を必ず戻す
+  hitCount('');
+}
+
+/* ⭐⭐「表示を戻す」（2026-09-03・燻太さんの依頼。gene-atlas と同じ挙動）。
+   拡大しすぎて、どこを見ているか分からなくなったときの戻り道。
+   ⭐**光らせているときは、光っているところに戻す**（全体まで引かない）。
+     光らせていないときは、見えているもの全部が入るところまで引く。
+   ⚠**光の状態（dim）は消さない。**「表示を戻す」であって「選び直す」ではないので。 */
+function resetView(){
+  if (!cy) return;
+  const el = document.getElementById('qhit');
+  const prev = el ? el.textContent : '';
+  const lit = cy.elements().not('.dim').filter(':visible');
+  const spot = cy.elements('.dim').length > 0 && lit.length > 0;
+  let eles = spot ? lit : cy.elements(':visible');
+  if (!eles.length) eles = cy.elements();
+  // ⚠⚠**gene-atlas では `cy.stop()` のあとに `cy.animate({fit:…})` を呼んでも効かなかった**
+  //   （拡大したまま動かない）。⭐迷子から戻すボタンなのだから、**滑らかさより確実さ**。
+  cy.stop();
+  cy.fit(eles, 70);
+  hitCount(spot ? '光らせているところに戻した' : '表示を戻した');
+  setTimeout(() => hitCount(prev), 1500);
+}
 
 function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
 function md(s){
