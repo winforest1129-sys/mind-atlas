@@ -46,6 +46,7 @@ BRAIN_AREAS = [
     'acc', 'pcc', 'corpus_callosum',
     'amygdala', 'hippocampus', 'thalamus', 'hypothalamus',
     'brainstem', 'cerebellum',
+    'olfactory_bulb', 'piriform',
 ]
 
 # 強さ は省略可。省略すると 標準。⚠ rel に半角カンマは書けない（2026-08-31時点で1件も無い）

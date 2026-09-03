@@ -232,11 +232,13 @@ const BRAIN_AREAS = {
   parietal:'頭頂葉', occipital:'後頭葉', temporal:'側頭葉', insula:'島皮質',
   acc:'前部帯状回', pcc:'後部帯状回', corpus_callosum:'脳梁',
   amygdala:'扁桃体', hippocampus:'海馬', thalamus:'視床', hypothalamus:'視床下部',
-  brainstem:'脳幹', cerebellum:'小脳'
+  brainstem:'脳幹', cerebellum:'小脳',
+  olfactory_bulb:'嗅球', piriform:'梨状皮質'
 };
 // 正中矢状断（左を向いた頭を、まんなかで切った断面）では見えず、
 // 外側や深部にあるので位置だけを破線で示すもの
-const DEEP = ['amygdala','hippocampus','insula','dlpfc','vlpfc','temporal'];
+const DEEP = ['amygdala','hippocampus','insula','dlpfc','vlpfc','temporal',
+              'olfactory_bulb','piriform'];
 
 // スマホでは、左右のパネルを「下からせり上がるシート」として扱う
 const isPhone = () => window.matchMedia('(max-width:760px)').matches;
@@ -348,6 +350,7 @@ function brainSVG(ids){
 
   // 座標は brain.svg（Lynch の解剖図）の viewBox 0 0 295.248 326.109 に合わせてある。
   // 下敷きの図に重ねて4回引き直し、目視で位置を合わせた。左が前。
+  // 2026-09-03に嗅球と梨状皮質を追加（同じ手順で3回引き直した。腹側の縁の内側1.5〜2に収めてある）。
   return '<svg viewBox="0 0 295.248 326.109" role="img" aria-label="脳の正中矢状断">' +
     (BRAIN_BASE
       ? '<g class="baseimg">' + BRAIN_BASE + '</g>'
@@ -371,6 +374,11 @@ function brainSVG(ids){
       '202,120 203,100 196,80 180,70 150,68 120,72 105,84 100,100 102,120') +
     G('acc', '76,128 72,98 80,70 100,48 135,36 155,34 154,45 132,47 105,58 92,76 85,98 88,124') +
     G('pcc', '190,70 210,82 222,100 224,118 220,130 211,127 214,114 212,98 203,86 186,78') +
+    // 腹側の嗅覚路（正中では見えないので位置だけ）
+    G('olfactory_bulb',
+      '48,141.5 56,145.5 64,149.5 72,152 80,154.5 88,156.5 ' +
+      '88,152.5 80,150.5 72,148 64,145.5 56,141.5 48,137.5') +
+    E('piriform', 102, 147, 10, 5) +
     // 深部
     E('insula', 106, 124, 13, 10) +
     E('thalamus', 157, 110, 28, 18) +
