@@ -22,7 +22,9 @@
     display:flex;gap:14px;align-items:center;flex-wrap:wrap}
   h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.04em}
   h1 small{font-weight:400;color:var(--sub);font-size:12px;margin-left:8px}
-  #cy{flex:1;min-height:0}
+  /* ⭐タブレット対応（2026-09-03）：これが無いと、指の操作をブラウザ側が
+   先に取ってしまい、地図が動かない/ページごと拡大される。 */
+  #cy{flex:1;min-height:0;touch-action:none}
   input[type=search],select{padding:5px 9px;border:1px solid var(--line);border-radius:3px;
     background:var(--bg);color:var(--ink);font-size:13px}
   input[type=search]{width:170px}
@@ -111,7 +113,12 @@
   .shop a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(0,0,0,.25)}
   .shop .note{color:var(--sub);font-size:11px}
   /* --- スマホ：3段積みをやめ、下からせり上がるシートにする --- */
-  @media (max-width:760px){
+  /* ⭐⭐タブレットもここに入れる（2026-09-03・燻太さんの依頼）。
+     ⚠もとは 760px だった。**タブレット縦（iPad 820・mini 744・Pro12.9 1024）が
+     そこに入らず、3カラムのままで地図の幅が 200px しか残らなかった。**
+     ⭐1024px までを「下からせり上がるシート」にすると、
+     タブレット縦は地図が全幅、タブレット横（1180〜1366）は3カラムのまま使える。 */
+  @media (max-width:1024px){
     #wrap{flex-direction:column;position:relative;overflow:hidden}
     #main{flex:1;min-height:0}
     header{padding:8px 10px;gap:8px}
@@ -293,7 +300,11 @@ function boot(data){
   cy = cytoscape({
     container: document.getElementById('cy'),
     elements: elements,
-    wheelSensitivity: 0.75,   // ③ 0.25 は拡大に時間がかかりすぎた
+    // ⚠⚠**wheelSensitivity は書かない**（もとは 0.75。0.25 は拡大に時間がかかりすぎた）。
+    //   ホイールの拡大縮小は自前でやる（下の setupWheelZoom）。
+    //   ⭐理由は 2026-09-03 に実測して分かった（燻太さんの報告）:
+    //   Cytoscape は**ホイールの最初の4回を「見本」にして刻み幅を推定**し、
+    //   その4回が不揃いだと**5回目から感度が約20倍に跳ね上がる**。
     style: [
       { selector:'node', style:{
           'label':'data(label)', 'font-size':11, 'color':INK,
@@ -350,7 +361,49 @@ function boot(data){
     setTimeout(() => hitCount(''), 1400);
   };
 
-  cy.on('tap','node', ev => {
+  /* ⭐⭐⭐ ホイールの拡大縮小を自前でやる（2026-09-03・燻太さんの報告で直した）
+
+   ⚠**症状**：ノードを光らせたあとホイールを回すと、感度が急に上がる。
+   ⚠**原因**（実測でつきとめた。こちらのコードのせいではない）：
+     Cytoscape は**ホイールの最初の4回を見本にして刻み幅を推定**する。
+     ・4回が揃っていれば … 1ノッチ 0.95〜0.98倍（おだやか）
+     ・4回が不揃いだと   … **5回目から 1ノッチ 2〜2.5倍**（約20倍の跳ね上がり）
+     スムーススクロールや慣性、光らせた直後の `fit` の最中に回すと不揃いになりやすい。
+
+   ⭐**直しかた**：推定に任せず、**deltaY から決め打ちで倍率を出す。**
+     ⭐⭐**ライブラリの wheel だけを「親の捕獲フェーズ」で横取りする。**
+     Cytoscape は container 自身に付けているので、親の捕獲のほうが先に走る。
+     ⚠⚠**`userZoomingEnabled(false)` では止めないこと。**
+       それだと**タッチのピンチ操作も一緒に死ぬ**（タブレットで使えなくなる）。
+
+   ⭐**強さを変えたいときは ZOOM_PER_NOTCH だけ触ればよい**（大きいほどよく効く）。 */
+const ZOOM_PER_NOTCH = 1.25;   // ふつうのマウスの1ノッチ（deltaY=100）で 1.25倍
+const DELTA_CAP      = 200;    // ⚠慣性で跳ねた大きな delta は、ここで頭打ちにする
+(function setupWheelZoom(){
+  const box = document.getElementById('cy');
+  if (!box) return;
+  const outer = box.parentElement || document;
+  outer.addEventListener('wheel', ev => {
+    if (ev.target !== box && !box.contains(ev.target)) return;
+    ev.preventDefault();
+    ev.stopPropagation();          // ⭐これでライブラリ側のホイール処理には届かない
+    let dy = ev.deltaY;
+    if (ev.deltaMode === 1) dy *= 33;        // 行単位で来る環境
+    else if (ev.deltaMode === 2) dy *= 300;  // ページ単位で来る環境
+    if (!dy) return;
+    dy = Math.max(-DELTA_CAP, Math.min(DELTA_CAP, dy));
+    // ⭐**光らせた直後の `fit` の動きを止める。**
+    //   止めないと、動いている途中の zoom を上書きし合って、飛んだように見える。
+    cy.stop();
+    const r = box.getBoundingClientRect();
+    cy.zoom({
+      level: cy.zoom() * Math.pow(ZOOM_PER_NOTCH, -dy / 100),
+      renderedPosition: { x: ev.clientX - r.left, y: ev.clientY - r.top }
+    });
+  }, { capture: true, passive: false });
+})();
+
+cy.on('tap','node', ev => {
     const el = ev.target, dbl = isDouble(el);
     if (el.hasClass('dim')){ if (dbl) backToNormal(); return; }
     if (dbl){
