@@ -187,6 +187,7 @@
       <button class="btn" id="toggleList" title="一覧の開け閉め">一覧</button>
       <input type="search" id="q" placeholder="用語をさがす"><span id="qhit"></span>
       <select id="layout">
+        <option value="saved">保存した位置</option>
         <option value="cose">ネットワーク</option>
         <option value="concentric">放射状</option>
         <option value="breadthfirst">木</option>
@@ -228,6 +229,10 @@
 <script src="https://cdn.jsdelivr.net/npm/layout-base@2.0.1/layout-base.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/cose-base@2.2.0/cose-base.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/cytoscape-fcose@2.2.0/cytoscape-fcose.js"></script>
+<!-- ⭐保存したノードの位置（tools/build_positions.py が作る）。
+     ⚠**本体より先に読む**こと。本体は読みこみ時に window.POS を見る。
+     ⚠無くてもよい（404でも地図は動く。そのときは今までどおり力学レイアウト）。 -->
+<script src="positions.js"></script>
 <script>
 const TYPE_SHAPE = {
   '用語':'ellipse', '人物':'hexagon', '理論':'diamond',
@@ -332,8 +337,24 @@ function boot(data){
           'width':2.2, 'line-color':RED, 'target-arrow-color':RED, 'color':RED } },
       { selector:'.dim', style:{ 'opacity':0.12 } }
     ],
-    layout: layoutOpts('cose')
+    // ⭐保存した位置があるなら計算しない。下で座標を置いてから並べる
+    layout: { name:'preset' }
   });
+
+  /* ⭐⭐最初の並べかた（2026-09-04）。
+     ⚠**保存した位置があるかどうかで、やることが丸ごと変わる。**
+       ある … 座標を置いて preset（計算しない・毎回まったく同じ配置）
+       無い … 今までどおり力学レイアウト */
+  const _sel0 = document.getElementById('layout');
+  if (SAVED && _sel0 && _sel0.value === 'saved'){
+    const lost = applySavedPositions();
+    cy.layout({ name:'preset', fit:true, padding:60 }).run();
+    if (lost) console.log('[mind-atlas] 位置が無く渦巻きに置いたノード: ' + lost);
+  } else {
+    // positions.js が無い（または読めなかった）ときは、欄を戻してから回す
+    if (_sel0 && _sel0.value === 'saved') _sel0.value = 'cose';
+    cy.layout(layoutOpts('cose')).run();
+  }
 
   /* ⭐⭐押したときの決まり（2026-09-03に gene-atlas とそろえた）
        ┌ 光っているノード … 1回＝中身を出す ／ 2回＝そこを中心に光らせ直す
@@ -509,7 +530,53 @@ const PULL = {
 };
 const pullOf = e => PULL[e.data('w')] || PULL['標準'];
 
+/* ⭐⭐保存したノードの位置（2026-09-04・Plant-gene-atlas から移した）。
+   ⚠**なぜ要るか**＝力学レイアウト（fcose・randomize:true）を開くたびに回していたので、
+     ⭐**開くたびに配置が変わっていた**（実測＝2回のあいだで最大 618px のずれ）。
+     地図は「どこに何があるか」を覚えて使うものなので、これがいちばん効く。
+   ⭐`tools/build_positions.py` が手元で1回だけ回して `positions.js` に固める。
+   ⚠`positions.js` が無ければ null。そのときは今までどおり力学レイアウトに倒れる。
+   ⚠⚠キャッシュに注意＝`positions.js` は素の src で読んでいる。
+     位置を作り直したのに古い配置が出るときは、いちど強い再読み込み（Ctrl+F5）を。 */
+const SAVED = (window.POS && Object.keys(window.POS).length) ? window.POS : null;
+
+/* ⭐保存した座標をノードに置く。
+   ⚠**座標の無いノード**（作り直しのあとに足したもの）は、
+     ⭐**線でつながっている相手のそばに置く**。原点に集まると団子になるため。
+   ⚠それも無ければ渦巻きに逃がす（重ならないように）。
+   戻り値＝渦巻きに逃がした数（0 が普通）。 */
+function applySavedPositions(){
+  if (!SAVED) return 0;
+  const miss = [];
+  cy.nodes().forEach(n => {
+    const p = SAVED[n.id()];
+    if (p) n.position({ x:p[0], y:p[1] }); else miss.push(n);
+  });
+  // つながっている相手のそばへ（2周ぶん見る。相手も新しいことがあるため）
+  for (let pass = 0; pass < 2 && miss.length; pass++){
+    for (let i = miss.length - 1; i >= 0; i--){
+      const n = miss[i];
+      const near = n.neighborhood('node')
+                    .filter(m => SAVED[m.id()] || miss.indexOf(m) < 0);
+      if (!near.length) continue;
+      const q = near[0].position();
+      n.position({ x:q.x + 40 + (i % 5) * 22, y:q.y + 30 + (i % 7) * 22 });
+      miss.splice(i, 1);
+    }
+  }
+  let k = 0;
+  miss.forEach(n => { const a = k++ * 2.399963;
+    n.position({ x:Math.cos(a) * Math.sqrt(k) * 70,
+                 y:Math.sin(a) * Math.sqrt(k) * 70 }); });
+  return miss.length;
+}
+
 function layoutOpts(name){
+  // ⭐保存した位置＝座標を置くだけ。計算しない
+  if (name === 'saved'){
+    if (!SAVED) name = 'cose';          // positions.js が無ければ力学レイアウトに倒す
+    else { applySavedPositions(); return { name:'preset', fit:true, padding:60 }; }
+  }
   // nodeDimensionsIncludeLabels = ラベルの大きさも「ノードの大きさ」として扱う。
   // これが重なりの根治。丸だけを避けて置くと、下に伸びる文字がぶつかる。
   const base = { name:name, animate:true, animationDuration:450, padding:60,

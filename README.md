@@ -146,6 +146,30 @@ git commit -m "add core consciousness node"
 git push
 ```
 
+### ⭐ ノードの位置（`positions.js`）
+
+**2026-09-04 に、開くたびに配置が変わるのをやめた。**
+前は力学レイアウト（fcose・`randomize:true`）を**開くたびに回していた**ので、
+同じ地図なのに毎回ちがう形で出てきた（実測＝2回のあいだで最大 618px のずれ）。
+地図は「どこに何があるか」を覚えて使うものなので、これがいちばん困る。
+
+```bash
+python tools/build_map.py         # 先にこちら
+python tools/build_positions.py   # ⭐そのあとに、これ
+```
+
+`tools/build_positions.py` が**手元で1回だけ**レイアウトを回して、
+座標を `positions.js`（`window.POS`）に固める。画面はそれを置くだけになる。
+
+- ⚠ **毎回流さなくてよい。**ノードを足しただけなら、そのノードは
+  **線でつながっている相手のそば**に置かれる。たくさん足したときや、
+  配置が窮屈になってきたときに流し直す。
+- ⚠ **`positions.js` が無くても地図は動く。**そのときは今までどおり力学レイアウトに倒れ、
+  レイアウト欄も自動で「ネットワーク」に戻る。
+- ⭐ **レイアウト欄で「ネットワーク」を選べば、その場で回し直せる**（保存はされない）。
+- ⚠ 位置を作り直したのに古い配置が出るときは、**強い再読み込み（Ctrl+F5）**。
+  `positions.js` は素の `src` で読んでいるので、キャッシュが残ることがある。
+
 ⚠ **コミットメッセージは英語で、引用符（`"` `'`）を使わない。**
 PowerShell 5.1 が引数を割ってしまい `pathspec did not match` で落ちる（植物図鑑で3回やらかした）。
 
@@ -163,6 +187,8 @@ PowerShell 5.1 が引数を割ってしまい `pathspec did not match` で落ち
 | `nodes/*.md` | ⭐書く場所。1用語1ファイル |
 | `brain.svg` | 脳の正中矢状断の解剖図。⭐**他人の著作物**（下のライセンスを見ること） |
 | `tools/build_map.py` | `nodes/` → `data.json`。PyYAML不要（frontmatterは自前パース） |
+| `tools/build_positions.py` | ⭐ノードの位置を1回だけ計算して `positions.js` に固める（ヘッドレスChrome） |
+| `positions.js` | 生成物だが**git に入れる**。無くても動くが、あると配置が毎回同じになる |
 | `.nojekyll` | Jekyllを止める。植物図鑑でビルドが10分タイムアウトして落ちた対策 |
 
 植物図鑑（`plant-guide`）とは違って、**道具もリポジトリの中に入れてある**。
