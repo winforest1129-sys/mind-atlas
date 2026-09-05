@@ -459,7 +459,51 @@ cy.on('tap','node', ev => {
     e.preventDefault();
     resetView();
   });
-  document.getElementById('q').oninput = e => search(e.target.value.trim());
+  /* ⭐⭐ 検索は「入力が落ち着いてから」1回だけ走らせる（2026-09-05・燻太さんの報告で直した）
+
+     ⚠**症状**：語を打っているあいだ絞り込みが並行して走り、
+       ⭐**打ち終わったあとも、地図がラグを引きずってカクつく。**
+
+     ⚠**原因**：`oninput` が**1打鍵ごとに** `search()` を呼んでいた。
+       `search()` の中身は ①全要素の class 付け替え ②全ノードの走査
+       ③**380ms の fit アニメーション**。
+       ⭐⭐**とくに③が打鍵のたびに積み上がる**ので、手を止めたあとも動き続ける。
+       （実測：日本語で「協調性」を変換して打つと、⭐直す前は `search()` が
+        **20回**走っていた ── `きょうc`・`きょうちょうせi` のような途中の文字列で毎回。
+        ⭐直したあとは **1回**（`協調性` のみ））
+
+     ⭐**直しかたは3つ**：
+       ① **デバウンス** … 最後の入力から `SEARCH_WAIT` ミリ秒たってから1回だけ呼ぶ
+       ② **IME** … 日本語の変換中（compositionstart〜compositionend）は走らせない。
+          ⚠この地図はノード名に日本語（表現型・条件・生物種）があるので、ここが効く
+       ③ **空にしたときは待たずにすぐ戻す**（消したのに残ると、かえって不安になる）
+       ⭐**Enter は待たずに今すぐ**走らせる。
+
+     ⏳**待ち時間を変えたいときは `SEARCH_WAIT` だけ触ればよい**（小さいほど機敏・重い）。 */
+  const SEARCH_WAIT = 250;
+  (function setupSearchBox(){
+    const box = document.getElementById('q');
+    if (!box) return;
+    let timer = null, composing = false;
+    const now = () => { timer = null; search(box.value.trim()); };
+    const later = () => {
+      if (timer){ clearTimeout(timer); timer = null; }
+      if (composing) return;                       // 変換が確定するまで待つ
+      if (!box.value.trim()){ search(''); return; } // 空はすぐ戻す
+      timer = setTimeout(now, SEARCH_WAIT);
+    };
+    box.addEventListener('input', later);
+    box.addEventListener('compositionstart', () => {
+      composing = true;
+      if (timer){ clearTimeout(timer); timer = null; }
+    });
+    box.addEventListener('compositionend', () => { composing = false; later(); });
+    box.addEventListener('keydown', ev => {
+      if (ev.key !== 'Enter') return;
+      if (timer){ clearTimeout(timer); timer = null; }
+      now();
+    });
+  })();
   document.querySelector('h1 small').textContent =
     'こころの地図　' + data.nodes.filter(n=>!n.stub).length + '語＋これから' +
     data.nodes.filter(n=>n.stub).length + '　（' + data.generated + '）';
@@ -757,6 +801,12 @@ function spotlight(hit, note){
   cy.nodes('.dim').ungrabify();
   cy.elements().not('.dim').selectify();
   cy.nodes().not('.dim').grabify();
+  /* ⭐⭐**前の動きを止めてから動かす**（2026-09-05）。
+     ⚠`cy.animate` は**待ち行列に積む**ので、止めないと続けて呼ばれたぶんが
+       順番に再生され、⭐**手を止めたあとも地図が動き続ける。**
+     ⚠⚠**引数の `true` が要る** ── `cy.stop()` だけでは「いま動いているもの」しか
+       止まらず、⭐**積まれているぶんが残る**。`cy.stop(true)` で待ち行列ごと捨てる。 */
+  cy.stop(true);
   cy.animate({ fit:{ eles:hit.union(hit.neighborhood()), padding:70 }, duration:380 });
   if (hit.length === 1) show(hit[0].data('node'));
   const around = hit.neighborhood('node').length;

@@ -5,3 +5,6 @@ desktop.ini
 # Python
 __pycache__/
 *.pyc
+# 退避（公開するものではない）
+_backup/
+_確認用*.html
