@@ -177,7 +177,15 @@ def main():
         print('⚠座標を取り出せなかった。'
               '--待つ を増やすか、index.html が開けるか確かめること')
         return 1
-    d = json.loads(m.group(1))
+    # ⚠⚠**DOM から取り出すと `&` が `&amp;` に化ける**（2026-09-09に踏んだ）。
+    #   ⭐`2007 Olsson & Phelps` のような名前のノードが
+    #   ⚠**座標の鍵として一致せず、その3個だけ座標が無い状態になった。**
+    #   ⭐DOM の直列化が入れる実体参照はこの3つだけなので、それだけ戻す。
+    #   ⚠`html.unescape` は使わない（`&copy;` のような名前を勝手に変えてしまう）。
+    raw = m.group(1)
+    for ent, ch in (('&lt;', '<'), ('&gt;', '>'), ('&amp;', '&')):
+        raw = raw.replace(ent, ch)      # ⚠`&amp;` は必ず最後
+    d = json.loads(raw)
     pos = d['pos']
     print('  %s ／ ノード %d ／ 画面の中で %.1f 秒'
           % (d['why'], d['n'], d['ms'] / 1000.0))
