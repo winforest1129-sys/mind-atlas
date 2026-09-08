@@ -36,7 +36,10 @@ OUT = os.path.join(ROOT, 'data.json')
 
 # 予感 = 燻太さんが「関連がありそう」と感じたところから生まれた項目。
 # まだ主張ではなく、筋の通るところ・切れるところを並べて置いておくための型。
-VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論', '予感']
+VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論', '予感', '論文']
+# ⭐MIND-PAPER-TYPE：論文ノードが持てる欄（2026-09-09）。
+#   ⚠ここに無い欄は data.json に通らない（型ごとの決まった欄だけを通す作り）。
+PAPER_FIELDS = ['年', '著者', '雑誌', 'DOI', '書誌の出どころ']
 VALID_CONF = ['確認済', '推測', '未調査']
 
 # 脳の模式図に載せられる領域。index.html の BRAIN_AREAS と必ず揃えること
@@ -186,10 +189,18 @@ def main():
                                 ', '.join(BRAIN_AREAS) + '）')
         brain = [b for b in brain if b in BRAIN_AREAS]
 
+        # ⭐論文の書誌（年・著者・雑誌・DOI）を通す。⚠他の型では空のまま
+        fields = {}
+        for k in PAPER_FIELDS:
+            if meta.get(k):
+                fields[k] = meta[k]
+        if ntype == '論文' and not fields.get('年'):
+            warnings.append(fn + ': 論文なのに 年 が無い（輪で年代順に並べられない）')
+
         nodes[nid] = {
             'id': nid, 'type': ntype, 'confidence': conf,
             'sources': sources, 'refs': refs, 'brain': brain, 'file': 'nodes/' + fn,
-            'owned': owned, 'shops': shops,
+            'owned': owned, 'shops': shops, 'fields': fields,
             'sections': split_sections(body), 'stub': False,
         }
         for lk in meta['links']:
@@ -207,7 +218,7 @@ def main():
             nodes[e['target']] = {
                 'id': e['target'], 'type': '用語', 'confidence': '未調査',
                 'sources': [], 'refs': [], 'brain': [], 'file': None,
-                'owned': '不明', 'shops': [],
+                'owned': '不明', 'shops': [], 'fields': {},
                 'sections': {}, 'stub': True,
             }
 

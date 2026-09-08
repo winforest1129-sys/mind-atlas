@@ -8,3 +8,8 @@ __pycache__/
 # 退避（公開するものではない）
 _backup/
 _確認用*.html
+# ⭐論文の作業ファイル（作り直せるもの）。⚠外から取った書誌の控えだけは git に入れる
+_papers/refs一覧.tsv
+_papers/論文一覧.json
+_フォーカス検査用.html
+_撮影用.html

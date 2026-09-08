@@ -262,11 +262,14 @@
 const TYPE_SHAPE = {
   '用語':'ellipse', '人物':'hexagon', '理論':'diamond',
   '実験':'triangle', '症例':'octagon', '書物':'round-rectangle',
-  '予感':'star'
+  '予感':'star', '論文':'rectangle'
 };
 const TYPE_COLOR = {
   '用語':'#7a6da8','人物':'#4f8a6b','理論':'#c07a3e','実験':'#3f8b96','症例':'#8a6250','書物':'#3d5a80',
-  '予感':'#a8577a'
+  '予感':'#a8577a',
+  // ⭐論文（2026-09-09）。⚠いちばん数が多くなる型なので、⭐落ち着いた灰青にして
+  //   書物（濃い青 #3d5a80）とも用語（紫 #7a6da8）とも見分けがつくようにした
+  '論文':'#7d8794'
 };
 const DARK = window.matchMedia('(prefers-color-scheme:dark)').matches;
 const INK  = DARK ? '#e6e2da' : '#2f2b26';
@@ -768,7 +771,8 @@ function buildFilters(data){
 }
 
 // ---- ① 一覧パネル ----------------------------------------------------
-const ORDER = ['予感','書物','人物','理論','症例','実験','用語'];
+// ⭐論文は書物のとなり（どちらも「どこから来たか」の側）。⭐輪の並びもこの順を使う
+const ORDER = ['予感','書物','論文','人物','理論','症例','実験','用語'];
 
 function buildList(data){
   // 「本でしぼる」= 書物ノードごとのチェックボックス。キーは その本の 出典 の値
@@ -1081,11 +1085,26 @@ function addTypeTicks(sorted, r, outer){
 /* ⭐種類ごとに固めて並べ替える。⚠⚠**素の配列に直してから並べ替える。**
    ⭐cytoscape のコレクションのまま `sort`／`concat` すると、
      ⚠**位置を入れても全部が同じ場所に重なる**（LAND で踏んだ。⭐エラーは出ない）。 */
+function paperYear(n){
+  const d = n.data('node');
+  const y = d && d.fields && d.fields['年'];
+  if (y && /^\d{4}$/.test(String(y).trim())) return parseInt(y, 10);
+  const m = /(\d{4})/.exec(String(n.data('label') || ''));
+  return m ? parseInt(m[1], 10) : 9999;      // 年が分からないものは最後に回す
+}
 function sortByType(arr){
   return arr.slice().sort((a, b) => {
     const ia = ORDER.indexOf(a.data('type')), ib = ORDER.indexOf(b.data('type'));
-    return ((ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib)) ||
-           a.data('label').localeCompare(b.data('label'), 'ja');
+    const d = (ia < 0 ? 99 : ia) - (ib < 0 ? 99 : ib);
+    if (d) return d;
+    /* ⭐⭐MIND-PAPER-TYPE（2026-09-09）：**論文どうしは年代順**に並べる。
+       ⭐燻太さんの狙い＝「どのような時期の研究で裏付けられているのか追いやすく」。
+       ⚠輪の作り（一周を種類ごと）は変えていない。⭐変えたのは論文の扇の中だけ。 */
+    if (a.data('type') === '論文' && b.data('type') === '論文'){
+      const ya = paperYear(a), yb = paperYear(b);
+      if (ya !== yb) return ya - yb;
+    }
+    return a.data('label').localeCompare(b.data('label'), 'ja');
   });
 }
 
@@ -1384,6 +1403,21 @@ function show(n){
   h += '<div class="meta"><span class="badge" style="background:' + color + '">' +
        esc(n.type) + '</span><span class="conf">' + esc(n.confidence) + '</span>';
   if (n.sources.length) h += '<br>出典: ' + n.sources.map(esc).join(' / ');
+  /* ⭐⭐MIND-PAPER-TYPE：論文の書誌を、いちばん上に出す（2026-09-09）。
+     ⚠**どこから取った書誌かも必ず出す** ── Crossref／PubMed で確かめたのか、
+       引用元の記述をそのまま写したのかで、寄りかかれる度合いが違う。 */
+  if (n.fields && Object.keys(n.fields).length){
+    const F = n.fields;
+    const line = [];
+    if (F['著者']) line.push(esc(F['著者']));
+    if (F['年'])   line.push(esc(F['年']));
+    if (F['雑誌']) line.push('<i>' + esc(F['雑誌']) + '</i>');
+    if (line.length) h += '<br>' + line.join(' ・ ');
+    if (F['DOI']) h += '<br>DOI: <a href="https://doi.org/' + esc(F['DOI']) +
+                       '" target="_blank" rel="noopener noreferrer">' + esc(F['DOI']) + '</a>';
+    if (F['書誌の出どころ'])
+      h += '<br><span style="opacity:.75">書誌の出どころ: ' + esc(F['書誌の出どころ']) + '</span>';
+  }
   if (n.file) h += '<br><span style="opacity:.7">' + esc(n.file) + '</span>';
   h += '</div>';
 
