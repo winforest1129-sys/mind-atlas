@@ -1,0 +1,439 @@
+{
+ "2007 Olsson & Nearing": {
+  "ok": true,
+  "kb": 298.9,
+  "url": "https://europepmc.org/articles/PMC2555428?pdf=render",
+  "pmcid": "PMC2555428"
+ },
+ "2007 Naqvi": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://europepmc.org/articles/PMC3698854?pdf=render"
+ },
+ "2008 Ochsner": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://europepmc.org/articles/PMC4241349?pdf=render"
+ },
+ "2007 Seeley": {
+  "ok": true,
+  "kb": 306.4,
+  "url": "https://europepmc.org/articles/PMC2680293?pdf=render",
+  "pmcid": "PMC2680293"
+ },
+ "2009 Murphy": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2750906"
+ },
+ "2008 Sridharan": {
+  "ok": true,
+  "kb": 735.3,
+  "url": "https://europepmc.org/articles/PMC2527952?pdf=render",
+  "pmcid": "PMC2527952"
+ },
+ "2005 Lazar": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/1361002"
+ },
+ "2009 Zaki": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6558959"
+ },
+ "2010 McRae": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://direct.mit.edu/jocn/article-pdf/22/2/248/1938633/jocn.2009.21243.pdf"
+ },
+ "2011 Krach": {
+  "ok": true,
+  "kb": 284.0,
+  "url": "https://europepmc.org/articles/PMC3076433?pdf=render",
+  "pmcid": "PMC3076433"
+ },
+ "2013 Klimecki": {
+  "ok": true,
+  "kb": 475.9,
+  "url": "https://europepmc.org/articles/PMC4040103?pdf=render",
+  "pmcid": "PMC4040103"
+ },
+ "2010 Nowak": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://cnrs.hal.science/hal-02174371"
+ },
+ "2014 Cutuli": {
+  "ok": true,
+  "kb": 370.4,
+  "url": "https://europepmc.org/articles/PMC4168764?pdf=render",
+  "pmcid": "PMC4168764"
+ },
+ "2010 Menon": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2899886"
+ },
+ "2014 Singer": {
+  "ok": false,
+  "why": "PDFではない中身が返った(2944 bytes)",
+  "url": "http://www.cell.com/article/S0960982214007702/pdf"
+ },
+ "2013 Taren": {
+  "ok": true,
+  "kb": 881.6,
+  "url": "https://europepmc.org/articles/PMC3661490?pdf=render",
+  "pmcid": "PMC3661490"
+ },
+ "2013 Veerappa": {
+  "ok": true,
+  "kb": 1301.0,
+  "url": "https://europepmc.org/articles/PMC3700933?pdf=render",
+  "pmcid": "PMC3700933"
+ },
+ "2014 Nekovarova": {
+  "ok": true,
+  "kb": 603.9,
+  "url": "https://europepmc.org/articles/PMC4038855?pdf=render",
+  "pmcid": "PMC4038855"
+ },
+ "2013 Nielsen": {
+  "ok": true,
+  "kb": 4976.0,
+  "url": "https://europepmc.org/articles/PMC3743825?pdf=render",
+  "pmcid": "PMC3743825"
+ },
+ "2015 Meister": {
+  "ok": true,
+  "kb": 739.9,
+  "url": "https://europepmc.org/articles/PMC4491593?pdf=render",
+  "pmcid": "PMC4491593"
+ },
+ "2015 Müller-Pinzler": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://academic.oup.com/scan/article-pdf/11/3/466/27103052/nsv130.pdf"
+ },
+ "2015 Lieberman": {
+  "ok": true,
+  "kb": 1845.2,
+  "url": "https://europepmc.org/articles/PMC4679028?pdf=render",
+  "pmcid": "PMC4679028"
+ },
+ "2015 Turin": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.pnas.org/content/pnas/112/25/E3154.full.pdf"
+ },
+ "2015 Tan": {
+  "ok": true,
+  "kb": 628.4,
+  "url": "https://europepmc.org/articles/PMC4704490?pdf=render",
+  "pmcid": "PMC4704490"
+ },
+ "2015 Olsson": {
+  "ok": true,
+  "kb": 556.7,
+  "url": "https://europepmc.org/articles/pmc6053030?pdf=render",
+  "pmcid": "PMC6053030"
+ },
+ "2017 Barrett": {
+  "ok": true,
+  "kb": 36.8,
+  "url": "https://europepmc.org/articles/PMC5691871?pdf=render",
+  "pmcid": "PMC5691871"
+ },
+ "2015 Monahan": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://europepmc.org/articles/PMC4882762?pdf=render"
+ },
+ "2017 Birch": {
+  "ok": true,
+  "kb": 553.7,
+  "url": "https://europepmc.org/articles/PMC5541557?pdf=render",
+  "pmcid": "PMC5541557"
+ },
+ "2017 McGann": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://europepmc.org/articles/PMC5512720?pdf=render"
+ },
+ "2017 Murphy": {
+  "ok": true,
+  "kb": 224.6,
+  "url": "https://europepmc.org/articles/PMC5489207?pdf=render",
+  "pmcid": "PMC5489207"
+ },
+ "2016 Krishnan": {
+  "ok": true,
+  "kb": 10073.0,
+  "url": "https://europepmc.org/articles/PMC4907690?pdf=render",
+  "pmcid": "PMC4907690"
+ },
+ "2018 Kupper": {
+  "ok": true,
+  "kb": 621.6,
+  "url": "https://europepmc.org/articles/PMC6153564?pdf=render",
+  "pmcid": "PMC6153564"
+ },
+ "2018 Rogers-Carter": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://europepmc.org/articles/PMC6051351?pdf=render"
+ },
+ "2018 Patzelt": {
+  "ok": true,
+  "kb": 320.6,
+  "url": "https://europepmc.org/articles/PMC7219680?pdf=render",
+  "pmcid": "PMC7219680"
+ },
+ "2020 Barnes": {
+  "ok": true,
+  "kb": 1580.9,
+  "url": "https://europepmc.org/articles/PMC7055050?pdf=render",
+  "pmcid": "PMC7055050"
+ },
+ "2020 Tei": {
+  "ok": true,
+  "kb": 1222.7,
+  "url": "https://europepmc.org/articles/PMC7049137?pdf=render",
+  "pmcid": "PMC7049137"
+ },
+ "2020 Holtmann": {
+  "ok": true,
+  "kb": 1545.7,
+  "url": "https://europepmc.org/articles/PMC7347022?pdf=render",
+  "pmcid": "PMC7347022"
+ },
+ "2015 Wyatt": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4375873"
+ },
+ "2020 Wyatt": {
+  "ok": true,
+  "kb": 543.9,
+  "url": "https://europepmc.org/articles/PMC7209928?pdf=render",
+  "pmcid": "PMC7209928"
+ },
+ "2021 Friston": {
+  "ok": true,
+  "kb": 1675.0,
+  "url": "https://europepmc.org/articles/PMC8391698?pdf=render",
+  "pmcid": "PMC8391698"
+ },
+ "2022 Kral": {
+  "ok": true,
+  "kb": 269.1,
+  "url": "https://europepmc.org/articles/PMC9122316?pdf=render",
+  "pmcid": "PMC9122316"
+ },
+ "2016 Wager": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.pnas.org/content/pnas/113/18/E2474.full.pdf"
+ },
+ "2022 Taniguchi": {
+  "ok": true,
+  "kb": 5105.7,
+  "url": "https://europepmc.org/articles/PMC9447900?pdf=render",
+  "pmcid": "PMC9447900"
+ },
+ "2022 Jung": {
+  "ok": true,
+  "kb": 2289.2,
+  "url": "https://europepmc.org/articles/PMC9267001?pdf=render",
+  "pmcid": "PMC9267001"
+ },
+ "2022 Veraksa": {
+  "ok": true,
+  "kb": 655.8,
+  "url": "https://europepmc.org/articles/PMC9235839?pdf=render",
+  "pmcid": "PMC9235839"
+ },
+ "2024 Janža": {
+  "ok": true,
+  "kb": 2296.9,
+  "url": "https://europepmc.org/articles/PMC11577028?pdf=render",
+  "pmcid": "PMC11577028"
+ },
+ "2023 Polajnar": {
+  "ok": true,
+  "kb": 2155.8,
+  "url": "https://europepmc.org/articles/PMC10235090?pdf=render",
+  "pmcid": "PMC10235090"
+ },
+ "2021 Sanchez-Canizares": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.mdpi.com/1099-4300/23/2/238/pdf?version=1614303084"
+ },
+ "2025 Higgins": {
+  "ok": true,
+  "kb": 545.9,
+  "url": "https://europepmc.org/articles/PMC12824027?pdf=render",
+  "pmcid": "PMC12824027"
+ },
+ "2025 Mavroudis": {
+  "ok": true,
+  "kb": 686.8,
+  "url": "https://europepmc.org/articles/PMC12468354?pdf=render",
+  "pmcid": "PMC12468354"
+ },
+ "2023 Barwich": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/tops.12689"
+ },
+ "2025 Barwich": {
+  "ok": true,
+  "kb": 7182.1,
+  "url": "https://europepmc.org/articles/PMC12381405?pdf=render",
+  "pmcid": "PMC12381405"
+ },
+ "2023 Jones": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10709083/pdf/main.pdf"
+ },
+ "2025 Al Nakhebi": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.mdpi.com/2075-1729/15/7/1061/pdf?version=1751451564"
+ },
+ "2025 Morales": {
+  "ok": true,
+  "kb": 22524.1,
+  "url": "https://europepmc.org/articles/PMC12304901?pdf=render",
+  "pmcid": "PMC12304901"
+ },
+ "1999 Wegner": {
+  "ok": false,
+  "why": "HTTP Error 403: Forbidden",
+  "url": "https://philpapers.org/archive/WEGAMC.pdf"
+ },
+ "1999 Malnic": {
+  "ok": false,
+  "why": "PDFではない中身が返った(2927 bytes)",
+  "url": "http://www.cell.com/article/S0092867400805814/pdf"
+ },
+ "2000 Denollet": {
+  "ok": false,
+  "why": "PDFではない中身が返った(37969 bytes)",
+  "url": "https://pure.uvt.nl/ws/files/411592/type_D_personality_a_potential.pdf"
+ },
+ "2009 Fox": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2694109"
+ },
+ "2009 Soucy": {
+  "ok": false,
+  "why": "PDFではない中身が返った(466425 bytes)",
+  "url": "http://nrs.harvard.edu/urn-3:HUL.InstRepos:34728634"
+ },
+ "2011 Whooley": {
+  "ok": false,
+  "why": "PDFではない中身が返った(2608 bytes)",
+  "url": "https://www.sciencedirect.com/science/article/pii/S0735109711023394/pdf"
+ },
+ "2012 Petticrew": {
+  "ok": false,
+  "why": "PDFではない中身が返った(20464 bytes)",
+  "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3477961"
+ },
+ "2014 Van Thor": {
+  "ok": true,
+  "kb": 517.6,
+  "url": "https://radar.brookes.ac.uk/radar/file/36f5b068-995c-4d50-bec8-40cbd5665089/1/special08-paper-02.pdf",
+  "pmcid": ""
+ },
+ "2015 Gerkin": {
+  "ok": false,
+  "why": "HTTP Error 403: Forbidden",
+  "url": "https://doi.org/10.7554/elife.08127"
+ },
+ "2015 Landy": {
+  "ok": false,
+  "why": "PDFではない中身が返った(827 bytes)",
+  "url": "https://repository.upenn.edu/bitstreams/f68918bb-0e6f-4081-abec-daf400322dc2/download"
+ },
+ "2014 Earp": {
+  "ok": false,
+  "why": "PDFではない中身が返った(475276 bytes)",
+  "url": "https://www.repository.cam.ac.uk/handle/1810/245200"
+ },
+ "2016 Wagenmakers": {
+  "ok": true,
+  "kb": 836.6,
+  "url": "https://pure.uva.nl/ws/files/14872420/Registered_Replication_Report.pdf",
+  "pmcid": ""
+ },
+ "2016 White": {
+  "ok": false,
+  "why": "PDFではない中身が返った(3038 bytes)",
+  "url": "https://link.springer.com/content/pdf/10.1007%2Fs40750-016-0049-5.pdf"
+ },
+ "2018 Xu": {
+  "ok": true,
+  "kb": 577.2,
+  "url": "https://pure.rug.nl/ws/files/62675701/1_s2.0_S0149763417305298_main.pdf",
+  "pmcid": ""
+ },
+ "2020 Seth": {
+  "ok": false,
+  "why": "HTTP Error 403: Forbidden",
+  "url": "https://philpapers.org/archive/SETCIR.pdf"
+ },
+ "2017 Soto": {
+  "ok": true,
+  "kb": 1728.3,
+  "url": "https://escholarship.org/content/qt16x6n05t/qt16x6n05t.pdf?t=qwp60t",
+  "pmcid": ""
+ },
+ "2015 Block": {
+  "ok": true,
+  "kb": 1477.3,
+  "url": "https://www.osti.gov/servlets/purl/1213361",
+  "pmcid": ""
+ },
+ "2021 Colombo": {
+  "ok": false,
+  "why": "HTTP Error 404: Not Found",
+  "url": "https://link.springer.com/content/pdf/10.1007/s11229-018-01932-w.pdf"
+ },
+ "2022 Coles": {
+  "ok": false,
+  "why": "PDFではない中身が返った(3772 bytes)",
+  "url": "https://www.nature.com/articles/s41562-022-01458-9.pdf"
+ },
+ "2024 Nielsen": {
+  "ok": false,
+  "why": "<urlopen error [Errno 11001] getaddrinfo failed>",
+  "url": "https://doi.org/10.1016/j.avb.2023.101908"
+ },
+ "2020 Van de Cruys": {
+  "ok": false,
+  "why": "PDFではない中身が返った(0 bytes)",
+  "url": "http://sro.sussex.ac.uk/id/eprint/93281/3/DeCruysdarkroomResponseTICS.pdf"
+ },
+ "2025 Velilla": {
+  "ok": true,
+  "kb": 1597.0,
+  "url": "https://edepot.wur.nl/697975",
+  "pmcid": ""
+ },
+ "2023 Budiarto": {
+  "ok": true,
+  "kb": 1010.2,
+  "url": "https://psyct.swu.bg/index.php/psyct/article/download/739/pdf",
+  "pmcid": ""
+ },
+ "2014 Uysal": {
+  "ok": false,
+  "why": "HTTP Error 500: Internal Server Error",
+  "url": "https://hdl.handle.net/11511/57789"
+ }
+}

@@ -20,7 +20,11 @@
   #main{flex:1;display:flex;flex-direction:column;min-width:0}
   header{padding:10px 16px;border-bottom:1px solid var(--line);background:var(--panel);
     display:flex;gap:14px;align-items:center;flex-wrap:wrap}
-  h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.04em}
+  /* ⭐⭐**タイトルの行は⭐1行を占有する**（2026-09-09・燻太さんの指定）。
+     ⚠`h1 small` に⭐長い統計文が入るため、⭐そのままだと⭐幅が 630px ほどになり、
+     ⭐検索欄などが⭐画面の中央あたりまで押し出されていた（⭐`tools/check_header.py` で実測）。
+     ⭐1行占有にすると⭐**操作系がぜんぶ左端から始まる。** */
+  h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.04em;flex:0 0 100%}
   h1 small{font-weight:400;color:var(--sub);font-size:12px;margin-left:8px}
   /* ⭐タブレット対応（2026-09-03）：これが無いと、指の操作をブラウザ側が
    先に取ってしまい、地図が動かない/ページごと拡大される。 */
@@ -70,6 +74,22 @@
     padding-bottom:10px;border-bottom:1px solid var(--line)}
   #side h3{font-size:12px;color:var(--sub);margin:16px 0 5px;font-weight:600;letter-spacing:.06em}
   #side .empty{color:var(--sub);line-height:1.9}
+  /* ⭐⭐説明欄の強調（2026-09-09・燻太さんの指定）。
+     ⚠**絵文字（★や⚠）で強調しない。**⭐色と太字で示し、⭐使いすぎない。
+       `!!…!!` … 注意・危ういところ（赤茶）
+       `==…==` … 要点（濃い色＋太字）
+       `**…**` … いちばんの要点（これまでどおりの太字） */
+  .warn{color:#a33a2a}
+  .key{color:#1f3d6b;font-weight:600}
+  /* 本文から、ほかのノードへ飛ぶリンク（2026-09-09） */
+  .wiki{color:var(--accent);text-decoration:none;border-bottom:1px dotted currentColor;
+    cursor:pointer}
+  .wiki:hover{border-bottom-style:solid}
+  .wiki.none{color:var(--sub);border-bottom-style:dashed}   /* まだ無いノード */
+  b.h3{display:block;margin:9px 0 2px;font-size:12.5px}
+  @media (prefers-color-scheme:dark){
+    .warn{color:#e08b7a} .key{color:#9dc0f0}
+  }
   code{background:var(--code);padding:1px 4px;border-radius:2px;font-size:12px}
   .badge{display:inline-block;padding:1px 7px;border-radius:2px;font-size:11px;color:#fff;margin-right:5px}
   .conf{border:1px solid var(--line);padding:1px 6px;border-radius:2px;font-size:11px;color:var(--sub)}
@@ -112,6 +132,23 @@
   .shop li::before{content:"→ ";color:var(--sub)}
   .shop a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(0,0,0,.25)}
   .shop .note{color:var(--sub);font-size:11px}
+  /* ⭐⭐MIND-PDF（2026-09-09）：手元に落としたOA本文へのリンクと、どこまで読んだかの印。
+     ⚠papers/ は公開していない（.gitignore）ので、公開サイトではこのリンクは開けない。
+     だから「手元だけ」と添える ── 押して開かないときに、壊れているのかどうかが分かるように。 */
+  .pdflink{color:var(--accent);text-decoration:none;font-weight:700;
+    border-bottom:1px solid rgba(0,0,0,.25)}
+  .localonly{color:var(--sub);font-size:10.5px;margin-left:6px;
+    border:1px solid var(--line);border-radius:2px;padding:0 4px}
+  .bodystate{font-size:11px;padding:0 5px;border-radius:2px;display:inline-block;margin-top:3px}
+  .bodystate.b-読了{background:#1f6f3f;color:#fff}
+  .bodystate.b-部分{background:#7a5c12;color:#fff}
+  .bodystate.b-要旨のみ{color:var(--sub);border:1px solid var(--line)}
+  .bodystate.b-取得できず{color:var(--sub);border:1px dashed var(--line)}
+  /* 一覧の右端に出る、論文の読み具合の印 */
+  #list .bodge{font-size:9.5px;margin-left:5px;padding:0 3px;border-radius:2px;
+    border:1px solid var(--line);color:var(--sub);vertical-align:middle}
+  #list .bodge.read{background:#1f6f3f;color:#fff;border-color:#1f6f3f}
+  #list .bodge.part{background:#7a5c12;color:#fff;border-color:#7a5c12}
   /* --- スマホ：3段積みをやめ、下からせり上がるシートにする --- */
   /* ⭐⭐タブレットもここに入れる（2026-09-03・燻太さんの依頼）。
      ⚠もとは 760px だった。**タブレット縦（iPad 820・mini 744・Pro12.9 1024）が
@@ -318,7 +355,12 @@ try {
   if (window.cytoscapeFcose) { cytoscape.use(window.cytoscapeFcose); HAS_FCOSE = true; }
 } catch (e) { HAS_FCOSE = false; }
 
-fetch('data.json?' + Date.now()).then(r => r.json()).then(d => { DATA = d; boot(d); })
+/* 本文の [[…]] が実在するノードを指しているかを、その場で見分けるための一覧。
+   まだ書いていない相手は薄い破線にする（地図の破線 stub と同じ考え）。 */
+let NODE_IDS = null;
+fetch('data.json?' + Date.now()).then(r => r.json()).then(d => {
+  DATA = d; NODE_IDS = new Set(d.nodes.map(n => n.id)); boot(d);
+})
   .catch(e => { document.getElementById('cy').innerHTML =
     '<p style="padding:20px">data.json が読めなかった: ' + e + '</p>'; });
 
@@ -817,8 +859,18 @@ function renderLists(){
     let g = '<h3><span class="dot" style="background:' + color + '"></span>' +
             esc(title) + ' <span class="n">' + ns.length + '</span></h3><ul>';
     ns.forEach(n => {
-      const mk = (!n.stub && !(n.refs && n.refs.length))
+      let mk = (!n.stub && !(n.refs && n.refs.length))
         ? '<span class="mk" title="外部の情報源に当たっていない">記憶</span>' : '';
+      /* ⭐MIND-PDF：論文だけ、本文をどこまで読んだかを一覧の右端に出す。
+         ⭐狙いは「残っている仕事が一覧に見えている状態」（ALGA の未読バッジと同じ考え）。
+         ⚠「要旨のみ」には印を付けない ── それが既定で、印だらけになると読めなくなる。 */
+      if (n.type === '論文' && n.fields){
+        const b = n.fields['本文'];
+        if (b === '読了') mk += '<span class="bodge read" title="本文を読んだ">読</span>';
+        else if (b === '部分') mk += '<span class="bodge part" title="本文の一部を読んだ">部</span>';
+        else if (b === '取得できず') mk += '<span class="bodge" title="本文が公開されていない">×</span>';
+        else if (n.fields['pdf']) mk += '<span class="bodge" title="本文は手元にあるが、まだ読んでいない">PDF</span>';
+      }
       g += '<li><a data-id="' + esc(n.id) + '">' + esc(n.id) + mk + '</a></li>';
     });
     return g + '</ul>';
@@ -834,6 +886,21 @@ function renderLists(){
   box.querySelectorAll('a[data-id]').forEach(a =>
     a.onclick = () => focusNode(a.dataset.id));
 }
+
+/* 説明欄の [[…]] を押したら、そのノードへ飛ぶ。
+   ⚠ #sidebody は innerHTML で丸ごと書き換わるので、親の #side に一度だけ付ける（委譲）。 */
+(function wikiJump(){
+  const side = document.getElementById('side');
+  if (!side) return;
+  side.addEventListener('click', ev => {
+    const a = ev.target.closest && ev.target.closest('a.wiki');
+    if (!a) return;
+    ev.preventDefault();
+    const id = a.dataset.go;
+    if (!id || (NODE_IDS && !NODE_IDS.has(id))) return;   // まだ無い相手は動かさない
+    focusNode(id);
+  });
+})();
 
 function focusNode(id){
   const t = cy.getElementById(id);
@@ -1387,10 +1454,31 @@ function exitFocus(){
 }
 
 function esc(s){ const d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+/* 説明欄の書きかた（README の「強調のしかた」と揃える）
+   **…**  太字 ／ ==…==  要点（濃い色＋太字）／ !!…!!  注意（赤茶）
+   `…`    コード体 ／ [[…]] ほかのノードへのリンク ／ ### 小見出し
+
+   2026-09-09 に直した3つ:
+   (1) 太字の正規表現が「.+?」だった。ドットは改行に当たらないので
+       「**…改行…**」が <b> にならず、** が生のまま画面に出ていた。
+       本文を数えたら 4126 か所・453 ファイルがこれに当たっていた。[\s\S] にして直した。
+       （⚠ この注記に正規表現をそのまま書くと、中の記号でこのコメントが途中で閉じる。
+         2026-09-09 に一度それで地図が真っ黒になった。ここは言葉で書く。）
+   (2) [[…]] は README が「ほかのノードへのリンク」と謳っていたのに、実装が無かった。
+       本文に 1444 個ある。クリックでそのノードへ飛ぶようにした。
+   (3) ### の小見出しが素の文字で出ていた（87 個）。 */
 function md(s){
   return esc(s)
-    .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+    .replace(/\*\*([\s\S]+?)\*\*/g, '<b>$1</b>')
+    .replace(/!!([\s\S]+?)!!/g, '<span class="warn">$1</span>')
+    .replace(/==([\s\S]+?)==/g, '<span class="key">$1</span>')
     .replace(/`(.+?)`/g, '<code>$1</code>')
+    .replace(/\[\[(.+?)\]\]/g, (m, n) => {
+      const miss = (NODE_IDS && !NODE_IDS.has(n)) ? ' none' : '';
+      return '<a class="wiki' + miss + '" data-go="' + n.replace(/"/g, '&quot;') +
+             '"' + (miss ? ' title="この名前のノードはまだ無い"' : '') + '>' + n + '</a>';
+    })
+    .replace(/^#{3,} +(.+)$/gm, '<b class="h3">$1</b>')
     .replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
 }
 
@@ -1417,6 +1505,19 @@ function show(n){
                        '" target="_blank" rel="noopener noreferrer">' + esc(F['DOI']) + '</a>';
     if (F['書誌の出どころ'])
       h += '<br><span style="opacity:.75">書誌の出どころ: ' + esc(F['書誌の出どころ']) + '</span>';
+    /* ⭐⭐MIND-PDF（2026-09-09）：手元に落としたオープンアクセス本文へのリンク。
+       ⚠⚠ALGA/LAND とここだけ揃えていない ── あちらはローカル専用なので file:// で直に開けるが、
+         MIND は公開サイトなので papers/ を .gitignore にしてある（著作物を再配布しないため）。
+         ⭐だから公開側ではこのリンクは開けない。そのことを画面にも書く。
+         ⭐OA本体そのものは、上の DOI と下の refs から誰でも辿れる。 */
+    if (F['pdf'])
+      h += '<br><a class="pdflink" href="' + esc(encodeURI(F['pdf'])) +
+           '" target="_blank" rel="noopener noreferrer">本文PDFを開く</a>' +
+           '<span class="localonly" title="papers/ は公開していない。手元でだけ開ける。' +
+           '公開サイトからは上のDOIで原典へ">手元だけ</span>';
+    if (F['本文'])
+      h += '<br><span class="bodystate b-' + esc(F['本文']) + '">本文: ' +
+           esc(F['本文']) + '</span>';
   }
   if (n.file) h += '<br><span style="opacity:.7">' + esc(n.file) + '</span>';
   h += '</div>';

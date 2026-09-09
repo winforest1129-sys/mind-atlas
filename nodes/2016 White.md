@@ -18,8 +18,8 @@ refs:
 White & Buchanan（2016）／ *Adaptive Human Behavior and Physiology*
 
 ## この地図で、どこに効いているか
-⭐**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
+**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
 
-- **[[共感性ストレス]]** ── ⭐⭐総説。ブキャナンら2012とエンゲルトら2014のどちらでも、観察者のコルチゾール上昇は対人反応性指標の共感的関心と視点取得の高さと結びついた。⭐⭐⭐原文＝Interestingly, neither study reported significant associations between stress contagion and the personal distress subscale of the IRI（＝どちらの研究も個人的苦痛との有意な関連は報告していない）。⚠一次論文の表そのものではなく総説の記述による。2026-09-04に確認
+- **[[共感性ストレス]]** ── ==総説。ブキャナンら2012とエンゲルトら2014のどちらでも、観察者のコルチゾール上昇は対人反応性指標の共感的関心と視点取得の高さと結びついた。==原文＝Interestingly, neither study reported significant associations between stress contagion and the personal distress subscale of the IRI（＝どちらの研究も個人的苦痛との有意な関連は報告していない）。!!一次論文の表そのものではなく総説の記述による。!!2026-09-04に確認
 
 ## 燻太さんの考え

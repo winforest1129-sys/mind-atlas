@@ -39,7 +39,12 @@ OUT = os.path.join(ROOT, 'data.json')
 VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論', '予感', '論文']
 # ⭐MIND-PAPER-TYPE：論文ノードが持てる欄（2026-09-09）。
 #   ⚠ここに無い欄は data.json に通らない（型ごとの決まった欄だけを通す作り）。
-PAPER_FIELDS = ['年', '著者', '雑誌', 'DOI', '書誌の出どころ']
+#   ⭐pdf   … 手元に落とした本文への相対パス（例 papers/2022 Bruineberg.pdf）。
+#             ⚠⚠papers/ は .gitignore に入れてある。公開サイトには上げない（著作物の再配布を避ける）。
+#             だから公開側ではこのリンクは開けない。⭐OA本体は refs の url から辿れる。
+#   ⭐本文   … どこまで読んだか。読了 / 部分 / 要旨のみ / 取得できず
+PAPER_FIELDS = ['年', '著者', '雑誌', 'DOI', '書誌の出どころ', 'pdf', '本文']
+VALID_BODY = ['読了', '部分', '要旨のみ', '取得できず']
 VALID_CONF = ['確認済', '推測', '未調査']
 
 # 脳の模式図に載せられる領域。index.html の BRAIN_AREAS と必ず揃えること
@@ -196,6 +201,14 @@ def main():
                 fields[k] = meta[k]
         if ntype == '論文' and not fields.get('年'):
             warnings.append(fn + ': 論文なのに 年 が無い（輪で年代順に並べられない）')
+        # ⭐本文 の値を見張る。⚠ pdf があるのに「要旨のみ」のままだと読み忘れが埋もれる
+        if fields.get('本文') and fields['本文'] not in VALID_BODY:
+            warnings.append(fn + ': 本文 が不正 "' + fields['本文'] + '"（使えるのは '
+                            + ' / '.join(VALID_BODY) + '）')
+        if fields.get('pdf'):
+            rel = fields['pdf'].replace('/', os.sep)
+            if not os.path.exists(os.path.join(ROOT, rel)):
+                warnings.append(fn + ': pdf に書いた ' + fields['pdf'] + ' が手元に無い')
 
         nodes[nid] = {
             'id': nid, 'type': ntype, 'confidence': conf,

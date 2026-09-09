@@ -7,6 +7,8 @@ type: 論文
 雑誌: Proceedings of the National Academy of Sciences
 DOI: 10.1073/pnas.2501811122
 書誌の出どころ: Crossref(DOI)
+pdf: papers/2025 Morales.pdf
+本文: 要旨のみ
 links:
   - {to: 表象ドリフト, rel: 裏づけ}
 refs:
@@ -19,7 +21,7 @@ refs:
 Morales ら（3名）（2025）／ *Proceedings of the National Academy of Sciences*
 
 ## この地図で、どこに効いているか
-⭐**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
+**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
 
 - **[[表象ドリフト]]** ── 学習によって安定化しうる、という続き。2026-09-03に確認
 

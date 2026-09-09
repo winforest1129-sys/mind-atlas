@@ -6,6 +6,8 @@ type: 論文
 雑誌: Social Cognitive and Affective Neuroscience
 DOI: 10.1093/scan/nsm005
 書誌の出どころ: Crossref(title)
+pdf: papers/2007 Olsson & Nearing.pdf
+本文: 要旨のみ
 links:
   - {to: 観察による恐怖学習, rel: 裏づけ}
 refs:
@@ -17,10 +19,10 @@ refs:
 
 Olsson ら（3名）（2007）／ *Social Cognitive and Affective Neuroscience*
 
-> ⚠同じ「2007 Olsson」が 2 本あったので分けた
+> 同じ「2007 Olsson」が 2 本あったので分けた
 
 ## この地図で、どこに効いているか
-⭐**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
+**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
 
 - **[[観察による恐怖学習]]** ── 扁桃体が、直接経験による恐怖だけでなく、社会的観察を通じて間接的に得た恐怖の獲得と表出にも関わる。2026-09-03に確認
 

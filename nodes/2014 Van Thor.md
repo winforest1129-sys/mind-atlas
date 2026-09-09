@@ -7,6 +7,8 @@ type: 論文
 雑誌: International Journal of Evidence Based Coaching and Mentoring
 DOI: 10.1177/174183051401208s03
 書誌の出どころ: Crossref(DOI・手当て)
+pdf: papers/2014 Van Thor.pdf
+本文: 要旨のみ
 links:
   - {to: 社会的・感情的発達インタビュー, rel: 裏づけ}
 refs:
@@ -21,7 +23,7 @@ Van Thor（2014）／ *International Journal of Evidence Based Coaching and Ment
 > 題で探して確かめた（Van Thor 2014）
 
 ## この地図で、どこに効いているか
-⭐**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
+**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。
 
 - **[[社会的・感情的発達インタビュー]]** ── SOIの実務利用と手続きの負荷。2026-09-01に確認
 
