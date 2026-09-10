@@ -140,9 +140,10 @@
  },
  "2017 Barrett": {
   "ok": true,
-  "kb": 36.8,
-  "url": "https://europepmc.org/articles/PMC5691871?pdf=render",
-  "pmcid": "PMC5691871"
+  "kb": 1200.5,
+  "url": "https://europepmc.org/articles/PMC5390700?pdf=render",
+  "pmcid": "PMC5390700",
+  "note": "PMC5691871 は訂正記事(corrigendum, doi nsx060)だったので 2026-09-10 に本体へ差し替えた"
  },
  "2015 Monahan": {
   "ok": false,
