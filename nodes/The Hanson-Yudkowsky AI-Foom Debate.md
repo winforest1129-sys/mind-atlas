@@ -1,7 +1,9 @@
 ---
 type: 書物
 確度: 確認済
-所持: 不明
+所持: 無
+入手:
+  - {店: MIRI（無料PDF・CC BY-NC-SA 3.0）, url: https://intelligence.org/files/AIFoomDebate.pdf, note: 200を確認。EPUB/MOBIもある}
 links:
   - {to: ロビン・ハンソン, rel: 著者}
   - {to: エリエザー・ユドカウスキー, rel: 著者}

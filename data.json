@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10 19:27",
+ "generated": "2026-09-10 19:56",
  "nodes": [
   {
    "id": "1949 Harlow",
@@ -6483,8 +6483,14 @@
    ],
    "brain": [],
    "file": "nodes/The Hanson-Yudkowsky AI-Foom Debate.md",
-   "owned": "不明",
-   "shops": [],
+   "owned": "無",
+   "shops": [
+    {
+     "shop": "MIRI（無料PDF・CC BY-NC-SA 3.0）",
+     "url": "https://intelligence.org/files/AIFoomDebate.pdf",
+     "note": "200を確認。EPUB/MOBIもある"
+    }
+   ],
    "fields": {},
    "sections": {
     "これは何か": "[[AIフーム論争]] の記録。2008 年のブログ論争に、2011 年の対面討論の書き起こし、\nKaj Sotala による要約、[[2013 Yudkowsky]]（知能爆発ミクロ経済学）を合本した電子書籍。無料。\n\n==「気になる語から文献を掘る」練習の答えの一つ＝論争は、両側がそろった記録から読むのがいちばん速い==。\n邦訳は無い（大河の知る限り）。",
@@ -7360,11 +7366,22 @@
    ],
    "brain": [],
    "file": "nodes/スーパーインテリジェンス.md",
-   "owned": "不明",
-   "shops": [],
+   "owned": "無",
+   "shops": [
+    {
+     "shop": "Amazon.co.jp",
+     "url": "https://www.amazon.co.jp/dp/4532357071",
+     "note": "ISBN-10 4532357071。単行本。Kindle版もある"
+    },
+    {
+     "shop": "版元ドットコム",
+     "url": "https://www.hanmoto.com/bd/isbn/9784532357078",
+     "note": "書誌の確認用"
+    }
+   ],
    "fields": {},
    "sections": {
-    "これは何か": "『スーパーインテリジェンス 超絶AIと人類の命運』ニック・ボストロム著／倉骨彰訳／日本経済新聞出版社 2017-11／717頁。\n原題 *Superintelligence: Paths, Dangers, Strategies*（Oxford UP 2014）。\n\n[[知能爆発]]・[[直交性テーゼ]]・[[道具的収束]]・離陸の速さ・制御問題を、一冊にまとめた本。\n==この分野で日本語で読める、いちばん厚い一次資料==。\n\n!!燻太さんが持っているかは未確認。!! 所持が「無」と分かれば上に買える枠が出る。",
+    "これは何か": "『スーパーインテリジェンス 超絶AIと人類の命運』ニック・ボストロム著／倉骨彰訳／日本経済新聞出版社 2017-11／717頁。\n原題 *Superintelligence: Paths, Dangers, Strategies*（Oxford UP 2014）。\n\n[[知能爆発]]・[[直交性テーゼ]]・[[道具的収束]]・離陸の速さ・制御問題を、一冊にまとめた本。\n==この分野で日本語で読める、いちばん厚い一次資料==。\n\n燻太さんは持っていない（2026-09-10に確認）。興味あり。",
     "燻太さんの考え": ""
    },
    "stub": false
