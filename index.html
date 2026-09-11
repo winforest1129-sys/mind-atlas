@@ -24,7 +24,13 @@
      ⚠`h1 small` に⭐長い統計文が入るため、⭐そのままだと⭐幅が 630px ほどになり、
      ⭐検索欄などが⭐画面の中央あたりまで押し出されていた（⭐`tools/check_header.py` で実測）。
      ⭐1行占有にすると⭐**操作系がぜんぶ左端から始まる。** */
-  h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.04em;flex:0 0 100%}
+  h1{font-size:16px;margin:0;font-weight:600;letter-spacing:.04em;flex:1 1 auto}
+  /* しまうボタン（2026-09-11・燻太さんの依頼）。1行目の右端に置き、.brk で行を折る。
+     header.folded のあいだは h1 とこのボタン以外を隠して、地図を広く使う。 */
+  #foldHeader{flex:0 0 auto;margin-left:auto}
+  .brk{flex:0 0 100%;height:0;margin:0;padding:0}
+  header.folded{padding-top:6px;padding-bottom:6px}
+  header.folded > *:not(h1):not(#foldHeader){display:none !important}
   h1 small{font-weight:400;color:var(--sub);font-size:12px;margin-left:8px}
   /* ⭐タブレット対応（2026-09-03）：これが無いと、指の操作をブラウザ側が
    先に取ってしまい、地図が動かない/ページごと拡大される。 */
@@ -222,6 +228,8 @@
   <div id="main">
     <header>
       <h1>mind-atlas<small>こころの地図</small></h1>
+      <button class="btn" id="foldHeader" title="検索欄やチェックリストをしまう／出す">しまう</button>
+      <i class="brk"></i>
       <button class="btn" id="toggleList" title="一覧の開け閉め">一覧</button>
       <input type="search" id="q" placeholder="用語をさがす"><span id="qhit"></span>
       <!-- ⭐⭐フォーカス（2026-09-09・LAND から移した）。
@@ -926,6 +934,27 @@ function renderLists(){
     if (!id || (NODE_IDS && !NODE_IDS.has(id))) return;   // まだ無い相手は動かさない
     focusNode(id);
   });
+})();
+
+/* ヘッダをしまう／出す（2026-09-11・燻太さんの依頼）。
+   PCでもスマホでも効く。状態は localStorage に覚える。
+   注意：ヘッダの高さが変わると地図の枠も変わるので、cy.resize() を呼ぶ。 */
+(function setupFoldHeader(){
+  const KEY = 'mindatlas.headerFolded';
+  const hd = document.querySelector('header');
+  const b = document.getElementById('foldHeader');
+  if (!hd || !b) return;
+  const apply = (folded, save) => {
+    hd.classList.toggle('folded', folded);
+    b.textContent = folded ? '出す' : 'しまう';
+    b.title = folded ? '検索欄やチェックリストを出す' : '検索欄やチェックリストをしまう';
+    if (save){ try { localStorage.setItem(KEY, folded ? '1' : '0'); } catch(e){} }
+    if (typeof cy !== 'undefined' && cy) setTimeout(() => { try { cy.resize(); } catch(e){} }, 30);
+  };
+  b.onclick = () => apply(!hd.classList.contains('folded'), true);
+  let saved = null;
+  try { saved = localStorage.getItem(KEY); } catch(e){}
+  if (saved === '1') apply(true, false);
 })();
 
 function focusNode(id){
