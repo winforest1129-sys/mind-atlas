@@ -28,7 +28,8 @@
   h1 small{font-weight:400;color:var(--sub);font-size:12px;margin-left:8px}
   /* ⭐タブレット対応（2026-09-03）：これが無いと、指の操作をブラウザ側が
    先に取ってしまい、地図が動かない/ページごと拡大される。 */
-  #cy{flex:1;min-height:0;touch-action:none}
+  /* 長押しでフォーカスに入るので、iOS の長押しメニューと文字選択が出ないようにする（2026-09-11） */
+  #cy{flex:1;min-height:0;touch-action:none;-webkit-touch-callout:none;-webkit-user-select:none;user-select:none}
   input[type=search],select{padding:5px 9px;border:1px solid var(--line);border-radius:3px;
     background:var(--bg);color:var(--ink);font-size:13px}
   input[type=search]{width:170px}
@@ -268,6 +269,8 @@
       輪の<b>半径は線の強さ</b>（強いほど内側）。<br>
       &#9733;<b>出るときは、背景を「ダブルクリック」</b>（または Esc キー・上の「もどる」）。
       1回押しだと、見ているだけのつもりで抜けてしまうので。<br>
+      &#9733;<b>スマホでは、ノードを「長押し」でフォーカス、「タッチ」で説明</b>。
+      背景を長押しすると出る。<br>
       &#9733;上の<b>フォーカス欄</b>に名前を打って Enter でも入れる。
       <b>カンマで2つ書くと、両方につながっているものだけ</b>が出る（例: 島皮質, 共感）。<br>
       &#9733;<b>もう1手</b>で、その先までひろげる。<b>&#8592; 一歩</b>で、ひとつ前に戻る。<br><br>
@@ -503,7 +506,10 @@ const DELTA_CAP      = 200;    // ⚠慣性で跳ねた大きな delta は、こ
 })();
 
 cy.on('tap','node', ev => {
-    const el = ev.target, dbl = isDouble(el);
+    const el = ev.target;
+    // 長押しでフォーカスに入った直後は、指を離したときの tap を無視する
+    if (HELD.id === el.id() && Date.now() - HELD.t < 900){ HELD = { id:null, t:0 }; return; }
+    const dbl = isDouble(el);
     if (el.hasClass('dim')){ if (dbl) backToNormal(); return; }
     if (dbl){
       /* ⭐⭐2026-09-09：ダブルクリックは「光らせる」から**フォーカス**に変えた
@@ -512,6 +518,26 @@ cy.on('tap','node', ev => {
     } else {
       show(el.data('node'));
     }
+  });
+  /* 長押し＝フォーカス（2026-09-11・燻太さんの依頼。スマホ向け）
+     スマホでは1回のタッチで説明のシートが画面の8割を覆うので、
+     「400ms以内に同じノードを2回」が事実上できなかった。
+     Cytoscape の taphold（既定 500ms 押し続ける）を使う。マウスでも押し続ければ効く。
+     注意：長押しのあと指を離すと tap も飛んでくるので、HELD で1回だけ読み飛ばす。
+     注意：スマホで輪を見せたいので、長押しで入るときは説明のシートを開かない（QUIET_SHOW）。 */
+  cy.on('taphold','node', ev => {
+    const el = ev.target;
+    HELD = { id: el.id(), t: Date.now() };
+    if (navigator.vibrate) { try { navigator.vibrate(25); } catch(e){} }
+    if (el.hasClass('dim')){ backToNormal(); return; }
+    QUIET_SHOW = isPhone();
+    try { enterFocus(el, 1); } finally { QUIET_SHOW = false; }
+    if (isPhone()) closeSheets();
+  });
+  // 長押し＝背景ならフォーカスから出る（スマホで背景のダブルタップは拡大と競合するため）
+  cy.on('taphold', ev => {
+    if (ev.target !== cy) return;
+    if (FOCUS){ if (navigator.vibrate) { try { navigator.vibrate(25); } catch(e){} } exitFocus(); }
   });
   // ⭐薄い線も、2回押せば元の表示に戻せる
   cy.on('tap','edge', ev => {
@@ -1047,6 +1073,8 @@ let FOCUS_TRAIL = [];      // パンくず
 let FOCUS_BUSY = false;    // 張り直しの再入を止める
 let FOCUS_GEN = 0;         // ⚠あとから発火する処理を捨てるための世代番号
 let _bgTap = 0;            // 背景のダブルクリックを数える
+let HELD = { id:null, t:0 };   // 長押しでフォーカスに入った直後の tap を読み飛ばすため
+let QUIET_SHOW = false;        // true のあいだ show() はスマホのシートを開かない
 
 /* ⭐**いまの姿を控える。**⚠**2度目からは控え直さない** ──
    フォーカス中に別の用語へ渡り歩いても、⭐背景のダブルクリック一発で
@@ -1598,7 +1626,7 @@ function show(n){
 
   body.innerHTML = h;
   side.scrollTop = 0;
-  if (isPhone()) openSheet('side');     // スマホは中身を大きく出す
+  if (isPhone() && !QUIET_SHOW) openSheet('side');     // スマホは中身を大きく出す（長押しの直後は開かない）
   body.querySelectorAll('a[data-go]').forEach(a => a.onclick = () => {
     const t = cy.getElementById(a.dataset.go);
     if (t.length){
