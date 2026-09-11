@@ -1539,27 +1539,6 @@ function md(s){
     .replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
 }
 
-
-/* ⭐⭐説明欄の中のノード名リンク（2026-09-12・燻太さんの依頼・⚠3地図共通）
-     1回押し … そのノードの説明欄を出す（地図では選んで、見えていれば周りに寄る）
-     ダブルクリック（400 ms 以内にもう1回）… そのノードのフォーカス表示（中心＋同心円）
-   ⚠1回目で待たずにすぐ説明欄を出す（待つと押した手ごたえが遅れる）。
-     2回目が来たらフォーカスに入る。enterFocus は最後に show() も呼ぶので二重には出ない。 */
-let _goTap = { id:null, t:0 };
-function goLink(id){
-  const t = cy.getElementById(id);
-  if (!t.length) return;
-  const now = Date.now();
-  const dbl = (_goTap.id === id && now - _goTap.t < 400);
-  _goTap = dbl ? { id:null, t:0 } : { id:id, t:now };
-  if (dbl){ enterFocus(t); return; }
-  cy.nodes().unselect(); t.select();
-  if (t.visible() && !t.hasClass('dim')){
-    cy.animate({ fit:{ eles:t.closedNeighborhood(':visible'), padding:90 }, duration:380 });
-  }
-  show(t.data('node'));
-}
-
 function show(n){
   const side = document.getElementById('side');
   const body = document.getElementById('sidebody') || side;
@@ -1677,7 +1656,13 @@ function show(n){
   body.innerHTML = h;
   side.scrollTop = 0;
   if (isPhone() && !QUIET_SHOW) openSheet('side');     // スマホは中身を大きく出す（長押しの直後は開かない）
-  body.querySelectorAll('a[data-go]').forEach(a => a.onclick = () => goLink(a.dataset.go));
+  body.querySelectorAll('a[data-go]').forEach(a => a.onclick = () => {
+    const t = cy.getElementById(a.dataset.go);
+    if (t.length){
+      cy.animate({ fit:{ eles:t.closedNeighborhood(), padding:80 }, duration:380 });
+      show(t.data('node'));
+    }
+  });
 }
 
 /* ── 説明欄の幅を手で変える ──────────────────────────
