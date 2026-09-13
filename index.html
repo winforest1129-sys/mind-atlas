@@ -301,7 +301,8 @@
       &#9733;上の<b>フォーカス欄</b>に名前を打って Enter でも入れる。
       <b>カンマで2つ書くと、両方につながっているものだけ</b>が出る（例: 島皮質, 共感）。<br>
       &#9733;<b>もう1手</b>で、その先までひろげる。<b>&#8592; 一歩</b>で、ひとつ前に戻る。<br>
-      &#9733;輪の中のノードを<b>1回押す</b>と、そのノードとつながりだけが光る（もう1回押すか、背景を押すと戻る）。<br><br>
+      &#9733;輪の中のノードを<b>1回押す</b>と、そのノードとつながりだけが光る（もう1回押すか、背景を押すと戻る）。
+      スマホでは<b>1回目＝光る、同じノードをもう1回＝説明が出る</b>（背景を押すと戻る）。<br><br>
       <b>検索欄</b>に名前を打つと、こちらは<b>その場で光らせる</b>（地図は動かさない）。
       <b>背景をクリックすると戻る。</b><br>
       ⭐<b>薄くなっているものは、触っても動かない</b>
@@ -547,10 +548,21 @@ cy.on('tap','node', ev => {
     if (HELD.id === el.id() && Date.now() - HELD.t < 900){ HELD = { id:null, t:0 }; return; }
     const dbl = isDouble(el);
     if (el.hasClass('dim')){ if (dbl) backToNormal(); return; }
+    /* ⭐スマホ・フォーカス中の1回押しは2段階（2026-09-13 夜・燻太さんの依頼）
+       ⚠ show() がシートを開くと、光らせた輪が画面の8割隠れてしまう。
+       1回目＝つながりを光らせるだけ（説明欄の中身は裏で更新、シートは開かない）
+       2回目（同じノード）＝シートを開いて説明を出す。光はそのまま。
+       光を消すのは背景を1回押す（今までどおり）。
+       ⚠光っているノードの2回目は、速く押してもフォーカスに入り直さない（スマホのフォーカスは長押し）。 */
+    if (isPhone() && FOCUS && PEEK === el.id()){ show(el.data('node')); return; }
     if (dbl){
       /* ⭐⭐2026-09-09：ダブルクリックは「光らせる」から**フォーカス**に変えた
          （LAND と同じ約束）。⭐検索欄に名前を打てば、今までどおり光らせられる。 */
       enterFocus(el, 1);
+    } else if (isPhone() && FOCUS){
+      QUIET_SHOW = true;
+      try { show(el.data('node')); } finally { QUIET_SHOW = false; }
+      peekNode(el);   // PEEK-LIGHT（スマホ：光らせるだけ）
     } else {
       show(el.data('node'));
       if (FOCUS) peekNode(el);   // PEEK-LIGHT
@@ -1102,7 +1114,8 @@ function peekNode(el){
   });
   PEEK = el.id();
   const name = String(el.data('label') || el.id());
-  hitCount(name + ' のつながり ' + nb.length + '件（線 ' + eg.length + '本）／もう1回押すと戻る');
+  const tail = (isPhone() && FOCUS) ? '／もう1回押すと説明・背景を押すと戻る' : '／もう1回押すと戻る';
+  hitCount(name + ' のつながり ' + nb.length + '件（線 ' + eg.length + '本）' + tail);
 }
 function clearDim(){
   clearPeek();   // PEEK-LIGHT
