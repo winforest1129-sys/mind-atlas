@@ -368,7 +368,12 @@ const DEEP = ['amygdala','hippocampus','insula','dlpfc','vlpfc','temporal',
               'olfactory_bulb','piriform'];
 
 // スマホでは、左右のパネルを「下からせり上がるシート」として扱う
-const isPhone = () => window.matchMedia('(max-width:760px)').matches;
+/* ⚠⚠この幅は CSS の @media (max-width:1024px) と必ず同じにする（2026-09-13 夜）。
+   09-03 に CSS だけ 760→1024 に広げてここが 760 のまま残り、
+   タブレット縦（761〜1024px）で CSS はシートなのに JS が PC 扱い＝.open を誰も付けず、
+   説明欄も「一覧」も出なかった。 */
+const SHEET_MQ = '(max-width:1024px)';
+const isPhone = () => window.matchMedia(SHEET_MQ).matches;
 const sheet = id => document.getElementById(id);
 function openSheet(id){
   ['list','side'].forEach(k => sheet(k).classList.toggle('open', k === id));

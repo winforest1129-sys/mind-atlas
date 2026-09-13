@@ -3,6 +3,7 @@
 
     python tools/check_peek_phone.py                      MIND の index.html を、既定の用語で
     python tools/check_peek_phone.py <index.html> 用語     ほかの地図の index.html を、その地図の用語で
+    CHK_W=900 python tools/check_peek_phone.py           幅を変えて（タブレット縦＝900）
 
 測るもの＝①Uncaught ②1回目の tap＝光る・シートは開かない ③2回目（450ms後）＝シートが開く・光はそのまま
   ④シートを閉じて、速い2回押し（ダブル）でもフォーカスの中心が変わらない（説明が開くだけ）
@@ -113,7 +114,7 @@ def main():
     url = 'http://127.0.0.1:%d/%s' % (port, os.path.basename(TMP))
     try:
         r = subprocess.run([chrome, '--headless', '--disable-gpu', '--no-sandbox',
-                            '--window-size=400,800', '--virtual-time-budget=40000',
+                            '--window-size=%s,900' % os.environ.get('CHK_W', '400'), '--virtual-time-budget=40000',
                             '--dump-dom', url], capture_output=True, timeout=180)
         dom = r.stdout.decode('utf-8', 'replace')
     finally:
