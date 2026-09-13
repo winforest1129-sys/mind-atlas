@@ -4,6 +4,7 @@
     python tools/check_peek_phone.py                      MIND の index.html を、既定の用語で
     python tools/check_peek_phone.py <index.html> 用語     ほかの地図の index.html を、その地図の用語で
     CHK_W=900 python tools/check_peek_phone.py           幅を変えて（タブレット縦＝900）
+    CHK_W=900 CHK_SIDEW=420 python tools/check_peek_phone.py   前回の説明欄の幅を覚えている状態で（全幅になるか）
 
 測るもの＝①Uncaught ②1回目の tap＝光る・シートは開かない ③2回目（450ms後）＝シートが開く・光はそのまま
   ④シートを閉じて、速い2回押し（ダブル）でもフォーカスの中心が変わらない（説明が開くだけ）
@@ -45,7 +46,10 @@ window.addEventListener('unhandledrejection', e => window.__ERR.push('rejection:
     clearInterval(t0);
     setTimeout(async () => {
       try {
-        out.steps.push({ what:'幅', isPhone: isPhone(), w: window.innerWidth });
+        const sd = document.getElementById('side');
+        out.steps.push({ what:'幅', isPhone: isPhone(), w: window.innerWidth,
+          sideW: Math.round(sd.getBoundingClientRect().width), sideInline: sd.style.width || '(なし)',
+          savedW: localStorage.getItem('mindatlas.sideW') });
         // ⑥ フォーカス外の1回押し＝シートが開く（今までどおり）
         const any = cy.nodes().not('.ringtick')[0];
         any.emit('tap'); out.steps.push(cnt('⑥フォーカス外で tap'));
@@ -106,8 +110,12 @@ def main():
     if not chrome:
         print('⚠Chrome が見つからない'); return 1
     s = io.open(SRC, encoding='utf-8').read()
-    io.open(TMP, 'w', encoding='utf-8', newline='\n').write(
-        s.replace('</body>', INJECT.replace('__NAME__', json.dumps(NAME, ensure_ascii=False)), 1))
+    s = s.replace('</body>', INJECT.replace('__NAME__', json.dumps(NAME, ensure_ascii=False)), 1)
+    # CHK_SIDEW=420 で「前回の幅」を覚えている状態を仕込む（タブレット縦で半分幅になった件の検査）
+    if os.environ.get('CHK_SIDEW'):
+        s = s.replace('<head>', '<head><script>try{localStorage.setItem("mindatlas.sideW",%s)}catch(e){}</script>'
+                      % json.dumps(os.environ['CHK_SIDEW']), 1)
+    io.open(TMP, 'w', encoding='utf-8', newline='\n').write(s)
     httpd = Server(('127.0.0.1', 0), functools.partial(Quiet, directory=ROOT))
     port = httpd.server_address[1]
     threading.Thread(target=httpd.serve_forever, daemon=True).start()

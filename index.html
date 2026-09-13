@@ -176,7 +176,9 @@
     #drag{display:none}
     #list, #side{
       position:fixed;left:0;right:0;bottom:0;top:auto;
-      width:auto;max-height:none;
+      /* ⚠⚠!important＝説明欄の幅を覚える仕組みが side.style.width をインラインで書くので、
+         それに勝って全幅にする（タブレット縦で半分の幅で出ていた・2026-09-13 夜） */
+      width:auto !important;max-height:none;
       height:80vh;
       height:80dvh;            /* アドレスバーで画面高が変わる端末むけ */
       border:0;border-top:1px solid var(--line);
@@ -1779,10 +1781,10 @@ function show(n){
     if (save){ try { localStorage.setItem(KEY, String(v)); } catch(e){} }
     return v;
   }
-  // 前回の幅を思い出す
+  // 前回の幅を思い出す（⚠シート配置のときは当てない＝全幅のまま。CSS 側も !important で守っている）
   try {
     const saved = parseInt(localStorage.getItem(KEY), 10);
-    if (saved > 0) apply(saved, false);
+    if (saved > 0 && !isPhone()) apply(saved, false);
   } catch(e){}
 
   let dragging = false;
