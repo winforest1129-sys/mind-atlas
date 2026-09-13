@@ -281,7 +281,8 @@
       背景を長押しすると出る。<br>
       &#9733;上の<b>フォーカス欄</b>に名前を打って Enter でも入れる。
       <b>カンマで2つ書くと、両方につながっているものだけ</b>が出る（例: 島皮質, 共感）。<br>
-      &#9733;<b>もう1手</b>で、その先までひろげる。<b>&#8592; 一歩</b>で、ひとつ前に戻る。<br><br>
+      &#9733;<b>もう1手</b>で、その先までひろげる。<b>&#8592; 一歩</b>で、ひとつ前に戻る。<br>
+      &#9733;輪の中のノードを<b>1回押す</b>と、そのノードとつながりだけが光る（もう1回押すか、背景を押すと戻る）。<br><br>
       <b>検索欄</b>に名前を打つと、こちらは<b>その場で光らせる</b>（地図は動かさない）。
       <b>背景をクリックすると戻る。</b><br>
       ⭐<b>薄くなっているものは、触っても動かない</b>
@@ -427,6 +428,11 @@ function boot(data){
           'text-valign':'center', 'text-halign':'center',
           'text-background-color':BG, 'text-background-opacity':0.86,
           'text-background-padding':3, 'text-background-shape':'roundrectangle' } },
+      /* PEEK-LIGHT ── フォーカス中に1回押したノードのつながりを光らせる */
+      { selector:'.peekdim', style:{ 'opacity':0.2 } },
+      { selector:'node.peek', style:{ 'underlay-color':'#f0a828', 'underlay-opacity':0.42, 'underlay-padding':9 } },
+      { selector:'node.peek0', style:{ 'underlay-opacity':0.7, 'underlay-padding':15 } },
+      { selector:'edge.peek', style:{ 'width':3.6, 'text-opacity':1, 'z-index':9 } },
       { selector:'.dim', style:{ 'opacity':0.12 } }
     ],
     // ⭐保存した位置があるなら計算しない。下で座標を置いてから並べる
@@ -528,6 +534,7 @@ cy.on('tap','node', ev => {
       enterFocus(el, 1);
     } else {
       show(el.data('node'));
+      if (FOCUS) peekNode(el);   // PEEK-LIGHT
     }
   });
   /* 長押し＝フォーカス（2026-09-11・燻太さんの依頼。スマホ向け）
@@ -562,7 +569,7 @@ cy.on('tap','node', ev => {
       const t = Date.now();
       const dbl = (t - _bgTap < 420);
       _bgTap = dbl ? 0 : t;
-      if (dbl) exitFocus();
+      if (dbl) exitFocus(); else clearPeek();   // PEEK-LIGHT
       return;
     }
     clearDim();
@@ -1049,7 +1056,37 @@ function hitCount(s){
   const el = document.getElementById('qhit');
   if (el) el.textContent = s || '';
 }
+/* PEEK-LIGHT ── ⭐フォーカス中に1回押したノードの「つながり」を光らせる（2026-09-13・燻太さんの依頼）
+   「もう1手」で輪が40〜60ノードになると、どれとどれがつながっているか目で追えない。
+   押したノード・その線・線の先の隣を光らせ、残りを薄くする（消さない）。
+   ⭐同じノードをもう1回押す／背景を1回押す／clearDim／exitFocus で消える。
+   ⚠初期表示と検索の spotlight（.dim）には触らない。 */
+let PEEK = null;
+function clearPeek(){
+  if (typeof cy === 'undefined' || !cy) return;
+  if (!PEEK && !cy.elements('.peekdim').length) return;
+  cy.batch(() => { cy.elements().removeClass('peekdim peek peek0'); });
+  PEEK = null;
+}
+function peekNode(el){
+  if (!el || !el.length || el.hasClass('ringtick')) return;
+  if (PEEK === el.id()){ clearPeek(); hitCount(''); return; }
+  clearPeek();
+  const vis = cy.elements(':visible').not('.ringtick');
+  const eg  = el.connectedEdges().filter(':visible');
+  const nb  = eg.connectedNodes().not(el);
+  const lit = el.union(eg).union(nb);
+  cy.batch(() => {
+    vis.not(lit).addClass('peekdim');
+    lit.addClass('peek');
+    el.addClass('peek0');
+  });
+  PEEK = el.id();
+  const name = String(el.data('label') || el.id());
+  hitCount(name + ' のつながり ' + nb.length + '件（線 ' + eg.length + '本）／もう1回押すと戻る');
+}
 function clearDim(){
+  clearPeek();   // PEEK-LIGHT
   if (!cy) return;
   cy.elements().removeClass('dim').selectify();
   // ⚠薄くしたときに外した「掴める」を必ず戻す。⚠輪の札（.ringtick）は掴ませない
@@ -1489,6 +1526,7 @@ function refocus(){
 /* ⭐**出る。**⚠計算はしない ── 控えた座標を置き直すだけ。 */
 function exitFocus(){
   stopFocusBlink();
+  clearPeek();   // PEEK-LIGHT
   FOCUS_GEN++;                         // ⚠あとから来る処理を全部むこうにする
   if (!FOCUS_SNAP){ FOCUS = null; focusUI(false); return; }
   const snap = FOCUS_SNAP;
