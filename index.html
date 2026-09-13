@@ -1547,7 +1547,14 @@ function enterFocus(node, depth){
     if (FOCUS_TRAIL[FOCUS_TRAIL.length - 1] !== FOCUS) FOCUS_TRAIL.push(FOCUS);
     drawTrail();
     focusUI(true);
-    show(node.data('node'));
+    /* ⭐スマホ・タブレット（シート配置）では、フォーカスに入る・ひろげる・戻るときに
+       説明のシートを開かない＝輪を見せるための操作だから（2026-09-13 夜・燻太さんの依頼
+       「もう一手を押すとノードの説明欄がせりあがってくる」）。説明欄の中身は裏で更新し、
+       開いていたシートは閉じる。説明は輪のノードを2回押せば出る。 */
+    const quiet0 = QUIET_SHOW;
+    QUIET_SHOW = quiet0 || isPhone();
+    try { show(node.data('node')); } finally { QUIET_SHOW = quiet0; }
+    if (isPhone()) closeSheets();
     startFocusBlink(node);
     hitCount('フォーカス「' + node.data('label') + '」 ／ ' +
              (keepN.length - 1) + '件とつながっている' +

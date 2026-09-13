@@ -8,7 +8,7 @@
 
 測るもの＝①Uncaught ②1回目の tap＝光る・シートは開かない ③2回目（450ms後）＝シートが開く・光はそのまま
   ④シートを閉じて、速い2回押し（ダブル）でもフォーカスの中心が変わらない（説明が開くだけ）
-  ⑤背景1回で光が消える ⑥フォーカス外の1回押しは今までどおりシートが開く
+  ⑤背景1回で光が消える ⑥フォーカス外の1回押しは今までどおりシートが開く ⑦もう1手・一歩ではシートが開かない（開いていれば閉じる）
 """
 import io, os, re, sys, json, glob, subprocess, functools, threading
 import http.server, socketserver
@@ -75,6 +75,13 @@ window.addEventListener('unhandledrejection', e => window.__ERR.push('rejection:
         // ⑤ 背景1回で消える
         closeSheets(); await wait(450);
         cy.emit('tap'); out.steps.push(cnt('⑤背景を1回'));
+        // ⑦ もう1手・一歩・フォーカス欄＝シートが開かない（開いていたら閉じる）
+        openSheet('side');
+        document.getElementById('focusWider').click(); out.steps.push(cnt('⑦もう1手（開いていたシートから）'));
+        enterFocus(pick, 1);   // 履歴を2つにする（一歩が効くように）
+        openSheet('side');
+        document.getElementById('focusBack').click();
+        const s7 = cnt('⑦一歩（' + pick.data('label') + ' から）'); s7.backTo = FOCUS === node.id(); out.steps.push(s7);
         exitFocus();
       } catch (e){ window.__ERR.push('inject: ' + e.message); }
       done();
