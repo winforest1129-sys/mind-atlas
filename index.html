@@ -207,6 +207,19 @@
     #list a{padding:6px 6px}
     .books label{padding:6px 0}
   }
+  /* FONTBAR ── 説明欄の文字サイズ（A− / 100% / A＋）。2026-09-13・燻太さんの依頼 */
+  #side{--sz:1}
+  #sidebody{zoom:var(--sz)}
+  #fontbar{position:sticky;top:0;display:flex;gap:4px;align-items:center;justify-content:flex-end;
+    background:var(--panel);margin:-16px -16px 8px;padding:6px 10px 5px;z-index:3;
+    border-bottom:1px solid var(--line)}
+  #fontbar .fz{padding:1px 7px;font-size:11px;line-height:1.5;min-width:30px}
+  #fontbar .fzv{min-width:44px;text-align:center;font-variant-numeric:tabular-nums;color:var(--sub)}
+  #fontbar .fzl{font-size:10.5px;color:var(--sub);margin-right:2px}
+  @media (max-width:1024px){
+    #fontbar{position:static;margin:0 0 6px;padding:0 0 6px}
+  }
+  /* /FONTBAR */
 </style>
 </head>
 <body>
@@ -265,6 +278,12 @@
   <aside id="side">
     <div class="sheetbar"><span class="grip"></span>
       <button class="btn xbtn" data-close="side">閉じる</button></div>
+    <!-- FONTBAR -->
+    <div id="fontbar"><span class="fzl">文字</span>
+      <button class="btn fz" data-fz="-" title="小さく">A−</button>
+      <button class="btn fz fzv" data-fz="0" title="元の大きさ（100%）に戻す">100%</button>
+      <button class="btn fz" data-fz="+" title="大きく">A＋</button></div>
+    <!-- /FONTBAR -->
     <div id="sidebody">
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
       形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験、八角＝症例、五角＝生物（本に登場した動物）、
@@ -1778,6 +1797,43 @@ function show(n){
     if (side.style.width) apply(parseInt(side.style.width, 10) || DEF, false);
   });
 })();
+
+/* FONTBAR ── ⭐説明欄の文字サイズを変える（2026-09-13・燻太さんの依頼）
+   A− / A＋ で一段ずつ。まん中の倍率を押すと 100% に戻る。倍率はこのブラウザに覚える。
+   ⚠ #sidebody を zoom で拡縮するだけ。地図（cytoscape）と一覧は触らない。 */
+(function(){
+  const side = document.getElementById('side');
+  const bar  = document.getElementById('fontbar');
+  if (!side || !bar) return;
+  const KEY = 'mindatlas.sideZoom';
+  const STEPS = [0.85, 0.92, 1, 1.1, 1.2, 1.32, 1.45, 1.6];
+  const label = bar.querySelector('.fzv');
+  let cur = 1;
+  function apply(v, save){
+    cur = v;
+    side.style.setProperty('--sz', String(v));
+    if (label) label.textContent = Math.round(v * 100) + '%';
+    if (save){ try { localStorage.setItem(KEY, String(v)); } catch(e){} }
+  }
+  function step(dir){
+    let i = STEPS.indexOf(cur);
+    if (i < 0){ i = 0; for (let k = 0; k < STEPS.length; k++){ if (Math.abs(STEPS[k]-cur) < Math.abs(STEPS[i]-cur)) i = k; } }
+    i = Math.max(0, Math.min(STEPS.length - 1, i + dir));
+    apply(STEPS[i], true);
+  }
+  bar.addEventListener('click', e => {
+    const b = e.target.closest('[data-fz]');
+    if (!b) return;
+    e.preventDefault();
+    const d = b.dataset.fz;
+    if (d === '+') step(1); else if (d === '-') step(-1); else apply(1, true);
+  });
+  try {
+    const saved = parseFloat(localStorage.getItem(KEY));
+    if (saved > 0.5 && saved < 3) apply(saved, false); else apply(1, false);
+  } catch(e){ apply(1, false); }
+})();
+/* /FONTBAR */
 </script>
 </body>
 </html>
