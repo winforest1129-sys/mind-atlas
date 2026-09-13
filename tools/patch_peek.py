@@ -71,9 +71,10 @@ def unpatch(s):
     s = s.replace(STYLE, '', 1)
     s = s.replace("      if (FOCUS) peekNode(el);   // PEEK-LIGHT\n", '', 1)
     s = s.replace("if (dbl) exitFocus(); else clearPeek();   // PEEK-LIGHT", "if (dbl) exitFocus();", 1)
+    # ⚠ clearDim のほうを先に消す（MIND は clearDim が exitFocus より前にあり、汎用の1行消しが相手を取り違える）
+    s = s.replace("function clearDim(){\n  clearPeek();   // PEEK-LIGHT\n", "function clearDim(){\n", 1)
     s = s.replace("  clearPeek();   // PEEK-LIGHT\n", '', 1)   # exitFocus の頭
     s = s.replace(FUNCS, '', 1)
-    s = s.replace("function clearDim(){\n  clearPeek();   // PEEK-LIGHT\n", "function clearDim(){\n", 1)
     return s
 
 if '--戻す' in sys.argv:
