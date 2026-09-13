@@ -3,6 +3,7 @@
 
     python tools/patch_peek.py                 … この地図（MIND）の index.html に当てる
     python tools/patch_peek.py <index.html>    … ほかの地図（ALGA / LAND）に当てる
+    python tools/patch_peek.py <index.html> --戻す [出力先]  … 外した中身を書く（出力先を省くと本体を戻す）
 
 ⭐ 何が変わるか（2026-09-13・燻太さんの依頼）
   「ノードのフォーカス時に、クリックしたノードとリンク、そのノードとリンクしている
@@ -27,8 +28,6 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 target = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, '..', 'index.html')
 target = os.path.abspath(target)
 s = io.open(target, encoding='utf-8').read()
-if 'PEEK-LIGHT' in s:
-    print('もう当たっている:', target); sys.exit(0)
 
 STYLE = """      /* PEEK-LIGHT ── フォーカス中に1回押したノードのつながりを光らせる */
       { selector:'.peekdim', style:{ 'opacity':0.2 } },
@@ -66,6 +65,28 @@ function peekNode(el){
   hitCount(name + ' のつながり ' + nb.length + '件（線 ' + eg.length + '本）／もう1回押すと戻る');
 }
 """
+
+def unpatch(s):
+    """当てたものを外した中身を返す（--戻す／控えの作り直し用）。当てた塊は決まっているので、そのまま消せば元に戻る。"""
+    s = s.replace(STYLE, '', 1)
+    s = s.replace("      if (FOCUS) peekNode(el);   // PEEK-LIGHT\n", '', 1)
+    s = s.replace("if (dbl) exitFocus(); else clearPeek();   // PEEK-LIGHT", "if (dbl) exitFocus();", 1)
+    s = s.replace("  clearPeek();   // PEEK-LIGHT\n", '', 1)   # exitFocus の頭
+    s = s.replace(FUNCS, '', 1)
+    s = s.replace("function clearDim(){\n  clearPeek();   // PEEK-LIGHT\n", "function clearDim(){\n", 1)
+    return s
+
+if '--戻す' in sys.argv:
+    if 'PEEK-LIGHT' not in s:
+        print('当たっていない:', target); sys.exit(0)
+    out = unpatch(s)
+    assert 'PEEK-LIGHT' not in out, '外しきれていない'
+    i = sys.argv.index('--戻す')
+    dst = sys.argv[i + 1] if len(sys.argv) > i + 1 else target
+    io.open(dst, 'w', encoding='utf-8', newline='').write(out)
+    print('外した中身を書いた:', dst); sys.exit(0)
+if 'PEEK-LIGHT' in s:
+    print('もう当たっている:', target); sys.exit(0)
 
 n = 0
 # 1. スタイル：.dim の行の**手前**に足す
