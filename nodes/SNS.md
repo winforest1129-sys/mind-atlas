@@ -1,12 +1,13 @@
 ---
 type: 用語
-出典: 映01_変な人
+出典: 映01_変な人, 14_ボーム
 確度: 確認済
 links:
   - {to: 情動伝染, rel: 道徳感情語が付くと投稿の拡散が増える＝moral contagion（Brady 2017）}
   - {to: 怒り, rel: エンゲージメントが義憤の表明を強化する（Brady 2021）}
   - {to: 環世界, rel: ヒトの環世界に足された新しい受容器と作用器（燻太さんの予感）}
 refs:
+  - {title: モラルの起源（白揚社2014）第1章 pp.25-26・第9章 pp.295-303・エピローグ p.436, url: https://www.hakuyo-sha.co.jp/science/%E3%83%A2%E3%83%A9%E3%83%AB%E3%81%AE%E8%B5%B7%E6%BA%90/, note: 匿名の都市・うわさ話・通信メディアの両義性。 手元のOCR本文で確認。2026-09-17}
   - {title: Brady WJ ら 2017 Emotion shapes the diffusion of moralized content in social networks（PNAS 114(28):7313-7318）, url: https://doi.org/10.1073/pnas.1618923114, note: Twitter 56万3312件（銃規制・同性婚・気候変動）。道徳感情語が1語増えるごとにリツイートが20%増（IRR 1.20）。効果は同じ政治陣営の中で強く陣営間では弱い}
   - {title: Burton JW・Cruz N・Hahn U 2021 Reconsidering evidence of moral contagion in online social networks（Nature Human Behaviour 5:1629-1635）, url: https://doi.org/10.1038/s41562-021-01133-5, note: 外部サンプル予測・モデル比較・仕様曲線分析で再解析。道徳感情語モデルは無意味な「XYZ contagion」モデルと同程度＝2017の証拠は頑健でないと批判}
   - {title: Brady WJ ら 2025 Estimating the effect size of moral contagion in online networks: a pre-registered replication and meta-analysis（PNAS Nexus 4(11):pgaf327）, url: https://doi.org/10.1093/pnasnexus/pgaf327, note: 事前登録の追試＝IRR 1.17。27研究・N=482万のメタ分析＝IRR 1.13（1語あたり13%増）。5データセットのAIC/BICで道徳感情モデルがXYZモデルに勝る＝Burton 2021への反論}
@@ -26,6 +27,11 @@ refs:
 
 ## この地図で
 燻太さんの予感＝[[SNSという見えない環世界]]。==「影響がある」（1・2は確か）と「影響が大きい」（3は小さい）を分けて読む==（大河の見立て）。
+
+## 『モラルの起源』では（14_ボーム・2026-09-17）
+- [[うわさ話（世論の法廷）]]の祖先型を持つ。狩猟採集民のうわさは内密のネットワークにとどまり・満座で言いふらす「連続うわさ人」は嫌われた＝SNS はその垣根を外した（大河の見立て）
+- [[匿名社会と良心]]＝良心が進化した前提（顔見知り20〜30人）が無い
+- 通信メディアは均質化するだけでなく**引き離す**（p.436・[[世界の道徳的多数派（エピローグ）]]）
 
 ## 燻太さんの考え
 
