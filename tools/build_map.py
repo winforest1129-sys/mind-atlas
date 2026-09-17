@@ -253,6 +253,17 @@ def main():
     }
     io.open(OUT, 'w', encoding='utf-8').write(
         json.dumps(data, ensure_ascii=False, indent=1))
+    # LOCAL-2026-09-18 ⭐file:// で開くために、data.json と同じ中身を data.js（window.DATA）にも焼く。
+    #   brain.svg も brain.js（window.BRAIN_SVG）に。書庫の catalog.js と同じ理屈（fetch が使えないため）
+    io.open(os.path.join(ROOT, 'data.js'), 'w', encoding='utf-8', newline='\n').write(
+        '/* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */\nwindow.DATA = ' +
+        json.dumps(data, ensure_ascii=False, indent=1) + ';\n')
+    svg_path = os.path.join(ROOT, 'brain.svg')
+    if os.path.exists(svg_path):
+        io.open(os.path.join(ROOT, 'brain.js'), 'w', encoding='utf-8', newline='\n').write(
+            '/* 生成物（tools/build_map.py）。brain.svg（Patrick J. Lynch・CC BY 2.5）の中身 */\nwindow.BRAIN_SVG = ' +
+            json.dumps(io.open(svg_path, encoding='utf-8').read(), ensure_ascii=False) + ';\n')
+    print('data.js と brain.js も書いた')
 
     written = [n for n in nodes.values() if not n['stub']]
     stubs = [n for n in nodes.values() if n['stub']]

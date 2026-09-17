@@ -1,4 +1,5 @@
-{
+/* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
+window.DATA = {
  "generated": "2026-09-18 03:37",
  "nodes": [
   {
@@ -37051,4 +37052,4 @@
    "weight": "標準"
   }
  ]
-}
+};

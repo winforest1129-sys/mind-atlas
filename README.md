@@ -3,7 +3,11 @@
 燻太さんと大河が、読んだ本から拾った **用語・人物・実験・理論** をつないでいく地図。
 1つの用語が1つのファイルになっていて、`links` でつなぐと地図の上に線が引かれる。
 
-公開URL： https://winforest1129-sys.github.io/mind-atlas/
+⚠⚠ **2026-09-18 から手元専用（公開しない）。** GitHub Pages は切り・リポジトリは private（履歴の控えとしてだけ使う）。
+理由＝書庫（スキャンした本）の頁の画像・OCR本文・論文の本文PDFを地図から直に引く作りにしたため。公開すると著作権に抵触するおそれがある。
+開きかた＝`index.html` をダブルクリック（file:// で動く。`lib/` にライブラリ・`data.js` に中身・`brain.js` に脳の図・`../../Taiga_PJ/書庫/catalog.js` に書庫の台帳）。
+⚠`data.js` と `brain.js` は `tools/build_map.py` が `data.json` と同時に焼く（fetch が file:// で使えないため）。
+ローカル専用の機能＝論文の Connected Papers ボタン／出典の本がスキャンしてあれば「書庫」の箱（p.44・pp.44-45・画像17 を押すとその頁の画像と本文がその場に出る）。当てたのは `tools/patch_local_site.py`（目印 `LOCAL-2026-09-18`）・確かめるのは `tools/check_local.py`。
 
 ---
 
