@@ -256,16 +256,17 @@
       <button class="btn" id="focusBack" hidden
               title="ひとつ前にフォーカスしていた用語に戻る">&#8592; 一歩</button>
       <button class="btn" id="focusOut" hidden
-              title="元のネットワークに戻る（Esc キー・背景のダブルクリックでも同じ）">もどる</button>
+              title="元の地図（型ごとの島）に戻る（Esc キー・背景のダブルクリックでも同じ）">もどる</button>
       <button class="btn" id="focusPng" hidden
               title="いま見えている図をPNGで保存する">画像</button>
       <label id="focusStrWrap" hidden class="qhit"
              title="輪の半径を、線の強さにする（強いほど内側）"><input
              type="checkbox" id="focusStr" checked> 強さを半径に</label>
       <span id="focusTrail" class="qhit"></span>
-      <select id="layout">
+      <select id="layout" title="全体の並べかた。⭐型ごとの島＝種類ごとに六角形に詰めて置く（線は出さない・計算しない）">
+        <option value="isles">型ごとの島</option>   <!-- HEXISLE-MIND-2026-09-17 -->
         <option value="saved">保存した位置</option>
-        <option value="cose">ネットワーク</option>
+        <option value="cose">ネットワーク（毎回計算）</option>
         <option value="concentric">放射状</option>
         <option value="breadthfirst">木</option>
         <option value="circle">円</option>
@@ -288,6 +289,8 @@
     <!-- /FONTBAR -->
     <div id="sidebody">
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
+      <b>全体は「型ごとの島」</b>＝種類ごとに六角形に詰めて並べてある（何が登録されているかの一覧。線は出さない）。
+      <b>つながりはフォーカス（下）で読む</b>。検索で光らせたときは、そのノードの線だけ出る。<br><br>
       形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験、八角＝症例、五角＝生物（本に登場した動物）、
       <b>星＝予感</b>。<br>
       <b>予感</b>だけ性格が違う。<b>燻太さんが「関連がありそう」と感じたところ</b>から生まれた項目で、
@@ -455,6 +458,17 @@ function boot(data){
           'text-valign':'center', 'text-halign':'center',
           'text-background-color':BG, 'text-background-opacity':0.86,
           'text-background-padding':3, 'text-background-shape':'roundrectangle' } },
+      /* ⭐ HEXISLE-MIND-2026-09-17 ── 六角形の島の札（種類名＋数）。輪の札と同じ作りで一回り大きい。
+         ⚠札は自分で改行して 2 行にする（全角スペースで折らせると半字ぶん左に寄る＝LAND で踏んだ） */
+      { selector:'.isletick', style:{
+          'label':'data(label)', 'shape':'rectangle', 'width':1, 'height':1,
+          'background-opacity':0, 'border-width':0, 'events':'no',
+          'color':'data(color)', 'font-size':44, 'font-weight':'bold',
+          'min-zoomed-font-size':0, 'text-wrap':'wrap', 'text-max-width':9999,
+          'text-justification':'center', 'line-height':1.15,
+          'text-valign':'center', 'text-halign':'center',
+          'text-background-color':BG, 'text-background-opacity':0.86,
+          'text-background-padding':6, 'text-background-shape':'roundrectangle' } },
       /* PEEK-LIGHT ── フォーカス中に1回押したノードのつながりを光らせる */
       { selector:'.peekdim', style:{ 'opacity':0.2 } },
       { selector:'node.peek', style:{ 'underlay-color':'#f0a828', 'underlay-opacity':0.42, 'underlay-padding':9 } },
@@ -471,7 +485,9 @@ function boot(data){
        ある … 座標を置いて preset（計算しない・毎回まったく同じ配置）
        無い … 今までどおり力学レイアウト */
   const _sel0 = document.getElementById('layout');
-  if (SAVED && _sel0 && _sel0.value === 'saved'){
+  if (_sel0 && _sel0.value === 'isles'){          // HEXISLE-MIND-2026-09-17 ⭐既定＝型ごとの島（計算しない・線なし）
+    applyIsleLayout();
+  } else if (SAVED && _sel0 && _sel0.value === 'saved'){
     const lost = applySavedPositions();
     cy.layout({ name:'preset', fit:true, padding:60 }).run();
     if (lost) console.log('[mind-atlas] 位置が無く渦巻きに置いたノード: ' + lost);
@@ -619,7 +635,12 @@ cy.on('tap','node', ev => {
 
   buildFilters(data);
   buildList(data);
-  document.getElementById('layout').onchange = e => cy.layout(layoutOpts(e.target.value)).run();
+  document.getElementById('layout').onchange = e => {          // HEXISLE-MIND-2026-09-17
+    if (FOCUS) exitFocus();
+    if (e.target.value === 'isles'){ applyIsleLayout(); return; }
+    leaveIsleMode();
+    cy.layout(layoutOpts(e.target.value)).run();
+  };
   document.getElementById('resetview').onclick = resetView;
   // ⭐Home キーでも戻せる（⚠検索欄などに入力しているときは邪魔しない）
   document.addEventListener('keydown', e => {
@@ -680,7 +701,9 @@ cy.on('tap','node', ev => {
   /* ⭐⭐ズームが変わったら、字の大きさを当て直す（LAND から）。
      ⚠⚠**輪は数が多いほど大きくなる**ので、当て直さないと引きで名前が消える。
      ⭐連打で重くならないよう、落ち着いてから1回だけ走らせる。 */
-  cy.on('zoom', () => {
+  cy.on('zoom', () => {                          // HEXISLE-MIND-2026-09-17 ⭐島の札は zoom に合わせて画面で 20px ほどに
+    clearTimeout(_isleTimer);
+    _isleTimer = setTimeout(fitIsleLabels, 80);
     if (!FOCUS && !cy.elements('.dim').length) return;
     clearTimeout(_litTimer);
     _litTimer = setTimeout(fitLitLabels, 80);
@@ -842,7 +865,140 @@ function applySavedPositions(){
   return miss.length;
 }
 
+
+/* ============================================================================
+   ⭐⭐⭐ HEXISLE-MIND-2026-09-17 ── 初期表示＝型ごとの六角形の島（燻太さんの指定・LAND/ALGA と同じ作り）
+
+   ⭐燻太さんの言葉（2026-09-17）＝「MINDのノードも多くなってきたから、LANDやALGAのように、
+     ノードの種類ごとに整列させて、力学の反映をやめることにしようか」。
+   ⭐役目を分ける ── **全体＝何が登録されているかの一覧**（線なし・計算しない）／
+     **フォーカス＝つながりを読むところ**（線あり・輪）。検索で光らせたときは、そのノードの線だけ出す。
+   ⭐島＝六角格子（行を半分ずらす・colGap 112・行間 112×0.866）で詰めた六角形。
+     席は 1+3R(R+1) ≥ N の最小の R、余る席は上下の行を交互に丸ごと外す。
+     中の順＝論文は年代順（id が年で始まる）・ほかは ABC→五十音（左→右・上→下）。
+   ⭐島どうし＝2 段。上の段＝大きな島（最大の 1/4 以上）を ORDER の順に横へ、下の段＝残り。
+     中心の間隔の下限＝112×16（札が引きでも重ならない幅）。
+   ⭐「これから調べる」（stub）は別の島（フィルタの区分と同じ）。
+   ⭐島の上に種類名＋数の札（.isletick）。字は zoom に合わせて 22/z（44〜640px）＝引いても画面で 20px ほど。
+   ⚠positions.js は「保存した位置」を選んだときだけ使う。build_positions.py はもう流さない。
+   ============================================================================ */
+let ISLE_MODE = false;          // いま全体を「型ごとの島」で置いているか
+let ISLES = null;               // 島ごとの中心と大きさ（札を置き直すため）
+let _isleTimer = null;
+const ISLE_COLGAP = 112;
+const isleTypes = () => ORDER.concat(['これから調べる']);   // ⚠ORDER はこの下で定義されるので、使うときに引く
+
+function isleTypeOf(n){ return n.data('stub') ? 'これから調べる' : n.data('type'); }
+
+/* 種類ごとの並び＝論文は年代順（id が「2022 Templeton」の形）・ほかは ABC→五十音 */
+function isleSort(type, list){
+  const key = n => String(n.data('label') || n.id());
+  return list.slice().sort((a, b) => key(a).localeCompare(key(b), 'ja', { numeric:true }));
+}
+
+function applyIsleLayout(){
+  if (!cy) return;
+  if (FOCUS) exitFocus();
+  clearDim();
+  cy.remove('.isletick');
+  const hexW = ISLE_COLGAP, hexH = ISLE_COLGAP * 0.866;
+  const all = cy.nodes().not('.ringtick').not('.isletick');
+  const groups = isleTypes().map(t => ({ type:t, list: isleSort(t, all.filter(n => isleTypeOf(n) === t).toArray()) }))
+                           .filter(g => g.list.length);
+  // ① 島ごとに六角格子の席を作る
+  const isles = groups.map(g => {
+    const list = g.list, N = list.length;
+    let R = 0; while (1 + 3 * R * (R + 1) < N) R++;
+    let rows = []; for (let k = -R; k <= R; k++) rows.push(2 * R + 1 - Math.abs(k));
+    let top = 0, bot = 0;
+    const sum = a => a.reduce((x, v) => x + v, 0);
+    while (rows.length > 1){
+      const first = rows[0], last = rows[rows.length - 1];
+      if (top <= bot && sum(rows) - first >= N){ rows.shift(); top++; }
+      else if (sum(rows) - last >= N){ rows.pop(); bot++; }
+      else break;
+    }
+    const cells = []; let i = 0;
+    for (let r = 0; r < rows.length && i < N; r++){
+      const len = Math.min(rows[r], N - i);
+      for (let c = 0; c < len; c++) cells.push({ r:r, c:c, len:len });
+      i += len;
+    }
+    const used = cells.length ? cells[cells.length - 1].r + 1 : 1;
+    const wide = Math.max.apply(null, rows.slice(0, used));
+    const w = wide * hexW, h = used * hexH;
+    const rel = list.map((n, j) => { const cl = cells[j];
+      return { x:(cl.c - (cl.len - 1) / 2) * hexW, y:(cl.r - (used - 1) / 2) * hexH }; });
+    return { type:g.type, list:list, rel:rel, w:w, h:h, x:0, y:0 };
+  });
+  // ② 島を 2 段に並べる（円詰めは小島が寄り合って札が重なるのでしない＝LAND で踏んだ）
+  const maxN = Math.max.apply(null, isles.map(c => c.list.length));
+  const bigs = isles.filter(c => c.list.length >= maxN / 4), smalls = isles.filter(c => c.list.length < maxN / 4);
+  const gap = hexW * 1.2, minPitch = hexW * 16;
+  const rowPlace = (arr, y, pitchMin) => {
+    let x = 0; const xs = [];
+    arr.forEach((c, k) => {
+      if (k) x += Math.max(pitchMin, arr[k - 1].w / 2 + c.w / 2 + gap);
+      xs.push(x);
+    });
+    const mid = xs.length ? (xs[0] + xs[xs.length - 1]) / 2 : 0;
+    arr.forEach((c, k) => { c.x = xs[k] - mid; c.y = y; });
+  };
+  const hBig = bigs.length ? Math.max.apply(null, bigs.map(c => c.h)) : 0;
+  const hSml = smalls.length ? Math.max.apply(null, smalls.map(c => c.h)) : 0;
+  rowPlace(bigs, 0, 0);
+  if (smalls.length) rowPlace(smalls, hBig / 2 + hexH * 2.2 + hSml / 2, minPitch);
+  // ③ 置く
+  cy.batch(() => {
+    isles.forEach(c => c.list.forEach((n, j) => n.position({ x:c.x + c.rel[j].x, y:c.y + c.rel[j].y })));
+  });
+  ISLES = isles.map(c => ({ type:c.type, n:c.list.length, x:c.x, y:c.y, w:c.w, h:c.h }));
+  ISLE_MODE = true;
+  addIsleLabels();
+  hideIsleEdges();
+  cy.layout({ name:'preset', fit:true, padding:80 }).run();
+  setTimeout(() => { cy.fit(cy.elements(':visible'), 80); fitIsleLabels(); }, 60);
+}
+
+/* 島の札（種類名＋数）を置く。⚠掴めない・選べない・押せない（events:no） */
+function addIsleLabels(){
+  if (!ISLES) return;
+  cy.remove('.isletick');
+  const hexH = ISLE_COLGAP * 0.866;
+  cy.add(ISLES.map(c => ({ group:'nodes', classes:'isletick',
+    data:{ id:'__isle_' + c.type, label:c.type + '\n' + c.n,
+           color:(c.type === 'これから調べる' ? SUB : (TYPE_COLOR[c.type] || '#c08a3e')) },
+    position:{ x:c.x, y:c.y - c.h / 2 - hexH * 0.75 },
+    grabbable:false, selectable:false })));
+  fitIsleLabels();
+}
+
+/* 島の札の字＝どの zoom でも画面で 20px ほど */
+function fitIsleLabels(){
+  if (!cy || !ISLE_MODE) return;
+  const z = cy.zoom() || 1;
+  cy.nodes('.isletick').style({ 'font-size': Math.max(44, Math.min(640, 22 / z)), 'min-zoomed-font-size': 0 });
+}
+
+/* 全体（島）では線を出さない。⚠フォーカス中・張り直し中は触らない（隣は見えている線ぞいに数えるため） */
+function hideIsleEdges(){
+  if (!cy || !ISLE_MODE) return;
+  if (typeof FOCUS !== 'undefined' && (FOCUS || FOCUS_BUSY)) return;
+  cy.edges().style('display', 'none');
+}
+
+/* 島をやめて別の並べかたへ（保存した位置・毎回計算）＝札を片づけ・線を戻す */
+function leaveIsleMode(){
+  if (!cy) return;
+  ISLE_MODE = false; ISLES = null;
+  cy.remove('.isletick');
+  cy.edges().style('display', 'element');
+  applyFilters();
+}
+
 function layoutOpts(name){
+  // ⭐型ごとの島＝applyIsleLayout が preset で置く。まちがって渡ってきたら座標をそのまま使う
+  if (name === 'isles') return { name:'preset', fit:true, padding:80 };   // HEXISLE-MIND-2026-09-17
   // ⭐保存した位置＝座標を置くだけ。計算しない
   if (name === 'saved'){
     if (!SAVED) name = 'cose';          // positions.js が無ければ力学レイアウトに倒す
@@ -1046,6 +1202,7 @@ function applyFilters(){
      ⚠⚠**`FOCUS_BUSY` を見るのが要る** ── `restoreFilterVisibility()` から
        呼ばれたときにも張り直すと、⭐**入れ子になって戻ってこない。** */
   if (typeof FOCUS !== 'undefined' && FOCUS && !FOCUS_BUSY) refocus();
+  hideIsleEdges();                     // HEXISLE-MIND-2026-09-17
 }
 
 function search(q){
@@ -1068,9 +1225,11 @@ function search(q){
    直接つながっているノードとその線だけを残し、あとは薄くする。 */
 function spotlight(hit, note){
   cy.elements().addClass('dim');
+  cy.nodes('.isletick').removeClass('dim');    // HEXISLE-MIND-2026-09-17 島の札は薄くしない
   hit.removeClass('dim');
   hit.neighborhood().removeClass('dim');       // 直接つながっているノード
   hit.connectedEdges().removeClass('dim');     // その線
+  if (ISLE_MODE && !FOCUS) hit.connectedEdges().style('display', 'element');   // HEXISLE-MIND-2026-09-17 島では線を伏せているので、光らせた線だけ出す
   // ⭐⭐薄くしたものは**触っても動かない**ようにする（2026-09-03・gene-atlas とそろえた）。
   //   ⚠見えにくいものを、うっかり掴んで動かしてしまうのを防ぐ。
   //   ⭐掴めない（ungrabify）・選べない（unselectify）に加えて、
@@ -1078,7 +1237,7 @@ function spotlight(hit, note){
   cy.elements('.dim').unselectify();
   cy.nodes('.dim').ungrabify();
   cy.elements().not('.dim').selectify();
-  cy.nodes().not('.dim').grabify();
+  cy.nodes().not('.dim').not('.isletick').grabify();   // HEXISLE-MIND-2026-09-17
   /* ⭐⭐**前の動きを止めてから動かす**（2026-09-05）。
      ⚠`cy.animate` は**待ち行列に積む**ので、止めないと続けて呼ばれたぶんが
        順番に再生され、⭐**手を止めたあとも地図が動き続ける。**
@@ -1107,10 +1266,10 @@ function clearPeek(){
   PEEK = null;
 }
 function peekNode(el){
-  if (!el || !el.length || el.hasClass('ringtick')) return;
+  if (!el || !el.length || el.hasClass('ringtick') || el.hasClass('isletick')) return;   // HEXISLE-MIND-2026-09-17
   if (PEEK === el.id()){ clearPeek(); hitCount(''); return; }
   clearPeek();
-  const vis = cy.elements(':visible').not('.ringtick');
+  const vis = cy.elements(':visible').not('.ringtick').not('.isletick');   // HEXISLE-MIND-2026-09-17
   const eg  = el.connectedEdges().filter(':visible');
   const nb  = eg.connectedNodes().not(el);
   const lit = el.union(eg).union(nb);
@@ -1128,8 +1287,9 @@ function clearDim(){
   clearPeek();   // PEEK-LIGHT
   if (!cy) return;
   cy.elements().removeClass('dim').selectify();
-  // ⚠薄くしたときに外した「掴める」を必ず戻す。⚠輪の札（.ringtick）は掴ませない
-  cy.nodes().not('.ringtick').grabify();
+  // ⚠薄くしたときに外した「掴める」を必ず戻す。⚠輪の札（.ringtick）・島の札（.isletick）は掴ませない
+  cy.nodes().not('.ringtick').not('.isletick').grabify();   // HEXISLE-MIND-2026-09-17
+  hideIsleEdges();                                          // HEXISLE-MIND-2026-09-17 光らせたときに出した線を伏せ直す
   clearLitLabels();         // ⭐光らせるとき用に大きくした字を戻す
   hitCount('');
 }
@@ -1387,7 +1547,7 @@ function fitLitLabels(){
   if (!FOCUS && !spot) return;
   const z = cy.zoom() || 1;
   const f = Math.max(11, Math.min(28, 11.5 / z));
-  const tgt = (FOCUS ? cy.nodes(':visible') : cy.nodes().not('.dim')).not('.ringtick');
+  const tgt = (FOCUS ? cy.nodes(':visible') : cy.nodes().not('.dim')).not('.ringtick').not('.isletick');   // HEXISLE-MIND-2026-09-17
   tgt.style({ 'font-size': f, 'min-zoomed-font-size': 0 });
   cy.nodes('.ringtick').style(
     { 'font-size': Math.max(15, Math.min(38, 17 / z)), 'min-zoomed-font-size': 0 });
@@ -1400,8 +1560,8 @@ function fitLitLabels(){
 }
 function clearLitLabels(){
   if (!cy) return;
-  cy.nodes().removeStyle('font-size');
-  cy.nodes().removeStyle('min-zoomed-font-size');
+  cy.nodes().not('.isletick').removeStyle('font-size');            // HEXISLE-MIND-2026-09-17 島の札の字は zoom で当てるので触らない
+  cy.nodes().not('.isletick').removeStyle('min-zoomed-font-size');
   cy.edges().removeStyle('font-size');       // ⚠線のほうも必ず戻す
   cy.edges().removeStyle('min-zoomed-font-size');
 }
@@ -1585,15 +1745,16 @@ function exitFocus(){
       if (p) n.position({ x:p[0], y:p[1] });
     });
   });
-  applyFilters();                      // ⭐**いまのチェックから**計算し直す
+  applyFilters();                      // ⭐**いまのチェックから**計算し直す（島なら線も伏せ直る）
   clearLitLabels();
+  fitIsleLabels();                     // HEXISLE-MIND-2026-09-17
   cy.zoom(snap.zoom);
   cy.pan(snap.pan);
   const box = document.getElementById('focus');
   if (box) box.value = '';
   FOCUS_TRAIL = [];
   focusUI(false);
-  hitCount('元のネットワークに戻した');
+  hitCount('元の地図に戻した');
   setTimeout(() => hitCount(''), 1600);
 }
 
