@@ -88,6 +88,10 @@
        `**…**` … いちばんの要点（これまでどおりの太字） */
   .warn{color:#a33a2a}
   .key{color:#1f3d6b;font-weight:600}
+  /* IMG-MIND-2026-09-19 説明欄の絵 */
+  .fig{margin:10px 0}
+  .fig img{display:block;max-width:100%;height:auto;border:1px solid rgba(0,0,0,.12)}
+  .fig figcaption{font-size:.84em;opacity:.72;margin-top:4px;line-height:1.4}
   /* 本文から、ほかのノードへ飛ぶリンク（2026-09-09） */
   .wiki{color:var(--accent);text-decoration:none;border-bottom:1px dotted currentColor;
     cursor:pointer}
@@ -1810,6 +1814,13 @@ function esc(s){ const d = document.createElement('div'); d.textContent = s; ret
        本文に 1444 個ある。クリックでそのノードへ飛ぶようにした。
    (3) ### の小見出しが素の文字で出ていた（87 個）。 */
 function md(s){
+  /* IMG-MIND-2026-09-19 説明欄の絵： ![説明](img/…jpg) → <figure>。他の記法や頁の札に触られないよう先に取り出す（陽介） */
+  const figs = [];
+  s = s.replace(/!\[([^\]\n]*)\]\(([^)\s]+)\)/g, (m, alt, src) => {
+    figs.push('<figure class="fig"><img src="' + esc(src) + '" alt="' + esc(alt) + '" loading="lazy">' +
+              (alt ? '<figcaption>' + esc(alt) + '</figcaption>' : '') + '</figure>');
+    return '\u0000FIG' + (figs.length - 1) + '\u0000';
+  });
   return esc(s)
     .replace(/\*\*([\s\S]+?)\*\*/g, '<b>$1</b>')
     .replace(/!!([\s\S]+?)!!/g, '<span class="warn">$1</span>')
@@ -1822,7 +1833,8 @@ function md(s){
     })
     .replace(/^#{3,} +(.+)$/gm, '<b class="h3">$1</b>')
     .replace(PAGE_RE, (m0) => pageChip(m0))                 // LOCAL-2026-09-18 書庫の頁の札
-    .replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>');
+    .replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>')
+    .replace(/\u0000FIG(\d+)\u0000(?:<br>)?/g, (m, i) => figs[+i]);   // IMG-MIND-2026-09-19 絵を戻す
 }
 
 
