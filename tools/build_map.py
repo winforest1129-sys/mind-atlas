@@ -28,6 +28,10 @@ links の to が nodes/ にまだ無いときは、
 """
 import io, json, os, re, sys, datetime
 
+# IMG-MIND-2026-09-19 本文の絵。index.html の md() と同じ形（![説明](パス)）
+IMG_RE = re.compile(r'!\[([^\]\n]*)\]\(([^)\s]+)\)')
+IMG_PAGE_RE = re.compile(r'(?:pp?\.\s*\d+|画像\s*\d+)')
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -150,6 +154,7 @@ def main():
         return 1
 
     nodes, edges, warnings = {}, [], []
+    pics = []                      # IMG-MIND-2026-09-19 (ノードid, 絵のパス)
 
     for fn in sorted(os.listdir(NODES_DIR)):
         if not fn.endswith('.md') or fn.startswith('_'):
@@ -212,6 +217,15 @@ def main():
             rel = fields['pdf'].replace('/', os.sep)
             if not os.path.exists(os.path.join(ROOT, rel)):
                 warnings.append(fn + ': pdf に書いた ' + fields['pdf'] + ' が手元に無い')
+        # IMG-MIND-2026-09-19 本文の絵 ![説明](img/…) を見張る（陽介が置く。画面 md() と同じ正規表現）
+        # ⚠ファイルが無くても画面は空の枠を出すだけなので、ここで気づく
+        for m_img in IMG_RE.finditer(body):
+            alt, src = m_img.group(1), m_img.group(2)
+            pics.append((nid, src))
+            if not os.path.exists(os.path.join(ROOT, src.replace('/', os.sep))):
+                warnings.append(fn + ': 絵 ' + src + ' が img/ に無い')
+            if IMG_PAGE_RE.search(alt):
+                warnings.append(fn + ': 絵の説明文に頁（p.N／画像N）が入っている（書庫の札に化ける）')
 
         nodes[nid] = {
             'id': nid, 'type': ntype, 'confidence': conf,
@@ -284,6 +298,11 @@ def main():
           '（残り ' + str(len(written) - len(with_refs)) + ' は記憶だけで書かれている）')
     if stubs:
         print('  これから調べる: ' + ', '.join(sorted(n['id'] for n in stubs)))
+    if pics:                       # IMG-MIND-2026-09-19 絵つきの数（陽介の挿絵）
+        missing = [src for _, src in pics
+                   if not os.path.exists(os.path.join(ROOT, src.replace('/', os.sep)))]
+        print('  絵つき: ' + str(len(set(n for n, _ in pics))) + ' ノード・' + str(len(pics)) + ' 枚'
+              + '（見つからない ' + str(len(missing)) + '）')
     if warnings:
         print('  --- 気になるところ ---')
         for w in warnings:
