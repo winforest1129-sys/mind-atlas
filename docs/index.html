@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- PUBLIC-2026-09-21 ⭐公開版。tools/build_public.py が手元版 index.html から焼いた生成物＝直接編集しない。手元専用の機能（Connected Papers・書庫の箱・手元PDF）を外してある -->
 <html lang="ja">
 <head>
 <meta charset="utf-8">
@@ -366,7 +367,7 @@
      catalog.js は書庫の台帳（別フォルダ・無ければ書庫の機能だけ出ない） -->
 <script src="data.js"></script>
 <script src="brain.js"></script>
-<script src="../../Taiga_PJ/書庫/catalog.js"></script>
+<!-- PUBLIC-2026-09-21 公開版＝書庫の台帳は読まない（書庫の箱・頁の札は出ない） -->
 <script>
 const TYPE_SHAPE = {
   '用語':'ellipse', '人物':'hexagon', '理論':'diamond',
@@ -2031,18 +2032,16 @@ function show(n){
          MIND は公開サイトなので papers/ を .gitignore にしてある（著作物を再配布しないため）。
          ⭐だから公開側ではこのリンクは開けない。そのことを画面にも書く。
          ⭐OA本体そのものは、上の DOI と下の refs から誰でも辿れる。 */
-    if (F['pdf'])   // LOCAL-2026-09-18 ローカル専用になったので「手元だけ」の札は要らない
-      h += '<br><a class="pdflink" href="' + esc(encodeURI(F['pdf'])) +
-           '" target="_blank" rel="noopener noreferrer">本文PDFを開く</a>';
+    // PUBLIC-2026-09-21 公開版＝手元PDF（papers/）へのリンクは出さない（公開しないので開けない）
     if (F['本文'])
       h += '<br><span class="bodystate b-' + esc(F['本文']) + '">本文: ' +
            esc(F['本文']) + '</span>';
   }
   if (n.file) h += '<br><span style="opacity:.7">' + esc(n.file) + '</span>';
   h += '</div>';
-  if (n.type === '論文') h += cpBox(n);                    // LOCAL-2026-09-18 Connected Papers
+  // PUBLIC-2026-09-21 公開版＝Connected Papers の箱は出さない
   CUR_SHOKO = shokoBooksOf(n);                              // LOCAL-2026-09-18 本文の頁を札にするため先に決める
-  h += shokoBox(n);                                         // LOCAL-2026-09-18 書庫の箱（出典の本がスキャンしてあれば）
+  // PUBLIC-2026-09-21 公開版＝書庫の箱は出さない
 
   // まだ手元に無い本は、買える場所をいちばん上に出す
   if (n.owned === '無'){

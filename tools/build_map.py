@@ -307,6 +307,13 @@ def main():
         print('  --- 気になるところ ---')
         for w in warnings:
             print('  ⚠ ' + w)
+    # PUBLIC-2026-09-21 公開版を docs/ に焼く（手元版と公開版を毎回いっしょに作る＝燻太さんの指定）
+    import subprocess
+    sys.stdout.flush()             # ⚠親の出力が後から出て順が入れ替わるのを防ぐ
+    rc = subprocess.call([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'build_public.py')])
+    if rc != 0:
+        print('  ⚠ 公開版（docs/）が焼けなかった → tools/build_public.py を見る')
+        return rc
     return 0
 
 

@@ -3,11 +3,11 @@
 燻太さんと大河が、読んだ本から拾った **用語・人物・実験・理論** をつないでいく地図。
 1つの用語が1つのファイルになっていて、`links` でつなぐと地図の上に線が引かれる。
 
-⚠⚠ **2026-09-18 から手元専用（公開しない）。** GitHub Pages は切り・リポジトリは private（履歴の控えとしてだけ使う）。
-理由＝書庫（スキャンした本）の頁の画像・OCR本文・論文の本文PDFを地図から直に引く作りにしたため。公開すると著作権に抵触するおそれがある。
-開きかた＝`index.html` をダブルクリック（file:// で動く。`lib/` にライブラリ・`data.js` に中身・`brain.js` に脳の図・`../../Taiga_PJ/書庫/catalog.js` に書庫の台帳）。
-⚠`data.js` と `brain.js` は `tools/build_map.py` が `data.json` と同時に焼く（fetch が file:// で使えないため）。
-ローカル専用の機能＝論文の Connected Papers ボタン／出典の本がスキャンしてあれば「書庫」の箱（p.44・pp.44-45・画像17 を押すとその頁の画像と本文がその場に出る）。当てたのは `tools/patch_local_site.py`（目印 `LOCAL-2026-09-18`）・確かめるのは `tools/check_local.py`。
+⭐ **2026-09-21 から「手元版＋公開版」の二本立て。**（2026-09-18〜20 は手元専用だった）
+- **手元版**＝このフォルダの `index.html` をダブルクリック（file:// で動く。`lib/` にライブラリ・`data.js` に中身・`brain.js` に脳の図・`../../Taiga_PJ/書庫/catalog.js` に書庫の台帳）。論文の Connected Papers ボタン／出典の本がスキャンしてあれば「書庫」の箱（p.44・pp.44-45・画像17 を押すとその頁の画像と本文がその場に出る）／手元PDF。当てたのは `tools/patch_local_site.py`（目印 `LOCAL-2026-09-18`）・確かめるのは `tools/check_local.py`
+- **公開版**＝`docs/`（GitHub Pages・`main` の `/docs`・https://winforest1129-sys.github.io/mind-atlas/ ）。`tools/build_public.py` が手元版から **Connected Papers・書庫の箱・手元PDFのリンクを外して**焼く（目印 `PUBLIC-2026-09-21`）。`tools/build_map.py` の最後で自動で呼ばれる。確かめるのは `tools/check_public.py`。⚠`docs/` は生成物＝直接編集しない
+- 理由＝書庫（スキャンした本）の頁の画像・OCR本文・論文の本文PDFを地図から引く作りは・公開すると著作権に抵触するおそれがある。だから公開版にはその機能を載せない（`papers/` も .gitignore のまま）。絵（`img/`・陽介の挿絵）は自作なので公開版にも出る
+- ⚠`data.js` と `brain.js` は `tools/build_map.py` が `data.json` と同時に焼く（fetch が file:// で使えないため）。公開版もこの作りのまま動く
 
 ---
 
@@ -281,7 +281,7 @@ python tools/build_positions.py   # ⭐そのあとに、これ
 ⚠ **コミットメッセージは英語で、引用符（`"` `'`）を使わない。**
 PowerShell 5.1 が引数を割ってしまい `pathspec did not match` で落ちる（植物図鑑で3回やらかした）。
 
-⚠ **`data.json` は生成物だが、git に入れる。** GitHub Pages が読むファイルだから。
+⚠ **`data.json`・`data.js`・`docs/` は生成物だが、git に入れる。** GitHub Pages（`docs/`）が読むファイルだから。
 ビルドを忘れて push すると、地図が古いままになる。
 
 ---
