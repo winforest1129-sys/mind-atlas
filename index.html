@@ -60,6 +60,11 @@
   .books label{display:flex;align-items:flex-start;gap:5px;cursor:pointer;
     padding:3px 0;line-height:1.45;user-select:none}
   .books .sub{color:var(--sub);font-size:10.5px}
+  /* MEDIA-2026-09-23 出典の群の見出し（本／動画／ゲーム） */
+  .books .srcgroup{margin:9px 0 3px;font-size:11px;letter-spacing:.04em;color:var(--sub);
+    display:flex;align-items:center;gap:5px}
+  .books .srcgroup:first-child{margin-top:0}
+  .books .srcgroup .dot{width:8px;height:8px;border-radius:2px;display:inline-block}
   .sheetbar{display:none}
   .grip{width:36px;height:4px;border-radius:2px;background:var(--line);display:block}
   .btn{padding:4px 9px;border:1px solid var(--line);border-radius:3px;background:var(--bg);
@@ -260,7 +265,7 @@
   <aside id="list" class="closed">
     <div class="sheetbar"><span class="grip"></span>
       <button class="btn xbtn" data-close="list">閉じる</button></div>
-    <h3>本でしぼる</h3>
+    <h3>出典でしぼる</h3>
     <div class="books" id="books"></div>
     <div style="margin-top:6px;display:flex;gap:6px">
       <button class="btn" id="bAll">ぜんぶ</button>
@@ -319,7 +324,7 @@
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
       <b>全体は「型ごとの島」</b>＝種類ごとに六角形に詰めて並べてある（何が登録されているかの一覧。線は出さない）。
       <b>つながりはフォーカス（下）で読む</b>。検索で光らせたときは、そのノードの線だけ出る。<br><br>
-      形は種類で分けてある。丸＝用語、角丸四角＝書物、六角＝人物、菱形＝理論、三角＝実験、八角＝症例、五角＝生物（本に登場した動物）、
+      形は種類で分けてある。丸＝用語、角丸四角＝書物、<b>角を落とした四角＝映像（動画）</b>、<b>平行四辺形＝遊戯（ゲーム）</b>、六角＝人物、菱形＝理論、三角＝実験、八角＝症例、五角＝生物（本に登場した動物）、
       <b>星＝予感</b>。<br>
       <b>予感</b>だけ性格が違う。<b>燻太さんが「関連がありそう」と感じたところ</b>から生まれた項目で、
       まだ主張ではない。筋の通るところと切れるところを並べて置いてある。<br><br>
@@ -372,7 +377,10 @@ const TYPE_SHAPE = {
   '用語':'ellipse', '人物':'hexagon', '理論':'diamond',
   '実験':'triangle', '症例':'octagon', '書物':'round-rectangle',
   '予感':'star', '論文':'rectangle',
-  '生物':'pentagon'   // 本に登場した動物・植物（2026-09-12）
+  '生物':'pentagon',   // 本に登場した動物・植物（2026-09-12）
+  // MEDIA-2026-09-23 ⭐動画とゲーム（それまで書物で代用していた）。どちらも四角の仲間＝
+  //   「どこから来たか」の側であることは書物と同じ・形で見分ける
+  '映像':'cut-rectangle', '遊戯':'rhomboid'
 };
 const TYPE_COLOR = {
   '用語':'#7a6da8','人物':'#4f8a6b','理論':'#c07a3e','実験':'#3f8b96','症例':'#8a6250','書物':'#3d5a80',
@@ -381,7 +389,11 @@ const TYPE_COLOR = {
   //   書物（濃い青 #3d5a80）とも用語（紫 #7a6da8）とも見分けがつくようにした
   '論文':'#7d8794',
   // 生物（2026-09-12）。からし色。どの型とも重ならない色にした
-  '生物':'#b8962e'
+  '生物':'#b8962e',
+  // MEDIA-2026-09-23 映像（動画）と遊戯（ゲーム）。⭐空いていた色相に入れた＝
+  //   映像＝赤紫（用語の紫 #7a6da8 と予感の桃 #a8577a のあいだ）／遊戯＝オリーブ（生物の
+  //   からし #b8962e と人物の緑 #4f8a6b のあいだ）。⚠赤（対立の線 #b4483f）は使わない
+  '映像':'#9c4a94', '遊戯':'#6f8f3c'
 };
 const DARK = window.matchMedia('(prefers-color-scheme:dark)').matches;
 const INK  = DARK ? '#e6e2da' : '#2f2b26';
@@ -1093,23 +1105,39 @@ function buildFilters(data){
 
 // ---- ① 一覧パネル ----------------------------------------------------
 // ⭐論文は書物のとなり（どちらも「どこから来たか」の側）。⭐輪の並びもこの順を使う
-const ORDER = ['予感','書物','論文','人物','理論','症例','生物','実験','用語'];
+// MEDIA-2026-09-23 映像・遊戯は書物のとなり（本・動画・ゲーム＝「どこから来たか」の三つ）
+const ORDER = ['予感','書物','映像','遊戯','論文','人物','理論','症例','生物','実験','用語'];
 
 function buildList(data){
-  // 「本でしぼる」= 書物ノードごとのチェックボックス。キーは その本の 出典 の値
-  const books = data.nodes.filter(n => n.type === '書物' && !n.stub)
-                          .sort((a,b) => (a.sources[0]||'').localeCompare(b.sources[0]||''));
+  /* 「出典でしぼる」= 出典ノードごとのチェックボックス。キーは その出典の値（sources[0]）。
+     MEDIA-2026-09-23 ⭐本・動画・ゲームの3群に分けて並べる。⚠⚠**しぼる仕組みは変えない**＝
+       ここに並んだキーだけが applyFilters の `on` に入る。⚠新しい出典の型を足したら
+       **必ずこの表にも足す**（足し忘れると、その出典しか持たないノードが永久に消える）。 */
+  const SRC_GROUPS = [['書物','本'], ['映像','動画'], ['遊戯','ゲーム']];
   const bbox = document.getElementById('books');
   bbox.innerHTML = '';
-  books.forEach(b => {
-    const key = b.sources[0] || b.id;
-    const lab = document.createElement('label');
-    lab.innerHTML = '<input type="checkbox" data-book="' + esc(key) + '" checked>' +
-      '<span>' + esc(b.id) + '<br><span class="sub">' + esc(key) + '</span></span>';
-    bbox.appendChild(lab);
-    lab.querySelector('input').onchange = applyFilters;
+  let nSrc = 0;
+  SRC_GROUPS.forEach(g => {
+    const t = g[0];
+    const list = data.nodes.filter(n => n.type === t && !n.stub)
+                           .sort((a,b) => (a.sources[0]||'').localeCompare(b.sources[0]||''));
+    if (!list.length) return;
+    nSrc += list.length;
+    const head = document.createElement('p');
+    head.className = 'srcgroup';
+    head.innerHTML = '<span class="dot" style="background:' + (TYPE_COLOR[t]||'#888') + '"></span>' +
+                     esc(g[1]) + ' <span class="sub">' + list.length + '</span>';
+    bbox.appendChild(head);
+    list.forEach(b => {
+      const key = b.sources[0] || b.id;
+      const lab = document.createElement('label');
+      lab.innerHTML = '<input type="checkbox" data-book="' + esc(key) + '" checked>' +
+        '<span>' + esc(b.id) + '<br><span class="sub">' + esc(key) + '</span></span>';
+      bbox.appendChild(lab);
+      lab.querySelector('input').onchange = applyFilters;
+    });
   });
-  if (!books.length) bbox.innerHTML = '<p class="sub">まだ書物のノードが無い。</p>';
+  if (!nSrc) bbox.innerHTML = '<p class="sub">まだ出典のノードが無い。</p>';
 
   document.getElementById('bAll').onclick = () => setBooks(true);
   document.getElementById('bNone').onclick = () => setBooks(false);
