@@ -1,6 +1,6 @@
 /* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
 window.DATA = {
- "generated": "2026-09-27 08:14",
+ "generated": "2026-09-27 09:20",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -933,6 +933,36 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "1999 Simons",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Gorillas in our midst - sustained inattentional blindness for dynamic events",
+     "url": "https://doi.org/10.1068/p281059",
+     "note": "書誌は Crossref と Europe PMC で確かめた（2026-09-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1999 Simons.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1999",
+    "著者": "Simons, Chabris",
+    "雑誌": "Perception 28:1059-1074",
+    "DOI": "10.1068/p281059",
+    "書誌の出どころ": "Crossref(title)・Europe PMC（2026-09-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Gorillas in our midst - sustained inattentional blindness for dynamic events**\n\nSimons, Chabris（1999）／ *Perception 28:1059-1074*\n\n中身は [[見えないゴリラ]] に要旨から書いた。本文は未読。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1999 Wegner",
    "type": "論文",
    "confidence": "確認済",
@@ -1150,6 +1180,36 @@ window.DATA = {
    "sections": {
     "これは何か": "**The hazards of predicting divorce without crossvalidation**\n\nHeyman RE・Slep AMS（2001）／ *Journal of Marriage and Family*",
     "この地図で": "- **[[呼びかけへの応答]]** ── 離婚予測研究（Gottman・Coan・Carrere・Swanson 1998 など）は交差検証と離婚の基礎率を考えておらず・交差検証すると精度が急落。==「どれほど印象的でも・交差検証の無い結果は極めて慎重に」==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2001 Most",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "How not to be seen - the contribution of similarity and selective ignoring to sustained inattentional blindness",
+     "url": "https://doi.org/10.1111/1467-9280.00303",
+     "note": "書誌は Crossref と Europe PMC で確かめた（2026-09-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2001 Most.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2001",
+    "著者": "Most, Simons, Scholl, Jimenez, Clifford, Chabris",
+    "雑誌": "Psychological Science 12:9-17",
+    "DOI": "10.1111/1467-9280.00303",
+    "書誌の出どころ": "Crossref(title)・Europe PMC（2026-09-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**How not to be seen - the contribution of similarity and selective ignoring to sustained inattentional blindness**\n\nMost, Simons, Scholl, Jimenez, Clifford, Chabris（2001）／ *Psychological Science 12:9-17*\n\n中身は [[非注意性盲目]] に要旨から書いた。本文は未読。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2780,6 +2840,36 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2010 Simons",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Monkeying around with the gorillas in our midst - familiarity with an inattentional-blindness task does not improve the detection of unexpected events",
+     "url": "https://doi.org/10.1068/i0386",
+     "note": "書誌は Crossref と Europe PMC で確かめた（2026-09-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Simons.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Simons",
+    "雑誌": "i-Perception 1:3-6",
+    "DOI": "10.1068/i0386",
+    "書誌の出どころ": "Crossref(title)・Europe PMC（2026-09-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Monkeying around with the gorillas in our midst - familiarity with an inattentional-blindness task does not improve the detection of unexpected events**\n\nSimons（2010）／ *i-Perception 1:3-6*\n\n中身は [[非注意性盲目]] に要旨から書いた。本文は未読。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2010 Straube",
    "type": "論文",
    "confidence": "確認済",
@@ -3160,6 +3250,36 @@ window.DATA = {
    "sections": {
     "これは何か": "**Executive functions**\n\nDiamond A（2013）／ *Annual Review of Psychology*",
     "この地図で": "- **[[実行機能]]** ── ストレス・睡眠不足・孤独・運動不足はそれぞれ実行機能を損なう。訓練で改善できる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2013 Drew",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "The invisible gorilla strikes again - sustained inattentional blindness in expert observers",
+     "url": "https://doi.org/10.1177/0956797613479386",
+     "note": "書誌は Crossref と Europe PMC で確かめた（2026-09-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Drew.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Drew, Võ, Wolfe",
+    "雑誌": "Psychological Science 24:1848-1853",
+    "DOI": "10.1177/0956797613479386",
+    "書誌の出どころ": "Crossref(title)・Europe PMC（2026-09-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The invisible gorilla strikes again - sustained inattentional blindness in expert observers**\n\nDrew, Võ, Wolfe（2013）／ *Psychological Science 24:1848-1853*\n\n中身は [[非注意性盲目]] に要旨から書いた。本文は未読。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12676,6 +12796,7 @@ window.DATA = {
    "sections": {
     "何が起きたか（ユクスキュル自身の二つの体験）": "1. 友人の家で、毎日の昼食に**陶器の水差し**が置かれていた。ある日それが割れて**ガラスのデカンタ**に替わった。水差しを探したが、デカンタは目に入らなかった。「水ならいつものところにあるじゃないか」と言われてはじめて、皿やナイフの上の光が一つにまとまってデカンタが現れた（画像108）。「**探索像は知覚像を破壊するのである**」\n2. 店で**軽く折れて立っている新しい100マルク札**を出した。店員は「まだ払っていない」と言い張った。指で触れて倒すと、店員は小さく叫んで札をつかんだ（画像110）。ここでも**探索像が知覚像のスイッチを切っていた**\n\n著者は続けて「たぶん読者も、こういう**魔法にかかったような**経験をしたことがあるのではないだろうか」と書く（画像110）── 「魔術的」の語感が11章からもう出ている。",
     "この地図で": "[[想像上の幻影は生成モデルのずれか]] で、**12章のホシムクドリと逆向きの対**として使った。こちらは頭の中の像が「ある物を消す」、あちらは「無い物を出す」。",
+    "燻太さんの見立て＝見えないゴリラと似ている（2026-09-27）": "燻太さんの言葉＝「このノード、件の動画中のゴリラを認識できないって実験と何か似てるよね。**パスの回数という探索像のせいで、知覚像にゴリラが上ってきにくくなる**っていう」\n\n**大河の突き合わせ**（→[[見えないゴリラ]]・[[非注意性盲目]]）\n- **似ているところ① 頭の中の構えが、何が知覚に上るかを決める。** ゴリラ研究の続き（Most ら 2001）で、予期しない物は**注意している物に似ているほど気づかれる**と分かった。決め手は「注意の構え（attentional set）」＝何を探しているか。ユクスキュルの言葉なら、**探索像に合うものだけが知覚像になる**\n- **似ているところ② 目の前にあっても見えない。** デカンタは食卓の自分の席の前にあった。100マルク札はカウンターの上に立っていた。放射線科医のゴリラ研究（Drew ら 2013）では、見落とした人の大半が**ゴリラの位置を直接見ていた**。「見る」と「知覚像になる」は別のこと\n- **似ているところ③ 探索像は見つけさせもし、見落とさせもする。** ゴリラの動画を知っている人はゴリラを見つけたが、幕の色の変化や選手の退場にはやや気づきにくかった（Simons 2010）。ゴリラという探索像を持つと、ほかの予期しないものが遠のく\n- **違うところ＝何を見落としたか。** ゴリラの実験で見落とされたのは、**探していない物**（課題と関係ないゴリラ）。デカンタで見落とされたのは、**探していた物そのもの**（水の入れ物）で、ただ**探索像と姿が違った**（陶器の壺だと思っていたらガラスだった）。100マルク札も同じで、店員は平らな札を探していた。デカンタは「**像と違う姿で来た目当てが見えない**」、ゴリラは「**像に入っていない物が見えない**」。仕組みは同じ向き（上からの構えが知覚を絞る）だが、切り口が違う\n- ゴリラの実験を探索像の言葉で読むなら、白いチームを数える条件では「**パスをする白い服**」が探索像で、黒いゴリラは**像とかけ離れているので締め出された**（!!チームとゴリラの色の組み合わせは大河の記憶。要旨には無い!!）。ユクスキュルの図43の説明（探索像と知覚像が「あまりにかけ離れている場合は、探索像が知覚像を閉めだす」・11章 画像111）と、Most ら 2001 の「似ていないほど気づかれない」は同じことを言っている（大河の見立て）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -26701,6 +26822,36 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "見えないゴリラ",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Simons DJ・Chabris CF (1999) Gorillas in our midst - sustained inattentional blindness for dynamic events. Perception 28 1059-1074",
+     "url": "https://doi.org/10.1068/p281059",
+     "note": "注意を向けないと物が知覚されないこともある（非注意性盲目）。予期しない物に気づく確率はその物が画面の他の物とどれだけ似ているかと監視課題の難しさで決まり注意している場所への近さは効かない＝観察者は位置でなく物と出来事に注意する。要旨で確認（2026-09-27）"
+    },
+    {
+     "title": "Drew T・Võ MLH・Wolfe JM (2013) The invisible gorilla strikes again - sustained inattentional blindness in expert observers. Psychological Science 24 1848-1853",
+     "url": "https://doi.org/10.1177/0956797613479386",
+     "note": "放射線科医24人の肺結節の検出課題で最後の症例に平均的な結節の48倍のゴリラを入れた。83%が見なかった。視線計測では見落とした人の大半がゴリラの位置を直接見ていた。要旨で確認（2026-09-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/見えないゴリラ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "何をしたか": "Simons & Chabris（1999）。バスケットボールをパスし合う二つのチーム（白い服と黒い服）の動画を見せ、**一方のチームのパスの回数を数えさせる**。途中で**ゴリラの着ぐるみ**の人が画面を横切る。数え終わってから「何か変わったものを見たか」と聞くと、多くの人が気づいていない。\n- !!「約半数が気づかなかった」という数字は広く紹介されているが、ここでは要旨に数字が無く、大河の記憶による。!!\n- 要旨で確かめたこと＝気づく確率は、ゴリラが**画面の他の物とどれだけ似ているか**と、**数える課題の難しさ**で決まる。注意している場所への近さは効かない",
+    "のちの展開": "- Most ら（2001）＝**注意している色に似ているほど**予期しない物に気づく（→[[非注意性盲目]]）\n- Drew ら（2013）＝放射線科医にCT画像の中のゴリラ（結節の48倍）を見せても**83%が見なかった**。見落とした人の大半は**その位置を直接見ていた**",
+    "燻太さんの見立て（2026-09-27）": "「[[デカンタが見えない（探索像が知覚像を破壊する）]] と何か似ている。**パスの回数という探索像のせいで、知覚像にゴリラが上ってきにくくなる**」。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "見かけの因果関係",
    "type": "理論",
    "confidence": "確認済",
@@ -28329,6 +28480,46 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "非注意性盲目",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Simons DJ・Chabris CF (1999) Gorillas in our midst - sustained inattentional blindness for dynamic events. Perception 28 1059-1074",
+     "url": "https://doi.org/10.1068/p281059",
+     "note": "注意を向けないと物が知覚されないこともある（非注意性盲目）。予期しない物に気づく確率はその物が画面の他の物とどれだけ似ているかと監視課題の難しさで決まり注意している場所への近さは効かない＝観察者は位置でなく物と出来事に注意する。要旨で確認（2026-09-27）"
+    },
+    {
+     "title": "Most SB ほか (2001) How not to be seen - the contribution of similarity and selective ignoring to sustained inattentional blindness. Psychological Science 12 9-17",
+     "url": "https://doi.org/10.1111/1467-9280.00303",
+     "note": "予期しない物は注意している物に似ているほど・無視している物と違うほど気づかれる。黒か白の物に注意していると色も形も動きも独特な赤い十字が5秒横切っても約30%が気づかない。非注意性盲目は類似性と観察者の注意の構え（attentional set）の両方で決まる。要旨で確認（2026-09-27）"
+    },
+    {
+     "title": "Simons DJ (2010) Monkeying around with the gorillas in our midst - familiarity with an inattentional-blindness task does not improve the detection of unexpected events. i-Perception 1 3-6",
+     "url": "https://doi.org/10.1068/i0386",
+     "note": "ゴリラの動画を知っている人は新しい動画でもゴリラに気づくが幕の色の変化や選手の退場という別の予期しない出来事にはやや気づきにくかった。予期しない出来事があると知っていても他の出来事の検出は良くならない。要旨で確認（2026-09-27）"
+    },
+    {
+     "title": "Drew T・Võ MLH・Wolfe JM (2013) The invisible gorilla strikes again - sustained inattentional blindness in expert observers. Psychological Science 24 1848-1853",
+     "url": "https://doi.org/10.1177/0956797613479386",
+     "note": "放射線科医24人の肺結節の検出課題で最後の症例に平均的な結節の48倍のゴリラを入れた。83%が見なかった。視線計測では見落とした人の大半がゴリラの位置を直接見ていた。要旨で確認（2026-09-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/非注意性盲目.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "**inattentional blindness**。画面の中の物や出来事に注意を向けているとき、**十分に見えているのに予期しない別の物や出来事に気づかない**こと（Most ら 2001 の定義）。いちばん有名な例が [[見えないゴリラ]]。",
+    "分かっていること（4本の要旨から）": "- **気づくかどうかを決めるのは、場所の近さではなく「似ているか」**。予期しない物は、注意している物に似ているほど、無視している物と違うほど気づかれる（Simons & Chabris 1999・Most ら 2001）。注意しているすぐ近くを通っても効かない＝人は**位置ではなく物と出来事に**注意している（1999）\n- **独特でも見落とす**。黒か白の物に注意していると、色も形も動きも独特な**赤い十字が5秒横切っても約30%が気づかない**（Most ら 2001）\n- 決め手は**注意の構え（attentional set）**＝何を探しているか（Most ら 2001）\n- **ゴリラを知っていても、別のものは見えない**。ゴリラの動画を知っている人はゴリラを見つけるが、幕の色の変化や選手の退場にはやや気づきにくかった（Simons 2010）\n- **専門家でも、視線が当たっていても見えない**。肺の結節を探す放射線科医の83%が、結節の48倍の大きさのゴリラを見なかった。見落とした人の**大半は、その位置を直接見ていた**（Drew ら 2013）",
+    "ユクスキュルとの橋（燻太さんの見立て・2026-09-27）": "燻太さんが [[デカンタが見えない（探索像が知覚像を破壊する）]] を読んで「ゴリラの実験と似ている。パスの回数という探索像のせいで、知覚像にゴリラが上ってきにくくなる」と気づいた。詳しい突き合わせはデカンタのノードに書いた。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "非言語性学習障害",
    "type": "症例",
    "confidence": "確認済",
@@ -29140,6 +29331,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "1999 Simons",
+   "target": "見えないゴリラ",
+   "rel": "裏づけ（原典）",
+   "weight": "標準"
+  },
+  {
    "source": "1999 Wegner",
    "target": "見かけの因果関係",
    "rel": "裏づけ",
@@ -29180,6 +29377,12 @@ window.DATA = {
    "target": "呼びかけへの応答",
    "rel": "批判＝ゴットマンらの離婚予測（Gottman 1998）は交差検証が無く・別サンプルでは精度と予測価値が急落する",
    "weight": "強"
+  },
+  {
+   "source": "2001 Most",
+   "target": "非注意性盲目",
+   "rel": "裏づけ（類似性と注意の構え）",
+   "weight": "標準"
   },
   {
    "source": "2001 Raichle",
@@ -29710,6 +29913,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2010 Simons",
+   "target": "非注意性盲目",
+   "rel": "裏づけ（ゴリラを探すと別のものを見落とす）",
+   "weight": "標準"
+  },
+  {
    "source": "2010 Straube",
    "target": "島皮質",
    "rel": "裏づけ",
@@ -29804,6 +30013,12 @@ window.DATA = {
    "target": "実行機能",
    "rel": "総説＝核は抑制・作業記憶・認知的柔軟性",
    "weight": "強"
+  },
+  {
+   "source": "2013 Drew",
+   "target": "非注意性盲目",
+   "rel": "裏づけ（専門家・視線が当たっていても見えない）",
+   "weight": "標準"
   },
   {
    "source": "2013 Evans",
@@ -39268,6 +39483,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "見えないゴリラ",
+   "target": "非注意性盲目",
+   "rel": "代表例",
+   "weight": "標準"
+  },
+  {
    "source": "見かけの因果関係",
    "target": "ダニエル・ウェグナー",
    "rel": "提唱",
@@ -39919,6 +40140,18 @@ window.DATA = {
    "source": "離陸速度",
    "target": "AIフーム論争",
    "rel": "経済の指標で言い直した",
+   "weight": "標準"
+  },
+  {
+   "source": "非注意性盲目",
+   "target": "デカンタが見えない（探索像が知覚像を破壊する）",
+   "rel": "似た現象の古い記述（ユクスキュル1934・燻太さんの見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "非注意性盲目",
+   "target": "探索像",
+   "rel": "注意の構えが何を知覚に上らせるかを決める点で重なる（大河の見立て）",
    "weight": "標準"
   },
   {
