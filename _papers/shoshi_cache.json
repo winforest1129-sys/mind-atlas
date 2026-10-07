@@ -2915,5 +2915,3190 @@
   "why": "",
   "ref_title": "同メタ分析（PubMed）",
   "exact": true
+ },
+ "https://doi.org/10.1073/pnas.1618923114": {
+  "rec": {
+   "doi": "10.1073/pnas.1618923114",
+   "title": "Emotion shapes the diffusion of moralized content in social networks",
+   "year": 2017,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Brady",
+    "Wills",
+    "Jost",
+    "Tucker",
+    "Van Bavel"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Brady WJ ら 2017 Emotion shapes the diffusion of moralized content in social networks（PNAS 114(28):7313-7318）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/s41562-021-01133-5": {
+  "rec": {
+   "doi": "10.1038/s41562-021-01133-5",
+   "title": "Reconsidering evidence of moral contagion in online social networks",
+   "year": 2021,
+   "journal": "Nature Human Behaviour",
+   "authors": [
+    "Burton",
+    "Cruz",
+    "Hahn"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Burton JW・Cruz N・Hahn U 2021 Reconsidering evidence of moral contagion in online social networks（Nature Human Behaviour 5:1629-1635）",
+  "exact": true
+ },
+ "https://doi.org/10.1093/pnasnexus/pgaf327": {
+  "rec": {
+   "doi": "10.1093/pnasnexus/pgaf327",
+   "title": "Estimating the effect size of moral contagion in online networks: A pre-registered replication and meta-analysis",
+   "year": 2025,
+   "journal": "PNAS Nexus",
+   "authors": [
+    "Brady",
+    "Rathje",
+    "Globig",
+    "Van Bavel"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Brady WJ ら 2025 Estimating the effect size of moral contagion in online networks: a pre-registered replication and meta-analysis（PNAS Nexus 4(11):pgaf327）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/s41562-018-0506-1": {
+  "rec": {
+   "doi": "10.1038/s41562-018-0506-1",
+   "title": "The association between adolescent well-being and digital technology use",
+   "year": 2019,
+   "journal": "Nature Human Behaviour",
+   "authors": [
+    "Orben",
+    "Przybylski"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Orben A & Przybylski AK 2019 The association between adolescent well-being and digital technology use（Nature Human Behaviour 3:173-182）",
+  "exact": true
+ },
+ "https://www.nature.com/articles/d41586-024-01488-5": {
+  "rec": {
+   "doi": "10.1038/d41586-024-01488-5",
+   "title": "Social-media influence on teen mental health goes beyond just cause and effect",
+   "year": 2024,
+   "journal": "Nature",
+   "authors": [
+    "Spikes"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Odgers CL 2024 The great rewiring: is social media really behind an epidemic of teenage mental illness?（Nature 628:29-30）",
+  "exact": true
+ },
+ "https://www.thebritishacademy.ac.uk/documents/3951/88p119.pdf": {
+  "rec": null,
+  "ok": false,
+  "why": "torenakatta",
+  "ref_title": "Tooby J & Cosmides L 1996, Friendship and the banker's paradox - other pathways to the evolution of adaptations for altruism（Proceedings of the British Academy 88:119-143）",
+  "exact": false
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/10382713/": {
+  "rec": {
+   "doi": "10.1016/s0140-6736(98)10327-6",
+   "title": "The exceptional brain of Albert Einstein",
+   "year": 1999,
+   "journal": "Lancet (London, England)",
+   "authors": [
+    "Witelson",
+    "Kigar",
+    "Harvey"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Witelson SF, Kigar DL & Harvey T 1999, The exceptional brain of Albert Einstein（Lancet 353:2149-2153）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/23161163/": {
+  "rec": {
+   "doi": "10.1093/brain/aws295",
+   "title": "The cerebral cortex of Albert Einstein: a description and preliminary analysis of unpublished photographs",
+   "year": 2013,
+   "journal": "Brain : a journal of neurology",
+   "authors": [
+    "Falk",
+    "Lepore",
+    "Noe"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Falk D, Lepore FE & Noe A 2013, The cerebral cortex of Albert Einstein: a description and preliminary analysis of unpublished photographs（Brain 136:1304-1327）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/24065724/": {
+  "rec": {
+   "doi": "10.1093/brain/awt252",
+   "title": "The corpus callosum of Albert Einstein's brain: another clue to his high intelligence?",
+   "year": 2014,
+   "journal": "Brain : a journal of neurology",
+   "authors": [
+    "Men",
+    "Falk",
+    "Sun",
+    "Chen",
+    "Li",
+    "Yin",
+    "Zang",
+    "Fan"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Men W, Falk D ら 2014, The corpus callosum of Albert Einstein's brain: another clue to his high intelligence?（Brain 137:e268）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/3979509/": {
+  "rec": {
+   "doi": "10.1016/0014-4886(85)90123-2",
+   "title": "On the brain of a scientist: Albert Einstein",
+   "year": 1985,
+   "journal": "Experimental neurology",
+   "authors": [
+    "Diamond",
+    "Scheibel",
+    "Murphy GM Jr",
+    "Harvey"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Diamond MC, Scheibel AB, Murphy GM & Harvey T 1985, On the brain of a scientist: Albert Einstein（Experimental Neurology 88:198-204）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/S1090-5138(00)00032-5": {
+  "rec": {
+   "doi": "10.1016/s1090-5138(00)00032-5",
+   "title": "“It's a Wonderful Life”",
+   "year": 2000,
+   "journal": "Evolution and Human Behavior",
+   "authors": [
+    "Gurven",
+    "Allen-Arave",
+    "Hill",
+    "Hurtado"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Gurven M Allen-Arave W Hill K & Hurtado M 2000, It's a Wonderful Life - signaling generosity among the Ache of Paraguay（Evolution and Human Behavior 21(4):263-282）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/15011267/": {
+  "rec": {
+   "doi": "10.1142/s0219635203000287",
+   "title": "Savant-like skills exposed in normal people by suppressing the left fronto-temporal lobe",
+   "year": 2003,
+   "journal": "Journal of integrative neuroscience",
+   "authors": [
+    "Snyder",
+    "Mulcahy",
+    "Taylor",
+    "Mitchell",
+    "Sachdev",
+    "Gandevia"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Snyder AW, Mulcahy E, Taylor JL, Mitchell DJ, Sachdev P & Gandevia SC 2003, Savant-like skills exposed in normal people by suppressing the left fronto-temporal lobe（Journal of Integrative Neuroscience 2:149-158）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/22465767/": {
+  "rec": {
+   "doi": "10.1016/j.saa.2012.02.032",
+   "title": "Luminescence properties of multilayer coated single structure ZnS/CdS/ZnS nanocomposites",
+   "year": 2012,
+   "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+   "authors": [
+    "Murugadoss"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Chi RP & Snyder AW 2012, Brain stimulation enables the solution of an inherently difficult problem（Neuroscience Letters 515:131-134）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/20804237/": {
+  "rec": {
+   "doi": "10.1037/a0019749",
+   "title": "A review of EEG, ERP, and neuroimaging studies of creativity and insight",
+   "year": 2010,
+   "journal": "Psychological bulletin",
+   "authors": [
+    "Dietrich",
+    "Kanso"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Dietrich A & Kanso R 2010, A review of EEG, ERP, and neuroimaging studies of creativity and insight（Psychological Bulletin 136:822-848）",
+  "exact": true
+ },
+ "https://onlinelibrary.wiley.com/doi/10.1002/j.2162-6057.2007.tb01281.x": {
+  "rec": {
+   "doi": "10.1002/j.2162-6057.2007.tb01281.x",
+   "title": "The Optimal Age to Start a Revolution",
+   "year": 2007,
+   "journal": "The Journal of Creative Behavior",
+   "authors": [
+    "DIETRICH",
+    "SRINIVASAN"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Dietrich A & Srinivasan N 2007, The optimal age to start a revolution（Journal of Creative Behavior 41:54-74）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.276.5319.1687": {
+  "rec": {
+   "doi": "10.1126/science.276.5319.1687",
+   "title": "Multiple and Ancient Origins of the Domestic Dog",
+   "year": 1997,
+   "journal": "Science",
+   "authors": [
+    "Vilà",
+    "Savolainen",
+    "Maldonado",
+    "Amorim",
+    "Rice",
+    "Honeycutt",
+    "Crandall",
+    "Lundeberg",
+    "Wayne"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Vilà ら 1997, Multiple and Ancient Origins of the Domestic Dog（Science 276:1687-1689）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.2023301118": {
+  "rec": {
+   "doi": "10.1073/pnas.2023301118",
+   "title": "The echo chamber effect on social media",
+   "year": 2021,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Cinelli",
+    "De Francisci Morales",
+    "Galeazzi",
+    "Quattrociocchi",
+    "Starnini"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Cinelli M ら 2021 The echo chamber effect on social media（PNAS 118(9):e2023301118）",
+  "exact": true
+ },
+ "https://www.semanticscholar.org/paper/f2d51f0f302ab25c0d7d821e58ab0abd0e9529b0": {
+  "rec": {
+   "doi": "10.1080/1369118x.2018.1428656",
+   "title": "The echo chamber is overstated: the moderating effect of political interest and diverse media",
+   "year": 2018,
+   "journal": "Information, Communication & Society",
+   "authors": [
+    "Dubois",
+    "Blank"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Dubois E & Blank G 2018 The echo chamber is overstated: the moderating effect of political interest and diverse media（Information Communication & Society 21(5):729-745）",
+  "exact": false
+ },
+ "https://doi.org/10.1037/0022-3514.76.6.893": {
+  "rec": {
+   "doi": "10.1037/0022-3514.76.6.893",
+   "title": "The chameleon effect: The perception–behavior link and social interaction.",
+   "year": 1999,
+   "journal": "Journal of Personality and Social Psychology",
+   "authors": [
+    "Chartrand",
+    "Bargh"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Chartrand TL & Bargh JA 1999 The chameleon effect: the perception–behavior link and social interaction（Journal of Personality and Social Psychology 76(6):893-910）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/24163274/": {
+  "rec": {
+   "doi": "10.1093/brain/awt296",
+   "title": "A rare anatomical variation newly identifies the brains of C.F. Gauss and C.H. Fuchs in a collection at the University of Gottingen",
+   "year": 2014,
+   "journal": "Brain : a journal of neurology",
+   "authors": [
+    "Schweizer",
+    "Wittmann",
+    "Frahm"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Schweizer R, Wittmann A & Frahm J 2014, A rare anatomical variation newly identifies the brains of C.F. Gauss and C.H. Fuchs in a collection at the University of Göttingen（Brain 137:e269）",
+  "exact": true
+ },
+ "https://doi.org/10.1177/0022167882222002": {
+  "rec": {
+   "doi": "10.1177/0022167882222002",
+   "title": "The Pre/Trans Fallacy",
+   "year": 1982,
+   "journal": "Journal of Humanistic Psychology",
+   "authors": [
+    "Wilber"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Wilber K 1982, The pre/trans fallacy（JHP 22(2):5-43）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/nrn2787": {
+  "rec": {
+   "doi": "10.1038/nrn2787",
+   "title": "The free-energy principle: a unified brain theory?",
+   "year": 2010,
+   "journal": "Nature Reviews Neuroscience",
+   "authors": [
+    "Friston"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Friston K 2010, The free-energy principle - a unified brain theory?（Nature Reviews Neuroscience 11:127-138）",
+  "exact": true
+ },
+ "https://pmc.ncbi.nlm.nih.gov/articles/PMC1338662/": {
+  "rec": {
+   "doi": "10.1901/jeab.1969.12-653",
+   "title": "The creative porpoise: training for novel behavior",
+   "year": 1969,
+   "journal": "Journal of the experimental analysis of behavior",
+   "authors": [
+    "Pryor",
+    "Haag",
+    "O'reilly"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Pryor KW, Haag R & O'Reilly J 1969, The creative porpoise: training for novel behavior（Journal of the Experimental Analysis of Behavior 12:653-661）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/h0023376": {
+  "rec": {
+   "doi": "10.1037/h0023376",
+   "title": "The meaning and measurement of ego development.",
+   "year": 1966,
+   "journal": "American Psychologist",
+   "authors": [
+    "Loevinger"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Loevinger J 1966, The meaning and measurement of ego development（American Psychologist 21:195-206）",
+  "exact": true
+ },
+ "https://www.cambridge.org/core/books/neuroscience-of-freedom-and-creativity/": {
+  "rec": {
+   "doi": "10.1017/cbo9781139226691",
+   "title": "The Neuroscience of Freedom and Creativity",
+   "year": 2013,
+   "journal": "",
+   "authors": [
+    "Fuster"
+   ],
+   "kind": "monograph",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Fuster JM 2013, The Neuroscience of Freedom and Creativity: Our Predictive Brain（Cambridge University Press）",
+  "exact": false
+ },
+ "https://doi.org/10.1016/S2215-0366(20)30001-8": {
+  "rec": {
+   "doi": "10.1016/s2215-0366(20)30001-8",
+   "title": "The Girona declaration on borderline intellectual functioning",
+   "year": 2020,
+   "journal": "The Lancet Psychiatry",
+   "authors": [
+    "Martínez-Leal",
+    "Folch",
+    "Munir",
+    "Novell",
+    "Salvador-Carulla"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Martínez-Leal R・Folch A・Munir K・Novell R ら 2020, The Girona declaration on borderline intellectual functioning（The Lancet Psychiatry 7(3):e8）",
+  "exact": true
+ },
+ "https://www.atpweb.org/jtparchive/trps-16-84-01-063.pdf": {
+  "rec": {
+   "doi": "10.1177/0022167883233004",
+   "title": "On Spiritual Authority",
+   "year": 1983,
+   "journal": "Journal of Humanistic Psychology",
+   "authors": [
+    "Welwood"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Welwood J 1984, Principles of inner work - psychological and spiritual（Journal of Transpersonal Psychology 16(1):63-73）",
+  "exact": false
+ },
+ "https://www.nature.com/articles/30918": {
+  "rec": {
+   "doi": "10.1038/30918",
+   "title": "Collective dynamics of ‘small-world’ networks",
+   "year": 1998,
+   "journal": "Nature",
+   "authors": [
+    "Watts",
+    "Strogatz"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Watts DJ & Strogatz SH 1998, Collective dynamics of small-world networks（Nature 393:440-442）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/18064590/": {
+  "rec": {
+   "doi": "10.1002/hbm.20468",
+   "title": "Heritability of \"small-world\" networks in the brain: a graph theoretical analysis of resting-state EEG functional connectivity",
+   "year": 2008,
+   "journal": "Human brain mapping",
+   "authors": [
+    "Smit",
+    "Stam",
+    "Posthuma",
+    "Boomsma",
+    "de Geus"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Smit DJ, Stam CJ, Posthuma D, Boomsma DI & de Geus EJ 2008, Heritability of small-world networks in the brain（Human Brain Mapping 29:1368-1378）",
+  "exact": true
+ },
+ "https://doi.org/10.1207/S15327957PSPR0504_2": {
+  "rec": {
+   "doi": "10.1207/s15327957pspr0504_2",
+   "title": "Negativity Bias, Negativity Dominance, and Contagion",
+   "year": 2001,
+   "journal": "Personality and Social Psychology Review",
+   "authors": [
+    "Rozin",
+    "Royzman"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Rozin P & Royzman EB 2001 Negativity bias・negativity dominance・and contagion（Personality and Social Psychology Review 5(4):296-320）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/1089-2680.5.4.323": {
+  "rec": {
+   "doi": "10.1037/1089-2680.5.4.323",
+   "title": "Bad is Stronger than Good",
+   "year": 2001,
+   "journal": "Review of General Psychology",
+   "authors": [
+    "Baumeister",
+    "Bratslavsky",
+    "Finkenauer",
+    "Vohs"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Baumeister RF ら 2001 Bad is stronger than good（Review of General Psychology 5(4):323-370）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/5657070/": {
+  "rec": {
+   "doi": "10.1126/science.161.3837.186",
+   "title": "Human brain: left-right asymmetries in temporal speech region",
+   "year": 1968,
+   "journal": "Science (New York, N.Y.)",
+   "authors": [
+    "Geschwind",
+    "Levitsky"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Geschwind N & Levitsky W 1968, Human brain: left-right asymmetries in temporal speech region（Science 161:186-187）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/15077237/": {
+  "rec": {
+   "doi": "10.1002/mds.20045",
+   "title": "Punding in Parkinson's disease: its relation to the dopamine dysregulation syndrome",
+   "year": 2004,
+   "journal": "Movement disorders : official journal of the Movement Disorder Society",
+   "authors": [
+    "Evans",
+    "Katzenschlager",
+    "Paviour",
+    "O'Sullivan",
+    "Appel",
+    "Lawrence",
+    "Lees"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Evans AH, Katzenschlager R, Paviour D, O'Sullivan JD, Appel S, Lawrence AD & Lees AJ 2004, Punding in Parkinson's disease: its relation to the dopamine dysregulation syndrome（Movement Disorders 19:397-405）",
+  "exact": true
+ },
+ "https://doi.org/10.1007/s12110-004-1014-8": {
+  "rec": {
+   "doi": "10.1007/s12110-004-1014-8",
+   "title": "Mate preferences among Hadza hunter-gatherers",
+   "year": 2004,
+   "journal": "Human Nature",
+   "authors": [
+    "Marlowe"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Marlowe FW 2004, Mate preferences among Hadza hunter-gatherers（Human Nature 15(4):365-376）",
+  "exact": true
+ },
+ "https://consc.net/papers/facing.html": {
+  "rec": {
+   "doi": "10.7551/mitpress/6860.003.0003",
+   "title": "Facing Up to the Problem of Consciousness",
+   "year": 1996,
+   "journal": "Toward a Science of Consciousness",
+   "authors": [
+    "Chalmers"
+   ],
+   "kind": "book-chapter",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Chalmers DJ 1995, Facing up to the problem of consciousness（Journal of Consciousness Studies 2(3):200-219）",
+  "exact": false
+ },
+ "https://doi.org/10.1176/appi.ajp.2015.14091200": {
+  "rec": {
+   "doi": "10.1176/appi.ajp.2015.14091200",
+   "title": "Identification of Distinct Psychosis Biotypes Using Brain-Based Biomarkers",
+   "year": 2016,
+   "journal": "American Journal of Psychiatry",
+   "authors": [
+    "Clementz",
+    "Sweeney",
+    "Hamm",
+    "Ivleva",
+    "Ethridge",
+    "Pearlson",
+    "Keshavan",
+    "Tamminga"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Clementz BA ら 2016, Identification of Distinct Psychosis Biotypes Using Brain-Based Biomarkers（American Journal of Psychiatry 173(4):373-384）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/h0059240": {
+  "rec": {
+   "doi": "10.1037/h0059240",
+   "title": "The fallacy of personal validation: a classroom demonstration of gullibility.",
+   "year": 1949,
+   "journal": "The Journal of Abnormal and Social Psychology",
+   "authors": [
+    "Forer"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Forer BR 1949 The fallacy of personal validation: a classroom demonstration of gullibility（Journal of Abnormal and Social Psychology 44(1):118-123）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/8026166/": {
+  "rec": {
+   "doi": "10.1037/0735-7036.108.2.148",
+   "title": "Spatial behavior in the Brazilian short-tailed opossum (Monodelphis domestica): comparison with the Norway rat (Rattus norvegicus) in the Morris water maze and radial arm maze",
+   "year": 1994,
+   "journal": "Journal of comparative psychology (Washington, D.C. : 1983)",
+   "authors": [
+    "Kimble",
+    "Whishaw"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Fagot J & Vauclair J 1994, Video-task assessment of stimulus novelty effects on hemispheric lateralization in baboons (Papio papio)（Journal of Comparative Psychology 108:156-163）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/22499949/": {
+  "rec": {
+   "doi": "10.1126/science.1218152",
+   "title": "Orthographic processing in baboons (Papio papio)",
+   "year": 2012,
+   "journal": "Science (New York, N.Y.)",
+   "authors": [
+    "Grainger",
+    "Dufau",
+    "Montant",
+    "Ziegler",
+    "Fagot"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Grainger J, Dufau S, Montant M, Ziegler JC & Fagot J 2012, Orthographic processing in baboons (Papio papio)（Science 336:245-248）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/21534993/": {
+  "rec": {
+   "doi": "10.1111/j.1749-6632.2011.06011.x",
+   "title": "The von Economo neurons in the frontoinsular and anterior cingulate cortex",
+   "year": 2011,
+   "journal": "Annals of the New York Academy of Sciences",
+   "authors": [
+    "Allman",
+    "Tetreault",
+    "Hakeem",
+    "Manaye",
+    "Semendeferi",
+    "Erwin",
+    "Park",
+    "Goubert",
+    "Hof"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Allman JM ら 2010, The von Economo neurons in frontoinsular and anterior cingulate cortex（Annals of the New York Academy of Sciences 1225:59-71）",
+  "exact": true
+ },
+ "https://doi.org/10.1017/S0140525X21002351": {
+  "rec": {
+   "doi": "10.1017/s0140525x21002351",
+   "title": "The Emperor's New Markov Blankets",
+   "year": 2021,
+   "journal": "Behavioral and Brain Sciences",
+   "authors": [
+    "Bruineberg",
+    "Dołęga",
+    "Dewhurst",
+    "Baltieri"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Bruineberg J, Dołęga K, Dewhurst J, Baltieri M (2022) The Emperor's New Markov Blankets. Behavioral and Brain Sciences 45:e183",
+  "exact": true
+ },
+ "https://doi.org/10.1007/s10739-005-6544-3": {
+  "rec": {
+   "doi": "10.1007/s10739-005-6544-3",
+   "title": "“The Instinct Concept of the Early Konrad Lorenz”",
+   "year": 2005,
+   "journal": "Journal of the History of Biology",
+   "authors": [
+    "Brigandt"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Brigandt I (2005) The instinct concept of the early Konrad Lorenz. Journal of the History of Biology 38 571-608",
+  "exact": true
+ },
+ "https://doi.org/10.1007/s12110-005-1000-9": {
+  "rec": {
+   "doi": "10.1007/s12110-005-1000-9",
+   "title": "Norm enforcement among the Ju/’hoansi Bushmen",
+   "year": 2005,
+   "journal": "Human Nature",
+   "authors": [
+    "Wiessner"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Wiessner P 2005, Norm enforcement among the Ju/'hoansi Bushmen - A case of strong reciprocity?（Human Nature 16(2):115-145）",
+  "exact": true
+ },
+ "https://doi.org/10.1177/0963721413480174": {
+  "rec": {
+   "doi": "10.1177/0963721413480174",
+   "title": "Myside Bias, Rational Thinking, and Intelligence",
+   "year": 2013,
+   "journal": "Current Directions in Psychological Science",
+   "authors": [
+    "Stanovich",
+    "West",
+    "Toplak"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Stanovich KE・West RF・Toplak ME 2013 Myside bias・rational thinking・and intelligence（Current Directions in Psychological Science 22(4):259-264）",
+  "exact": true
+ },
+ "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0002340": {
+  "rec": {
+   "doi": "10.1371/journal.pone.0002340",
+   "title": "From Antenna to Antenna: Lateral Shift of Olfactory Memory Recall by Honeybees",
+   "year": 2008,
+   "journal": "PLoS ONE",
+   "authors": [
+    "Rogers",
+    "Vallortigara"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Rogers LJ & Vallortigara G 2008, From antenna to antenna: lateral shift of olfactory memory recall by honeybees（PLoS ONE 3:e2340）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/0003-066X.34.10.906": {
+  "rec": {
+   "doi": "10.1037/0003-066x.34.10.906",
+   "title": "Metacognition and cognitive monitoring: A new area of cognitive–developmental inquiry.",
+   "year": 1979,
+   "journal": "American Psychologist",
+   "authors": [
+    "Flavell"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Flavell JH 1979 Metacognition and cognitive monitoring: a new area of cognitive–developmental inquiry（American Psychologist 34(10):906-911）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/mp.2014.44": {
+  "rec": {
+   "doi": "10.1038/mp.2014.44",
+   "title": "Disorders of compulsivity: a common bias towards learning habits",
+   "year": 2014,
+   "journal": "Molecular Psychiatry",
+   "authors": [
+    "Voon",
+    "Derbyshire",
+    "Rück",
+    "Irvine",
+    "Worbe",
+    "Enander",
+    "Schreiber",
+    "Gillan",
+    "Fineberg",
+    "Sahakian",
+    "Robbins",
+    "Harrison",
+    "Wood",
+    "Daw",
+    "Dayan",
+    "Grant",
+    "Bullmore"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Voon V ら 2015, Disorders of compulsivity - a common bias towards learning habits（Molecular Psychiatry 20(3):345-352・オンライン公開は2014年）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.1713611115": {
+  "rec": {
+   "doi": "10.1073/pnas.1713611115",
+   "title": "Two types of aggression in human evolution",
+   "year": 2017,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Wrangham"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Wrangham RW 2018, Two types of aggression in human evolution（PNAS 115(2):245-253）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/a0028228": {
+  "rec": {
+   "doi": "10.1037/a0028228",
+   "title": "Is working memory training effective? A meta-analytic review.",
+   "year": 2013,
+   "journal": "Developmental Psychology",
+   "authors": [
+    "Melby-Lervåg",
+    "Hulme"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Melby-Lervåg M & Hulme C 2013, Is working memory training effective? A meta-analytic review（Developmental Psychology 49(2):270-291）",
+  "exact": true
+ },
+ "https://ieeexplore.ieee.org/document/6213238/": {
+  "rec": {
+   "doi": "10.1109/mra.2012.2192811",
+   "title": "The Uncanny Valley [From the Field]",
+   "year": 2012,
+   "journal": "IEEE Robotics & Automation Magazine",
+   "authors": [
+    "Mori",
+    "MacDorman",
+    "Kageki"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Mori M（森政弘）1970 不気味の谷（Energy 7(4):33-35）／MacDorman KF & Kageki N 訳 2012 The uncanny valley（IEEE Robotics & Automation Magazine 19(2):98-100）",
+  "exact": false
+ },
+ "https://doi.org/10.1177/1745691612460685": {
+  "rec": {
+   "doi": "10.1177/1745691612460685",
+   "title": "Dual-Process Theories of Higher Cognition",
+   "year": 2013,
+   "journal": "Perspectives on Psychological Science",
+   "authors": [
+    "Evans",
+    "Stanovich"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Evans JStBT & Stanovich KE 2013 Dual-process theories of higher cognition: advancing the debate（Perspectives on Psychological Science 8(3):223-241）",
+  "exact": true
+ },
+ "https://doi.org/10.1086/406755": {
+  "rec": {
+   "doi": "10.1086/406755",
+   "title": "The Evolution of Reciprocal Altruism",
+   "year": 1971,
+   "journal": "The Quarterly Review of Biology",
+   "authors": [
+    "Trivers"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Trivers RL 1971, The evolution of reciprocal altruism（Quarterly Review of Biology 46:35-57）",
+  "exact": true
+ },
+ "https://doi.org/10.1146/annurev.psych.53.100901.135231": {
+  "rec": {
+   "doi": "10.1146/annurev.psych.53.100901.135231",
+   "title": "Human Aggression",
+   "year": 2002,
+   "journal": "Annual Review of Psychology",
+   "authors": [
+    "Anderson",
+    "Bushman"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Anderson CA & Bushman BJ 2002 Human aggression（Annual Review of Psychology 53:27-51）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/0033-2909.106.1.59": {
+  "rec": {
+   "doi": "10.1037/0033-2909.106.1.59",
+   "title": "Frustration-aggression hypothesis: Examination and reformulation.",
+   "year": 1989,
+   "journal": "Psychological Bulletin",
+   "authors": [
+    "Berkowitz"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Berkowitz L 1989 Frustration-aggression hypothesis: examination and reformulation（Psychological Bulletin 106(1):59-73）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.1238041": {
+  "rec": {
+   "doi": "10.1126/science.1238041",
+   "title": "Poverty Impedes Cognitive Function",
+   "year": 2013,
+   "journal": "Science",
+   "authors": [
+    "Mani",
+    "Mullainathan",
+    "Shafir",
+    "Zhao"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Mani A・Mullainathan S・Shafir E・Zhao J 2013 Poverty impedes cognitive function（Science 341(6149):976-980）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.2103313118": {
+  "rec": {
+   "doi": "10.1073/pnas.2103313118",
+   "title": "Empirical audit and review and an assessment of evidentiary value in research on the psychological consequences of scarcity",
+   "year": 2021,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "O’Donnell",
+    "Dev",
+    "Antonoplis",
+    "Baum",
+    "Benedetti",
+    "Brown",
+    "Carrillo",
+    "Choi",
+    "Connor",
+    "Donnelly",
+    "Ellwood-Lowe",
+    "Foushee",
+    "Jansen",
+    "Jarvis",
+    "Lundell-Creagh",
+    "Ocampo",
+    "Okafor",
+    "Azad",
+    "Rosenblum",
+    "Schatz",
+    "Stein",
+    "Wang",
+    "Moore",
+    "Nelson"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "O Donnell M ら 2021 Empirical audit and review and an assessment of evidentiary value in research on the psychological consequences of scarcity（PNAS 118(44):e2103313118）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.2206054120": {
+  "rec": {
+   "doi": "10.1073/pnas.2206054120",
+   "title": "A scarcity literature mischaracterized with an empirical audit",
+   "year": 2023,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Shah",
+    "Zhao",
+    "Mullainathan",
+    "Shafir"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Shah AK・Zhao J・Mullainathan S・Shafir E 2023 A scarcity literature mischaracterized with an empirical audit（PNAS 120(24)）",
+  "exact": true
+ },
+ "https://languagelog.ldc.upenn.edu/myl/Good1964.pdf": {
+  "rec": {
+   "doi": "10.1016/s0065-2458(08)60418-0",
+   "title": "Speculations Concerning the First Ultraintelligent Machine",
+   "year": 1966,
+   "journal": "Advances in Computers",
+   "authors": [
+    "Good"
+   ],
+   "kind": "book-chapter",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Good IJ 1965, Speculations concerning the first ultraintelligent machine（Advances in Computers 6:31-88）",
+  "exact": false
+ },
+ "https://www.sciencedirect.com/science/article/pii/S0896627308010209": {
+  "rec": {
+   "doi": "10.1016/j.neuron.2008.11.027",
+   "title": "Reinforcement Learning Signal Predicts Social Conformity",
+   "year": 2009,
+   "journal": "Neuron",
+   "authors": [
+    "Klucharev",
+    "Hytönen",
+    "Rijpkema",
+    "Smidts",
+    "Fernández"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Klucharev V, Hytönen K, Rijpkema M, Smidts A & Fernández G 2009, Reinforcement learning signal predicts social conformity（Neuron 61:140-151）",
+  "exact": false
+ },
+ "https://www.jneurosci.org/content/31/33/11934": {
+  "rec": {
+   "doi": "10.1523/jneurosci.1869-11.2011",
+   "title": "Downregulation of the Posterior Medial Frontal Cortex Prevents Social Conformity",
+   "year": 2011,
+   "journal": "The Journal of Neuroscience",
+   "authors": [
+    "Klucharev",
+    "Munneke",
+    "Smidts",
+    "Fernández"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Klucharev V, Munneke MA, Smidts A & Fernández G 2011, Downregulation of the posterior medial frontal cortex prevents social conformity（Journal of Neuroscience 31:11934-11940）",
+  "exact": false
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/26089514/": {
+  "rec": {
+   "doi": "10.1126/science.aaa5099",
+   "title": "GROUP DECISIONS. Shared decision-making drives collective movement in wild baboons",
+   "year": 2015,
+   "journal": "Science (New York, N.Y.)",
+   "authors": [
+    "Strandburg-Peshkin",
+    "Farine",
+    "Couzin",
+    "Crofoot"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Strandburg-Peshkin A, Farine DR, Couzin ID & Crofoot MC 2015, Shared decision-making drives collective movement in wild baboons（Science 348:1358-1361）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/9781519/": {
+  "rec": {
+   "doi": "10.1212/wnl.51.4.993",
+   "title": "Rate of medial temporal lobe atrophy in typical aging and Alzheimer's disease",
+   "year": 1998,
+   "journal": "Neurology",
+   "authors": [
+    "Jack CR Jr",
+    "Petersen",
+    "Xu",
+    "O'Brien",
+    "Smith",
+    "Ivnik",
+    "Tangalos",
+    "Kokmen"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Miller BL, Cummings J, Mishkin F, Boone K, Prince F, Ponton M & Cotman C 1998, Emergence of artistic talent in frontotemporal dementia（Neurology 51:978-982）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/24417222/": {
+  "rec": {
+   "doi": "10.1021/ac403741y",
+   "title": "A highly sensitive target-primed rolling circle amplification (TPRCA) method for fluorescent in situ hybridization detection of microRNA in tumor cells",
+   "year": 2014,
+   "journal": "Analytical chemistry",
+   "authors": [
+    "Ge",
+    "Zhang",
+    "Liu",
+    "Yu",
+    "Chu"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Wu TQ ら 2015, Verbal creativity in semantic variant primary progressive aphasia（Neurocase 21:73-78）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/3499088/": {
+  "rec": {
+   "doi": "10.1176/ajp.144.10.1288",
+   "title": "Creativity and mental illness: prevalence rates in writers and their first-degree relatives",
+   "year": 1987,
+   "journal": "The American journal of psychiatry",
+   "authors": [
+    "Andreasen"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Andreasen NC 1987, Creativity and mental illness: prevalence rates in writers and their first-degree relatives（American Journal of Psychiatry 144:1288-1292）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/21653945/": {
+  "rec": {
+   "doi": "10.1192/bjp.bp.110.085316",
+   "title": "Creativity and mental disorder: family study of 300,000 people with severe mental disorder",
+   "year": 2011,
+   "journal": "The British journal of psychiatry : the journal of mental science",
+   "authors": [
+    "Kyaga",
+    "Lichtenstein",
+    "Boman",
+    "Hultman",
+    "Långström",
+    "Landén"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Kyaga S ら 2011, Creativity and mental disorder: family study of 300,000 people with severe mental disorder（British Journal of Psychiatry 199:373-379）",
+  "exact": true
+ },
+ "https://www.science.org/doi/10.1126/science.352.6286.644": {
+  "rec": {
+   "doi": "10.1126/science.352.6286.644",
+   "title": "The power of personality",
+   "year": 2016,
+   "journal": "Science",
+   "authors": [
+    "Pennisi"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Pennisi E 2016, The power of personality（Science 352:644-647）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/23040817/": {
+  "rec": {
+   "doi": "10.1016/j.neuron.2012.08.038",
+   "title": "Neuromodulation of thought: flexibilities and vulnerabilities in prefrontal cortical network synapses",
+   "year": 2012,
+   "journal": "Neuron",
+   "authors": [
+    "Arnsten",
+    "Wang",
+    "Paspalas"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Arnsten AFT, Wang MJ & Paspalas CD 2012, Neuromodulation of thought: flexibilities and vulnerabilities in prefrontal cortical network synapses（Neuron 76:223-239）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/9217688/": {
+  "rec": {
+   "doi": "10.1093/brain/120.6.1057",
+   "title": "The right brain hemisphere is dominant in human infants",
+   "year": 1997,
+   "journal": "Brain : a journal of neurology",
+   "authors": [
+    "Chiron",
+    "Jambaque",
+    "Nabbout",
+    "Lounes",
+    "Syrota",
+    "Dulac"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Chiron C, Jambaque I, Nabbout R, Lounes R, Syrota A & Dulac O 1997, The right brain hemisphere is dominant in human infants（Brain 120:1057-1065）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/amp0000469": {
+  "rec": {
+   "doi": "10.1037/amp0000469",
+   "title": "Would I be helped? Cross-national CCTV footage shows that intervention is the norm in public conflicts.",
+   "year": 2020,
+   "journal": "American Psychologist",
+   "authors": [
+    "Philpot",
+    "Liebst",
+    "Levine",
+    "Bernasco",
+    "Lindegaard"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Philpot R・Liebst LS・Levine M・Bernasco W・Lindegaard MR 2020 Would I be helped? Cross-national CCTV footage shows that intervention is the norm in public conflicts（American Psychologist 75(1):66-75）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/6850269/": {
+  "rec": {
+   "doi": "10.1093/brain/106.2.237",
+   "title": "'Utilization behaviour' and its relation to lesions of the frontal lobes",
+   "year": 1983,
+   "journal": "Brain : a journal of neurology",
+   "authors": [
+    "Lhermitte"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Lhermitte F 1983, Utilization behaviour and its relation to lesions of the frontal lobes（Brain 106:237-255）",
+  "exact": true
+ },
+ "https://doi.org/10.1352/1934-9556-52.6.419": {
+  "rec": {
+   "doi": "10.1352/1934-9556-52.6.419",
+   "title": "Borderline Intellectual Functioning: A Systematic Literature Review",
+   "year": 2014,
+   "journal": "Intellectual and Developmental Disabilities",
+   "authors": [
+    "Peltopuro",
+    "Ahonen",
+    "Kaartinen",
+    "Seppälä",
+    "Närhi"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Peltopuro M ら 2014, Borderline intellectual functioning - a systematic literature review（Intellectual and Developmental Disabilities 52(6):419-443）",
+  "exact": true
+ },
+ "https://doi.org/10.1111/jir.12783": {
+  "rec": {
+   "doi": "10.1111/jir.12783",
+   "title": "Borderline intellectual functioning: an increased risk of severe psychiatric problems and inability to work",
+   "year": 2020,
+   "journal": "Journal of Intellectual Disability Research",
+   "authors": [
+    "Peltopuro",
+    "Vesala",
+    "Ahonen",
+    "Närhi"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Peltopuro M ら 2020, Borderline intellectual functioning - an increased risk of severe psychiatric problems and inability to work（Journal of Intellectual Disability Research 64(12):923-933）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/h0062474": {
+  "rec": {
+   "doi": "10.1037/h0062474",
+   "title": "The formation of learning sets.",
+   "year": 1949,
+   "journal": "Psychological Review",
+   "authors": [
+    "Harlow"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Harlow HF 1949, The formation of learning sets（Psychological Review 56(1):51-65）",
+  "exact": true
+ },
+ "https://doi.org/10.1146/annurev-psych-113011-143750": {
+  "rec": {
+   "doi": "10.1146/annurev-psych-113011-143750",
+   "title": "Executive Functions",
+   "year": 2013,
+   "journal": "Annual Review of Psychology",
+   "authors": [
+    "Diamond"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Diamond A 2013 Executive functions（Annual Review of Psychology 64:135-168）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/415137a": {
+  "rec": {
+   "doi": "10.1038/415137a",
+   "title": "Altruistic punishment in humans",
+   "year": 2002,
+   "journal": "Nature",
+   "authors": [
+    "Fehr",
+    "Gächter"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Fehr E & Gächter S 2002, Altruistic punishment in humans（Nature 415:137-140）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/a0013965": {
+  "rec": {
+   "doi": "10.1037/a0013965",
+   "title": "Anger is an approach-related affect: Evidence and implications.",
+   "year": 2009,
+   "journal": "Psychological Bulletin",
+   "authors": [
+    "Carver",
+    "Harmon-Jones"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Carver CS & Harmon-Jones E 2009 Anger is an approach-related affect（Psychological Bulletin 135(2):183-204）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/sciadv.abe5641": {
+  "rec": {
+   "doi": "10.1126/sciadv.abe5641",
+   "title": "How social learning amplifies moral outrage expression in online social networks",
+   "year": 2021,
+   "journal": "Science Advances",
+   "authors": [
+    "Brady",
+    "McLoughlin",
+    "Doan",
+    "Crockett"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Brady WJ・McLoughlin K・Doan TN・Crockett MJ 2021 How social learning amplifies moral outrage expression in online social networks（Science Advances 7(33):eabe5641）",
+  "exact": true
+ },
+ "https://doi.org/10.1111/j.1745-6916.2007.00047.x": {
+  "rec": {
+   "doi": "10.1111/j.1745-6916.2007.00047.x",
+   "title": "The Power of Personality: The Comparative Validity of Personality Traits, Socioeconomic Status, and Cognitive Ability for Predicting Important Life Outcomes",
+   "year": 2007,
+   "journal": "Perspectives on Psychological Science",
+   "authors": [
+    "Roberts",
+    "Kuncel",
+    "Shiner",
+    "Caspi",
+    "Goldberg"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Roberts BW・Kuncel NR・Shiner R・Caspi A・Goldberg LR 2007 The power of personality（Perspectives on Psychological Science 2(4):313-345）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/pspp0000021": {
+  "rec": {
+   "doi": "10.1037/pspp0000021",
+   "title": "Volitional personality trait change: Can people choose to change their personality traits?",
+   "year": 2015,
+   "journal": "Journal of Personality and Social Psychology",
+   "authors": [
+    "Hudson",
+    "Fraley"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Hudson NW & Fraley RC 2015 Volitional personality trait change: can people choose to change their personality traits?（JPSP 109(3):490-507）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/bul0000088": {
+  "rec": {
+   "doi": "10.1037/bul0000088",
+   "title": "A systematic review of personality trait change through intervention.",
+   "year": 2017,
+   "journal": "Psychological Bulletin",
+   "authors": [
+    "Roberts",
+    "Luo",
+    "Briley",
+    "Chow",
+    "Su",
+    "Hill"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Roberts BW ら 2017 A systematic review of personality trait change through intervention（Psychological Bulletin 143(2):117-141）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.aan3458": {
+  "rec": {
+   "doi": "10.1126/science.aan3458",
+   "title": "Pavlovian conditioning–induced hallucinations result from overweighting of perceptual priors",
+   "year": 2017,
+   "journal": "Science",
+   "authors": [
+    "Powers",
+    "Mathys",
+    "Corlett"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Powers AR・Mathys C・Corlett PR (2017) Pavlovian conditioning-induced hallucinations result from overweighting of perceptual priors. Science 357 596-600",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.tics.2018.12.001": {
+  "rec": {
+   "doi": "10.1016/j.tics.2018.12.001",
+   "title": "Hallucinations and Strong Priors",
+   "year": 2019,
+   "journal": "Trends in Cognitive Sciences",
+   "authors": [
+    "Corlett",
+    "Horga",
+    "Fletcher",
+    "Alderson-Day",
+    "Schmack",
+    "Powers"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Corlett PR ほか (2019) Hallucinations and strong priors. Trends in Cognitive Sciences 23 114-127",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.abf4740": {
+  "rec": {
+   "doi": "10.1126/science.abf4740",
+   "title": "Striatal dopamine mediates hallucination-like perception in mice",
+   "year": 2021,
+   "journal": "Science",
+   "authors": [
+    "Schmack",
+    "Bosc",
+    "Ott",
+    "Sturgill",
+    "Kepecs"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Schmack K ほか (2021) Striatal dopamine mediates hallucination-like perception in mice. Science 372 eabf4740",
+  "exact": true
+ },
+ "https://doi.org/10.1038/s41586-020-2245-5": {
+  "rec": {
+   "doi": "10.1038/s41586-020-2245-5",
+   "title": "Olfactory sniffing signals consciousness in unresponsive patients with brain injuries",
+   "year": 2020,
+   "journal": "Nature",
+   "authors": [
+    "Arzi",
+    "Rozenkrantz",
+    "Gorodisky",
+    "Rozenkrantz",
+    "Holtzman",
+    "Ravia",
+    "Bekinschtein",
+    "Galperin",
+    "Krimchansky",
+    "Cohen",
+    "Oksamitni",
+    "Aidinoff",
+    "Sacher",
+    "Sobel"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Arzi A ら 2020, Olfactory sniffing signals consciousness in unresponsive patients with brain injuries（Nature 581:428-433）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/15812816/": {
+  "rec": {
+   "doi": "10.1002/jhbs.20080",
+   "title": "Theodor Lipps and the shift from \"sympathy\" to \"empathy\"",
+   "year": 2005,
+   "journal": "Journal of the history of the behavioral sciences",
+   "authors": [
+    "Jahoda"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Jahoda G 2005, Theodor Lipps and the shift from sympathy to empathy（Journal of the History of the Behavioral Sciences）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/0003-066x.53.4.449": {
+  "rec": {
+   "doi": "10.1037/0003-066x.53.4.449",
+   "title": "Teaching critical thinking for transfer across domains: Disposition, skills, structure training, and metacognitive monitoring.",
+   "year": 1998,
+   "journal": "American Psychologist",
+   "authors": [
+    "Halpern"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Halpern DF 1998 Teaching critical thinking for transfer across domains: disposition・skills・structure training・and metacognitive monitoring（American Psychologist 53(4):449-455）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.biosystems.2017.10.016": {
+  "rec": {
+   "doi": "10.1016/j.biosystems.2017.10.016",
+   "title": "The search image as link between sensation, perception and action",
+   "year": 2018,
+   "journal": "Biosystems",
+   "authors": [
+    "Tønnessen"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Tønnessen M (2018) The search image as link between sensation perception and action. Biosystems 164 138-146",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/6168325/": {
+  "rec": {
+   "doi": "10.1016/0093-934x(81)90072-9",
+   "title": "Hemisphere differences in the acquisition and use of descriptive systems",
+   "year": 1981,
+   "journal": "Brain and language",
+   "authors": [
+    "Goldberg",
+    "Costa"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Goldberg E & Costa LD 1981, Hemisphere differences in the acquisition and use of descriptive systems（Brain and Language 14:144-173）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/4841585/": {
+  "rec": {
+   "doi": "10.1126/science.185.4150.537",
+   "title": "Cerebral dominance in musicians and nonmusicians",
+   "year": 1974,
+   "journal": "Science (New York, N.Y.)",
+   "authors": [
+    "Bever",
+    "Chiarello"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Bever TG & Chiarello RJ 1974, Cerebral dominance in musicians and nonmusicians（Science 185:537-539）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/19555025/": {
+  "rec": {
+   "doi": "10.1038/scientificamerican0709-60",
+   "title": "Origins of the left & right brain",
+   "year": 2009,
+   "journal": "Scientific American",
+   "authors": [
+    "MacNeilage",
+    "Rogers",
+    "Vallortigara"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "MacNeilage PF, Rogers LJ & Vallortigara G 2009, Origins of the left & right brain（Scientific American 301(1):60-67）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.tics.2020.02.006": {
+  "rec": {
+   "doi": "10.1016/j.tics.2020.02.006",
+   "title": "The Dark Room Problem",
+   "year": 2020,
+   "journal": "Trends in Cognitive Sciences",
+   "authors": [
+    "Sun",
+    "Firestone"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Sun Z, Firestone C (2020) The Dark Room Problem. Trends in Cognitive Sciences 24(5):346-348",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.tics.2020.05.012": {
+  "rec": {
+   "doi": "10.1016/j.tics.2020.05.012",
+   "title": "Controlled Optimism: Reply to Sun and Firestone on the Dark Room Problem",
+   "year": 2020,
+   "journal": "Trends in Cognitive Sciences",
+   "authors": [
+    "Van de Cruys",
+    "Friston",
+    "Clark"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Van de Cruys S, Friston KJ, Clark A (2020) Controlled Optimism - Reply to Sun and Firestone on the Dark Room Problem. Trends in Cognitive Sciences 24(9):680-681",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.tics.2020.05.011": {
+  "rec": {
+   "doi": "10.1016/j.tics.2020.05.011",
+   "title": "Curious Inferences: Reply to Sun and Firestone on the Dark Room Problem",
+   "year": 2020,
+   "journal": "Trends in Cognitive Sciences",
+   "authors": [
+    "Seth",
+    "Millidge",
+    "Buckley",
+    "Tschantz"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Seth AK, Millidge B, Buckley CL, Tschantz A (2020) Curious Inferences - Reply to Sun and Firestone on the Dark Room Problem. Trends in Cognitive Sciences 24(9):681-683",
+  "exact": true
+ },
+ "https://doi.org/10.1093/icb/7.2.319": {
+  "rec": {
+   "doi": "10.1093/icb/7.2.319",
+   "title": "Submission: Its Features and Function in the Wolf and Dog",
+   "year": 1967,
+   "journal": "American Zoologist",
+   "authors": [
+    "SCHENKEL"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Schenkel 1967, Submission - Its Features and Function in the Wolf and Dog（American Zoologist 7:319-329）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/3905726/": {
+  "rec": {
+   "doi": "",
+   "title": "\"Memory of the future\": an essay on the temporal organization of conscious awareness",
+   "year": 1985,
+   "journal": "Human neurobiology",
+   "authors": [
+    "Ingvar"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Ingvar DH 1985, Memory of the future: an essay on the temporal organization of conscious awareness（Human Neurobiology 4:127-136）",
+  "exact": true
+ },
+ "https://doi.org/10.1093/scan/nsw154": {
+  "rec": {
+   "doi": "10.1093/scan/nsw154",
+   "title": "The theory of constructed emotion: an active inference account of interoception and categorization",
+   "year": 2016,
+   "journal": "Social Cognitive and Affective Neuroscience",
+   "authors": [
+    "Barrett"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Barrett LF (2017) The theory of constructed emotion - an active inference account of interoception and categorization. Social Cognitive and Affective Neuroscience 12(1):1-23",
+  "exact": true
+ },
+ "https://doi.org/10.1017/pen.2018.14": {
+  "rec": {
+   "doi": "10.1017/pen.2018.14",
+   "title": "Computational Phenotyping: Using Models to Understand Individual Differences in Personality, Development, and Mental Illness",
+   "year": 2018,
+   "journal": "Personality Neuroscience",
+   "authors": [
+    "Patzelt",
+    "Hartley",
+    "Gershman"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Patzelt, Hartley & Gershman 2018（Personality Neuroscience）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/1286364/": {
+  "rec": {
+   "doi": "10.1136/bmj.305.6868.1515",
+   "title": "Tourette's syndrome and creativity",
+   "year": 1992,
+   "journal": "BMJ (Clinical research ed.)",
+   "authors": [
+    "Sacks"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Sacks O 1992, Tourette's syndrome and creativity（BMJ 305:1515-1516）",
+  "exact": true
+ },
+ "https://onlinelibrary.wiley.com/doi/10.1002/j.2162-6057.2008.tb01290.x": {
+  "rec": {
+   "doi": "10.1002/j.2162-6057.2008.tb01290.x",
+   "title": "Meta‐Analyses of the Relationship of Creative Achievement to Both IQ and Divergent Thinking Test Scores",
+   "year": 2008,
+   "journal": "The Journal of Creative Behavior",
+   "authors": [
+    "KIM"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Kim KH 2008, Meta-analyses of the relationship of creative achievement to both IQ and divergent thinking test scores（Journal of Creative Behavior 42(2):106-130）",
+  "exact": true
+ },
+ "https://amielhandelsman.com/wp-content/uploads/2016/02/Cook-Greuter-Making-the-CaseDevelopPerspective-2004.pdf": {
+  "rec": {
+   "doi": "10.1108/00197850410563902",
+   "title": "Making the case for a developmental perspective",
+   "year": 2004,
+   "journal": "Industrial and Commercial Training",
+   "authors": [
+    "Cook‐Greuter"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Cook-Greuter SR 2004, Making the case for a developmental perspective（Industrial and Commercial Training 36(7):275-281）",
+  "exact": false
+ },
+ "https://psycnet.apa.org/doi/10.1037/h0040373": {
+  "rec": {
+   "doi": "10.1037/h0040373",
+   "title": "Blind variation and selective retentions in creative thought as in other knowledge processes.",
+   "year": 1960,
+   "journal": "Psychological Review",
+   "authors": [
+    "Campbell"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Campbell DT 1960, Blind variation and selective retention in creative thought as in other knowledge processes（Psychological Review 67:380-400）",
+  "exact": true
+ },
+ "https://nickbostrom.com/superintelligentwill.pdf": {
+  "rec": {
+   "doi": "10.1007/s11023-012-9281-3",
+   "title": "The Superintelligent Will: Motivation and Instrumental Rationality in Advanced Artificial Agents",
+   "year": 2012,
+   "journal": "Minds and Machines",
+   "authors": [
+    "Bostrom"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Bostrom N 2012, The superintelligent will - motivation and instrumental rationality in advanced artificial agents（Minds and Machines 22:71-85）",
+  "exact": false
+ },
+ "https://doi.org/10.1177/0956797617714580": {
+  "rec": {
+   "doi": "10.1177/0956797617714580",
+   "title": "Is Romantic Desire Predictable? Machine Learning Applied to Initial Romantic Attraction",
+   "year": 2017,
+   "journal": "Psychological Science",
+   "authors": [
+    "Joel",
+    "Eastwick",
+    "Finkel"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Joel S・Eastwick PW・Finkel EJ 2017 Is romantic desire predictable? Machine learning applied to initial romantic attraction（Psychological Science 28(10):1478-1489）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.1917036117": {
+  "rec": {
+   "doi": "10.1073/pnas.1917036117",
+   "title": "Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies",
+   "year": 2020,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Joel",
+    "Eastwick",
+    "Allison",
+    "Arriaga",
+    "Baker",
+    "Bar-Kalifa",
+    "Bergeron",
+    "Birnbaum",
+    "Brock",
+    "Brumbaugh",
+    "Carmichael",
+    "Chen",
+    "Clarke",
+    "Cobb",
+    "Coolsen",
+    "Davis",
+    "de Jong",
+    "Debrot",
+    "DeHaas",
+    "Derrick",
+    "Eller",
+    "Estrada",
+    "Faure",
+    "Finkel",
+    "Fraley",
+    "Gable",
+    "Gadassi-Polack",
+    "Girme",
+    "Gordon",
+    "Gosnell",
+    "Hammond",
+    "Hannon",
+    "Harasymchuk",
+    "Hofmann",
+    "Horn",
+    "Impett",
+    "Jamieson",
+    "Keltner",
+    "Kim",
+    "Kirchner",
+    "Kluwer",
+    "Kumashiro",
+    "Larson",
+    "Lazarus",
+    "Logan",
+    "Luchies",
+    "MacDonald",
+    "Machia",
+    "Maniaci",
+    "Maxwell",
+    "Mizrahi",
+    "Muise",
+    "Niehuis",
+    "Ogolsky",
+    "Oldham",
+    "Overall",
+    "Perrez",
+    "Peters",
+    "Pietromonaco",
+    "Powers",
+    "Prok",
+    "Pshedetzky-Shochat",
+    "Rafaeli",
+    "Ramsdell",
+    "Reblin",
+    "Reicherts",
+    "Reifman",
+    "Reis",
+    "Rhoades",
+    "Rholes",
+    "Righetti",
+    "Rodriguez",
+    "Rogge",
+    "Rosen",
+    "Saxbe",
+    "Sened",
+    "Simpson",
+    "Slotter",
+    "Stanley",
+    "Stocker",
+    "Surra",
+    "Ter Kuile",
+    "Vaughn",
+    "Vicary",
+    "Visserman",
+    "Wolf"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Joel S ら 2020 Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies（PNAS 117(32):19061-19071）",
+  "exact": true
+ },
+ "https://doi.org/10.1177/0956797618780658": {
+  "rec": {
+   "doi": "10.1177/0956797618780658",
+   "title": "The Paradox of Viral Outrage",
+   "year": 2018,
+   "journal": "Psychological Science",
+   "authors": [
+    "Sawaoka",
+    "Monin"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Sawaoka T & Monin B 2018 The paradox of viral outrage（Psychological Science 29(10):1665-1678）",
+  "exact": true
+ },
+ "https://www.nature.com/articles/nn.4135": {
+  "rec": {
+   "doi": "10.1038/nn.4135",
+   "title": "Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity",
+   "year": 2015,
+   "journal": "Nature Neuroscience",
+   "authors": [
+    "Finn",
+    "Shen",
+    "Scheinost",
+    "Rosenberg",
+    "Huang",
+    "Chun",
+    "Papademetris",
+    "Constable"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Finn ES ら 2015, Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity（Nature Neuroscience 18:1664-1671）",
+  "exact": true
+ },
+ "https://www.nature.com/articles/nn.4179": {
+  "rec": {
+   "doi": "10.1038/nn.4179",
+   "title": "A neuromarker of sustained attention from whole-brain functional connectivity",
+   "year": 2015,
+   "journal": "Nature Neuroscience",
+   "authors": [
+    "Rosenberg",
+    "Finn",
+    "Scheinost",
+    "Papademetris",
+    "Shen",
+    "Constable",
+    "Chun"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Rosenberg MD ら 2016, A neuromarker of sustained attention from whole-brain functional connectivity（Nature Neuroscience 19:165-171）",
+  "exact": true
+ },
+ "https://doi.org/10.1002/ejsp.674": {
+  "rec": {
+   "doi": "10.1002/ejsp.674",
+   "title": "How are habits formed: Modelling habit formation in the real world",
+   "year": 2009,
+   "journal": "European Journal of Social Psychology",
+   "authors": [
+    "Lally",
+    "van Jaarsveld",
+    "Potts",
+    "Wardle"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Lally P・van Jaarsveld CHM・Potts HWW・Wardle J 2010 How are habits formed: modelling habit formation in the real world（European Journal of Social Psychology 40(6):998-1009）",
+  "exact": true
+ },
+ "https://doi.org/10.1017/S026357471000069X": {
+  "rec": {
+   "doi": "10.1017/s026357471000069x",
+   "title": "RepRap – the replicating rapid prototyper",
+   "year": 2011,
+   "journal": "Robotica",
+   "authors": [
+    "Jones",
+    "Haufe",
+    "Sells",
+    "Iravani",
+    "Olliver",
+    "Palmer",
+    "Bowyer"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Jones R ら 2011 RepRap: the replicating rapid prototyper（Robotica 29(1):177-191）",
+  "exact": true
+ },
+ "https://www.researchgate.net/publication/231074932_Safe_exponential_manufacturing": {
+  "rec": {
+   "doi": "10.1088/0957-4484/15/8/001",
+   "title": "Safe exponential manufacturing",
+   "year": 2004,
+   "journal": "Nanotechnology",
+   "authors": [
+    "Phoenix",
+    "Drexler"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Phoenix C & Drexler KE 2004 Safe exponential manufacturing（Nanotechnology 15(8):869-872）",
+  "exact": false
+ },
+ "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x": {
+  "rec": {
+   "doi": "10.1002/j.1538-7305.1948.tb01338.x",
+   "title": "A Mathematical Theory of Communication",
+   "year": 1948,
+   "journal": "Bell System Technical Journal",
+   "authors": [
+    "Shannon"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Shannon CE 1948, A mathematical theory of communication（Bell System Technical Journal 27:379-423）",
+  "exact": true
+ },
+ "https://doi.org/10.3390/e23030293": {
+  "rec": {
+   "doi": "10.3390/e23030293",
+   "title": "A Technical Critique of Some Parts of the Free Energy Principle",
+   "year": 2021,
+   "journal": "Entropy",
+   "authors": [
+    "Biehl",
+    "Pollock",
+    "Kanai"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Biehl M, Pollock FA, Kanai R (2021) A Technical Critique of Some Parts of the Free Energy Principle. Entropy 23(3):293",
+  "exact": true
+ },
+ "https://doi.org/10.3390/e23081076": {
+  "rec": {
+   "doi": "10.3390/e23081076",
+   "title": "Some Interesting Observations on the Free Energy Principle",
+   "year": 2021,
+   "journal": "Entropy",
+   "authors": [
+    "Friston",
+    "Da Costa",
+    "Parr"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Friston KJ, Da Costa L, Parr T (2021) Some Interesting Observations on the Free Energy Principle. Entropy 23(8):1076",
+  "exact": true
+ },
+ "https://doi.org/10.1007/s11229-018-01932-w": {
+  "rec": {
+   "doi": "10.1007/s11229-018-01932-w",
+   "title": "First principles in the life sciences: the free-energy principle, organicism, and mechanism",
+   "year": 2018,
+   "journal": "Synthese",
+   "authors": [
+    "Colombo",
+    "Wright"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": false,
+  "why": "nen ga awanai (ref 2021 / got 2018)",
+  "ref_title": "Colombo M, Wright C (2021) First principles in the life sciences - the free-energy principle, organicism, and mechanism. Synthese 198:3463-3488",
+  "exact": true
+ },
+ "https://doi.org/10.1007/s10539-021-09807-0": {
+  "rec": {
+   "doi": "10.1007/s10539-021-09807-0",
+   "title": "The math is not the territory: navigating the free energy principle",
+   "year": 2021,
+   "journal": "Biology & Philosophy",
+   "authors": [
+    "Andrews"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Andrews M (2021) The math is not the territory - navigating the free energy principle. Biology & Philosophy 36(3)",
+  "exact": true
+ },
+ "https://doi.org/10.3390/e23020238": {
+  "rec": {
+   "doi": "10.3390/e23020238",
+   "title": "The Free Energy Principle: Good Science and Questionable Philosophy in a Grand Unifying Theory",
+   "year": 2021,
+   "journal": "Entropy",
+   "authors": [
+    "Sánchez-Cañizares"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Sánchez-Cañizares J (2021) The Free Energy Principle - Good Science and Questionable Philosophy in a Grand Unifying Theory. Entropy 23(2):238",
+  "exact": true
+ },
+ "https://doi.org/10.1371/journal.pone.0037843": {
+  "rec": {
+   "doi": "10.1371/journal.pone.0037843",
+   "title": "Spontaneous Prediction Error Generation in Schizophrenia",
+   "year": 2012,
+   "journal": "PLoS ONE",
+   "authors": [
+    "Yamashita",
+    "Tani"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Yamashita Y, Tani J 2012, Spontaneous prediction error generation in schizophrenia（PLoS ONE 7(5):e37843）",
+  "exact": true
+ },
+ "https://verticaldevelopment.com/wp-content/uploads/2018/05/3.-Manners-and-Durkin-Ego-Dev-Theory-and-Measurement-Validity-2001.pdf": {
+  "rec": {
+   "doi": "10.1006/drev.2000.0508",
+   "title": "Processes Involved in Adult Ego Development: A Conceptual Framework",
+   "year": 2000,
+   "journal": "Developmental Review",
+   "authors": [
+    "Manners",
+    "Durkin"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Manners J & Durkin K 2001, A critical review of the validity of ego development theory and its measurement（Journal of Personality Assessment 77(3):541-567）",
+  "exact": false
+ },
+ "https://doi.org/10.1068/p281059": {
+  "rec": {
+   "doi": "10.1068/p281059",
+   "title": "Gorillas in Our Midst: Sustained Inattentional Blindness for Dynamic Events",
+   "year": 1999,
+   "journal": "Perception",
+   "authors": [
+    "Simons",
+    "Chabris"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Simons DJ・Chabris CF (1999) Gorillas in our midst - sustained inattentional blindness for dynamic events. Perception 28 1059-1074",
+  "exact": true
+ },
+ "https://doi.org/10.1177/0956797613479386": {
+  "rec": {
+   "doi": "10.1177/0956797613479386",
+   "title": "The Invisible Gorilla Strikes Again",
+   "year": 2013,
+   "journal": "Psychological Science",
+   "authors": [
+    "Drew",
+    "Võ",
+    "Wolfe"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Drew T・Võ MLH・Wolfe JM (2013) The invisible gorilla strikes again - sustained inattentional blindness in expert observers. Psychological Science 24 1848-1853",
+  "exact": true
+ },
+ "https://doi.org/10.1177/0956797610392928": {
+  "rec": {
+   "doi": "10.1177/0956797610392928",
+   "title": "Language Style Matching Predicts Relationship Initiation and Stability",
+   "year": 2010,
+   "journal": "Psychological Science",
+   "authors": [
+    "Ireland",
+    "Slatcher",
+    "Eastwick",
+    "Scissors",
+    "Finkel",
+    "Pennebaker"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Ireland ME・Slatcher RB・Eastwick PW・Scissors LE・Finkel EJ・Pennebaker JW 2011 Language style matching predicts relationship initiation and stability（Psychological Science 22(1):39-44）",
+  "exact": true
+ },
+ "https://www.nejm.org/doi/full/10.1056/NEJMoa1504327": {
+  "rec": {
+   "doi": "10.1056/nejmoa1504327",
+   "title": "Incidence of Dementia over Three Decades in the Framingham Heart Study",
+   "year": 2016,
+   "journal": "New England Journal of Medicine",
+   "authors": [
+    "Satizabal",
+    "Beiser",
+    "Chouraki",
+    "Chêne",
+    "Dufouil",
+    "Seshadri"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Satizabal CL ら 2016, Incidence of dementia over three decades in the Framingham Heart Study（NEJM 374:523-532）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/2671013/": {
+  "rec": {
+   "doi": "10.1128/jcm.27.7.1464-1466.1989",
+   "title": "Antigenic characterization of respiratory syncytial virus associated with acute respiratory infections in Uruguayan children from 1985 to 1987",
+   "year": 1989,
+   "journal": "Journal of clinical microbiology",
+   "authors": [
+    "Russi",
+    "Delfraro",
+    "Arbiza",
+    "Chiparelli",
+    "Orvell",
+    "Grandien",
+    "Hortal"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Goldberg E 1989, Gradiental approach to neocortical functional organization（Journal of Clinical and Experimental Neuropsychology 11:489-517）",
+  "exact": true
+ },
+ "https://pubmed.ncbi.nlm.nih.gov/23259955/": {
+  "rec": {
+   "doi": "10.1016/j.neuron.2012.10.014",
+   "title": "A continuous semantic space describes the representation of thousands of object and action categories across the human brain",
+   "year": 2012,
+   "journal": "Neuron",
+   "authors": [
+    "Huth",
+    "Nishimoto",
+    "Vu",
+    "Gallant"
+   ],
+   "kind": "journal-article",
+   "how": "PubMed(PMID)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Huth AG, Nishimoto S, Vu AT & Gallant JL 2012, A continuous semantic space describes the representation of thousands of object and action categories across the human brain（Neuron 76:1210-1224）",
+  "exact": true
+ },
+ "https://www.nature.com/articles/nature17637": {
+  "rec": {
+   "doi": "10.1038/nature17637",
+   "title": "Natural speech reveals the semantic maps that tile human cerebral cortex",
+   "year": 2016,
+   "journal": "Nature",
+   "authors": [
+    "Huth",
+    "de Heer",
+    "Griffiths",
+    "Theunissen",
+    "Gallant"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Huth AG ら 2016, Natural speech reveals the semantic maps that tile human cerebral cortex（Nature 532:453-458）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.2116915119": {
+  "rec": {
+   "doi": "10.1073/pnas.2116915119",
+   "title": "Fast response times signal social connection in conversation",
+   "year": 2022,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Templeton",
+    "Chang",
+    "Reynolds",
+    "Cone LeBeaumont",
+    "Wheatley"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Templeton EM・Chang LJ・Reynolds EA・Cone LeBeaumont MD・Wheatley T 2022 Fast response times signal social connection in conversation（PNAS 119(4):e2116915119）",
+  "exact": true
+ },
+ "https://doi.org/10.1037/0022-3514.59.1.73": {
+  "rec": {
+   "doi": "10.1037/0022-3514.59.1.73",
+   "title": "Gender and social structure in the demand/withdraw pattern of marital conflict.",
+   "year": 1990,
+   "journal": "Journal of Personality and Social Psychology",
+   "authors": [
+    "Christensen",
+    "Heavey"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Christensen A & Heavey CL 1990 Gender and social structure in the demand/withdraw pattern of marital conflict（Journal of Personality and Social Psychology 59(1):73-81）",
+  "exact": true
+ },
+ "https://doi.org/10.1086/204166": {
+  "rec": {
+   "doi": "10.1086/204166",
+   "title": "Egalitarian Behavior and Reverse Dominance Hierarchy [and Comments and Reply]",
+   "year": 1993,
+   "journal": "Current Anthropology",
+   "authors": [
+    "Boehm",
+    "Barclay",
+    "Dentan",
+    "Dupre",
+    "Hill",
+    "Kent",
+    "Knauft",
+    "Otterbein",
+    "Rayner"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Boehm C 1993, Egalitarian Behavior and Reverse Dominance Hierarchy（Current Anthropology 34(3):227-254）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.1193147": {
+  "rec": {
+   "doi": "10.1126/science.1193147",
+   "title": "Evidence for a Collective Intelligence Factor in the Performance of Human Groups",
+   "year": 2010,
+   "journal": "Science",
+   "authors": [
+    "Woolley",
+    "Chabris",
+    "Pentland",
+    "Hashmi",
+    "Malone"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Woolley AW, Chabris CF, Pentland A, Hashmi N & Malone TW 2010, Evidence for a collective intelligence factor in the performance of human groups（Science 330:686-688）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.intell.2016.11.004": {
+  "rec": {
+   "doi": "10.1016/j.intell.2016.11.004",
+   "title": "Smart groups of smart people: Evidence for IQ as the origin of collective intelligence in the performance of human groups",
+   "year": 2017,
+   "journal": "Intelligence",
+   "authors": [
+    "Bates",
+    "Gupta"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Bates TC & Gupta S 2017, Smart groups of smart people - evidence for IQ as the origin of collective intelligence in the performance of human groups（Intelligence 60:46-56）",
+  "exact": true
+ },
+ "https://www.pnas.org/doi/10.1073/pnas.1316909110": {
+  "rec": {
+   "doi": "10.1073/pnas.1316909110",
+   "title": "Sex differences in the structural connectome of the human brain",
+   "year": 2013,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Ingalhalikar",
+    "Smith",
+    "Parker",
+    "Satterthwaite",
+    "Elliott",
+    "Ruparel",
+    "Hakonarson",
+    "Gur",
+    "Gur",
+    "Verma"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Ingalhalikar M ら 2014, Sex differences in the structural connectome of the human brain（PNAS 111:823-828）",
+  "exact": true
+ },
+ "https://www.pnas.org/doi/full/10.1073/pnas.1323319111": {
+  "rec": {
+   "doi": "10.1073/pnas.1323319111",
+   "title": "On the mis-presentation and misinterpretation of gender-related data: The case of Ingalhalikar’s human connectome study",
+   "year": 2014,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Joel",
+    "Tarrasch"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Joel D & Tarrasch R 2014, On the mis-presentation and misinterpretation of gender-related data: the case of Ingalhalikar's human connectome study（PNAS 111:E637）",
+  "exact": true
+ },
+ "https://doi.org/10.1111/1467-9280.00303": {
+  "rec": {
+   "doi": "10.1111/1467-9280.00303",
+   "title": "How not to be Seen: The Contribution of Similarity and Selective Ignoring to Sustained Inattentional Blindness",
+   "year": 2001,
+   "journal": "Psychological Science",
+   "authors": [
+    "Most",
+    "Simons",
+    "Scholl",
+    "Jimenez",
+    "Clifford",
+    "Chabris"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Most SB ほか (2001) How not to be seen - the contribution of similarity and selective ignoring to sustained inattentional blindness. Psychological Science 12 9-17",
+  "exact": true
+ },
+ "https://doi.org/10.1068/i0386": {
+  "rec": {
+   "doi": "10.1068/i0386",
+   "title": "Monkeying around with the Gorillas in Our Midst: Familiarity with an Inattentional-Blindness Task Does Not Improve the Detection of Unexpected Events",
+   "year": 2010,
+   "journal": "i-Perception",
+   "authors": [
+    "Simons"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Simons DJ (2010) Monkeying around with the gorillas in our midst - familiarity with an inattentional-blindness task does not improve the detection of unexpected events. i-Perception 1 3-6",
+  "exact": true
+ },
+ "https://doi.org/10.1037/h0044721": {
+  "rec": {
+   "doi": "10.1037/h0044721",
+   "title": "Interpersonal attraction and attitude similarity.",
+   "year": 1961,
+   "journal": "The Journal of Abnormal and Social Psychology",
+   "authors": [
+    "Byrne"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Byrne D 1961 Interpersonal attraction and attitude similarity（Journal of Abnormal and Social Psychology 62(3):713-715）",
+  "exact": true
+ },
+ "https://doi.org/10.1073/pnas.0900564106": {
+  "rec": {
+   "doi": "10.1073/pnas.0900564106",
+   "title": "Cooperative hunting and meat sharing 400–200 kya at Qesem Cave, Israel",
+   "year": 2009,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Stiner",
+    "Barkai",
+    "Gopher"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Stiner MC Barkai R & Gopher A 2009, Cooperative hunting and meat sharing 400-200 kya at Qesem Cave Israel（PNAS 106(32):13207-13212）",
+  "exact": true
+ },
+ "https://www.sciencedirect.com/science/article/pii/0191886994900494": {
+  "rec": {
+   "doi": "10.1016/0191-8869(94)90049-3",
+   "title": "Intelligence and brain myelination: A hypothesis",
+   "year": 1994,
+   "journal": "Personality and Individual Differences",
+   "authors": [
+    "Miller"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(title)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Miller EM 1994, Intelligence and brain myelination: a hypothesis（Personality and Individual Differences 17:803-832）",
+  "exact": false
+ },
+ "https://www.pnas.org/doi/10.1073/pnas.1117943109": {
+  "rec": {
+   "doi": "10.1073/pnas.1117943109",
+   "title": "Prolonged myelination in human neocortical evolution",
+   "year": 2012,
+   "journal": "Proceedings of the National Academy of Sciences",
+   "authors": [
+    "Miller",
+    "Duka",
+    "Stimpson",
+    "Schapiro",
+    "Baze",
+    "McArthur",
+    "Fobbs",
+    "Sousa",
+    "Šestan",
+    "Wildman",
+    "Lipovich",
+    "Kuzawa",
+    "Hof",
+    "Sherwood"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Miller DJ ら 2012, Prolonged myelination in human neocortical evolution（PNAS 109:16480-16485）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.282.5396.2085": {
+  "rec": {
+   "doi": "10.1126/science.282.5396.2085",
+   "title": "Defective LPS Signaling in C3H/HeJ and C57BL/10ScCr Mice: Mutations in <i>Tlr4</i> Gene",
+   "year": 1998,
+   "journal": "Science",
+   "authors": [
+    "Poltorak",
+    "He",
+    "Smirnova",
+    "Liu",
+    "Huffel",
+    "Du",
+    "Birdwell",
+    "Alejos",
+    "Silva",
+    "Galanos",
+    "Freudenberg",
+    "Ricciardi-Castagnoli",
+    "Layton",
+    "Beutler"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Poltorak A ら 1998, Defective LPS signaling in C3H/HeJ and C57BL/10ScCr mice - mutations in Tlr4 gene（Science 282:2085-2088）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.bbi.2009.12.009": {
+  "rec": {
+   "doi": "10.1016/j.bbi.2009.12.009",
+   "title": "Inflammation and social experience: An inflammatory challenge induces feelings of social disconnection in addition to depressed mood",
+   "year": 2010,
+   "journal": "Brain, Behavior, and Immunity",
+   "authors": [
+    "Eisenberger",
+    "Inagaki",
+    "Mashal",
+    "Irwin"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Eisenberger NI ら 2010（Brain Behav Immun 24:558-563）",
+  "exact": true
+ },
+ "https://doi.org/10.1007/s00401-009-0619-8": {
+  "rec": {
+   "doi": "10.1007/s00401-009-0619-8",
+   "title": "Astrocytes: biology and pathology",
+   "year": 2009,
+   "journal": "Acta Neuropathologica",
+   "authors": [
+    "Sofroniew",
+    "Vinters"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Sofroniew MV & Vinters HV 2010, Astrocytes - biology and pathology（Acta Neuropathol 119:7-35）",
+  "exact": true
+ },
+ "https://doi.org/10.1101/cshperspect.a020412": {
+  "rec": {
+   "doi": "10.1101/cshperspect.a020412",
+   "title": "The Blood–Brain Barrier",
+   "year": 2015,
+   "journal": "Cold Spring Harbor Perspectives in Biology",
+   "authors": [
+    "Daneman",
+    "Prat"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Daneman R & Prat A 2015（Cold Spring Harb Perspect Biol）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/scitranslmed.3003748": {
+  "rec": {
+   "doi": "10.1126/scitranslmed.3003748",
+   "title": "A Paravascular Pathway Facilitates CSF Flow Through the Brain Parenchyma and the Clearance of Interstitial Solutes, Including Amyloid β",
+   "year": 2012,
+   "journal": "Science Translational Medicine",
+   "authors": [
+    "Iliff",
+    "Wang",
+    "Liao",
+    "Plogg",
+    "Peng",
+    "Gundersen",
+    "Benveniste",
+    "Vates",
+    "Deane",
+    "Goldman",
+    "Nagelhus",
+    "Nedergaard"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Iliff JJ ら 2012, A paravascular pathway facilitates CSF flow through the brain parenchyma and the clearance of interstitial solutes including amyloid beta（Sci Transl Med 4:147ra111）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/s41593-024-01638-y": {
+  "rec": {
+   "doi": "10.1038/s41593-024-01638-y",
+   "title": "Brain clearance is reduced during sleep and anesthesia",
+   "year": 2024,
+   "journal": "Nature Neuroscience",
+   "authors": [
+    "Miao",
+    "Luo",
+    "Hsieh",
+    "Edge",
+    "Gridley",
+    "Wong",
+    "Constandinou",
+    "Wisden",
+    "Franks"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Miao A ら 2024, Brain clearance is reduced during sleep and anesthesia（Nat Neurosci 27:1046-1050）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.1194637": {
+  "rec": {
+   "doi": "10.1126/science.1194637",
+   "title": "Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages",
+   "year": 2010,
+   "journal": "Science",
+   "authors": [
+    "Ginhoux",
+    "Greter",
+    "Leboeuf",
+    "Nandi",
+    "See",
+    "Gokhan",
+    "Mehler",
+    "Conway",
+    "Ng",
+    "Stanley",
+    "Samokhvalov",
+    "Merad"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Ginhoux F ら 2010, Fate mapping analysis reveals that adult microglia derive from primitive macrophages（Science 330:841-845）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/j.neuron.2012.03.026": {
+  "rec": {
+   "doi": "10.1016/j.neuron.2012.03.026",
+   "title": "Microglia Sculpt Postnatal Neural Circuits in an Activity and Complement-Dependent Manner",
+   "year": 2012,
+   "journal": "Neuron",
+   "authors": [
+    "Schafer",
+    "Lehrman",
+    "Kautzman",
+    "Koyama",
+    "Mardinly",
+    "Yamasaki",
+    "Ransohoff",
+    "Greenberg",
+    "Barres",
+    "Stevens"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Schafer DP ら 2012, Microglia sculpt postnatal neural circuits in an activity and complement-dependent manner（Neuron 74:691-705）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/nrn2297": {
+  "rec": {
+   "doi": "10.1038/nrn2297",
+   "title": "From inflammation to sickness and depression: when the immune system subjugates the brain",
+   "year": 2008,
+   "journal": "Nature Reviews Neuroscience",
+   "authors": [
+    "Dantzer",
+    "O'Connor",
+    "Freund",
+    "Johnson",
+    "Kelley"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Dantzer R ら 2008（Nat Rev Neurosci 9:46-56）",
+  "exact": true
+ },
+ "https://doi.org/10.1016/s0149-7634(88)80004-6": {
+  "rec": {
+   "doi": "10.1016/s0149-7634(88)80004-6",
+   "title": "Biological basis of the behavior of sick animals",
+   "year": 1988,
+   "journal": "Neuroscience & Biobehavioral Reviews",
+   "authors": [
+    "Hart"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Hart BL 1988, Biological basis of the behavior of sick animals（Neurosci Biobehav Rev 12:123-137）",
+  "exact": true
+ },
+ "https://doi.org/10.1084/jem.20142290": {
+  "rec": {
+   "doi": "10.1084/jem.20142290",
+   "title": "A dural lymphatic vascular system that drains brain interstitial fluid and macromolecules",
+   "year": 2015,
+   "journal": "Journal of Experimental Medicine",
+   "authors": [
+    "Aspelund",
+    "Antila",
+    "Proulx",
+    "Karlsen",
+    "Karaman",
+    "Detmar",
+    "Wiig",
+    "Alitalo"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Aspelund A ら 2015, A dural lymphatic vascular system that drains brain interstitial fluid and macromolecules（J Exp Med 212:991-999）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/s41593-022-01029-1": {
+  "rec": {
+   "doi": "10.1038/s41593-022-01029-1",
+   "title": "Cerebrospinal fluid regulates skull bone marrow niches via direct access through dural channels",
+   "year": 2022,
+   "journal": "Nature Neuroscience",
+   "authors": [
+    "Mazzitelli",
+    "Smyth",
+    "Cross",
+    "Dykstra",
+    "Sun",
+    "Du",
+    "Mamuladze",
+    "Smirnov",
+    "Rustenhoven",
+    "Kipnis"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Mazzitelli JA ら 2022, Cerebrospinal fluid regulates skull bone marrow niches via direct access through dural channels（Nat Neurosci 25:555-560）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/s41593-018-0213-2": {
+  "rec": {
+   "doi": "10.1038/s41593-018-0213-2",
+   "title": "Direct vascular channels connect skull bone marrow and the brain surface enabling myeloid cell migration",
+   "year": 2018,
+   "journal": "Nature Neuroscience",
+   "authors": [
+    "Herisson",
+    "Frodermann",
+    "Courties",
+    "Rohde",
+    "Sun",
+    "Vandoorne",
+    "Wojtkiewicz",
+    "Masson",
+    "Vinegoni",
+    "Kim",
+    "Kim",
+    "Weissleder",
+    "Swirski",
+    "Moskowitz",
+    "Nahrendorf"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Herisson F ら 2018, Direct vascular channels connect skull bone marrow and the brain surface enabling myeloid cell migration（Nat Neurosci 21:1209-1217）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.abf7844": {
+  "rec": {
+   "doi": "10.1126/science.abf7844",
+   "title": "Skull and vertebral bone marrow are myeloid cell reservoirs for the meninges and CNS parenchyma",
+   "year": 2021,
+   "journal": "Science",
+   "authors": [
+    "Cugurra",
+    "Mamuladze",
+    "Rustenhoven",
+    "Dykstra",
+    "Beroshvili",
+    "Greenberg",
+    "Baker",
+    "Papadopoulos",
+    "Drieu",
+    "Blackburn",
+    "Kanamori",
+    "Brioschi",
+    "Herz",
+    "Schuettpelz",
+    "Colonna",
+    "Smirnov",
+    "Kipnis"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Cugurra A ら 2021, Skull and vertebral bone marrow are myeloid cell reservoirs for the meninges and CNS parenchyma（Science 373:eabf7844）",
+  "exact": true
+ },
+ "https://doi.org/10.1126/science.abf9277": {
+  "rec": {
+   "doi": "10.1126/science.abf9277",
+   "title": "Heterogeneity of meningeal B cells reveals a lymphopoietic niche at the CNS borders",
+   "year": 2021,
+   "journal": "Science",
+   "authors": [
+    "Brioschi",
+    "Wang",
+    "Peng",
+    "Wang",
+    "Shchukina",
+    "Greenberg",
+    "Bando",
+    "Jaeger",
+    "Czepielewski",
+    "Swain",
+    "Mogilenko",
+    "Beatty",
+    "Bayguinov",
+    "Fitzpatrick",
+    "Schuettpelz",
+    "Fronick",
+    "Smirnov",
+    "Kipnis",
+    "Shapiro",
+    "Wu",
+    "Gilfillan",
+    "Cella",
+    "Artyomov",
+    "Kleinstein",
+    "Colonna"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Brioschi S ら 2021, Heterogeneity of meningeal B cells reveals a lymphopoietic niche at the CNS borders（Science 373:eabf9277）",
+  "exact": true
+ },
+ "https://doi.org/10.1038/nature14432": {
+  "rec": {
+   "doi": "10.1038/nature14432",
+   "title": "Structural and functional features of central nervous system lymphatic vessels",
+   "year": 2015,
+   "journal": "Nature",
+   "authors": [
+    "Louveau",
+    "Smirnov",
+    "Keyes",
+    "Eccles",
+    "Rouhani",
+    "Peske",
+    "Derecki",
+    "Castle",
+    "Mandell",
+    "Lee",
+    "Harris",
+    "Kipnis"
+   ],
+   "kind": "journal-article",
+   "how": "Crossref(DOI)"
+  },
+  "ok": true,
+  "why": "",
+  "ref_title": "Louveau A ら 2015, Structural and functional features of central nervous system lymphatic vessels（Nature 523:337-341）",
+  "exact": true
  }
 }
