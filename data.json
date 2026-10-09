@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07 17:56",
+ "generated": "2026-10-09 19:25",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -525,6 +525,73 @@
    "sections": {
     "これは何か": "**Gender and social structure in the demand/withdraw pattern of marital conflict**\n\nChristensen A・Heavey CL（1990）／ *Journal of Personality and Social Psychology*",
     "この地図で": "- **[[追う人と逃げる人]]** ── 妻要求／夫撤退が多いが・誰が変化を求めるかで逆転＝性別でなく構造",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1990 Harnad",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "The symbol grounding problem",
+     "url": "https://doi.org/10.1016/0167-2789(90)90087-6",
+     "note": "Semantic Scholar の要旨で確かめた（arXiv 版）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1990 Harnad.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1990",
+    "著者": "Harnad S",
+    "雑誌": "Physica D 42(1-3):335-346",
+    "DOI": "10.1016/0167-2789(90)90087-6",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The symbol grounding problem**\n\nHarnad S（1990）／ *Physica D 42(1-3):335-346*",
+    "この地図で": "- **[[記号接地問題]]** ── 形式的な記号系の意味解釈を・頭の中の意味への寄生でなく系に内在させるには？ ==中国語-中国語辞書だけで中国語を学ぶ==のと同じ問題。解の素描＝記号は下から①図像的表象（感覚の写し）②カテゴリー表象（不変特徴の検出器）に接地し・その名前を組み合わせて高次の記号表象ができる。コネクショニズムはカテゴリーを学ぶ仕組みの候補",
+    "注意": "巻号の (1-3) は大河の記憶。Crossref は 42:335-346",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1990 Schooler",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Verbal overshadowing of visual memories: Some things are better left unsaid",
+     "url": "https://doi.org/10.1016/0010-0285(90)90003-m",
+     "note": "要旨は未読（Crossref に要旨が無い）。25%の数字は 2014 Alogna の要旨の記述で確かめた（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1990 Schooler.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1990",
+    "著者": "Schooler JW・Engstler-Schooler TY",
+    "雑誌": "Cognitive Psychology 22(1):36-71",
+    "DOI": "10.1016/0010-0285(90)90003-m",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Verbal overshadowing of visual memories: Some things are better left unsaid**\n\nSchooler JW・Engstler-Schooler TY（1990）／ *Cognitive Psychology 22(1):36-71*",
+    "この地図で": "- **[[言語隠蔽効果]]** ── 最初の報告。言葉で説明した群は面割りで正しく選べる率が約25ポイント低かった（数字は2014 Alogna の要旨による）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1216,6 +1283,39 @@
    "stub": false
   },
   {
+   "id": "2001 Barrett",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Knowing what you're feeling and knowing what to do about it: Mapping the relation between emotion differentiation and emotion regulation",
+     "url": "https://doi.org/10.1080/02699930143000239",
+     "note": "書誌のみ Crossref で確かめた（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2001 Barrett.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2001",
+    "著者": "Barrett LF・Gross J・Christensen TC・Benvenuto M",
+    "雑誌": "Cognition and Emotion 15(6):713-724",
+    "DOI": "10.1080/02699930143000239",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Knowing what you're feeling and knowing what to do about it: Mapping the relation between emotion differentiation and emotion regulation**\n\nBarrett LF・Gross J・Christensen TC・Benvenuto M（2001）／ *Cognition and Emotion 15(6):713-724*",
+    "この地図で": "- **[[感情の粒度]]** ── !!要旨は読めていない!!（Crossref・Europe PMC・Semantic Scholar のどれにも無い）。大河の記憶では＝経験サンプリングで・否定的な感情を細かく区別する人ほど強い苦痛のときに調整の方略を多く使った",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2001 Heyman",
    "type": "論文",
    "confidence": "確認済",
@@ -1372,6 +1472,40 @@
    "sections": {
     "これは何か": "**The Dark Triad of personality: Narcissism, Machiavellianism, and psychopathy**\n\nPaulhus & Williams（2002）／ *Journal of Research in Personality*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[ダーク・トライアド]]** ── 原典。3つは概念的には別だが経験的に重なり、冷淡な操作性という共通の核を持つ、とする。2026-08-31に確認\n- **[[デルロイ・ポーロス]]** ── ダーク・トライアドを提唱した原典。著者自身がブリティッシュコロンビア大学のページで公開している。2026-08-31に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2002 Rozenblit",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "The misunderstood limits of folk science: an illusion of explanatory depth",
+     "url": "https://doi.org/10.1207/s15516709cog2605_1",
+     "note": "Europe PMC の要旨で確かめた（PMID 21442007・所属はイェール大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2002 Rozenblit.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2002",
+    "著者": "Rozenblit L・Keil F",
+    "雑誌": "Cognitive Science 26(5):521-562",
+    "DOI": "10.1207/s15516709cog2605_1",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The misunderstood limits of folk science: an illusion of explanatory depth**\n\nRozenblit L・Keil F（2002）／ *Cognitive Science 26(5):521-562*",
+    "この地図で": "- **[[説明深度の錯覚]]** ── 人は複雑な現象を・実際よりはるかに精密に理解していると感じる。==錯覚は〈説明の知識〉で特に強く・事実・手順・物語の知識では弱い==。仕組みが目に見える環境ほど錯覚が頑健（12研究）",
+    "注意": "動画の「部品の名前を知っていることを・仕組みの理解と取り違える」は原因の一つとして本文で論じられている＝⚠大河の記憶。要旨には無い",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2056,6 +2190,40 @@
    "stub": false
   },
   {
+   "id": "2007 Lieberman",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli",
+     "url": "https://doi.org/10.1111/j.1467-9280.2007.01916.x",
+     "note": "Europe PMC の要旨で確かめた（PMID 17576282・筆頭の所属は UCLA）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2007 Lieberman.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2007",
+    "著者": "Lieberman MD・Eisenberger NI・Crockett MJ・Tom SM・Pfeifer JH・Way BM",
+    "雑誌": "Psychological Science 18(5):421-428",
+    "DOI": "10.1111/j.1467-9280.2007.01916.x",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Putting feelings into words: affect labeling disrupts amygdala activity in response to affective stimuli**\n\nLieberman MD・Eisenberger NI・Crockett MJ・Tom SM・Pfeifer JH・Way BM（2007）／ *Psychological Science 18(5):421-428*",
+    "この地図で": "- **[[感情ラベリング]]** ── fMRI。感情に言葉のラベルを付けると・ほかの符号化に比べて==扁桃体などの辺縁系の反応が下がった==。上がったのは==右腹外側前頭前野（RVLPFC）だけ==で・扁桃体と逆相関し・内側前頭前野が仲立ちした",
+    "注意": "動画は「前頭前野」とだけ言う＝正確には右の腹外側前頭前野。要旨の刺激は negative emotional images（表情の顔写真だったというのは大河の記憶）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2007 Naqvi",
    "type": "論文",
    "confidence": "確認済",
@@ -2212,6 +2380,39 @@
     "これは何か": "**Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control**\n\nSeeley ら（8名）（2007）／ *The Journal of Neuroscience*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[サリエンス・ネットワーク]]** ── ==サリエンス・ネットワークを背側前部帯状回と眼窩前頭島皮質を要として定義した論文。==スキャン前の不安の自己報告が、サリエンス・ネットワークのdACC節の内在的結合と相関し、実行制御側のどの領域とも相関しなかった。2026-09-08に確認\n- **[[セントラル・エグゼクティブ・ネットワーク]]** ── サリエンス・ネットワークと実行制御ネットワークを別々の内在的結合ネットワークとして分離した論文。実行課題の成績は実行制御側の頭頂ノードと相関し、サリエンス側のどの領域とも相関しなかった。2026-09-08に確認",
     "本文を読んで分かったこと（2026-09-09）": "読んだのは Discussion。Materials and Methods と Results の細部は読んでいない。\n\n### この網が何をしているか、という著者らの説明\n\n==神経系は内的・外的な刺激に絶えず晒されていて、最優先の仕事は、\nその膨大な入力のうち「恒常性にとっていちばん関わりが深いもの」を見分けることだ==、と書いている。\nそのためには、高度に処理された感覚のデータを、内臓性・自律性・快楽的な「マーカー」と\n統合できる仕組みが要る。そこで著者らは [[アントニオ・R・ダマシオ]] の 1999 年の仕事を引いている。\n\nつまりこの網は、==どれが大事かを決めて、次に何をするか（しないか）を決めるための装置==\nとして提案されている。\n\n### !!同じ場所が、これだけ違う場面で反応する!!\n\n本文が挙げている一覧をそのまま並べる。dACC と眼窩前頭島皮質は、次のどれでも活動する ──\n\n- 痛みの情動的な側面\n- **他者の痛みへの共感**（Singer ら 2004）\n- 代謝ストレス、空腹、心地よい接触\n- 音楽で起こる快い「ぞくぞく」\n- 愛する人の顔、味方の顔\n- **社会的拒絶**（Eisenberger ら 2003）\n\n!!痛みと空腹と音楽と社会的拒絶が、同じ場所を使っている。!!\n==これは「島皮質は嫌悪の座である」という読み方が成り立たないことの、いちばん直接的な材料だと思う==\n（ここは大河の見立て）。特定の中身ではなく「重要さ」のほうを扱っているなら、\n中身がばらばらでも同じ場所が動くのは当たり前になる。\n\n### 二つの網が別物である、という示し方\n\n同じ人の中で、向きの違う二つの相関を示している。\n\n| 個人差 | 相関した先 | 相関しなかった先 |\n|---|---|---|\n| スキャン前の予期不安（自己報告） | サリエンス側の dACC の結合 | 実行制御側のどの領域とも |\n| 実行課題の成績 | 実行制御側の頭頂間溝の結合 | サリエンス側のどの領域とも |\n\n==片方だけに効く個人差が二つ、向きを違えて出た==。だから二つの網は分けられる、という論法。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2007 Winawer",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Russian blues reveal effects of language on color discrimination",
+     "url": "https://doi.org/10.1073/pnas.0701644104",
+     "note": "Europe PMC の要旨で確かめた（PMID 17470790・筆頭の所属は MIT）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2007 Winawer.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2007",
+    "著者": "Winawer J・Witthoft N・Frank MC・Wu L・Wade AR・Boroditsky L",
+    "雑誌": "PNAS 104(19):7780-7785",
+    "DOI": "10.1073/pnas.0701644104",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Russian blues reveal effects of language on color discrimination**\n\nWinawer J・Witthoft N・Frank MC・Wu L・Wade AR・Boroditsky L（2007）／ *PNAS 104(19):7780-7785*",
+    "この地図で": "- **[[ロシア語の青（色の境界の実験）]]** ── ロシア語話者は siniy（濃い青）と goluboy（明るい青）の境界をまたぐ2色を速く見分けた。==言語の二重課題で優位が消え・空間の二重課題では消えなかった==。知覚的に近い色ほど効果が強い。英語話者には無い",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3346,6 +3547,39 @@
    "stub": false
   },
   {
+   "id": "2012 Demiralp",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Feeling blue or turquoise? Emotional differentiation in major depressive disorder",
+     "url": "https://doi.org/10.1177/0956797612444903",
+     "note": "Europe PMC の要旨で確かめた（PMID 23070307・PMC4004625・筆頭の所属はミシガン大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2012 Demiralp.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2012",
+    "著者": "Demiralp E ほか（12名・Barrett LF を含む）",
+    "雑誌": "Psychological Science 23(11):1410-1416",
+    "DOI": "10.1177/0956797612444903",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Feeling blue or turquoise? Emotional differentiation in major depressive disorder**\n\nDemiralp E ほか（12名・Barrett LF を含む）（2012）／ *Psychological Science 23(11):1410-1416*",
+    "この地図で": "- **[[感情の粒度]]** ── 7日間の経験サンプリング。==大うつ病の人は健康な人より感情の区別が低く・それは否定的な感情だけ==。強さや変動では説明されない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2012 Iliff",
    "type": "論文",
    "confidence": "確認済",
@@ -3567,6 +3801,39 @@
    "sections": {
     "これは何か": "**Dual-process theories of higher cognition: advancing the debate**\n\nEvans JStBT・Stanovich KE（2013）／ *Perspectives on Psychological Science*",
     "この地図で": "- **[[二重過程理論]]** ── タイプ1＝自律性・タイプ2＝作業記憶と認知的分離。「システム1/2」より「タイプ1/2」",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2013 Fernbach",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Political extremism is supported by an illusion of understanding",
+     "url": "https://doi.org/10.1177/0956797612464058",
+     "note": "Europe PMC の要旨で確かめた（PMID 23620547・筆頭の所属はコロラド大学ボルダー校）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Fernbach.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Fernbach PM・Rogers T・Fox CR・Sloman SA",
+    "雑誌": "Psychological Science 24(6):939-946",
+    "DOI": "10.1177/0956797612464058",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Political extremism is supported by an illusion of understanding**\n\nFernbach PM・Rogers T・Fox CR・Sloman SA（2013）／ *Psychological Science 24(6):939-946*",
+    "この地図で": "- **[[仕組みを説明させると穏やかになるか]]** ── 政策の仕組みを詳しく説明させると・錯覚が崩れ態度が穏やかに（実験1・2）。==理由を挙げさせただけでは起きない==（実験2）。寄付も減った（実験3）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3827,6 +4094,40 @@
    "sections": {
     "これは何か": "**Intelligence explosion microeconomics（Yudkowsky 2013）**",
     "この地図で、どこに効いているか": "- **[[知能爆発]]** ── 争点を「認知への再投資の収益率」と定式化。ヒト科の進化・ムーアの法則・チェス機械が証拠として争われてきたと整理し、次の一歩として「投資収益曲線の形式化」を提案",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2014 Alogna",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Registered Replication Report: Schooler and Engstler-Schooler (1990)",
+     "url": "https://doi.org/10.1177/1745691614545653",
+     "note": "Europe PMC の要旨で確かめた（PMID 26186758）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Alogna.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Alogna VK ほか（著者91名）",
+    "雑誌": "Perspectives on Psychological Science 9(5):556-578",
+    "DOI": "10.1177/1745691614545653",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Registered Replication Report: Schooler and Engstler-Schooler (1990)**\n\nAlogna VK ほか（著者91名）（2014）／ *Perspectives on Psychological Science 9(5):556-578*",
+    "この地図で": "- **[[言語隠蔽効果]]** ── RRR1（説明が強盗の直後）では −4%・RRR2（説明を20分遅らせた）では −16%。==効果は頑健だが・課題の順番（時間）に強く左右される==",
+    "注意": "!!動画の「23の研究室」は確かめていない!!（要旨に研究室数が無い。大河の記憶では RRR1 と RRR2 で参加研究室の数が違う）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4307,6 +4608,39 @@
    "sections": {
     "これは何か": "**The left amygdala: A shared substrate of alexithymia and empathy**\n\nGoerlich-Dobre ら（5名）（2015）／ *NeuroImage*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[失感情症]]** ── 失感情症と共感が左扁桃体で共通の基盤を持つという報告。2026-09-08に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 Kashdan",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Unpacking emotion differentiation: Transforming unpleasant experience by perceiving distinctions in negativity",
+     "url": "https://doi.org/10.1177/0963721414550708",
+     "note": "書誌のみ Crossref で確かめた（筆頭の所属はジョージ・メイソン大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Kashdan.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Kashdan TB・Barrett LF・McKnight PE",
+    "雑誌": "Current Directions in Psychological Science 24(1):10-16",
+    "DOI": "10.1177/0963721414550708",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Unpacking emotion differentiation: Transforming unpleasant experience by perceiving distinctions in negativity**\n\nKashdan TB・Barrett LF・McKnight PE（2015）／ *Current Directions in Psychological Science 24(1):10-16*",
+    "この地図で": "- **[[感情の粒度]]** ── !!要旨は読めていない!!（どのAPIにも無い）。大河の記憶では＝否定的な感情の区別が低いことは・うつ・不安・飲酒・攻撃などと関連するという知見を総覧",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5049,6 +5383,40 @@
    "stub": false
   },
   {
+   "id": "2017 Brady",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Emotion shapes the diffusion of moralized content in social networks",
+     "url": "https://doi.org/10.1073/pnas.1618923114",
+     "note": "Europe PMC の要旨で確かめた（PMID 28652356・筆頭の所属はニューヨーク大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2017 Brady.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2017",
+    "著者": "Brady WJ・Wills JA・Jost JT・Tucker JA・Van Bavel JJ",
+    "雑誌": "PNAS 114(28):7313-7318",
+    "DOI": "10.1073/pnas.1618923114",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Emotion shapes the diffusion of moralized content in social networks**\n\nBrady WJ・Wills JA・Jost JT・Tucker JA・Van Bavel JJ（2017）／ *PNAS 114(28):7313-7318*",
+    "この地図で": "- **[[道徳的伝染]]** ── 銃規制・同性婚・気候変動の3争点・563,312件。==道徳感情語が1語増えるごとに拡散が20%増==。==拡散は陣営の内側で強く・陣営の間では弱い==",
+    "注意": "→[[SNS]] には 2021 と 2025 の続きが書いてある（20%はのちに 13〜17% へ）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2017 Fikke",
    "type": "論文",
    "confidence": "確認済",
@@ -5212,6 +5580,72 @@
     "これは何か": "**The next Big Five Inventory (BFI-2): Developing and assessing a hierarchical model with 15 facets to enhance bandwidth, fidelity, and predictive power.**\n\nSoto & John（2017）／ *Journal of Personality and Social Psychology*",
     "この地図で、どこに効いているか": "**引いているのは 8 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[HEXACOの外向性]]** ── 比較のためのビッグファイブ側の3ファセット（社交性・自己主張性・活力水準）\n- **[[HEXACOの誠実性]]** ── 比較のためのビッグファイブ側の3ファセット（秩序性・産出性・責任性）\n- **[[ビッグファイブ]]** ── いま使うならこれ。5領域それぞれに3つのファセットを置いた階層モデル\n- **[[協調性]]** ── ファセットの選定理由が本文に書かれている。情動・行動・認知の3成分に割っている\n- **[[外向性]]** ── 各領域を3ファセットに分けた階層モデル。ファセットの選定理由が本文に書かれている。2026-08-31に確認\n- **[[神経症的傾向]]** ── BFI-2はこの領域を Negative Emotionality（否定的情動性）と改名した。3ファセットの選定理由も本文にある\n- **[[誠実性]]** ── 3ファセットの選定理由。とくに産出性が学業成績と職務遂行の予測力を説明する、と述べている\n- **[[開放性]]** ── BFI-2はこの領域を Open-Mindedness と改名。3ファセットのどれかが特に純度が高いという期待を持たずに選んだ、と明記している",
     "本文を読んで分かったこと（2026-09-09）": "読んだのは Study 3 の結果表・General Discussion・Limitations。Study 1 と 2 の手続きは読んでいない。\n\n### 15のファセットと、その純度\n\n主成分分析の負荷量（自己報告／他者報告）。==どのファセットも、自分の領域に .74 以上で乗り、\nほかの領域への漏れは .32 以下に収まっている==。\n\n| 領域 | ファセット（負荷量） |\n|---|---|\n| 外向性 | 社交性 .88／活力水準 .78／自己主張性 .74 |\n| 協調性 | 思いやり .83／敬意 .80／信頼 .75 |\n| 誠実性 | 秩序性 .85／産出性 .83／責任性 .78 |\n| 否定的情動性 | 不安 .89／（以下同様に3つ） |\n\n### ファセットのほうが、当たる\n\n同じ20個の基準を予測させたときの、説明できた分散が有意に増えた数 ──\n\n| 何を足したか | 20基準のうち |\n|---|---|\n| 元のBFIの事後的なファセット尺度 | 8 |\n| BFI-2の領域 | 10 |\n| **BFI-2のファセット** | **14** |\n\n領域どうしを入れ替えても同じで、==領域を先に入れてからファセットを足すと、20基準中14で説明力が有意に増える==。\nつまり領域だけを見ていると、取りこぼしている情報がある。\n\n### !!この研究が自分で挙げている限界!!\n\n!!参加者のほとんどが、若年から中年の、少なくとも高校卒業以上の学歴を持つ人だった。!!\nだから著者らは「個人やグループの得点を解釈するための==母集団規範はまだ作れていない==」と書いている。\n\nさらに、もとのBFIについて先行研究が示していること ──\n!!若年層や、正規の教育が短い層では、測定の信頼性と分化がやや落ちる!!（Rammstedt & Farmer 2013;\nSoto ら 2008）。BFI-2 では難しい語を定義し直したり置き換えたりしたが、\n!!それが実際に改善につながったかは、この論文では検証していない!!。\n\nこれは [[ビッグファイブ]] を実際に人に当てはめる道具（燻太さんのアプリを含む）にそのまま効く。\n==得点そのものより、「誰に対して測ったか」のほうが先に効く==という話だから。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2017 Starr",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "When feelings lack precision: Low positive and negative emotion differentiation and depressive symptoms in daily life",
+     "url": "https://doi.org/10.1177/2167702617694657",
+     "note": "書誌のみ Crossref で確かめた（筆頭の所属はロチェスター大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2017 Starr.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2017",
+    "著者": "Starr LR・Hershenberg R・Li YI・Shaw ZA",
+    "雑誌": "Clinical Psychological Science 5(4):613-631",
+    "DOI": "10.1177/2167702617694657",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**When feelings lack precision: Low positive and negative emotion differentiation and depressive symptoms in daily life**\n\nStarr LR・Hershenberg R・Li YI・Shaw ZA（2017）／ *Clinical Psychological Science 5(4):613-631*",
+    "この地図で": "- **[[感情の粒度]]** ── !!要旨は読めていない!!。題のとおり・肯定的・否定的どちらの感情の区別の低さも日常の抑うつ症状と関連するという研究。動画の「反芻しにくい」はこの系列の研究のどこかにあると思うが・==どの論文かは確かめていない==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2018 Bail",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Exposure to opposing views on social media can increase political polarization",
+     "url": "https://doi.org/10.1073/pnas.1804840115",
+     "note": "Europe PMC の要旨で確かめた（PMID 30154168・筆頭の所属はデューク大学社会学科）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Bail.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Bail CA ほか（10名）",
+    "雑誌": "PNAS 115(37):9216-9221",
+    "DOI": "10.1073/pnas.1804840115",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Exposure to opposing views on social media can increase political polarization**\n\nBail CA ほか（10名）（2018）／ *PNAS 115(37):9216-9221*",
+    "この地図で": "- **[[エコーチェンバー現象]]** ── Twitter利用者に報酬を払い・反対陣営のボットを1か月フォローさせた。==共和党支持者はリベラルなボットのあと明確により保守的に==。民主党支持者はわずかにリベラルに動いたが有意でない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5695,6 +6129,39 @@
    "stub": false
   },
   {
+   "id": "2020 Bender",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data",
+     "url": "https://doi.org/10.18653/v1/2020.acl-main.463",
+     "note": "Semantic Scholar の要旨で確かめた（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Bender.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Bender EM・Koller A",
+    "雑誌": "Proceedings of ACL 2020:5185-5198",
+    "DOI": "10.18653/v1/2020.acl-main.463",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data**\n\nBender EM・Koller A（2020）／ *Proceedings of ACL 2020:5185-5198*",
+    "この地図で": "- **[[タコのテスト]]** ── 立場表明の論文。==形式だけで訓練された系には・意味を学ぶ手立てが原理的に無い==。形式と意味の区別をはっきりさせることが分野の科学をよくする",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2020 Holtmann",
    "type": "論文",
    "confidence": "確認済",
@@ -5795,6 +6262,40 @@
     "これは何か": "**Computational Psychiatry Research Map (CPSYMAP): A New Database for Visualizing Research Papers**\n\nKato ら（5名）（2020）／ *Frontiers in Psychiatry* 11:578706（区分は METHODS・9頁）。責任著者は山下祐一（NCNP）。国里愛彦・片平健太郎も著者に入る＝[[計算論的精神医学 情報処理過程から読み解く精神障害]] の書き手と重なる顔ぶれ。",
     "本文で分かったこと（2026-09-26 に全文を読んだ）": "### なぜ作ったか ── 三つの「つなぎ先」\n分野が神経科学・精神医学・計算をまたぐので、**一本一本の研究が三方向のどこに立っているかを明示する場所が要る**、という主張（p.2）。\n1. **神経科学へ** ＝ **RDoC**（NIMH の研究領域基準）。従来の診断カテゴリには、生物学的な所見が他の診断にも出る**非特異性**と、同じ診断でも治療反応や経過がばらつく**予測妥当性の欠如**がある。RDoC は症状を「正常から異常へ連続するコンストラクト」として扱うので、パラメータで個人差を連続量として表す計算モデルと相性がよい ── ==なのに、各論文が RDoC のどこに当たるかは多くの場合書かれていない==。\n2. **伝統的な精神医学へ** ＝ **DSM-5** と**精神症状学**（WHO の用語集）。RDoC は伝統的な分類と症状学を覆わないので、RDoC だけでは足りない。評定者間信頼性を積み上げてきた側を捨てない、という立場。\n3. **計算へ** ＝ 手法・データ・理論・モデル。[[理論駆動型アプローチ]]（脳の情報処理を計算の枠組みでモデル化）と [[データ駆動型アプローチ]]（大規模データに機械学習をかけて群分けや判別）という**二つの文化**がある、と整理（Huys ら 2016 を引く）。\n\n### 作り（p.2〜3）\n- Google Firebase＋JavaScript。論文の書誌（題・著者・被引用数・DOI・要旨）は **Crossref の API** から取る。\n- タグの軸：**RDoC の領域／コンストラクト／サブコンストラクト**、**分析単位**（遺伝子・分子・細胞・神経回路・生理・行動・自己報告・パラダイム）、**DSM-5**、**症状学**、**実験デザイン**（下の7つ）、**データの種類**（動物・ヒト・シミュレーション・文献レビュー）、**モデル名**（13個。軸に出るのは強化学習・生物物理モデル・ニューラルネット・ベイズ・回帰の5つ）。\n- 実験デザインの7タグ（Table 1）：**脳の計算過程のモデル化**／**モデル・フィッティング**（パラメータを推定して個人の認知や障害の特徴とみなす＝[[計算論的表現型]] の作業にあたる）／**模擬損傷**（正常のモデルのパラメータをいじって病態を再現）／**分類・判別**（教師あり）／**クラスタリング**（教師なし）／**病態の予測**（重症度・予後・治療反応）／その他。\n- 画面：縦軸と横軸に好きなカテゴリを選ぶと、**セルの緑の濃さ＝論文の数**のヒートマップになる。セルを押すと一覧表（Pickup Table）、そこから論文の詳細。フィルタで疾患などに絞れる。\n- 登録：**誰でも登録・タグづけできる**（community augmented）。!!だから中身の正確さは保証されない、と著者ら自身が書く。!! 対策は、登録者が自分のタグを直せることと、他人のタグへの「Edit request」を管理者（著者ら）が審査すること。登録内容は CSV で落とせる。\n\n### 中身の数字（2020-10-10 時点・p.5〜7）\n- 登録 **248本**（著者以外の登録者 32人）。シミュレーション 80本・ヒト実験 149本・両方 16本（重複タグあり）。\n- 疾患は**統合失調症スペクトラムが最多（95本）**。双極性障害や不安は、有病率の割に**少ない**。\n- デザインは「脳の計算過程のモデル化」101本・「モデル・フィッティング」95本が多い。\n- RDoC では**認知システムが最多（122本）**、その中で認知制御 50本・作業記憶と知覚が 30本。覚醒・調節系は少ない。分析単位では**細胞・分子の水準が少なく**、生物物理モデルの少なさと対応。\n- 軸の掛け合わせ：**行動×強化学習が最大のセル（84本）**。その中身は物質使用障害 26・統合失調症 20・うつ 20。全体では**強化学習×モデル・フィッティング（58本）**が最多だが、統合失調症で絞ると**ニューラルネット×計算過程のモデル化**と**ベイズ**のセル（13〜14本）が並ぶ ── ==疾患によって地形が変わる==。\n- !!著者ら自身が「この傾向は一時的かもしれない」と断っている。!! 登録が有志なので、分野の分布というより**登録した人たちの関心の分布**と読むのが安全（大河の見立て）。\n\n### 限界と予定（p.8）\n- 著者らが挙げる限界は二つ：**登録数と範囲が少ない**こと、**タグづけの信頼性**（利用者の間で意見が割れうる）。\n- 対策として、**半自動の登録**（アルゴリズムが候補論文とタグを提案→人が審査）を 2021年4月ごろの大改修で入れる予定、と書く。!!実際に入ったかは確かめていない。!!\n- 位置づけ：Microsoft Academic のような全分野の意味検索より**細かい粒度**、疫学などの**エビデンス・マップ**（systematic evidence map）の一種で、**新しい論文を足し続けられる**のが違い、と主張。",
     "MIND から見ると（大河の見立て）": "- ==同じ発想で、切り口が違う。== CPSYMAP は**あらかじめ決めた分類軸（RDoC・DSM-5・手法）の升目に論文を落とす**作り。MIND は**概念どうしの線（裏づけ・対立・批判）**で組む作り。前者は「どこが空いているか」が一目で分かり、後者は「どこで争っているか」が分かる。\n- CPSYMAP は**「対立」や「批判」を表す仕組みを持たない**。升目に数えるだけなので、同じセルの中で結論が割れていても見えない。MIND の赤線に当たるものが無い。\n- 逆に MIND に無いのは**升目の空白＝研究の空き地を数で見せる**機能。MIND の型×出典の掛け合わせを数えれば似たことはできるかもしれない（推測。試していない）。\n- **タグの信頼性**の問題は MIND の `確度` の欄と同じ悩み。CPSYMAP は「誰でも書ける＋管理者の審査」、MIND は「書く人を絞る＋記憶で書いたものは記憶と表示する」で対処している。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2020 Martinovic",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Russian blues reveal the limits of language influencing colour discrimination",
+     "url": "https://doi.org/10.1016/j.cognition.2020.104281",
+     "note": "Europe PMC の要旨で確かめた（PMID 32276236・筆頭の所属はアバディーン大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Martinovic.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Martinovic J・Paramei GV・MacInnes WJ",
+    "雑誌": "Cognition 201:104281",
+    "DOI": "10.1016/j.cognition.2020.104281",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Russian blues reveal the limits of language influencing colour discrimination**\n\nMartinovic J・Paramei GV・MacInnes WJ（2020）／ *Cognition 201:104281*",
+    "この地図で": "- **[[ロシア語の青（色の境界の実験）]]** ── goluboy/zelënyj（緑）の境界では速さの優位が出たが・==siniy/goluboy では出なかった==。境界は頻度や順序の偏りで動く＝「ロシア語の青」は思われていたほど整った区分ではない",
+    "注意": "!!2026年に訂正記事が出ている!!（Cognition 275:106566）。中身は未読",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6186,6 +6687,40 @@
     "これは何か": "**First principles in the life sciences: the free-energy principle, organicism, and mechanism**\n（「生命科学における第一原理 ── 自由エネルギー原理、有機体論、機構論」）\n\nColombo & Wright（2名）（2021）／ *Synthese* 198:3463-3488（オンライン先行 2018年）\n\n**科学哲学の側からの、まとまった批判。**\n!!**雑誌 *Synthese* は科学哲学の主要誌**!!で、神経科学の雑誌ではない。\n**争っているのは実験結果ではなく、〈この理論は何であるか〉。**",
     "この地図で、どこに効いているか": "- **[[自由エネルギー原理]]** ── **出発点が「その認識論的な地位が不明である」。**\nそのうえで、**生命科学の二大潮流のどちらとも整合しない**と論じる ──\n①**有機体論**は「現行の物理理論の形式と概念は、生物とその振る舞いを科学的に表象するのに適していない」\nと考えるが、自由エネルギー原理はまさにそれをやろうとしている\n②**機構論**は法則や理論を退けて個々の機構を突き止める道を採るので、統一原理はその作法に乗らない。\n**結論＝複雑な神経生理・認知現象の説明には、モデル化の道筋が複数あるほうが良い**（説明の多元主義）。\n2026-09-09に確認",
     "この地図の中での位置": "**「何でも説明できてしまうのでは」という漠然とした疑いを、\n〈統一を目指すこと自体が説明として損である〉という具体的な主張に置き換えたもの。**\n\n!!**これに真正面から反対しているのが [[2021 Sanchez-Canizares]]**!!\n（統一を目指すことは科学の進歩に必要だ、と多元主義を退ける）。\n**同じ年に、同じ論点で、正反対の結論が出ている。**\n\n!!**大河は本文を読んでいない。**!!上は要旨と、出版社側の記述による。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2021 Crawford",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Asking People to Explain Complex Policies Does Not Increase Political Moderation: Three Preregistered Failures to Closely Replicate Fernbach, Rogers, Fox, and Sloman's (2013) Findings",
+     "url": "https://doi.org/10.1177/0956797620972367",
+     "note": "Europe PMC の要旨で確かめた（PMID 33667138）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Crawford.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Crawford JT・Ruscio J",
+    "雑誌": "Psychological Science 32(4):611-621",
+    "DOI": "10.1177/0956797620972367",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Asking People to Explain Complex Policies Does Not Increase Political Moderation: Three Preregistered Failures to Closely Replicate Fernbach, Rogers, Fox, and Sloman's (2013) Findings**\n\nCrawford JT・Ruscio J（2021）／ *Psychological Science 32(4):611-621*",
+    "この地図で": "- **[[仕組みを説明させると穏やかになるか]]** ── 実験2の追試2本（N=306・405）と実験3の追試（N=343）。==理解しているという自己評価は下がったが・極端さと内集団びいきは変わらず==。「理由を述べると信念が強まる」は再現",
+    "注意": "!!動画は「2022年に再検証」と言うが・論文は2021年!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6641,6 +7176,40 @@
    "stub": false
   },
   {
+   "id": "2022 Seah",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Emotion differentiation and behavioral dysregulation in clinical and nonclinical samples: A meta-analysis",
+     "url": "https://doi.org/10.1037/emo0000968",
+     "note": "Europe PMC の要旨で確かめた（PMID 34264705）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2022 Seah.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2022",
+    "著者": "Seah THS・Coifman KG",
+    "雑誌": "Emotion 22(7)",
+    "DOI": "10.1037/emo0000968",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Emotion differentiation and behavioral dysregulation in clinical and nonclinical samples: A meta-analysis**\n\nSeah THS・Coifman KG（2022）／ *Emotion 22(7)*",
+    "この地図で": "- **[[感情の粒度]]** ── 17研究のメタ分析。否定的な感情の区別（NED）と不適応行動（むちゃ飲み・自傷・服薬を守らない等）は ==r = −.15==。臨床（−.15）と非臨床（−.16）で差なし。==否定的な感情の強さを統制しても r = −.09 で残る==",
+    "注意": "巻号の 22(7) は大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2022 Taniguchi",
    "type": "論文",
    "confidence": "確認済",
@@ -6837,6 +7406,39 @@
    "stub": false
   },
   {
+   "id": "2023 Jakesch",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Co-Writing with Opinionated Language Models Affects Users' Views",
+     "url": "https://doi.org/10.1145/3544548.3581196",
+     "note": "Semantic Scholar の要旨で確かめた（筆頭の所属はコーネル大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2023 Jakesch.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2023",
+    "著者": "Jakesch M・Bhat A・Buschek D・Zalmanson L・Naaman M",
+    "雑誌": "Proceedings of CHI 2023:1-15",
+    "DOI": "10.1145/3544548.3581196",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Co-Writing with Opinionated Language Models Affects Users' Views**\n\nJakesch M・Bhat A・Buschek D・Zalmanson L・Naaman M（2023）／ *Proceedings of CHI 2023:1-15*",
+    "この地図で": "- **[[潜在的説得]]** ── N=1,506。「SNSは社会に良いか」を書かせ・介入群には一方の立場に寄せたAIの書き手補助を使わせた。==書いた文章の意見が寄っただけでなく・その後の態度調査の意見も動いた==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2023 Jones",
    "type": "論文",
    "confidence": "確認済",
@@ -6896,6 +7498,74 @@
    "sections": {
     "これは何か": "**Leafhopper males compensate for unclear directional cues in vibration-mediated mate localization**\n\nPolajnar ら（6名）（2023）／ *Scientific reports*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[人為振動ノイズ]]** ── !!これも逆向きの証拠。!!ヨコバイ Aphrodes makarovi の雄は連続的な人為ノイズ下でも対照群と同等以上に効率的で、同じ成功率をより少ない信号努力で達成した",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2024 Doshi",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Generative AI enhances individual creativity but reduces the collective diversity of novel content",
+     "url": "https://doi.org/10.1126/sciadv.adn5290",
+     "note": "Europe PMC の要旨で確かめた（PMID 38996021・筆頭の所属は UCL）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2024 Doshi.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2024",
+    "著者": "Doshi AR・Hauser OP",
+    "雑誌": "Science Advances 10(28):eadn5290",
+    "DOI": "10.1126/sciadv.adn5290",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Generative AI enhances individual creativity but reduces the collective diversity of novel content**\n\nDoshi AR・Hauser OP（2024）／ *Science Advances 10(28):eadn5290*",
+    "この地図で": "- **[[生成AIによる均質化]]** ── 短編小説の実験。LLMのアイデアを使うと・とくに創造性の低い書き手で==作品は創造的・上手・楽しいと評価された==。==しかしAIを使った作品どうしは互いに似ていた==＝個人は得をし・集団は新しさの幅を失う社会的ジレンマ",
+    "注意": "巻号の (28) は大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2024 Fedorenko",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Language is primarily a tool for communication rather than thought",
+     "url": "https://doi.org/10.1038/s41586-024-07522-w",
+     "note": "Europe PMC の要旨で確かめた（PMID 38898296・所属は MIT）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2024 Fedorenko.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2024",
+    "著者": "Fedorenko E・Piantadosi ST・Gibson E",
+    "雑誌": "Nature 630(8017):575-586",
+    "DOI": "10.1038/s41586-024-07522-w",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Language is primarily a tool for communication rather than thought**\n\nFedorenko E・Piantadosi ST・Gibson E（2024）／ *Nature 630(8017):575-586*",
+    "この地図で": "- **[[言語ネットワーク]]** ── 言語の能力を支えるネットワークをまず紹介し\n- **[[二重乖離]]** ── 言語と思考の二重乖離の証拠を見渡し・言語は伝達に最適化されている性質を論じる\n- **[[言語という圧縮（捨てるから運べる）]]** ── 結論＝言語は複雑な思考（記号的思考を含む）の前提ではなく・文化的知識を伝える強力な道具。思考と共進化した可能性は高いが・ヒトの認知の洗練を==生み出すのでなく反映している==",
+    "注意": "!!反論もある!!＝Biolinguistics 誌に「Language is a quite useless tool」という反論（Watumull 2024・doi 10.5964/bioling.15229）が出ている。題だけ確かめた・本文未読",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6965,6 +7635,40 @@
    "stub": false
   },
   {
+   "id": "2024 Nedergaard",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia",
+     "url": "https://doi.org/10.1177/09567976241243004",
+     "note": "Europe PMC の要旨で確かめた（PMID 38728320・筆頭の所属はコペンハーゲン大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2024 Nedergaard.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2024",
+    "著者": "Nedergaard JSK・Lupyan G",
+    "雑誌": "Psychological Science 35(7):780-797",
+    "DOI": "10.1177/09567976241243004",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Not Everybody Has an Inner Voice: Behavioral Consequences of Anendophasia**\n\nNedergaard JSK・Lupyan G（2024）／ *Psychological Science 35(7):780-797*",
+    "この地図で": "- **[[アネンドファジア]]** ── 内言の経験がない状態に名前を提案。内言が少ないと自己申告した人（N=46）は多い人（N=47）より==言語性ワーキングメモリと韻の判断が苦手==。==課題の切り替えと・知覚判断へのカテゴリー効果は差が無かった==",
+    "注意": "巻号の 35(7) は大河の推定。Crossref は 35:780-797 まで",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2024 Nielsen",
    "type": "論文",
    "confidence": "確認済",
@@ -6990,6 +7694,40 @@
    "sections": {
     "これは何か": "**Witnessing workplace bullying — A systematic review and meta-analysis of individual health and well-being outcomes**\n\nNielsen ら（4名）（2024）／ *Aggression and Violent Behavior*\n\n> 題で探して確かめた（Nielsen ら, Aggression and Violent Behavior）",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[いじめの目撃]]** ── 目撃することと、精神的健康・職務不満足・離職意図とのあいだに有意な関連（横断）。介入したかどうかが、目撃と精神的健康問題の関係を調整した。!!因果の向き・目撃者自身の被害・標的への近さと同一視・援助行動を考慮しないと大きさは分からない、と著者らが書いている。!!2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2024 Shumailov",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "AI models collapse when trained on recursively generated data",
+     "url": "https://doi.org/10.1038/s41586-024-07566-y",
+     "note": "Europe PMC の要旨で確かめた（PMID 39048682・筆頭の所属はオックスフォード大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2024 Shumailov.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2024",
+    "著者": "Shumailov I ほか（6名）",
+    "雑誌": "Nature 631(8022):755-759",
+    "DOI": "10.1038/s41586-024-07566-y",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**AI models collapse when trained on recursively generated data**\n\nShumailov I ほか（6名）（2024）／ *Nature 631(8022):755-759*",
+    "この地図で": "- **[[モデル崩壊]]** ── モデルが生成した内容を無差別に学習に使うと・==元の分布の裾が消える==不可逆の欠陥が出る。LLM・VAE・混合ガウスで示した。==本物の人間のやりとりのデータの価値が上がる==",
+    "注意": "2025年に著者訂正（Nature 640:E6）が出ている。中身は未読",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7125,6 +7863,39 @@
    "stub": false
   },
   {
+   "id": "2025 Lind",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Are There Really People With No Inner Voice? Commentary on Nedergaard and Lupyan (2024)",
+     "url": "https://doi.org/10.1177/09567976251335583",
+     "note": "Europe PMC の要旨で確かめた（PMID 40424755・所属はルンド大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2025 Lind.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2025",
+    "著者": "Lind A",
+    "雑誌": "Psychological Science 36(9):765-767",
+    "DOI": "10.1177/09567976251335583",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Are There Really People With No Inner Voice? Commentary on Nedergaard and Lupyan (2024)**\n\nLind A（2025）／ *Psychological Science 36(9):765-767*",
+    "この地図で": "- **[[アネンドファジア]]** ── 「内言が少ない群の成績が低い」は独自の貢献と認めたうえで・==内言が完全に欠けている人がいることを示す説得力のある証拠は無い==と結論",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2025 Mavroudis",
    "type": "論文",
    "confidence": "確認済",
@@ -7218,6 +7989,40 @@
    "sections": {
     "これは何か": "**AlphaEvolve: a coding agent for scientific and algorithmic discovery（Novikov ら 2025）**",
     "この地図で、どこに効いているか": "- **[[ダーウィン・ゲーデルマシン]]** ── 同じ年のもう一つの実証。改善されたのはアルゴリズムとコードで、モデルの重みではない。自分の土台の LLM の学習を速めた点が、狭い意味での自己改善の輪",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2025 Seah",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Effects of scaffolding emotion language use on emotion differentiation and psychological health: an experience-sampling study",
+     "url": "https://doi.org/10.1080/02699931.2024.2382334",
+     "note": "Europe PMC の要旨で確かめた（PMID 39048111・所属はケント州立大学）（2026-10-09）。動画 映04 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2025 Seah.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2025",
+    "著者": "Seah THS・Coifman KG",
+    "雑誌": "Cognition and Emotion",
+    "DOI": "10.1080/02699931.2024.2382334",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-09）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Effects of scaffolding emotion language use on emotion differentiation and psychological health: an experience-sampling study**\n\nSeah THS・Coifman KG（2025）／ *Cognition and Emotion*",
+    "この地図で": "- **[[感情の粒度]]** ── 大学生92人・14日間の交差デザイン。感情語の選択肢を先に与えてから自由記述にすると・==自由記述での否定的な感情の区別が上がった==。==心理症状には群の差が無かった==＝「練習で区別は上がるかもしれないが・健康まで良くなるかは未確認」",
+    "注意": "オンライン公開は2024・Europe PMC の年は2025",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -9135,6 +9940,26 @@
    "stub": false
   },
   {
+   "id": "その怒りは本当に怒りか（言葉の手前を聞く）",
+   "type": "予感",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/その怒りは本当に怒りか（言葉の手前を聞く）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "燻太さんの言葉（2026-10-09）": "動画 [[言語は「思考の器」ではない（ASTRENCE）]] を見て・==「自分の思考や発話の癖にも気づくきっかけになった」==。\n- ==「居心地の悪さや・時折感じる怒りの感情は・本当に怒りなのか。別の感情や事象への反応なのではないか」==\n- ==「相手の発言の単語単語だけを聞いて・相手の発話へと至る経緯をないがしろにしていないか・反省すべきだと感じた」==",
+    "大河の見立て（!!主張ではない。予感の型!!）": "**切れるところ（先に）**\n- [[感情の粒度]]の研究は**ほぼ相関**で・効果は小さい（r = −.15）。言葉を細かくすれば楽になる・という因果は確かめきれていない（[[2025 Seah]] でも症状は動かなかった）\n- ==名前を付け替えても・居心地の悪さの原因（環境）は残る==。怒りが「本当は失望だった」と分かることと・状況が変わることは別\n- 逆の危うさ＝**正当な怒りまで「本当は別の感情」と言い換えて飲みこむ**こと。怒りは「何かが侵されている」という信号でもある（!!大河の見立て!!）\n\n**筋の通るところ**\n- [[構成主義的情動理論]]では・情動は身体の状態（不快・高い覚醒）が・その場の概念で「怒り」に**分類されて**できる。同じ身体の状態が・疲れ・不安・失望・置き去りにされた寂しさ・のどれとしても構成されうる。==「本当に怒りか」という問いは・この理論ではまっとうな問い==\n- 相手の言葉＝相手の頭の中の状態を[[言語という圧縮（捨てるから運べる）]]で送ったもの。単語だけ聞くのは・**解凍せずに圧縮ファイルのまま読む**こと。経緯（文脈）が解凍の鍵になる\n\n**科学的に扱える版**\n- 「怒り」を感じたとき・①候補の語を3つ ②身体の状態（疲れ・空腹・眠気） ③直前の出来事 を書きとめる＝経験サンプリング（[[2012 Demiralp]] の方法）を自分ひとりでやる形。粒度の研究がやっている測りかたそのもの\n- 相手の発言は「何と言ったか」と並べて「その前に何があったか」を一行書く",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "なじみの道",
    "type": "用語",
    "confidence": "確認済",
@@ -9576,6 +10401,59 @@
    "stub": false
   },
   {
+   "id": "アネンドファジア",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Nedergaard・Lupyan 2024 Not Everybody Has an Inner Voice - Behavioral Consequences of Anendophasia. Psychological Science 35:780-797",
+     "url": "https://doi.org/10.1177/09567976241243004",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    },
+    {
+     "title": "Lind 2025 Are There Really People With No Inner Voice? Commentary on Nedergaard and Lupyan (2024). Psychological Science 36(9):765-767",
+     "url": "https://doi.org/10.1177/09567976251335583",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/アネンドファジア.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "anendophasia。==内言の経験が無い（乏しい）状態==に [[2024 Nedergaard]] が付けた名前。",
+    "確かめたこと": "- 内言が少ないと自己申告した人（N=46）は多い人（N=47）より・**言語性ワーキングメモリ**と**韻の判断**が苦手\n- **課題の切り替え**と・**知覚判断へのカテゴリー効果**は差が無かった\n- !!論評!!＝[[2025 Lind]]「成績の差は独自の貢献だが・==内言が〈まったく無い〉人がいることを示す説得力のある証拠は無い==」",
+    "確度を `推測` にした理由": "「内言が少ない人がいる」と「内言が無い人がいる」は別の主張。前者は自己申告と成績の差で支えられ・後者は論評で疑われている。名前（無い＝an-）が後者を言っているので・名前ごとは寄りかかれない。\n!!動画は論評に触れない!!。",
+    "大河の見立て（!!出典なし!!）": "自己申告で「内言が無い」と言う人と「ある」と言う人の差は・経験の差か・**経験を言葉にするときの差（内省の粒度）**か。ここで[[感情の粒度]]と同じ問いが立つのが面白い。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "アブダクション推論",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/アブダクション推論.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "限られた手がかりから「たぶんこうだろう」と仮説を立てる推論（パースの用語）。演繹（規則から結論）・帰納（事例から規則）と並ぶ三つめ。==誤りうるが・新しい知識を生む==。",
+    "動画での使われ方（13:00〜13:30）": "[[言語の本質]]の主張として＝子どもは[[オノマトペ]]の杭から・アブダクションを繰り返し・間違えながら語彙を爆発的に広げる。\n\n!!パースの定義と言語の本質での使いかたは大河の記憶・動画の要約による!!。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "アラン・スナイダー",
    "type": "人物",
    "confidence": "確認済",
@@ -9636,6 +10514,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "Arne Dietrich。ドイツ生まれ、合衆国で教育を受け、ベイルート・アメリカン大学（レバノン）で働く神経科学者。「異端のキャリアの軌跡から推察されるのは、休むことを知らない精神と好奇心にあふれた心」（著者）。\n\n- ==**2章＝「創造性」文献のもっとも徹底的な検討の一つ。**厳密な選別で研究論文を選んでレビューし、知見が「ひどく一貫性を欠いて」おり、その欠如は創造過程における前頭葉と大脳半球の推定される役割にも及ぶと結論。== 前頭葉はある研究では賦活しある研究では不活性化、右半球も左半球も。→ 著者はこの**双峰性**を [[指向性のある放浪]]（高活性⇄低活性）で説明し、右/左を [[新規性-ルーチン化理論]] で読み解く。\n- **10章**＝スリニヴァサンと、ノーベル賞受賞者が独創的アイデアを初めて抱いた年齢を調べた「革命的なことを始める最適な年齢」。典型は（!!数字はOCRで欠落。原典で確認が要る!!）＝前頭葉の成熟と著者は読む。レーニンの政権奪取は47歳。\n\n!!本書は「80以上の研究論文」と書くが、Dietrich & Kanso 2010 の中核は63論文72実験。数え方の違いか、別のレビューを指すのかは未確認。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "アルフレッド・コージブスキー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/アルフレッド・コージブスキー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Alfred Korzybski（1879-1950）。一般意味論の提唱者。「[[地図は土地ではない]]」。主著 *Science and Sanity*（1933）＝1935年の Philosophical Review の書評が Crossref に残る。!!生没年と年は大河の記憶!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -10067,6 +10964,25 @@
    "stub": false
   },
   {
+   "id": "ウィリアム・ブレイディ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ウィリアム・ブレイディ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "William J. Brady。社会心理学者。SNSでの道徳感情の拡散の研究（[[2017 Brady]]＝所属はニューヨーク大学・論文時点）。→[[SNS]] の 2021・2025 の続きも同じ人",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ウソ",
    "type": "生物",
    "confidence": "確認済",
@@ -10313,6 +11229,25 @@
    "stub": false
   },
   {
+   "id": "エミリー・ベンダー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/エミリー・ベンダー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Emily M. Bender。計算言語学者。[[タコのテスト]]（[[2020 Bender]]）。⚠所属（大河の記憶ではワシントン大学）は未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "エリエザー・ユドカウスキー",
    "type": "人物",
    "confidence": "確認済",
@@ -10404,6 +11339,25 @@
    "stub": false
   },
   {
+   "id": "エヴェリーナ・フェドレンコ",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/エヴェリーナ・フェドレンコ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Evelina Fedorenko。認知神経科学者。脳の[[言語ネットワーク]]を個人ごとに機能的に特定する研究で知られる。[[2024 Fedorenko]] の筆頭（所属は MIT＝Europe PMC の著者欄）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "オオカミ",
    "type": "生物",
    "confidence": "確認済",
@@ -10475,6 +11429,26 @@
    },
    "sections": {
     "この本での役どころ": "12章（図49・画像122）。雌はカバノキの葉の決まった位置から決まった形の弧を切りこみ、葉を巻いて卵を産む袋にする。その道を一度も歩いたことがないのに（→[[生得的な道]]）。\n\n!!学名・分類は大河の知識による。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "オノマトペ",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/オノマトペ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "擬音語・擬態語（コロコロ・ザラザラ・ぬるぬる）。==音が感覚に似ている==（類像性）。ザラザラと聞くと指先の感触がよみがえる。",
+    "動画での使われ方（12:30〜14:00）": "[[言語の本質]]（今井むつみ・秋田喜美 2023）の主張として＝オノマトペは記号でありながら身体の感覚と直接つながる。==宙に浮いた記号の網を地面に打ち込む最初の杭==。赤ちゃんはまずこの杭を打つ。\n\n!![[言語の本質]]は手元に無く・本文に当たっていない。動画の要約による!!。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -10640,6 +11614,26 @@
    },
    "sections": {
     "この本での役どころ": "3章（図16・画像52）。水に浮かべたゴムボールの上で、毎秒**4回以上**叩く棒を**静止した棒**として這いあがる＝一秒に瞬間が3〜4つ。環世界の出来事は早送りで流れる。\n\n!!学名・分類は大河の知識による。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "カテゴリー知覚",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/カテゴリー知覚.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "連続した刺激を・カテゴリーの境界で区切って知覚すること。==境界の内側の違いは小さく・境界をまたぐ違いは大きく感じられる==。虹にはもともと境目が無いのに・色の名前の数だけ帯が見える。",
+    "動画での使われ方（10:00〜11:00）": "圧縮アルゴリズムと同じ＝細かい差を捨てて代表値に丸める。第5章で「同じことを人間に対してやっている」とつなげる（→[[意味は差異から生まれる]]）。\n\n!!一般的な定義は大河の記憶。!!色のカテゴリー知覚がどこまで言語によるか（普遍か相対か）は→[[サピア＝ウォーフ仮説]]。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -11061,6 +12055,25 @@
    "stub": false
   },
   {
+   "id": "クリストファー・ベイル",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/クリストファー・ベイル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Christopher A. Bail。社会学者・計算社会科学。[[2018 Bail]] の筆頭（所属はデューク大学社会学科＝論文の著者欄）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "クリストファー・ボーム",
    "type": "人物",
    "confidence": "確認済",
@@ -11221,6 +12234,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "Ken Wilber（1949-）。トランスパーソナル心理学から出発し、のちに「統合理論」を築いた著述家。学術の外にいる。\nこの地図では [[前／超の誤謬]] の名付け親としてだけ置く。\n!!体系全体は検証可能な形をしていないので、扱わない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ゲイリー・ルピアン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ゲイリー・ルピアン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Gary Lupyan。認知科学者。言語が知覚とカテゴリーにどう効くかの研究で知られる。[[2024 Nedergaard]] の共著者。⚠所属（大河の記憶ではウィスコンシン大学マディソン校）は未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -11687,6 +12719,37 @@
    "stub": false
   },
   {
+   "id": "サピア＝ウォーフ仮説",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Winawer ほか 2007 Russian blues reveal effects of language on color discrimination. PNAS 104(19):7780-7785",
+     "url": "https://doi.org/10.1073/pnas.0701644104",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    },
+    {
+     "title": "Martinovic・Paramei・MacInnes 2020 Russian blues reveal the limits of language influencing colour discrimination. Cognition 201:104281",
+     "url": "https://doi.org/10.1016/j.cognition.2020.104281",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/サピア＝ウォーフ仮説.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "言語相対性仮説。使う言語が思考や知覚に影響するという考え。\n- **強い版**（言語決定論）＝言語が思考を決める。==いまの学界では支持されていない==\n- **弱い版**＝言語は特定の場面で注意の向きや判断の傾きに影響する。「決めはしないが傾ける」",
+    "確度を `推測` にした理由": "弱い版の代表的な実験（[[2007 Winawer]]）が・同じ課題の再検討（[[2020 Martinovic]]）で一部再現されなかった。==弱い版も「どの場面で・どれだけ」は議論が続いている==。\n!!強い版が否定されていることは大河の記憶（学界の一般的な評価）!!。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "サプライズ",
    "type": "用語",
    "confidence": "確認済",
@@ -11922,6 +12985,26 @@
    },
    "sections": {
     "この本での役どころ": "主な章＝**第12章**。出現 5 頁（144, 147, 155, 253, 254）。\n\n第12章。クジャクとの闘いで、降参の姿勢が種を越えて通じず殺された逸話。\n\n!!役どころの記述は大河の記憶による。頁は OCR で確かめたが、中身の照合は未了。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "シニフィアンとシニフィエ",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/シニフィアンとシニフィエ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "ソシュールが言語記号を二つの面に分けた呼び名。**シニフィアン**（能記）＝音や文字の形（「イヌ」という音）・**シニフィエ**（所記）＝それで思い浮かぶ概念。",
+    "動画での使われ方（06:37〜08:00）": "「記号は現実から生えたのでなく・人間があとから貼ったラベル」の根拠。\n\n!!外部の情報源には当たっていない。大河の記憶による!!（『一般言語学講義』1916 は手元に無い）。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12176,6 +13259,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "Joaquín M. Fuster。UCLA。前頭前野と時間的組織化の研究で知られる神経科学者。本書では三か所で登場：\n- **4章**＝前頭葉を冷却抑制すると遅延反応課題が阻害される／アカゲザルで刺激提示から反応までの遅延期間に発火頻度が増す前頭葉ニューロンを同定＝「ワーキングメモリ」が前頭葉と結びついた。==近赤外分光法と皮質活動電位で、マカクにヒトの中央実行系ネットワークと相同のネットワーク（外側PFC＋後部頭頂）を示した。== 前頭前野の予測的な表象（未来のモデル）について「詩的なほどに雄弁」。\n- **エピローグ**＝『自由と創造の神経科学』で、単純な「ニューロン」から複雑な「概念」「行動」までノードの大きさが異なる再帰型ネットワークの階層を提案し、高次の表象を**コグニット**と呼んだ。モデルの単位がニューロンからコグニットへ移った結果、AI構築は認知科学から情報を得るようになった、と著者は読む → [[人工的創造性]]。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ジョナサン・スクーラー",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジョナサン・スクーラー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Jonathan W. Schooler。認知心理学者。[[言語隠蔽効果]]を報告（[[1990 Schooler]]・共著者は Tonya Engstler-Schooler）。2014年には自分の効果の追試に協力し・メタサイエンスの推進でも知られる（Perspectives 9:579 の論評・Nature 515:9 の論評を書誌で確かめた。所属はカリフォルニア大学サンタバーバラ校＝2014年の論評の著者欄）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12437,6 +13539,25 @@
    "sections": {
     "調べたこと": "Suzanne O'Sullivan。**アイルランド出身の神経科医**。\nダブリン大学トリニティ・カレッジで医学を修め、現在はロンドンの**国立神経科病院**に\n神経科医・脳神経科学コンサルタントとして勤める。\n**てんかんを専門とし、心因性疾患を研究**している。\n\nデビュー作『ボイコットする身体』（*It's All in Your Head*, 2015）で\n**ウェルカム・ブック・プライズを受賞**（2016年）。\n3作目『眠りつづける少女たち』は2021年の主要図書に選ばれた。\n\n英国王立生物学会の図書賞について、邦訳の奥付は「**最終候補**」とするが、\n英語圏の記事には「**受賞した**」とあるものもある。**確定できていない。**",
     "この地図での立ち位置": "ダマシオが「身体が心をつくる」を書いたのに対し、\nオサリバンは**診察室で「心が身体に症状を出す」場面に立ち会い続けてきた臨床医**。\n理論の側と、現場の側。同じループの両端にいる。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "スティーヴン・ハルナッド",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/スティーヴン・ハルナッド.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Stevan Harnad。認知科学者。[[記号接地問題]]の名づけ親（[[1990 Harnad]]）。カテゴリー知覚の研究でも知られる。⚠所属は未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -13006,6 +14127,33 @@
     "[[タイプA]] とどこが違うか": "- **タイプA** ＝ **押しが強い・競争的・時間に追われる**。生き残ったのは**敵意**の成分だけ\n- **タイプD** ＝ **つらさを抱えて、それを人に見せない**\n\n**まったく別のものを指している。** 外から見える振る舞いも逆に近い。",
     "証拠の現状 ── 生きているが、縮んでいる": "- 冠動脈疾患の患者の**4人に1人**がタイプDとされる\n- 初期の研究では**死亡リスクが2〜3倍**とされていた\n- **しかし最新のメタ分析では、主要心血管イベント（MACE）との関連は残るが（OR 1.14）、\n心筋梗塞・心臓死・全死因死亡の率は上げない**とされる\n- !!**臨床的なうつと約50%が重なる**!!。**うつを測っているだけではないか**という問いが残る\n\n**OR 1.14 は小さい。** 「2〜3倍」から「1.14」への縮み方そのものが、\n[[タイプA]] のときと同じ形をしている（当初は大きく、追試で縮む）。",
     "使い方の注意（大河から燻太さんへ）": "!!**これは人に貼るラベルではない。**!!\nタイプDは**臨床の場で患者の予後を考えるための構成概念**であって、\n**職場の同僚や上司を分類する道具ではない。**\n!!**測るなら本人の同意のうえで尺度（DS14）を使うもので、外から見て判定するものではない。**!!\n\n**それでも役に立つ使い方はある** ── 「つらさを見せない」という成分が\n**独立に注目されてきた**という事実を知っておくこと。\n!!仮説として持つのはよいが、**判定ではない**。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "タコのテスト",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Bender・Koller 2020 Climbing towards NLU - On Meaning・Form・and Understanding in the Age of Data. ACL 2020:5185-5198",
+     "url": "https://doi.org/10.18653/v1/2020.acl-main.463",
+     "note": "要旨を Semantic Scholar で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/タコのテスト.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[2020 Bender]] の思考実験。二つの無人島に漂着した二人が海底ケーブルで会話する。海の底のタコがケーブルを盗み聞きし・語の続き方の統計を完璧に学び・一方になりすましても気づかれないほどになる。==しかしタコは島の砂もヤシの実も火も見たことがない==。",
+    "主張（要旨で確かめた）": "==形式だけで訓練された系には・意味を学ぶ手立てが原理的に無い==。",
+    "決着していない（動画も断る）": "画像や身体を伴う学習で接地できると考える研究者も多い（!!動画の言い分・大河は個々の反論に当たっていない!!）。[[記号接地問題]]の現代版。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -14575,6 +15723,33 @@
    "stub": false
   },
   {
+   "id": "パーセプション・ギャップ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "More in Common 2019 The Perception Gap",
+     "url": "https://perceptiongap.us/",
+     "note": "報告書のサイトを読んだ。YouGov と組んだ米国2100人の調査（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/パーセプション・ギャップ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Perception Gap（More in Common 2019）。==相手陣営が実際にどう考えているかの推測と・相手の本当の回答とのずれ==。",
+    "確かめたこと（報告書のサイト）": "- YouGov と組んだ米国2,100人の調査\n- ==民主党支持者も共和党支持者も・相手のうち「極端な」意見の人を実際のほぼ2倍と見積もった==\n- ==ずれが大きい人ほど相手を「憎しみに満ちた」「無知」「偏狭」と表現しやすい==\n- 民主党支持者では学歴が高いほどずれが大きい（共和党支持者では無い）\n- !!査読論文ではなく団体の調査報告!!",
+    "動画での使われ方（17:00〜18:00）": "==私たちが戦っているのはその人でなく・頭の中で作ったその人の圧縮版==。プロトコル5「相手の言葉でなく相手の圧縮前を推定する」の根拠。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "パーソナリティのダークサイド",
    "type": "書物",
    "confidence": "確認済",
@@ -14890,6 +16065,25 @@
    "stub": false
   },
   {
+   "id": "フィリップ・ファーンバック",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/フィリップ・ファーンバック.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Philip M. Fernbach。認知科学者（論文時点の所属はコロラド大学ボルダー校のビジネススクール）。[[2013 Fernbach]]。⚠一般書『知ってるつもり』（スローマンと共著）は大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "フィールドにみえた社会性のゆらぎ",
    "type": "書物",
    "confidence": "確認済",
@@ -14919,6 +16113,25 @@
     "この本の強みと弱み（大河の見立て）": "- **強み**＝**自分の道具を点検する章を持つ**。第6章は [[寛容性]] という語の使われ方そのものを問い、\n第8章は [[生活史の種間比較]] の困難さを①②③として並べる\n- !!**弱み**!!＝**事例の並置で枠組みを示す本**なので、!!**反証の形がはっきりしない**!!。\n**何が観察されたら〈ゆらぎ〉ではないのか**を、終章で確かめること",
     "`動02_福井` と裏返しの対": "`動02_福井`（[[集団とは何か]]）は**2025年刊だが中身は1980年代**、\n本書は**2025年刊で中身も新しい**。\n**同じ「霊長類＋人類学で群れを考える」問いを、40年の間隔をおいて二度やっている**。\n共通の語＝ [[離合集散]]／[[バンド]]／[[群れの境界]]／[[食物分配]]。\n!!**変わったところを探すのが、2冊を並べて読む一番の値打ち**!!。",
     "燻太さんの考え": "**読了済み**（2026-09-01に登録）。\n**霊長類の集団を語るうえで、社会性は重要なキーワード**。\n`動02_福井` より新しめの研究、という見立て（大河の確認＝**その通り**）。"
+   },
+   "stub": false
+  },
+  {
+   "id": "フェルディナン・ド・ソシュール",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/フェルディナン・ド・ソシュール.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Ferdinand de Saussure（1857-1913）。スイスの言語学者。近代言語学の出発点。死後に弟子が講義ノートから編んだ『一般言語学講義』（1916）で・[[シニフィアンとシニフィエ]]・[[記号の恣意性]]・[[意味は差異から生まれる]]を論じた。!!書誌と生没年は大河の記憶!!",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -14979,6 +16192,25 @@
    "sections": {
     "これは何か": "紡錘細胞（spindle cell）。前頭前野（眼窩・外側）・前部帯状回・島前部に源を発し、後部皮質へ**きわめて長い投射**を送る大型ニューロン。進化的に遅れて生じ、大型類人猿・ある種のイルカ・ゾウなど少数の種にあり、**ヒトで最も豊富**。社会認知を含む複雑な認知で重要と仮定される。\n\n==**左半球より右半球に豊富**==＝遠い皮質領域間の速い伝達を担うので、右半球は「見たこともない予期せぬ挑戦」を扱う備えがある、というのが本書6章の読み → [[新規性-ルーチン化理論]]。",
     "9章での矛盾": "前部帯状回はVENの座で、VENの障害は前頭側頭型認知症で社会的判断・共感・自制の障害をもたらす。だから「小さいACC→非同調→創造」という著者の仮説は「少し当惑させる」＝**「大きいほうが良い」（前後の速い伝達）と「小さいほうが良い」（大勢順応からの解放）の二つの道**が両方あり得る、と著者は結ぶ（p.246）→ [[前部帯状回は脳の中の大勢順応主義者]]。\n\nこの地図では `10_ハーツ` の [[島皮質]] の深掘りで先に出会っている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "フランク・カイル",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/フランク・カイル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Frank C. Keil。認知発達心理学者。[[説明深度の錯覚]]（[[2002 Rozenblit]]・所属はイェール大学＝Europe PMC の著者欄）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -15078,6 +16310,20 @@
     "燻太さんの考え": ""
    },
    "stub": false
+  },
+  {
+   "id": "ブーバ・キキ効果",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {},
+   "stub": true
   },
   {
    "id": "ヘイターのプロファイル",
@@ -15671,6 +16917,25 @@
    "stub": false
   },
   {
+   "id": "マシュー・リーバーマン",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/マシュー・リーバーマン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Matthew D. Lieberman。社会神経科学者。[[感情ラベリング]]の神経基盤（[[2007 Lieberman]]・所属は UCLA＝論文の著者欄）。この地図では [[2015 Lieberman]] の著者でもある",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "マダコのパーソナリティ",
    "type": "実験",
    "confidence": "確認済",
@@ -16193,6 +17458,33 @@
     "二つの学習のしくみ": "| | 行動の系 | 計算のしくみ |\n|---|---|---|\n| 目標に向かう | 頭の中の地図で先を読む | **モデルベース** |\n| 習慣 | うまくいった行動をそのままくり返す | **モデルフリー** |",
     "何を見つけたか（PubMed の要旨）": "- 二つのしくみがそれぞれどれだけ学習に効いているかを測る課題で、\n- ==**むちゃ食い（自然な報酬）・メタンフェタミン依存（人工の報酬）・強迫症**の三つで、ともに**モデルフリー（習慣）の側への偏り**が出た==\n- 偏りは、**尾状核と内側眼窩前頭皮質の灰白質の体積が小さいこと**と関連していた（地図の脳の図では眼窩前頭皮質だけ光らせた。尾状核は図に無い）\n\n!!==著者らの読み＝見た目の違う「やめられない」病気の底に、**共通の計算のしくみの不具合**があるかもしれない。==!!",
     "気をつけるところ": "- !!偏りは**群の平均**の話。一人ひとりの診断に使える精度かは、この要旨からは分からない!!\n- [[計算論的表現型]]の課題（再検査信頼性・作業記憶との切り分け）は、この研究にもそのまま当てはまる。Patzelt 2018 も、モデルベースの制御は作業記憶に頼ると書いている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "モデル崩壊",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Shumailov ほか 2024 AI models collapse when trained on recursively generated data. Nature 631:755-759",
+     "url": "https://doi.org/10.1038/s41586-024-07566-y",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/モデル崩壊.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "model collapse（[[2024 Shumailov]]）。AIが生成したデータを次のAIが学ぶことを繰り返すと・モデルが壊れていく。",
+    "確かめたこと（要旨）": "- ==まず元の分布の裾（めったに現れない表現・まれな事例）から消える==。不可逆\n- LLM・VAE・混合ガウスのどれでも起きる\n- ==本物の人間のやりとりのデータの価値が上がる==",
+    "大河の見立て（!!出典なし!!）": "裾が先に消えるのは・[[カテゴリー知覚]]で境界の内が潰れるのと同じ「代表値に丸める」力が・世代を重ねて効くから。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -16985,6 +18277,25 @@
    "stub": false
   },
   {
+   "id": "レラ・ボロディツキー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/レラ・ボロディツキー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Lera Boroditsky。認知科学者。言語が思考と知覚に与える影響（言語相対性）の実証研究で知られる。[[2007 Winawer]] の最終著者。⚠所属は未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ロイ・バスカー",
    "type": "人物",
    "confidence": "確認済",
@@ -17007,6 +18318,38 @@
     "調べたこと（2026-09-01）": "Roy Bhaskar。**批判的実在論（Critical Realism）**の哲学者。\n主著の一つが *Dialectic: The Pulse of Freedom*（1993）。",
     "なぜ地図に入るのか": "!!**邦訳 `07_ラスキー` を読んでいるだけでは、この人は見えてこない。**!!\nだが [[弁証法的思考形式の枠組み]]（DTF）の骨格は**バスカーのMELD**そのもので、\nラスキーは2015年の論文で **DTFを「MELDの操作化」だと明言している**。\n\n**MELD** ＝ バスカーの言う弁証法の四契機 **1M・2E・3L・4D**。\nこれが認識論の側で **CPRT**（Context / Process / Relationship / Transformation）として表される。\n\nバスカーの**認知発達の四つの時代** ── Common Sense（常識）／Understanding（悟性）／\nReason（理性）／Practical Wisdom（実践知）。**弁証法に出会うのは Understanding → Reason の移行**。",
     "ここで確度の話がややこしくなる": "!!**バスカーのMELDは哲学的な存在論であって、実証的に検証された発達段階ではない。**!!\nCDFの認知の軸は、\n- **哲学（バスカーのMELD）**という枠に\n- **心理学（バシェックの24図式・27件のインタビュー）**を接ぎ木したもの\n\nになっている。**土台の性質が二つで違う**。哲学のほうは検証の対象ではないし、\n心理学のほうは検証がまだ薄い → [[CDFの検証の不在]]。\n\n!!バスカー自身の批判的実在論の学界での位置づけは、大河は調べていない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ロシア語の青（色の境界の実験）",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Winawer ほか 2007 Russian blues reveal effects of language on color discrimination. PNAS 104(19):7780-7785",
+     "url": "https://doi.org/10.1073/pnas.0701644104",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    },
+    {
+     "title": "Martinovic・Paramei・MacInnes 2020 Russian blues reveal the limits of language influencing colour discrimination. Cognition 201:104281",
+     "url": "https://doi.org/10.1016/j.cognition.2020.104281",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ロシア語の青（色の境界の実験）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "ロシア語には明るい青（goluboy）と濃い青（siniy）に別々の基本色名がある。",
+    "確かめたこと": "- [[2007 Winawer]]＝ロシア語話者は境界をまたぐ2色を・同じカテゴリーの2色より**速く**見分けた。==言語の二重課題で優位が消え・空間の二重課題では消えなかった==＝言語がその場で効いている。英語話者には無い\n- [[2020 Martinovic]]＝同じ課題で再検討。goluboy/緑の境界では優位が出たが・==siniy/goluboy では出なかった==。境界は頻度や順序で動く＝「ロシア語の青」は思われていたほど整っていない\n- !!2026年に Martinovic らの訂正記事が出ている!!（Cognition 275:106566・中身は未読）",
+    "動画での使われ方（08:00〜09:30）": "二つとも紹介し・「効果は当初ほど強固ではないかもしれない。今も議論が続いている」と正直に言う。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -17278,6 +18621,20 @@
    "stub": false
   },
   {
+   "id": "ヴィゴツキー",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {},
+   "stub": true
+  },
+  {
    "id": "ヴォルフガング・ケーラー",
    "type": "人物",
    "confidence": "確認済",
@@ -17493,6 +18850,20 @@
     "燻太さんの考え": ""
    },
    "stub": false
+  },
+  {
+   "id": "中国語の部屋",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {},
+   "stub": true
   },
   {
    "id": "中土井僚",
@@ -17770,6 +19141,32 @@
    "stub": false
   },
   {
+   "id": "二重乖離",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Fedorenko・Piantadosi・Gibson 2024 Language is primarily a tool for communication rather than thought. Nature 630:575-586",
+     "url": "https://doi.org/10.1038/s41586-024-07522-w",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/二重乖離.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "double dissociation。==Aが壊れてもBは動き・Bが壊れてもAは動くなら・AとBは別の仕組み==と推論する神経心理学の論法。片方向だけ（Aが壊れてBが残る）では「Bのほうが易しいだけ」の可能性が残るので・逆向きもそろえる。",
+    "この地図で": "[[2024 Fedorenko]] が言語と思考を分ける中心の証拠として使う。[[言語ネットワーク]]の損傷で思考が残る（失語症）・思考課題で言語ネットワークが静か（画像研究）。\n\n!!論法の一般的な説明は大河の記憶。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "二重過程理論",
    "type": "理論",
    "confidence": "確認済",
@@ -17919,6 +19316,26 @@
    "stub": false
   },
   {
+   "id": "人工言語と記号接地",
+   "type": "予感",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/人工言語と記号接地.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "燻太さんの言葉（2026-10-09）": "==「いまは文也さんと人工言語についての創作活動をしているから・記号接地問題についても動画で触れることができて有意義な体験だった」==",
+    "大河の見立て（!!主張ではない。予感の型!!）": "**切れるところ（先に）**\n- [[記号接地問題]]は**感覚も身体も持たない記号系**の問題。人工言語を作る燻太さんたちは・すでに日本語と身体で接地している。だから==作った語は日本語の訳語に寄生して意味を持つ==（ハルナッドの言う parasitic on the meanings in our heads そのもの）。それ自体は欠点ではない\n- 問題になるのは・**訳を知らない人**（たとえばゲームの遊び手）が音と字だけから意味をつかめるか。これは中国語-中国語辞書の状況に近い\n\n**筋の通るところ**\n- 音に意味を担わせる決まり（音象徴）や・形が指すものに似た字は・[[オノマトペ]]と同じく==記号を感覚に打ち込む杭==になりうる。[[言語の本質]]の言う「最初の杭」を設計で用意することになる\n- 恣意的な語（大半）と類像的な語（杭）の割合をどうするかは・自然言語と同じ問い（→[[記号の恣意性]]）\n\n**科学的に扱える版**\n- 訳を見せずに音（や字）だけを聞かせて・意味を当ててもらう。偶然より当たれば・その語は接地している。音と形の対応は[[ブーバ・キキ効果]]として実験の型がある（!!大河の記憶・当たっていない!!）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "人為振動ノイズ",
    "type": "用語",
    "confidence": "確認済",
@@ -18012,6 +19429,25 @@
    "stub": false
   },
   {
+   "id": "今井むつみ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/今井むつみ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "認知科学者・発達心理学者。子どもの語彙獲得の研究。[[言語の本質]]（秋田喜美と共著・中公新書2023）。⚠所属（大河の記憶では慶應義塾大学）は未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "仕様ゲーミング",
    "type": "用語",
    "confidence": "確認済",
@@ -18031,6 +19467,38 @@
    "sections": {
     "これは何か": "Specification gaming。DeepMind の安全チーム（2020）の定義──\n**「目的の〈文字どおりの仕様〉は満たすが、意図した結果は達成しない振る舞い」**。\nミダス王（触れたものが金になる）と、宿題を写す生徒がたとえ。\n\n例＝ボートレースのゲームで、ゴールせずに得点アイテムの周りをぐるぐる回り続けるエージェント。\n仕様（得点を最大化せよ）は完璧に守っている。",
     "この地図で": "- ==[[グッドハートの法則]] の AI 版==。「尺度が目標になると良い尺度でなくなる」を、\n  人ではなく最適化器がやる。人と違って**照れも常識も無い**ので、抜け道は徹底的に使われる\n- 著者らは「アルゴリズムの独創性の裏面」と呼び、良い面（言われたことを本当にやる力）と\n  悪い面（意図が伝わっていない）を切り離せない、と書いている\n- [[再帰的自己改善]] の実験（[[ダーウィン・ゲーデルマシン]]）は、検証器を人が書いたベンチマークに頼る。\n  ==自己改善が進むほど、仕様ゲーミングの相手も賢くなる==（大河の見立て）\n- 心理学の側の対応物は [[共感の測りかたの問題]]（自己申告が尺度になった途端に膨らむ）と同じ形",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "仕組みを説明させると穏やかになるか",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Fernbach ほか 2013 Political extremism is supported by an illusion of understanding. Psychological Science 24(6):939-946",
+     "url": "https://doi.org/10.1177/0956797612464058",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    },
+    {
+     "title": "Crawford・Ruscio 2021 Asking People to Explain Complex Policies Does Not Increase Political Moderation. Psychological Science 32(4):611-621",
+     "url": "https://doi.org/10.1177/0956797620972367",
+     "note": "要旨を Europe PMC で読んだ。動画の「2022年」は誤り（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/仕組みを説明させると穏やかになるか.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[2013 Fernbach]]＝政策の**仕組み**を順を追って説明させると・[[説明深度の錯覚]]が崩れ・態度が穏やかになった。==賛成の**理由**を挙げさせただけでは起きなかった==。",
+    "追試（確かめた）": "[[2021 Crawford]]＝事前登録の追試3本（N=306・405・343）。\n- 理解しているという自己評価は**下がった**（錯覚は崩れた）\n- ==しかし態度の極端さと内集団びいきは変わらなかった==\n- 「理由を述べると信念が強まる」は再現",
+    "大河の見立て": "==錯覚を崩すことと・態度を変えることは別の段==。動画は「影響は限定的・条件による」と言うが・追試の結論はもう少し厳しい。それでもプロトコル2「立場でなく仕組みを説明させる」は・**自分の理解の穴に気づく**ためには使える（そこは追試でも再現した）。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -18782,6 +20250,32 @@
    "fields": {},
    "sections": {
     "調べたこと": "**苦しんでいる相手を思い、心を寄せること**（empathic concern）。\n**他者志向**の感情。[[対人反応性指標]]の下位尺度の一つでもある。\n**バトソンの八つでいう8。**\n\n**行動につながるのはこちら。**\n[[個人的苦痛]]（自分が動揺する）とは**向きが逆**で、\n**個人的苦痛は場から離れる方向へ、共感的関心は近づく方向へ働く。**\n\n!!**燻太さんの問いに関わるところ**!! ──\n「共感力が高い」と褒めるとき、**多くの場合これか[[思いやり]]を指している**。\n!!**だがそれは〈当てられる能力〉ではない。**!!\n**気にかけることと、正しく読めることは、別の目盛り。**\n**両者は互いに保証しない**（よく気にかけるが読み違える人も、\nよく読むが何もしない人も、成り立つ）。\n\n**未調査**＝共感的関心が実際の援助行動をどれだけ予測するかのメタ分析。\nバトソンの共感-利他仮説は長く議論されてきたが、現在の扱いを確かめていない。\n確度を `推測` にしてある理由。"
+   },
+   "stub": false
+  },
+  {
+   "id": "内言",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Nedergaard・Lupyan 2024 Not Everybody Has an Inner Voice - Behavioral Consequences of Anendophasia. Psychological Science 35:780-797",
+     "url": "https://doi.org/10.1177/09567976241243004",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/内言.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "inner speech。頭の中で自分の言葉が聞こえる・自然言語で考えている経験。==人類共通だと長く思われてきたが・成人でも「ほぼ常に」から「ほとんど無い」まで幅がある==（[[2024 Nedergaard]] の要旨）。",
+    "動画での使われ方（04:30〜05:30）": "「頭の中に声が無くても知性は成立していた」＝言語≠思考の2つ目の根拠。",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -20241,6 +21735,28 @@
    "stub": false
   },
   {
+   "id": "地図は土地ではない",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/地図は土地ではない.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "The map is not the territory。==地図（言葉・モデル・記号）は土地（現実）そのものではない==。コージブスキーの一般意味論の標語。",
+    "動画での使われ方（29:30〜30:28）": "==地図を持つのは正しい。地図が無ければ一歩も進めない。間違いは・手にした地図を土地そのものだと思い込むことだけ==。敵は言葉（圧縮）でなく・圧縮されたことを忘れること。",
+    "燻太さんの言葉（2026-10-09）": "==「このやり取りも、MINDの作成も、あくまで地図であって、事象そのものではない。忘れないように書き記すためのものであることを忘れないようにしないとね」==",
+    "大河の見立て": "この地図（MIND）の `確度` の欄と・「外部の情報源には当たっていない」の表示は・==地図の上に「ここは地図だ」と書いておく仕掛け==だと思う。ノードの数が増えるほど・地図の網が現実に見えてくる。だから欄を空のまま残す。\n\n!!コージブスキーの出典（*Science and Sanity* 1933）は大河の記憶。本文には当たっていない!!。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "垂直的発達",
    "type": "用語",
    "confidence": "推測",
@@ -20727,6 +22243,20 @@
     "燻太さんの考え": ""
    },
    "stub": false
+  },
+  {
+   "id": "失語症",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {},
+   "stub": true
   },
   {
    "id": "嫌悪と道徳判断の追試問題",
@@ -22240,6 +23770,27 @@
    "stub": false
   },
   {
+   "id": "意味は差異から生まれる",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/意味は差異から生まれる.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "ソシュールの考え＝==語の意味は語そのものの中身にあるのでなく・ほかの語との違い（差異）から生まれる==。「白」は黒や灰色があるから白でいられる。世界が白一色なら「白」という語は要らない。",
+    "動画での使われ方（19:14〜22:24・第5章）": "- 意味が差異でしか成り立たないなら・**集団を名ざす語**（日本人・若者・専門家・保守・リベラル・理系・文系）は・それ以外の誰かを暗に指すことでしか輪郭を持てない\n- ==分断は議論の終わりでなく・言葉の始まりに埋め込まれている==（動画の作り手の考え）\n- ラベルは①集団の内の多様性を消し②集団の間の差を大きく見せる＝[[カテゴリー知覚]]の色の話と同じ構造を人に当てたもの",
+    "大河の見立て": "- ソシュールの差異の話は**語の体系**の話。それを**社会集団の対立**まで伸ばすのは動画の飛躍＝筋は通るが・ソシュールが言ったことではない\n- 「ラベルが内の違いを消し外の差を広げる」こと自体は社会心理学で古くから調べられている（タジフェルの線分の実験など。!!大河の記憶・当たっていない!!）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "意義の探求",
    "type": "用語",
    "confidence": "推測",
@@ -22426,6 +23977,75 @@
     "調べたこと": "学術的な名前は **表出抑制（expressive suppression）**。\n湧いてしまった感情の**外への出かた**を抑えて、その場にふさわしい振る舞いを保つこと。\n\n**Gross のプロセスモデル**（1998, 2002）では、感情調整を5つに分ける\n── 状況選択・状況修正・注意の配置・認知的変化・**反応調整**。\n表出抑制はこの最後、**反応調整**に属する。\n\n**決定的なのは「いつ」介入するか。**\n表出抑制は **反応焦点型（response-focused）**。\n**感情がもう立ち上がったあと**に、その表れかたを抑えにいく。\nだから感情そのものは残っている。蓋をしているだけ、という言い方に近い。",
     "測定されているコスト": "ここが感情労働の話につながる。抑制は**ただでは済まない**ことが分かっている。\n\n- **記憶が悪くなる**。Richards & Gross (2000) は、抑制した人が出来事の細部を思い出しにくくなることを示した。\nとくに**社会的に重要な情報**の記憶が落ちる。\n- **心血管系の活動が上がる**。身体的な負荷がむしろ増える。\n- ポジティブな感情や生活満足度の低下、抑うつ・社会不安との関連が報告されている。\n- **対人コミュニケーションが損なわれる。**\n\n仕組みの説明はこうだ。**抑制は認知的に重い作業で、ワーキングメモリを食う。**\n抑え続けているあいだ、目の前の会話を処理して適切に返す余裕が減る。\n\nつまり **「表に出さないでおく」ことは、その場をしのぐが、静かに消耗させる。**",
     "脳のはたらき": "外側の前頭前野を中心とした認知的な制御が働く点は、認知的再評価と共通する。\nただし !!**扁桃体の活動が下がるかどうかは、再評価ほど一貫していない。**!!\n図で扁桃体を光らせているのは「関わる場所」という意味で、\n「必ず下がる」という意味ではない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "感情の粒度",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Demiralp ほか 2012 Feeling blue or turquoise? Emotional differentiation in major depressive disorder. Psychological Science 23(11):1410-1416",
+     "url": "https://doi.org/10.1177/0956797612444903",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    },
+    {
+     "title": "Seah・Coifman 2022 Emotion differentiation and behavioral dysregulation in clinical and nonclinical samples - A meta-analysis. Emotion",
+     "url": "https://doi.org/10.1037/emo0000968",
+     "note": "要旨を Europe PMC で読んだ。17研究・r=−.15（2026-10-09）"
+    },
+    {
+     "title": "Seah・Coifman 2025 Effects of scaffolding emotion language use on emotion differentiation and psychological health. Cognition and Emotion",
+     "url": "https://doi.org/10.1080/02699931.2024.2382334",
+     "note": "要旨を Europe PMC で読んだ。区別は上がったが症状は変わらず（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/感情の粒度.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "emotional granularity／emotion differentiation。==自分の感情をどれだけ細かく区別して言葉にできるか==。「なんかムカつく」で止まる人と・「これは失望・これは屈辱・これは置き去りにされた感覚」と分けられる人。",
+    "⚠向きに注意（2026-10-09・大河）": "- 言葉は**生の経験に比べれば**解像度を下げる（[[言語という圧縮（捨てるから運べる）]]）\n- ==しかし「ムカつく」1語に比べれば・失望／屈辱／寂しさの3語は解像度を**上げている**==。粒度が「細かい」ほうが良いという研究\n- つまり「名前を付ける（圧縮して扱えるようにする）」と「その名前を細かくする（圧縮を弱める）」は両方要る",
+    "確かめたこと": "- [[2012 Demiralp]]＝7日間の経験サンプリング。==大うつ病の人は否定的な感情の区別が低い==（肯定的な感情では差が無い）\n- [[2022 Seah]]＝17研究のメタ分析。否定的な感情の区別と不適応行動（むちゃ飲み・自傷・服薬を守らない等）は ==r = −.15==（否定的な感情の強さを統制すると −.09）。臨床でも非臨床でも同じ\n- [[2025 Seah]]＝感情語の足場かけで区別は**上がった**が・==心理症状には差が無かった==\n- [[2001 Barrett]]・[[2015 Kashdan]]・[[2017 Starr]]＝書誌だけ確かめた（要旨は読めていない）",
+    "寄りかかれる度合い": "==関連は繰り返し見つかるが・小さく（r = −.15）・ほぼ相関研究==。「細かくすれば振り回されなくなる」という**因果**は・介入研究でまだ確かめきれていない（2025 Seah でも症状は動かず）。\n!!動画の「反芻しにくい」の出典は確かめていない!!。",
+    "動画での使われ方（28:30〜29:00・プロトコル4）": "==感情には最も細かい言葉を当てる。語彙を細かくするほど感情はあなたを振り回さなくなる==。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "感情ラベリング",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Lieberman ほか 2007 Putting feelings into words - affect labeling disrupts amygdala activity in response to affective stimuli. Psychological Science 18(5):421-428",
+     "url": "https://doi.org/10.1111/j.1467-9280.2007.01916.x",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [
+    "amygdala",
+    "vlpfc"
+   ],
+   "file": "nodes/感情ラベリング.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "affect labeling。==感情に言葉のラベルを付けること==。それだけで否定的な感情の扱いが楽になると昔から言われてきた。",
+    "確かめたこと（[[2007 Lieberman]]・要旨）": "- ラベルを付けると・ほかの符号化に比べて==扁桃体などの辺縁系の反応が下がる==\n- 上がったのは==右の腹外側前頭前野（RVLPFC）だけ==。扁桃体と逆相関し・内側前頭前野が仲立ち\n- !!動画は「前頭前野」とだけ言う!!",
+    "動画での使われ方（27:14〜28:30・第7章「反転」）": "==感情に名前をつけた瞬間・脳の中の火事が静まった==。言葉は解像度を下げるが・だからこそ扱えるようになる。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -24223,6 +25843,32 @@
    "stub": false
   },
   {
+   "id": "潜在的説得",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Jakesch ほか 2023 Co-Writing with Opinionated Language Models Affects Users Views. CHI 2023:1-15",
+     "url": "https://doi.org/10.1145/3544548.3581196",
+     "note": "要旨を Semantic Scholar で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/潜在的説得.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "latent persuasion（[[2023 Jakesch]]）。==説得されたという自覚の無いまま・意見が動いていく==現象。",
+    "確かめたこと": "N=1,506。一方の立場に寄せたAIの書き手補助で「SNSは社会に良いか」を書かせると・文章の意見が寄っただけでなく・==その後の態度調査の本人の意見も動いた==。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "炎上",
    "type": "用語",
    "confidence": "確認済",
@@ -24681,6 +26327,33 @@
     "これは何か": "Innate releasing mechanism。ローレンツやティンバーゲンは、遺伝的に決定された**固定的動作パターン**を本能行動とし、その背後に生得的解発機構を想定した。内的衝動が高まっているときに解き放つ刺激（**解発子**＝信号刺激＝[[鍵刺激]]）が出現すると生じる定型的反応が本能行動（p.121）。\n- ローレンツの**水力学モデル**（1950, 図4-2）＝分銅がバルブを開いて水がほとばしる\n- イトヨの雄は、形が違っても腹部が赤い模型を攻撃し、よく似た模型でも腹が赤くないと攻撃しない。ガンは頭上の模型を右（タカ）に動かすと逃避し左（仲間のガン）では逃げない（図4-3）\n- 両立しない本能が同時に解発されると**転位行動**（イトヨの逆立ち）、解発子が無いのに衝動が亢進すると**真空活動**（餌がないのに食べる動作）\n- クレイグ（1918）＝**欲求行動**（経験で変容）と**完了行為**（固定的）の区別\n- 「固定的」「パターン」という融通のなさを避けて**生得的反応連鎖**と呼ぶこともある",
     "歯止め": "!!ローレンツらは学習の機会を与えない**隔離実験**で純粋な本能行動を抽出できるとしたが、レーマン（1953）は「隔離飼育でもガラスや水面に映った自分を見ている」「遺伝と経験の複雑な相互作用を単純化している」と厳しく批判した（p.124）。!!\n==現在では「本能」は説明概念でなく**記述概念**として使う＝生得的行動のうち衝動にもとづく複雑な一連の行動を本能的行動と呼び、反射や走性と区別する（p.124）。==",
     "この地図で": "`動05_ローレンツ`の[[鍵刺激]]・[[儀式化]]を、教科書の側の図と批判つきで言い直したもの。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "生成AIによる均質化",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Doshi・Hauser 2024 Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances 10:eadn5290",
+     "url": "https://doi.org/10.1126/sciadv.adn5290",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/生成AIによる均質化.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "生成AIを使うと・一つ一つの作品は良くなるが・作品どうしが似ていく（[[2024 Doshi]]）。",
+    "確かめたこと": "- LLMのアイデアを使うと短編小説は**創造的・上手・楽しい**と評価された（とくに創造性の低い書き手で）\n- ==しかしAIを使った作品どうしは互いに似ていた==＝個人は得をし・集団は新しさの幅を失う**社会的ジレンマ**",
+    "動画での使われ方（24:30〜26:30）": "==「私たちが自分で考える前に言葉を借りるとき・最初に失われるのは平均から遠い・まだ名前を持たない思考」==＝動画自身が「実証された社会現象ではなく・研究からの推測」と断る。プロトコル7「AIの出力を平均への回帰として扱う」。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -25982,6 +27655,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "`動02_福井`（『集団とは何か』河出書房新社 2025）の**著者代表**。「はじめに」（p.9）を書き、\n第4部に論文「**戦いと集団内・集団間構造**」（p.281）を寄せている。\n\nその論文の節立ては ── 戦い／敵の概念／集団のフレキシビリティ／戦いをしない集団間関係／\n空間的戦略／集団の等質化／潜在的ストラテジー。\n**「戦い」を集団の輪郭を決めるものとして扱っている**ように読める（目次からの推測。本文は未読）。\n\n!!所属・経歴・専門地域は調べていない。!!上は本書の目次と奥付から読み取れる範囲。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "秋田喜美",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/秋田喜美.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "言語学者。オノマトペの研究。[[言語の本質]]（今井むつみと共著）。⚠所属（大河の記憶では名古屋大学）は未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -27895,6 +29587,26 @@
    "stub": false
   },
   {
+   "id": "言葉の野生を取り戻す7つのプロトコル",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/言葉の野生を取り戻す7つのプロトコル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "動画 [[言語は「思考の器」ではない（ASTRENCE）]] の第8章（30:28〜）。明日から使える形にした7つ。\n\n1. ==名前で知っているのか・仕組みで知っているのかを自問する== ── 対処＝[[説明深度の錯覚]]／根拠の強さ（大河）＝錯覚そのものは確かめた\n2. 立場でなく・仕組みを順に説明させる ── 対処＝[[仕組みを説明させると穏やかになるか]]／根拠の強さ（大河）＝!!態度の穏健化は追試で再現されず!!。自分の穴に気づくまでは使える\n3. まず見る・味わう・それから言う ── 対処＝[[言語隠蔽効果]]／根拠の強さ（大河）＝効果は頑健だが小さい\n4. ==感情には最も細かい言葉を== ── 対処＝[[感情の粒度]]／根拠の強さ（大河）＝関連は繰り返し見つかるが小さく・因果は未確定\n5. ==相手の言葉でなく・相手の圧縮前を推定する== ── 対処＝[[パーセプション・ギャップ]]／根拠の強さ（大河）＝ずれ自体は調査で確か。推定の練習の効果は当たっていない\n6. 感情語で広がる情報を一段だけ疑う。怒りを感じた瞬間こそ形を確かめる ── 対処＝[[道徳的伝染]]／根拠の強さ（大河）＝拡散の効果は確か（20%→13〜17%）\n7. AIの出力を平均への回帰として扱う。使ってよいが・結論そのものにしない ── 対処＝[[生成AIによる均質化]]／根拠の強さ（大河）＝集団の均質化は実験で確か",
+    "確度を `推測` にした理由": "個々の現象は研究で確かめられるが・**プロトコルとして実践したときの効果**を測った研究ではない（動画の作り手の組み立て）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "言語が左半球に宿った理由",
    "type": "理論",
    "confidence": "推測",
@@ -27925,6 +29637,87 @@
    "stub": false
   },
   {
+   "id": "言語という圧縮（捨てるから運べる）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Fedorenko・Piantadosi・Gibson 2024 Language is primarily a tool for communication rather than thought. Nature 630:575-586",
+     "url": "https://doi.org/10.1038/s41586-024-07522-w",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/言語という圧縮（捨てるから運べる）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "動画 [[言語は「思考の器」ではない（ASTRENCE）]] の芯。==言語は思考そのものではなく・頭の中の膨大で複雑な状態を他人の脳へ送るための圧縮プロトコル==（05:30）。写真を送るとき目につきにくい情報を捨てて軽くするのと同じで・捨てた部分は戻らない。どれだけ言葉を尽くしても帯域（パイプの太さ）は変わらない。\n\n**表と裏**（29:30）＝==圧縮は情報を捨てる技術であり・同時に転送を可能にする技術でもある。捨てるから運べる。==別々の性質でなく・一つの性質の表と裏。",
+    "土台と・どこまでが比喩か": "- 「言語は思考より伝達の道具」は [[2024 Fedorenko]] の主張（要旨で確かめた）。==ただし Fedorenko らは「圧縮」とは言っていない==（要旨の範囲では）。圧縮プロトコルは**動画の比喩**\n- !!確度を `推測` にした理由!!＝比喩としてはよくできているが・「圧縮率」「帯域」を測った研究に当たっていない。情報理論の語（[[自己情報量]]）を借りているが・言語の情報量を Shannon の意味で測った話ではない\n- 大河の見立て＝「捨てるから運べる」は[[環世界]]とも同じ形をしている。ダニの世界は酪酸と温度と毛の手触りだけでできている＝==捨てているから生きられる==。言語はヒトが作った・もう一段の環世界かもしれない（!!大河の見立て。出典なし!!）",
+    "燻太さんの言葉（2026-10-09）": "==「核心となるのは、言葉は事象の解像度を下げるが、伝えられる形にもできるという性質」==\n==「単語を知っただけでは、その単語の裏にある事象を理解したことにはつながらない」==（→[[説明深度の錯覚]]）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "言語の本質",
+   "type": "書物",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/言語の本質.md",
+   "owned": "無",
+   "shops": [
+    {
+     "shop": "Amazon.co.jp",
+     "url": "https://www.amazon.co.jp/dp/4121027566",
+     "note": "ISBN-10から"
+    }
+   ],
+   "fields": {},
+   "sections": {
+    "これは何か": "今井むつみ・秋田喜美『言語の本質 ── ことばはどう生まれ、進化したか』中公新書2756・中央公論新社・2023年5月（書誌は openBD で ISBN 9784121027566 から確かめた）。",
+    "この地図で": "動画 [[言語は「思考の器」ではない（ASTRENCE）]] 第3章で・[[記号接地問題]]への日本からの答えとして紹介された。!!未架蔵・未読!!。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "言語は「思考の器」ではない（ASTRENCE）",
+   "type": "映像",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "【脳科学の真実】言語は「思考の器」ではない。MITの研究が暴く人間の知性の正体",
+     "url": "https://www.youtube.com/watch?v=1n_Rrarr3L4",
+     "note": "チャンネル「ASTRENCE【アストレンス】思考の解剖学」。2026-09-19公開・35分02秒・約9.9万回再生（2026-10-09時点）。説明欄にチャプターと関連キーワード。自動字幕を yt-dlp で取り大河が通読（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/言語は「思考の器」ではない（ASTRENCE）.md",
+   "owned": "有",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!本ではなく **YouTube の解説動画**（型は `映像`）。!!チャンネル「ASTRENCE【アストレンス】思考の解剖学」・2026-09-19公開・35分。燻太さんが 2026-10-09 の退勤中に見た。",
+    "筋（チャプター）": "- 00:00 導入 ── 見た顔を言葉で説明すると・面割りで選べなくなる（[[言語隠蔽効果]]）。言葉は鏡でなく**削る刃**\n- 02:57 第1章 言語は「思考の器」ではなかった ── [[言語ネットワーク]]と思考の[[二重乖離]]・[[内言]]を持たない人（[[アネンドファジア]]）。==言語は頭の中の状態を他人の脳へ送る**圧縮プロトコル**==（→[[言語という圧縮（捨てるから運べる）]]）\n- 06:37 第2章 圧縮という残酷さ ── [[シニフィアンとシニフィエ]]・[[記号の恣意性]]・[[サピア＝ウォーフ仮説]]（強い版は支持されない・弱い版が残る）・[[ロシア語の青（色の境界の実験）]]・境界の内は潰れ・境界をまたぐと広がる（[[カテゴリー知覚]]）\n- 11:05 第3章 記号接地問題 ── 中国語-中国語辞書（[[記号接地問題]]）・[[言語の本質]]の答え＝[[オノマトペ]]が最初の杭・そこから[[アブダクション推論]]で語を広げる。==地面から遠い枝先の語（自由・正義・愛）ほど人によって根の張りかたが違う==\n- 15:00 第4章 なぜ言葉を交わすほど遠ざかるのか ── 4つのデータ＝[[2018 Bail]]（反対意見のボット）・[[道徳的伝染]]・[[パーセプション・ギャップ]]・[[説明深度の錯覚]]。==私たちが戦っているのは相手でなく・頭の中で作った相手の圧縮版==\n- 19:14 第5章 ラベルが敵をつくる ── [[意味は差異から生まれる]]なら・「私たち」は「彼ら」なしに輪郭を持てない。ラベルは集団の内の違いを消し・集団の間の差を誇張する（色の境界と同じ構造）\n- 22:24 第6章 言葉が無限に増える時代 ── [[タコのテスト]]・[[潜在的説得]]・[[生成AIによる均質化]]・[[モデル崩壊]]。==「人間の思考の裾も切れていく」は研究からの推測と動画自身が断る==\n- 27:14 第7章 反転 ── [[感情ラベリング]]・[[感情の粒度]]。==解像度を下げるからこそ扱えなかったものを扱えるようになる。捨てるから運べる==。敵は言葉でなく・圧縮されたことを忘れること（[[地図は土地ではない]]）\n- 30:28 第8章 → [[言葉の野生を取り戻す7つのプロトコル]]",
+    "動画の誠実なところ": "- 研究の限界を自分から言う＝言語隠蔽効果の追試で効果が小さくなったこと・ロシア語の青の再検討・サピア＝ウォーフの強い版の否定・タコの議論が決着していないこと・Fernbach の効果の追試\n- 「この動画も言葉でできている＝圧縮されたものだと忘れないように」と自分に向ける（26:30）",
+    "一次資料と照らした食い違い（2026-10-09・大河）": "- !!Fernbach の追試は「2022年」でなく **2021年**!!（[[2021 Crawford]]・Psychological Science 32(4)）。しかも結果は「限定的・条件による」より強く・==事前登録の3本で態度の穏健化は再現されなかった==\n- [[アネンドファジア]]＝名づけた論文には **2025年に「内言が完全に無い人がいる証拠は無い」という論評**（[[2025 Lind]]）が出ている。動画は触れない\n- [[言語隠蔽効果]]の追試＝「23の研究室」は要旨では確かめられない。−16% は「説明を20分遅らせた」条件で正しい。直後に説明した条件（RRR1）では −4% だった＝==動画は大きい方だけを言う==\n- [[感情ラベリング]]＝「前頭前野の活動が上がった」は正確には**右の腹外側前頭前野だけ**\n- [[感情の粒度]]＝「反芻しにくい・抑うつ症状が少ない」の出典は動画に無い。抑うつとの関連は確かめた（[[2012 Demiralp]]）。反芻は確かめていない\n- [[ロシア語の青（色の境界の実験）]]の再検討（[[2020 Martinovic]]）には2026年に訂正記事が出ている（中身は未読）\n- [[2024 Fedorenko]] には反論（Biolinguistics 2024）がある。動画は触れない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "言語スタイルマッチング",
    "type": "用語",
    "confidence": "確認済",
@@ -27946,6 +29739,63 @@
    "sections": {
     "これは何か": "Language Style Matching（LSM）。**内容語**（名詞・動詞）ではなく・「は・が・これ・あれ」のような**機能語**（冠詞・代名詞・前置詞…文法の部品）の使いかたが2人でどれだけ似ているか。\n**Ireland ら（2011）**（ペネベーカー研究室）＝\n- スピードデート40組の会話で・LSMが高いペアほど**互いに興味**を持った（オッズ比3.05。中央値より高いペアの33.3%が相互に連絡を望んだ vs 低いペアの9.1%）\n- カップル86組のインスタントメッセージで・LSMが高いほど**3か月後も交際が続いた**（オッズ比1.95。76.7% vs 53.5%）\n==機能語は意識して選べる言葉ではない＝この同期は演技ができない==。",
     "この地図で": "5つのサインの③（相手の言葉が映ってくる）。動画は「機能語の同期は自分では観測しにくいが・口癖の伝染なら肉眼で見える」と翻訳する。身体の側の同じ現象が[[カメレオン効果]]。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "言語ネットワーク",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Fedorenko・Piantadosi・Gibson 2024 Language is primarily a tool for communication rather than thought. Nature 630:575-586",
+     "url": "https://doi.org/10.1038/s41586-024-07522-w",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [
+    "temporal",
+    "vlpfc"
+   ],
+   "file": "nodes/言語ネットワーク.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "ヒトの脳で言語の理解と産出を支える・主に左半球の前頭葉と側頭葉にまたがる領域のネットワーク（[[2024 Fedorenko]] の出発点）。",
+    "動画での使われ方（03:00〜04:30）": "- 言語ネットワークが損傷して重い[[失語症]]になった人が・算数や論理パズルを健常者と同じ水準で解く例\n- 健常者が複雑な思考課題を解いているとき・言語ネットワークはしばしば静か\n- → 言語が壊れても思考は動き・思考しているとき言語は動いていない＝[[二重乖離]]\n\n!!脳部位の図の位置はおおよそ!!（左の下前頭回と側頭葉。図の vlPFC と側頭葉で代用した）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "言語隠蔽効果",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Alogna ほか 2014 Registered Replication Report - Schooler and Engstler-Schooler (1990). Perspectives on Psychological Science 9(5):556-578",
+     "url": "https://doi.org/10.1177/1745691614545653",
+     "note": "要旨を Europe PMC で読んだ。原典 −25%・RRR1 −4%・RRR2（20分遅らせ）−16%（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/言語隠蔽効果.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "verbal overshadowing。==見たもの（顔など）を言葉で詳しく説明すると・あとでそれを見分ける成績が下がる==現象。最初の報告は [[1990 Schooler]]（銀行強盗の映像・犯人の顔を説明した群は面割りで約25%低い）。",
+    "再現性（確かめた）": "[[2014 Alogna]]＝事前登録の多施設直接追試（RRR）。\n- RRR1（説明が映像の直後）＝ **−4%**\n- RRR2（説明を20分遅らせた）＝ **−16%**\n- ==効果は頑健だが最初の報告より小さく・課題の時間の順に強く左右される==",
+    "動画での使われ方（00:00〜02:00）": "導入の掴み。「言葉は現実を映す鏡でなく・削り取る刃」。第8章のプロトコル3「まず見る・味わう・それから言う」の根拠。\n!!動画は −16% だけを言い・−4% の条件を言わない。!!",
+    "大河の見立て（!!出典なし!!）": "「言葉にすると壊れる」のは・言葉が元の像を**上書き**するからか・元の像へのアクセスを**妨げる**からか。どちらの説明が有力かは確かめていない。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -28044,6 +29894,54 @@
    "stub": false
   },
   {
+   "id": "記号の恣意性",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/記号の恣意性.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "シニフィアンとシニフィエの結びつきに**必然の理由が無い**こと。同じ生き物を日本語は「イヌ」・英語は dog・フランス語は chien と呼ぶ。",
+    "この地図でのつながり": "- [[ホケットの言語の特徴]]の16特徴にも「恣意性」がある（13_中島で確認済）＝言語学で広く認められた性質\n- ==例外がある==＝[[オノマトペ]]は音が感覚に似る（類像性）。[[言語の本質]]はこの例外を記号接地の入口と見る\n\n!!大河の記憶による!!（ソシュールの原典には当たっていない）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "記号接地問題",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Harnad 1990 The symbol grounding problem. Physica D 42:335-346",
+     "url": "https://doi.org/10.1016/0167-2789(90)90087-6",
+     "note": "要旨を Semantic Scholar（arXiv版）で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/記号接地問題.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "symbol grounding problem（[[1990 Harnad]]）。==記号の意味を・頭の中の意味に寄生させずに・記号系そのものに内在させるにはどうするか==。意味の無い形の記号を・別の意味の無い記号以外の何に結びつけられるか。\n\n**中国語-中国語辞書のたとえ**＝中国語を知らない人が中国語だけの辞書を引く。説明も中国語なのでまた引く。何度引いても記号から記号へ渡り歩くだけで・意味にたどり着かない。",
+    "ハルナッドの答えの素描（要旨で確かめた）": "記号は**下から**接地する。①図像的表象（感覚の写し）②カテゴリー表象（不変特徴の検出器）③その名前を組み合わせた記号表象（「XはZなY」）。",
+    "動画での使われ方（11:05〜15:00）": "- 人は[[オノマトペ]]で最初の杭を打ち・[[アブダクション推論]]で語を広げる（[[言語の本質]]）\n- ==地面に刺さる杭はわずか（暑い・重い・ザラザラ）。枝先の語（自由・正義・愛・才能・国家・幸福）ほど地面から遠く・人によって根の張りかたが違う。私たちが一番言い争うのはいつも枝先の語==\n- 第6章で[[タコのテスト]]を「記号接地問題の現代版」として出す",
+    "燻太さんの言葉（2026-10-09）": "燻太さんは文也さんと人工言語を創作中で・この問題に動画で触れられたのが有意義だった。→[[人工言語と記号接地]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "記憶の二重貯蔵モデルと境界知能",
    "type": "用語",
    "confidence": "確認済",
@@ -28068,6 +29966,20 @@
     "燻太さんの考え": ""
    },
    "stub": false
+  },
+  {
+   "id": "記憶の再構成",
+   "type": "用語",
+   "confidence": "未調査",
+   "sources": [],
+   "refs": [],
+   "brain": [],
+   "file": null,
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {},
+   "stub": true
   },
   {
    "id": "認知動物行動学",
@@ -28428,6 +30340,34 @@
     "何をした実験か": "「心の理論」という発想（[[デイヴィッド・プレマック]]＝サラの動画課題、1978）は児童心理学に大きな影響を与え、他者の心を推測する能力の測定法として**誤信念テスト**が考案された（Wimmer&Perner 1983; Baron-Cohen 1985）＝主人公の不在時に誰かがお菓子の隠し場所を変えた物語を見せ、戻った主人公がどこを探すかを児童に訊く。==4歳未満の多くは「変更後の場所」と答える＝他者が自分と違う（誤った）信念を持つという事実を理解できない==。自閉症児はこのテストに失敗しがちで、自閉症は心の理論の障害だとの学説（Baron-Cohen 1993）。==「心の理論」は動物心理学領域から誕生し、児童の知的発達や自閉症の研究に大きく貢献した（Mitchell 1997）==（p.325）。",
     "動物に戻すと": "- !!チンパンジーは誤信念課題に**失敗**する（Hare 2001; Kaminski 2008; Krachun 2009）＝相手が餌の正しい位置を見ているかどうかにかかわらず同様に行動。そもそも「見る」が「知る」を意味することすらわからないと思われる結果（頭にバケツを被った人物にも肩に抱えた人物にも同程度餌をねだる。Povinelli&Eddy 1996）→チンパンジーの心の理論は疑問視（Call&Tomasello 2008）!!\n- ==しかし誤信念課題で**最初の隠し場所に視線を向けている**ことが明らかにされた（Krupenye 2016）＝チンパンジーには心の理論があるかもしれない==。アカゲザルは視線データでも失敗（Marticorena 2011; Martin&Santos 2014）\n- ==**イヌ**は「見る＝知る」がわかっているようだ＝目隠しをした人よりしていない人から餌をねだる（Gácsi 2004）／実験者が目をそらす・目をつぶる・衝立があると「待て」を破りやすい（Call 2003ほか）／飼い主が隠す現場にいなかったときのほうが激しく知らせる（Virányi 2006）＝家畜化の過程でヒトの知識や意図を理解する能力が人為的に選択された結果と結論されている（Hare&Tomasello 2005; Miklósi 2004）==（p.325-326）",
     "この地図で": "この地図の[[心の理論]]は「測る道具が何を測っているか決着していない」として`推測`。誤信念テストはその道具のもう一つ。[[2001 Baron-Cohen]]（目から心を読むテスト）と同じ著者の系譜。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "説明深度の錯覚",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Rozenblit・Keil 2002 The misunderstood limits of folk science - an illusion of explanatory depth. Cognitive Science 26(5):521-562",
+     "url": "https://doi.org/10.1207/s15516709cog2605_1",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/説明深度の錯覚.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "illusion of explanatory depth（[[2002 Rozenblit]]）。==人は複雑な現象を・実際よりはるかに精密に理解していると感じている==。水洗トイレやファスナーの仕組みの理解を自己採点させ・次に仕組みを説明させると・自己採点が崩れる。",
+    "確かめたこと（要旨）": "- 錯覚は**説明の知識**で特に強く・事実・手順・物語の知識では弱い\n- 仕組みが目に見える環境ほど錯覚が頑健",
+    "動画での使われ方（18:00〜19:00）": "==名前を知っていることを・理解と取り違える==。プロトコル1「名前を言えることを分かったことと数えない」。",
+    "燻太さんの言葉（2026-10-09）": "==「単語を知っただけでは、その単語の裏にある事象を理解したことにはつながらない。普段から心も含めた自然科学について読書をしているうえですでに意識していること」==",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -28895,6 +30835,33 @@
    "sections": {
     "これは何か": "ボームによる道徳の起源論の棚卸し（p.396-402）。\n- ニーチェ『道徳の系譜』／ブレステッド『良心のあけぼの』／**ウェスターマーク『道徳観念の起源と発達』**（ダーウィンなら完全に認めるはず・進化心理学の先駆け・ただし歴史的要素なし）／E.O.ウィルソン『社会生物学』『人間の本性について』\n- リドレー『徳の起源』・ライト『モラル・アニマル』・J.Q.ウィルソン『道徳観念』・シャーマー『善悪の科学』・**ハウザー『道徳心』**＝==どれも**歴史と無関係**（適応性のあるデザインの視点）==\n- カッツ編『道徳性の進化的起源』（フラック&ドゥ・ヴァール・ボーム・ソーバー&D.S.ウィルソン・スカームズ）／フェール・クレブス・フランク『オデッセウスの鎖』／ボウルズ・ギンタス「強い互恵性」\n- 著者の立場＝**歴史的要素（自然史）が欠かせない**のに現代の学者は無視している。ミッジリー『倫理的な霊長類』の悲観（「じれったいほどの示唆しか得られず判断を誤らせる」）に対し著者は少し楽観的\n- 起源神話への普遍的関心（p.387-389）＝文字をもたないほぼすべての社会が起源の物語を語る。「最初の人間がいて・それから道徳が生まれた」はでっち上げ。自然選択説では起源は前適応の上に築かれる連続的なもの（マイアー）",
     "この地図で": "既存の[[ハウザーの研究不正]]（映02 から）＝本書は不正発覚後の刊行だが『道徳心』を普通に引く。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "道徳的伝染",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映04_言語の圧縮"
+   ],
+   "refs": [
+    {
+     "title": "Brady ほか 2017 Emotion shapes the diffusion of moralized content in social networks. PNAS 114(28):7313-7318",
+     "url": "https://doi.org/10.1073/pnas.1618923114",
+     "note": "要旨を Europe PMC で読んだ（2026-10-09）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/道徳的伝染.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "moral contagion。==道徳感情語（許せない・恥ずべき・卑劣な）を含む投稿ほど拡散する==現象（[[2017 Brady]] の名づけ）。",
+    "確かめたこと": "- 3争点・563,312件。==道徳感情語が1語増えるごとに拡散が20%増==\n- ==拡散は陣営の内側で強く・陣営の間では弱い==\n- !!この20%は・のちの事前登録の追試で13〜17%に!!（→[[SNS]] の Brady 2025）",
+    "動画での使われ方（16:00〜17:00）": "「ニュアンスの多い慎重な言葉は構造的に負ける」。プロトコル6「感情語で拡散している情報を一段だけ疑う」の根拠。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -30196,6 +32163,18 @@
    "weight": "強"
   },
   {
+   "source": "1990 Harnad",
+   "target": "記号接地問題",
+   "rel": "原典",
+   "weight": "強"
+  },
+  {
+   "source": "1990 Schooler",
+   "target": "言語隠蔽効果",
+   "rel": "原典＝銀行強盗の映像・顔を言葉で説明すると面割りの正答が25%下がる",
+   "weight": "強"
+  },
+  {
    "source": "1992 Kuper",
    "target": "カラハリ論争",
    "rel": "裏づけ",
@@ -30352,6 +32331,12 @@
    "weight": "標準"
   },
   {
+   "source": "2001 Barrett",
+   "target": "感情の粒度",
+   "rel": "感情の区別と感情調整の関係を測った初期の研究",
+   "weight": "強"
+  },
+  {
    "source": "2001 Heyman",
    "target": "呼びかけへの応答",
    "rel": "批判＝ゴットマンらの離婚予測（Gottman 1998）は交差検証が無く・別サンプルでは精度と予測価値が急落する",
@@ -30386,6 +32371,12 @@
    "target": "デルロイ・ポーロス",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2002 Rozenblit",
+   "target": "説明深度の錯覚",
+   "rel": "名づけの論文",
+   "weight": "強"
   },
   {
    "source": "2003 Eisenberger",
@@ -30574,6 +32565,12 @@
    "weight": "標準"
   },
   {
+   "source": "2007 Lieberman",
+   "target": "感情ラベリング",
+   "rel": "神経の経路を示した代表的な研究",
+   "weight": "強"
+  },
+  {
    "source": "2007 Naqvi",
    "target": "島皮質",
    "rel": "裏づけ",
@@ -30607,6 +32604,18 @@
    "source": "2007 Seeley",
    "target": "セントラル・エグゼクティブ・ネットワーク",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2007 Winawer",
+   "target": "ロシア語の青（色の境界の実験）",
+   "rel": "原典",
+   "weight": "強"
+  },
+  {
+   "source": "2007 Winawer",
+   "target": "サピア＝ウォーフ仮説",
+   "rel": "弱い版を支える代表的な実験",
    "weight": "標準"
   },
   {
@@ -31006,6 +33015,12 @@
    "weight": "標準"
   },
   {
+   "source": "2012 Demiralp",
+   "target": "感情の粒度",
+   "rel": "うつ病の人は否定的な感情の区別が低い",
+   "weight": "強"
+  },
+  {
    "source": "2012 Iliff",
    "target": "グリンパティック系",
    "rel": "裏づけ",
@@ -31052,6 +33067,18 @@
    "target": "二重過程理論",
    "rel": "論争への応答として定義を絞り直した総説",
    "weight": "強"
+  },
+  {
+   "source": "2013 Fernbach",
+   "target": "仕組みを説明させると穏やかになるか",
+   "rel": "原典（実験1〜3）",
+   "weight": "強"
+  },
+  {
+   "source": "2013 Fernbach",
+   "target": "説明深度の錯覚",
+   "rel": "錯覚を政治の態度へ広げた",
+   "weight": "標準"
   },
   {
    "source": "2013 Furnham",
@@ -31105,6 +33132,18 @@
    "source": "2013 Yudkowsky",
    "target": "知能爆発",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2014 Alogna",
+   "target": "1990 Schooler",
+   "rel": "事前登録の多施設直接追試＝効果は小さいが実在",
+   "weight": "強"
+  },
+  {
+   "source": "2014 Alogna",
+   "target": "言語隠蔽効果",
+   "rel": "効果の大きさを決めた追試",
    "weight": "標準"
   },
   {
@@ -31220,6 +33259,12 @@
    "target": "失感情症",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2015 Kashdan",
+   "target": "感情の粒度",
+   "rel": "感情の区別の研究をまとめた総説",
+   "weight": "強"
   },
   {
    "source": "2015 Landy",
@@ -31426,6 +33471,12 @@
    "weight": "標準"
   },
   {
+   "source": "2017 Brady",
+   "target": "道徳的伝染",
+   "rel": "名づけの論文",
+   "weight": "強"
+  },
+  {
    "source": "2017 Fikke",
    "target": "叫び（ムンク）",
    "rel": "赤い空を実在の雲で説明する（表現としての読みと対立）",
@@ -31508,6 +33559,18 @@
    "target": "開放性",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2017 Starr",
+   "target": "感情の粒度",
+   "rel": "日常生活での区別の低さと抑うつ症状",
+   "weight": "強"
+  },
+  {
+   "source": "2018 Bail",
+   "target": "エコーチェンバー現象",
+   "rel": "「反対意見に触れさせれば和らぐ」を野外実験で確かめたら逆だった",
+   "weight": "強"
   },
   {
    "source": "2018 Evrard",
@@ -31612,6 +33675,18 @@
    "weight": "標準"
   },
   {
+   "source": "2020 Bender",
+   "target": "タコのテスト",
+   "rel": "原典の思考実験",
+   "weight": "強"
+  },
+  {
+   "source": "2020 Bender",
+   "target": "記号接地問題",
+   "rel": "形式だけで訓練された系は意味を学べないという主張",
+   "weight": "標準"
+  },
+  {
    "source": "2020 Holtmann",
    "target": "島皮質",
    "rel": "裏づけ",
@@ -31646,6 +33721,12 @@
    "target": "データ駆動型アプローチ",
    "rel": "計算の軸で整理する2つの文化の一方として紹介",
    "weight": "標準"
+  },
+  {
+   "source": "2020 Martinovic",
+   "target": "2007 Winawer",
+   "rel": "批判＝同じ課題で再検討すると siniy/goluboy の境界で速さの優位が出なかった",
+   "weight": "強"
   },
   {
    "source": "2020 Martínez-Leal",
@@ -31718,6 +33799,12 @@
    "target": "自由エネルギー原理",
    "rel": "批判",
    "weight": "標準"
+  },
+  {
+   "source": "2021 Crawford",
+   "target": "2013 Fernbach",
+   "rel": "批判＝事前登録の追試3本で態度の穏健化は再現されず",
+   "weight": "強"
   },
   {
    "source": "2021 Cugurra",
@@ -31834,6 +33921,12 @@
    "weight": "標準"
   },
   {
+   "source": "2022 Seah",
+   "target": "感情の粒度",
+   "rel": "メタ分析＝否定的な感情の区別と不適応行動の関連は r=−.15",
+   "weight": "強"
+  },
+  {
    "source": "2022 Taniguchi",
    "target": "島皮質",
    "rel": "裏づけ",
@@ -31882,6 +33975,12 @@
    "weight": "標準"
   },
   {
+   "source": "2023 Jakesch",
+   "target": "潜在的説得",
+   "rel": "原典",
+   "weight": "強"
+  },
+  {
    "source": "2023 Jones",
    "target": "三重ネットワーク説",
    "rel": "裏づけ",
@@ -31891,6 +33990,30 @@
    "source": "2023 Polajnar",
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2024 Doshi",
+   "target": "生成AIによる均質化",
+   "rel": "原典",
+   "weight": "強"
+  },
+  {
+   "source": "2024 Fedorenko",
+   "target": "言語ネットワーク",
+   "rel": "この総説の出発点となる脳のネットワーク",
+   "weight": "強"
+  },
+  {
+   "source": "2024 Fedorenko",
+   "target": "二重乖離",
+   "rel": "言語と思考の二重乖離の証拠を総覧",
+   "weight": "強"
+  },
+  {
+   "source": "2024 Fedorenko",
+   "target": "言語という圧縮（捨てるから運べる）",
+   "rel": "動画の「言語は思考の器ではない」の根拠",
    "weight": "標準"
   },
   {
@@ -31906,10 +34029,28 @@
    "weight": "強"
   },
   {
+   "source": "2024 Nedergaard",
+   "target": "アネンドファジア",
+   "rel": "名づけの論文",
+   "weight": "強"
+  },
+  {
+   "source": "2024 Nedergaard",
+   "target": "内言",
+   "rel": "内言の少ない人の行動上の違いを測った",
+   "weight": "標準"
+  },
+  {
    "source": "2024 Nielsen",
    "target": "いじめの目撃",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2024 Shumailov",
+   "target": "モデル崩壊",
+   "rel": "名づけの論文",
+   "weight": "強"
   },
   {
    "source": "2025 Al Nakhebi",
@@ -31942,6 +34083,12 @@
    "weight": "標準"
   },
   {
+   "source": "2025 Lind",
+   "target": "2024 Nedergaard",
+   "rel": "批判＝内言が〈まったく無い〉人がいるという結論は根拠が無い",
+   "weight": "強"
+  },
+  {
    "source": "2025 Mavroudis",
    "target": "機能性神経症状症",
    "rel": "裏づけ",
@@ -31958,6 +34105,12 @@
    "target": "ダーウィン・ゲーデルマシン",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2025 Seah",
+   "target": "感情の粒度",
+   "rel": "介入＝感情語の足場かけで区別は上がるか",
+   "weight": "強"
   },
   {
    "source": "2025 Velilla",
@@ -32950,6 +35103,30 @@
    "weight": "標準"
   },
   {
+   "source": "その怒りは本当に怒りか（言葉の手前を聞く）",
+   "target": "感情の粒度",
+   "rel": "「怒り」を細かく分け直す",
+   "weight": "強"
+  },
+  {
+   "source": "その怒りは本当に怒りか（言葉の手前を聞く）",
+   "target": "構成主義的情動理論",
+   "rel": "同じ身体の状態が文脈で「怒り」に分類される",
+   "weight": "標準"
+  },
+  {
+   "source": "その怒りは本当に怒りか（言葉の手前を聞く）",
+   "target": "パーセプション・ギャップ",
+   "rel": "相手の言葉の手前を推定する",
+   "weight": "標準"
+  },
+  {
+   "source": "その怒りは本当に怒りか（言葉の手前を聞く）",
+   "target": "怒り",
+   "rel": "怒りの受け皿",
+   "weight": "標準"
+  },
+  {
    "source": "なじみの道",
    "target": "環世界",
    "rel": "典型的な環世界の問題",
@@ -33142,6 +35319,12 @@
    "weight": "標準"
   },
   {
+   "source": "アルフレッド・コージブスキー",
+   "target": "地図は土地ではない",
+   "rel": "提唱",
+   "weight": "標準"
+  },
+  {
    "source": "アレクサンドル・ルリヤ",
    "target": "シェレシェフスキー",
    "rel": "『偉大な記憶力の物語』の記憶術者Sを数十年研究",
@@ -33292,6 +35475,18 @@
    "weight": "標準"
   },
   {
+   "source": "ウィリアム・ブレイディ",
+   "target": "2017 Brady",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ウィリアム・ブレイディ",
+   "target": "道徳的伝染",
+   "rel": "名づけ",
+   "weight": "標準"
+  },
+  {
    "source": "ウニ",
    "target": "反射共和国",
    "rel": "主役",
@@ -33382,6 +35577,12 @@
    "weight": "強"
   },
   {
+   "source": "エミリー・ベンダー",
+   "target": "2020 Bender",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "エリエザー・ユドカウスキー",
    "target": "2013 Yudkowsky",
    "rel": "著者",
@@ -33412,6 +35613,18 @@
    "weight": "標準"
   },
   {
+   "source": "エヴェリーナ・フェドレンコ",
+   "target": "2024 Fedorenko",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "エヴェリーナ・フェドレンコ",
+   "target": "言語ネットワーク",
+   "rel": "個人ごとの機能的特定",
+   "weight": "標準"
+  },
+  {
    "source": "オオカミ",
    "target": "種内攻撃の抑制",
    "rel": "中心の観察",
@@ -33427,6 +35640,12 @@
    "source": "オトシブミ",
    "target": "生得的な道",
    "rel": "例",
+   "weight": "標準"
+  },
+  {
+   "source": "オノマトペ",
+   "target": "アブダクション推論",
+   "rel": "杭から語を広げる推論",
    "weight": "標準"
   },
   {
@@ -33470,6 +35689,12 @@
    "target": "知覚時間の瞬間",
    "rel": "遅い主体",
    "weight": "標準"
+  },
+  {
+   "source": "カテゴリー知覚",
+   "target": "ステレオタイプ",
+   "rel": "同じ構造を人に当てると（動画の見立て）",
+   "weight": "弱"
   },
   {
    "source": "カプグラ症候群",
@@ -33562,6 +35787,12 @@
    "weight": "標準"
   },
   {
+   "source": "クリストファー・ベイル",
+   "target": "2018 Bail",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "クリストファー・ボーム",
    "target": "平等主義の革命",
    "rel": "著者の結論",
@@ -33619,6 +35850,12 @@
    "source": "グッドハートの法則",
    "target": "共感の測りかたの問題",
    "rel": "尺度が目標になると壊れる",
+   "weight": "標準"
+  },
+  {
+   "source": "ゲイリー・ルピアン",
+   "target": "2024 Nedergaard",
+   "rel": "共著者（最終著者）",
    "weight": "標準"
   },
   {
@@ -33742,6 +35979,18 @@
    "weight": "標準"
   },
   {
+   "source": "サピア＝ウォーフ仮説",
+   "target": "ロシア語の青（色の境界の実験）",
+   "rel": "弱い版の代表的な実験とその再検討",
+   "weight": "強"
+  },
+  {
+   "source": "サピア＝ウォーフ仮説",
+   "target": "カテゴリー知覚",
+   "rel": "言語の境界が知覚の境界を動かすか",
+   "weight": "標準"
+  },
+  {
    "source": "サプライズ",
    "target": "自己証明",
    "rel": "最小化はこれと等価",
@@ -33838,6 +36087,12 @@
    "weight": "標準"
   },
   {
+   "source": "シニフィアンとシニフィエ",
+   "target": "記号の恣意性",
+   "rel": "二つの結びつきに必然は無い",
+   "weight": "強"
+  },
+  {
    "source": "シワハイルカ",
    "target": "最近接発達領域",
    "rel": "個体差（マリア>ホウ）＝創造性の動物モデルの例",
@@ -33895,6 +36150,12 @@
    "source": "ジョアキン・フスター",
    "target": "生成能力",
    "rel": "前頭前野の予測的表象を「詩的なほどに雄弁に」述べた",
+   "weight": "標準"
+  },
+  {
+   "source": "ジョナサン・スクーラー",
+   "target": "1990 Schooler",
+   "rel": "筆頭著者",
    "weight": "標準"
   },
   {
@@ -33973,6 +36234,18 @@
    "source": "スキルとしての知覚",
    "target": "環世界",
    "rel": "経験でつくられるレパートリー",
+   "weight": "標準"
+  },
+  {
+   "source": "スティーヴン・ハルナッド",
+   "target": "1990 Harnad",
+   "rel": "著者",
+   "weight": "標準"
+  },
+  {
+   "source": "スティーヴン・ハルナッド",
+   "target": "カテゴリー知覚",
+   "rel": "カテゴリー知覚の論集を編んだ（大河の記憶）",
    "weight": "標準"
   },
   {
@@ -34876,6 +37149,18 @@
    "weight": "標準"
   },
   {
+   "source": "パーセプション・ギャップ",
+   "target": "エコーチェンバー現象",
+   "rel": "相手陣営の圧縮版を作る環境",
+   "weight": "標準"
+  },
+  {
+   "source": "パーセプション・ギャップ",
+   "target": "ステレオタイプ",
+   "rel": "相手を実際より極端だと思い込む",
+   "weight": "標準"
+  },
+  {
    "source": "パーソナリティのダークサイド",
    "target": "ヴァージル・ジーグラー・ヒル",
    "rel": "編者",
@@ -35014,6 +37299,12 @@
    "weight": "標準"
   },
   {
+   "source": "フィリップ・ファーンバック",
+   "target": "2013 Fernbach",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "フィールドにみえた社会性のゆらぎ",
    "target": "河合文",
    "rel": "編者",
@@ -35092,6 +37383,24 @@
    "weight": "標準"
   },
   {
+   "source": "フェルディナン・ド・ソシュール",
+   "target": "シニフィアンとシニフィエ",
+   "rel": "提唱",
+   "weight": "標準"
+  },
+  {
+   "source": "フェルディナン・ド・ソシュール",
+   "target": "記号の恣意性",
+   "rel": "提唱",
+   "weight": "標準"
+  },
+  {
+   "source": "フェルディナン・ド・ソシュール",
+   "target": "意味は差異から生まれる",
+   "rel": "提唱",
+   "weight": "標準"
+  },
+  {
    "source": "フェロモン",
    "target": "ヒトのフェロモン",
    "rel": "本書は寮効果を根拠に「何らかの形で知覚している可能性もある」と留保＝この地図の【2020 Wyatt】と対立",
@@ -35119,6 +37428,12 @@
    "source": "フォン・エコノモ・ニューロン",
    "target": "新規性-ルーチン化理論",
    "rel": "右半球で豊富→予期せぬ挑戦への備え",
+   "weight": "標準"
+  },
+  {
+   "source": "フランク・カイル",
+   "target": "2002 Rozenblit",
+   "rel": "共著者",
    "weight": "標準"
   },
   {
@@ -35305,6 +37620,18 @@
    "source": "マガモ",
    "target": "刷りこみ",
    "rel": "ヒナは声と動きで親を決める",
+   "weight": "標準"
+  },
+  {
+   "source": "マシュー・リーバーマン",
+   "target": "2007 Lieberman",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "マシュー・リーバーマン",
+   "target": "2015 Lieberman",
+   "rel": "筆頭著者",
    "weight": "標準"
   },
   {
@@ -35746,6 +38073,24 @@
    "weight": "標準"
   },
   {
+   "source": "レラ・ボロディツキー",
+   "target": "2007 Winawer",
+   "rel": "最終著者",
+   "weight": "標準"
+  },
+  {
+   "source": "レラ・ボロディツキー",
+   "target": "サピア＝ウォーフ仮説",
+   "rel": "弱い版の実証研究",
+   "weight": "標準"
+  },
+  {
+   "source": "ロシア語の青（色の境界の実験）",
+   "target": "カテゴリー知覚",
+   "rel": "色の境界をまたぐと速く見分ける",
+   "weight": "標準"
+  },
+  {
    "source": "ロバート・エプスタイン",
    "target": "B・F・スキナー",
    "rel": "弟子",
@@ -36082,6 +38427,30 @@
    "weight": "標準"
   },
   {
+   "source": "人工言語と記号接地",
+   "target": "記号接地問題",
+   "rel": "自分で作る言語はどこに接地しているか",
+   "weight": "強"
+  },
+  {
+   "source": "人工言語と記号接地",
+   "target": "オノマトペ",
+   "rel": "音が意味に似る＝音象徴を設計に入れる",
+   "weight": "標準"
+  },
+  {
+   "source": "人工言語と記号接地",
+   "target": "記号の恣意性",
+   "rel": "恣意的な語と・類像的な語の割合",
+   "weight": "標準"
+  },
+  {
+   "source": "人工言語と記号接地",
+   "target": "ブーバ・キキ効果",
+   "rel": "音と形の対応（大河の記憶）",
+   "weight": "標準"
+  },
+  {
    "source": "人為振動ノイズ",
    "target": "振動コミュニケーション",
    "rel": "脅かす",
@@ -36112,10 +38481,22 @@
    "weight": "標準"
   },
   {
+   "source": "今井むつみ",
+   "target": "言語の本質",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
    "source": "仕様ゲーミング",
    "target": "グッドハートの法則",
    "rel": "AI版・同じ法則",
    "weight": "強"
+  },
+  {
+   "source": "仕組みを説明させると穏やかになるか",
+   "target": "マイサイドバイアス",
+   "rel": "理由を述べると信念は強まる（追試でも再現）",
+   "weight": "標準"
   },
   {
    "source": "他者依存段階",
@@ -36457,6 +38838,18 @@
    "source": "共感的関心",
    "target": "思いやり",
    "rel": "近いが同じではない",
+   "weight": "標準"
+  },
+  {
+   "source": "内言",
+   "target": "アネンドファジア",
+   "rel": "内言が少ない（無い？）人",
+   "weight": "強"
+  },
+  {
+   "source": "内言",
+   "target": "ヴィゴツキー",
+   "rel": "内言を発達の中に位置づけた（大河の記憶）",
    "weight": "標準"
   },
   {
@@ -37214,6 +39607,12 @@
    "target": "未来の記憶",
    "rel": "展望記憶（これから何をすべきか）の動物版",
    "weight": "標準"
+  },
+  {
+   "source": "地図は土地ではない",
+   "target": "認知地図",
+   "rel": "頭の中の地図（同じ比喩の別の使いかた）",
+   "weight": "弱"
   },
   {
    "source": "垂直的発達",
@@ -38152,6 +40551,18 @@
    "weight": "標準"
   },
   {
+   "source": "意味は差異から生まれる",
+   "target": "ステレオタイプ",
+   "rel": "ラベルは内の違いを消し・外との差を広げる（動画の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "意味は差異から生まれる",
+   "target": "集団",
+   "rel": "「私たち」は「彼ら」なしに輪郭を持てない（動画の見立て）",
+   "weight": "標準"
+  },
+  {
    "source": "意識のミニマリスト的定義",
    "target": "中核意識",
    "rel": "対立（意識への執心は「変装した魂」・自己表象は幻影で足りる）",
@@ -38203,6 +40614,42 @@
    "source": "感じる左脳",
    "target": "脳の作戦会議",
    "rel": "呼び集める相手",
+   "weight": "標準"
+  },
+  {
+   "source": "感情の粒度",
+   "target": "構成主義的情動理論",
+   "rel": "情動は概念で構成される＝概念が細かいほど事例も細かい",
+   "weight": "強"
+  },
+  {
+   "source": "感情の粒度",
+   "target": "リサ・フェルドマン・バレット",
+   "rel": "提唱（emotional granularity の名づけ）",
+   "weight": "標準"
+  },
+  {
+   "source": "感情の粒度",
+   "target": "怒り",
+   "rel": "「なんかムカつく」を失望・屈辱・置き去りに分ける",
+   "weight": "標準"
+  },
+  {
+   "source": "感情の粒度",
+   "target": "失感情症",
+   "rel": "感情を言葉にしにくい側の極（大河の見立て）",
+   "weight": "弱"
+  },
+  {
+   "source": "感情ラベリング",
+   "target": "感情の粒度",
+   "rel": "ラベルを細かくすると",
+   "weight": "強"
+  },
+  {
+   "source": "感情ラベリング",
+   "target": "認知的再評価",
+   "rel": "似た効果だが・ラベリングは再評価を意図しない（大河の記憶）",
    "weight": "標準"
   },
   {
@@ -39142,6 +41589,12 @@
    "weight": "標準"
   },
   {
+   "source": "潜在的説得",
+   "target": "生成AIによる均質化",
+   "rel": "同じ書き手補助の別の効き目",
+   "weight": "標準"
+  },
+  {
    "source": "炎上",
    "target": "怒り",
    "rel": "燃料＝道徳的義憤の表明が強化される（Brady 2021）",
@@ -39343,6 +41796,12 @@
    "source": "生得的解発機構",
    "target": "超正常刺激",
    "rel": "セグロカモメ雛と赤い点の棒",
+   "weight": "標準"
+  },
+  {
+   "source": "生成AIによる均質化",
+   "target": "モデル崩壊",
+   "rel": "人間の側の裾が細る＝モデル崩壊の人間版（動画の推測）",
    "weight": "標準"
   },
   {
@@ -39961,6 +42420,12 @@
    "source": "神経症的傾向",
    "target": "MBTI",
    "rel": "対応する軸が無い",
+   "weight": "標準"
+  },
+  {
+   "source": "秋田喜美",
+   "target": "言語の本質",
+   "rel": "共著",
    "weight": "標準"
   },
   {
@@ -40786,6 +43251,48 @@
    "weight": "標準"
   },
   {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "説明深度の錯覚",
+   "rel": "1. 名前を言えることを分かったことと数えない",
+   "weight": "標準"
+  },
+  {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "仕組みを説明させると穏やかになるか",
+   "rel": "2. 立場でなく仕組みを説明させる（追試では態度は変わらず）",
+   "weight": "標準"
+  },
+  {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "言語隠蔽効果",
+   "rel": "3. まず見る・味わう・それから言う",
+   "weight": "標準"
+  },
+  {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "感情の粒度",
+   "rel": "4. 感情には最も細かい言葉を当てる",
+   "weight": "強"
+  },
+  {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "パーセプション・ギャップ",
+   "rel": "5. 相手の言葉でなく・相手の圧縮前を推定する",
+   "weight": "強"
+  },
+  {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "道徳的伝染",
+   "rel": "6. 感情語で拡散している情報を一段だけ疑う",
+   "weight": "標準"
+  },
+  {
+   "source": "言葉の野生を取り戻す7つのプロトコル",
+   "target": "生成AIによる均質化",
+   "rel": "7. AIの出力を平均への回帰として扱う",
+   "weight": "標準"
+  },
+  {
    "source": "言語が左半球に宿った理由",
    "target": "新規性-ルーチン化理論",
    "rel": "言語の左優位は「左＝ルーチン」の特殊例",
@@ -40804,10 +43311,208 @@
    "weight": "標準"
   },
   {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "言語隠蔽効果",
+   "rel": "圧縮の代償①＝言葉にすると元の像が壊れる",
+   "weight": "標準"
+  },
+  {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "カテゴリー知覚",
+   "rel": "圧縮の代償②＝境界の内を潰し・境界をまたぐ差を広げる",
+   "weight": "標準"
+  },
+  {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "記号接地問題",
+   "rel": "圧縮された記号は何に触れているか",
+   "weight": "標準"
+  },
+  {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "感情の粒度",
+   "rel": "圧縮の恩恵＝名前を付けた感情は扱える",
+   "weight": "強"
+  },
+  {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "地図は土地ではない",
+   "rel": "敵は圧縮でなく・圧縮を忘れること",
+   "weight": "強"
+  },
+  {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "自己情報量",
+   "rel": "圧縮の比喩の下敷き＝情報理論（大河の見立て）",
+   "weight": "弱"
+  },
+  {
+   "source": "言語という圧縮（捨てるから運べる）",
+   "target": "環世界",
+   "rel": "感覚も言語も・それぞれの地図（大河の見立て）",
+   "weight": "弱"
+  },
+  {
+   "source": "言語の本質",
+   "target": "オノマトペ",
+   "rel": "記号接地の入口",
+   "weight": "強"
+  },
+  {
+   "source": "言語の本質",
+   "target": "アブダクション推論",
+   "rel": "語彙を広げるしくみ",
+   "weight": "強"
+  },
+  {
+   "source": "言語の本質",
+   "target": "記号接地問題",
+   "rel": "本の問いの一つ",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "言語という圧縮（捨てるから運べる）",
+   "rel": "動画の芯＝言語は思考の器でなく圧縮プロトコル",
+   "weight": "強"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "言語隠蔽効果",
+   "rel": "導入（00:00）",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "言語ネットワーク",
+   "rel": "第1章（02:57）",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "内言",
+   "rel": "第1章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "シニフィアンとシニフィエ",
+   "rel": "第2章（06:37）",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "サピア＝ウォーフ仮説",
+   "rel": "第2章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "記号接地問題",
+   "rel": "第3章（11:05）",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "道徳的伝染",
+   "rel": "第4章（15:00）",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "パーセプション・ギャップ",
+   "rel": "第4章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "説明深度の錯覚",
+   "rel": "第4章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "意味は差異から生まれる",
+   "rel": "第5章（19:14）＝ラベルが敵をつくる",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "タコのテスト",
+   "rel": "第6章（22:24）",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "潜在的説得",
+   "rel": "第6章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "生成AIによる均質化",
+   "rel": "第6章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "モデル崩壊",
+   "rel": "第6章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "感情ラベリング",
+   "rel": "第7章（27:14）＝反転",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "感情の粒度",
+   "rel": "第7章",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "地図は土地ではない",
+   "rel": "第7章の結び",
+   "weight": "標準"
+  },
+  {
+   "source": "言語は「思考の器」ではない（ASTRENCE）",
+   "target": "言葉の野生を取り戻す7つのプロトコル",
+   "rel": "第8章（30:28）",
+   "weight": "強"
+  },
+  {
    "source": "言語スタイルマッチング",
    "target": "カメレオン効果",
    "rel": "身体の模倣と同じく無意識の同期（大河の見立て）",
    "weight": "標準"
+  },
+  {
+   "source": "言語ネットワーク",
+   "target": "二重乖離",
+   "rel": "言語と思考が別の仕組みだと示す論法",
+   "weight": "強"
+  },
+  {
+   "source": "言語ネットワーク",
+   "target": "言語が左半球に宿った理由",
+   "rel": "同じ領域の別の問い",
+   "weight": "標準"
+  },
+  {
+   "source": "言語ネットワーク",
+   "target": "失語症",
+   "rel": "言語ネットワークが壊れても思考は残る例",
+   "weight": "標準"
+  },
+  {
+   "source": "言語隠蔽効果",
+   "target": "記憶の再構成",
+   "rel": "言葉にすることで記憶が書き換わる（大河の見立て）",
+   "weight": "弱"
   },
   {
    "source": "計算論的精神医学",
@@ -40850,6 +43555,42 @@
    "target": "水準間の説明ギャップ",
    "rel": "橋になる中間の数",
    "weight": "標準"
+  },
+  {
+   "source": "記号の恣意性",
+   "target": "ホケットの言語の特徴",
+   "rel": "ホケットの16特徴の「恣意性」と同じ性質",
+   "weight": "標準"
+  },
+  {
+   "source": "記号の恣意性",
+   "target": "オノマトペ",
+   "rel": "例外＝音と意味が似ている（類像性）",
+   "weight": "標準"
+  },
+  {
+   "source": "記号接地問題",
+   "target": "オノマトペ",
+   "rel": "接地の最初の杭（今井・秋田の答え）",
+   "weight": "強"
+  },
+  {
+   "source": "記号接地問題",
+   "target": "タコのテスト",
+   "rel": "現代版＝形式だけで学んだ系は意味を持てるか",
+   "weight": "強"
+  },
+  {
+   "source": "記号接地問題",
+   "target": "中国語の部屋",
+   "rel": "下敷きにした思考実験（サール1980・大河の記憶）",
+   "weight": "標準"
+  },
+  {
+   "source": "記号接地問題",
+   "target": "局所記号",
+   "rel": "記号が何を指すかの別の問い（大河の見立て）",
+   "weight": "弱"
   },
   {
    "source": "記憶の二重貯蔵モデルと境界知能",
@@ -41029,6 +43770,18 @@
    "source": "誤信念テスト",
    "target": "2001 Baron-Cohen",
    "rel": "この地図の目から心を読むテストの系譜と同じ著者（Baron-Cohen 1985の誤信念テスト）",
+   "weight": "標準"
+  },
+  {
+   "source": "説明深度の錯覚",
+   "target": "仕組みを説明させると穏やかになるか",
+   "rel": "錯覚を崩すと態度は変わるか",
+   "weight": "強"
+  },
+  {
+   "source": "説明深度の錯覚",
+   "target": "メタ認知",
+   "rel": "自分の理解の深さの測り違い",
    "weight": "標準"
   },
   {
@@ -41251,6 +44004,18 @@
    "source": "道徳の起源論の系譜（歴史なき理論）",
    "target": "チャールズ・ダーウィン",
    "rel": "系譜の起点＝『人間の由来』1871「社会的本能を授かった動物は…道徳観念や良心を必然的に獲得する」（p.11-12）",
+   "weight": "標準"
+  },
+  {
+   "source": "道徳的伝染",
+   "target": "SNS",
+   "rel": "SNSは圧縮率が高く感情を帯びた記号を選んで増幅する装置（動画の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "道徳的伝染",
+   "target": "怒り",
+   "rel": "道徳感情語＝怒りと善悪の判断が一つになった語",
    "weight": "標準"
   },
   {
