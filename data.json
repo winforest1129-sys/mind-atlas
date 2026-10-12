@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09 21:07",
+ "generated": "2026-10-12 09:47",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -156,6 +156,39 @@
    "stub": false
   },
   {
+   "id": "1962 Calhoun",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Population density and social pathology",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/13875732/",
+     "note": "未読で確かめた（PMID 13875732）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1962 Calhoun.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1962",
+    "著者": "Calhoun JB",
+    "雑誌": "Scientific American 206(2):139-148",
+    "書誌の出どころ": "Europe PMC（2026-10-12）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Population density and social pathology**\n\nCalhoun JB（1962）／ *Scientific American 206(2):139-148*",
+    "この地図で": "- **[[ユニバース25（カルフーンのネズミの楽園）]]** の前段＝ラットの過密実験。==社会の崩れの渦を **behavioral sink（行動の沈殿）** と呼んだ==（[[2009 Ramsden]] による）",
+    "注意": "書誌は Europe PMC（PMID 13875732）。DOI は Crossref で引けなかった",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1965 Good",
    "type": "論文",
    "confidence": "確認済",
@@ -213,6 +246,40 @@
     "これは何か": "**Submission: Its Features and Function in the Wolf and Dog（Schenkel 1967）**\nバーゼルの Rudolf Schenkel。飼育下のオオカミの群れとイヌを長年観察した結果から、服従を定義しなおした論文。",
     "この地図で、どこに効いているか": "- **[[服従の姿勢]]** ── 冒頭の節「A critical review of the concept of Lorenz」（pp.319-321）で、==『ソロモンの指環』第12章の中心の場面を「ローレンツは誤解した」と明言==。\n  ローレンツが見た**噛む抑制は実在する**が、**抑制していたのは劣位のほう**。「首を差し出す降伏」に見える姿勢（尾と耳が立つ）は**優位の側の挑発・威嚇**で、体当たりや押し倒しへ移る準備段階。同じ姿勢と戦法はジャッカル・キツネ・イタチ科・ジャコウネコ科・マーモットにもある\n- **定義**（p.321-）── 服従＝劣位の個体が友好的な社会的統合を得ようとする努力。相手にそれに応じる態度が無ければ機能しない。\n  形は==儀式化・象徴化された子の行動==＝**能動的服従**（餌乞い・口元を舐める）と**受動的服従**（母に舐められるときの姿勢・仰向け）\n- **激しい闘いの終わりには起きない**（p.326）── 服従を闘いの三段階の最後に置くローレンツ／Fischel と対照的\n- ローレンツ自身が『攻撃』（1963）で服従の定義を「攻撃の意図運動をすべて避ける儀式化された非攻撃」へ変えたことも指摘（p.319）",
     "読みかた": "!!同じ Whipsnade のオオカミを見て、二人が逆の優劣を読んだ!!。==どちらが優位かは、尾と耳の向き・その直後に何が起きたか（誰が押し倒したか）で決まる==。観察は同じでも、解釈の枠（「急所を差し出す」という物語）が読みを変えた例。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1973 Calhoun",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Death Squared: The Explosive Growth and Demise of a Mouse Population",
+     "url": "https://doi.org/10.1177/00359157730661P202",
+     "note": "未読（要旨なし）で確かめた（PMID 4734760）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1973 Calhoun.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1973",
+    "著者": "Calhoun JB",
+    "雑誌": "Proceedings of the Royal Society of Medicine 66(1 Pt 2):80-88",
+    "DOI": "10.1177/00359157730661P202",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Death Squared: The Explosive Growth and Demise of a Mouse Population**\n\nCalhoun JB（1973）／ *Proceedings of the Royal Society of Medicine 66(1 Pt 2):80-88*",
+    "この地図で": "- **[[ユニバース25（カルフーンのネズミの楽園）]]** の報告。著者所属＝米国国立精神衛生研究所（NIMH）（Crossref）",
+    "注意": "本文は読んでいない。中身は二次資料と大河の記憶による",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2887,6 +2954,40 @@
    "stub": false
   },
   {
+   "id": "2009 Ramsden",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "The urban animal: population density and social pathology in rodents and humans",
+     "url": "https://doi.org/10.2471/blt.09.062836",
+     "note": "本文（PMC2636191・論説）で確かめた（PMID 19274352）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2009 Ramsden.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2009",
+    "著者": "Ramsden E",
+    "雑誌": "Bulletin of the World Health Organization 87(2):82",
+    "DOI": "10.2471/blt.09.062836",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "部分"
+   },
+   "sections": {
+    "これは何か": "**The urban animal: population density and social pathology in rodents and humans**\n\nRamsden E（2009）／ *Bulletin of the World Health Organization 87(2):82*",
+    "この地図で": "- **[[ユニバース25（カルフーンのネズミの楽園）]]** の読まれ方への科学史からの注意。==研究者たちは・これが物理的な密度でなく**社会的接触の度合い**の話だと受け取った==。望まない接触を減らす**空間設計**でストレスは下げられる\n- カルフーン自身は「人口密度＝病理」と縮められたことに**落胆**していた・後年の研究は**より協調的で密度に耐える共同体の設計**へ向かった\n- 人の過密研究は**一貫しない**（Freedman の実験では病理はほとんど出ず・「密度（物理量）」と「混み合い感（主観）」が分けられた）\n- 同じ著者の Ramsden & Adams 2009（J Soc Hist 42(3):761-792）・Ramsden 2011（Isis）が詳しいが・未読",
+    "注意": "!!動画が言う「攻撃的な個体が空間と資源を占有した」はこの論説には出てこない。未確認!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2009 Reynierse",
    "type": "論文",
    "confidence": "確認済",
@@ -3131,6 +3232,40 @@
    "sections": {
     "これは何か": "**Fate Mapping Analysis Reveals That Adult Microglia Derive from Primitive Macrophages**\n\nGinhoux ら（12名）（2010）／ *Science*",
     "この地図で、どこに効いているか": "⭐**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[ミクログリア]]** ── 成体のミクログリアは、生後の造血前駆細胞からはほとんど補充されず、胎生8日より前に生じる原始的な骨髄系前駆細胞に由来する。CSF-1受容体が無いと発生しない。2026-10-07にPubMedの要旨で確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2010 Killingsworth",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "A Wandering Mind Is an Unhappy Mind",
+     "url": "https://doi.org/10.1126/science.1192439",
+     "note": "要旨のみで確かめた（PMID 21071660）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Killingsworth.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Killingsworth MA・Gilbert DT",
+    "雑誌": "Science 330(6006):932",
+    "DOI": "10.1126/science.1192439",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**A Wandering Mind Is an Unhappy Mind**\n\nKillingsworth MA・Gilbert DT（2010）／ *Science 330(6006):932*",
+    "この地図で": "- **[[マインドワンダリング]]** ── スマホで思考・気分・行動を抜き取り調査。==いま起きていないことを考えている頻度は・起きていることを考える頻度とほぼ同じ==・そしてそのとき人は**ふだん不幸**",
+    "注意": "!!動画の「2250人・46.9%」は要旨には出ない。数字は本文で照合していない（大河の記憶とは合う）!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3610,6 +3745,72 @@
    "stub": false
   },
   {
+   "id": "2012 Eastwood",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "The Unengaged Mind: Defining Boredom in Terms of Attention",
+     "url": "https://doi.org/10.1177/1745691612456044",
+     "note": "要旨のみで確かめた（PMID 26168505）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2012 Eastwood.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2012",
+    "著者": "Eastwood JD・Frischen A・Fenske MJ・Smilek D",
+    "雑誌": "Perspectives on Psychological Science 7(5):482-495",
+    "DOI": "10.1177/1745691612456044",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The Unengaged Mind: Defining Boredom in Terms of Attention**\n\nEastwood JD・Frischen A・Fenske MJ・Smilek D（2012）／ *Perspectives on Psychological Science 7(5):482-495*",
+    "この地図で": "- **[[退屈]]** の定義。==「満足のいく活動に関わりたいのに・関われないという嫌悪的な経験」==。注意の言葉で言い直すと (a) 必要な内外の情報に注意を向けられない (b) 向けられないこと自体に気づいている (c) 原因を環境のせいにする\n- 動画が引くダンカートとイーストウッドの定義（「何かしたいのに・どの選択肢にも心が動かない」）は・この論文の定義と同じ筋",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2012 Friston",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Free-Energy Minimization and the Dark-Room Problem",
+     "url": "https://doi.org/10.3389/fpsyg.2012.00130",
+     "note": "要旨のみで確かめた（PMID 22586414）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2012 Friston.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2012",
+    "著者": "Friston K・Thornton C・Clark A",
+    "雑誌": "Frontiers in Psychology 3:130",
+    "DOI": "10.3389/fpsyg.2012.00130",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Free-Energy Minimization and the Dark-Room Problem**\n\nFriston K・Thornton C・Clark A（2012）／ *Frontiers in Psychology 3:130*",
+    "この地図で": "- **[[暗い部屋問題]]** ── 「生き物は暗く変化のない部屋にこもらない」という批判への・提唱者側の応答。エディントンの本の序の形式を借り・**Thornton（情報理論）・Friston（物理）・Clark（哲学）の対話**で書かれている\n- 動画の「フリストンら自身が2012年に正面から取り上げた」はこれ",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2012 Iliff",
    "type": "論文",
    "confidence": "確認済",
@@ -3737,6 +3938,39 @@
    "sections": {
     "これは何か": "**Spontaneous prediction error generation in schizophrenia（Yamashita & Tani 2012）**",
     "この地図で、どこに効いているか": "- **[[自発的予測誤差]]** ── 階層的ネットワークに統合失調症に似た欠陥を入れて人型ロボットを動かした。軽い乱れでは行動は変わらないのに予測誤差が内側で自発的に出る（エピソード的な患者）、重い乱れでは行動が変わる（慢性の患者）。\n- 第一著者の Yuichi Yamashita（PubMed の表記・2012年の所属は理研）は、[[2021 山下]]の辞典項目の著者と同じ人と見てよさそう（[[2020 Kato]]の所属が辞典の記載と一致する）。!!同一人物の確認は名前と所属の一致まで。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2013 Bench",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "On the Function of Boredom",
+     "url": "https://doi.org/10.3390/bs3030459",
+     "note": "要旨のみ（OA）で確かめた（PMID 25379249）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Bench.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Bench SW・Lench HC",
+    "雑誌": "Behavioral Sciences 3(3):459-472",
+    "DOI": "10.3390/bs3030459",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**On the Function of Boredom**\n\nBench SW・Lench HC（2013）／ *Behavioral Sciences 3(3):459-472*",
+    "この地図で": "- **[[退屈]]** の**機能説**。==退屈しているとき (1) いまの課題への注意が下がり (2) 経験は負で嫌悪的 (3) 自律神経の覚醒が上がって代わりを追う準備をする==。動画の「3点セット」はこの要旨どおり\n- 著者ら自身が「**限られた既存文献**」と書き・実験研究を求めている＝動画の「有力な仮説であって定説ではない」と同じ温度",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4259,6 +4493,40 @@
    "stub": false
   },
   {
+   "id": "2014 Fox",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Is thinking really aversive? A commentary on Wilson et al.'s \"Just think: the challenges of the disengaged mind\"",
+     "url": "https://doi.org/10.3389/fpsyg.2014.01427",
+     "note": "本文（PMC4260464・CC BY）で確かめた（PMID 25538668）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Fox.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Fox KCR・Thompson E・Andrews-Hanna JR・Christoff K",
+    "雑誌": "Frontiers in Psychology 5:1427",
+    "DOI": "10.3389/fpsyg.2014.01427",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "部分"
+   },
+   "sections": {
+    "これは何か": "**Is thinking really aversive? A commentary on Wilson et al.'s \"Just think: the challenges of the disengaged mind\"**\n\nFox KCR・Thompson E・Andrews-Hanna JR・Christoff K（2014）／ *Frontiers in Psychology 5:1427*",
+    "この地図で": "- **[[2014 Wilson]]** への論評。==元データ（OSF）を読み直すと・考えるだけの時間は3つの尺度とも**中点（まあ楽しい・まあ面白い・まあ退屈）**==\n- 「外の作業」はテレビ・ゲーム・ウェブなど**本人が選んだ楽しい活動**で・mundane（ありふれた）ではない。==チョコより性行為を楽しいと答えたからチョコが嫌悪的、とは言えない==\n- 研究10＝**57%は一度も押さず**・3回以上は17%。==押した18人のうち14人が「ショックがどんな感じか気になった」（好奇心）を理由に挙げ・退屈は4人==\n- ⭐**大河の見立て**＝この「好奇心で押した」は・動画の後半（退屈は**情報の飢餓**）とむしろ噛み合う。動画はこの論評を「考えることが不快か・行動できないことが不快か区別できない」と紹介するが・論評の主眼は**データの読み方そのもの**",
+    "注意": "!!動画が言う「同じ2014年の別の研究者のコメント論文」はおそらくこれ。紹介された論点は論評の一部（チョコの喩え＝指示されて続けることの不快）にしか当たらない!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2014 Johnson",
    "type": "論文",
    "confidence": "確認済",
@@ -4451,6 +4719,40 @@
    "stub": false
   },
   {
+   "id": "2014 Wilson",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Just think: The challenges of the disengaged mind",
+     "url": "https://doi.org/10.1126/science.1250830",
+     "note": "本文（PMC4330241）で確かめた（PMID 24994650）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Wilson.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Wilson TD・Reinhard DA・Westgate EC・Gilbert DT・Ellerbeck N・Hahn C・Brown CL・Shaked A",
+    "雑誌": "Science 345(6192):75-77",
+    "DOI": "10.1126/science.1250830",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "部分"
+   },
+   "sections": {
+    "これは何か": "**Just think: The challenges of the disengaged mind**\n\nWilson TD・Reinhard DA・Westgate EC・Gilbert DT・Ellerbeck N・Hahn C・Brown CL・Shaked A（2014）／ *Science 345(6192):75-77*",
+    "この地図で": "- **[[ただ考えるだけの時間（電気ショックの実験）]]** ── 11研究。6〜15分ひとりで考えるだけの時間は楽しまれず・外の作業のほうが好まれ・自分に電気ショックを与えるほうを選ぶ人が多かった。研究10＝「お金を払ってでも避けたい」と答えた人のうち**男性67%（18人中12）・女性25%（24人中6）**が1回以上押した（本文で確認）",
+    "注意": "!!190回押した1人は本文では**外れ値として平均から除外**されている。動画はそこを言わない!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2014 Zaki",
    "type": "論文",
    "confidence": "確認済",
@@ -4574,6 +4876,73 @@
    "sections": {
     "これは何か": "**The Blood–Brain Barrier**\n\nDaneman & Prat（2015）／ *Cold Spring Harbor Perspectives in Biology*",
     "この地図で、どこに効いているか": "⭐**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[アストロサイト]]** ── BBBの性質は周りの細胞との相互作用で調節される。2026-10-07にPubMedの要旨で確認\n- **[[血液脳関門]]** ── 中枢神経の血管がもつ性質としてのBBB。イオン・分子・細胞の出入りを厳しく調節する。その性質は血管内皮細胞の物理的・輸送・代謝の特性によるもので、周りの血管・免疫・神経の細胞との相互作用で調節される。2026-10-07にPubMedの要旨で確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 England",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Dissipative adaptation in driven self-assembly",
+     "url": "https://doi.org/10.1038/nnano.2015.250",
+     "note": "要旨のみで確かめた（PMID 26530021）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 England.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "England JL",
+    "雑誌": "Nature Nanotechnology 10(11):919-923",
+    "DOI": "10.1038/nnano.2015.250",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Dissipative adaptation in driven self-assembly**\n\nEngland JL（2015）／ *Nature Nanotechnology 10(11):919-923*",
+    "この地図で": "- **[[散逸適応]]** ── 平衡ではボルツマン分布で配置の確率が決まるが・外から仕事をされ続ける系ではそれが難しい。著者は「**吸収した仕事の散逸による自己組織化**」という一般的な熱力学の仕組みが・多くの駆動された多体系に当てはまるかもしれない、と**提案**する",
+    "注意": "!!要旨の語は I propose / may be applicable。生命の起源の説明として確立したものではない（動画も同じ断りを入れている）!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 Friston",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Active inference and epistemic value",
+     "url": "https://doi.org/10.1080/17588928.2015.1020053",
+     "note": "要旨のみで確かめた（PMID 25689102）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Friston.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Friston K・Rigoli F・Ognibene D・Mathys C・Fitzgerald T・Pezzulo G",
+    "雑誌": "Cognitive Neuroscience 6(4):187-214",
+    "DOI": "10.1080/17588928.2015.1020053",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Active inference and epistemic value**\n\nFriston K・Rigoli F・Ognibene D・Mathys C・Fitzgerald T・Pezzulo G（2015）／ *Cognitive Neuroscience 6(4):187-214*",
+    "この地図で": "- **[[期待自由エネルギー]]** ── ==方策の価値＝外的価値（期待効用）＋認識的価値（情報利得）==。**情報利得が尽きるまでは認識的価値が最大化され・その後に利用へ移る**＝探索と利用のジレンマの解き方\n- 精度の更新がドーパミンの発火と似る、とも書く（[[ウォンティングとライキング]]とは別の筋のドーパミン論）\n- 動画の第4章「気持ちよくなれるか・賢くなれるか」はこの分解の言い換え",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5095,6 +5464,39 @@
    "stub": false
   },
   {
+   "id": "2016 Berridge",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Liking, wanting, and the incentive-sensitization theory of addiction",
+     "url": "https://doi.org/10.1037/amp0000059",
+     "note": "要旨のみで確かめた（PMID 27977239）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Berridge.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Berridge KC・Robinson TE",
+    "雑誌": "American Psychologist 71(8):670-679",
+    "DOI": "10.1037/amp0000059",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Liking, wanting, and the incentive-sensitization theory of addiction**\n\nBerridge KC・Robinson TE（2016）／ *American Psychologist 71(8):670-679*",
+    "この地図で": "- **[[ウォンティングとライキング]]** ── ==「欲しがる」（誘因サリエンス）は中脳辺縁系ドーパミンを含む**大きく頑健な**系・「好む」（実際の快）は**小さく壊れやすい**系で・ドーパミンに依存しない==\n- **誘因感作理論**＝依存の本質は手がかりで引き出される「欲しがる」の過剰な増幅で・「好む」の増幅を必ずしも伴わない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2016 Clementz",
    "type": "論文",
    "confidence": "確認済",
@@ -5215,6 +5617,39 @@
    "sections": {
     "これは何か": "**Mating disruption of a grapevine pest using mechanical vibrations: from laboratory to the field**\n\nPolajnar ら（4名）（2016）／ *Journal of Pest Science*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[人為振動ノイズ]]** ── 人為振動が繁殖をほぼ止められることの実証。ブドウ樹に撹乱振動を与えるとヨコバイ Scaphoideus titanus の交尾率は半野外で9%、成木の畑で4%まで低下した（数値は Polajnar ら2016の総括章 doi 10.1007/978-3-319-31800-4_9 の記載による）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2016 Van Tilburg",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Going to political extremes in response to boredom",
+     "url": "https://doi.org/10.1002/ejsp.2205",
+     "note": "要旨のみ（Crossref）で確かめた（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Van Tilburg.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Van Tilburg WAP・Igou ER",
+    "雑誌": "European Journal of Social Psychology 46(6):687-699",
+    "DOI": "10.1002/ejsp.2205",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Going to political extremes in response to boredom**\n\nVan Tilburg WAP・Igou ER（2016）／ *European Journal of Social Psychology 46(6):687-699*",
+    "この地図で": "- **[[退屈と政治的極端化]]** ── 研究1＝退屈を実験で起こすと政治的立場がより極端に／研究2＝退屈しやすい人は極端な端に寄る／研究3＝その差は**意味の探索**の高まりで説明される\n- 著者所属（Crossref）＝Van Tilburg は King's College London・Igou は University of Limerick",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5903,6 +6338,40 @@
    "stub": false
   },
   {
+   "id": "2018 Westgate",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Boring thoughts and bored minds: The MAC model of boredom and cognitive engagement",
+     "url": "https://doi.org/10.1037/rev0000097",
+     "note": "要旨のみで確かめた（PMID 29963873）（2026-10-12）。動画には出ない・大河が足した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Westgate.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Westgate EC・Wilson TD",
+    "雑誌": "Psychological Review 125(5):689-713",
+    "DOI": "10.1037/rev0000097",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Boring thoughts and bored minds: The MAC model of boredom and cognitive engagement**\n\nWestgate EC・Wilson TD（2018）／ *Psychological Review 125(5):689-713*",
+    "この地図で": "- **[[退屈]]** の**MACモデル**（意味と注意の成分）。==退屈は (a) 認知の要求と使える資源のずれ（**少なすぎ・多すぎの両方**）と (b) 活動と大事な目標のずれ（または目標が無いこと）から生まれる==\n- ⭐**動画は取り上げていない**が・この地図では効く。「刺激の多すぎ」でも退屈が起きる＝[[デジタル・スイッチング]]の「刺激を増やしても退屈が減らない」に・動画とは別の説明を与える\n- 共著の Westgate は [[2014 Wilson]] と [[2021 Pfattheicher]] の共著者でもある",
+    "注意": "⚠この論文は動画に出てこない。大河が退屈の理論の現在地として足した",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2018 Wrangham",
    "type": "論文",
    "confidence": "確認済",
@@ -5964,6 +6433,39 @@
    "sections": {
     "これは何か": "**Structure of the alexithymic brain: A parametric coordinate-based meta-analysis**\n\nXu ら（5名）（2018）／ *Neuroscience and biobehavioral reviews*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[失感情症]]** ── ==17の構造画像研究・のべ2586名のメタ分析。==失感情傾向の高い人では、左島皮質・左扁桃体・眼窩前頭皮質・線条体の体積が一貫して小さかった。!!報告されているのは左側。!!2026-09-08に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2019 Buttrick",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Cross-cultural consistency and relativity in the enjoyment of thinking versus doing",
+     "url": "https://doi.org/10.1037/pspp0000198",
+     "note": "要旨のみで確かめた（PMID 30035566）（2026-10-12）。動画には出ない・大河が足した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Buttrick.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Buttrick N・Choi H・Wilson TD・Oishi S・Boker SM・Gilbert DT ほか（30名）",
+    "雑誌": "Journal of Personality and Social Psychology 117(5):e71-e83",
+    "DOI": "10.1037/pspp0000198",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Cross-cultural consistency and relativity in the enjoyment of thinking versus doing**\n\nButtrick N・Choi H・Wilson TD・Oishi S・Boker SM・Gilbert DT ほか（30名）（2019）／ *Journal of Personality and Social Psychology 117(5):e71-e83*",
+    "この地図で": "- **[[ただ考えるだけの時間（電気ショックの実験）]]** の**「考える vs する」の部分**を11か国で追試。==どの国でも「何かする」群が楽しさで上回った==\n- 国ごとの差は5つの個人差で説明しきれた（認知欲求・開放性・瞑想経験・はじめの気分＝考える楽しさと正／**スマホ使用量＝負**）\n- ⚠**電気ショックの部分は追試していない**（要旨の範囲）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6524,6 +7026,40 @@
    "stub": false
   },
   {
+   "id": "2020 Weybright",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "More Bored Today Than Yesterday? National Trends in Adolescent Boredom From 2008 to 2017",
+     "url": "https://doi.org/10.1016/j.jadohealth.2019.09.021",
+     "note": "要旨のみで確かめた（PMID 31711838）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Weybright.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Weybright EH・Schulenberg J・Caldwell LL",
+    "雑誌": "Journal of Adolescent Health 66(3):360-365",
+    "DOI": "10.1016/j.jadohealth.2019.09.021",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**More Bored Today Than Yesterday? National Trends in Adolescent Boredom From 2008 to 2017**\n\nWeybright EH・Schulenberg J・Caldwell LL（2020）／ *Journal of Adolescent Health 66(3):360-365*",
+    "この地図で": "- **[[退屈]]** ── 米国 Monitoring the Future（8・10・12年生・**n=106,784**）。==退屈は学年をまたいでも学年の中でも年ごとに増え・女子の増え方が大きい==。男子は10年生で山・女子は学年が上がると下がる\n- 著者は同時期の**メンタルヘルスの悪化**と並行している可能性を書く（因果は言っていない）",
+    "注意": "!!数字（10.7万人・女子で大）は要旨と一致。動画は「娯楽装置が増えたのに退屈が増えた」と因果めかして語るが・論文は傾向を示しただけ!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2020 Wyatt",
    "type": "論文",
    "confidence": "確認済",
@@ -6846,6 +7382,40 @@
    "sections": {
     "これは何か": "**Sty in the Mind’s Eye: A Meta-Analytic Investigation of the Nomological Network and Internal Consistency of the “Reading the Mind in the Eyes” Test**\n\nKittel ら（3名）（2021）／ *Assessment*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[共感の測りかたの問題]]** ── RMETは他の心の理論課題より情動知覚と強く関係し、語彙とも弱〜中程度に関係する。心の理論の指標というより情動知覚の指標として働いている。2026-09-03に確認\n- **[[目から心を読むテスト]]** ── メタ分析。RMETは他の心の理論課題より情動知覚と強く関係し、語彙とも弱〜中程度に関係する。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2021 Pfattheicher",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "On the relation of boredom and sadistic aggression",
+     "url": "https://doi.org/10.1037/pspi0000335",
+     "note": "要旨のみで確かめた（PMID 33030934）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Pfattheicher.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Pfattheicher S・Lazarević LB・Westgate EC・Schindler S",
+    "雑誌": "Journal of Personality and Social Psychology 121(3):573-600",
+    "DOI": "10.1037/pspi0000335",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**On the relation of boredom and sadistic aggression**\n\nPfattheicher S・Lazarević LB・Westgate EC・Schindler S（2021）／ *Journal of Personality and Social Psychology 121(3):573-600*",
+    "この地図で": "- **[[退屈とサディズム]]** ── 9研究。退屈しやすい人ほどサディスティック（研究1A-1F・**N=1,780**）／荒らし・軍隊・親・空想でも同じ（研究2-5・N=1,740）／退屈を実験で起こすとサディスティックな行動が増える（虫をつぶす・他の参加者の報酬を壊す・研究6-9・**N=4,097**）\n- ⚠⚠**選択肢しだい**＝選択肢がいくつもあると・退屈がサディズムを動かすのは**もともとサディズム傾向の高い人だけ**（研究7）。選択肢が無いと・低い人でも増える（研究8・9）\n- 媒介＝**興奮と新奇さの追求**",
+    "注意": "!!動画は「退屈が加害を引き起こす方向の証拠」とだけ言い・**選択肢があれば傾向の高い人に限られる**という条件を言わない。また動画は著者を「デンマークの心理学者」と言うが・所属は Crossref の著者欄に無く未確認!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7758,6 +8328,40 @@
     "これは何か": "**AI models collapse when trained on recursively generated data**\n\nShumailov I ほか（6名）（2024）／ *Nature 631(8022):755-759*",
     "この地図で": "- **[[モデル崩壊]]** ── モデルが生成した内容を無差別に学習に使うと・==元の分布の裾が消える==不可逆の欠陥が出る。LLM・VAE・混合ガウスで示した。==本物の人間のやりとりのデータの価値が上がる==",
     "注意": "2025年に著者訂正（Nature 640:E6）が出ている。中身は未読",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2024 Tam",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Fast-forward to boredom: How switching behavior on digital media makes people more bored",
+     "url": "https://doi.org/10.1037/xge0001639",
+     "note": "要旨のみで確かめた（PMID 39158465）（2026-10-12）。動画 映05 が引いた論文"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2024 Tam.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2024",
+    "著者": "Tam KYY・Inzlicht M",
+    "雑誌": "Journal of Experimental Psychology: General 153(10):2409-2426",
+    "DOI": "10.1037/xge0001639",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-12）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Fast-forward to boredom: How switching behavior on digital media makes people more bored**\n\nTam KYY・Inzlicht M（2024）／ *Journal of Experimental Psychology: General 153(10):2409-2426*",
+    "この地図で": "- **[[デジタル・スイッチング]]** ── 7実験（**N=1,223**・6本が事前登録）。退屈すると切り替え（研究1）・切り替えれば退屈が減ると信じている（研究2）。==しかし動画間（研究3）でも動画内（研究4）でも・切り替えると退屈は**増え**・満足・注意・意味が下がった==。YouTube で好きな動画を選ばせても同じ（研究5）\n- ⚠**記事や大学外の参加者では結果がはっきりしなかった**（研究6）・機会費用の要因かもしれない（研究7）",
+    "注意": "!!動画は研究6の「はっきりしなかった」を言わない。「10分の動画」「半数以上が事前に…」は要旨に無く未照合!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -9990,6 +10594,45 @@
    "stub": false
   },
   {
+   "id": "ただ考えるだけの時間（電気ショックの実験）",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Wilson TD ほか 2014 Just think. Science 345(6192):75-77",
+     "url": "https://doi.org/10.1126/science.1250830",
+     "note": "本文（PMC4330241）で数字を確認（2026-10-12）"
+    },
+    {
+     "title": "Fox KCR ほか 2014 Is thinking really aversive? Frontiers in Psychology 5:1427",
+     "url": "https://doi.org/10.3389/fpsyg.2014.01427",
+     "note": "本文（CC BY）で確認（2026-10-12）"
+    },
+    {
+     "title": "Buttrick N ほか 2019 Cross-cultural consistency and relativity in the enjoyment of thinking versus doing. JPSP 117(5):e71-e83",
+     "url": "https://doi.org/10.1037/pspp0000198",
+     "note": "要旨で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ただ考えるだけの時間（電気ショックの実験）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "何をした実験か": "[[2014 Wilson]]＝11研究。大学生から高齢者まで・実験室でも自宅でも・**6〜15分ひとりで考えるだけ**の時間を与えた。\n- 多くの人は楽しまず・新聞を読むなどの外の作業のほうを好んだ\n- 研究10＝あらかじめ受けた電気ショックを「お金を払ってでも避けたい」と答えた人に・15分の間ボタンで自分にショックを与えてよいと告げた。==男性67%（18人中12）・女性25%（24人中6）が1回以上押した==。190回押した男性1人は**外れ値として除外**",
+    "論争（赤線）": "[[2014 Fox]]＝元データを読み直すと・\n- 考えるだけの時間は**平均で「まあ楽しい・まあ面白い・まあ退屈」**（9段階の中点）で・嫌悪的とは言えない\n- 比べた「外の作業」はテレビ・ゲーム・ウェブなど**本人が選んだ楽しい活動**\n- ==研究10で**57%は一度も押さなかった**。押した18人中14人の理由は**好奇心**（ショックがどんな感じか）・退屈は4人==\n\nWilson らはすぐに応答している（Front Psychol 5:1428「Would you fund this movie?」・⚠未読）。",
+    "追試": "[[2019 Buttrick]]＝11か国12拠点 2,557人。==「考えるより何かする方が楽しい」は全ての国で再現==。⚠電気ショックの部分は追試していない。",
+    "大河の見立て": "**残ったもの**＝「ひとりで考えるだけの時間は・何かすることより楽しまれにくい」（頑健）。\n**揺れているもの**＝「考えるだけの時間は電気ショックを選ぶほど嫌悪的」（解釈が割れている）。\n⭐そして押した理由の多くが**好奇心**だったことは・動画の後半の「退屈は情報の飢餓」とむしろ噛み合う。電気ショックは**新しい情報**でもあった。",
+    "動画での使われ方（00:00・02:44）": "冒頭のつかみ。動画は「11の実験」「67%と25%」「190回」を正しく引くが・==190回が外れ値だったこと・過半数は押さなかったこと==を言わない。論評については「考えることが不快か・行動できないことが不快か区別できない」と紹介するが・[[2014 Fox]] の主眼は**データの読み方そのもの**。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "なじみの道",
    "type": "用語",
    "confidence": "確認済",
@@ -10934,6 +11577,25 @@
    "stub": false
   },
   {
+   "id": "イリヤ・プリゴジン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/イリヤ・プリゴジン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Ilya Prigogine。==1977年ノーベル化学賞「非平衡熱力学、とくに散逸構造の理論への貢献に対して」==（nobelprize.org で確認）。[[散逸構造]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "イワン・パヴロフ",
    "type": "人物",
    "confidence": "確認済",
@@ -11008,6 +11670,32 @@
    "fields": {},
    "sections": {
     "調べたこと": "William J. Brady。社会心理学者。SNSでの道徳感情の拡散の研究（[[2017 Brady]]＝所属はニューヨーク大学・論文時点）。→[[SNS]] の 2021・2025 の続きも同じ人",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ウォンティングとライキング",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Berridge KC・Robinson TE 2016 Liking, wanting, and the incentive-sensitization theory of addiction. American Psychologist 71(8):670-679",
+     "url": "https://doi.org/10.1037/amp0000059",
+     "note": "要旨で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ウォンティングとライキング.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "wanting（欲しがる＝誘因サリエンス）と liking（好む＝実際に味わう快）は・**別の脳の回路**が担う、という理論（[[ケント・ベリッジ]]・[[テリー・ロビンソン]]）。\n- ==「欲しがる」は中脳辺縁系ドーパミンを含む**大きく頑健な**系==\n- ==「好む」は**小さく壊れやすい**系で・ドーパミンに依存しない==\n- だから・**もう楽しくないものを・それでも強く欲しがる**ことができる\n\n**誘因感作理論**＝依存の本質は・手がかりで引き出される「欲しがる」の**過剰な増幅**で・「好む」の増幅を必ずしも伴わない。提唱から四半世紀で裏づけが増え・行動の依存にも広がっている（[[2016 Berridge]]）。",
+    "動画での使われ方（13:00・32:30）": "「ドーパミンは快楽物質というより**欲しがらせる物質**」。要旨と一致。第7章で「情報環境が最適化しているのはライキングでなくウォンティング」と使う（→[[偽りの勾配]]）。⚠後者は動画の見立てで・SNS設計についての直接の研究は動画で示されていない。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -11320,6 +12008,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "Elkhonon Goldberg。バルト海沿岸のリガ育ち。モスクワ大学で心理学と数学を学び、**アレクサンドル・ルリヤの学生で、のちに同僚**。1974年にソ連を出て渡米（その経緯は『脳を支配する前頭葉』(The Executive Brain) に書かれている）。\nニューヨーク大学医学部神経学臨床教授・ルリヤ神経科学研究所所長。臨床神経心理学者（米国の専門医認定）。\n\n著書＝『脳を支配する前頭葉』（The Executive Brain, 2001）・『老いて賢くなる脳』（The Wisdom Paradox, 2005）・The New Executive Brain（2009）・『[[創造性と脳システム]]』（2018）。\n\n==**左利きに生まれて、ソ連の幼稚園で右利きに矯正された**==（本書6章 p.165）。臨床分野の境界を越える「抗バルカン化」を自分の流儀と言う。\n本書のまえがきで、創造性が「一枚岩の特性か／限られた神経構造と結ぶか／生物学的に定義できるか」に**懐疑を述べ続けてきた**と自分で書いている。\n\n!!人物ノードの作法＝所属と在職は一次資料で確かめたものだけ書く（訳者あとがきと版元の記述による。2026-09-13）。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "エルヴィン・シュレーディンガー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/エルヴィン・シュレーディンガー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Erwin Schrödinger。物理学者。*What is Life? The Physical Aspect of the Living Cell*（1944）の書誌は1945年の書評（Crossref・DOI 10.1086/281292）で確認。[[負のエントロピー]]。⚠講演が1943年ダブリンだったことは大河の記憶",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12246,6 +12953,25 @@
    "stub": false
   },
   {
+   "id": "ケント・ベリッジ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ケント・ベリッジ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Kent C. Berridge。感情神経科学者。[[2016 Berridge]]。⚠所属（ミシガン大学）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ケン・ウィルバー",
    "type": "人物",
    "confidence": "確認済",
@@ -13040,6 +13766,25 @@
    "stub": false
   },
   {
+   "id": "シュテファン・プファットハイヒャー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/シュテファン・プファットハイヒャー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Stefan Pfattheicher。社会心理学者。[[2021 Pfattheicher]]。⚠動画は「デンマークの心理学者」と言う。所属（オーフス大学）は大河の記憶で・Crossref の著者欄には無い＝未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "シワハイルカ",
    "type": "生物",
    "confidence": "確認済",
@@ -13091,6 +13836,44 @@
    "fields": {},
    "sections": {
     "これは何か": "Seed AI。**再帰的自己改善を始められる最初の AI**の呼び名。「種」のたとえ＝小さくても、そこから育つ。\n語は 2000 年前後の [[エリエザー・ユドカウスキー]] の文書に遡るとされるが、!!大河は原典を確かめていない!!。\n\n[[知能は状況的である]] は、この「種」という前提そのものを否定している\n（種は無く、育つのは文明という土壌のほう）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ジェレミー・イングランド",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジェレミー・イングランド.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Jeremy L. England。物理学者。[[2015 England]]＝[[散逸適応]]。⚠所属（論文時点で MIT）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ジェームズ・ダンカート",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジェームズ・ダンカート.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "James Danckert。カナダの神経心理学者。⚠所属（ウォータールー大学）は大河の記憶・未確認。イーストウッドとの共著 *Out of My Skull*（2020）＝動画が「行為主体性がくじかれた状態」として退屈を語る出どころ。⚠本は未読",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -13325,6 +14108,44 @@
    "fields": {},
    "sections": {
     "調べたこと": "**Giovanni Pezzulo。**[[能動的推論_心_脳_行動の自由エネルギー原理]]の第二著者。\nイタリア国立研究会議（CNR）の認知科学・技術研究所。\n\n**計画・目標指向行動・身体化認知の研究者**として知られる。\n[[トーマス・パー]]と同じく、**本書の実際の書き手にあたる**（序文の[[カール・フリストン]]の弁による）。\n\n**未調査**＝本人の主要論文にはまだ当たっていない。確度 `推測`。"
+   },
+   "stub": false
+  },
+  {
+   "id": "ジョン・イーストウッド",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジョン・イーストウッド.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "John D. Eastwood。退屈の心理学者（所属はヨーク大学＝Crossref の著者欄）。[[2012 Eastwood]]。ダンカートとの共著 *Out of My Skull: The Psychology of Boredom*（Harvard University Press 2020・288頁）は Science の書評（Westgate 2020・DOI 10.1126/science.abc1024）で書誌を確認。⚠本は未読",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ジョン・カルフーン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジョン・カルフーン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "John B. Calhoun（1917-1995）。動物生態学者・米国国立精神衛生研究所（NIMH。1973年論文の著者欄）。[[ユニバース25（カルフーンのネズミの楽園）]]。没年と「人口密度＝病理」と縮められたことへの落胆は [[2009 Ramsden]] による",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -14294,6 +15115,25 @@
    "stub": false
   },
   {
+   "id": "ダニエル・ギルバート",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ダニエル・ギルバート.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Daniel T. Gilbert。社会心理学者（所属はハーバード大学＝Crossref の著者欄）。[[2010 Killingsworth]]・[[2014 Wilson]]・[[2019 Buttrick]]。⚠『明日の幸せを科学する』の著者であることは大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ダーウィンの赤面調査",
    "type": "実験",
    "confidence": "確認済",
@@ -14448,6 +15288,25 @@
    "stub": false
   },
   {
+   "id": "ティモシー・ウィルソン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ティモシー・ウィルソン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Timothy D. Wilson。社会心理学者（論文時点の所属はヴァージニア大学＝Crossref の著者欄）。[[2014 Wilson]]・[[2018 Westgate]]・[[2019 Buttrick]]。⚠『自分を知り、自分を変える』（Strangers to Ourselves）の著者であることは大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ティンバーゲンの4つの問い",
    "type": "理論",
    "confidence": "確認済",
@@ -14469,6 +15328,25 @@
    "sections": {
     "これは何か": "Tinbergen's four questions (whys)。ティンバーゲン（1907-1988）が『本能の研究』（1951）で、動物行動を理解するには4つの視点が必要だと論じた──\n(1) どのようなメカニズムによって喚起されるか／(2) どのように発達するのか／(3) どのような進化によって生じたのか／(4) どのような機能（意味）を持っているのか。\n(1)(2)は行動がどのように生じるか＝**至近要因**、(3)(4)は行動の理由＝**究極要因**。例＝求愛行動は (1)発情期にホルモン分泌がなされるため (2)成体になったため (3)それを行った個体が配偶相手を得たため (4)遺伝子を次世代に伝えるため（p.40）。\n1980年代以降の動物行動学は、至近要因を扱う**神経行動学**と究極要因を扱う**行動生態学**に分かれた。社会生物学は行動生態学とほぼ同義（p.41）。",
     "本書での再登場": "- 渡り行動の進化要因は餌（ウォレス）だが、直接の引き金は日長や概年リズム（p.135）＝究極要因と至近要因の区別の実例\n- 発達は4つの問いの一つ（p.336）\n\n!!**正誤表に無い誤植**＝p.40の本文は「至近要因 ultimate factors」「究極要因 proximate factors」と英語が逆に印字されている（大河が画像で確認・2026-09-13）。正しくは proximate＝至近、ultimate＝究極。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "テリー・ロビンソン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/テリー・ロビンソン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Terry E. Robinson。行動神経科学者。[[2016 Berridge]]。⚠所属（ミシガン大学）と1993年の提唱論文は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -14583,6 +15461,33 @@
     "何が起きたか（ユクスキュル自身の二つの体験）": "1. 友人の家で、毎日の昼食に**陶器の水差し**が置かれていた。ある日それが割れて**ガラスのデカンタ**に替わった。水差しを探したが、デカンタは目に入らなかった。「水ならいつものところにあるじゃないか」と言われてはじめて、皿やナイフの上の光が一つにまとまってデカンタが現れた（画像108）。「**探索像は知覚像を破壊するのである**」\n2. 店で**軽く折れて立っている新しい100マルク札**を出した。店員は「まだ払っていない」と言い張った。指で触れて倒すと、店員は小さく叫んで札をつかんだ（画像110）。ここでも**探索像が知覚像のスイッチを切っていた**\n\n著者は続けて「たぶん読者も、こういう**魔法にかかったような**経験をしたことがあるのではないだろうか」と書く（画像110）── 「魔術的」の語感が11章からもう出ている。",
     "この地図で": "[[想像上の幻影は生成モデルのずれか]] で、**12章のホシムクドリと逆向きの対**として使った。こちらは頭の中の像が「ある物を消す」、あちらは「無い物を出す」。",
     "燻太さんの見立て＝見えないゴリラと似ている（2026-09-27）": "燻太さんの言葉＝「このノード、件の動画中のゴリラを認識できないって実験と何か似てるよね。**パスの回数という探索像のせいで、知覚像にゴリラが上ってきにくくなる**っていう」\n\n**大河の突き合わせ**（→[[見えないゴリラ]]・[[非注意性盲目]]）\n- **似ているところ① 頭の中の構えが、何が知覚に上るかを決める。** ゴリラ研究の続き（Most ら 2001）で、予期しない物は**注意している物に似ているほど気づかれる**と分かった。決め手は「注意の構え（attentional set）」＝何を探しているか。ユクスキュルの言葉なら、**探索像に合うものだけが知覚像になる**\n- **似ているところ② 目の前にあっても見えない。** デカンタは食卓の自分の席の前にあった。100マルク札はカウンターの上に立っていた。放射線科医のゴリラ研究（Drew ら 2013）では、見落とした人の大半が**ゴリラの位置を直接見ていた**。「見る」と「知覚像になる」は別のこと\n- **似ているところ③ 探索像は見つけさせもし、見落とさせもする。** ゴリラの動画を知っている人はゴリラを見つけたが、幕の色の変化や選手の退場にはやや気づきにくかった（Simons 2010）。ゴリラという探索像を持つと、ほかの予期しないものが遠のく\n- **違うところ＝何を見落としたか。** ゴリラの実験で見落とされたのは、**探していない物**（課題と関係ないゴリラ）。デカンタで見落とされたのは、**探していた物そのもの**（水の入れ物）で、ただ**探索像と姿が違った**（陶器の壺だと思っていたらガラスだった）。100マルク札も同じで、店員は平らな札を探していた。デカンタは「**像と違う姿で来た目当てが見えない**」、ゴリラは「**像に入っていない物が見えない**」。仕組みは同じ向き（上からの構えが知覚を絞る）だが、切り口が違う\n- ゴリラの実験を探索像の言葉で読むなら、白いチームを数える条件では「**パスをする白い服**」が探索像で、黒いゴリラは**像とかけ離れているので締め出された**（!!チームとゴリラの色の組み合わせは大河の記憶。要旨には無い!!）。ユクスキュルの図43の説明（探索像と知覚像が「あまりにかけ離れている場合は、探索像が知覚像を閉めだす」・11章 画像111）と、Most ら 2001 の「似ていないほど気づかれない」は同じことを言っている（大河の見立て）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "デジタル・スイッチング",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Tam KYY・Inzlicht M 2024 Fast-forward to boredom. JEP: General 153(10):2409-2426",
+     "url": "https://doi.org/10.1037/xge0001639",
+     "note": "要旨で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/デジタル・スイッチング.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "何をした研究か": "[[2024 Tam]]＝7実験（N=1,223・6本が事前登録）。動画の間を切り替え・動画の中を早送りする見方を **digital switching** と名づけた。\n- 退屈すると切り替える／切り替えれば退屈が減ると**信じている**\n- ==しかし切り替えると退屈は**増え**・満足・注意・**意味**が下がった==（動画間でも動画内でも・好きな動画を選ばせても）\n- ⚠記事を読む場合や大学外の参加者では**はっきりしなかった**（研究6）・機会費用が効いているかもしれない（研究7）",
+    "大河の見立て": "[[2018 Westgate]] のMACモデルなら・切り替えは**注意の成分**（刺激が多すぎて資源と噛み合わない）と**意味の成分**の両方を削る。動画の「認識的価値がゼロ」とは別の説明で・同じ結果を予言する。==どちらが正しいかは・この研究からは決められない==。",
+    "動画での使われ方（31:27）": "第7章の柱。数字（7実験・1,200人超）は要旨と一致。研究6の留保を言わない。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -16768,6 +17673,25 @@
    "stub": false
   },
   {
+   "id": "マイケル・インツリクト",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/マイケル・インツリクト.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Michael Inzlicht。社会心理学者。[[2024 Tam]]。⚠所属（トロント大学）は大河の記憶・未確認。⚠自我消耗の追試をめぐる議論でも知られる（大河の記憶）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "マイケル・バシェック",
    "type": "人物",
    "confidence": "確認済",
@@ -16869,6 +17793,34 @@
     "本での位置づけ": "[[失感情症]] のすぐあとに置かれ、**逆向きの対**として紹介される。\n\n> マインドフルな人たちは、失感情症の人たちとは逆で、島皮質と扁桃体の体積が大きいことがわかっている。",
     "ここは、そのままでは引けない（大河が確かめたこと）": "**島皮質の側と扁桃体の側で、当たれた文献の向きが違った。**\n\n| | 本書の記述 | 大河が当たれた文献 |\n|---|---|---|\n| **島皮質** | 大きい | **支持あり。** Lazar ら2005＝瞑想経験者20名で**右前部島皮質の皮質が厚い** |\n| **扁桃体** | 大きい | **逆向き。** Taren ら2013（N=155）＝特性マインドフルネスが高い人ほど**右扁桃体が小さい** |\n\n!!**さらに、体積変化そのものが再現していない**!! → [[瞑想と脳構造の追試問題]]。\nKral ら2022（N=218の3群RCT）は、8週間のMBSRで**全脳でも関心領域でも構造変化を検出できなかった。**\n\n!!**大河は本書の巻末注145が挙げている文献を確認していない。**!!\nだから「著者が間違っている」とは言えない。**言えるのは、大河が当たれた範囲では扁桃体の向きが逆で、\n体積変化の話そのものが揺れている、ということだけ。**\n\n**そして向きが逆でも、本書の筋（気づく力が大事だ）が崩れるわけではない。**\n!!**崩れるのは「体積で裏づけられている」という部分だけ。混ぜない。**!!\n（→ [[嫌悪と道徳判断の追試問題]] で立てたのと同じ線引き）",
     "大河の見立て（出典なし）": "**扁桃体の向きが逆に出るのは、むしろ筋が通っているかもしれない。**\nマインドフルネスは「気づく」が「過剰に反応しない」ものだと本書自身が書いている。\n**気づきの側が島皮質、反応の側が扁桃体だとすれば、\n〈島皮質は厚く、扁桃体は小さい〉のほうが、本書の説明そのものには合う。**\n!!**これは大河の思いつきで、検証されたものではない。**!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "マインドワンダリング",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Killingsworth MA・Gilbert DT 2010 A Wandering Mind Is an Unhappy Mind. Science 330(6006):932",
+     "url": "https://doi.org/10.1126/science.1192439",
+     "note": "要旨で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/マインドワンダリング.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "mind-wandering。目の前の課題と関係のないことに・注意が勝手に離れていくこと。",
+    "分かっていること": "[[2010 Killingsworth]]＝スマホの経験サンプリング。==いま起きていないことを考えている頻度は・起きていることを考える頻度とほぼ同じで・そのとき人はふだん不幸==。\n⚠「2250人・起きている時間の46.9%」は動画の数字で・要旨には出ない（本文未照合）。",
+    "注意": "- ⚠この研究は**相関**。不幸だから心がさまようのか・さまようから不幸なのかは・要旨の範囲では決められない（著者らは時間差の分析でさまよい→不幸の向きを示唆したと大河は記憶しているが未確認）\n- [[2014 Fox]] は・心のさまよいの**中身**（楽しい空想も多い）によって気分は大きく変わると書く",
+    "動画での使われ方（04:00）": "「何をしているかより・心がいまここにあるかが幸福度をよく説明した」。要旨と矛盾しない。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -17847,6 +18799,38 @@
    "stub": false
   },
   {
+   "id": "ユニバース25（カルフーンのネズミの楽園）",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Calhoun JB 1973 Death Squared. Proceedings of the Royal Society of Medicine 66:80-88",
+     "url": "https://doi.org/10.1177/00359157730661P202",
+     "note": "書誌のみ確認（2026-10-12）"
+    },
+    {
+     "title": "Ramsden E 2009 The urban animal. Bulletin of the WHO 87(2):82",
+     "url": "https://doi.org/10.2471/blt.09.062836",
+     "note": "本文（PMC2636191）で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ユニバース25（カルフーンのネズミの楽園）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "何をした実験か": "[[ジョン・カルフーン]]（NIMH）が・食べ物・水・巣材を十分に与え・天敵のいない囲いでネズミを殖やした一連の実験。報告は [[1973 Calhoun]]（マウス）。先立つラットの実験（[[1962 Calhoun]]）で・社会の崩れの渦を **behavioral sink（行動の沈殿）** と呼んだ。\n⚠「ユニバース25」という呼び名・子育ての放棄・毛づくろいだけを繰り返す個体（いわゆる beautiful ones）・個体数の崩壊は・広く知られた話だが**原典の本文は読んでいない**。",
+    "読まれ方の訂正（赤線）": "[[2009 Ramsden]]（科学史）＝\n- ==「人口密度＝病理」は単純化。研究者たちが受け取ったのは**望まない社会的接触の度合い**の話==で・空間設計で接触を減らせばストレスは下がる\n- カルフーン自身はそう縮められたことに**落胆**し・後年は**協調的で密度に耐える共同体の設計**を研究した\n- 人の過密研究は一貫しない（密度＝物理量と・混み合い感＝主観を分ける必要）",
+    "動画での使われ方（29:00）": "==珍しく動画自身が通説を訂正する形で引いている==。Ramsden の筋とおおむね合う。⚠ただし「攻撃的な個体が空間と資源を占有した」は Ramsden の論説には出てこない（未確認）。動画の結論「壊すのは豊かさではなく**役割の喪失**」は動画の見立て。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ユルゲン・シュミットフーバー",
    "type": "人物",
    "confidence": "確認済",
@@ -18576,6 +19560,25 @@
    "sections": {
     "これは何か": "Rosenthal effect（観察者期待効果・実験者期待効果・ピグマリオン効果）。==実験者が「賢いラットだ」と思っていると、「賢くないラットだ」と思っていた場合より、ラットの学習実験の成績が良かった==（Rosenthal&Fode 1963; Rosenthal&Lawson 1964, p.51）。実験者とラットの間だけでなく、教師と生徒の間でも同じことが生じる。\nギリシャ神話のピグマリオン（思い込みによって彫像が人間になる）になぞらえた呼び名。",
     "この地図で": "動物心理学に「深く関わる」観察者効果として[[クレバー・ハンス効果]]と並べて紹介される。==どちらも「人間側の状態が動物の成績に混じる」＝統制の対象は動物でなく人間。==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ワイナンド・ファン・ティルブルフ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ワイナンド・ファン・ティルブルフ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Wijnand A. P. Van Tilburg。社会心理学者（論文時点の所属は King's College London＝Crossref の著者欄）。[[2016 Van Tilburg]]。共著の Eric R. Igou は University of Limerick",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -20002,6 +21005,28 @@
    "fields": {},
    "sections": {
     "これは何か": "側頭葉てんかん（TLE）は「行ったり来たり」するのではなく、発作間欠期にも人格変化が知られる。その中で「狂信的な信心深さ」（宗教に無関心だった人が過剰なまでに熱心に）が興味深い。ムハンマド・ジャンヌ・ダルク・ピウス9世らはてんかんをもっていたか疑われている。\n\n著者の読み＝==**側頭葉に宗教性が組み込まれているというのは「大衆紙的な憶測」。TLEによる狂信的信心深さは文化的現象。**== 声を聴く・断腸の思い・悪い予感・恐怖や満足で感情が高ぶることは、TLEで普通に経験することで、宗教的な主題が吹き込まれる社会でそれ以外のどう解釈できるか。反証＝てんかんが疑われる歴史上の人物には破戒的な人も多い（アレクサンドロス「自分は神」、カエサルは最高神祇官を捨てて執政官に、ピョートル1世は聖職者のひげを剃った）。\n予想＝==「合成」社会の融合世代は、同じ体験を宗教的な言葉よりバーチャルな現実の言葉で語るようになる。== デジタル革命は脳の病気の**表現形**をも変える。\n\n!!`推測`＝著者の見立て。TLEと宗教性の文献（ゲシュヴィンド症候群など）を本書は引いていない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "偽りの勾配",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/偽りの勾配.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!動画（映05）の造語・見立て。学術用語ではない!!\n==刺激の振れ幅は大きいのに・通り過ぎたあと「世界の地図」に何も書き加わらないもの==。動画はこれを「味だけ濃くて栄養のない菓子」に喩える。",
+    "筋の通るところ": "- 「欲しがる」と「好む」が分かれる（[[ウォンティングとライキング]]・確認済）\n- 切り替えて見ると退屈が増える（[[デジタル・スイッチング]]・確認済）",
+    "切れるところ": "- 「情報環境はウォンティングに最適化されている」は**直接の証拠が示されていない**（動画の見立て）\n- 「認識的価値がゼロ」は比喩。[[期待自由エネルギー]] の情報利得は**その生き物の生成モデルに対して**決まる量で・短い動画でも学ぶ人は学ぶ",
+    "科学的に扱える版（大河の案）": "「見たあとに何を新しく知ったか」を測り・その量と退屈の変化を比べる。[[2024 Tam]] の「意味が下がった」はこの方向の手がかり。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -22612,6 +23637,26 @@
    "stub": false
   },
   {
+   "id": "宇宙の熱的死",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/宇宙の熱的死.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "heat death。宇宙が膨張と時間の果てに温度差を失い・熱平衡に達して・==エネルギーはあっても何も動かせない==状態になる、という終末像のひとつ。\n動画も「唯一の結末ではなく・暗黒エネルギーの性質によっては別の終わり方も議論されている」と断っている（25:00）。\n\n!!大河の記憶による説明。外部の情報源には当たっていない!!",
+    "動画での使われ方（25:00）": "==「宇宙が到達しうる究極の退屈」==・休日の午後の虚無感は「その小さな前味」。⚠**詩的な比喩**で・物理と心理をつなぐ証拠ではない（→[[退屈は情報の飢餓（勾配を食べて生きる）]]）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "安全基地",
    "type": "用語",
    "confidence": "確認済",
@@ -24757,6 +25802,58 @@
    "stub": false
   },
   {
+   "id": "散逸構造",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "The Nobel Prize in Chemistry 1977 - Ilya Prigogine",
+     "url": "https://www.nobelprize.org/prizes/chemistry/1977/summary/",
+     "note": "授賞理由の文言を確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/散逸構造.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "dissipative structure。==エネルギーや物質を**通し続けること**でだけ保たれる・平衡から遠い秩序==（[[イリヤ・プリゴジン]]）。例として動画は川の渦を挙げる（流れが止まれば壊れるのでなく消える）。\n⚠ベナール対流・化学振動（BZ反応）が典型例だというのは大河の記憶。",
+    "動画での使われ方（21:07）": "第5章「平衡は死である」。==生命は平衡から遠ざかり続けることで形を保つ==。そこから「生命の最も深い恐怖は痛みでなく**均一になること**かもしれない」へ跳ぶ。⚠後半の跳躍は比喩（→[[退屈は情報の飢餓（勾配を食べて生きる）]] の「切れるところ」）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "散逸適応",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "England JL 2015 Dissipative adaptation in driven self-assembly. Nature Nanotechnology 10(11):919-923",
+     "url": "https://doi.org/10.1038/nnano.2015.250",
+     "note": "要旨で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/散逸適応.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "dissipative adaptation（動画の訳は「散逸駆動適応」）。[[ジェレミー・イングランド]]の提案＝==外から強く仕事をされ続ける粒子の集まりは・**吸収した仕事を散逸させる**のに向いた配置へ自ら組み上がっていくのではないか==（[[2015 England]]）。",
+    "確度を推測にした理由": "要旨自体が **I propose / may be applicable** の言い方。生命の起源の説明として確立したものではない。動画も同じ断りを入れている（24:00）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "数的能力",
    "type": "用語",
    "confidence": "確認済",
@@ -25936,6 +27033,26 @@
    "fields": {},
    "sections": {
     "これは何か": "エリック・カンデルが視覚芸術で論じた**「鑑賞者の関与」**（絵を見ることは受け身でなく、それ自体の認知的要求をもつ主体的な関わり）を、イノベーション一般に広げた語。\n\n==**イノベーションと創造性は二幕の劇。第一幕＝誰かの創造性の産物として生まれる／第二幕＝社会全般によって「消費される」。**== 何が価値あるかの評決をするのは創造的な個人でなく社会。第二幕も第一幕と同様に文明を前進させるのに重要だが、創造性の研究はほとんど第一幕だけを見てきた。\n\nなぜ今か＝生成者は少数で消費者は数千〜数億（インターネット・スマートフォン）。==過去の静的な社会では消費者は一度得たレパートリーで一生やっていけたが、今は膨大な消費者が常に新しい技能と概念を取り込むよう挑まれ、その速度は加速する。== 車輪が古代社会に広がるには何百年もかかったが、インターネットは数十年もかからなかった。→ 消費者の認知と脳への要求が変わる（→ [[認知症発生率の低下とデジタル技術仮説]]・VR/ARの「多元世界」）。\n\n著者は本書を「時代に先んじすぎて同時代人に才能を認められず、貢献が忘れられた名もない創造的な人々」に捧げている。==認められるためには社会に先んじなければならない。しかし先に行きすぎてはいけない==（2章の構成要素9）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "深い退屈を飼いならす3つの命題",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/深い退屈を飼いならす3つの命題.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!動画（映05）の第8章（35:00）の提案。動画自身が「この動画の考察として」と断っている!!\n1. **退屈を消そうとしない**＝警報の音を切っても火は消えない。退屈を感じる自分を責めない\n2. **刺激の量でなく勾配の質を選ぶ**＝物差しは「面白かったか」でなく==「終わったあと・世界について知らなかったことを一つでも知ったか」==。本物の坂の手触り＝まだ難しい・自分がまだ下手・結果が読めない\n3. **不幸を製造しかけている自分に名前をつける**＝「これは退屈だ」と言えるだけで・壊さずに済む関係がある",
+    "大河の見立て": "- 2の「まだ難しい・まだ下手・読めない」は・フロー理論の「挑戦と技能の釣り合い」や学習の「望ましい困難」と似た形（⚠どちらもこの地図に未登録・大河の記憶）\n- 3は [[感情ラベリング]]（映04）と同じ手。⚠[[2013 Bench]] の機能説に従えば・名前をつけたあと**代わりの目標**を用意しておかないと・警報は鳴りやまない\n- ⭐[[退屈とサディズム]] の研究7（選択肢があれば傾向の低い人はサディズムへ行かない）は・==**出口を先に用意しておく**==ことの裏づけとして読める",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -29439,6 +30556,27 @@
    "stub": false
   },
   {
+   "id": "行為主体感",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/行為主体感.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "sense of agency（行為主体感・行為主体性）。==自分がこの手で何かを動かしている・自分の行動が世界に効いている==という感覚。\n\n!!大河の記憶による説明。外部の情報源には当たっていない!!",
+    "動画での使われ方（09:30）": "[[ジェームズ・ダンカート]]と[[ジョン・イーストウッド]]の *Out of My Skull*（2020）が・退屈を「**行為主体性という根源的な必要がくじかれた姿**」と見た、と動画は言う。⚠本は未読で・この言い方が本のどこにあるかは確かめていない。\n動画の喩え＝==退屈は**宛先の書かれていない催促状**==（何かを払えとだけ言い・支払い先が空欄）。",
+    "注意": "認知神経科学で言う sense of agency（運動の予測と結果の一致から生まれる感覚・コンパレータモデル）と・動画の「世界に関わっている意味の感覚」は**広さが違う**（大河の見立て）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "表現主義",
    "type": "理論",
    "confidence": "確認済",
@@ -30569,6 +31707,32 @@
    "stub": false
   },
   {
+   "id": "負のエントロピー",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Schrödinger E (1944) What is Life? The Physical Aspect of the Living Cell の書評（1945）",
+     "url": "https://doi.org/10.1086/281292",
+     "note": "本の書誌だけ確認。「負のエントロピーを食べる」の文言は原文未照合（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/負のエントロピー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "negative entropy（ネゲントロピー）。[[エルヴィン・シュレーディンガー]]『生命とは何か』（1944）の言い回し＝==生物は負のエントロピーを食べて秩序を保つ==。\n!!文言は大河の記憶。原文に当たっていない!!。⚠のちに著者自身が「自由エネルギーと言うべきだった」と注記した、というのも大河の記憶で未確認。",
+    "動画での使われ方（23:00）": "「私たちは**坂を食べて**生きている」。勾配（差）を通過させて形を保つ。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "貯食と海馬",
    "type": "用語",
    "confidence": "確認済",
@@ -30751,6 +31915,179 @@
     "これは何か": "不安を感じると**距離を詰める**人と・ストレスを感じると**一人になりたくなる**人の組み合わせ。片方が追うほどもう片方は逃げ・逃げられるほど追う側の不安が膨らむ。==どちらかが悪人だから起きるのではない。**安心の取り戻しかたが正反対**なだけ==（動画12:15）。\n夫婦研究では**要求／撤退パターン**（demand/withdraw）として知られる。Christensen & Heavey（1990）＝妻が要求し夫が撤退する型が多いが・夫が変化を望む話題では逆転する＝性別でなく「誰が変化を求めているか」が決める。愛着理論では**不安型と回避型**の組み合わせ（→[[安全基地]]）。",
     "この地図で": "Joel 2020 で・個人差の側の上位予測因子に**愛着の回避と不安**が入っている（→[[相性は組み合わせでは予測できない]]）＝個人の側で唯一・関係の質にはっきり効く変数の一つ。動画は「原因が性格ではなくルールの衝突なら打つ手はある」とこの例をつなぐ。",
     "絵で見る": "![追う星太郎と、去る陽介（水彩・2026-09-19・Gemini・指示文は陽介）](img/追う人と逃げる人_陽介と星太郎_20260919.jpg)\n星太郎（黒）＝不安を感じると**距離を詰める**側。陽介（茶）＝一人になって**落ち着きたい**側。追う足あとと去る足あとが同じ道に並ぶ。==どちらも悪くない。安心の取り戻しかたが反対なだけ==。二人はぬいぐるみだから顔は変わらないはずのところを、この絵だけは気持ちを顔に出している。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "退屈",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Eastwood JD ほか 2012 The Unengaged Mind. Perspectives on Psychological Science 7(5):482-495",
+     "url": "https://doi.org/10.1177/1745691612456044",
+     "note": "定義（要旨・2026-10-12）"
+    },
+    {
+     "title": "Bench SW・Lench HC 2013 On the Function of Boredom. Behavioral Sciences 3(3):459-472",
+     "url": "https://doi.org/10.3390/bs3030459",
+     "note": "機能説（要旨・2026-10-12）"
+    },
+    {
+     "title": "Westgate EC・Wilson TD 2018 Boring thoughts and bored minds. Psychological Review 125(5):689-713",
+     "url": "https://doi.org/10.1037/rev0000097",
+     "note": "MACモデル（要旨・2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/退屈.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "boredom。==「満足のいく活動に関わりたいのに・関われないという嫌悪的な経験」==（[[2012 Eastwood]] が諸理論をまとめた定義）。",
+    "いまの理論（確かめた範囲）": "- **定義（注意の言葉）**＝[[2012 Eastwood]]\n- **機能説**＝[[2013 Bench]]。退屈は「前の目標が益を生まなくなった」知らせで・**別の目標を追わせる**。注意が下がり・嫌悪的で・自律神経の覚醒が上がる\n- **MACモデル**＝[[2018 Westgate]]。注意の欠け（**刺激が少なすぎても多すぎても**）と意味の欠け（活動が大事な目標とずれる）が・それぞれ独立に退屈を生む\n- **増えている**＝[[2020 Weybright]]（米国の中高生・2008〜2017年）",
+    "動画での使われ方（映05）": "動画は退屈を==「感情ではなく空腹と同じ**警報**」==と言い直し・さらに==「エネルギーの飢えでなく**情報の飢餓**」==へ進める（→[[退屈は情報の飢餓（勾配を食べて生きる）]]）。前半の「警報」までは [[2013 Bench]] の機能説の言い換えで・後半は動画の独自の見立て。",
+    "この地図で退屈が出てくる場所": "- [[退屈とサディズム]]・[[退屈と政治的極端化]]＝退屈の**暗い出口**\n- [[デジタル・スイッチング]]＝逃げ道が退屈を増やす\n- [[ただ考えるだけの時間（電気ショックの実験）]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "退屈という警報（ASTRENCE）",
+   "type": "映像",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "【退屈という警報】脳は幸せを求めていない。好奇心と情報飢餓がもたらす人類の宿命",
+     "url": "https://www.youtube.com/watch?v=vJX16igXZ3E",
+     "note": "チャンネル「ASTRENCE【アストレンス】思考の解剖学」。2026-10-10公開・38分24秒・約3.8万回再生（2026-10-12時点）。説明欄にチャプターと関連キーワード。自動字幕を yt-dlp で取り大河が通読（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/退屈という警報（ASTRENCE）.md",
+   "owned": "有",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!本ではなく **YouTube の解説動画**（型は `映像`）。!!チャンネル「ASTRENCE【アストレンス】思考の解剖学」（[[言語は「思考の器」ではない（ASTRENCE）]] と同じ）・2026-10-10公開・38分。燻太さんが 2026-10-12 に挙げた。",
+    "筋（チャプター）": "- 00:00 導入 ── ひとりで15分考えるより電気ショックを選んだ人たち（[[ただ考えるだけの時間（電気ショックの実験）]]）\n- 02:44 第1章 完璧な安全はなぜ人を壊すのか ── [[マインドワンダリング]]（[[2010 Killingsworth]]）・若者の退屈の増加（[[2020 Weybright]]）。==刺激が増えたのに退屈は減っていない==\n- 07:13 第2章 退屈は感情ではない・空腹と同じ警報 ── [[2013 Bench]] の3点セット・[[2012 Eastwood]] の定義・[[行為主体感]]。退屈は==宛先の書かれていない催促状==\n- 11:29 第3章 狩猟採集脳の設計思想 ── 満足しすぎることの代償は稀だが致命的（⚠動画自身が「断定しない」と言う）・[[ウォンティングとライキング]]\n- 15:40 第4章 反転・暗い部屋問題 ── [[自由エネルギー原理]]・[[暗い部屋問題]]（[[2012 Friston]]）・認識的価値（[[2015 Friston]]）。==好奇心は部品・退屈は**情報の飢餓**==\n- 21:07 第5章 平衡は死である ── [[散逸構造]]・[[負のエントロピー]]・[[散逸適応]]・[[宇宙の熱的死]]\n- 25:57 第6章 自己破壊の解剖学 ── [[退屈とサディズム]]・[[退屈と政治的極端化]]・[[ユニバース25（カルフーンのネズミの楽園）]]。==争いは勾配を人工的に作る装置ではないか==（動画の見立て）\n- 31:27 第7章 偽りの勾配 ── [[デジタル・スイッチング]]・[[偽りの勾配]]。動画自身も「この動画もその市場の内側にある」と認める\n- 34:25 第8章 深い退屈を飼いならす ── [[退屈の哲学（パスカルからハイデガーまで）]]・[[深い退屈を飼いならす3つの命題]]",
+    "良いところ": "- ==断りが多い==。「有力な仮説であって定説ではない」（機能説）・「断定はしない」（進化の物語）・「議論が続いている」（自由エネルギー原理）・「確立したものではない」（散逸適応）・カルフーンは**通説を訂正する形で**引く\n- 引いた論文の書誌と数字は・確かめた範囲でおおむね正しい",
+    "一次資料との食い違い（2026-10-12 大河が確かめた）": "- **電気ショック**＝190回押した人は**外れ値として除外**されていた。研究10で**57%は一度も押さず**・押した18人中14人は**好奇心**が理由（[[2014 Fox]]）\n- **2014年の論評**＝動画は「考えることか・行動できないことか区別できない」と紹介するが・[[2014 Fox]] の主眼は**元データの読み方**（平均は中点・比べた作業は楽しい活動）\n- **退屈とサディズム**＝**選択肢があれば・傾向の高い人に限られる**（研究7）を言わない。著者を「デンマークの心理学者」とする所属は未確認\n- **政治的極端化**＝「明快な敵の構図」は要旨に無い言い足し\n- **デジタル・スイッチング**＝記事や大学外の参加者では**はっきりしなかった**（研究6）を言わない\n- **カルフーン**＝「攻撃的な個体が資源を占有」は [[2009 Ramsden]] の論説には無い（未確認）\n- **2250人・46.9%**・**10分の動画**・**半数以上**は要旨に無く未照合",
+    "大河の見立て": "芯の見立て（[[退屈は情報の飢餓（勾配を食べて生きる）]]）は・第4章までは理論の言い換えとして筋が通る。==第5章で「情報の勾配」と「熱の勾配」を同じ語で結ぶところから比喩==になる。動画が最後に置く「虚無感はまだ平衡に達していない証拠」は・慰めとしては美しいが・科学の主張としては読まないほうがいい。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "退屈とサディズム",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Pfattheicher S ほか 2021 On the relation of boredom and sadistic aggression. JPSP 121(3):573-600",
+     "url": "https://doi.org/10.1037/pspi0000335",
+     "note": "要旨で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/退屈とサディズム.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "何をした研究か": "[[2021 Pfattheicher]]＝9研究。\n- **相関**＝ふだん退屈しやすい人ほどサディスティック（N=1,780）。荒らし・**軍隊**・**子育て中の親**・空想でも同じ（N=1,740）\n- **実験**＝退屈を起こすと・虫をつぶす・他の参加者の報酬を壊す行動が増えた（N=4,097）\n- ⚠⚠**条件**＝==選択肢がいくつもあると・退屈がサディズムを動かすのは**もともとサディズム傾向の高い人だけ**==（研究7）。選択肢が**無い**と・傾向の低い人でも増える（研究8・9）\n- 媒介＝**興奮と新奇さの追求**",
+    "大河の見立て": "⭐「選択肢があるか」が効くのは・[[2013 Bench]] の機能説（退屈は**代わり**を探させる）とよく合う。ほかに出口があれば人はそちらへ行く。==出口が一つしかないと・それが加害でも選ばれる==。\n⭐媒介が「新奇さの追求」なのも・動画の「情報の飢餓」と同じ側。",
+    "動画での使われ方（25:57）": "「退屈が加害を引き起こす方向の証拠」。要旨と一致するが・**研究7の条件**を言わない。軍隊の例から「外に敵がいなければ内側を向く」と前作（戦争の正体）につなぐのは動画の見立て。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "退屈と政治的極端化",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Van Tilburg WAP・Igou ER 2016 Going to political extremes in response to boredom. EJSP 46(6):687-699",
+     "url": "https://doi.org/10.1002/ejsp.2205",
+     "note": "要旨（Crossref）で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/退屈と政治的極端化.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "何をした研究か": "[[2016 Van Tilburg]]＝3研究。\n1. 退屈を実験で起こすと・政治的立場（左右）がより**極端**に\n2. 退屈しやすい人は・もともと政治のスペクトルの**端**に寄る\n3. その差は・**意味の探索**（search for meaning）の高まりで説明される\n\n==退屈は「意味がある」という感覚を取り戻そうとさせ・政治的イデオロギーはその意味の源になりうる==。",
+    "動画での使われ方（27:30）": "「退屈した人は意味を求め・強い信念と明快な敵の構図を選び取った」。前半は要旨どおり。==「明快な敵の構図」は要旨には無く動画の言い足し==。そこから「争いは勾配を人工的に生成する装置」へ進むのは動画の見立て。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "退屈の哲学（パスカルからハイデガーまで）",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [
+    {
+     "title": "Pascal, Pensées（Trotter 訳）Project Gutenberg #18269 断章139「気晴らし」",
+     "url": "https://www.gutenberg.org/ebooks/18269",
+     "note": "「人間の不幸はすべて、部屋に静かにとどまっていられないことから来る」を英訳で確認（2026-10-12）"
+    },
+    {
+     "title": "Schopenhauer, The World as Will and Idea 第1巻 §57（Haldane & Kemp 訳）Project Gutenberg #38427",
+     "url": "https://www.gutenberg.org/ebooks/38427",
+     "note": "「生は苦痛と退屈のあいだを振り子のように揺れる」を英訳で確認（2026-10-12）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/退屈の哲学（パスカルからハイデガーまで）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "動画の第8章が挙げる・退屈を論じた4人。\n- **パスカル**『パンセ』断章139「気晴らし」（divertissement）＝==人間の不幸はすべて・部屋に静かにとどまっていられないことから来る==。人は宮廷・戦争・賭け事へ逃げる（**英訳で確認**）\n- **ショーペンハウアー**『意志と表象としての世界』§57＝==生は苦痛と退屈のあいだを振り子のように往復する==（**英訳で確認**）\n- **キルケゴール**『あれか、これか』（1843）＝退屈をあらゆる悪の根源とする（⚠「輪作」の章・大河の記憶・未照合）\n- **ハイデガー**＝「深い退屈」を・日常が剥がれ存在そのものが現れる気分として論じた（⚠1929/30年の講義『形而上学の根本諸概念』・大河の記憶・未照合）",
+    "動画での使われ方（34:25）": "「これは現代の病ではない。スマホの罪でもない」。==冒頭の電気ショックより300年以上前に・パスカルが同じ壁を書いていた==。パスカルの引用は原文の筋と合う。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映05_退屈という警報"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/退屈は情報の飢餓（勾配を食べて生きる）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!動画（映05）の芯の見立て。学術的に確立した理論ではない!!\n1. 退屈は感情でなく**空腹と同じ警報**（[[2013 Bench]] の機能説の言い換え）\n2. 「進化の名残りのバグ」では足りない。==なぜ脳はそのプログラムを捨てないのか==\n3. [[暗い部屋問題]] への答え＝[[期待自由エネルギー]] の**認識的価値**。==好奇心は世界を予測する仕組みの部品==\n4. だから退屈は**エネルギーの飢え**でなく**情報の飢餓**。「探索税」＝設計ミスでなく設計思想\n5. さらに物理へ＝生命は[[散逸構造]]で・**勾配を食べて**生きる。退屈は「まだ均一になるな」という渦からの信号",
+    "筋の通るところ": "- 1 は [[2013 Bench]]・[[2012 Eastwood]] の範囲で言える\n- 3 は [[2015 Friston]] の分解そのもの。能動的推論の枠組みの中では・情報利得が尽きた環境は選ばれない\n- [[ただ考えるだけの時間（電気ショックの実験）]] で押した人の多くが**好奇心**を理由にした（[[2014 Fox]]）＝4と噛み合う\n- [[退屈とサディズム]] の媒介が**新奇さの追求**＝4と噛み合う",
+    "切れるところ（大河の見立て）": "- ⚠⚠**3→5の跳躍**。能動的推論の自由エネルギーは**信念についての量**で・熱力学の自由エネルギーとは対象が違う（05_パー ボックス3.2・[[変分自由エネルギー]]）。==「情報の勾配」と「熱の勾配」を同じ語で呼ぶのは比喩==で・熱的死と休日の虚無感をつなぐ証拠はない\n- 退屈の理論は情報だけではない。[[2018 Westgate]] は**意味の成分**と**刺激の多すぎ**も退屈を生むと示す。「情報の飢餓」一本では [[デジタル・スイッチング]] の「意味が下がった」を取りこぼす\n- 「バグか設計か」は二択にしなくてよい。設計どおりの仕組みが・設計時と違う環境で**不利に働く**こと（ミスマッチ）は両立する",
+    "科学的に扱える版（大河の案）": "退屈の強さを・その場の**期待される情報利得**（課題について学べる余地）で予測できるかを測る。注意の負荷（MACの注意成分）と分けて操作すれば・「情報の飢餓」と「注意のずれ」を切り分けられる。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -32193,6 +33530,12 @@
    "weight": "強"
   },
   {
+   "source": "1962 Calhoun",
+   "target": "ユニバース25（カルフーンのネズミの楽園）",
+   "rel": "初期のラット実験・「行動の沈殿」を名づけた",
+   "weight": "標準"
+  },
+  {
    "source": "1965 Good",
    "target": "知能爆発",
    "rel": "裏づけ",
@@ -32203,6 +33546,12 @@
    "target": "服従の姿勢",
    "rel": "批判",
    "weight": "標準"
+  },
+  {
+   "source": "1973 Calhoun",
+   "target": "ユニバース25（カルフーンのネズミの楽園）",
+   "rel": "原典（マウスの楽園の報告）",
+   "weight": "強"
   },
   {
    "source": "1973 Sifneos",
@@ -33027,6 +34376,12 @@
    "weight": "標準"
   },
   {
+   "source": "2009 Ramsden",
+   "target": "ユニバース25（カルフーンのネズミの楽園）",
+   "rel": "批判＝「密度＝病理」は単純化。効いていたのは望まない社会的接触の度合い",
+   "weight": "強"
+  },
+  {
    "source": "2009 Reynierse",
    "target": "Fe（外向的感情）",
    "rel": "裏づけ",
@@ -33147,6 +34502,12 @@
    "weight": "標準"
   },
   {
+   "source": "2010 Killingsworth",
+   "target": "マインドワンダリング",
+   "rel": "原典（経験サンプリング）",
+   "weight": "強"
+  },
+  {
    "source": "2010 McNett",
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
@@ -33255,6 +34616,18 @@
    "weight": "強"
   },
   {
+   "source": "2012 Eastwood",
+   "target": "退屈",
+   "rel": "定義＝満足のいく活動に関わりたいのに関われない嫌悪的な経験",
+   "weight": "強"
+  },
+  {
+   "source": "2012 Friston",
+   "target": "暗い部屋問題",
+   "rel": "提唱者側が正面から論じた（情報理論家・物理学者・哲学者の対話形式）",
+   "weight": "強"
+  },
+  {
    "source": "2012 Iliff",
    "target": "グリンパティック系",
    "rel": "裏づけ",
@@ -33283,6 +34656,12 @@
    "target": "自発的予測誤差",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2013 Bench",
+   "target": "退屈",
+   "rel": "機能説＝前の目標が益を生まなくなったとき新しい目標を追わせる",
+   "weight": "強"
   },
   {
    "source": "2013 Diamond",
@@ -33399,6 +34778,12 @@
    "weight": "標準"
   },
   {
+   "source": "2014 Fox",
+   "target": "2014 Wilson",
+   "rel": "批判＝元データを見ると考えるだけの時間は平均で「まあ楽しい」・ショックを押した18人中14人は好奇心が理由",
+   "weight": "強"
+  },
+  {
    "source": "2014 Johnson",
    "target": "嫌悪と道徳判断の追試問題",
    "rel": "裏づけ",
@@ -33441,6 +34826,12 @@
    "weight": "標準"
   },
   {
+   "source": "2014 Wilson",
+   "target": "ただ考えるだけの時間（電気ショックの実験）",
+   "rel": "原典（11研究）",
+   "weight": "強"
+  },
+  {
    "source": "2014 Zaki",
    "target": "ジャミール・ザキ",
    "rel": "裏づけ",
@@ -33481,6 +34872,18 @@
    "target": "血液脳関門",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2015 England",
+   "target": "散逸適応",
+   "rel": "提唱（展望論文）",
+   "weight": "強"
+  },
+  {
+   "source": "2015 Friston",
+   "target": "期待自由エネルギー",
+   "rel": "方策の価値を外的価値と認識的価値に分解",
+   "weight": "強"
   },
   {
    "source": "2015 Gerkin",
@@ -33633,6 +35036,12 @@
    "weight": "標準"
   },
   {
+   "source": "2016 Berridge",
+   "target": "ウォンティングとライキング",
+   "rel": "総説（提唱から四半世紀）",
+   "weight": "強"
+  },
+  {
    "source": "2016 Clementz",
    "target": "バイオタイプ",
    "rel": "裏づけ",
@@ -33661,6 +35070,12 @@
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2016 Van Tilburg",
+   "target": "退屈と政治的極端化",
+   "rel": "原典（3研究）",
+   "weight": "強"
   },
   {
    "source": "2016 Wagenmakers",
@@ -33855,6 +35270,12 @@
    "weight": "標準"
   },
   {
+   "source": "2018 Westgate",
+   "target": "退屈",
+   "rel": "MACモデル＝注意の欠け（刺激の少なすぎ・多すぎ）と意味の欠けが別々に退屈を生む",
+   "weight": "強"
+  },
+  {
    "source": "2018 Wrangham",
    "target": "自己家畜化（ランガム）",
    "rel": "原典＝能動的／反応的攻撃の二型",
@@ -33870,6 +35291,12 @@
    "source": "2018 Xu",
    "target": "失感情症",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2019 Buttrick",
+   "target": "ただ考えるだけの時間（電気ショックの実験）",
+   "rel": "追試＝11か国12拠点 2557人で「考えるより何かする方が楽しい」は全ての国で再現",
    "weight": "標準"
   },
   {
@@ -33999,6 +35426,12 @@
    "weight": "標準"
   },
   {
+   "source": "2020 Weybright",
+   "target": "退屈",
+   "rel": "若者の退屈は2008〜2017年に増えた（女子でより大きく）",
+   "weight": "標準"
+  },
+  {
    "source": "2020 Wyatt",
    "target": "ヒトのフェロモン",
    "rel": "裏づけ",
@@ -34069,6 +35502,12 @@
    "target": "目から心を読むテスト",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2021 Pfattheicher",
+   "target": "退屈とサディズム",
+   "rel": "原典（9研究）",
+   "weight": "強"
   },
   {
    "source": "2021 Reimer",
@@ -34284,6 +35723,12 @@
    "source": "2024 Shumailov",
    "target": "モデル崩壊",
    "rel": "名づけの論文",
+   "weight": "強"
+  },
+  {
+   "source": "2024 Tam",
+   "target": "デジタル・スイッチング",
+   "rel": "原典（7実験）",
    "weight": "強"
   },
   {
@@ -35361,6 +36806,18 @@
    "weight": "標準"
   },
   {
+   "source": "ただ考えるだけの時間（電気ショックの実験）",
+   "target": "退屈",
+   "rel": "何もしない時間の不快（⚠退屈そのものを測った実験ではない）",
+   "weight": "標準"
+  },
+  {
+   "source": "ただ考えるだけの時間（電気ショックの実験）",
+   "target": "マインドワンダリング",
+   "rel": "考えるだけの時間に心はほぼさまよっていた（Fox ら2014が元データから指摘）",
+   "weight": "標準"
+  },
+  {
    "source": "なじみの道",
    "target": "環世界",
    "rel": "典型的な環世界の問題",
@@ -35691,6 +37148,12 @@
    "weight": "標準"
   },
   {
+   "source": "イリヤ・プリゴジン",
+   "target": "散逸構造",
+   "rel": "提唱・1977年ノーベル化学賞",
+   "weight": "強"
+  },
+  {
    "source": "イワン・パヴロフ",
    "target": "古典的条件づけ",
    "rel": "条件反射の発見者",
@@ -35718,6 +37181,18 @@
    "source": "ウィリアム・ブレイディ",
    "target": "道徳的伝染",
    "rel": "名づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "ウォンティングとライキング",
+   "target": "ドーパミンとノルエピネフリンの相補的覚醒",
+   "rel": "ドーパミンの役割の別の切り口（サリエンス・ルーチンの使用）",
+   "weight": "標準"
+  },
+  {
+   "source": "ウォンティングとライキング",
+   "target": "報酬対比効果",
+   "rel": "⚠欲しさと快が別だとすると説明が変わりうる（大河の見立て・未検討）",
    "weight": "標準"
   },
   {
@@ -35838,6 +37313,12 @@
    "source": "エルコノン・ゴールドバーグ",
    "target": "新規性-ルーチン化理論",
    "rel": "提唱（1981・コスタと）",
+   "weight": "標準"
+  },
+  {
+   "source": "エルヴィン・シュレーディンガー",
+   "target": "負のエントロピー",
+   "rel": "『生命とは何か』（1944）",
    "weight": "標準"
   },
   {
@@ -36087,6 +37568,12 @@
    "weight": "標準"
   },
   {
+   "source": "ケント・ベリッジ",
+   "target": "2016 Berridge",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "ゲイリー・ルピアン",
    "target": "2024 Nedergaard",
    "rel": "共著者（最終著者）",
@@ -36327,9 +37814,27 @@
    "weight": "強"
   },
   {
+   "source": "シュテファン・プファットハイヒャー",
+   "target": "2021 Pfattheicher",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "シワハイルカ",
    "target": "最近接発達領域",
    "rel": "個体差（マリア>ホウ）＝創造性の動物モデルの例",
+   "weight": "標準"
+  },
+  {
+   "source": "ジェレミー・イングランド",
+   "target": "2015 England",
+   "rel": "著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ジェームズ・ダンカート",
+   "target": "ジョン・イーストウッド",
+   "rel": "共著者（Out of My Skull 2020）",
    "weight": "標準"
   },
   {
@@ -36390,6 +37895,24 @@
    "source": "ジョナサン・スクーラー",
    "target": "1990 Schooler",
    "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ジョン・イーストウッド",
+   "target": "2012 Eastwood",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ジョン・カルフーン",
+   "target": "1973 Calhoun",
+   "rel": "著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ジョン・カルフーン",
+   "target": "1962 Calhoun",
+   "rel": "著者",
    "weight": "標準"
   },
   {
@@ -36885,6 +38408,18 @@
    "weight": "強"
   },
   {
+   "source": "ダニエル・ギルバート",
+   "target": "2010 Killingsworth",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
+   "source": "ダニエル・ギルバート",
+   "target": "2014 Wilson",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
    "source": "ダーウィンの赤面調査",
    "target": "恥と罪",
    "rel": "どこでも赤らめる＝羞恥の反応には生得的な基礎がある（p.20-21）",
@@ -36945,6 +38480,18 @@
    "weight": "標準"
   },
   {
+   "source": "ティモシー・ウィルソン",
+   "target": "2014 Wilson",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ティモシー・ウィルソン",
+   "target": "2018 Westgate",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
    "source": "ティンバーゲンの4つの問い",
    "target": "コンラート・ローレンツ",
    "rel": "ノーベル賞の共同受賞者（1973）",
@@ -36954,6 +38501,12 @@
    "source": "ティンバーゲンの4つの問い",
    "target": "動物心理学",
    "rel": "p.40の英語が逆＝正誤表に無い誤植",
+   "weight": "標準"
+  },
+  {
+   "source": "テリー・ロビンソン",
+   "target": "2016 Berridge",
+   "rel": "共著・誘因感作理論の共同提唱者",
    "weight": "標準"
   },
   {
@@ -37009,6 +38562,12 @@
    "target": "魔術的環世界",
    "rel": "著者は魔法にかかったような経験と呼ぶ",
    "weight": "標準"
+  },
+  {
+   "source": "デジタル・スイッチング",
+   "target": "SNS",
+   "rel": "逃げ道が退屈を増やす（短い動画を切り替える見方）",
+   "weight": "強"
   },
   {
    "source": "デフォルト・モード・ネットワーク",
@@ -37827,6 +39386,12 @@
    "weight": "標準"
   },
   {
+   "source": "マイケル・インツリクト",
+   "target": "2024 Tam",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
    "source": "マイサイドバイアス",
    "target": "知能は状況的である",
    "rel": "知能の高さは偏りの少なさを保証しない＝知能の限界のもう一つの面（大河の見立て）",
@@ -37848,6 +39413,18 @@
    "source": "マインドフルネス",
    "target": "失感情症",
    "rel": "本書は逆向きの対として置く",
+   "weight": "標準"
+  },
+  {
+   "source": "マインドワンダリング",
+   "target": "デフォルト・モード・ネットワーク",
+   "rel": "心がさまようとき働く脳の系（⚠この対応はこの地図ではまだ確かめていない）",
+   "weight": "標準"
+  },
+  {
+   "source": "マインドワンダリング",
+   "target": "マインドフルネス",
+   "rel": "対になる構え（いまここに注意を置く）",
    "weight": "標準"
   },
   {
@@ -38163,6 +39740,12 @@
    "weight": "標準"
   },
   {
+   "source": "ユニバース25（カルフーンのネズミの楽園）",
+   "target": "人間の攻撃性",
+   "rel": "理由の見えない攻撃が現れた（⚠報告の中身は二次資料による）",
+   "weight": "標準"
+  },
+  {
    "source": "ユルゲン・シュミットフーバー",
    "target": "2003 Schmidhuber",
    "rel": "著者",
@@ -38376,6 +39959,12 @@
    "source": "ロビン・ハンソン",
    "target": "エリエザー・ユドカウスキー",
    "rel": "対立",
+   "weight": "標準"
+  },
+  {
+   "source": "ワイナンド・ファン・ティルブルフ",
+   "target": "2016 Van Tilburg",
+   "rel": "筆頭著者",
    "weight": "標準"
   },
   {
@@ -38934,6 +40523,24 @@
    "source": "側頭葉てんかんの狂信的信心深さ",
    "target": "認知的習慣",
    "rel": "神経学的現象が文化の語彙で解釈される",
+   "weight": "標準"
+  },
+  {
+   "source": "偽りの勾配",
+   "target": "ウォンティングとライキング",
+   "rel": "欲しがる回路だけを最適化する",
+   "weight": "強"
+  },
+  {
+   "source": "偽りの勾配",
+   "target": "期待自由エネルギー",
+   "rel": "認識的価値（情報利得）がゼロの刺激",
+   "weight": "標準"
+  },
+  {
+   "source": "偽りの勾配",
+   "target": "SNS",
+   "rel": "動画が想定する舞台",
    "weight": "標準"
   },
   {
@@ -40263,6 +41870,12 @@
    "weight": "標準"
   },
   {
+   "source": "宇宙の熱的死",
+   "target": "散逸構造",
+   "rel": "勾配がすべて消えた終点＝散逸構造が存在できない状態",
+   "weight": "標準"
+  },
+  {
    "source": "実行機能",
    "target": "セントラル・エグゼクティブ・ネットワーク",
    "rel": "実行機能を担う網（大河の見立て）",
@@ -41367,6 +42980,18 @@
    "weight": "標準"
   },
   {
+   "source": "散逸構造",
+   "target": "アロスタシス",
+   "rel": "⚠流れを通して形を保つ点で似る（大河の見立て・水準の違う概念）",
+   "weight": "標準"
+  },
+  {
+   "source": "散逸適応",
+   "target": "散逸構造",
+   "rel": "プリゴジン以来の枠組をどこまで超えるかは議論中（動画の断り）",
+   "weight": "標準"
+  },
+  {
    "source": "数的能力",
    "target": "クレバー・ハンス効果",
    "rel": "O.ケーラーは無人環境で撮影して回避",
@@ -41898,6 +43523,24 @@
    "source": "消費者の役割",
    "target": "認知症発生率の低下とデジタル技術仮説",
    "rel": "消費の速度が消費者の脳を変える",
+   "weight": "標準"
+  },
+  {
+   "source": "深い退屈を飼いならす3つの命題",
+   "target": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "rel": "実践への翻訳",
+   "weight": "標準"
+  },
+  {
+   "source": "深い退屈を飼いならす3つの命題",
+   "target": "感情ラベリング",
+   "rel": "命題3「これは退屈だと名前をつける」（映04の第7章と同じ手）",
+   "weight": "標準"
+  },
+  {
+   "source": "深い退屈を飼いならす3つの命題",
+   "target": "マインドフルネス",
+   "rel": "⚠退屈をすぐ消さずに眺める構えが似る（大河の見立て）",
    "weight": "標準"
   },
   {
@@ -43509,6 +45152,12 @@
    "weight": "標準"
   },
   {
+   "source": "行為主体感",
+   "target": "退屈",
+   "rel": "退屈は行為主体感がくじかれた状態（ダンカートとイーストウッドの見方として動画が紹介）",
+   "weight": "標準"
+  },
+  {
    "source": "表現主義",
    "target": "抽象と感情移入",
    "rel": "理屈の後ろ盾になった本",
@@ -44127,6 +45776,12 @@
    "weight": "標準"
   },
   {
+   "source": "負のエントロピー",
+   "target": "散逸構造",
+   "rel": "同じ見方の先駆け（生命は秩序を外から取り込み乱雑さを吐き出す）",
+   "weight": "標準"
+  },
+  {
    "source": "貯食と海馬",
    "target": "WWW記憶",
    "rel": "クレイトンのカケス実験の土台＝貯食習性",
@@ -44190,6 +45845,210 @@
    "source": "追う人と逃げる人",
    "target": "相性は組み合わせでは予測できない",
    "rel": "愛着の回避と不安は Joel 2020 の個人差側の上位予測因子",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈",
+   "target": "デフォルト・モード・ネットワーク",
+   "rel": "⚠退屈とDMNの関係はこの地図ではまだ調べていない（大河の見立てで置いた線）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈",
+   "target": "暗い部屋問題",
+   "rel": "同じ形の問い＝なぜ完璧な安全からも出ていくのか（動画の第4章）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "rel": "動画の芯",
+   "weight": "強"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "ただ考えるだけの時間（電気ショックの実験）",
+   "rel": "導入（00:00）・第1章（02:44）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "マインドワンダリング",
+   "rel": "第1章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "退屈",
+   "rel": "第2章（07:13）＝空腹と同じ警報",
+   "weight": "強"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "行為主体感",
+   "rel": "第2章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "ウォンティングとライキング",
+   "rel": "第3章（11:29）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "暗い部屋問題",
+   "rel": "第4章（15:40）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "期待自由エネルギー",
+   "rel": "第4章＝認識的価値",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "散逸構造",
+   "rel": "第5章（21:07）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "負のエントロピー",
+   "rel": "第5章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "散逸適応",
+   "rel": "第5章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "宇宙の熱的死",
+   "rel": "第5章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "退屈とサディズム",
+   "rel": "第6章（25:57）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "退屈と政治的極端化",
+   "rel": "第6章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "ユニバース25（カルフーンのネズミの楽園）",
+   "rel": "第6章＝通説の訂正",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "デジタル・スイッチング",
+   "rel": "第7章（31:27）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "偽りの勾配",
+   "rel": "第7章",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "退屈の哲学（パスカルからハイデガーまで）",
+   "rel": "第8章（34:25）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "深い退屈を飼いならす3つの命題",
+   "rel": "第8章",
+   "weight": "強"
+  },
+  {
+   "source": "退屈という警報（ASTRENCE）",
+   "target": "言語は「思考の器」ではない（ASTRENCE）",
+   "rel": "同じチャンネル（映04）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈とサディズム",
+   "target": "日常的サディズム",
+   "rel": "退屈が引き金になる（選択肢が無いと傾向の低い人でも）",
+   "weight": "強"
+  },
+  {
+   "source": "退屈とサディズム",
+   "target": "人間の攻撃性",
+   "rel": "退屈は能動的な攻撃だけでなく反応的な攻撃も増やす（研究9）",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈と政治的極端化",
+   "target": "道徳的伝染",
+   "rel": "⚠極端さが広がる別の経路（映04）・大河の見立てで並べた",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈の哲学（パスカルからハイデガーまで）",
+   "target": "退屈",
+   "rel": "400年の前史",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "退屈",
+   "rel": "動画の芯＝退屈は情報の飢餓を告げる警報",
+   "weight": "強"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "暗い部屋問題",
+   "rel": "冒頭の問いと同じ形のパズル",
+   "weight": "強"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "期待自由エネルギー",
+   "rel": "認識的価値＝賢くなれるかの物差し",
+   "weight": "強"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "認識的要請",
+   "rel": "好奇心は部品であって装飾ではない",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "変分自由エネルギー",
+   "rel": "⚠物理の自由エネルギーとは対象が違う（05ボックス3.2）＝第5章の跳躍に注意",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "散逸構造",
+   "rel": "生命は勾配を通して形を保つ",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "宇宙の熱的死",
+   "rel": "究極の退屈という比喩",
+   "weight": "標準"
+  },
+  {
+   "source": "退屈は情報の飢餓（勾配を食べて生きる）",
+   "target": "新規性-ルーチン化理論",
+   "rel": "⚠新規性を求める脳の仕組みの別の理論（12_ゴールドバーグ・大河の見立てで並べた）",
    "weight": "標準"
   },
   {
