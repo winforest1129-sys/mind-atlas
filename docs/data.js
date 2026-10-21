@@ -1,6 +1,6 @@
 /* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
 window.DATA = {
- "generated": "2026-10-22 07:22",
+ "generated": "2026-10-22 08:35",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -1704,6 +1704,39 @@ window.DATA = {
    },
    "sections": {
     "これは何か": "**How not to be seen - the contribution of similarity and selective ignoring to sustained inattentional blindness**\n\nMost, Simons, Scholl, Jimenez, Clifford, Chabris（2001）／ *Psychological Science 12:9-17*\n\n中身は [[非注意性盲目]] に要旨から書いた。本文は未読。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2001 Musselman",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Paroxetine for the prevention of depression induced by high-dose interferon alfa",
+     "url": "https://doi.org/10.1056/NEJM200103293441303",
+     "note": "要旨を確かめた（PMID 11274622）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2001 Musselman.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2001",
+    "著者": "Musselman DL・Lawson DH・Gumnick JF・Manatunga AK・Penna S・Goodkin RS・Greiner K・Nemeroff CB・Miller AH",
+    "雑誌": "New England Journal of Medicine 344(13):961-966",
+    "DOI": "10.1056/NEJM200103293441303",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Paroxetine for the prevention of depression induced by high-dose interferon alfa**\n\nMusselman DL・Lawson DH・Gumnick JF・Manatunga AK・Penna S・Goodkin RS・Greiner K・Nemeroff CB・Miller AH（2001）／ *New England Journal of Medicine 344(13):961-966*",
+    "この地図で": "- 悪性黒色腫で高用量のインターフェロンα（サイトカインの一つ）を使う患者40人。治療の2週前から抗うつ薬パロキセチンかプラセボ\n- ==12週のうちに大うつ病に当たる症状が出たのは、プラセボで **45%**（9/20）、パロキセチンで **11%**（2/18）==。重いうつでインターフェロンをやめたのは 35% 対 5%\n- ⭐「炎症がうつを**起こしうる**」ことを、治療の副作用という形で人で示した。そして、そのうつは**ふつうの抗うつ薬で防げた**",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3783,6 +3816,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2009 Treadway",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Worth the EEfRT? The Effort Expenditure for Rewards Task as an objective measure of motivation and anhedonia",
+     "url": "https://doi.org/10.1371/journal.pone.0006598",
+     "note": "要旨を確かめた（PMID 19672310）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2009 Treadway.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2009",
+    "著者": "Treadway MT・Buckholtz JW・Schwartzman AN・Lambert WE・Zald DH",
+    "雑誌": "PLoS ONE 4(8):e6598",
+    "DOI": "10.1371/journal.pone.0006598",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Worth the EEfRT? The Effort Expenditure for Rewards Task as an objective measure of motivation and anhedonia**\n\nTreadway MT・Buckholtz JW・Schwartzman AN・Lambert WE・Zald DH（2009）／ *PLoS ONE 4(8):e6598*",
+    "この地図で": "- **EEfRT**（努力と報酬の課題）＝楽な課題で小さな報酬か、きつい課題で大きな報酬かを選ばせる\n- 学部生61人。==特性としてのアンヘドニアが強いほど、報酬のために努力を払う意欲が**低い**==\n- 自己報告でなく**行動**で動機を測れる道具として広く使われるようになった",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2009 Zaki",
    "type": "論文",
    "confidence": "確認済",
@@ -3876,6 +3942,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2010 Dowlati",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "A meta-analysis of cytokines in major depression",
+     "url": "https://doi.org/10.1016/j.biopsych.2009.09.033",
+     "note": "要旨を確かめた（PMID 20015486）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Dowlati.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Dowlati Y・Herrmann N・Swardfager W・Liu H・Sham L・Reim EK・Lanctôt KL",
+    "雑誌": "Biological Psychiatry 67(5):446-457",
+    "DOI": "10.1016/j.biopsych.2009.09.033",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**A meta-analysis of cytokines in major depression**\n\nDowlati Y・Herrmann N・Swardfager W・Liu H・Sham L・Reim EK・Lanctôt KL（2010）／ *Biological Psychiatry 67(5):446-457*",
+    "この地図で": "- 24研究のメタ分析。==大うつ病の人は、炎症性サイトカインの **TNF-α** と **IL-6** の濃度が対照より有意に高い==\n- 個々の研究では結果が割れていたが、まとめると「うつには炎症反応系の活性化がともなう」証拠が強まった",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2010 Eisenberger",
    "type": "論文",
    "confidence": "確認済",
@@ -3903,6 +4002,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Inflammation and social experience: An inflammatory challenge induces feelings of social disconnection in addition to depressed mood**\n\nEisenberger ら（4名）（2010）／ *Brain, Behavior, and Immunity*",
     "この地図で、どこに効いているか": "⭐**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[LPS（リポ多糖）]]** ── 健康な人にエンドトキシンを投与する「炎症チャレンジ」の例。2026-10-07にPubMedの要旨で確認\n- **[[疾病行動]]** ── 人にエンドトキシン（LPS）かプラセボを無作為に投与。IL-6・TNF-αが上がり、「人から切り離された感じ」と抑うつ気分が増えた。切り離された感じを統制すると、炎症と抑うつ気分の関係が消えた。2026-10-07にPubMedの要旨で確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2010 Eisenberger（報酬への反応）",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Inflammation-induced anhedonia - endotoxin reduces ventral striatum responses to reward",
+     "url": "https://doi.org/10.1016/j.biopsych.2010.06.010",
+     "note": "要旨を確かめた（PMID 20719303）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Eisenberger（報酬への反応）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Eisenberger NI・Berkman ET・Inagaki TK・Rameson LT・Mashal NM・Irwin MR",
+    "雑誌": "Biological Psychiatry 68(8):748-754",
+    "DOI": "10.1016/j.biopsych.2010.06.010",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Inflammation-induced anhedonia - endotoxin reduces ventral striatum responses to reward**\n\nEisenberger NI・Berkman ET・Inagaki TK・Rameson LT・Mashal NM・Irwin MR（2010）／ *Biological Psychiatry 68(8):748-754*",
+    "この地図で": "- 健康な39人に、低用量のエンドトキシン（[[LPS（リポ多糖）]]）かプラセボを無作為に。2時間後に、お金の報酬を**予期する**課題を fMRI で\n- ==エンドトキシン群は抑うつ気分が増え、報酬の手がかりへの**腹側線条体**の反応が下がった。気分の悪化は、この腹側線条体の反応の差で媒介されていた==\n- 著者いわく、炎症が人の報酬の神経反応を変えることを初めて示した\n- 同じ著者の [[2010 Eisenberger]]（人から切り離された感じ）と対になる",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4387,6 +4519,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2011 Treadway",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Reconsidering anhedonia in depression - lessons from translational neuroscience",
+     "url": "https://doi.org/10.1016/j.neubiorev.2010.06.006",
+     "note": "要旨を確かめた（PMID 20603146）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2011 Treadway.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2011",
+    "著者": "Treadway MT・Zald DH",
+    "雑誌": "Neuroscience & Biobehavioral Reviews 35(3):537-555",
+    "DOI": "10.1016/j.neubiorev.2010.06.006",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Reconsidering anhedonia in depression - lessons from translational neuroscience**\n\nTreadway MT・Zald DH（2011）／ *Neuroscience & Biobehavioral Reviews 35(3):537-555*",
+    "この地図で": "- ==うつのアンヘドニアとドーパミンの研究が食い違ってきたのは、アンヘドニアの定義が**味わう快**（consummatory）と**求める動機**（motivational）を区別してこなかったから==\n- ドーパミンは主に**動機**の側に関わる（動物の研究）。だから定義を分けるべき\n- 報酬を選ぶ意思決定への影響を「**意思決定のアンヘドニア**（decisional anhedonia）」と名づけた",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2011 Whooley",
    "type": "論文",
    "confidence": "確認済",
@@ -4507,6 +4672,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Feeling blue or turquoise? Emotional differentiation in major depressive disorder**\n\nDemiralp E ほか（12名・Barrett LF を含む）（2012）／ *Psychological Science 23(11):1410-1416*",
     "この地図で": "- **[[感情の粒度]]** ── 7日間の経験サンプリング。==大うつ病の人は健康な人より感情の区別が低く・それは否定的な感情だけ==。強さや変動では説明されない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2012 Der-Avakian",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "The neurobiology of anhedonia and other reward-related deficits",
+     "url": "https://doi.org/10.1016/j.tins.2011.11.005",
+     "note": "要旨を確かめた（PMID 22177980）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2012 Der-Avakian.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2012",
+    "著者": "Der-Avakian A・Markou A",
+    "雑誌": "Trends in Neurosciences 35(1):68-77",
+    "DOI": "10.1016/j.tins.2011.11.005",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The neurobiology of anhedonia and other reward-related deficits**\n\nDer-Avakian A・Markou A（2012）／ *Trends in Neurosciences 35(1):68-77*",
+    "この地図で": "- アンヘドニア＝「興味または喜びの著しい減退」。うつ・統合失調症などに共通する\n- ==報酬の処理は、快を感じる力・価値づけ・意思決定・予期・動機の段に分かれ、腹側線条体と前頭前野の回路が担う==\n- 臨床の定義は30年ほど変わっていないが、認知心理学と神経科学で中身が細かく分かれてきた",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5134,6 +5332,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2013 Raison",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "A randomized controlled trial of the tumor necrosis factor antagonist infliximab for treatment-resistant depression",
+     "url": "https://doi.org/10.1001/2013.jamapsychiatry.4",
+     "note": "要旨を確かめた（PMID 22945416）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Raison.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Raison CL・Rutherford RE・Woolwine BJ・Shuo C・Schettler P・Drake DF・Haroon E・Miller AH",
+    "雑誌": "JAMA Psychiatry 70(1):31",
+    "DOI": "10.1001/2013.jamapsychiatry.4",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**A randomized controlled trial of the tumor necrosis factor antagonist infliximab for treatment-resistant depression**\n\nRaison CL・Rutherford RE・Woolwine BJ・Shuo C・Schettler P・Drake DF・Haroon E・Miller AH（2013）／ *JAMA Psychiatry 70(1):31*",
+    "この地図で": "- 治療抵抗性のうつ60人。TNF の働きを抑える薬（インフリキシマブ）かプラセボを3回点滴、12週\n- ==**全体では差がなかった**。ただし、治療前の CRP が **5 mg/L を超える**人ではインフリキシマブが有利、**5以下**の人ではむしろプラセボが有利==\n- CRP 5超の人の探索的な解析で、反応率は 62%（8/13）対 33%（3/9）。⚠人数はとても少ない\n- ⭐「抗炎症はうつの**全員**には効かない。炎症の高い人を選べば効くかもしれない」という見方の出発点",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2013 Stanovich",
    "type": "論文",
    "confidence": "確認済",
@@ -5459,6 +5690,72 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2014 Khandaker",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Association of serum interleukin 6 and C-reactive protein in childhood with depression and psychosis in young adult life",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2014.1332",
+     "note": "要旨を確かめた（PMID 25133871）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Khandaker.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Khandaker GM・Pearson RM・Zammit S・Lewis G・Jones PB",
+    "雑誌": "JAMA Psychiatry 71(10):1121",
+    "DOI": "10.1001/jamapsychiatry.2014.1332",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Association of serum interleukin 6 and C-reactive protein in childhood with depression and psychosis in young adult life**\n\nKhandaker GM・Pearson RM・Zammit S・Lewis G・Jones PB（2014）／ *JAMA Psychiatry 71(10):1121*",
+    "この地図で": "- イギリスの出生コホート（ALSPAC）の約4,500人。==**9歳**のときの血中 IL-6 が上位3分の1の子は、下位3分の1の子より、**18歳**でうつになりやすい==（調整オッズ比 1.55）\n- 性別・BMI・社会階層・過去の心理的問題・母親の産後うつなどを調整したうえで\n- ⭐炎症が**先**にあり、うつが**後**に来るという時間の順序を示した。ただし観察研究なので、因果そのものは示していない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2014 Köhler",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Effect of anti-inflammatory treatment on depression, depressive symptoms, and adverse effects - a systematic review and meta-analysis of randomized clinical trials",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2014.1611",
+     "note": "要旨を確かめた（PMID 25322082）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Köhler.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Köhler O・Benros ME・Nordentoft M・Farkouh ME・Iyengar RL・Mors O・Krogh J",
+    "雑誌": "JAMA Psychiatry 71(12):1381",
+    "DOI": "10.1001/jamapsychiatry.2014.1611",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Effect of anti-inflammatory treatment on depression, depressive symptoms, and adverse effects - a systematic review and meta-analysis of randomized clinical trials**\n\nKöhler O・Benros ME・Nordentoft M・Farkouh ME・Iyengar RL・Mors O・Krogh J（2014）／ *JAMA Psychiatry 71(12):1381*",
+    "この地図で": "- 14試験（6,262人）。NSAID（解熱鎮痛薬）とサイトカイン阻害薬\n- ==抗炎症の治療はプラセボより抑うつ症状を減らした（SMD −0.34）が、**ばらつきが非常に大きい**（I² = 90%）==。セレコキシブ（COX-2 阻害薬）でとくに目立つ\n- 副作用の可能性もあり、著者らは慎重に扱う",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2014 Nekovarova",
    "type": "論文",
    "confidence": "確認済",
@@ -5520,6 +5817,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Borderline intellectual functioning - a systematic literature review**\n\nPeltopuro M・Ahonen T・Kaartinen J・Seppälä H・Närhi V（2014）／ *Intellectual and Developmental Disabilities*",
     "この地図で": "- **[[境界知能]]** ── 要旨（Europe PMC）＝神経認知・社会・精神保健の困難／成人は低技能の職と低収入／リスク因子（低出生体重）と予防因子（教育）は境界知能に特異的でない／日常の困難は明らかなのに研究ではほぼ不可視＝研究・社会的議論・柔軟な支援体系が要る。本書が繰り返し引く「フィンランドのペルトプーロら」の一つ",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2014 Pizzagalli",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Depression, stress, and anhedonia - toward a synthesis and integrated model",
+     "url": "https://doi.org/10.1146/annurev-clinpsy-050212-185606",
+     "note": "要旨を確かめた（PMID 24471371）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Pizzagalli.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Pizzagalli DA",
+    "雑誌": "Annual Review of Clinical Psychology 10:393-423",
+    "DOI": "10.1146/annurev-clinpsy-050212-185606",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Depression, stress, and anhedonia - toward a synthesis and integrated model**\n\nPizzagalli DA（2014）／ *Annual Review of Clinical Psychology 10:393-423*",
+    "この地図で": "- うつは均一な病気ではない。その中で ==**アンヘドニア**は、うつの**中間表現型**（診断と生物学のあいだをつなぐ、測れる特徴）として最も有望なものの一つ==\n- モデル＝アンヘドニアは、**ストレス**と**脳の報酬系**のかみ合わせの失敗から生まれる。動物では、ストレスが誘因の動機と強化学習に関わる中脳辺縁皮質のドーパミン経路を損なう",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5810,6 +6140,39 @@ window.DATA = {
     "これは何か": "**Dissipative adaptation in driven self-assembly**\n\nEngland JL（2015）／ *Nature Nanotechnology 10(11):919-923*",
     "この地図で": "- **[[散逸適応]]** ── 平衡ではボルツマン分布で配置の確率が決まるが・外から仕事をされ続ける系ではそれが難しい。著者は「**吸収した仕事の散逸による自己組織化**」という一般的な熱力学の仕組みが・多くの駆動された多体系に当てはまるかもしれない、と**提案**する",
     "注意": "!!要旨の語は I propose / may be applicable。生命の起源の説明として確立したものではない（動画も同じ断りを入れている）!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 Felger",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Inflammation is associated with decreased functional connectivity within corticostriatal reward circuitry in depression",
+     "url": "https://doi.org/10.1038/mp.2015.168",
+     "note": "要旨を確かめた（PMID 26552591）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Felger.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Felger JC・Li Z・Haroon E・Woolwine BJ・Jung MY・Hu X・Miller AH",
+    "雑誌": "Molecular Psychiatry 21(10):1358-1365",
+    "DOI": "10.1038/mp.2015.168",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Inflammation is associated with decreased functional connectivity within corticostriatal reward circuitry in depression**\n\nFelger JC・Li Z・Haroon E・Woolwine BJ・Jung MY・Hu X・Miller AH（2015）／ *Molecular Psychiatry 21(10):1358-1365*",
+    "この地図で": "- 服薬していないうつの外来患者48人。安静時の脳のつながり（fMRI）\n- ==**CRP が高い**ほど、**腹側線条体と腹内側前頭前野**のつながりが弱く、そのつながりが弱いほど**アンヘドニア**が強い（R = −0.47）==\n- 背側線条体と運動前野のつながりの弱さは、動作の遅さと結びついた\n- 媒介分析で、CRP→つながり→アンヘドニア・動作の遅さ、の筋が支持された（横断研究）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6106,6 +6469,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**On the dimensionality of odor space**\n\nMeister（2015）／ *eLife*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[においの一兆種問題]]** ── ==同じ手法を色覚に当てると識別できる色は無限という結論が出る（実際は数百万）。==設計と解析の欠陥を指摘。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 Miller",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "The role of inflammation in depression - from evolutionary imperative to modern treatment target",
+     "url": "https://doi.org/10.1038/nri.2015.5",
+     "note": "要旨を確かめた（PMID 26711676）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Miller.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Miller AH・Raison CL",
+    "雑誌": "Nature Reviews Immunology 16(1):22-34",
+    "DOI": "10.1038/nri.2015.5",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The role of inflammation in depression - from evolutionary imperative to modern treatment target**\n\nMiller AH・Raison CL（2015）／ *Nature Reviews Immunology 16(1):22-34*",
+    "この地図で": "- ==炎症と脳の回路のやりとりが生む**回避と警戒**の反応は、病原体や捕食者に出会う初期の人類には有利だった。現代では、それがうつを生み、抗うつ薬が効かない一因になっている==\n- 自然免疫と獲得免疫が神経伝達物質と回路にどう働くかをまとめ、免疫を狙う治療の見通しを述べる\n- ⭐[[疾病行動]] を「戦略」と見た Hart 1988 の筋を、うつまで延ばした総説",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6456,6 +6852,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Parsing fear - a reassessment of the evidence for fear deficits in psychopathy**\n\nHoppenbrouwers SS・Bulten BH・Brazil IA（2016）／ *Psychological Bulletin 142(6):573-600*",
     "この地図で": "- 恐怖を部品に分けて、サイコパシーの研究を読み直した総説とメタ分析\n- ==多くの研究は「恐怖」という語をひとまとめに使ってきた。脅威を**検出して反応する**ところの欠けには証拠があるが、恐怖を**主観的に感じる**ことが少ないという証拠はずっと弱い==\n- 動画の「罰は嫌だが罰の予感がない」は前者に当たる。「恐怖を感じない脳」というチャプター名は、後者まで言ってしまっている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2016 Kappelmann",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Antidepressant activity of anti-cytokine treatment - a systematic review and meta-analysis of clinical trials of chronic inflammatory conditions",
+     "url": "https://doi.org/10.1038/mp.2016.167",
+     "note": "要旨を確かめた（PMID 27752078）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Kappelmann.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Kappelmann N・Lewis G・Dantzer R・Jones PB・Khandaker GM",
+    "雑誌": "Molecular Psychiatry 23(2):335-343",
+    "DOI": "10.1038/mp.2016.167",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Antidepressant activity of anti-cytokine treatment - a systematic review and meta-analysis of clinical trials of chronic inflammatory conditions**\n\nKappelmann N・Lewis G・Dantzer R・Jones PB・Khandaker GM（2016）／ *Molecular Psychiatry 23(2):335-343*",
+    "この地図で": "- 関節リウマチや乾癬など**慢性炎症の病気**の試験で、副次的に測られた抑うつ症状を集めた（無作為化7試験・2,370人）\n- ==サイトカイン阻害薬はプラセボより抑うつ症状を改善（SMD 0.40）。**体の病気の改善の度合いとは関係しなかった**==＝「体が楽になったから気分も上がった」だけでは説明しにくい\n- 著者ら（Dantzer を含む）は、炎症の高い**体の病気の無い**人で、うつを主な評価項目にした試験が必要だと結ぶ",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7625,6 +8054,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2019 Osimo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Prevalence of low-grade inflammation in depression - a systematic review and meta-analysis of CRP levels",
+     "url": "https://doi.org/10.1017/S0033291719001454",
+     "note": "要旨を確かめた（PMID 31258105）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Osimo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Osimo EF・Baxter LJ・Lewis G・Jones PB・Khandaker GM",
+    "雑誌": "Psychological Medicine 49(12):1958-1970",
+    "DOI": "10.1017/S0033291719001454",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Prevalence of low-grade inflammation in depression - a systematic review and meta-analysis of CRP levels**\n\nOsimo EF・Baxter LJ・Lewis G・Jones PB・Khandaker GM（2019）／ *Psychological Medicine 49(12):1958-1970*",
+    "この地図で": "- 37研究（うつ 13,541人・対照 155,728人）\n- ==**軽い炎症**（CRP 3 mg/L 超）はうつの人の **27%**（95%信頼区間 21〜34%）。CRP 1 mg/L 超は **58%**==\n- 健常対照と比べたオッズ比は約1.46〜1.47\n- この割合は、入院か外来か・抗うつ薬・年齢・BMI・民族で変わらなかった",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2019 Sánchez de Ribera",
    "type": "論文",
    "confidence": "確認済",
@@ -7956,6 +8418,72 @@ window.DATA = {
    "sections": {
     "これは何か": "**The Girona declaration on borderline intellectual functioning**\n\nMartínez-Leal R・Folch A・Munir K・Novell R ら（2020）／ *The Lancet Psychiatry*",
     "この地図で": "- **[[ジローナ宣言]]** ── ⚠本文は未読（本書の要約による）。書誌のみ Crossref で確かめた",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2020 Milaneschi",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Depression heterogeneity and its biological underpinnings - toward immunometabolic depression",
+     "url": "https://doi.org/10.1016/j.biopsych.2020.01.014",
+     "note": "要旨を確かめた（PMID 32247527）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Milaneschi.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Milaneschi Y・Lamers F・Berk M・Penninx BWJH",
+    "雑誌": "Biological Psychiatry 88(5):369-380",
+    "DOI": "10.1016/j.biopsych.2020.01.014",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Depression heterogeneity and its biological underpinnings - toward immunometabolic depression**\n\nMilaneschi Y・Lamers F・Berk M・Penninx BWJH（2020）／ *Biological Psychiatry 88(5):369-380*",
+    "この地図で": "- 総説。うつの人に見られる炎症と、エネルギーを調節するホルモン（レプチン・インスリン）の乱れを合わせて読む\n- ==これらの乱れは、うつ全体よりも、**エネルギーの出入りが変わる非定型の症状**（過食・体重増加・過眠・疲れ・体が鉛のように重い）とよりはっきり結びつく==\n- 著者らはこれを **免疫代謝型うつ（immunometabolic depression）** という次元として提案。抗炎症の治療が効く人を選ぶ目印になりうる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2020 Osimo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Inflammatory markers in depression - a meta-analysis of mean differences and variability in 5166 patients and 5083 controls",
+     "url": "https://doi.org/10.1016/j.bbi.2020.02.010",
+     "note": "要旨を確かめた（PMID 32113908）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Osimo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Osimo EF・Pillinger T・Rodriguez IM・Khandaker GM・Pariante CM・Howes OD",
+    "雑誌": "Brain, Behavior, and Immunity 87:901-909",
+    "DOI": "10.1016/j.bbi.2020.02.010",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Inflammatory markers in depression - a meta-analysis of mean differences and variability in 5166 patients and 5083 controls**\n\nOsimo EF・Pillinger T・Rodriguez IM・Khandaker GM・Pariante CM・Howes OD（2020）／ *Brain, Behavior, and Immunity 87:901-909*",
+    "この地図で": "- 107研究（うつ 5,166人・対照 5,083人）。平均の差に加えて、**ばらつき**の差も比べた\n- うつは炎症寄りの状態だと確認された（CRP の差 g = 0.71）\n- ==ところが、CRP や IL-12 などは**うつの人のほうがばらつきが小さい**。「一部の人だけが炎症で引き上げている」なら、ばらつきは大きくなるはず。だから、少なくとも一部の指標の上昇は、炎症のある**下位群**ではなく、分布**全体の右ずれ**で起きている==\n- ⭐「炎症性うつ＝うつの中の一つの型」という見方に、著者ら自身（Khandaker を含む）が留保をつけた形",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -8555,6 +9083,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2021 Kappelmann",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Dissecting the association between inflammation, metabolic dysregulation, and specific depressive symptoms - a genetic correlation and 2-sample Mendelian randomization study",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2020.3436",
+     "note": "要旨を確かめた（PMID 33079133）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Kappelmann.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Kappelmann N・Arloth J・Georgakis MK・Czamara D・Rost N・Ligthart S・Khandaker GM・Binder EB",
+    "雑誌": "JAMA Psychiatry 78(2):161-170",
+    "DOI": "10.1001/jamapsychiatry.2020.3436",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Dissecting the association between inflammation, metabolic dysregulation, and specific depressive symptoms - a genetic correlation and 2-sample Mendelian randomization study**\n\nKappelmann N・Arloth J・Georgakis MK・Czamara D・Rost N・Ligthart S・Khandaker GM・Binder EB（2021）／ *JAMA Psychiatry 78(2):161-170*",
+    "この地図で": "- 大規模なゲノム研究の要約データを使った**メンデルランダム化**（生まれつきの遺伝子の違いを「自然の無作為割り付け」とみなして因果を推す方法）\n- ==CRP とうつの個々の症状には遺伝的な重なりがある。ただしそれは、**代謝の乱れ**（BMI）がアンヘドニア・疲れ・食欲の変化・自分は駄目だという感じを起こしている、という因果の筋から来ているのかもしれない==\n- **IL-6 のシグナル**は**自殺念慮**と結びついた\n- ⭐「炎症がうつを起こす」の一部は、**肥満と代謝**が炎症とうつの両方を起こしている、という読みに置き換わりうる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2021 Kittel",
    "type": "論文",
    "confidence": "確認済",
@@ -8580,6 +9141,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Sty in the Mind’s Eye: A Meta-Analytic Investigation of the Nomological Network and Internal Consistency of the “Reading the Mind in the Eyes” Test**\n\nKittel ら（3名）（2021）／ *Assessment*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[共感の測りかたの問題]]** ── RMETは他の心の理論課題より情動知覚と強く関係し、語彙とも弱〜中程度に関係する。心の理論の指標というより情動知覚の指標として働いている。2026-09-03に確認\n- **[[目から心を読むテスト]]** ── メタ分析。RMETは他の心の理論課題より情動知覚と強く関係し、語彙とも弱〜中程度に関係する。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2021 Nettis",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Augmentation therapy with minocycline in treatment-resistant depression patients with low-grade peripheral inflammation - results from a double-blind randomised clinical trial",
+     "url": "https://doi.org/10.1038/s41386-020-00948-6",
+     "note": "要旨を確かめた（PMID 33504955）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Nettis.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Nettis MA・Lombardo G・Hastings C・Zajkowska Z・Mariani N・Nikkheslat N・Worrell C・Enache D ほか",
+    "雑誌": "Neuropsychopharmacology 46(5):939-948",
+    "DOI": "10.1038/s41386-020-00948-6",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Augmentation therapy with minocycline in treatment-resistant depression patients with low-grade peripheral inflammation - results from a double-blind randomised clinical trial**\n\nNettis MA・Lombardo G・Hastings C・Zajkowska Z・Mariani N・Nikkheslat N・Worrell C・Enache D ほか（2021）／ *Neuropsychopharmacology 46(5):939-948*",
+    "この地図で": "- 治療抵抗性うつで CRP 1 mg/L 以上の39人。抗うつ薬に抗生物質ミノサイクリン（ミクログリアを抑える働きもある）を4週上乗せ\n- ==全体では差がない。**CRP 3 mg/L 以上**に絞ると、ミノサイクリン群の改善が大きく、部分反応が 83%==。反応者と非反応者を分ける CRP は 2.8 mg/L\n- ⚠小さな試験で、層別は事後の探索に近い。[[2013 Raison]] と同じ形の結果がくり返された、という点に意味がある",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -10049,6 +10643,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2026 Boyle",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Effects of acute inflammatory challenge on anhedonia and social reward processing - a randomized controlled trial of endotoxin",
+     "url": "https://doi.org/10.1016/j.psyneuen.2026.107987",
+     "note": "要旨を確かめた（PMID 42641253）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2026 Boyle.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2026",
+    "著者": "Boyle CC・Blandl A・Eisenberger NI・Olmstead R・Cho JH・Piber D・Irwin MR",
+    "雑誌": "Psychoneuroendocrinology 193:107987",
+    "DOI": "10.1016/j.psyneuen.2026.107987",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Effects of acute inflammatory challenge on anhedonia and social reward processing - a randomized controlled trial of endotoxin**\n\nBoyle CC・Blandl A・Eisenberger NI・Olmstead R・Cho JH・Piber D・Irwin MR（2026）／ *Psychoneuroendocrinology 193:107987*",
+    "この地図で": "- 25〜44歳の女性40人。エンドトキシン（0.8 ng/kg・18人）かプラセボ（22人）を無作為・二重盲検\n- ==2時間後、エンドトキシン群は**アンヘドニアが増え**、**人と関わる課題をやりたい気持ち**（社会的な報酬への動機）が下がった。どちらも TNF-α の上昇と結びついた==\n- 笑顔への注意の向きは変わらず、笑顔を見分ける成績はプラセボ群だけが練習で伸びた\n- ⭐炎症が削るのは、良いものを**感じる**力より、良いものを**求めに行く**力のほう、という向き（[[ウォンティングとライキング]]）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2026 Cao",
    "type": "論文",
    "confidence": "確認済",
@@ -10418,6 +11045,32 @@ window.DATA = {
    "sections": {
     "これは何か": "Cattell-Horn-Carroll モデル。「多因子形質としての階層的構造」＝==人の知能は三層＝頂点に**一般知能（g）**・第2層に**流動性知能**（新規の情報を処理する能力＝暗記・計算・推論・問題解決）と**結晶性知能**（蓄積された知識や情報＝言語の働きが大きい）など・第3層に個別能力==（画像70-71）。\n- AAIDD マニュアル（第11-12版）＝かつては「単一の形質としての知能」が広く認められてきたが・近年は CHC が知能検査に組み込まれ広く認められつつある。ウェクスラー式（WAIS・WISC）も CHC で解釈されるようになった\n- 流動性知能は20歳頃まで上昇して低下・結晶性知能は年齢とともに上昇し続ける。前者は動作性・後者は言語性の下位検査。知的障害者も同様＝境界知能も同様と推測（画像71・89）\n- ⚠**IQ値の解釈の留意点**（AAIDD 第11版）＝測定誤差・検査の公平性（言語・文化）・**フリン効果**（栄養・文化・検査経験・教育で平均が上下＝旧版の検査で出やすい）・異なる検査の得点比較・練習効果・極端な得点（−2SD以下は標準化サンプルが少ない）。WISC は7〜10種類の項目で測る＝実際の知能とのずれ。**やる気・実行力・柔軟性・対人コミュニケーションは測れない**（画像72-73）\n- 「誰もが納得する知能の概念はまだ無い」（画像70）",
     "この地図で": "`12_ゴールドバーグ`の[[知能は状況的である]]（著者も g の実在を疑う）と正面から向き合う。CHC は g を頂点に置くが・本書自身は IQ の限界を丁寧に並べている＝**赤線は「モデル」と「疑い」の間**であって・本書が g を強く支持しているわけではない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "CRP（C反応性タンパク）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Osimo EF ほか (2019) Psychol Med 49:1958-1970",
+     "url": "https://doi.org/10.1017/S0033291719001454",
+     "note": "CRP 1 と 3 mg/L の区切りを確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/CRP（C反応性タンパク）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "C-reactive protein。==体のどこかで炎症が起きると、肝臓が作って血中に増えるタンパク質==。IL-6 が作るよう促す。健康診断でも測る、いちばん手軽な炎症の目印。",
+    "うつの研究での区切り": "- **1 mg/L 超**＝軽く高い。うつの人の58%（[[2019 Osimo]]）\n- **3 mg/L 超**＝軽い炎症（low-grade inflammation）。うつの人の27%\n- 治療試験で効き目が分かれた線＝**5 mg/L 超**（[[2013 Raison]]）・**3 mg/L 以上**（[[2021 Nettis]]）\n\n!!CRP は肥満・喫煙・感染・運動不足などでも上がる。うつとの結びつきの一部はそこから来る（[[2021 Kappelmann]]）!!。この節の注意は大河の理解で、肥満の部分は要旨で確認した。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12726,6 +13379,49 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "Andrew Christensen。夫婦の葛藤の要求／撤退パターンの研究（[[1990 Christensen]]）。⚠所属（大河の記憶では UCLA）は未確認。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "アンヘドニア",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Der-Avakian A・Markou A (2012) Trends Neurosci 35:68-77",
+     "url": "https://doi.org/10.1016/j.tins.2011.11.005",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Treadway MT・Zald DH (2011) Neurosci Biobehav Rev 35:537-555",
+     "url": "https://doi.org/10.1016/j.neubiorev.2010.06.006",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Pizzagalli DA (2014) Annu Rev Clin Psychol 10:393-423",
+     "url": "https://doi.org/10.1146/annurev-clinpsy-050212-185606",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [
+    "vmpfc",
+    "ofc"
+   ],
+   "file": "nodes/アンヘドニア.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "anhedonia。==**興味や喜びの著しい減退**==。以前は楽しめたことが楽しくない、何かをしたいと思えない。ギリシャ語の「快（hēdonē）が無い」から。\n\n- 大うつ病の**中核症状**の一つ（もう一つは抑うつ気分。どちらかが無いと診断されない＝!!DSM-5 の細部は大河の記憶!!）。統合失調症・依存などにも出る（[[2012 Der-Avakian]]）\n- !!語を作ったのはフランスの心理学者リボー（1896年）というのは大河の記憶!!",
+    "一つではない": "いちばん大事な更新は、==「喜べない」を一つの症状として扱わず、**部品に分ける**==ようになったこと。\n- **味わう快**（consummatory・liking）＝手に入れたときに快を感じる\n- **求める動機**（motivational・wanting）＝快を予期して、手に入れに行く\n- さらに、価値づけ・予期・努力の見積もり・学習の段に分かれる（[[2012 Der-Avakian]]）\n\nうつで目立つのは、多くの場合 **求める側**の欠け。チョコレートを食べればおいしいが、取りに立ち上がる気がしない。ドーパミンは主にこちらに関わる（[[2011 Treadway]]・[[ウォンティングとライキング]]）。\n- 行動で測る道具＝**EEfRT**（きつい課題で大きな報酬か、楽な課題で小さな報酬か）。アンヘドニアの強い人ほど努力を払わない（[[2009 Treadway]]）",
+    "うつの「中間表現型」として": "うつは均一な病気ではない。その中で、アンヘドニアは**測れて、脳の回路とつながる**特徴として有望（[[2014 Pizzagalli]]）。モデル＝**ストレス**が報酬系のドーパミン経路を損なう。",
+    "炎症との結びつき": "[[炎症性うつ]] でいちばんよく結びつく症状の一つ。\n- 健康な人に炎症を起こすと、報酬の予期で腹側線条体の反応が下がる（[[2010 Eisenberger（報酬への反応）]]）\n- うつの人では CRP が高いほど、腹側線条体と腹内側前頭前野のつながりが弱く、アンヘドニアが強い（[[2015 Felger]]）\n- 炎症で**人と関わりたい気持ち**が下がる。笑顔を見る反応はあまり変わらない（[[2026 Boyle]]）＝ここでも削られるのは**求める側**\n- ⚠遺伝子による因果の推定では、アンヘドニアに効いているのは炎症より**代謝の乱れ**かもしれない（[[2021 Kappelmann]]）",
+    "この地図の中で": "- 「社会的アンヘドニア」（人付き合いの喜びの減退）は、[[2021 Heym]] でダーク・トライアド型が最も高かった項目の一つ\n- [[疾病行動]] の「何もしたくない」は、熱のときの一時的なアンヘドニアとして読める（大河の見立て）",
+    "本の中で（16_ライマン）": "燻太さんが読書中に挙げた語（2026-10-22）。燻太さんいわく「おなじみの単語」。!!頁はまだ書いていない!!。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -29840,6 +30536,50 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "炎症性うつ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Miller AH・Raison CL (2015) Nat Rev Immunol 16:22-34",
+     "url": "https://doi.org/10.1038/nri.2015.5",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Osimo EF ほか (2019) Psychol Med 49:1958-1970",
+     "url": "https://doi.org/10.1017/S0033291719001454",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Osimo EF ほか (2020) Brain Behav Immun 87:901-909",
+     "url": "https://doi.org/10.1016/j.bbi.2020.02.010",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [
+    "vmpfc",
+    "hypothalamus"
+   ],
+   "file": "nodes/炎症性うつ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "inflammatory depression。==体の**炎症**がうつの原因の一部になっている、という見方。そして、うつの人のうち**炎症の高い人**を一つのまとまりとして扱おうとする考え==。正式な診断名ではない。「うつは脳の神経伝達物質だけの病気」という像に、免疫の側から別の入口を開いた。",
+    "どうやって分かってきたか": "1. **うつの人は炎症の目印が高い**＝TNF-α・IL-6（[[2010 Dowlati]]）、CRP（[[2020 Osimo]]）\n2. **炎症を起こすとうつが起きる**＝治療でインターフェロンαを使った人の45%に大うつ病の症状（[[2001 Musselman]]）。健康な人に低用量のエンドトキシンを入れると、抑うつ気分と報酬への反応の低下が起きる（[[2010 Eisenberger（報酬への反応）]]）\n3. **炎症が先、うつが後**＝9歳の IL-6 が18歳のうつを予測（[[2014 Khandaker]]）\n4. **炎症を抑えると良くなる人がいる**＝抗炎症薬のメタ分析（[[2014 Köhler]]・[[2016 Kappelmann]]）。ただし ==全員ではなく、**CRP の高い人だけ**に効く向き==（[[2013 Raison]]＝CRP 5 超・[[2021 Nettis]]＝CRP 3 以上）",
+    "どれくらいいるか": "- うつの人の **約27%** に軽い炎症（CRP 3 mg/L 超）、**58%** に軽く高い CRP（1 mg/L 超）（[[2019 Osimo]]）\n- 「最近わかってきた」というのは、この**割合**と**治療で選び分ける**という発想のこと。炎症とうつの結びつき自体は1990年代から言われていた（!!年代は大河の記憶!!）",
+    "仕組み（いま考えられていること）": "- 末梢の炎症性サイトカインが脳に信号を送り、[[疾病行動]] と同じ切り替えを起こす（[[2008 Dantzer]]）\n- 報酬の回路が鈍る＝腹側線条体の反応が下がり、腹内側前頭前野とのつながりが弱まる（[[2015 Felger]]）。だから==炎症と最もよく結びつくのは、悲しみより**アンヘドニア**と**疲れ・動作の遅さ**==\n- 進化の読み＝病原体や捕食者に備える回避と警戒の反応が、現代では長引いてうつになる（[[2015 Miller]]）\n- !!トリプトファンからキヌレニンへの代謝の切り替え（セロトニンの材料が減る）という経路も言われているが、大河は要旨で確かめていない!!",
+    "留保（ここが大事）": "- ==**下位型か、全体のずれか**==＝CRP などは、うつの人のほうが**ばらつきが小さい**。「炎症のある一部の人」がいるというより、うつ全体が炎症寄りに**ずれている**部分がある（[[2020 Osimo]]・赤線）\n- ==**炎症が原因か、代謝が両方の原因か**==＝遺伝子を使った因果の推定では、CRP と症状の結びつきの多くは**肥満・代謝の乱れ**から来ている可能性がある。IL-6 は自殺念慮と結びついた（[[2021 Kappelmann]]）\n- そこから生まれた言いかえが **免疫代謝型うつ**＝炎症と代謝の乱れが、過食・過眠・疲れ・体の重さという**非定型の症状**と束になる（[[2020 Milaneschi]]）\n- 治療の試験は小さく、層別の多くは事後の探索。==「抗炎症薬でうつが治る」とはまだ言えない==",
+    "本の中で（16_ライマン）": "燻太さんが読書中に挙げた語（2026-10-22）。!!頁と、本が「炎症性うつ」をどう定義しているかはまだ聞いていない!!。",
+    "大河の見立て": "[[疾病行動]] は「熱が出たときの一時的な戦略」だった。炎症性うつは、その**スイッチが入ったまま戻らない**状態として読むと分かりやすい。環世界の言葉で言えば、==病んだ身体の世界の組み替えが、熱が下がっても続いている==。ただし、上の留保のとおり、その「スイッチ」の一部は免疫ではなく**代謝**かもしれない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "無意識のハード・プロブレム",
    "type": "用語",
    "confidence": "推測",
@@ -37025,6 +37765,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2001 Musselman",
+   "target": "炎症性うつ",
+   "rel": "サイトカインを投与すると人にうつが起きる＝原因の向きを示す古典",
+   "weight": "強"
+  },
+  {
    "source": "2001 Raichle",
    "target": "デフォルト・モード・ネットワーク",
    "rel": "裏づけ",
@@ -37649,6 +38395,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2009 Treadway",
+   "target": "アンヘドニア",
+   "rel": "報酬のために努力する意欲を行動で測る課題",
+   "weight": "強"
+  },
+  {
    "source": "2009 Zaki",
    "target": "共感的正確性",
    "rel": "裏づけ",
@@ -37673,6 +38425,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2010 Dowlati",
+   "target": "炎症性うつ",
+   "rel": "うつではTNF-αとIL-6が高い＝最初の大きなメタ分析",
+   "weight": "強"
+  },
+  {
    "source": "2010 Eisenberger",
    "target": "LPS（リポ多糖）",
    "rel": "裏づけ",
@@ -37682,6 +38440,18 @@ window.DATA = {
    "source": "2010 Eisenberger",
    "target": "疾病行動",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2010 Eisenberger（報酬への反応）",
+   "target": "アンヘドニア",
+   "rel": "炎症を起こすと報酬の予期で腹側線条体が鈍る＝人での実験",
+   "weight": "強"
+  },
+  {
+   "source": "2010 Eisenberger（報酬への反応）",
+   "target": "LPS（リポ多糖）",
+   "rel": "低用量のエンドトキシンで炎症を起こした",
    "weight": "標準"
   },
   {
@@ -37787,6 +38557,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2011 Treadway",
+   "target": "アンヘドニア",
+   "rel": "快の欠けと動機の欠けを分けよ",
+   "weight": "強"
+  },
+  {
    "source": "2011 Whooley",
    "target": "敵意",
    "rel": "裏づけ",
@@ -37815,6 +38591,12 @@ window.DATA = {
    "target": "感情の粒度",
    "rel": "うつ病の人は否定的な感情の区別が低い",
    "weight": "強"
+  },
+  {
+   "source": "2012 Der-Avakian",
+   "target": "アンヘドニア",
+   "rel": "報酬の処理をいくつもの段に分けた総説",
+   "weight": "標準"
   },
   {
    "source": "2012 Eastwood",
@@ -37949,6 +38731,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2013 Raison",
+   "target": "炎症性うつ",
+   "rel": "全体では効かず・CRPの高い人だけ効く向き",
+   "weight": "強"
+  },
+  {
    "source": "2013 Stanovich",
    "target": "マイサイドバイアス",
    "rel": "原典＝偏りの大きさは知能とほとんど無関係",
@@ -38015,6 +38803,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2014 Khandaker",
+   "target": "炎症性うつ",
+   "rel": "9歳のIL-6が18歳のうつを予測＝時間の順序",
+   "weight": "強"
+  },
+  {
+   "source": "2014 Köhler",
+   "target": "炎症性うつ",
+   "rel": "抗炎症薬のメタ分析＝効果はあるがばらつきが非常に大きい",
+   "weight": "標準"
+  },
+  {
    "source": "2014 Nekovarova",
    "target": "三重ネットワーク説",
    "rel": "裏づけ",
@@ -38024,6 +38824,12 @@ window.DATA = {
    "source": "2014 Peltopuro",
    "target": "境界知能",
    "rel": "系統的レビュー＝1726件から49研究。「研究の場ではほぼ不可視」",
+   "weight": "強"
+  },
+  {
+   "source": "2014 Pizzagalli",
+   "target": "アンヘドニア",
+   "rel": "ストレスと報酬系のかみ合わせの失敗として読む",
    "weight": "強"
   },
   {
@@ -38103,6 +38909,18 @@ window.DATA = {
    "target": "散逸適応",
    "rel": "提唱（展望論文）",
    "weight": "強"
+  },
+  {
+   "source": "2015 Felger",
+   "target": "アンヘドニア",
+   "rel": "CRPが高いほど報酬回路のつながりが弱く・アンヘドニアが強い",
+   "weight": "強"
+  },
+  {
+   "source": "2015 Felger",
+   "target": "腹内側前頭前野",
+   "rel": "腹側線条体とのつながり",
+   "weight": "標準"
   },
   {
    "source": "2015 Friston",
@@ -38201,6 +39019,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2015 Miller",
+   "target": "炎症性うつ",
+   "rel": "進化の名残として読む総説",
+   "weight": "強"
+  },
+  {
+   "source": "2015 Miller",
+   "target": "疾病行動",
+   "rel": "病原体と捕食者への備えだった反応",
+   "weight": "標準"
+  },
+  {
    "source": "2015 Monahan",
    "target": "一ニューロン一受容体則",
    "rel": "裏づけ",
@@ -38277,6 +39107,12 @@ window.DATA = {
    "target": "恐怖欠如仮説",
    "rel": "恐怖をひとまとめにした証拠の読みへの批判",
    "weight": "強"
+  },
+  {
+   "source": "2016 Kappelmann",
+   "target": "炎症性うつ",
+   "rel": "慢性炎症の病気の人ではサイトカイン阻害で気分も上がる",
+   "weight": "標準"
   },
   {
    "source": "2016 Krishnan",
@@ -38579,6 +39415,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2019 Osimo",
+   "target": "炎症性うつ",
+   "rel": "うつの約4人に1人に軽い炎症",
+   "weight": "強"
+  },
+  {
+   "source": "2019 Osimo",
+   "target": "CRP（C反応性タンパク）",
+   "rel": "CRPの区切りで割合を出した",
+   "weight": "標準"
+  },
+  {
    "source": "2019 Sánchez de Ribera",
    "target": "サイコパシーと知能",
    "rel": "全体では小さな負の相関＝r −.07",
@@ -38660,6 +39508,18 @@ window.DATA = {
    "source": "2020 Martínez-Leal",
    "target": "ジローナ宣言",
    "rel": "宣言の掲載誌（Lancet Psychiatry 7(3):e8）",
+   "weight": "強"
+  },
+  {
+   "source": "2020 Milaneschi",
+   "target": "炎症性うつ",
+   "rel": "免疫代謝型うつ＝炎症と代謝の乱れが非定型の症状と束になる",
+   "weight": "強"
+  },
+  {
+   "source": "2020 Osimo",
+   "target": "炎症性うつ",
+   "rel": "炎症のある下位群がいるという見方への批判＝分布全体の右ずれ",
    "weight": "強"
   },
   {
@@ -38783,6 +39643,18 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2021 Kappelmann",
+   "target": "炎症性うつ",
+   "rel": "CRPとの結びつきの多くは代謝の乱れから来ているかもしれない",
+   "weight": "標準"
+  },
+  {
+   "source": "2021 Kappelmann",
+   "target": "アンヘドニア",
+   "rel": "代謝の乱れがアンヘドニアの原因になりうる",
+   "weight": "標準"
+  },
+  {
    "source": "2021 Kittel",
    "target": "共感の測りかたの問題",
    "rel": "裏づけ",
@@ -38792,6 +39664,12 @@ window.DATA = {
    "source": "2021 Kittel",
    "target": "目から心を読むテスト",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2021 Nettis",
+   "target": "炎症性うつ",
+   "rel": "CRP 3以上の人に限って上乗せが効いた",
    "weight": "標準"
   },
   {
@@ -39123,6 +40001,12 @@ window.DATA = {
    "target": "コネクトームと機能のずれ",
    "rel": "材料（オスの全中枢神経系の配線図）",
    "weight": "標準"
+  },
+  {
+   "source": "2026 Boyle",
+   "target": "アンヘドニア",
+   "rel": "炎症で社会的な報酬への意欲が下がる",
+   "weight": "強"
   },
   {
    "source": "2026 Cao",
@@ -40431,6 +41315,24 @@ window.DATA = {
    "target": "1990 Christensen",
    "rel": "筆頭著者",
    "weight": "強"
+  },
+  {
+   "source": "アンヘドニア",
+   "target": "ウォンティングとライキング",
+   "rel": "求める動機と味わう快を分けると見えかたが変わる",
+   "weight": "強"
+  },
+  {
+   "source": "アンヘドニア",
+   "target": "疾病行動",
+   "rel": "熱のときの「何もしたくない」の芯",
+   "weight": "標準"
+  },
+  {
+   "source": "アンヘドニア",
+   "target": "報酬対比効果",
+   "rel": "報酬への感度の別の側面",
+   "weight": "標準"
   },
   {
    "source": "アヴェロンの野生児",
@@ -47675,6 +48577,36 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "炎症性うつ",
+   "target": "疾病行動",
+   "rel": "疾病行動が長引いて抜けなくなった形として読まれる",
+   "weight": "強"
+  },
+  {
+   "source": "炎症性うつ",
+   "target": "アンヘドニア",
+   "rel": "炎症と最もよく結びつく症状の一つ",
+   "weight": "強"
+  },
+  {
+   "source": "炎症性うつ",
+   "target": "CRP（C反応性タンパク）",
+   "rel": "炎症の高い人を選ぶ目印",
+   "weight": "強"
+  },
+  {
+   "source": "炎症性うつ",
+   "target": "ミクログリア",
+   "rel": "脳の側で炎症を受け止める細胞（大河の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "炎症性うつ",
+   "target": "計算論的精神医学",
+   "rel": "うつを症状の束に分けて測る流れと同じ向き",
+   "weight": "標準"
+  },
+  {
    "source": "無意識のハード・プロブレム",
    "target": "ハード・プロブレム",
    "rel": "言い換えの元",
@@ -48890,6 +49822,18 @@ window.DATA = {
    "source": "脳のなかの免疫、免疫のなかの心",
    "target": "疾病行動",
    "rel": "燻太さんが挙げた語（第I部）",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "炎症性うつ",
+   "rel": "燻太さんが挙げた語（2026-10-22・頁は未記入）",
+   "weight": "強"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "アンヘドニア",
+   "rel": "燻太さんが挙げた語（2026-10-22・頁は未記入）",
    "weight": "標準"
   },
   {
