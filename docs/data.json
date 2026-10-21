@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-18 20:01",
+ "generated": "2026-10-22 07:22",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -119,6 +119,39 @@
    "sections": {
     "これは何か": "**Processes affecting scores on \"understanding of others\" and \"assumed similarity.\"**\n\nCronbach（1955）／ *Psychological Bulletin*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[正確さの四成分]]** ── ==対人知覚の「正確さ」得点が、高さ・差の高さ・ステレオタイプ正確さ・個別正確さの四つを混ぜていることを示した。==2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1957 Lykken",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "A study of anxiety in the sociopathic personality",
+     "url": "https://doi.org/10.1037/h0047232",
+     "note": "書誌だけ照合（PMID 13462652・要旨なし）。中身は大河の記憶（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1957 Lykken.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1957",
+    "著者": "Lykken DT",
+    "雑誌": "Journal of Abnormal and Social Psychology 55(1):6-10",
+    "DOI": "10.1037/h0047232",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**A study of anxiety in the sociopathic personality**\n\nLykken DT（1957）／ *Journal of Abnormal and Social Psychology 55(1):6-10*",
+    "この地図で": "- [[恐怖欠如仮説]] の出発点。受刑者に「ブザーの数秒後に電気ショック」を繰り返し、皮膚電気反応（手のひらの汗）で**予期の恐怖**を測った\n- !!条件・人数・結果の細部は大河の記憶!!。記憶では、受刑者を「一次性（primary）」と「神経症的（neurotic）」に分けて比べている＝[[一次性と二次性サイコパシー]] の区別がすでにこの論文にある\n- 動画の「普通の人は2、3回で学習する」は、要旨が無く確かめられない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1808,6 +1841,39 @@
    "stub": false
   },
   {
+   "id": "2003 Blair",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Neurobiological basis of psychopathy",
+     "url": "https://doi.org/10.1192/bjp.182.1.5",
+     "note": "書誌だけ照合（PMID 12509310・要旨なし）。3頁の論説（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2003 Blair.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2003",
+    "著者": "Blair RJR",
+    "雑誌": "British Journal of Psychiatry 182:5-7",
+    "DOI": "10.1192/bjp.182.1.5",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Neurobiological basis of psychopathy**\n\nBlair RJR（2003）／ *British Journal of Psychiatry 182:5-7*",
+    "この地図で": "- 3頁の論説（editorial）。==扁桃体の働きの弱さがサイコパシーの情動の欠けの芯==という Blair の立場をまとめたもの、というのは大河の記憶\n- 動画の「怯えた顔を見せると扁桃体がほとんど反応しなかった」に当たる**実験**は、この論説ではなく [[2008 Marsh（扁桃体fMRI）]] のほう",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2003 Eisenberger",
    "type": "論文",
    "confidence": "確認済",
@@ -1992,6 +2058,39 @@
     "これは何か": "**Making the case for a developmental perspective（Cook-Greuter 2004）**",
     "この地図で、どこに効いているか": "- **[[行動論理]]** ── 7つの行動論理の定義表（何が何を支配するか）\n- **[[発達段階の分布]]** ── n=4,510 の割合。Magician 2.0%",
     "読んで分かったこと": "- 実務家向けの短い論文（8頁）。数字は「私のハーバードの研究から」とだけあり、==標本の取り方・年・採点者間一致は書かれていない==\n- 表II「フィードバックの受け取り方」が段階ごとに並ぶ＝Opportunist は攻撃と受け取り、Magician は「生きた系の自然な一部として、話半分に」\n- 「慣習的 75〜80%／脱慣習的 10〜20%」の総括は、表の数字と整合する",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2004 Gable",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "What do you do when things go right? The intrapersonal and interpersonal benefits of sharing positive events",
+     "url": "https://doi.org/10.1037/0022-3514.87.2.228",
+     "note": "要旨を確かめた（PMID 15301629）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2004 Gable.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2004",
+    "著者": "Gable SL・Reis HT・Impett EA・Asher ER",
+    "雑誌": "Journal of Personality and Social Psychology 87(2):228-245",
+    "DOI": "10.1037/0022-3514.87.2.228",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**What do you do when things go right? The intrapersonal and interpersonal benefits of sharing positive events**\n\nGable SL・Reis HT・Impett EA・Asher ER（2004）／ *Journal of Personality and Social Psychology 87(2):228-245*",
+    "この地図で": "- 4研究。==良いことがあったとき人に話す（**キャピタリゼーション**）と、出来事そのものの効果を超えて、その日の肯定的な気分と幸福感が上がる==\n- 相手が**積極的・建設的に**応じた（受け身でも破壊的でもない）と感じると、効果がさらに増す\n- 良い知らせにいつも熱心に応じてくれる相手との関係は、親密さ・日々の結婚満足度が高い",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2484,6 +2583,39 @@
    "sections": {
     "これは何か": "**The Mini-IPIP Scales: Tiny-yet-effective measures of the Big Five Factors of Personality.**\n\nDonnellan ら（4名）（2006）／ *Psychological Assessment*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[ビッグファイブ]]** ── 20項目版。α係数は各因子.60以上",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2006 Gable",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Will you be there for me when things go right? Supportive responses to positive event disclosures",
+     "url": "https://doi.org/10.1037/0022-3514.91.5.904",
+     "note": "要旨を確かめた（PMID 17059309）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2006 Gable.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2006",
+    "著者": "Gable SL・Gonzaga GC・Strachman A",
+    "雑誌": "Journal of Personality and Social Psychology 91(5):904-917",
+    "DOI": "10.1037/0022-3514.91.5.904",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Will you be there for me when things go right? Supportive responses to positive event disclosures**\n\nGable SL・Gonzaga GC・Strachman A（2006）／ *Journal of Personality and Social Psychology 91(5):904-917*",
+    "この地図で": "- 交際中の79組。互いに最近の良い出来事と悪い出来事を話す様子を録画し、話した側の感じかた（分かってもらえた・認められた・大事にされた）と、第三者による聞き手のふるまいの評定をとった\n- ==2か月後の関係の満足度と別れを、**良い出来事への応答**のほうが、悪い出来事への応答よりよく予測した==（自己報告でも観察評定でも）\n- ⭐[[フレネミー]] の「良い知らせへの反応を見る」は、この向きの結果に支えられる",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3046,6 +3178,72 @@
    "stub": false
   },
   {
+   "id": "2008 Marsh（扁桃体fMRI）",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Reduced amygdala response to fearful expressions in children and adolescents with callous-unemotional traits and disruptive behavior disorders",
+     "url": "https://doi.org/10.1176/appi.ajp.2007.07071145",
+     "note": "要旨を確かめた（PMID 18281412）。動画の主張に当たる実験（動画の出典欄は Blair 2003 と Marsh & Blair 2008 を挙げる）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2008 Marsh（扁桃体fMRI）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2008",
+    "著者": "Marsh AA・Finger EC・Mitchell DGV・Reid ME・Sims C・Kosson DS・Towbin KE・Leibenluft E・Pine DS・Blair RJR",
+    "雑誌": "American Journal of Psychiatry 165(6):712-720",
+    "DOI": "10.1176/appi.ajp.2007.07071145",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Reduced amygdala response to fearful expressions in children and adolescents with callous-unemotional traits and disruptive behavior disorders**\n\nMarsh AA・Finger EC・Mitchell DGV・Reid ME・Sims C・Kosson DS・Towbin KE・Leibenluft E・Pine DS・Blair RJR（2008）／ *American Journal of Psychiatry 165(6):712-720*",
+    "この地図で": "- 10〜17歳の36人（冷淡で情動の乏しい特性 CU＋行動障害12人・ADHD 12人・健常12人）。==CU特性の子は怯えた表情でだけ扁桃体の反応が低く==、中立・怒りの表情では差がない\n- 扁桃体と[[腹内側前頭前野]]のつながりも弱く、弱いほど症状が重い\n- ⚠**子どもと若者**の研究で、大人のサイコパスを測ったものではない。動画は大人の話として語っている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2008 Marsh（表情認識メタ分析）",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Deficits in facial affect recognition among antisocial populations - a meta-analysis",
+     "url": "https://doi.org/10.1016/j.neubiorev.2007.08.003",
+     "note": "要旨を確かめた（PMID 17915324）。20研究のメタ分析（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2008 Marsh（表情認識メタ分析）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2008",
+    "著者": "Marsh AA・Blair RJR",
+    "雑誌": "Neuroscience & Biobehavioral Reviews 32(3):454-465",
+    "DOI": "10.1016/j.neubiorev.2007.08.003",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Deficits in facial affect recognition among antisocial populations - a meta-analysis**\n\nMarsh AA・Blair RJR（2008）／ *Neuroscience & Biobehavioral Reviews 32(3):454-465*",
+    "この地図で": "- 20研究のメタ分析。==反社会的な集団は、6つの表情のうち特に**怯えた表情を見分けること**が苦手==。課題の難しさだけでは説明できない\n- !!動画との食い違い!!。動画は「怯えた顔を怯えていると認識はできる。だが映らない」と言う。この論文は**認識の段階で落ちている**と言っている\n- ⚠ただし対象は「反社会的な集団」（素行症・反社会性パーソナリティ障害などを含む）で、サイコパシーの得点で絞った集団ではない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2008 Ochsner",
    "type": "論文",
    "confidence": "確認済",
@@ -3200,6 +3398,39 @@
    "sections": {
     "これは何か": "**The Association of Anger and Hostility With Future Coronary Heart Disease**\n\nChida & Steptoe（2009）／ *Journal of the American College of Cardiology*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[敵意]]** ── 前向きコホートのメタ分析。健常集団で冠動脈疾患イベントの統合ハザード比 1.19（95%CI 1.05-1.35, p=0.008）、既往のある集団では予後の悪さと関連。!!ただし結果はばらつきが大きく、怒りの側は共変量を統制すると関連が残らなかった。!!2026-09-02に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2009 Coid",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Prevalence and correlates of psychopathic traits in the household population of Great Britain",
+     "url": "https://doi.org/10.1016/j.ijlp.2009.01.002",
+     "note": "要旨を確かめた（PMID 19243821）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2009 Coid.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2009",
+    "著者": "Coid J・Yang M・Ullrich S・Roberts A・Hare RD",
+    "雑誌": "International Journal of Law and Psychiatry 32(2):65-73",
+    "DOI": "10.1016/j.ijlp.2009.01.002",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Prevalence and correlates of psychopathic traits in the household population of Great Britain**\n\nCoid J・Yang M・Ullrich S・Roberts A・Hare RD（2009）／ *International Journal of Law and Psychiatry 32(2):65-73*",
+    "この地図で": "- イギリスの一般世帯の代表標本638人（16〜74歳）に PCL:SV（スクリーニング版）。==カットオフ13点で有病率 **0.6%**（95%信頼区間 0.2〜1.6%）==\n- 特性の分布は**半正規分布**＝多くの人は0点、ゼロでない人がかなりいて、端に重い小集団\n- 動画の「一般人口の約1%」は、代表標本で測ると**それより少し低い**。ただし信頼区間には1%も入る\n- ⭐「分布の端・坂だけがある」という動画の結びは、この半正規分布と合う",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3576,6 +3807,39 @@
    "sections": {
     "これは何か": "**Unpacking the informational bases of empathic accuracy.**\n\nZaki ら（3名）（2009）／ *Emotion*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[共感的正確性]]** ── 何の情報が正確さを支えているかの分解。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2010 Babiak",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Corporate psychopathy - talking the walk",
+     "url": "https://doi.org/10.1002/bsl.925",
+     "note": "要旨を確かめた（PMID 20422644）。「約4%」は要旨に無く本文未読（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Babiak.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Babiak P・Neumann CS・Hare RD",
+    "雑誌": "Behavioral Sciences & the Law 28(2):174-193",
+    "DOI": "10.1002/bsl.925",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Corporate psychopathy - talking the walk**\n\nBabiak P・Neumann CS・Hare RD（2010）／ *Behavioral Sciences & the Law 28(2):174-193*",
+    "この地図で": "- 会社が**管理職育成プログラムに選んだ**203人に PCL-R とスクリーニング版相当。==サイコパシー特性は地域の標本より多かった==\n- ==社内の360度評価で、サイコパシーは**カリスマ・見せかた**（創造性・戦略的思考・話のうまさ）とは正、**責任・成果**（チームプレー・管理能力・実績）とは負==\n- ⚠動画の「約4%・一般人口の4倍」は要旨に数字が無く、確かめていない。⚠標本は無作為ではなく、7社ほどの「選ばれた人」\n- ⭐動画は「組織の中を登っていた」「有能と区別がつかない」と言うが、この研究自体は**成果の評価は低い**と言っている",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4478,6 +4742,39 @@
    "stub": false
   },
   {
+   "id": "2013 Decety",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "An fMRI study of affective perspective taking in individuals with psychopathy - imagining another in pain does not evoke empathy",
+     "url": "https://doi.org/10.3389/fnhum.2013.00489",
+     "note": "要旨を確かめた（PMID 24093010・PMC3782696）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Decety.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Decety J・Chen C・Harenski C・Kiehl KA",
+    "雑誌": "Frontiers in Human Neuroscience 7:489",
+    "DOI": "10.3389/fnhum.2013.00489",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**An fMRI study of affective perspective taking in individuals with psychopathy - imagining another in pain does not evoke empathy**\n\nDecety J・Chen C・Harenski C・Kiehl KA（2013）／ *Frontiers in Human Neuroscience 7:489*",
+    "この地図で": "- 受刑者121人を PCL-R で高（30以上・37人）・中（21〜29・44人）・低（20以下・40人）に分けた。けがの画像を見ながら「**自分**だったら」「**その人**だったら」と想像させる\n- ==「自分だったら」では、サイコパシーの高い人も痛みの共感の回路（前部島皮質・前帯状皮質など）がふつうに働く。「その人だったら」では働きかたが崩れる==。対人・情動の因子（因子1）が高いほど扁桃体と島の反応が弱く、腹側線条体（報酬）の反応が強い\n- !!動画との食い違い!!。動画は「Decety らと Meffert らが別々に同じことを見つけた（指示すれば普通に戻る）」と言う。**題そのものが「他人の痛みを想像しても共感は呼び起こされない」**で、向きは逆\n- 大河の読み＝二つは課題が違う。Meffert は「一緒に感じて」、Decety は「その人の立場で想像して」。==自分に引きつけて感じることはできても、他人の側に立つことが崩れている==のかもしれない（推測）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2013 Diamond",
    "type": "論文",
    "confidence": "確認済",
@@ -4669,6 +4966,39 @@
    "stub": false
   },
   {
+   "id": "2013 Meffert",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Reduced spontaneous but relatively normal deliberate vicarious representations in psychopathy",
+     "url": "https://doi.org/10.1093/brain/awt190",
+     "note": "要旨を確かめた（PMID 23884812）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Meffert.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Meffert H・Gazzola V・den Boer JA・Bartels AAJ・Keysers C",
+    "雑誌": "Brain 136(8):2550-2562",
+    "DOI": "10.1093/brain/awt190",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Reduced spontaneous but relatively normal deliberate vicarious representations in psychopathy**\n\nMeffert H・Gazzola V・den Boer JA・Bartels AAJ・Keysers C（2013）／ *Brain 136(8):2550-2562*",
+    "この地図で": "- サイコパスの受刑者18人と対照26人。手と手が触れあう感情的な動画を見る間の脳活動。==ただ見るときは、自分が同じことをされたときに働く領域があまり働かない。「演者と一緒に感じて」と指示すると差がはっきり縮む==\n- 著者の言いかた＝共感の**能力がない**のではなく、**自発的な**共感が弱く、**意図的な**共感はわりと保たれている\n- 動画の「スイッチが初期設定でオフ」はこの論文の要約として合う。⚠「普通の人と同じ水準まで」は言いすぎで、要旨は「差がはっきり縮む（markedly reduced）」",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2013 Melby-Lervåg",
    "type": "論文",
    "confidence": "確認済",
@@ -4765,6 +5095,39 @@
     "これは何か": "**Concepts and implications of altruism bias and pathological altruism**\n\nOakley BA（2013）／ *PNAS 110(Suppl 2):10408-10415*",
     "この地図で": "- **[[病的利他性]]** ── ==他者の福祉を高めようとする試みが・**思いがけない害**を生む利他==。ほぼすべての利他にはトレードオフがあるのに・害の側は科学ではあまり認識されてこなかった。**利他バイアス**の定量化の案と・協力の進化での**見張りの仕組み**（guardian systems）を論じる\n- 著者所属（Crossref）＝オークランド大学（ミシガン州）・産業システム工学",
     "注意": "⚠動画には出ない。動画の「善意の死角」に当たる学術の概念として大河が足した",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2013 O’Boyle",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "A meta-analytic review of the Dark Triad–intelligence connection",
+     "url": "https://doi.org/10.1016/j.jrp.2013.08.001",
+     "note": "書誌だけ照合（Crossref・要旨は取れず）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 O’Boyle.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "O’Boyle EH・Forsyth DR・Banks GC・Story PA",
+    "雑誌": "Journal of Research in Personality 47(6):789-794",
+    "DOI": "10.1016/j.jrp.2013.08.001",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**A meta-analytic review of the Dark Triad–intelligence connection**\n\nO’Boyle EH・Forsyth DR・Banks GC・Story PA（2013）／ *Journal of Research in Personality 47(6):789-794*",
+    "この地図で": "- 動画が「サイコパスは頭がいい」を否定する根拠に挙げる。!!数値は確かめていない!!\n- 同じ問いのもっと大きなメタ分析＝[[2019 Sánchez de Ribera]]（r = −.07）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6064,6 +6427,39 @@
    "stub": false
   },
   {
+   "id": "2016 Hoppenbrouwers",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Parsing fear - a reassessment of the evidence for fear deficits in psychopathy",
+     "url": "https://doi.org/10.1037/bul0000040",
+     "note": "要旨を確かめた（PMID 26854867）。総説＋メタ分析（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Hoppenbrouwers.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Hoppenbrouwers SS・Bulten BH・Brazil IA",
+    "雑誌": "Psychological Bulletin 142(6):573-600",
+    "DOI": "10.1037/bul0000040",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Parsing fear - a reassessment of the evidence for fear deficits in psychopathy**\n\nHoppenbrouwers SS・Bulten BH・Brazil IA（2016）／ *Psychological Bulletin 142(6):573-600*",
+    "この地図で": "- 恐怖を部品に分けて、サイコパシーの研究を読み直した総説とメタ分析\n- ==多くの研究は「恐怖」という語をひとまとめに使ってきた。脅威を**検出して反応する**ところの欠けには証拠があるが、恐怖を**主観的に感じる**ことが少ないという証拠はずっと弱い==\n- 動画の「罰は嫌だが罰の予感がない」は前者に当たる。「恐怖を感じない脳」というチャプター名は、後者まで言ってしまっている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2016 Krishnan",
    "type": "論文",
    "confidence": "確認済",
@@ -7165,6 +7561,39 @@
    "stub": false
   },
   {
+   "id": "2019 Landay",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Shall we serve the dark lords? A meta-analytic review of psychopathy and leadership",
+     "url": "https://doi.org/10.1037/apl0000357",
+     "note": "要旨を確かめた（PMID 30321033）。92の独立標本（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Landay.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Landay K・Harms PD・Credé M",
+    "雑誌": "Journal of Applied Psychology 104(2):183-196",
+    "DOI": "10.1037/apl0000357",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Shall we serve the dark lords? A meta-analytic review of psychopathy and leadership**\n\nLanday K・Harms PD・Credé M（2019）／ *Journal of Applied Psychology 104(2):183-196*",
+    "この地図で": "- 92標本のメタ分析。==サイコパス傾向とリーダーとして**選ばれやすさ**は弱い正、リーダーとしての**有効性**は弱い負、変革型リーダーシップとは中程度の負==\n- 性別で割れる＝男性では選ばれやすさ・有効性とも弱い正、女性では有効性が負で選ばれやすさとはほぼ無関係\n- 著者の結論＝**組織のリーダーにサイコパスが多いという懸念は誇張されているかもしれない**。ただし性別が効果を隠している\n- 動画の「会議室にいる可能性のほうが高い」に対する、いちばん大きな量の答え",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2019 Murphy",
    "type": "論文",
    "confidence": "確認済",
@@ -7190,6 +7619,39 @@
    "sections": {
     "これは何か": "**Are self-report cognitive empathy ratings valid proxies for cognitive empathy ability? Negligible meta-analytic relations with behavioral task performance**\n\nMurphy & Lilienfeld（2019）／ *Psychological assessment*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[共感の測りかたの問題]]** ── ==85研究・N=14327のメタ分析。==自己申告の認知的共感は、行動課題の成績の分散の約1%しか説明しない。性別構成・年齢・臨床/非臨床などで調整されなかった。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2019 Sánchez de Ribera",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Untangling intelligence, psychopathy, antisocial personality disorder, and conduct problems - a meta-analytic review",
+     "url": "https://doi.org/10.1002/per.2207",
+     "note": "要旨を確かめた（Crossref の要旨）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Sánchez de Ribera.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Sánchez de Ribera O・Kavish N・Katz IM・Boutwell BB",
+    "雑誌": "European Journal of Personality 33(5):529-564",
+    "DOI": "10.1002/per.2207",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Untangling intelligence, psychopathy, antisocial personality disorder, and conduct problems - a meta-analytic review**\n\nSánchez de Ribera O・Kavish N・Katz IM・Boutwell BB（2019）／ *European Journal of Personality 33(5):529-564*",
+    "この地図で": "- ==サイコパシー全体と知能は**小さな負の相関**（r = −.07）==。反社会性パーソナリティ障害（r = −.13）・素行症（−.13）も負\n- ⭐**下位の面で向きが割れる**＝**対人の面（interpersonal facet）は正**、**情動の面は負**。動画の「表面的な魅力・口のうまさの項目だけは言語的な知能と弱い正の関係」は、この結果と同じ向き（動画は出典を挙げていない）\n- 研究ごとのばらつきは大きい。出版バイアスの証拠は見つからなかった\n- 著者所属（Crossref）＝ケンブリッジ大学犯罪学研究所 ほか",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7356,6 +7818,39 @@
    "sections": {
     "これは何か": "**Machine learning uncovers the most robust self-report predictors of relationship quality across 43 longitudinal couples studies**\n\nJoel S・Eastwick PW ら（86名）（2020）／ *PNAS*",
     "この地図で": "- **[[相性は組み合わせでは予測できない]]** ── 関係の質を握るのは相手のコミットメントの知覚・感謝・性的満足・相手の満足の知覚・葛藤\n- **[[追う人と逃げる人]]** ── 個人差側の上位＝生活満足・負の感情・抑うつ・愛着の回避・愛着の不安",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2020 Kajonius",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Individuals with dark traits have the ability but not the disposition to empathize",
+     "url": "https://doi.org/10.1016/j.paid.2019.109716",
+     "note": "書誌だけ照合（Crossref・要旨は取れず）。題の主張だけ確かめた（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Kajonius.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Kajonius PJ・Björkman T",
+    "雑誌": "Personality and Individual Differences 155:109716",
+    "DOI": "10.1016/j.paid.2019.109716",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Individuals with dark traits have the ability but not the disposition to empathize**\n\nKajonius PJ・Björkman T（2020）／ *Personality and Individual Differences 155:109716*",
+    "この地図で": "- 題が主張そのもの＝==ダークな特性の人は、共感する**能力**はあるが、共感する**傾向**がない==。Meffert の脳画像の話を、一般の人の質問紙の側から支える向き\n- !!中身（人数・尺度）は確かめていない!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7762,6 +8257,39 @@
    "stub": false
   },
   {
+   "id": "2021 Blötner",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Malicious mind readers? A meta-analysis on Machiavellianism and cognitive and affective empathy",
+     "url": "https://doi.org/10.1016/j.paid.2021.111023",
+     "note": "要旨を確かめた（Semantic Scholar）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Blötner.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Blötner C・Steinmayr R・Bergold S",
+    "雑誌": "Personality and Individual Differences 181:111023",
+    "DOI": "10.1016/j.paid.2021.111023",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Malicious mind readers? A meta-analysis on Machiavellianism and cognitive and affective empathy**\n\nBlötner C・Steinmayr R・Bergold S（2021）／ *Personality and Individual Differences 181:111023*",
+    "この地図で": "- 70研究・232効果量のメタ分析。==マキャベリアニズムは共感のすべての面と**負**の相関（ρ = −.10〜−.36）==\n- 認知的共感（自己報告・課題成績）との負の関係は、**情動的共感を統制するとほぼ消える**\n- 著者の結論＝**低い情動的共感**は支持するが、「共感が欠けている」説も「**人の心を巧みに読む操作者**」説もどちらも支持しない\n- ⭐[[フレネミー]] の道具型（マキャベリアニズムに近い）を考えるときの歯止め＝「人の心を読むのがうまいから操れる」とは言えない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2021 Brady",
    "type": "論文",
    "confidence": "確認済",
@@ -7986,6 +8514,41 @@
     "これは何か": "**Some Interesting Observations on the Free Energy Principle**\n\nFriston, Da Costa & Parr（3名）（2021）／ *Entropy* 23(8):1076\n\n**[[2021 Biehl]] の技術的批判に対する、提唱者側からの応答。**\n!!**筆頭は Karl Friston 本人**!!、共著の Thomas Parr は\n[[能動的推論_心_脳_行動の自由エネルギー原理]] の著者でもある。",
     "この地図で、どこに効いているか": "- **[[自由エネルギー原理]]** ── 名指しの技術的批判に、**同じ雑誌で**答えたもの。\n受けかたは**真っ向からの反駁ではなく「足場として使う」という構え**で、\n①**マルコフ・ブランケットを持つ疎に結合した系における、状態のあいだのソレノイド結合**\n②**厳密なベイズ推論と近似的なベイズ推論の区別**、の二点に論点を移している。\n2026-09-09にEurope PMCの要旨で確認",
     "全文を読んで分かったこと（2026-09-09）": "!!**要旨からは、この論文がどれだけ譲歩しているかが分からなかった。**!!\n\n### 冒頭の一文\n> 誰も、自分が間違いを犯したと言われるのは好まない。**幸い、[Biehl らの] 観察はどれも興味深く、\n> いくつかは正しく、そしてどれも自由エネルギー原理を覆さない。**\n\n**「いくつかは正しい」。**!!そのうえで「覆さない」と続く。!!\n\n### いちばん大きな譲歩\n**自由エネルギー原理が適用されるのは「疎な結合（sparse coupling）のもとで生じる\nマルコフ・ブランケット」だけ**である。そして ──\n\n> **これは初期の定式化では明示されていなかった。……\n> Biehl らの批判の多くは、この見落としに照らせば完全に理解できる。**\n\n**そして、この論文自身の新規の寄与は、著者らの言葉で\n「マルコフ・ブランケットを保証するのに十分な、動的フローに課される条件の明示的な特定」。**\n!!**＝批判を受けて、条件が初めて明示された。批判が理論を前に進めている。**!!\n\n### もう一つの正直さ\n自分たちのモノグラフについて、**「外部の査読を受けておらず、少なくとも1つの技術的誤りを含む」**\nと本文で書いている。\n\n### この地図にとっていちばん重い一文\n> **自由エネルギー原理は、定常状態への自己組織化が変分自由エネルギーを最小化する、と主張しているのではない。\n> そうではなく、定常状態への自己組織化は〈近似的ベイズ推論を近似しているものとして、\n> つねに読むことができる〉と言っているのである。**\n\n**「読むことができる」。**!!これは経験的な主張の形をしていない。!!\n→ [[自由エネルギー原理への批判]] の「確度は三段に割れる」の、二段目の直接の裏づけ。\n\n### 温度計の例\n水銀温度計を、周囲の温度（外部）・球部の水銀温度（感覚）・水銀の体積（能動）・柱の高さ（内部）に分けると、\n**マルコフ・ブランケットの条件を満たす。**だから温度計は\n**(i) 力と熱力学的流束に応答する物理系**とも、**(ii) 周囲の温度を推論しているもの**とも記述できる。\n\n!!**同じ事実を、[[2022 Bruineberg]] は正反対に評価する**!!（ワット調速機も惑星の気候も同じように読める＝\nだから生物や認知系だけを選び出せない）。**争点は事実ではなく、その評価のほうにある。**\n\n### 認めている限界\n**変分密度と事後密度のずれ（束縛）が、どこでも一定であるという保証はあるか。\n── 「答えは、無い」。**それは「純粋に実際的な考慮」だ、と書いている。\n\n!!**大河は数式の導出そのものは追っていない。**!!上は本文の言葉と例に基づく。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2021 Heym",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "The Dark Empath - characterising dark traits in the presence of empathy",
+     "url": "https://doi.org/10.1016/j.paid.2020.110172",
+     "note": "著者受理稿（Nottingham Trent University の機関リポジトリ irep.ntu.ac.uk/id/eprint/40458）を通読（2026-10-22）。要旨は Semantic Scholar（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Heym.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Heym N・Kibowski F・Bloxsom CAJ・Blanchard A・Harper A・Wallace L・Firth J・Sumich A",
+    "雑誌": "Personality and Individual Differences 169:110172",
+    "DOI": "10.1016/j.paid.2020.110172",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "読了"
+   },
+   "sections": {
+    "これは何か": "==**ダークエンパス**を初めて名づけた論文==。4つのオンライン質問紙調査（合計 991人・学生が多い）をまとめ、ダーク・トライアド（SD3）と認知的・情動的共感（QCAE）の8つの得点で**潜在プロファイル分析**（得点の組み合わせが似た人を群に分ける統計）をした。",
+    "何が分かったか": "- 4群＝**ダーク・トライアド型**（ダーク高・共感低）128人／**ダークエンパス**（ダーク高・共感高）175人／**エンパス**（ダーク低・共感高）357人／**ふつう**（ダーク低・共感ふつう）331人\n- 割合は本文で 13%／**19.3%**／33.3%／34.4%。⚠!!人数から割ると 12.9%／17.7%／36.0%／33.4% で、論文の中で数字が合っていない!!（大河が計算）\n- 5群の解も統計上は良かったが、最小群が1.8%で小さすぎるので4群を採った\n- 性格＝ダークエンパスは**外向性が高い**。協調性はダーク・トライアド型より高いが、ふつう・エンパスより低い\n- 攻撃＝測ったのは**間接的な対人攻撃だけ**（IAS-A。仲間はずれ・悪意のあるユーモア・罪悪感を抱かせる）。==ダーク・トライアド型がすべてで最も高い。ダークエンパスはそれより低いが、悪意のあるユーモアと罪悪感を抱かせる攻撃では、ふつう・エンパスより高い==\n- 心の健康＝ダーク・トライアド型は抑うつ・不安・ストレス・社会的快楽の喪失が最も重い。ダークエンパスはそれより良い。ただし、ふつうの人よりストレスが高く、**自分への肯定的な評価が低い**＝著者の言葉で ==Dark Empaths are bad and they know it==\n- 一次性サイコパシーとマキャベリアニズムの下位尺度では、二つのダーク群に差がない",
+    "動画との食い違い": "- !!「研究者たちは3つの群を予想していた」!!＝本文に見当たらない\n- !!「直接の攻撃はしなかった。代わりに間接攻撃が高かった」!!＝直接攻撃は**測っていない**。間接攻撃もダーク・トライアド型より**低い**\n- !!「研究者たちが指摘した一番嫌な点＝自分を共感的な優しい人だと思っている」!!＝論文はむしろ**自分を悪いと分かっている**と書く。「自己評価で共感が高い」のは、共感を自己報告で測っているから当たり前に出る\n- 割合（34／33／13／19）は**本文の数字そのまま**で、動画は正確に写している",
+    "限界（論文と大河）": "- 横断的な自己報告のオンライン調査。学生が中心。性別の交互作用は扱っていない（論文）\n- 潜在プロファイルの群は**標本に相対的**で、「19%」は母集団の割合ではない（大河）\n- 論文自身が、似た考えとして**情動知能の暗い面**（能力として操作に使える）を挙げ、ダークエンパスは**能力ではなく傾向**の話だと区別している",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -9360,6 +9923,39 @@
    "stub": false
   },
   {
+   "id": "2025 Shukla",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Cold hearts and dark minds - a systematic review and meta-analysis of empathy across dark triad personalities",
+     "url": "https://doi.org/10.3389/fpsyt.2025.1546917",
+     "note": "要旨を確かめた（Semantic Scholar）。PROSPERO 登録 CRD42024559533（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2025 Shukla.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2025",
+    "著者": "Shukla M・Upadhyay N",
+    "雑誌": "Frontiers in Psychiatry 16:1546917",
+    "DOI": "10.3389/fpsyt.2025.1546917",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Cold hearts and dark minds - a systematic review and meta-analysis of empathy across dark triad personalities**\n\nShukla M・Upadhyay N（2025）／ *Frontiers in Psychiatry 16:1546917*",
+    "この地図で": "- 14研究（N = 5,328）。情動的共感とは**サイコパシー**が最も強い負（r = −.347）、マキャベリアニズム（−.291）、自己愛（−.134）\n- 認知的共感とは、自己愛は有意でなく（.061）、マキャベリアニズムは小さな負（−.089）\n- ばらつきは中〜大。==「ダークな人は共感が低い」は**平均の話**で、ダークエンパスのような「両方高い」人の群がいても矛盾しない==（大河の読み）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2025 Velilla",
    "type": "論文",
    "confidence": "確認済",
@@ -9487,6 +10083,39 @@
     "研究者として目を引いたところ": "- [[コネクトームと機能のずれ]]＝AIP→DNpe050 のシナプスは DNp60 の約11倍なのに、カルシウム応答は DNp60 のほうが強い（p.6）。AVLP710m は1,000超のシナプスを受けるのに、AIP刺激で応答が出なかった（p.8）\n- **大脳基底核の直接路・間接路に「見かけは似ている」が別物**と著者ら自身が書く（基底核は抑制性で対立する働き、こちらは別の部位を動かして1つの行動にまとめる）",
     "限界（本文の Limitations と、大河の補足）": "!!自然なケンカの最中の神経活動は記録できていない（頭を固定した標本では自然な威嚇を起こせない）。!!\n- AVLP491 か AVLP710m の片方を止めても、**自然な威嚇は減らなかった**（光で起こした威嚇は減る）。著者らは冗長な回路か床効果と見る\n- DNpe050 の活性化で羽上げが出るのは **10〜15% の個体だけ**（浸透率が低い）\n- 外適応は**解釈**。近縁種と比べて系統的に確かめたわけではない（大河の補足）\n- 原稿の読みやすさに ChatGPT を使った、と著者らが申告している",
     "ティンバーゲンとの橋（どこまでが出典か）": "プレプリント版の要旨は、この回路を「**ティンバーゲン的な階層的行動制御系の実例**」と呼んでいた（出版版の要旨では消えた）。\nティンバーゲンが『本能の研究』（1951）で描いた「本能の階層」── 上位の中枢が下位の中枢を次々に解き放つ図 ── のことだと**大河は読むが、本文はその図を引いていない**。\n地図では【[[本能の階層モデル]]】をまだ調べていない場所（stub）として残し、[[生得的解発機構]]・[[儀式化]] の隣に置く。"
+   },
+   "stub": false
+  },
+  {
+   "id": "2026 Galán",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Dark Empaths and Intimate Partner Violence - a latent profile analysis of Dark Tetrad traits and empathy dimensions in face-to-face and cyber violence perpetration",
+     "url": "https://doi.org/10.3390/bs16101780",
+     "note": "要旨を確かめた（Semantic Scholar）。Heym 2021 を引く研究の中で、潜在プロファイル分析を繰り返したもの（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2026 Galán.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2026",
+    "著者": "Galán M・Gerber N・Valls L・Molina S・Pineda D",
+    "雑誌": "Behavioral Sciences 16(10):1780",
+    "DOI": "10.3390/bs16101780",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Dark Empaths and Intimate Partner Violence - a latent profile analysis of Dark Tetrad traits and empathy dimensions in face-to-face and cyber violence perpetration**\n\nGalán M・Gerber N・Valls L・Molina S・Pineda D（2026）／ *Behavioral Sciences 16(10):1780*",
+    "この地図で": "- スペイン中心の324人（女性70%）。ダーク・テトラッドと共感で潜在プロファイル分析 → 4群（共感的で非ダーク／ふつう／**ダークな認知的エンパス**／ダークで非共感）\n- ==対面の身体的・心理的暴力は「ダークで非共感」が最も高い。ネットでの監視・束縛は「ダークな認知的エンパス」が最も高い==が、「ダークで非共感」との差は有意でない\n- ⭐Heym の群は**情動的共感も高い**。ここで出たのは**認知的共感だけ**が保たれた群＝**同じ「ダークエンパス」の名でも中身がずれている**（大河の読み）\n- 著者自身が「予備的な証拠」と書く",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -13658,6 +14287,25 @@
    "stub": false
   },
   {
+   "id": "クリスチャン・キーザース",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/クリスチャン・キーザース.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Christian Keysers。ミラーニューロンと代理表象の神経科学者。[[2013 Meffert]] の最終著者。⚠所属（オランダ神経科学研究所）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "クリストファー・ベイル",
    "type": "人物",
    "confidence": "確認済",
@@ -13856,6 +14504,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "Ken Wilber（1949-）。トランスパーソナル心理学から出発し、のちに「統合理論」を築いた著述家。学術の外にいる。\nこの地図では [[前／超の誤謬]] の名付け親としてだけ置く。\n!!体系全体は検証可能な形をしていないので、扱わない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ケヴィン・ダットン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ケヴィン・ダットン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Kevin Dutton。心理学者・著述家。*The Wisdom of Psychopaths*（2012・邦訳『サイコパス 秘められた能力』）。職業別のサイコパス傾向の調査（上位＝経営者・弁護士・メディア・営業・外科医）は**自己申告のオンライン調査**で、動画も質は高くないと断っている。⚠所属（オックスフォード大学）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -14308,6 +14975,97 @@
    "stub": false
   },
   {
+   "id": "サイコパシーと知能",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Sánchez de Ribera O ほか (2019) Eur J Pers 33:529-564",
+     "url": "https://doi.org/10.1002/per.2207",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/サイコパシーと知能.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "「サイコパスは IQ が高い」という俗説。動画の答え＝**嘘**（07:30〜09:00）。",
+    "一次資料と照らして": "- ==全体では**小さな負の相関**（r = −.07）==（[[2019 Sánchez de Ribera]]）。動画が出典に挙げる [[2013 O’Boyle]] は数値を確かめていない\n- 下位の面で割れる＝**対人の面は正**・**情動の面は負**。動画の「頭がいいのではない。頭が良さそうに話せる」は、この割れかたとよく合う\n- 動画は俗説の出どころを『羊たちの沈黙』のハンニバル・レクターに置く。!!これは動画の見立て!!",
+    "大河の見立て": "==口のうまさが知能の印象に化け、その印象がこちらの警戒を下げる==。この動画でいちばん実用的な一文だと思う。[[2010 Babiak]] の「カリスマ・見せかたは高く評価され、成果は低く評価される」とも同じ形をしている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "サイコパシーの有病率",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Coid J ほか (2009) Int J Law Psychiatry 32:65-73",
+     "url": "https://doi.org/10.1016/j.ijlp.2009.01.002",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "北海道矯正管区 9月度定期記者発表資料（令和8年9月25日）",
+     "url": "https://www.moj.go.jp/content/001471497.pdf",
+     "note": "令和8年8月末日現在の全国の刑事施設の収容人員（速報値）を確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/サイコパシーの有病率.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "「サイコパスは犯罪者だ」という俗説。動画の答え＝**半分本当で半分嘘**（09:00〜11:30）。",
+    "動画の計算": "- ヘアの推定＝一般人口の約1%・刑務所人口の15〜25%\n- 日本の人口を1億2100万とすると1%で121万人（動画は「120万人」）。刑務所にいるのは約4万人。その25%でも1万人 → **サイコパスの大多数は刑務所の外にいる**。刑務所にいる人の大多数（75%以上）もサイコパスではない",
+    "一次資料と照らして": "- 一般世帯の代表標本では **0.6%**（95%信頼区間 0.2〜1.6%）（[[2009 Coid]]）。「約1%」より少し低いが、区間に入る\n- 全国の刑事施設の収容人員＝**42,750人**（既決 35,781・未決 6,969）・収容率53.9%（令和8年8月末日・速報値・法務省 北海道矯正管区の資料）。「約4万人」は合う\n- ⚠刑務所の「15〜25%」は北米の受刑者の数字。日本の受刑者で PCL-R を測った数字には当たっていない\n- 動画の計算の骨組み（比率は高いが、絶対数では外のほうが多い）は正しい。**基準率**の考えかたの良い例",
+    "この地図で": "半正規分布＝ほとんどの人は0点で、端に行くほど少なくなる（[[2009 Coid]]）。動画の結び「壁はない。あるのは坂だけだ」と同じ形。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "サイコパシー・チェックリスト改訂版（PCL-R）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Decety J ほか (2013) Front Hum Neurosci 7:489",
+     "url": "https://doi.org/10.3389/fnhum.2013.00489",
+     "note": "要旨で PCL-R 30点以上を高群とする使いかたを確認（2026-10-22）"
+    },
+    {
+     "title": "Coid J ほか (2009) Int J Law Psychiatry 32:65-73",
+     "url": "https://doi.org/10.1016/j.ijlp.2009.01.002",
+     "note": "スクリーニング版 PCL:SV のカットオフ13点を確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/サイコパシー・チェックリスト改訂版（PCL-R）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Hare Psychopathy Checklist-Revised。[[ロバート・D・ヘア]] が作った。==面接と記録をもとに専門家が採点する==（自己報告ではない）。\n\n- 20項目・各0〜2点・40点満点。北米の研究では **30点以上**を「サイコパス」とする（[[2013 Decety]] もこの区切り）\n- 項目の例（動画の読み上げ）＝表面的な魅力・誇大な自己評価・病的な嘘・良心の呵責の欠如・浅い感情・寄生的な生きかた・衝動性・幼少期からの問題行動\n- スクリーニング版（PCL:SV）は12項目・24点満点（[[2009 Coid]] は13点で区切る）\n\n!!20項目・0〜2点・因子の構成は大河の記憶!!（30点の区切りと PCL:SV の13点は要旨で確認）。",
+    "動画の一言": "「サイコパスは病名ではなく点数だ」。==連続した得点に線を引いたもの==という意味で、これは正確。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "サイコパスと良心",
    "type": "用語",
    "confidence": "確認済",
@@ -14334,6 +15092,34 @@
    "sections": {
     "これは何か": "ヘアのスクリーニング。典型は連続殺人犯でなく**共感の無い詐欺師**。数百人に1人以上。==ルールと感情の結びつきを作れない（パーソンズの内面化ができない）＝良心の部品のうち恥が無い==（p.34-39）。\n- **キール**＝移動式MRIを刑務所へ運び・傍辺縁系（paralimbic）の異常を報告（p.37）\n- 進化の問い＝なぜ遺伝子が残るか→階層性の強い初期社会では利己的支配が有利だった可能性。現代の[[匿名社会と良心]]では見つからない\n- ⚠著者は「サイコパスは程度の問題」。[[セフーの事件]]のセフーはサイコパスか＝判定不能・道徳的感情はあるように見えた（p.57-59）\n- 類人猿はこれに似る（ルールを理解するが共鳴しない）が同情はできる → [[類人猿はサイコパスに似る]]",
     "この地図で": "`03_ジーグラーヒル`の[[パーソナリティのダークサイド]]・[[ダーク・トライアド]]に・進化の側から「なぜ残るか」を足す。[[牙を抜かれたフリーライダー]]＝牙が抜かれていない少数。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "type": "映像",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "【ダーク心理学】サイコパス・ソシオパス・ダークエンパスの視えてる世界",
+     "url": "https://www.youtube.com/watch?v=l8auQfbSl1o",
+     "note": "チャンネル「深淵回廊@人間の脳と心の仕組み」。2026-10-19公開・19分40秒・約7.5万回再生（2026-10-22時点）。説明欄にチャプターと出典12件と注意書き。自動字幕を yt-dlp で取り大河が通読（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）.md",
+   "owned": "有",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!本ではなく **YouTube の解説動画**（型は `映像`）。!!チャンネル「深淵回廊」（映02・映03と同じ）・2026-10-19公開・19分40秒。燻太さんが 2026-10-22 に「ノードを抽出して研究を整理したい。最後のダークエンパスの概念は、フレネミーに重なる部分があると感じた」として挙げた（→ [[ダークエンパスとフレネミーは重なるか]]）。\n\n==説明欄に出典12件を挙げ、「3つはいずれも正式な診断名ではなく、研究上の概念・俗語として扱う」「ダークエンパスの約19%は一つの研究・一つの分類法の数字」と自分で断っている==。映02と同じく、出典の扱いはていねい。",
+    "筋（チャプター）": "- 00:00 3つの境界線 ── 「3つのうち世の中に一番多いのは、一番新しい言葉のほう（5人に1人）」\n- 00:59 診断基準とサイコパスの正体 ── 診断名は [[反社会性パーソナリティ障害]] だけ。サイコパスは [[サイコパシー・チェックリスト改訂版（PCL-R）]] の点数。ソシオパスは一般向けの言葉。研究で対応するのは [[一次性と二次性サイコパシー]]\n- 02:56 恐怖を感じない脳 ── [[恐怖欠如仮説]]（リッケンの電気ショック予期・ブレアの怯えた顔）。[[自発的な共感と意図的な共感]]＝「共感の回路は壊れていない。スイッチが初期設定でオフ」。==相手の弱点を正確に読める目と、押しても何も感じない心==\n- 06:01 衝動と環境が生むソシオパス ── [[ソシオパス]]＝恐怖が多すぎて先に殴る。「育った環境では最適解だった戦略が残っている」\n- 07:30 俗説1「IQ が高い」＝嘘（[[サイコパシーと知能]]）。「頭がいいのではなく、頭が良さそうに話せる」\n- 09:00 俗説2「犯罪者だ」＝半分本当（[[サイコパシーの有病率]]・[[企業のサイコパシー]]）\n- 11:54 共感を武器にするダークエンパス ── [[ダークエンパス]]・[[間接的攻撃]]。見分けかた＝「話した後で、自分が少し軽くなっているか、少し削られているか」\n- 15:20 「異者」という言葉を疑う ── [[三本脚の椅子（ファロン）]]。==壁はない。あるのは坂だけだ==。「共感があることと善良であることは同じではない」",
+    "一次資料と照らして（2026-10-22 大河が確かめた）": "- ⚠⚠**ダークエンパスは「自分を共感的な優しい人だと思っている」**＝[[2021 Heym]] の本文は逆で、ダークエンパスは**自分への肯定的な評価が低い**（著者の言葉で「悪いと分かっている」）\n- ⚠⚠**Decety と Meffert が「別々に同じことを見つけた」**＝[[2013 Decety]] は題が「他人の痛みを想像しても共感は起きない」で向きが逆（→ [[自発的な共感と意図的な共感]]）\n- ⚠**「怯えた顔を怯えていると認識はできる」**＝反社会的な集団では怯えた表情の**認識そのもの**が落ちる（[[2008 Marsh（表情認識メタ分析）]]）。扁桃体の実験は子どもと若者（[[2008 Marsh（扁桃体fMRI）]]）\n- ⚠**ダークエンパスは「直接攻撃せず間接攻撃が高い」**＝直接攻撃は測っていない。間接攻撃もダーク・トライアド型より低い\n- ⚠**ダークエンパスの「研究者は3群を予想していた」**＝本文に見当たらない\n- ⚠**ダークエンパスの割合**（34／33／13／19%）は論文本文の数字どおり。ただし論文の中で人数と割合が合っていない（人数で割ると 17.7%）\n- ⚠**「恐怖を感じない脳」**＝脅威の検出の欠けには証拠があるが、恐怖を主観的に感じない証拠は弱い（[[2016 Hoppenbrouwers]]）\n- ⚠**企業の「約4%」**＝要旨に数字が無く未確認。同じ研究は**成果の評価が低い**とも言う。メタ分析は「懸念は誇張かもしれない」（[[2019 Landay]]）\n- **「一般人口の約1%」**＝代表標本では0.6%（[[2009 Coid]]）。**「刑務所に約4万人」**＝42,750人（令和8年8月末・速報値）で合う\n- **知能**＝全体で r = −.07（[[2019 Sánchez de Ribera]]）。口のうまさ（対人の面）だけ正、という動画の注も同じ向き\n- ⚠**「ソシオパス＝二次性」**＝リッケン本人の区分では別の箱だったと大河は記憶している（未確認）",
+    "大河の見立て": "動画の骨組み（3つを恐怖・衝動・共感の使いかたで分ける→俗説を数字で崩す→「坂だけがある」で結ぶ）は、研究の地図としてよくできている。==弱いのはダークエンパスの章==で、ここだけ論文から離れて、話を怖く盛っている。とくに「本人は自分を優しいと思っている」は、動画でいちばん印象に残る一文なのに、論文と逆。\n\nそれでも、結びの二つは生きている。**「共感は道具で、何に使うかは別の話」**と、**「関わった後の自分を見る」**という見分けかた。前者は [[共感は動機づけられている]] と、後者は映02の5つめのサイン「会った後に疲れていない」と、同じことを言っている。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -14563,6 +15349,25 @@
    },
    "sections": {
     "この本での役どころ": "10章（画像106）。アムステルダム動物園の雄が園長に「恋して」いた。雌と番わせて抱卵が始まってから園長が姿を見せると、雄は巣から雌を追い出し、園長に何度もおじぎをした＝代理仲間の知覚像が刻みこまれている例。\n\n!!学名・分類は大河の知識による。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "シェリー・ゲーブル",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/シェリー・ゲーブル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Shelly L. Gable。親密な関係の社会心理学者。[[良い知らせへの応答（キャピタリゼーション）]] の研究。⚠所属（カリフォルニア大学サンタバーバラ校）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -14817,6 +15622,44 @@
    "stub": false
   },
   {
+   "id": "ジェームズ・ファロン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジェームズ・ファロン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "James Fallon。神経科学者。カリフォルニア大学アーバイン校の研究で家族の PET 画像を見ていて、自分の脳がサイコパスに似た型だと気づいた（報道による・2005年ごろ）。自伝 *The Psychopath Inside*（2013）。⚠報道（NPR 2010 ほか）で確かめた範囲。「向社会的なサイコパス」という呼び名がファロン本人の語かは確かめていない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ジェームズ・ブレア",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジェームズ・ブレア.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "R. James R. Blair。神経科学者。サイコパシーの情動の欠けを扁桃体の働きから説明する立場（[[恐怖欠如仮説]] の神経の側）。⚠所属は未確認（大河の記憶では NIMH に長くいた）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ジェームズ・ペネベーカー",
    "type": "人物",
    "confidence": "確認済",
@@ -14949,6 +15792,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "**Jamil Zaki。**スタンフォード大学の心理学者。\n**[[共感は動機づけられている]]**（2014, *Psychological Bulletin*）＝\n共感を自動反応ではなく、**人が近づいたり避けたりする選択**として捉え直した。\n\n**もう一つの仕事**＝[[共感的正確性]]の「It takes two」（2008）で、\n**共感は受け手だけの性質ではなく、語り手との間で起きる**ことを示そうとした。\n!!**ただしこの結果は、高検出力の追試で再現しなかった**!!（Grant ら 2017）。\n\n**この地図に置くときの姿勢** ── ザキは共感を擁護する側の書き手でもある\n（一般向けの著書がある）。!!**主張の向きを持っている人の仕事として読む。**!!"
+   },
+   "stub": false
+  },
+  {
+   "id": "ジャン・デセティ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジャン・デセティ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Jean Decety。共感の社会神経科学者。[[2013 Decety]] で、サイコパスは他人の立場で痛みを想像しても共感の回路が働かないと示した。⚠所属（シカゴ大学）は大河の記憶・未確認",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -15726,6 +16588,28 @@
    "stub": false
   },
   {
+   "id": "ソシオパス",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ソシオパス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "sociopath。==研究ではほとんど使われない、一般向けの言葉==。社会（socio）の側、つまり育った環境から作られた反社会性を強調する呼び名。",
+    "動画での使われ方（06:01〜07:30）": "- 動画は「サイコパス＝一次性、ソシオパス＝二次性におおよそ重なる」として話す（「厳密には違うという専門家もいる」と断ったうえで）\n- 恐怖はある、むしろ多い。虐待・放置・暴力の中で「世界は自分を傷つけてくる」と学習した。熱く衝動的。罪悪感はあるが続かない\n- 「育った環境では最適解だった戦略が、環境が変わった後も残っている」",
+    "大河の記憶による注意": "!!外部の情報源には当たっていない!!。リッケン（1995）の整理では、**ソシオパスは二次性サイコパスとは別の箱**で、気質はふつうなのに**親の養育がうまくいかず社会化されなかった人**を指していた、と記憶している。だとすると、動画の「ソシオパス＝二次性」は、リッケン本人の区分とは少しずれる。*The Antisocial Personalities* の本文で確かめたい。",
+    "この地図で": "「育った環境で最適だった戦略が残る」という読みは、[[安全基地]] を持てなかった子の側から見た世界として、[[三本脚の椅子（ファロン）]] の三本目の脚と同じ場所を指している（大河の見立て）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ソマティック・マーカー仮説",
    "type": "理論",
    "confidence": "確認済",
@@ -16148,6 +17032,59 @@
    "stub": false
   },
   {
+   "id": "ダークエンパス",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Heym N ほか (2021) The Dark Empath. Personality and Individual Differences 169:110172",
+     "url": "https://doi.org/10.1016/j.paid.2020.110172",
+     "note": "著者受理稿を通読（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ダークエンパス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Dark Empath。==ダーク・トライアド（自己愛・マキャベリアニズム・サイコパシー）が高く、**しかも共感も高い**人たち==。[[2021 Heym]] が潜在プロファイル分析で見つけて名づけた。!!正式な診断名ではなく、研究上の一つの群!!。",
+    "研究で分かっていること（[[2021 Heym]]）": "- 991人のうち175人（本文では19.3%）。ダーク・トライアド型（13%）より多い\n- 認知的共感（相手の気持ちを読む）も、情動的共感（相手の気持ちが自分に映る）も高い\n- **外向的**。協調性はふつうの人より低いが、ダーク・トライアド型より高い\n- 間接的な攻撃（悪意のあるユーモア・罪悪感を抱かせる）がふつうの人より高く、ダーク・トライアド型より低い\n- 心の健康はダーク・トライアド型より良い。ただ、ふつうの人より**自分への肯定的な評価が低い**（著者いわく「悪いと分かっている」）",
+    "動画での使われ方（11:54〜15:20）": "- 「相手の痛みが分かる。サイコパスのように情報としてではなく本当に感じる。感じた上で使う」\n- 陰口・ほのめかし・心配するふりで弱みを広める・人を笑い者にする冗談\n- 「本人は自分を共感的な優しい人だと思っている」\n- 見分けかた＝「その人と話した後で、自分が少し軽くなっているか、少し削られているか」\n\n!!食い違い!!は [[2021 Heym]] の節に。とくに「自分を優しいと思っている」は論文の結果と**逆向き**。",
+    "追試の状況（2026-10-22時点・大河が探した範囲）": "- 似た群を別の標本で探した研究はある（[[2026 Galán]]）。ただし、そこで出たのは**認知的共感だけ**が高いダーク群で、Heym の群とは中身がずれる\n- ==ダークエンパスという群が、標本や尺度を変えても同じ形で出るかは、まだ分からない==",
+    "大河の見立て": "- 「ダークな人は共感が欠けている」という像を崩した点に価値がある。ただし、群の割合は標本しだいで動く\n- 動画は「共感は道具で、何に使うかは別の話」と結ぶ。論文の言い分はもう少し穏やかで、**共感はダークな特性の攻撃性を一部やわらげるが、敵対的な芯は残る**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ダークエンパスとフレネミーは重なるか",
+   "type": "予感",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ダークエンパスとフレネミーは重なるか.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "動機": "燻太さんの言葉（2026-10-22）＝「最後のダークエンパスの概念は、フレネミーに重なる部分があると感じた」。\n\n!!この節は全体が大河の見立て。下の研究は部品を支えるだけで、二つを直接比べた研究には当たっていない!!",
+    "通っていないところ（先に書く）": "1. **分類の単位が違う**。ダークエンパスは**人**の分類（性格の得点の組み合わせ）。[[フレネミー]] は、この地図では主に**関係**の分類として整理した（→ フレネミーの節「人の性格か、関係か」）。同じ人がAさんとは支え合い、Bさんとは両価的、ということが起きる。ダークエンパスは相手を選ばない\n2. **動機が違う**。フレネミーの両価型の芯は、**特定の相手**への妬み（[[自己評価維持モデル]]）。ダークエンパスの研究は妬みを測っていない\n3. **「自覚がない」の部分は、動画と論文が逆**。動画は「自分を優しい人だと思っている」と言うが、[[2021 Heym]] は「悪いと分かっている」と書く。もし論文が正しいなら、ダークエンパスは両価型（効きかたに気づいていない）より**道具型**（分かっていて悪いと思わない）に近い\n4. **攻撃の量**。ダークエンパスの間接的攻撃はダーク・トライアド型より低い。「最も危ない」という動画の語りは、研究の数字より強い\n5. **群そのものの再現性**がまだ分からない（[[2026 Galán]] は中身のずれた群）",
+    "筋の通るところ": "1. **攻撃の形が同じ**。ダークエンパスで高かったのは、悪意のあるユーモア（人を笑い者にする冗談）と罪悪感を抱かせる攻撃＝[[間接的攻撃]]。フレネミーの「ほめながら落とす」「良い知らせを小さく見積もる」と同じ、**言い逃れのできる攻撃**\n2. **共感が攻撃の精度を上げる**。どこを突けば効くか分かる。両価型のフレネミーが**親しい**からこそ急所を知っているのと、同じ構造\n3. **外向的で、人の輪の中にいる**。ダークエンパスは外向性が高い（[[2021 Heym]]）。フレネミーも、遠い敵ではなく輪の中の友人\n4. **見分けの物差しが同じ方向を向く**。動画の「話した後で軽くなっているか、削られているか」、深淵回廊の映02の5つめのサイン「会った後に疲れていない」、フレネミーの「良い知らせへの反応」は、どれも==相手の**性格**ではなく、関わった**後の自分**を見る==物差し",
+    "大河の整理": "==ダークエンパスは、フレネミーの「道具型」の**なりやすさ**を説明する性格の候補==、と置くのがいちばん筋が通る。\n- 両価型＝関係から生まれる（誰でもなりうる）\n- 道具型＝ダークエンパスやマキャベリアニズムの高い人が、関係を選ばず持ち込む\n- ⚠ただし、マキャベリアニズムは共感と**負**の相関で、「人の心を巧みに読む操作者」像は支持されていない（[[2021 Blötner]]）。だから「心が読めるから操れる」はダークエンパスでも言いすぎかもしれない",
+    "方法論の罠": "- 「話した後で削られている」は、こちらの体調や相手との相性でも起きる。**一度の印象で人を分類しない**\n- 自己報告の共感の高さは「自分は共感的だと思っている」ことでもある。尺度の得点がそのまま本物の共感とは限らない",
+    "科学的に扱える版": "- **二者の研究**にする。Aさんの性格（ダークエンパスの群か）を測り、Aさんの周りの人に、Aさんとの関係の両価性を一人ずつ答えてもらう（[[両価的な関係]] の測りかた）\n- 予測1＝ダークエンパスの人は、**相手を問わず**両価的に評価されやすい（人の効果）\n- 予測2＝ふつうの人でも、**近くて同じ分野で張り合う**相手とは両価的になる（関係の効果）\n- 観察できる行動として、良い知らせを話したときの応じかた（[[良い知らせへの応答（キャピタリゼーション）]]）を録画して符号化する。積極的・破壊的と受け身・破壊的の応じかたが、どちらの効果で増えるかを分ける",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ダーク・トライアド",
    "type": "理論",
    "confidence": "確認済",
@@ -16304,6 +17241,25 @@
    "fields": {},
    "sections": {
     "調べたこと": "Terry E. Robinson。行動神経科学者。[[2016 Berridge]]。⚠所属（ミシガン大学）と1993年の提唱論文は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "デイヴィッド・T・リッケン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/デイヴィッド・T・リッケン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "David T. Lykken。行動遺伝学者。[[1957 Lykken]] の電気ショック予期の実験。*The Antisocial Personalities*（1995）で一次性・二次性サイコパスとソシオパスを分けた。⚠所属（ミネソタ大学）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -16852,6 +17808,25 @@
    },
    "sections": {
     "この本での役どころ": "主な章＝**第6章**。出現 2 頁（121, 192）。\n\n第6・9章。歌の例。\n\n!!役どころの記述は大河の記憶による。頁は OCR で確かめたが、中身の照合は未了。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ナジャ・ヘイム",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ナジャ・ヘイム.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Nadja Heym。[[ダークエンパス]] を名づけた [[2021 Heym]] の筆頭著者。論文の受理稿はノッティンガム・トレント大学の機関リポジトリにある（所属はそこからの推定で未確認）。動画は「イギリスのノッティンガム・トレント大学の研究チーム」と言う",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -18261,10 +19236,11 @@
     "これは何か": "friend（友）＋ enemy（敵）の混成語。**友人の顔をしているが、こちらを妬んだり足を引いたりもする相手**を指す。心理学の専門用語ではなく、日常語。日本でも、心理学の発信を通じて少しずつ知られてきた。\n\n研究の世界では、いちばん近いのは [[両価的な関係]]（ambivalent relationships）＝**好意と嫌な面の両方を強く持つ関係**という枠組み。こちらは測りかたと健康への影響まで調べられている。",
     "「表面の好意は、利用のための道具か」": "==一律にはそう言えない==、というのが大河の読み。少なくとも二つの型を分けて考えたほうがいい（!!この二分は大河の整理で、出典のある分類ではない!!）。\n==「型」は人の分類ではなく、関係の状態の分類==として読んでほしい（→ 下の「人の性格か、関係か」）。\n\n- **両価型**＝好意は**本物**。同時に、妬みや張り合いも本物。二つが同じ人の中に同居している。[[自己評価維持モデル]] が示すとおり、**近しい相手が、自分にとって大事な分野でうまくいくほど、自分の評価が脅かされる**。だから「仲がいいのに素直に喜べない」は、計画ではなく自尊心の防衛として起きうる\n- **道具型**＝好意は**手段**。相手の情報・人脈・労力を使うために親しさを見せる。こちらは [[マキャベリアニズム]]（目的のために他者を戦略的に操作する傾向）に近い。!!マキャベリアニズムの人が「戦略的に温かくふるまえる」という点は、大河の記憶による!!\n\nどちらの型が多いかは、大河は数字を持っていない。ただ、両価的な関係そのものはありふれていて、研究では**友人・親・知人**の中にふつうに見つかる（→ [[両価的な関係]]）。==フレネミーの多くは「悪人」ではなく、両価型だろう==、というのは大河の推測。",
     "思考回路の見立て（推測）": "- 両価型の頭の中は「**あの人は好き。でも、あの人に負けるのは嫌**」。好きであるほど比べてしまう。[[良性妬みと悪性妬み]] でいえば、悪性の側に傾いたとき、相手を引き下げる言動（ほめながら落とす、成功の話題をそらす）が出る\n- 道具型の頭の中は「**この関係は、何をもたらすか**」。関係を損得で測っていて、得がなくなると急に冷める",
-    "見分けの手がかり（大河の見立て）": "- **こちらの良い知らせへの反応**を見る。悪い知らせには優しいのに、良い知らせになると話をそらす・小さく見積もる相手は、両価型の可能性がある\n- **得がなくなったとき**を見る。頼みごとが終わったとたんに連絡が途絶えるなら、道具型を疑う\n- !!どちらも一度の出来事では決められない。くり返しの型として見る!!",
+    "見分けの手がかり（大河の見立て）": "- **こちらの良い知らせへの反応**を見る。悪い知らせには優しいのに、良い知らせになると話をそらす・小さく見積もる相手は、両価型の可能性がある\n  - ⭐裏づけ（2026-10-22）＝[[良い知らせへの応答（キャピタリゼーション）]]。関係の先行きは、悪い知らせへの応答より**良い知らせへの応答**のほうがよく予測する（Gable ら 2006）。「話をそらす」は受け身・破壊的、「でも大変になるね」は積極的・破壊的な応じかたに当たる。!!Gable の研究は恋人・夫婦が中心で、友人の妬みを直接測ったものではない!!\n- **得がなくなったとき**を見る。頼みごとが終わったとたんに連絡が途絶えるなら、道具型を疑う\n- !!どちらも一度の出来事では決められない。くり返しの型として見る!!",
     "本人に自覚はあるのか": "これも型によって違う。==何に気づいているか==を3つに分けると見えやすい（!!この3つの分けかたは大河の整理!!）。\n- **気持ち**＝相手に好意と嫌な気持ちの両方を持っていること\n- **動機**＝なぜ自分がそうふるまうのか\n- **効きかた**＝自分の言動が相手にどう効いているか\n\n**両価型**＝気持ちには気づいていても、動機と効きかたには気づきにくい。\n- 気持ち：[[両価的な関係]] の研究は、本人に「この人に良い気持ちと嫌な気持ちをどれだけ持つか」を答えてもらって測っている。聞かれれば答えられる、ということ\n- 動機：妬みの総説（Smith & Kim 2007）によれば、妬みには敵意が含まれ、**別のものに姿を変えやすい**。「妬んでいる」の代わりに「あの人はずるい」「調子に乗っている」という不公平の話になる。本人の中では引き下げではなく**正当な指摘**になっている。!!妬みが「最も認めにくい感情」だという言いかたは大河の記憶で、要旨には無い!!\n- 効きかた：ほめながら落とす一言も、本人には「本当のことを言っただけ」。ここがいちばん自覚されにくい、というのが大河の推測\n\n**道具型**＝やり方は自覚している。ただ、悪いとは思っていない。\n- [[マキャベリアニズム]] の尺度（Mach-IV, Christie & Geis 1970）は自己報告で、高い人は「人を扱うには、聞きたいことを言ってやるのがいちばん」のような考えに自分で同意する。!!項目の文言は大河の記憶!!\n- 根にあるのは「人はみんなそうしている」という冷めた人間観。本人は自分を「現実的なだけ」と見ている\n- 近い例：[[自己愛]] の高い人は、周りに自分より低く見られていること、第一印象が時間とともに悪くなること、自分が傲慢なことを**分かっている**（Carlson ら 2011）。==自覚がないのではなく、自覚しても改まらない==\n\n**ひとことで**＝両価型は「気持ちは分かっているが、自分のふるまいが引き下げになっていることに気づいていない」。道具型は「やり方は分かっているが、悪いことだと思っていない」。\nだから、指摘して変わる余地があるのは両価型のほう。道具型には指摘が効きにくい。!!この結びは大河の推測!!",
     "人の性格か、関係か": "==主に関係の側で決まる。ただし、なりやすさには個人差がある==。燻太さんの問い（2026-10-18）から足した節。\n\n**関係の側**\n- [[両価的な関係]] の研究は、本人に周りの人を一人ずつ挙げてもらい、**相手ごとに**良い気持ちと嫌な気持ちを答えてもらう。数えるのは「両価的な相手が何人いるか」で、「両価的な人かどうか」ではない。同じ人が、Aさんとは支え合い、Bさんとは両価的、ということがふつうに起きる\n- [[自己評価維持モデル]] も、妬みが起きるかは**相手との組み合わせ**（相手の出来ばえ・近さ・その分野が自分に大事か）で決まると予測する。同じ分野の友人には張り合い、別の分野の友人の成功は素直に誇らしい\n\n**人の側**\n- 妬みやすさは性格特性として測れる。Smith ら（1999）の Dispositional Envy Scale は、妬みやすさの個人差が安定していて、相手の優位への反応を強めることを示した\n- Lange & Crusius（2015）は、性格としての妬みも**良性と悪性の独立した二つの次元**に分かれることを示した（→ [[良性妬みと悪性妬み]]）\n- 妬みやすい人ほど両価的な関係を多く抱えやすいだろう、というのは!!大河の推測（直接調べた研究には当たっていない）!!\n\n**妬みやすくても健全な関係は作れるか**（大河の見立て）\n- **分野を分ける**＝勝負する分野がずれていれば、妬みは起きにくい。[[自己評価維持モデル]] の子どもの友人選びの研究（Tesser ら 1984）がこの向きの結果を出している。!!中身は大河の記憶・書誌だけ照合!!\n- **良性の側に向ける**＝「落ちればいい」でなく「ああなりたい」。性格として良性の妬みが強いマラソン走者は、目標を高く置いて速く走った（Lange & Crusius 2015）\n- **妬みに気づいている**＝危ないのは、妬みが「あの人はずるい」に姿を変えて見えなくなるとき（→ 上の「本人に自覚はあるのか」）。「いま妬んでいる」と言える人は、それを引き下げに変えずに済む",
     "妬まれやすい人の周り": "燻太さんの問い（2026-10-18）「妬まれやすい人の周りには、両価的な関係に変わるリスクも高くなるのか」から足した節。!!この節の筋立ては大河の見立て。下の研究は個々の部品を支えるだけで、この筋そのものを調べた研究には当たっていない!!\n\n**寄ってくる動きと、変わる動きを分ける**\n- **寄ってくる**＝道具型。目立つ成果や人脈には、それを使いたい人が近づく\n- **変わる**＝両価型の関係。新しく来るのではなく、==もともと近くにいて同じ分野で勝負している人との関係が、成功をきっかけに両価に傾く==\n\n**ライバルと足を引く人は、同じ所から生まれる**\n- [[自己評価維持モデル]] の条件（近い・同じ分野が自分にとって大事）に当てはまる人が、良性に向かえばライバル、悪性に向かえば足を引く人になる\n- だから良いライバルに出会える見込みと、足を引かれるリスクは**同じ源から一緒に増える**\n\n**どちらに転ぶか**（→ [[良性妬みと悪性妬み]] の「どちらに転ぶかは、何で決まるか」）\n- 妬む側の性格に加えて、**成功がふさわしく見えるか**、**誇りを努力に帰すか才能に帰すか**が向きを変える（確認済）\n- 妬まれる側が動かせるのは、この「見えかた」のほう。過程を見せる、成果を自分の才能として語らない\n\n**落とし穴**（大河の見立て）\n- 「妬まれないよう小さくなる」に使うと、自分を削ることになる\n- 見せかたを整えても悪性に傾きやすい人はいる（性格の側の個人差）。その相手とは、見せかたでなく**関係の近さ**で調整するほうがいい",
+    "ダークエンパスとの重なり": "燻太さんの感じたこと（2026-10-22・映07を見て）から。詳しくは [[ダークエンパスとフレネミーは重なるか]]。\n- 重なるのは**攻撃の形**＝言い逃れのできる [[間接的攻撃]]（人を笑い者にする冗談・罪悪感を抱かせる）と、共感で急所が分かること\n- ずれるのは**単位**＝[[ダークエンパス]] は人の分類、この節までのフレネミーは主に関係の分類\n- 大河の整理＝ダークエンパスは、**道具型のなりやすさ**を説明する性格の候補。!!推測!!\n- ⚠研究では、ダークエンパスは「自分を悪いと分かっている」（Heym ら 2021）。動画の「自分を優しいと思っている」とは逆で、上の節「本人に自覚はあるのか」では**道具型**の側に入る",
     "体への影響（確認済の部分）": "両価的な友人と一緒にいると、**支えになる友人といるときより血圧が上がりやすく、くつろげない**という実験がある。詳しくは [[両価的な関係]]。",
     "燻太さんの考え": ""
    },
@@ -20501,6 +21477,25 @@
    "stub": false
   },
   {
+   "id": "ロバート・D・ヘア",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ロバート・D・ヘア.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Robert D. Hare。カナダの犯罪心理学者。[[サイコパシー・チェックリスト改訂版（PCL-R）]] の作者。一般書 *Without Conscience*（1993・邦訳『診断名サイコパス』）。⚠所属（ブリティッシュコロンビア大学の名誉教授）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ロバート・S・ミラー",
    "type": "人物",
    "confidence": "確認済",
@@ -20859,6 +21854,27 @@
    "stub": false
   },
   {
+   "id": "一次性と二次性サイコパシー",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/一次性と二次性サイコパシー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "primary / secondary psychopathy。==同じように反社会的にふるまっても、**生まれつき不安や恐怖が薄い**型（一次性）と、**不安が強く、環境の傷つきから来る**型（二次性）がある==という区別。カープマン（1941）にさかのぼり、リッケン（1957・1995）が実験と本で整理した。\n\n- 一次性＝恐怖・不安が薄い・冷たく計画的\n- 二次性＝不安が強い・怒りと衝動が抑えられない・虐待などの環境要因\n\n!!この区別の成り立ちと二人の役割は大河の記憶!!。外部の情報源には当たっていない（[[1957 Lykken]] は書誌だけ照合）。",
+    "研究での測りかた": "自己報告では LSRP（Levenson の尺度）が一次性・二次性を分けて測る。[[2021 Heym]] もこれを使い、ダークエンパスとダーク・トライアド型は**一次性・二次性のどちらでも差がなかった**。",
+    "動画での使われ方": "動画は一次性＝サイコパス・二次性＝ソシオパスとして語る（→ [[ソシオパス]] の注意）。「刑務所にいるのは主に二次性、会社にいるのは主に一次性」は動画の見立てで、出典は挙がっていない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "一般化された他者",
    "type": "用語",
    "confidence": "未調査",
@@ -20871,6 +21887,34 @@
    "fields": {},
    "sections": {},
    "stub": true
+  },
+  {
+   "id": "三本脚の椅子（ファロン）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "A Neuroscientist Uncovers A Dark Secret（NPR 2010-06-29）",
+     "url": "https://www.npr.org/2010/06/29/127888976/a-neuroscientist-uncovers-a-dark-secret",
+     "note": "報道で、遺伝・脳・幼少期の虐待の三つがそろう必要があるという説明を確認（検索結果の要約による・本文は時間切れで読めず。2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/三本脚の椅子（ファロン）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[ジェームズ・ファロン]] の説明。==サイコパスは三本脚の椅子で、**遺伝**・**脳の型**・**幼少期の虐待や放置**の三本がそろって初めて立つ==。ファロン自身は一本目と二本目を持っていたが、穏やかな家庭で愛されて育ったので三本目がなく、椅子は立たなかった。",
+    "動画での使われ方（15:20〜17:10）": "- 殺人犯の脳画像を研究してきたファロンが、家族の脳を撮ったら自分の脳がサイコパスの型と一致した。父方の家系には殺人者が何人もいた\n- 本人は犯罪歴がなく、家庭を持ち、大学教授として成功。周りの評価は「少し冷たい・競争心が異常に強い・人の感情にあまり興味がない」程度\n- 動画の結び＝「異者は我々の外側にいる別の種族ではない。分布の端にいるだけだ」",
+    "確度が「推測」の理由": "- ==一人の事例から立てた説明で、検証された理論ではない==。ファロンの自伝と報道しか当たっていない\n- 「脳画像でサイコパスと分かる」は確立した臨床検査ではない\n- それでも、遺伝と環境の**相互作用**（素因がある人ほど環境の影響を受ける）という考えかたそのものは、行動遺伝学ではふつうの枠組み（大河の理解）",
+    "この地図で": "三本目の脚は [[安全基地]] の裏返しになっている。[[ソシオパス]] の「育った環境で最適だった戦略」とも同じ場所を指す（大河の見立て）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
   },
   {
    "id": "三段ベッド",
@@ -21929,6 +22973,38 @@
     "チョックと4種類の仲間（図41・画像104-105）": "ローレンツのコクマルガラス「チョック」は、\n1. ローレンツを**母親という仲間**に（どこへでもついて歩き餌をねだる）\n2. お手伝いさんを**愛の仲間**に（その前で求愛ダンス）\n3. 若いコクマルガラスを**養子の仲間**に（自分で餌を与える）\n4. ズキンガラスの群れを**飛行仲間**に（ローレンツを一緒に飛ばせようとして失敗したあと）",
     "大事な主張（画像106-107）": "- コクマルガラスの環世界には**仲間の一貫した知覚像は存在しない**\n- ローレンツの引用＝母親の記号のどれが生得でどれが獲得かを明らかにせねばならない。**獲得された記号は生後数日、いや数時間で刻みこまれる**ので、生得と取り違えてしまう（→[[刷りこみ]]）\n- 仲間は**環世界に一度しか存在しない**。代理仲間に作用トーンが付与されると、**のちに本物の仲間が現れることはもう不可能**。チョックではお手伝いさんが「愛のトーン」を独占した\n- **サンカノゴイ**＝アムステルダム動物園で、雄が園長に「恋して」いた。園長が隠れて雌と番わせたが、抱卵中に園長が姿を見せると、雄は**巣から雌を追い出し園長に何度もおじぎをした**（画像106）",
     "橋": "10章の図40b「**水泳パンツに攻撃姿勢をとるコクマルガラス**」（画像103-104）は、[[コクマルガラスの警戒反応]] の黒い水泳パンツ（ソロモンの指環 79頁）と同じ種類の出来事。ユクスキュルは「目の前を運ばれていく黒い物体という知覚像が即座に攻撃姿勢を解発する」と説明する。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "企業のサイコパシー",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Babiak P ほか (2010) Behav Sci Law 28:174-193",
+     "url": "https://doi.org/10.1002/bsl.925",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Landay K ほか (2019) J Appl Psychol 104:183-196",
+     "url": "https://doi.org/10.1037/apl0000357",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/企業のサイコパシー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "corporate psychopathy／successful psychopathy。==捕まらずに組織の中にいるサイコパシーの高い人==を調べる研究領域。",
+    "動画での使われ方（10:00〜11:30）": "- 「管理職・幹部候補203人のうち約4%が基準に入った。一般人口の4倍」（[[2010 Babiak]]）\n- 「表面的な魅力で選ばれ、良心の欠如で決断が早く、他人の感情を道具として使える。ある種の職場では有能と区別がつかない」\n- ダットンの職業別調査（経営者・弁護士・メディア・営業・外科医）。動画自身が「自己申告のオンライン調査で、質は正直高くない」と断る\n- 「100人の職場なら統計上1人。その1人は刑務所ではなく会議室にいる可能性のほうが高い」",
+    "一次資料と照らして": "- [[2010 Babiak]]＝標本は会社が**選んだ**管理職候補で無作為ではない。「約4%」は要旨に無く未確認。==カリスマ・見せかたの評価は高いが、責任・成果の評価は**低い**==\n- [[2019 Landay]]（92標本）＝リーダーに**選ばれやすさ**は弱い正、**有効性**は弱い負。著者は「懸念は誇張されているかもしれない」と結ぶ\n- つまり ==会議室にはいるかもしれないが、そこで有能なわけではない==。動画の「有能と区別がつかない」は、評価が**最初は**そう見えるという意味でなら合う（大河の読み）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -23698,6 +24774,27 @@
     "これは何か": "4章「単純な環世界」の中心の比喩。\n- **ゾウリムシ**＝環世界にある知覚標識は**障害物だけ**。何かに当たると後ずさりして脇にずれ、また泳ぐ。刺激を発しない唯一のもの＝食物の腐敗菌に当たると止まる。**機能環が一つ**で生物が組み立てられている（画像56）\n- **外洋性クラゲ（Rhizostoma）**＝傘の縁の8個の縁弁器官が、傘が動くたびに打たれ、その刺激が次の動きを起こす。**自分に作用標識を与え、それが同じ知覚標識を起こし続ける**。環世界には「いつも同じ鐘の音」（画像56-58）\n- 器官ごとに完結した反射弓をもつとき、それを**反射係（Reflexperson）**と呼ぶ。**ウニ**は棘・管足・4種の叉棘がそれぞれ反射係で、中枢の指令なしに働く（画像58）",
     "名言（画像58）": "「**イヌが歩くときは、この動物が足を動かすが、ウニが歩くときは、その足がこの動物を動かす**」",
     "国内平和": "中枢の無いウニでは、つかむための叉棘が**自分の柔らかい管足をつかまない**。皮膚に薄く分布する**オートデルミン**が、自分の皮膚どうしが触れたときだけ受容器を麻痺させる（画像59）。人間では舌を噛まないのは中枢の痛みのおかげ。\n- ウニは水平線が暗くなるたびに棘を動かす。**雲にも船にも本物の敵の魚にも同じ**（図19・画像59-61）＝知覚標識がばらばらで一つの像にならない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "反社会性パーソナリティ障害",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/反社会性パーソナリティ障害.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "antisocial personality disorder（ASPD）。==精神医学の診断基準（DSM-5）に載っている名前==。サイコパスもソシオパスも正式な診断名ではなく、対応する診断名はこれ。\n\n- 他人の権利を無視し侵害する行動の広がった型（法を守らない・嘘・衝動性・攻撃性・無責任・良心の呵責の欠如）\n- **18歳以上**であること、**15歳より前に素行症**の証拠があること\n\n!!診断基準の細部は大河の記憶!!。外部の情報源には当たっていない。",
+    "動画との差": "- 動画は「行動のパターンが15歳以前から続いている人につく名前」と言う。15歳は**素行症の始まり**の条件で、診断そのものは18歳以上（大河の記憶）\n- 動画は「サイコパスは診断基準に載っていない」と言う。本編の診断基準ではそのとおりだが、DSM-5 第III部の [[DSM-5代替モデル]] には ASPD に「**サイコパス的特徴をともなう**」という特定子がある（大河の記憶）",
+    "サイコパシーとの違い": "ASPD は**行動**で決まり、サイコパシーは**情動と対人の特徴**（浅い感情・共感の欠如・表面的な魅力）を重く見る。だから受刑者では ASPD のほうがずっと多い、というのが大河の理解。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -26174,6 +27271,37 @@
    "sections": {
     "これは何か": "クジャクのように生殖器官以外でも雌雄で形質が違うことを**性的二型**という。性選択は自然選択の一種と見ることもできるが・雌雄の社会関係に由来する点や・雌雄に異なった選択圧がかかる点で通常の自然選択と異なる（p.20）。\n- 多くの場合は**雌が雄を選ぶ**（異性間選択）。タマシギは逆\n- **ランナウェイ説**（フィッシャー）＝雌の好みと雄の形質が互いに強め合って暴走する\n- **ハンディキャップ説**（ザハヴィ）＝目立つ羽は捕食される危険が大きい。それでも美しい羽を持てる雄は・そのハンディキャップを補って余りあるもの（機敏さや強靭な体）を持っているといえ・雌はそうした雄を選ぶ（p.20）\n- **同性内選択**＝雌をめぐって雄どうしが戦う（カブトムシ・カンガルー）\n- **精子競争**＝複数の雄と交尾した雌の体内で精子が争う。同じ個体の精子が一緒に泳いで「協力」する報告。ラット・マウス・ギフチョウなどの**交尾栓**。トンボやカミキリの雄は雌の受精嚢から他の雄の精子を**掻き出して**交尾する（p.21）",
     "この地図で": "[[赤の女王仮説]]（有性生殖の維持）と対にして・進化の側から心の地図を支える基礎の一つ。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "恐怖欠如仮説",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Hoppenbrouwers SS ほか (2016) Parsing fear. Psychol Bull 142:573-600",
+     "url": "https://doi.org/10.1037/bul0000040",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [
+    "amygdala",
+    "vmpfc"
+   ],
+   "file": "nodes/恐怖欠如仮説.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "low-fear / fearlessness hypothesis。==サイコパシーの芯は**恐怖の薄さ**で、そのために罰の予期が働かず、叱っても行動が変わらない==という説。[[1957 Lykken]] の電気ショック予期の実験に始まり、扁桃体の働きの弱さ（[[2003 Blair]]・[[2008 Marsh（扁桃体fMRI）]]）がその神経の説明とされてきた。",
+    "動画での使われ方（02:56〜06:00）": "- 「罰は嫌だが、罰の予感がない。だから『怒られるからやめておこう』というブレーキがかからない」\n- 「本人が悪意で無視しているのではなく、ブレーキの配線が最初から違う」\n- 「怯えた顔を怯えていると認識はできる。だが映らない」",
+    "一次資料と照らして": "- ==「恐怖」を部品に分けると、脅威の**検出と反応**の欠けには証拠があるが、恐怖を**主観的に感じる**ことの欠けの証拠は弱い==（[[2016 Hoppenbrouwers]]）。動画の「罰の予感がない」は前者で筋が通る。チャプター名「恐怖を感じない脳」は言いすぎ\n- 「認識はできる」は、反社会的な集団で**怯えた表情の認識そのものが落ちる**というメタ分析（[[2008 Marsh（表情認識メタ分析）]]）と食い違う\n- 扁桃体の反応の低下を示した代表的な実験は**子どもと若者**（[[2008 Marsh（扁桃体fMRI）]]）",
+    "この地図で": "[[観察による恐怖学習]] は、他者の恐怖を見て学ぶ回路。そこが働きにくいなら「他人の怯えた顔がブレーキにならない」ことになる（大河の見立て）。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -32013,6 +33141,43 @@
    "stub": false
   },
   {
+   "id": "自発的な共感と意図的な共感",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Meffert H ほか (2013) Brain 136:2550-2562",
+     "url": "https://doi.org/10.1093/brain/awt190",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Decety J ほか (2013) Front Hum Neurosci 7:489",
+     "url": "https://doi.org/10.3389/fnhum.2013.00489",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [
+    "insula",
+    "acc",
+    "somatosensory"
+   ],
+   "file": "nodes/自発的な共感と意図的な共感.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "==サイコパシーの高い人は、共感の回路が**壊れている**のではなく、**自分から働かせない**だけで、意図すればある程度働く==という見方。動画の言葉で「共感のスイッチが初期設定でオフ」。",
+    "研究": "- [[2013 Meffert]]＝ただ見るときは代理の脳活動が弱い。「一緒に感じて」と言うと差がはっきり縮む\n- [[2020 Kajonius]]＝質問紙でも「能力はあるが傾向がない」（題で確認）\n- !!対立する結果!!＝[[2013 Decety]]。「**自分だったら**」と想像するとふつうに働くが、「**その人だったら**」と想像すると働かない。題は「他人の痛みを想像しても共感は呼び起こされない」",
+    "動画との食い違い": "動画は「Decety らと Meffert らが別々に同じことを見つけた」と言う。==Decety の結果は向きが逆==。",
+    "大河の見立て（推測）": "二つの課題の違いを読むと、筋が一本通る。\n- 「一緒に感じて」＝相手の体験を**自分の体に引きつけて**感じる。これは働く\n- 「その人の立場で」＝**相手の側に立つ**。これが崩れる\n- つまり、==自分に映すことはできても、相手の側に立つことは崩れている==のかもしれない。動画の「相手の弱点を正確に読める目と、押しても何も感じない心」は、この読みと矛盾しない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "自発的予測誤差",
    "type": "用語",
    "confidence": "確認済",
@@ -32037,6 +33202,39 @@
    "sections": {
     "これは何か": "**外から何も変わっていないのに、脳の階層の中で勝手に生まれてしまう予測誤差。**\n[[理論駆動型アプローチ]]の**仮説形成的アプローチ**の例（[[2012 Yamashita]]）。",
     "何をしたか（PubMed の要旨）": "- 上の階層（指令）と下の階層（感覚と運動）がやりとりする**階層的なニューラル・ネットワーク**に、統合失調症に似た欠陥を入れた\n- そのネットワークで**人型ロボット**を動かし、**行動の水準の乱れ**と**ネットワークの水準の乱れ**を分けて見た\n\n| 結合の乱れ | 起きたこと | 対応づけた症状 |\n|---|---|---|\n| **軽い** | 行動は外から見て変わらないのに、**埋め合わされない予測誤差が自発的に出る** | ありもしない知覚・自分がやっている感じ（主体感）の変化 ＝ **エピソード的な患者** |\n| **重い** | ネットワークの動きが不安定になり、**行動がはっきり変わる** | **慢性の患者**に見られる行動の変化 |\n\n!!==「外は静かなのに、内側で誤差が鳴りつづける」── これが、妄想気分や「させられ体験」のような体験の仕組みの候補になる。==!!（辞典の言いかたでは、妄想気分や被影響体験）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "良い知らせへの応答（キャピタリゼーション）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Gable SL ほか (2004) JPSP 87:228-245",
+     "url": "https://doi.org/10.1037/0022-3514.87.2.228",
+     "note": "要旨を確認（2026-10-22）"
+    },
+    {
+     "title": "Gable SL ほか (2006) JPSP 91:904-917",
+     "url": "https://doi.org/10.1037/0022-3514.91.5.904",
+     "note": "要旨を確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/良い知らせへの応答（キャピタリゼーション）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "capitalization。==良いことがあったとき、それを人に話して喜びを増やすこと==。そして、そのとき**相手がどう応じるか**。[[シェリー・ゲーブル]] らの研究。",
+    "応じかたの4つ": "積極的か受け身か × 建設的か破壊的か の組み合わせ（!!4つの例は大河の言い換え!!）。\n- **積極的・建設的**＝「すごい！どうやって決まったの？」と熱心に聞く\n- **受け身・建設的**＝「よかったね」とだけ言って流す\n- **積極的・破壊的**＝「でも、それだと忙しくなるんじゃない？」と欠点を探す\n- **受け身・破壊的**＝話をそらす、自分の話にすり替える\n\n良い効果が出るのは**積極的・建設的**な応じかただけ（[[2004 Gable]]・要旨では「受け身でも破壊的でもない」と書かれている）。",
+    "分かっていること": "- 良い知らせを話すこと自体が、出来事の効果を超えて気分と幸福感を上げる。相手が熱心に応じると、さらに上がる（[[2004 Gable]]）\n- ==関係の先行き（2か月後の満足度と別れ）は、悪い知らせへの応答より**良い知らせへの応答**のほうがよく予測する==（[[2006 Gable]]）",
+    "この地図で": "- [[フレネミー]] の「良い知らせへの反応を見る」という見分けの手がかりは、大河の見立てとして書いたものだった（2026-10-18）。この研究で裏づけが入る。==悪い知らせへの優しさは多くの人が見せられる。差が出るのは良い知らせのほう==\n- !!ただし!!、Gable の研究は**恋人・夫婦**が中心で、友人の妬みを直接測ったものではない。良い知らせが妬みの引き金になるという筋は、[[自己評価維持モデル]] と組み合わせた大河の推論",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -34469,6 +35667,33 @@
    "stub": false
   },
   {
+   "id": "間接的攻撃",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映07_ダークな3者"
+   ],
+   "refs": [
+    {
+     "title": "Heym N ほか (2021) The Dark Empath",
+     "url": "https://doi.org/10.1016/j.paid.2020.110172",
+     "note": "IAS-A の3下位尺度を本文で確認（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/間接的攻撃.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "indirect (relational) aggression。==殴る・怒鳴るのではなく、**人間関係を通して**相手を傷つける攻撃==。本人は「冗談だよ」「心配しただけ」と言い逃れができる。\n\n[[2021 Heym]] が使った尺度（IAS-A・攻撃する側の自己報告）の3つの下位尺度＝\n- **仲間はずれ**（social exclusion）\n- **悪意のあるユーモア**（malicious humour）＝人を笑い者にする\n- **罪悪感を抱かせる**（guilt induction）",
+    "ダークエンパスとの関係": "ダークエンパスは、悪意のあるユーモアと罪悪感を抱かせる攻撃で、ふつうの人・エンパスより高い。ただし、どれもダーク・トライアド型より低い。仲間はずれでは差が出ていない。",
+    "動画での使われ方（13:30〜14:20）": "「陰口・ほのめかし・心配しているふりをして弱みを周りに広める」「その場の全員が笑い、本人だけが笑えない冗談」。==陰口・ほのめかしは尺度の名前には無い==。尺度に近いのは「笑い者にする冗談」と「罪悪感を抱かせる」のほう。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "集団",
    "type": "用語",
    "confidence": "推測",
@@ -35343,6 +36568,12 @@
    "weight": "標準"
   },
   {
+   "source": "1957 Lykken",
+   "target": "恐怖欠如仮説",
+   "rel": "原点の実験",
+   "weight": "強"
+  },
+  {
    "source": "1961 Byrne",
    "target": "類似性効果",
    "rel": "原典＝架空の他者の回答と好意",
@@ -35823,6 +37054,12 @@
    "weight": "強"
   },
   {
+   "source": "2003 Blair",
+   "target": "恐怖欠如仮説",
+   "rel": "扁桃体の機能不全という神経の説明",
+   "weight": "標準"
+  },
+  {
    "source": "2003 Eisenberger",
    "target": "社会的痛み",
    "rel": "裏づけ",
@@ -35863,6 +37100,12 @@
    "target": "発達段階の分布",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2004 Gable",
+   "target": "良い知らせへの応答（キャピタリゼーション）",
+   "rel": "提唱",
+   "weight": "強"
   },
   {
    "source": "2004 Keller",
@@ -35995,6 +37238,12 @@
    "target": "ビッグファイブ",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2006 Gable",
+   "target": "良い知らせへの応答（キャピタリゼーション）",
+   "rel": "悪い知らせへの応答より関係の先行きを予測する",
+   "weight": "強"
   },
   {
    "source": "2006 Goldberg",
@@ -36195,6 +37444,24 @@
    "weight": "標準"
   },
   {
+   "source": "2008 Marsh（扁桃体fMRI）",
+   "target": "恐怖欠如仮説",
+   "rel": "怯えた顔への扁桃体反応の低下",
+   "weight": "標準"
+  },
+  {
+   "source": "2008 Marsh（扁桃体fMRI）",
+   "target": "腹内側前頭前野",
+   "rel": "扁桃体とのつながりが弱い",
+   "weight": "標準"
+  },
+  {
+   "source": "2008 Marsh（表情認識メタ分析）",
+   "target": "恐怖欠如仮説",
+   "rel": "怯えた表情の認識そのものが落ちる",
+   "weight": "強"
+  },
+  {
    "source": "2008 Ochsner",
    "target": "認知的再評価",
    "rel": "裏づけ",
@@ -36247,6 +37514,12 @@
    "target": "敵意",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2009 Coid",
+   "target": "サイコパシーの有病率",
+   "rel": "一般世帯の代表標本で0.6%",
+   "weight": "強"
   },
   {
    "source": "2009 Ford",
@@ -36379,6 +37652,12 @@
    "target": "共感的正確性",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2010 Babiak",
+   "target": "企業のサイコパシー",
+   "rel": "管理職研修に選ばれた203人",
+   "weight": "強"
   },
   {
    "source": "2010 Chalmers",
@@ -36585,6 +37864,12 @@
    "weight": "強"
   },
   {
+   "source": "2013 Decety",
+   "target": "自発的な共感と意図的な共感",
+   "rel": "他人の視点で想像させても共感は起きない＝Meffertと対立する結果",
+   "weight": "強"
+  },
+  {
    "source": "2013 Diamond",
    "target": "実行機能",
    "rel": "総説＝核は抑制・作業記憶・認知的柔軟性",
@@ -36627,6 +37912,12 @@
    "weight": "標準"
   },
   {
+   "source": "2013 Meffert",
+   "target": "自発的な共感と意図的な共感",
+   "rel": "見るだけでは弱く・感じてと言われると差が縮む",
+   "weight": "強"
+  },
+  {
    "source": "2013 Melby-Lervåg",
    "target": "ワーキングメモリ訓練の効果は不十分",
    "rel": "本書の記述を支えるメタ分析＝23研究30比較・訓練した課題には短期の効果・他の技能（言語・非言語能力・注意の抑制・読み・算数）への般化の証拠は無い",
@@ -36649,6 +37940,12 @@
    "target": "病的利他性",
    "rel": "原典（概念の提示）",
    "weight": "強"
+  },
+  {
+   "source": "2013 O’Boyle",
+   "target": "サイコパシーと知能",
+   "rel": "ダーク・トライアドと知能のメタ分析",
+   "weight": "標準"
   },
   {
    "source": "2013 Stanovich",
@@ -36975,6 +38272,12 @@
    "weight": "標準"
   },
   {
+   "source": "2016 Hoppenbrouwers",
+   "target": "恐怖欠如仮説",
+   "rel": "恐怖をひとまとめにした証拠の読みへの批判",
+   "weight": "強"
+  },
+  {
    "source": "2016 Krishnan",
    "target": "代理の痛みの脳内表象",
    "rel": "裏づけ",
@@ -37263,10 +38566,22 @@
    "weight": "標準"
   },
   {
+   "source": "2019 Landay",
+   "target": "企業のサイコパシー",
+   "rel": "リーダーに多いという懸念への批判＝選ばれやすさは弱い正・有効性は弱い負",
+   "weight": "強"
+  },
+  {
    "source": "2019 Murphy",
    "target": "共感の測りかたの問題",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2019 Sánchez de Ribera",
+   "target": "サイコパシーと知能",
+   "rel": "全体では小さな負の相関＝r −.07",
+   "weight": "強"
   },
   {
    "source": "2020 Arzi",
@@ -37308,6 +38623,12 @@
    "source": "2020 Joel",
    "target": "追う人と逃げる人",
    "rel": "愛着の回避と不安が個人差側の上位予測因子",
+   "weight": "標準"
+  },
+  {
+   "source": "2020 Kajonius",
+   "target": "自発的な共感と意図的な共感",
+   "rel": "質問紙でも能力はあるが傾向が低い",
    "weight": "標準"
   },
   {
@@ -37395,6 +38716,12 @@
    "weight": "標準"
   },
   {
+   "source": "2021 Blötner",
+   "target": "マキャベリアニズム",
+   "rel": "人の心を読む操作者という像を支持しない＝能力の高さも欠如も否定",
+   "weight": "強"
+  },
+  {
    "source": "2021 Brady",
    "target": "道徳的義憤",
    "rel": "義憤の表明は社会的な報酬で強化され・周りの規範にそろう",
@@ -37447,6 +38774,12 @@
    "target": "自由エネルギー原理",
    "rel": "技術的な反論への答え",
    "weight": "標準"
+  },
+  {
+   "source": "2021 Heym",
+   "target": "ダークエンパス",
+   "rel": "提唱した原典",
+   "weight": "強"
   },
   {
    "source": "2021 Kittel",
@@ -37767,6 +39100,12 @@
    "weight": "強"
   },
   {
+   "source": "2025 Shukla",
+   "target": "ダーク・トライアド",
+   "rel": "3特性で共感の欠けかたが違う",
+   "weight": "標準"
+  },
+  {
    "source": "2025 Velilla",
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
@@ -37830,6 +39169,12 @@
    "source": "2026 Cao",
    "target": "キイロショウジョウバエ",
    "rel": "材料",
+   "weight": "標準"
+  },
+  {
+   "source": "2026 Galán",
+   "target": "ダークエンパス",
+   "rel": "別の標本で似た4群＝ただし中身は認知的共感だけが高い群",
    "weight": "標準"
   },
   {
@@ -39567,6 +40912,12 @@
    "weight": "標準"
   },
   {
+   "source": "クリスチャン・キーザース",
+   "target": "2013 Meffert",
+   "rel": "共著（最終著者）",
+   "weight": "強"
+  },
+  {
    "source": "クリストファー・ベイル",
    "target": "2018 Bail",
    "rel": "筆頭著者",
@@ -39636,6 +40987,12 @@
    "source": "ケント・ベリッジ",
    "target": "2016 Berridge",
    "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ケヴィン・ダットン",
+   "target": "企業のサイコパシー",
+   "rel": "職業別の調査（一般書）",
    "weight": "標準"
   },
   {
@@ -39747,6 +41104,24 @@
    "weight": "強"
   },
   {
+   "source": "サイコパシーと知能",
+   "target": "サイコパシー",
+   "rel": "頭がいいという俗説の検証",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパシーの有病率",
+   "target": "サイコパシー",
+   "rel": "どれくらいいるか",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパシー・チェックリスト改訂版（PCL-R）",
+   "target": "サイコパシー",
+   "rel": "臨床・司法での標準の測りかた",
+   "weight": "強"
+  },
+  {
    "source": "サイコパスと良心",
    "target": "パーソナリティのダークサイド",
    "rel": "典型は連続殺人犯でなく共感の無い詐欺師＝程度の問題（p.34-39）",
@@ -39762,6 +41137,96 @@
    "source": "サイコパスと良心",
    "target": "腹内側前頭前野",
    "rel": "前頭前皮質と傍辺縁系＝良心の座が欠ける側",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "反社会性パーソナリティ障害",
+   "rel": "00:59 正式な診断名はこれだけ",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "サイコパシー・チェックリスト改訂版（PCL-R）",
+   "rel": "00:59 サイコパスは病名でなく点数",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "一次性と二次性サイコパシー",
+   "rel": "02:00 リッケンの区別",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "恐怖欠如仮説",
+   "rel": "02:56 恐怖を感じない脳",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "自発的な共感と意図的な共感",
+   "rel": "04:30 共感のスイッチ",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "ソシオパス",
+   "rel": "06:01 衝動と環境が生むソシオパス",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "サイコパシーと知能",
+   "rel": "07:30 一つめの俗説＝嘘",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "サイコパシーの有病率",
+   "rel": "09:00 二つめの俗説＝半分だけ本当",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "企業のサイコパシー",
+   "rel": "10:00 残り半分は会議室にいた",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "ダークエンパス",
+   "rel": "11:54 共感を武器にするダークエンパス",
+   "weight": "強"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "間接的攻撃",
+   "rel": "13:30 陰口と笑い者にする冗談",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "三本脚の椅子（ファロン）",
+   "rel": "15:20 ファロンの脳",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "サイコパシー",
+   "rel": "3者の土台",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "本当に『相性の良い相手』の5つのサイン（深淵回廊）",
+   "rel": "同じチャンネル（映02）",
+   "weight": "標準"
+  },
+  {
+   "source": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "target": "本当に頭が良い人は何を考えているのか（深淵回廊）",
+   "rel": "同じチャンネル（映03）",
    "weight": "標準"
   },
   {
@@ -39861,6 +41326,18 @@
    "weight": "標準"
   },
   {
+   "source": "シェリー・ゲーブル",
+   "target": "2004 Gable",
+   "rel": "筆頭著者",
+   "weight": "強"
+  },
+  {
+   "source": "シェリー・ゲーブル",
+   "target": "2006 Gable",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "シェレシェフスキー",
    "target": "サリエンス",
    "rel": "著者の仮説＝サリエンスの弱化（無差別のドーパミン）",
@@ -39933,6 +41410,30 @@
    "weight": "標準"
   },
   {
+   "source": "ジェームズ・ファロン",
+   "target": "三本脚の椅子（ファロン）",
+   "rel": "提唱",
+   "weight": "強"
+  },
+  {
+   "source": "ジェームズ・ブレア",
+   "target": "2003 Blair",
+   "rel": "著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ジェームズ・ブレア",
+   "target": "2008 Marsh（表情認識メタ分析）",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
+   "source": "ジェームズ・ブレア",
+   "target": "2008 Marsh（扁桃体fMRI）",
+   "rel": "共著（最終著者）",
+   "weight": "標準"
+  },
+  {
    "source": "ジェームズ・ペネベーカー",
    "target": "2011 Ireland",
    "rel": "責任著者",
@@ -39955,6 +41456,12 @@
    "target": "2004 Kruger",
    "rel": "筆頭著者",
    "weight": "標準"
+  },
+  {
+   "source": "ジャン・デセティ",
+   "target": "2013 Decety",
+   "rel": "著者",
+   "weight": "強"
   },
   {
    "source": "ジャン・ピアジェ",
@@ -40164,6 +41671,18 @@
    "source": "セントラル・エグゼクティブ・ネットワーク",
    "target": "認知的再評価",
    "rel": "背外側前頭前野が重なる",
+   "weight": "標準"
+  },
+  {
+   "source": "ソシオパス",
+   "target": "一次性と二次性サイコパシー",
+   "rel": "研究で対応するのはおおよそ二次性",
+   "weight": "強"
+  },
+  {
+   "source": "ソシオパス",
+   "target": "反社会性パーソナリティ障害",
+   "rel": "診断名としてはこちらに含まれる",
    "weight": "標準"
   },
   {
@@ -40545,6 +42064,60 @@
    "weight": "標準"
   },
   {
+   "source": "ダークエンパス",
+   "target": "ダーク・トライアド",
+   "rel": "4群のうち共感の高い側",
+   "weight": "強"
+  },
+  {
+   "source": "ダークエンパス",
+   "target": "共感",
+   "rel": "認知的と情動的の両方が高い",
+   "weight": "標準"
+  },
+  {
+   "source": "ダークエンパス",
+   "target": "間接的攻撃",
+   "rel": "悪意のあるユーモアと罪悪感を抱かせる攻撃が高い",
+   "weight": "標準"
+  },
+  {
+   "source": "ダークエンパス",
+   "target": "自己愛",
+   "rel": "誇大さと見せびらかしの側（傾向）",
+   "weight": "標準"
+  },
+  {
+   "source": "ダークエンパスとフレネミーは重なるか",
+   "target": "フレネミー",
+   "rel": "燻太さんが重なりを感じた相手",
+   "weight": "強"
+  },
+  {
+   "source": "ダークエンパスとフレネミーは重なるか",
+   "target": "ダークエンパス",
+   "rel": "重ねる相手",
+   "weight": "強"
+  },
+  {
+   "source": "ダークエンパスとフレネミーは重なるか",
+   "target": "両価的な関係",
+   "rel": "関係の分類と人の分類の違い",
+   "weight": "標準"
+  },
+  {
+   "source": "ダークエンパスとフレネミーは重なるか",
+   "target": "良い知らせへの応答（キャピタリゼーション）",
+   "rel": "見分けを観察できる形にする",
+   "weight": "標準"
+  },
+  {
+   "source": "ダークエンパスとフレネミーは重なるか",
+   "target": "本当に『相性の良い相手』の5つのサイン（深淵回廊）",
+   "rel": "5つめのサイン「会った後に疲れていない」と同じ物差し",
+   "weight": "標準"
+  },
+  {
    "source": "ダーク・トライアド",
    "target": "自己愛",
    "rel": "構成要素",
@@ -40608,6 +42181,18 @@
    "source": "テリー・ロビンソン",
    "target": "2016 Berridge",
    "rel": "共著・誘因感作理論の共同提唱者",
+   "weight": "標準"
+  },
+  {
+   "source": "デイヴィッド・T・リッケン",
+   "target": "1957 Lykken",
+   "rel": "著者",
+   "weight": "強"
+  },
+  {
+   "source": "デイヴィッド・T・リッケン",
+   "target": "一次性と二次性サイコパシー",
+   "rel": "整理した一人",
    "weight": "標準"
   },
   {
@@ -40747,6 +42332,12 @@
    "target": "新規性-ルーチン化理論",
    "rel": "NE系は右半球で豊富・DA系は左で豊富",
    "weight": "標準"
+  },
+  {
+   "source": "ナジャ・ヘイム",
+   "target": "2021 Heym",
+   "rel": "筆頭著者",
+   "weight": "強"
   },
   {
    "source": "ニサ",
@@ -42105,6 +43696,24 @@
    "weight": "標準"
   },
   {
+   "source": "ロバート・D・ヘア",
+   "target": "サイコパシー・チェックリスト改訂版（PCL-R）",
+   "rel": "作者",
+   "weight": "強"
+  },
+  {
+   "source": "ロバート・D・ヘア",
+   "target": "2010 Babiak",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
+   "source": "ロバート・D・ヘア",
+   "target": "2009 Coid",
+   "rel": "共著（最終著者）",
+   "weight": "標準"
+  },
+  {
    "source": "ロバート・エプスタイン",
    "target": "B・F・スキナー",
    "rel": "弟子",
@@ -42180,6 +43789,30 @@
    "source": "ヴォルフガング・ケーラー",
    "target": "移調",
    "rel": "灰色カードの実験（1918）",
+   "weight": "標準"
+  },
+  {
+   "source": "一次性と二次性サイコパシー",
+   "target": "サイコパシー",
+   "rel": "下位の型",
+   "weight": "強"
+  },
+  {
+   "source": "一次性と二次性サイコパシー",
+   "target": "恐怖欠如仮説",
+   "rel": "一次性の芯とされる",
+   "weight": "標準"
+  },
+  {
+   "source": "三本脚の椅子（ファロン）",
+   "target": "サイコパシー",
+   "rel": "遺伝・脳・幼少期の環境の三つがそろって立つ",
+   "weight": "標準"
+  },
+  {
+   "source": "三本脚の椅子（ファロン）",
+   "target": "安全基地",
+   "rel": "三本目の脚が無かった＝愛されて育った",
    "weight": "標準"
   },
   {
@@ -42642,6 +44275,18 @@
    "source": "仲間（Kumpan）",
    "target": "ハイイロガン",
    "rel": "孵卵器から出したら人に見せずにガンの家族へ",
+   "weight": "標準"
+  },
+  {
+   "source": "企業のサイコパシー",
+   "target": "サイコパシー",
+   "rel": "成功したサイコパスという研究領域",
+   "weight": "標準"
+  },
+  {
+   "source": "企業のサイコパシー",
+   "target": "サイコパシーと知能",
+   "rel": "見せかたの評価が高く成果の評価が低い",
    "weight": "標準"
   },
   {
@@ -43500,6 +45145,18 @@
    "source": "反射共和国",
    "target": "機能環",
    "rel": "機能環が一つか互いに独立な環世界",
+   "weight": "標準"
+  },
+  {
+   "source": "反社会性パーソナリティ障害",
+   "target": "サイコパシー",
+   "rel": "重なるが同じではない",
+   "weight": "標準"
+  },
+  {
+   "source": "反社会性パーソナリティ障害",
+   "target": "DSM-5代替モデル",
+   "rel": "代替モデルでは「サイコパス的特徴」の特定子がつく",
    "weight": "標準"
   },
   {
@@ -44640,6 +46297,18 @@
    "source": "性選択",
    "target": "チャールズ・ダーウィン",
    "rel": "提唱者（『人間の由来と性選択』1871＝大河の補い・本書の外）",
+   "weight": "標準"
+  },
+  {
+   "source": "恐怖欠如仮説",
+   "target": "サイコパシー",
+   "rel": "一次性サイコパシーの芯とする説",
+   "weight": "強"
+  },
+  {
+   "source": "恐怖欠如仮説",
+   "target": "観察による恐怖学習",
+   "rel": "他者の恐怖から学ぶ回路が働きにくい",
    "weight": "標準"
   },
   {
@@ -47529,9 +49198,39 @@
    "weight": "標準"
   },
   {
+   "source": "自発的な共感と意図的な共感",
+   "target": "共感は動機づけられている",
+   "rel": "能力でなく選択という見方を脳画像で支える",
+   "weight": "強"
+  },
+  {
+   "source": "自発的な共感と意図的な共感",
+   "target": "視点取得",
+   "rel": "自分に引きつけるか・相手の側に立つかで結果が割れる",
+   "weight": "標準"
+  },
+  {
    "source": "自発的予測誤差",
    "target": "予測処理",
    "rel": "予測誤差で脳を説明する同じ系譜",
+   "weight": "標準"
+  },
+  {
+   "source": "良い知らせへの応答（キャピタリゼーション）",
+   "target": "フレネミー",
+   "rel": "見分けの手がかり「良い知らせへの反応」を裏づける",
+   "weight": "強"
+  },
+  {
+   "source": "良い知らせへの応答（キャピタリゼーション）",
+   "target": "呼びかけへの応答",
+   "rel": "近い考え＝小さな働きかけへの応えかた",
+   "weight": "標準"
+  },
+  {
+   "source": "良い知らせへの応答（キャピタリゼーション）",
+   "target": "良性妬みと悪性妬み",
+   "rel": "良い知らせは妬みの引き金にもなる",
    "weight": "標準"
   },
   {
@@ -48799,6 +50498,18 @@
    "target": "互恵的利他主義",
    "rel": "二者間・長期・均衡が要る互恵（トリヴァース）を・システム全体を信頼する確率的な見返りに広げた（p.220-225）",
    "weight": "強"
+  },
+  {
+   "source": "間接的攻撃",
+   "target": "人間の攻撃性",
+   "rel": "直接でない形の攻撃",
+   "weight": "標準"
+  },
+  {
+   "source": "間接的攻撃",
+   "target": "社会的痛み",
+   "rel": "仲間はずれは社会的痛みを起こす",
+   "weight": "標準"
   },
   {
    "source": "集団",
