@@ -1,6 +1,6 @@
 /* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
 window.DATA = {
- "generated": "2026-10-22 08:35",
+ "generated": "2026-10-22 09:48",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -577,6 +577,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "1986 Brown",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Dream content and self-reported well-being among recurrent dreamers, past-recurrent dreamers, and nonrecurrent dreamers",
+     "url": "https://doi.org/10.1037//0022-3514.50.3.612",
+     "note": "書誌だけ照合（Crossref・要旨は取れず）。題が3群の比較を示す（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1986 Brown.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1986",
+    "著者": "Brown RJ・Donderi DC",
+    "雑誌": "Journal of Personality and Social Psychology 50(3):612-623",
+    "DOI": "10.1037//0022-3514.50.3.612",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Dream content and self-reported well-being among recurrent dreamers, past-recurrent dreamers, and nonrecurrent dreamers**\n\nBrown RJ・Donderi DC（1986）／ *Journal of Personality and Social Psychology 50(3):612-623*",
+    "この地図で": "- 題のとおり、反復夢を**いま見ている人・前に見ていた人・見たことのない人**の3群で、夢の内容と心の健康を比べた最初の研究\n- 動画の「かつて反復夢を見ていて、今は見なくなった人は、見続けている人より状態が良かった」は、この3群の比較に当たる。!!数値は確かめていない!!。追試は [[1998 Zadra]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1987 Miller",
    "type": "論文",
    "confidence": "確認済",
@@ -825,6 +858,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Verbal overshadowing of visual memories: Some things are better left unsaid**\n\nSchooler JW・Engstler-Schooler TY（1990）／ *Cognitive Psychology 22(1):36-71*",
     "この地図で": "- **[[言語隠蔽効果]]** ── 最初の報告。言葉で説明した群は面割りで正しく選べる率が約25ポイント低かった（数字は2014 Alogna の要旨による）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1991 Cartwright",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Dreams that work - the relation of dream incorporation to adaptation to stressful events",
+     "url": "https://doi.org/10.1037/h0094312",
+     "note": "書誌だけ照合（Crossref・要旨は取れず）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1991 Cartwright.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1991",
+    "著者": "Cartwright RD",
+    "雑誌": "Dreaming 1(1):3-9",
+    "DOI": "10.1037/h0094312",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Dreams that work - the relation of dream incorporation to adaptation to stressful events**\n\nCartwright RD（1991）／ *Dreaming 1(1):3-9*",
+    "この地図で": "- 雑誌 *Dreaming* の創刊号の論文。題は「働く夢」＝ストレスの出来事が夢に**取り込まれる**ことと、その出来事への適応の関係\n- 大河の記憶では、離婚の途中の人で、元配偶者が夢に出てくる人のほうが適応が良かった、という内容。!!要旨が取れず、人数も数値も確かめていない!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1199,6 +1265,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "1998 Cartwright",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Role of REM sleep and dream variables in the prediction of remission from depression",
+     "url": "https://doi.org/10.1016/S0165-1781(98)00071-7",
+     "note": "要旨を確かめた（PMID 9796940）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1998 Cartwright.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1998",
+    "著者": "Cartwright R・Young MA・Mercer P・Bears M",
+    "雑誌": "Psychiatry Research 80(3):249-255",
+    "DOI": "10.1016/S0165-1781(98)00071-7",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Role of REM sleep and dream variables in the prediction of remission from depression**\n\nCartwright R・Young MA・Mercer P・Bears M（1998）／ *Psychiatry Research 80(3):249-255*",
+    "この地図で": "- 夫婦が別居した**61人**を、別居の直後と1年後に、3晩ずつ睡眠を記録してベックの抑うつ尺度を測った\n- 1年後の抑うつの得点の分散の49%を、最初の抑うつの得点と、睡眠と夢の3つの変数（最初のレム睡眠の眼球運動の密度・最初の夢の感情の強さ・レム睡眠から起こして聞いた否定的な夢の数）で説明できた\n- ==最初に抑うつだった39人では、**夜の前半に否定的な夢が多く、後半に少ない**人ほど、1年後に回復していた==（判別分析で71.8%を正しく分類）\n- 著者の解釈＝夜の初めの否定的な夢は、眠りの中で気分を整える過程が進んでいるしるし。夜の終わりまで続くのは、その過程が終わりきらないしるし\n- !!動画との食い違い!!。動画は「元配偶者の夢をより多く、感情的により激しく見ていた人ほど回復が良かった」と言う。この論文で効いていたのは**夢の感情の強さ**と**否定的な夢が夜のどこに来るか**で、「元配偶者が出てくるか」は要旨に無い。元配偶者が夢に出ることの話は [[1991 Cartwright]] のほう",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1998 Poltorak",
    "type": "論文",
    "confidence": "確認済",
@@ -1226,6 +1325,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Defective LPS Signaling in C3H/HeJ and C57BL/10ScCr Mice: Mutations in <i>Tlr4</i> Gene**\n\nPoltorak ら（14名）（1998）／ *Science*",
     "この地図で、どこに効いているか": "⭐**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[LPS（リポ多糖）]]** ── LPSに反応しない2系統のマウスの原因が Tlr4 遺伝子の変異だった。LPSは効かないが、グラム陰性菌の感染には非常に弱くなる。2026-10-07にPubMedの要旨で確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1998 Zadra",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Dream content, dream recurrence and well-being - a replication with a younger sample",
+     "url": "https://doi.org/10.2190/LLXL-D4DB-9CP5-BRGT",
+     "note": "要旨を確かめた（Crossref の要旨）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1998 Zadra.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1998",
+    "著者": "Zadra AL・O’Brien SA・Donderi DC",
+    "雑誌": "Imagination, Cognition and Personality 17(4):293-311",
+    "DOI": "10.2190/LLXL-D4DB-9CP5-BRGT",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Dream content, dream recurrence and well-being - a replication with a younger sample**\n\nZadra AL・O’Brien SA・Donderi DC（1998）／ *Imagination, Cognition and Personality 17(4):293-311*",
+    "この地図で": "- 18〜21歳の**52人**。反復夢の人・前に反復夢を見ていた人・見ない人。心の健康の尺度と、14日分の夢日記\n- ==反復夢を**いま**見ている人は心の健康が低く、夢の内容も否定的だった。前の研究と同じく、心の健康という1本の軸で、反復夢の群とほかの2群が分かれた==\n- 著者の結論＝十代後半でも大人でも、反復夢は**ストレスのある時期**に起き、否定的な夢の中身と心の健康の低さを伴う\n- ⚠52人と小さい。動画が言う「ザドラの1996年・2001年」の研究は、大河はこの1998年の追試しか当たっていない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1552,6 +1684,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2000 Revonsuo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "The reinterpretation of dreams - an evolutionary hypothesis of the function of dreaming",
+     "url": "https://doi.org/10.1017/S0140525X00004015",
+     "note": "要旨を確かめた（PMID 11515147）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2000 Revonsuo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2000",
+    "著者": "Revonsuo A",
+    "雑誌": "Behavioral and Brain Sciences 23(6):877-901",
+    "DOI": "10.1017/S0140525X00004015",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The reinterpretation of dreams - an evolutionary hypothesis of the function of dreaming**\n\nRevonsuo A（2000）／ *Behavioral and Brain Sciences 23(6):877-901*",
+    "この地図で": "- 題はフロイトの『夢判断（The Interpretation of Dreams）』のもじり\n- ==夢は**脅威の出来事を模擬し、脅威の知覚と回避を練習する**ために進化した==。祖先の環境では命は短く脅威に満ちていて、危険への対処の上達は繁殖の成功につながった\n- 根拠として挙げるのは、ふつうの夢の内容・子どもの夢・反復夢・悪夢・心的外傷後の夢・狩猟採集民の夢\n- BBS は論文のあとに多くの研究者の論評が付く形式で、この号でも賛否が割れた（論評の中身は大河は読んでいない）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2000 Richards",
    "type": "論文",
    "confidence": "確認済",
@@ -1674,6 +1839,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**The hazards of predicting divorce without crossvalidation**\n\nHeyman RE・Slep AMS（2001）／ *Journal of Marriage and Family*",
     "この地図で": "- **[[呼びかけへの応答]]** ── 離婚予測研究（Gottman・Coan・Carrere・Swanson 1998 など）は交差検証と離婚の基礎率を考えておらず・交差検証すると精度が急落。==「どれほど印象的でも・交差検証の無い結果は極めて慎重に」==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2001 Krakow",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder - a randomized controlled trial",
+     "url": "https://doi.org/10.1001/jama.286.5.537",
+     "note": "要旨を確かめた（PMID 11476655）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2001 Krakow.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2001",
+    "著者": "Krakow B・Hollifield M・Johnston L・Koss M・Schrader R・Warner TD・Tandberg D・Lauriello J・McBride L・Cutchen L・Cheng D・Emmons S・Germain A・Melendrez D・Sandoval D・Prince H",
+    "雑誌": "JAMA 286(5):537-545",
+    "DOI": "10.1001/jama.286.5.537",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder - a randomized controlled trial**\n\nKrakow B・Hollifield M・Johnston L・Koss M・Schrader R・Warner TD・Tandberg D・Lauriello J・McBride L・Cutchen L・Cheng D・Emmons S・Germain A・Melendrez D・Sandoval D・Prince H（2001）／ *JAMA 286(5):537-545*",
+    "この地図で": "- 1995〜1999年、ニューメキシコの女性**168人**（95%が中等度以上のPTSD・97%が性暴力の被害）。治療群88人・待機群80人の**無作為化比較試験**\n- 治療＝[[イメージリハーサル療法]]を**3回**のセッションで\n- ==3か月後・6か月後に、悪夢のある夜の数が大きく減った（Cohen d = 1.24）。睡眠の質も上がり、PTSDの症状も軽くなった==\n- ⚠追跡を終えたのは114人。対照は「何もしない待機」で、偽の治療との比較ではない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2029,6 +2227,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Gödel machines: self-referential universal problem solvers making provably optimal self-improvements（Schmidhuber 2003）**",
     "この地図で、どこに効いているか": "- **[[ゲーデルマシン]]** ── 定義の原典。「書き換えが有用だという証明を見つけたときに限って自分のコードを書き換える」",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2003 Schredl",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Continuity between waking activities and dream activities",
+     "url": "https://doi.org/10.1016/S1053-8100(02)00072-7",
+     "note": "要旨を確かめた（PMID 12763010）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2003 Schredl.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2003",
+    "著者": "Schredl M・Hofmann F",
+    "雑誌": "Consciousness and Cognition 12(2):298-308",
+    "DOI": "10.1016/S1053-8100(02)00072-7",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Continuity between waking activities and dream activities**\n\nSchredl M・Hofmann F（2003）／ *Consciousness and Cognition 12(2):298-308*",
+    "この地図で": "- 夢日記と、起きている間の活動の正確な記録を突き合わせた相関研究。==継続性仮説はおおむね支持される。ただし**活動の種類によって夢への入りかたが違う**==。読む・書く・計算するといった集中した認知の活動は、夢にほとんど出てこない\n- 著者の結論＝継続性仮説は**まだ曖昧**で、どんな経験が・どれだけ感情が動いたときに夢に入るか、を書き足す必要がある\n- 動画の「夢は起きている世界のかなり忠実な縮図」「ほとんどそのまま」は、この論文の言いかたより強い",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2519,6 +2750,72 @@ window.DATA = {
    "sections": {
     "これは何か": "**Cautionary comments regarding the Myers-Briggs Type Indicator**\n\nPittenger DJ（2005）／ *Consulting Psychology Journal: Practice and Research*",
     "この地図で": "- **[[MBTI]]** ── 動画の「数週間あけて再受験すると約半数のタイプが変わる」の根拠として説明欄が挙げるレビュー。⏳本文未読＝再検査の数字の原典（McCarley & Carskadon 1983 など）は本文で確かめる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2005 Stroebe",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "To continue or relinquish bonds - a review of consequences for the bereaved",
+     "url": "https://doi.org/10.1080/07481180590962659",
+     "note": "要旨を確かめた（PMID 16187475）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2005 Stroebe.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2005",
+    "著者": "Stroebe M・Schut H",
+    "雑誌": "Death Studies 29(6):477-494",
+    "DOI": "10.1080/07481180590962659",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**To continue or relinquish bonds - a review of consequences for the bereaved**\n\nStroebe M・Schut H（2005）／ *Death Studies 29(6):477-494*",
+    "この地図で": "- 「絆を断つ」か「絆を保つ」か、の論争の総説。20世紀のあいだに、絆を断つことの利点を説く理論から、絆を保つことの利点を調べる研究へと流れが移った\n- ==証拠を見ると、**絆を保つことも、手放すことも、一般に役に立つとは結論できない**。どんな人に・どんな形で役立つのかを調べる必要がある==\n- !!動画の「現在の研究では、故人との絆を形を変えて持ち続けることのほうが健康な悲嘆の形とされる」は、この総説の結論より強い!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2005 Valli",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "The threat simulation theory of the evolutionary function of dreaming - evidence from dreams of traumatized children",
+     "url": "https://doi.org/10.1016/S1053-8100(03)00019-9",
+     "note": "要旨を確かめた（PMID 15766897）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2005 Valli.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2005",
+    "著者": "Valli K・Revonsuo A・Pälkäs O・Ismail KH・Ali KJ・Punamäki RL",
+    "雑誌": "Consciousness and Cognition 14(1):188-218",
+    "DOI": "10.1016/S1053-8100(03)00019-9",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The threat simulation theory of the evolutionary function of dreaming - evidence from dreams of traumatized children**\n\nValli K・Revonsuo A・Pälkäs O・Ismail KH・Ali KJ・Punamäki RL（2005）／ *Consciousness and Cognition 14(1):188-218*",
+    "この地図で": "- 強い心的外傷を受けたクルドの子ども・それほどでない子ども・フィンランドのふつうの子どもの夢を比べた\n- ==重い心的外傷の子どもほど、夢の数が多く、夢の中の脅威が多く、脅威の中身も重かった==。理論の予測のほとんどを支持\n- ⚠提唱者自身の研究室の検証",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3212,6 +3509,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2008 Malcolm-Smith",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Threat in dreams - an adaptation?",
+     "url": "https://doi.org/10.1016/j.concog.2007.07.002",
+     "note": "要旨を確かめた（PMID 17702604）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2008 Malcolm-Smith.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2008",
+    "著者": "Malcolm-Smith S・Solms M・Turnbull O・Tredoux C",
+    "雑誌": "Consciousness and Cognition 17(4):1281-1291",
+    "DOI": "10.1016/j.concog.2007.07.002",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Threat in dreams - an adaptation?**\n\nMalcolm-Smith S・Solms M・Turnbull O・Tredoux C（2008）／ *Consciousness and Cognition 17(4):1281-1291*",
+    "この地図で": "- 犯罪の多い南アフリカの208人と、少ないウェールズの116人。南アフリカの人のほうが、最近命に関わる出来事にあった人が多かった\n- ==予測に反して、南アフリカの人のほうが**脅威の夢が少なかった**。夢の中の脅威への反応も差がなかった==\n- ==全体でも、現実的な生存の脅威が出てくる夢は**2割未満**、夢の中で脅威から**逃げられた**のは**2%未満**==\n- 著者の結論＝脅威シミュレーション理論の大事な部分と矛盾する\n- !!動画の「夢の中の出来事は楽しいものより脅威的なものが多い」「何度も逃げる＝避難訓練」と、数字の上でずれる!!。「嫌な出来事が多い」と「命の脅威を逃げる練習が多い」は別の主張",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2008 Marsh（扁桃体fMRI）",
    "type": "論文",
    "confidence": "確認済",
@@ -3844,6 +4174,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Worth the EEfRT? The Effort Expenditure for Rewards Task as an objective measure of motivation and anhedonia**\n\nTreadway MT・Buckholtz JW・Schwartzman AN・Lambert WE・Zald DH（2009）／ *PLoS ONE 4(8):e6598*",
     "この地図で": "- **EEfRT**（努力と報酬の課題）＝楽な課題で小さな報酬か、きつい課題で大きな報酬かを選ばせる\n- 学部生61人。==特性としてのアンヘドニアが強いほど、報酬のために努力を払う意欲が**低い**==\n- 自己報告でなく**行動**で動機を測れる道具として広く使われるようになった",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2009 Walker",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Overnight therapy? The role of sleep in emotional brain processing",
+     "url": "https://doi.org/10.1037/a0016570",
+     "note": "要旨を確かめた（PMID 19702380）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2009 Walker.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2009",
+    "著者": "Walker MP・van der Helm E",
+    "雑誌": "Psychological Bulletin 135(5):731-748",
+    "DOI": "10.1037/a0016570",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Overnight therapy? The role of sleep in emotional brain processing**\n\nWalker MP・van der Helm E（2009）／ *Psychological Bulletin 135(5):731-748*",
+    "この地図で": "- 睡眠と感情の研究をまとめた総説。==レム睡眠の間に、最近の感情的な経験が**再処理**され、翌日の辺縁系（扁桃体など）と自律神経の反応が適切な強さに戻る==というモデルと、レム睡眠の感情記憶仮説を出した\n- 題に **?** が付いている＝著者自身が「仮説」として出している。動画は「一晩の心理療法と呼んだ」と断定の形で引く",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4584,6 +4947,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2011 van der Helm",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "REM sleep depotentiates amygdala activity to previous emotional experiences",
+     "url": "https://doi.org/10.1016/j.cub.2011.10.052",
+     "note": "要旨を確かめた（PMID 22119526）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2011 van der Helm.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2011",
+    "著者": "van der Helm E・Yao J・Dutt S・Rao V・Saletin JM・Walker MP",
+    "雑誌": "Current Biology 21(23):2029-2032",
+    "DOI": "10.1016/j.cub.2011.10.052",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**REM sleep depotentiates amygdala activity to previous emotional experiences**\n\nvan der Helm E・Yao J・Dutt S・Rao V・Saletin JM・Walker MP（2011）／ *Current Biology 21(23):2029-2032*",
+    "この地図で": "- ==レム睡眠の生理が、前の日の感情的な画像への**扁桃体の反応が一晩で下がる**ことと結びついていた==。翌日の主観的な感情の強さも下がった\n- 要旨が仕組みとして挙げるのは、==レム睡眠中は**中枢のアドレナリン系（ノルアドレナリン）が強く抑えられる**==こと。動画の「ストレスに関わる神経伝達物質の分泌が1日のうちで唯一ほぼ止まる」はこの説明に当たる\n- ⚠要旨に人数は書かれていない（大河の記憶では健康な若者30人ほど）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2011 von Philipsborn",
    "type": "論文",
    "confidence": "確認済",
@@ -4610,6 +5006,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Neuronal Control of Drosophila Courtship Song**\n\nvon Philipsborn ら（6名）（2011）／ *Neuron* 69:509-522（Dickson 研）",
     "この地図で、どこに効いているか": "- **[[部位ごとのモジュール制御]]** ── [[2026 Cao]] の考察での引きかた＝求愛歌は、上位の P1 から専用の下行ニューロン pIP10 への直結で引き金が引かれる。威嚇の羽の動作（AIP→DNpe050/DNp60 の直結）は**これと同じ型**、と著者らは見る。羽の「一発の姿勢の変化」には、専用の細胞による速く確かな引き金が向く、という理屈\n- !!この論文そのものは大河は読んでいない。上の中身は Cao らの引きかたの要約!!"
+   },
+   "stub": false
+  },
+  {
+   "id": "2012 Baran",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Processing of emotional reactivity and emotional memory over sleep",
+     "url": "https://doi.org/10.1523/JNEUROSCI.2532-11.2012",
+     "note": "要旨を確かめた（PMID 22262901）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2012 Baran.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2012",
+    "著者": "Baran B・Pace-Schott EF・Ericson C・Spencer RMC",
+    "雑誌": "Journal of Neuroscience 32(3):1035-1042",
+    "DOI": "10.1523/JNEUROSCI.2532-11.2012",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Processing of emotional reactivity and emotional memory over sleep**\n\nBaran B・Pace-Schott EF・Ericson C・Spencer RMC（2012）／ *Journal of Neuroscience 32(3):1035-1042*",
+    "この地図で": "- 画像を見せて、12時間後（昼に起きていた群／夜に眠った群）にもう一度見せた\n- 記憶は眠った群のほうが良い。だが==嫌な画像への**感情の反応は、起きていた群では大きく下がり、眠った群ではほぼ保たれた**。しかも保たれかたは**レム睡眠が長いほど**強かった==\n- !!「レム睡眠が感情の痛みを剥がす」とは逆向き!!。著者の言いかた＝睡眠は感情の記憶を強めながら、感情の反応も**保つ**",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -5465,6 +5894,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2013 Wright",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "The impact of dreams of the deceased on bereavement",
+     "url": "https://doi.org/10.1177/1049909113479201",
+     "note": "要旨を確かめた（PMID 23449603）。Crossref の発行年は2013年・号は2014年（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Wright.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Wright ST・Kerr CW・Doroszczuk NM・Kuszczak SM・Hang PC・Luczkiewicz DL",
+    "雑誌": "American Journal of Hospice and Palliative Medicine 31(2):132-138",
+    "DOI": "10.1177/1049909113479201",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The impact of dreams of the deceased on bereavement**\n\nWright ST・Kerr CW・Doroszczuk NM・Kuszczak SM・Hang PC・Luczkiewicz DL（2013）／ *American Journal of Hospice and Palliative Medicine 31(2):132-138*",
+    "この地図で": "- 死別を経験した**278人**の調査\n- ==**58%**が亡くなった人の夢を見ていた。多くは楽しい夢か、楽しさとつらさが混ざった夢で、つらいだけの夢は少なかった==\n- よくあるテーマ＝楽しかった過去の記憶／病気から解放された故人／病気や死の場面の記憶／あの世で穏やかにしている故人／故人が言葉を伝える\n- ==**60%**が、夢が悲しみの過程に影響したと答えた==（死を受け入れる・慰め・霊的なこと・悲しみ・生活の質など）\n- 動画の故人の夢の型（元気な姿・別れの挨拶・助言・ただそこにいる）は、この種の研究の型とおおむね重なる\n- ⚠ホスピスの遺族を中心にした自己報告",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2013 Yudkowsky",
    "type": "論文",
    "confidence": "確認済",
@@ -5523,6 +5985,39 @@ window.DATA = {
     "これは何か": "**Registered Replication Report: Schooler and Engstler-Schooler (1990)**\n\nAlogna VK ほか（著者91名）（2014）／ *Perspectives on Psychological Science 9(5):556-578*",
     "この地図で": "- **[[言語隠蔽効果]]** ── RRR1（説明が強盗の直後）では −4%・RRR2（説明を20分遅らせた）では −16%。==効果は頑健だが・課題の順番（時間）に強く左右される==",
     "注意": "!!動画の「23の研究室」は確かめていない!!（要旨に研究室数が無い。大河の記憶では RRR1 と RRR2 で参加研究室の数が違う）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2014 Arnulf",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Will students pass a competitive exam that they failed in their dreams?",
+     "url": "https://doi.org/10.1016/j.concog.2014.06.010",
+     "note": "要旨を確かめた（PMID 25108280）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Arnulf.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Arnulf I・Grosliere L・Le Corvec T・Golmard JL・Lascols O・Duguet A",
+    "雑誌": "Consciousness and Cognition 29:36-47",
+    "DOI": "10.1016/j.concog.2014.06.010",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Will students pass a competitive exam that they failed in their dreams?**\n\nArnulf I・Grosliere L・Le Corvec T・Golmard JL・Lascols O・Duguet A（2014）／ *Consciousness and Cognition 29:36-47*",
+    "この地図で": "- 医学部の入学試験（フランス）。受験者2324人のうち**719人**が質問紙に答えた\n- ==前夜に試験の夢を見たのは60.4%。その夢の78%に問題が起きていた（遅刻・答えを忘れる）==\n- ==前夜に試験の夢を報告した人のほうが成績が良かった（p = .01）。前期のあいだに試験の夢を見た頻度も成績を予測した（R = 0.1）==\n- 著者の解釈＝夢の中の否定的な予行は、認知的な得になる**エピソード的な模擬**\n- !!動画との食い違い!!。動画は「失敗する夢を見た学生と、試験の夢を見なかった学生」を比べたと言うが、要旨の比較は**試験の夢を見たか見なかったか**。また R = 0.1 は**ごく小さい**関係で、答えた3割の人だけの相関。「むしろ見たほうがいい」は言いすぎ（大河）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5589,6 +6084,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Out, Damned Spot: Can the “Macbeth Effect” Be Replicated?**\n\nEarp ら（4名）（2014）／ *Basic and Applied Social Psychology*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[嫌悪と道徳判断の追試問題]]** ── Zhong & Liljenquist 2006（Science）のマクベス効果の再現に失敗。Fayard ら2009も同様。2026-09-02に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2014 Eichenlaub",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Resting brain activity varies with dream recall frequency between subjects",
+     "url": "https://doi.org/10.1038/npp.2014.6",
+     "note": "要旨を確かめた（PMID 24549103）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Eichenlaub.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Eichenlaub JB・Nicolas A・Daltrozzo J・Redouté J・Costes N・Ruby P",
+    "雑誌": "Neuropsychopharmacology 39(7):1594-1602",
+    "DOI": "10.1038/npp.2014.6",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Resting brain activity varies with dream recall frequency between subjects**\n\nEichenlaub JB・Nicolas A・Daltrozzo J・Redouté J・Costes N・Ruby P（2014）／ *Neuropsychopharmacology 39(7):1594-1602*",
+    "この地図で": "- 夢をよく思い出す人（週5.2回）とほとんど思い出さない人（週0.5回）。PET で、起きて休んでいるとき・レム睡眠・ノンレム睡眠（N2・N3）の脳血流を比べた\n- ==よく思い出す人は、**側頭頭頂接合部（TPJ）**と**内側前頭前野（MPFC）**の血流が、眠っているときも起きているときも高かった==。どちらも[[デフォルト・モード・ネットワーク]]の部分\n- 著者の推測＝TPJ の活動が外の刺激に注意を向けやすくし、**眠りの途中の覚醒**を増やして、夢を記憶に残しやすくするのかもしれない\n- ⚠動画の「よく覚えている人は睡眠中に短い覚醒が多かった」は、要旨では**推測**として書かれている。覚醒の多さそのものを示したのは同じ研究室の先行研究（[[夢の想起頻度]] の節）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6698,6 +7226,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2015 Werner",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Pre- to postsleep change in psychophysiological reactivity to emotional films - late-night REM sleep is associated with attenuated emotional processing",
+     "url": "https://doi.org/10.1111/psyp.12404",
+     "note": "要旨を確かめた（PMID 25588962）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Werner.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Werner GG・Schabus M・Blechert J・Kolodyazhniy V・Wilhelm FH",
+    "雑誌": "Psychophysiology 52(6):813-825",
+    "DOI": "10.1111/psyp.12404",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Pre- to postsleep change in psychophysiological reactivity to emotional films - late-night REM sleep is associated with attenuated emotional processing**\n\nWerner GG・Schabus M・Blechert J・Kolodyazhniy V・Wilhelm FH（2015）／ *Psychophysiology 52(6):813-825*",
+    "この地図で": "- 夜に嫌な映画を丸ごと1本（別の夜に中立の映画）見せ、睡眠を記録して、翌朝その場面をもう一度見せた\n- ==明け方のレム睡眠が長い人ほど、翌朝の**皮膚電気反応が強く**、眉をしかめる筋の反応も**下がりにくかった**==\n- 著者の結論＝レム睡眠は、長く強い感情の刺激については、感情の処理を**弱める**側に結びつくかもしれない。要旨は「証拠はまちまち（mixed）で、多くは自己報告と画像を見る研究」とも書く",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2015 Wyatt",
    "type": "論文",
    "confidence": "確認済",
@@ -7411,6 +7972,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2017 Siclari",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "The neural correlates of dreaming",
+     "url": "https://doi.org/10.1038/nn.4545",
+     "note": "要旨を確かめた（PMID 28394322）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2017 Siclari.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2017",
+    "著者": "Siclari F・Baird B・Perogamvros L・Bernardi G・LaRocque JJ・Riedner B・Boly M・Postle BR・Tononi G",
+    "雑誌": "Nature Neuroscience 20(6):872-878",
+    "DOI": "10.1038/nn.4545",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The neural correlates of dreaming**\n\nSiclari F・Baird B・Perogamvros L・Bernardi G・LaRocque JJ・Riedner B・Boly M・Postle BR・Tononi G（2017）／ *Nature Neuroscience 20(6):872-878*",
+    "この地図で": "- 高密度の脳波で、起こしたときに「夢を見ていた」と「何も無かった」を、レム睡眠とノンレム睡眠の両方で比べた\n- ==夢は**ノンレム睡眠でも**起きる。どちらの睡眠でも、夢の報告は**後部の皮質**の低い周波数の活動が局所的に減ることと結びついた==（「後部のホットゾーン」）\n- このホットゾーンをその場で見張ると、ノンレム睡眠中に起こした人が夢を報告するかどうかを予測できた\n- !!動画は「あなたが夢を見ているレム睡眠の間」と、夢＝レム睡眠として話を進める!!。中島の本（[[睡眠の種間比較]]）がすでに剥がしている神話\n- ⚠この「ホットゾーン」には反論の論評もある（Ruby 2020「夢の神経相関はまだ見つかっていない」Frontiers in Neuroscience。題だけ確認）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2017 Soto",
    "type": "論文",
    "confidence": "確認済",
@@ -7700,6 +8294,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2018 Morgenthaler",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Position paper for the treatment of nightmare disorder in adults - an American Academy of Sleep Medicine position paper",
+     "url": "https://doi.org/10.5664/jcsm.7178",
+     "note": "要旨を確かめた（PMID 29852917）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Morgenthaler.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Morgenthaler TI・Auerbach S・Casey KR・Kristo D・Maganti R・Ramar K・Zak R・Kartje R",
+    "雑誌": "Journal of Clinical Sleep Medicine 14(6):1041-1055",
+    "DOI": "10.5664/jcsm.7178",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Position paper for the treatment of nightmare disorder in adults - an American Academy of Sleep Medicine position paper**\n\nMorgenthaler TI・Auerbach S・Casey KR・Kristo D・Maganti R・Ramar K・Zak R・Kartje R（2018）／ *Journal of Clinical Sleep Medicine 14(6):1041-1055*",
+    "この地図で": "- アメリカ睡眠医学会（AASM）の立場表明。2009〜2017年の文献を見直した\n- ==悪夢障害は**大人の約4%**。単独でも、PTSD などほかの病気の一部としても起き、生活の質を大きく損なう==\n- ==**PTSDに伴う悪夢**と**悪夢障害**の両方に、**イメージリハーサル療法だけが「推奨（recommended）」**==\n- 「使ってよい（may be used）」は多い＝認知行動療法・EMDR・明晰夢の療法・催眠・プラゾシンなど。「推奨しない」はクロナゼパムとベンラファキシン",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2018 Patzelt",
    "type": "論文",
    "confidence": "確認済",
@@ -7764,6 +8391,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2018 Rozen",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Dreams of teeth falling out - an empirical investigation of physiological and psychological correlates",
+     "url": "https://doi.org/10.3389/fpsyg.2018.01812",
+     "note": "要旨を確かめた（PMID 30319507）。動画の出典欄に挙がる（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Rozen.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Rozen N・Soffer-Dudek N",
+    "雑誌": "Frontiers in Psychology 9:1812",
+    "DOI": "10.3389/fpsyg.2018.01812",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Dreams of teeth falling out - an empirical investigation of physiological and psychological correlates**\n\nRozen N・Soffer-Dudek N（2018）／ *Frontiers in Psychology 9:1812*",
+    "この地図で": "- 大学生210人。夢のテーマ・歯の違和感・心理的苦痛・睡眠の質を質問紙で\n- ==歯が抜ける・腐る夢は、**起きたときの歯・歯ぐき・顎の緊張感**と関連した。心理的苦痛とは関連しなかった==。ほかの夢のテーマは歯の違和感と関連しなかった\n- 心理的苦痛と歯の違和感のあいだには、小さいが有意な関係があった＝動画の「食いしばりはストレスで増えるので遠回りに心と繋がってはいる」と合う\n- !!動画との食い違い!!。同じ研究で、==**落ちる夢**と**息が詰まる夢**は心理的苦痛と**関連していた**==。動画は落ちる夢を「心ではなく体」と言い切るが、この研究は逆を示す\n- 著者自身が「予備的（preliminary）」と書く。横断的な質問紙で、因果は言えない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2018 Westgate",
    "type": "論文",
    "confidence": "確認済",
@@ -7793,6 +8453,39 @@ window.DATA = {
     "これは何か": "**Boring thoughts and bored minds: The MAC model of boredom and cognitive engagement**\n\nWestgate EC・Wilson TD（2018）／ *Psychological Review 125(5):689-713*",
     "この地図で": "- **[[退屈]]** の**MACモデル**（意味と注意の成分）。==退屈は (a) 認知の要求と使える資源のずれ（**少なすぎ・多すぎの両方**）と (b) 活動と大事な目標のずれ（または目標が無いこと）から生まれる==\n- ⭐**動画は取り上げていない**が・この地図では効く。「刺激の多すぎ」でも退屈が起きる＝[[デジタル・スイッチング]]の「刺激を増やしても退屈が減らない」に・動画とは別の説明を与える\n- 共著の Westgate は [[2014 Wilson]] と [[2021 Pfattheicher]] の共著者でもある",
     "注意": "⚠この論文は動画に出てこない。大河が退屈の理論の現在地として足した",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2018 Whitney",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Sleep-related movement disorders - hypnic jerks",
+     "url": "https://doi.org/10.1007/s40675-018-0104-9",
+     "note": "書誌だけ照合（Crossref・要旨は取れず）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Whitney.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Whitney R・Weiss SK",
+    "雑誌": "Current Sleep Medicine Reports 4(1):19-27",
+    "DOI": "10.1007/s40675-018-0104-9",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Sleep-related movement disorders - hypnic jerks**\n\nWhitney R・Weiss SK（2018）／ *Current Sleep Medicine Reports 4(1):19-27*",
+    "この地図で": "- 入眠時のぴくつき（hypnic jerk・sleep start）の総説。!!中身は読んでいない!!。[[入眠時ミオクローヌス]] の記述は大河の記憶で書いた",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -8087,6 +8780,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2019 Postuma",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder - a multicentre study",
+     "url": "https://doi.org/10.1093/brain/awz030",
+     "note": "要旨を確かめた（PMID 30789229）（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Postuma.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Postuma RB・Iranzo A・Hu M・Högl B・Boeve BF・Manni R・Oertel WH・Arnulf I ほか",
+    "雑誌": "Brain 142(3):744-759",
+    "DOI": "10.1093/brain/awz030",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder - a multicentre study**\n\nPostuma RB・Iranzo A・Hu M・Högl B・Boeve BF・Manni R・Oertel WH・Arnulf I ほか（2019）／ *Brain 142(3):744-759*",
+    "この地図で": "- 国際RBD研究グループの**24施設・1280人**。睡眠ポリグラフで確かめた特発性のレム睡眠行動障害で、まだパーキンソン症状も認知症もない人を追った。平均66.3歳・**82.5%が男性**・平均4.6年追跡\n- ==神経変性の病気（パーキンソン病・レビー小体型認知症・多系統萎縮症）へ移る率は**年6.3%**、**12年で73.5%**==\n- 移りやすさを予測したのは、運動の検査の異常・**嗅覚の低下**・軽度認知障害・勃起障害・便秘・色覚の異常・レム睡眠の脱力の消失・年齢など\n- 動画の「特に中高年の男性」「神経の病気の早期のサインになりうる」は合う。==数字で見ると「なりうる」より**かなり高い**==\n- ⭐著者の Arnulf I は、試験の夢の [[2014 Arnulf]] と同じ人と大河は見ている（所属の照合はしていない）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2019 Sánchez de Ribera",
    "type": "論文",
    "confidence": "確認済",
@@ -8214,6 +8940,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data**\n\nBender EM・Koller A（2020）／ *Proceedings of ACL 2020:5185-5198*",
     "この地図で": "- **[[タコのテスト]]** ── 立場表明の論文。==形式だけで訓練された系には・意味を学ぶ手立てが原理的に無い==。形式と意味の区別をはっきりさせることが分野の科学をよくする",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2020 Black",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Comforting versus distressing dreams of the deceased - relations to grief, trauma, attachment, continuing bonds, and post-dream reactions",
+     "url": "https://doi.org/10.1177/0030222820903850",
+     "note": "要旨を確かめた（PMID 32036745）。Crossref の発行年は2020年・号は2021年（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2020 Black.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2020",
+    "著者": "Black J・Belicki K・Piro R・Hughes H",
+    "雑誌": "OMEGA - Journal of Death and Dying 84(2):525-550",
+    "DOI": "10.1177/0030222820903850",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-22）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Comforting versus distressing dreams of the deceased - relations to grief, trauma, attachment, continuing bonds, and post-dream reactions**\n\nBlack J・Belicki K・Piro R・Hughes H（2020）／ *OMEGA - Journal of Death and Dying 84(2):525-550*",
+    "この地図で": "- 恋人か配偶者を亡くした**216人**。故人の夢の報告を内容分析し、悲嘆の強さ・心的外傷後の症状・愛着のスタイル・継続する絆（内面化か外在化か）・夢のあとの受け止めかたを測った\n- ==故人の夢には少なくとも3つの働きがある＝**心的外傷の処理**・**絆を保つ**・**感情を整える**==。どれにも支持があった\n- ==**夢から覚めたあとの受け止めかた**が、夢の感じかたにも悲嘆にも影響する==\n- 動画の「多くは穏やかで慰めになる」は合う。ただ、この研究は**つらい夢**にも働きがあると見ている。動画の「慰めではなく恐ろしい形で何か月も続くなら相談を」という注意書きと同じ方向",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -11430,6 +12189,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "G・ウィリアム・ドムホフ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/G・ウィリアム・ドムホフ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "G. William Domhoff。夢の内容の量的分析（Hall と Van de Castle の符号化法）を引き継いだ研究者。夢は起きている間の**関心ごと**を写すという神経認知理論。⚠この地図では論文を当たっていない（Crossref で *A new neurocognitive theory of dreams*（Dreaming 2001）と著書 *The Neurocognitive Theory of Dreaming*（MIT Press 2022）の書誌だけ見た）。⚠所属（カリフォルニア大学サンタクルーズ校）は大河の記憶・未確認。権力構造の社会学者としても知られる（大河の記憶）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "HEXACO",
    "type": "理論",
    "confidence": "確認済",
@@ -13346,6 +14124,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "アンティ・レヴォンスオ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/アンティ・レヴォンスオ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Antti Revonsuo。フィンランドの認知神経科学者・意識の哲学者。[[脅威シミュレーション理論]]（[[2000 Revonsuo]]）。動画は「フィンランドの認知科学者」と言う。⚠所属（トゥルク大学・スウェーデンのシェーヴデ大学）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "アントニオ・R・ダマシオ",
    "type": "人物",
    "confidence": "推測",
@@ -13360,6 +14157,25 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "Antonio R. Damasio。ポルトガル・リスボン生まれの神経学者・神経科学者。\n1969年にリスボン大学で医学博士。その後アメリカへ渡り、奥付の略歴の時点ではアイオワ大学の神経科教授、\nソーク研究所を兼任。（現在は南カリフォルニア大学に移っていると記憶しているが、**未確認**）\n\n一貫した主張は **身体は心の乗り物ではなく、心をつくる材料そのものである** ということ。\nデカルト的な心身二元論への反対が、著作を貫く軸になっている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "アントニオ・ザドラ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/アントニオ・ザドラ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Antonio L. Zadra。夢・反復夢・悪夢の研究者。[[1998 Zadra]]。⚠所属（モントリオール大学）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -13476,6 +14292,25 @@ window.DATA = {
    },
    "sections": {
     "この本での役どころ": "1〜2章・7章。複眼の世界は粗く**クモの糸が見えない**（画像37）。人の手が**約50センチ**に近づくと飛び立つ＝最遠平面（画像42）。シャンデリアから50センチ離れると引き返す（画像46-48）。部屋の中では電灯とテーブルの上の物以外すべて**歩行のトーン**（画像86-87）。ハエ釣り竿で捕まるのは雄ばかり（画像63）。\n\n!!学名・分類は大河の知識による。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "イザベル・アルヌルフ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/イザベル・アルヌルフ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Isabelle Arnulf。フランスの睡眠医学者。試験の前夜の夢（[[2014 Arnulf]]）と、[[レム睡眠行動障害]] の国際共同研究（[[2019 Postuma]]）の両方に名がある。⚠所属（パリのピティエ＝サルペトリエール病院）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -13695,6 +14530,39 @@ window.DATA = {
    "sections": {
     "誰か": "ジーン・ブリッグズがウトゥク族（カナダ北極圏のイヌイット）で暮らした家の養父（『決して怒らない』）。粗野で傲慢・激情家だが==**かんしゃくを起こさない**＝模範的な自制で尊敬され・同時に恐れられた（「怒ると人を殺す」）==（p.89-92）。\n- 犬を虐待・若者のペニスをつかむ「ふざけ」＝容認される範囲で攻撃性を出す\n- 平等主義のエトスに照らして自分の支配傾向を理解し・**容認される攻撃と容認されない攻撃を鋭く見分けていた**＝[[進化的良心]]の多機能\n- 「支配者という地位が文化的にあればリーダーになっていた」",
     "この地図で": "`08_リトル`の[[自由特性理論]]（性格の外に出る）の・狩猟採集民の例。乱暴者の気質（[[二種類のフリーライダー]]）を持ちながら牙を抜いた一人（[[牙を抜かれたフリーライダー]]）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "イメージリハーサル療法",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Krakow B ほか (2001) Imagery rehearsal therapy for chronic nightmares in sexual assault survivors with posttraumatic stress disorder - a randomized controlled trial. JAMA 286(5):537-545",
+     "url": "https://doi.org/10.1001/jama.286.5.537",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2001 Krakow]]"
+    },
+    {
+     "title": "Morgenthaler TI ほか (2018) Position paper for the treatment of nightmare disorder in adults - an American Academy of Sleep Medicine position paper. Journal of Clinical Sleep Medicine 14(6):1041-1055",
+     "url": "https://doi.org/10.5664/jcsm.7178",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2018 Morgenthaler]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/イメージリハーサル療法.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Imagery Rehearsal Therapy（IRT）。==繰り返す悪夢の筋書きを、**起きている間に**好きなように書き換え、その新しい筋書きを毎日思い浮かべて練習する==治療。",
+    "研究で分かっていること": "- 性暴力の被害でPTSDのある女性168人の無作為化比較試験。3回のセッションで、悪夢のある夜が大きく減り（d = 1.24）、睡眠の質とPTSDの症状も良くなった（[[2001 Krakow]]）\n- アメリカ睡眠医学会は、PTSDに伴う悪夢と悪夢障害の両方に、この療法**だけ**を「推奨」とした（[[2018 Morgenthaler]]）",
+    "動画での使われ方（25:30〜26:00）": "- 「追いつかれる結末を、振り返ったら追っ手が友人だった、と書き直して毎日想像する」\n- 正確。⚠動画は効果の大きさと、対象が**PTSDの悪夢**だったことを言わない",
+    "大河の見立て": "夢の中身を「読む」のでなく「書き換える」。==夢が象徴のメッセージなら書き換えても意味がないはずで、書き換えで減るという事実は、夢が**練習された筋書き**として回っていることを示唆する==（大河の推測）。[[脅威シミュレーション理論]] の「練習」と、皮肉な形で響き合う。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -19142,6 +20010,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "バリー・クラコウ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/バリー・クラコウ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Barry Krakow。睡眠医学の医師。PTSDの悪夢への [[イメージリハーサル療法]] の試験（[[2001 Krakow]]）。⚠所属は未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "バンド",
    "type": "用語",
    "confidence": "推測",
@@ -20641,6 +21528,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "マシュー・ウォーカー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/マシュー・ウォーカー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Matthew P. Walker。睡眠の神経科学者。一般書 *Why We Sleep*（2017・邦訳『睡眠こそ最強の解決策である』SBクリエイティブ）。動画の字幕では「王川」と誤変換されている。⚠所属（カリフォルニア大学バークレー校）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "マシュー・リーバーマン",
    "type": "人物",
    "confidence": "確認済",
@@ -20970,6 +21876,25 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "Mihaly Csikszentmihalyi（1934-2021）。ハンガリー生まれの心理学者。「フロー」で知られる。\n- まえがき＝創造性研究のアプローチの二つの極のうち、**文化的/人類的観点**の極を「雄弁に述べる」代表（もう一つの極は「発散的思考」課題をイメージングや遺伝学と組み合わせる神経科学）。==二つの物語は「手を携えてというよりは並行して展開している」＝本書はその統合を目指す。==\n- 4章＝『創造性 ── 発見と発明の心理学』＝あらゆる個々の創造的行為は、それが生じる文化の文脈においてのみ理解される。==創造的な過程は、一般に言われているのと異なり**孤独の過程ではない**==（一匹狼的な気質で主観的には孤独の努力に感じても）。\n- エピローグ＝1990-95年に行った91人の「例外的な人」へのインタビューで、男女半々の目標を達成できなかった（一部の分野に女性が少なかったため）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ミヒャエル・シュレードル",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ミヒャエル・シュレードル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Michael Schredl。ドイツの夢の研究者。[[夢の継続性仮説]] を夢日記で検証してきた（[[2003 Schredl]]）。⚠所属（マンハイムの中央精神保健研究所）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -22096,6 +23021,34 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "レム睡眠行動障害",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Postuma RB ほか (2019) Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder - a multicentre study. Brain 142(3):744-759",
+     "url": "https://doi.org/10.1093/brain/awz030",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2019 Postuma]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/レム睡眠行動障害.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "REM sleep behaviour disorder（RBD）。==ふつうレム睡眠の間は全身の筋が**脱力**していて、夢の中で走っても体は動かない。その**ブレーキが外れて**、夢に合わせて体が動く（殴る・蹴る・叫ぶ・ベッドから落ちる）==状態。",
+    "研究で分かっていること（[[2019 Postuma]]）": "- 24施設1280人。平均66歳・82.5%が男性\n- ==パーキンソン病・レビー小体型認知症・多系統萎縮症へ、**年6.3%**、**12年で73.5%**が移った==\n- 嗅覚の低下・運動の検査の異常・便秘・色覚の異常などが、移りやすさを予測した",
+    "動画での使われ方（26:00〜26:30）": "- 「特に中高年の男性に」「神経の病気の早期のサインになりうる」「心当たりがあれば睡眠の専門医に」＝正確。数字で見ると「なりうる」は控えめ\n- 動画の「足が重くて走れない」（04:30）は、この**脱力**が正しく働いている側の話。脳は「走れ」と命じているのに体から返事が来ない食い違いを、夢が「足が重い」と翻訳する、と動画は言う（⚠この翻訳の説明は大河は確かめていない）",
+    "この地図で": "動画の結び（[[夢は脳の日報（中身より見えかたの変化）]]）の3つめ＝夢に合わせて体が動くようになった。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "レラ・ボロディツキー",
    "type": "人物",
    "confidence": "推測",
@@ -22137,6 +23090,25 @@ window.DATA = {
     "調べたこと（2026-09-01）": "Roy Bhaskar。**批判的実在論（Critical Realism）**の哲学者。\n主著の一つが *Dialectic: The Pulse of Freedom*（1993）。",
     "なぜ地図に入るのか": "!!**邦訳 `07_ラスキー` を読んでいるだけでは、この人は見えてこない。**!!\nだが [[弁証法的思考形式の枠組み]]（DTF）の骨格は**バスカーのMELD**そのもので、\nラスキーは2015年の論文で **DTFを「MELDの操作化」だと明言している**。\n\n**MELD** ＝ バスカーの言う弁証法の四契機 **1M・2E・3L・4D**。\nこれが認識論の側で **CPRT**（Context / Process / Relationship / Transformation）として表される。\n\nバスカーの**認知発達の四つの時代** ── Common Sense（常識）／Understanding（悟性）／\nReason（理性）／Practical Wisdom（実践知）。**弁証法に出会うのは Understanding → Reason の移行**。",
     "ここで確度の話がややこしくなる": "!!**バスカーのMELDは哲学的な存在論であって、実証的に検証された発達段階ではない。**!!\nCDFの認知の軸は、\n- **哲学（バスカーのMELD）**という枠に\n- **心理学（バシェックの24図式・27件のインタビュー）**を接ぎ木したもの\n\nになっている。**土台の性質が二つで違う**。哲学のほうは検証の対象ではないし、\n心理学のほうは検証がまだ薄い → [[CDFの検証の不在]]。\n\n!!バスカー自身の批判的実在論の学界での位置づけは、大河は調べていない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ロザリンド・カートライト",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ロザリンド・カートライト.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Rosalind D. Cartwright。睡眠と夢の研究者。離婚の途中の人の夢と、抑うつからの回復を追った（[[1998 Cartwright]]）。一般書 *The Twenty-four Hour Mind*（2010）。⚠所属（シカゴのラッシュ大学）と没年（2021年）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -22547,6 +23519,31 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "**1つの嗅細胞は、数百ある[[嗅覚受容体]]遺伝子のうち1つだけを発現する**という規則。\nしかも父方・母方のどちらか一方の対立遺伝子だけ（**単一対立遺伝子発現**）。\n\n**なぜ大事か** ── この規則があるから、\n**「どの細胞が発火したか」＝「どの受容体が立ったか」**になり、\n同じ受容体を持つ細胞の軸索が同じ[[糸球体]]に集まることで、**分子の種類が場所に翻訳される**。\n!!**この規則が崩れると、[[組合せコード化]]の読み出しが成り立たない。**!!\n\n**機構**（Monahan & Lomvardas 2015）\n**遅いクロマチン依存の活性化**と、それに続く**速い負のフィードバック**を組み合わせることで、\n1つが選ばれたあと他の受容体が活性化しないようにしている。\n\n**ここが正直に書くべきところ（2026-09-03に確認して確度が下がった）**\n1. **発達途上の例外がある** ── 未成熟な嗅細胞の一部は**複数の受容体を同時に発現**しており、\nのちに1つを残して排除される（Tan ら 2015）。**規則は最初からあるのではなく、作られる。**\n2. **2021年の総説は「生理学的な妥当性は疑いないが、この規則は本質的に仮説的で、\n必要な水準での実験的検証はされていない」と書く。**\n＝**教科書に載る確立した事実、という顔で扱うには早い。**\n\n**だからこのノードの確度は「確認済」だが、それは\n「規則が正しいと確認された」ではなく「規則の現在の扱いを出典つきで確認した」という意味。**\n（→ この地図の「確度＝どれだけ寄りかかれるか」という使いかたのとおり）"
+   },
+   "stub": false
+  },
+  {
+   "id": "一晩の心理療法（レム睡眠と感情記憶）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [
+    "amygdala",
+    "hippocampus"
+   ],
+   "file": "nodes/一晩の心理療法（レム睡眠と感情記憶）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Overnight therapy。[[マシュー・ウォーカー]] らの仮説（[[2009 Walker]]）。==レム睡眠の間は脳の**ノルアドレナリン**（ストレスと覚醒の伝達物質）がほぼ止まる。その「ストレス物質のない」状態で昼の感情的な記憶を再生するので、**出来事の記憶は残り、感情の痛みだけが少しずつ剥がれる**==（「眠って覚え、眠って忘れる」）。",
+    "研究の状況＝割れている": "- 支持＝[[2011 van der Helm]]（レム睡眠の生理と、扁桃体の反応が一晩で下がることが結びつく）\n- !!向きが逆!!＝[[2012 Baran]]（睡眠はむしろ嫌な画像への感情の反応を**保つ**。レム睡眠が長いほど保たれる）\n- !!向きが逆!!＝[[2015 Werner]]（長い嫌な映画のあと、明け方のレム睡眠が長い人ほど翌朝の反応が**強い**）\n- [[2015 Werner]] の要旨自身が「証拠はまちまち」と書く",
+    "動画での使われ方（02:30・16:30〜17:30）": "- 「睡眠科学者ウォーカー（字幕では王川）はこれを一晩の心理療法と呼んだ」\n- 元恋人の夢の説明＝「辛い記憶を出来事だけ残して痛みを少しずつ剥がしていく」「感情の音量を少しずつ下げていく」\n- !!動画はこの仮説を**確定した事実**として語る!!。元の総説の題には「?」が付いている\n- !!「あなたが夢を見ているレム睡眠」!!＝夢はノンレム睡眠でも見る（[[2017 Siclari]]・[[睡眠の種間比較]]）",
+    "大河の見立て": "動画の芯の一つ（元恋人の夢・故人の夢の説明がこれに乗っている）が、いちばん論争のある仮説。==「夢を見ると痛みが薄れる」は**まだ決着していない**==、と読むのが正確。",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -24081,6 +25078,28 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "入眠時ミオクローヌス",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/入眠時ミオクローヌス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Hypnic jerk（入眠時のぴくつき・sleep start）。==眠りに落ちる瞬間に、体が「ガクン」と跳ねる不随意の筋の収縮==。落ちる感じや短い夢の映像を伴うことがある。!!多くの人が経験するふつうの生理現象とされる!!。",
+    "大河が確かめたこと・確かめていないこと": "- 総説の書誌はある（[[2018 Whitney]]）が、中身は読んでいない。以下は大河の記憶\n- 疲労・睡眠不足・カフェイン・強い運動・ストレスで起きやすくなる、とよく書かれる\n- 「木の上で寝ていた祖先が、筋が緩むのを落下と取り違えて体をこわばらせた名残」という説は、**一般向けに広まった仮説**（Coolidge という心理学者が言い出した、という記憶）で、検証されていない。動画も「証明された話ではない」と断っている",
+    "動画での使われ方（05:30〜07:30）": "- 「落ちる夢は心の不安の象徴ではなく、脳が体の信号を読み間違えた結果」「見直すべきは寝る前の生活」\n- !!食い違い!!＝[[2018 Rozen]] では、**落ちる夢は心理的苦痛と関連していた**。体の現象としてのぴくつきと、夢のテーマとしての「落ちる夢」は分けて考える必要がある",
+    "大河の見立て": "落ちる夢には、入眠時のぴくつきに伴う一瞬の映像と、眠りの途中で見る筋のある「落ちる夢」の両方が入っている。==前者は体、後者は心の状態とも関わる==、と分けて読むのが、いまの証拠に合う。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "共感",
    "type": "用語",
    "confidence": "確認済",
@@ -24543,6 +25562,34 @@ window.DATA = {
     "調べたこと": "**J / P（Judging - Perceiving）**。[[MBTI]] の第4指標。\n**外の世界にどう構えるか** ── 決めて片づけたいか、開いたままにしておきたいか。\n\nビッグファイブの [[誠実性]] に対応する。",
     "4指標の中で、この軸だけ性格が違う": "E/I・S/N・T/F がユング由来なのに対し、**J/P はマイヤーズらが付け加えた軸**とされる。\nそしてこの軸は [[認知機能]] の理論の中では、**どの機能が外に向いているかを決めるための鍵**\nという役割を負っている。!!その理論の足場が弱いことは [[認知機能]] のとおり。!!",
     "対応先には強い予測力がある": "[[誠実性]] は**ビッグファイブの中でいちばん予測力が強い因子**で、\n職務遂行や学業成績を広く予測する。\n**だからJ/Pは、4指標の中では「実用的な当たり」がいちばん期待できる軸**かもしれない。\n!!ただし「MBTIのJ/Pが誠実性と同じ予測力を持つ」という研究には当たっていない。!!**未調査。**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "別れた相手の夢（カートライト）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Cartwright R ほか (1998) Role of REM sleep and dream variables in the prediction of remission from depression. Psychiatry Research 80(3):249-255",
+     "url": "https://doi.org/10.1016/S0165-1781(98)00071-7",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[1998 Cartwright]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/別れた相手の夢（カートライト）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[ロザリンド・カートライト]] の研究。==離婚の途中の人の睡眠と夢を追って、**夢が眠りの中で気分を整えている**かを調べた==。",
+    "研究で分かっていること": "- 別居した61人を、直後と1年後に。最初に抑うつだった39人では、==夜の**前半**に否定的な夢が多く**後半**に少ない人ほど、1年後に回復していた==（[[1998 Cartwright]]）\n- 夢の感情の強さも、1年後の抑うつの予測に効いた\n- 離婚の出来事が夢に**取り込まれる**ことと適応の関係（[[1991 Cartwright]]・要旨未確認）",
+    "動画での使われ方（16:00〜18:30）": "- 「元恋人の夢は復縁の暗示ではない」「別れた直後に元配偶者の夢を多く・激しく見ていた人ほど1年後の回復が良かった」「未練ではなく、手放すための作業」\n- !!食い違い!!＝確かめた論文で効いていたのは**否定的な夢が夜のどこに来るか**と**感情の強さ**で、元配偶者が出る回数ではない\n- !!研究は離婚の**配偶者**!!。動画は「元恋人」「何十年も会っていない相手」に広げている。何十年も前の相手の夢は、この研究の範囲の外\n- 説明の土台が [[一晩の心理療法（レム睡眠と感情記憶）]] で、そちらは論争中",
+    "大河の見立て": "「元恋人の夢を見た朝に落ち込まなくていい」という動画の励ましは、優しいし害はない。ただ、==研究が言えるのは「別れた直後の夢の**形**が回復を予測する」まで==。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -25471,6 +26518,34 @@ window.DATA = {
     "これは何か": "4章「単純な環世界」の中心の比喩。\n- **ゾウリムシ**＝環世界にある知覚標識は**障害物だけ**。何かに当たると後ずさりして脇にずれ、また泳ぐ。刺激を発しない唯一のもの＝食物の腐敗菌に当たると止まる。**機能環が一つ**で生物が組み立てられている（画像56）\n- **外洋性クラゲ（Rhizostoma）**＝傘の縁の8個の縁弁器官が、傘が動くたびに打たれ、その刺激が次の動きを起こす。**自分に作用標識を与え、それが同じ知覚標識を起こし続ける**。環世界には「いつも同じ鐘の音」（画像56-58）\n- 器官ごとに完結した反射弓をもつとき、それを**反射係（Reflexperson）**と呼ぶ。**ウニ**は棘・管足・4種の叉棘がそれぞれ反射係で、中枢の指令なしに働く（画像58）",
     "名言（画像58）": "「**イヌが歩くときは、この動物が足を動かすが、ウニが歩くときは、その足がこの動物を動かす**」",
     "国内平和": "中枢の無いウニでは、つかむための叉棘が**自分の柔らかい管足をつかまない**。皮膚に薄く分布する**オートデルミン**が、自分の皮膚どうしが触れたときだけ受容器を麻痺させる（画像59）。人間では舌を噛まないのは中枢の痛みのおかげ。\n- ウニは水平線が暗くなるたびに棘を動かす。**雲にも船にも本物の敵の魚にも同じ**（図19・画像59-61）＝知覚標識がばらばらで一つの像にならない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "反復夢",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Zadra AL ほか (1998) Dream content, dream recurrence and well-being - a replication with a younger sample. Imagination, Cognition and Personality 17(4):293-311",
+     "url": "https://doi.org/10.2190/LLXL-D4DB-9CP5-BRGT",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[1998 Zadra]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/反復夢.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "同じ家・同じ廊下・同じ追っ手が、何度も出てくる夢。",
+    "研究で分かっていること": "- ==反復夢を**いま**見ている人は、見ない人より心の健康が低く、夢の中身も否定的==（[[1998 Zadra]]・18〜21歳52人）\n- 前に見ていて今は見なくなった人は、見続けている人より状態が良い、という3群の比較が最初の研究（[[1986 Brown]]・数値は未確認）\n- 著者の結論＝反復夢は**ストレスのある時期**に起きる",
+    "動画での使われ方（12:00〜14:30）": "- 「未処理の案件の通知」「脳がこの件はまだ片付いていないと何度も同じファイルを開いている」「現実でその件が解決したとき、夢は止まる」\n- 転職して評価に怯えなくなった人・家族と話をつけた人の例は「統計ではなく、夢研究者が繰り返し聞いてきた典型的な報告」と動画自身が断っている\n- 「子どもに多く、大人になると減る」は大河は当たっていない",
+    "大河の見立て": "研究は**相関**＝反復夢がある時期は心の健康が低い。「解決すると止まる」は筋が通るが、==止まったから良くなったのか、良くなったから止まったのかは、この研究の形では分けられない==。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -26494,6 +27569,83 @@ window.DATA = {
    "sections": {
     "動画の主張（17:57-19:00）": "「多様性は本来とても大切な概念＝違いを認め合い尊重すること。でも最近は**『多様性なんだから何をやってもいい』**という意味で使われている。本来の多様性は**相手を傷つけない範囲**で違いを認めること。今は『俺は俺・文句言うな』」「注意すると『多様性を認めろ』と逆ギレされる」。\nさらに「**正しさは人それぞれ**」という極端な相対主義が問題を複雑にしている＝「人を傷つけてはいけない」は相対的な正しさではないのに・その絶対的なルールまで相対化され・何でもありになる。",
     "大河の見立て": "- 動画が言っているのは「多様性」の語の**濫用**であって・多様性そのものの否定ではない。地図に置く価値は・[[モラル]]の議論で「何を相対化してよく・何を相対化してはいけないか」の線引きが問われている点\n- ⚠**学術的な裏付けは当たっていない**（refs 空＝大河の記憶にもこの語の研究は無い）。「多様性の免罪符化」は動画の言葉で・概念として確立しているわけではない。だから確度は推測\n- 燻太さんの手元の『モラルの起源』（⏳亀田達也・岩波新書2017 か・ボーム・白揚社2014 か要確認）が入れば・「相対化してはいけない核」を進化の側から問い直せる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "夢の想起頻度",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Eichenlaub JB ほか (2014) Brain reactivity differentiates subjects with high and low dream recall frequencies during both sleep and wakefulness. Cerebral Cortex 24(5):1206-1215",
+     "url": "https://doi.org/10.1093/cercor/bhs388",
+     "note": "要旨を確かめた（2026-10-22）。「覚醒-想起」モデル＝夢の記憶は眠りの途中の覚醒に頼る。よく思い出す人18人とあまり思い出さない人18人で、名前の音への脳の反応が違った"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/夢の想起頻度.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "夢をどれくらい思い出すか。==ほとんどの人は毎晩夢を見ているが、**覚えている**かどうかに大きな個人差がある==。",
+    "研究で分かっていること": "- ==**覚醒-想起モデル**＝夢は、眠りの途中で少し目が覚めたときに記憶に移る==。よく思い出す人は、眠りの途中の覚醒が多いと報告されてきた（refs の Eichenlaub の先行研究の要旨）\n- よく思い出す人は、名前の音への脳の反応（注意を向ける反応 P3a）が、起きていても眠っていても大きい（refs）\n- よく思い出す人は、**側頭頭頂接合部**と**内側前頭前野**の血流が高い（[[2014 Eichenlaub]]）\n- 夢を見たか見なかったかは、後部の皮質の脳波で当てられる（[[2017 Siclari]]）",
+    "動画での使われ方（14:30〜16:00）": "- 「夢を見ないは間違い。覚えていないだけ」「覚えていないのは眠りが深いという健康なサイン」「急に鮮明に覚えるようになったら、眠りが浅くなっている合図かもしれない」\n- 「起きてすぐスマホを見るとほぼ消える。目を開ける前に布団の中で思い返す」\n- ⚠「健康なサイン」は言いすぎ（大河）。想起の多い人は**脳の反応性の型**が違うのであって、眠りが不健康なわけではない\n- ⚠「一晩にレム睡眠を4〜5回」は教科書どおり。「その都度夢を見る」「一生で数年分」「毎晩合計およそ2時間」は大河は数字を確かめていない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "夢の継続性仮説",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Schredl M ほか (2003) Continuity between waking activities and dream activities. Consciousness and Cognition 12(2):298-308",
+     "url": "https://doi.org/10.1016/S1053-8100(02)00072-7",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2003 Schredl]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/夢の継続性仮説.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "==夢の内容は、起きている間の**関心ごと・不安・人間関係**を引き継いでいる==という仮説。夢を象徴として読む（フロイト・ユング）のでなく、夢日記を大量に集めて**数える**研究から出てきた。",
+    "研究で分かっていること": "- おおむね支持される。ただし**どんな経験が夢に入るか**には偏りがある＝読む・書く・計算するような集中の作業はほとんど出てこない（[[2003 Schredl]]）\n- 著者たち自身が「仮説の言いかたがまだ曖昧」と認めている。感情の動いた経験ほど入りやすい、という修正が提案されている\n- 例外の扱い＝歯が抜ける夢は起きている間の関心ごとに当てはまりにくい（[[2018 Rozen]] が自分で書いている）",
+    "動画での使われ方（01:30〜02:30）": "- 「何十年も確認され続けてきた1つの知見」「夢の中の世界は起きている世界のかなり忠実な縮図」「象徴ではない。ほとんどそのまま」\n- 動画の終盤で、故人の夢（「起きている間に何度も思い出している人だから夢に出る」）の説明にも使い回される",
+    "大河の見立て": "動画の言いかたは強い。==継続性は「そのまま写る」でなく「関心の向きが写る」くらいに読むのが安全==。夢の中で上司に追われても、上司に追われた経験があるわけではない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "夢は脳の日報（中身より見えかたの変化）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/夢は脳の日報（中身より見えかたの変化）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "動画の結論（23:00〜27:30）。==夢はメッセージではなく、脳が夜の間に**体の信号を処理し・恐怖を演習し・感情を整理した作業の痕跡**。占う必要はないが「日報」としては読める。そして本当に見るべきは**中身ではなく見えかたの変化**==。",
+    "8つの夢の言い換え（動画）": "- 追われる夢＝脳の避難訓練（[[脅威シミュレーション理論]]）\n- 落ちる夢＝体の信号の読み間違い（[[入眠時ミオクローヌス]]）\n- 歯の夢＝顎の緊張（[[歯が抜ける夢]]）\n- 試験の夢＝本番前の演習（[[試験の夢]]）\n- 反復夢＝未処理の案件の通知（[[反復夢]]）\n- 覚えていない夢＝深い眠りの証拠（[[夢の想起頻度]]）\n- 元恋人の夢＝手放すための作業（[[別れた相手の夢（カートライト）]]）\n- 亡くなった人の夢＝絆を編み直す作業（[[故人の夢]]）",
+    "見るべき3つの変化（動画）": "1. 悪夢の頻度が急に増えた（[[悪夢障害]]）\n2. 夢を急に鮮明に覚えるようになった（[[夢の想起頻度]]）\n3. 夢に合わせて体が動くようになった（[[レム睡眠行動障害]]）",
+    "大河の見立て": "- ==「中身より変化を見よ」は、8つの話のうち**いちばん証拠の固い**部分==。1と3は睡眠医学の診断と治療の根拠がある。2は研究の向きとは合うが「眠りが浅くなった合図」は推測\n- 8つの言い換えは、証拠の強さがばらばら。強い＝歯の夢・悪夢の治療。中くらい＝反復夢・試験の夢・故人の夢。**論争中**＝避難訓練・痛みを剥がす（元恋人の夢の土台）\n- 動画の決め台詞「夢占いは当たらない。だが夢は嘘をつかない」の後半は、[[夢の継続性仮説]] を強く読みすぎ。==夢は嘘をつかないが、**何を言っているかも決まっていない**==\n- 夢を「日報」として読むときも、[[2020 Black]] の「目覚めたあとの受け止めかたが効く」を思い出したい。読みかたそのものが、次の夜の夢と昼の気分を変えうる",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -28055,6 +29207,62 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "悪夢の正体（深淵回廊）",
+   "type": "映像",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "【悪夢の正体】深層心理から見る夢とあなたの状態について",
+     "url": "https://www.youtube.com/watch?v=vhn7pRF6DfY",
+     "note": "チャンネル「深淵回廊@人間の脳と心の仕組み」。2026-09-27公開・28分58秒・約26.7万回再生（2026-10-22時点）。説明欄にチャプターと出典13件と注意書き。自動字幕を yt-dlp で取り大河が通読（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/悪夢の正体（深淵回廊）.md",
+   "owned": "有",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!本ではなく **YouTube の解説動画**（型は `映像`）。!!チャンネル「深淵回廊」（映02・映03・映07と同じ）・2026-09-27公開・28分58秒。燻太さんが 2026-10-22 に「次はこの動画についてまとめよう」として挙げた。\n\n==冒頭で「夢占いの話はしない。科学はあの手の解釈をほぼ支持していない」と線を引き、説明欄に出典13件と「夢の内容から未来や運勢を読み取ることには科学的根拠がない」「悪夢が続く・体が動く場合は専門家に」の注意書きを置く==。映02・映07と同じく、出典の扱いはていねい。",
+    "筋（チャプターと中の8つの夢）": "1. 夢が映し出す脳のリアルな状態（00:00）＝[[夢の継続性仮説]]・[[一晩の心理療法（レム睡眠と感情記憶）]]\n2. 追われる夢（03:01）＝[[脅威シミュレーション理論]]\n3. 落ちる夢（05:32）＝[[入眠時ミオクローヌス]]\n4. 歯が抜ける夢（07:30）＝[[歯が抜ける夢]]\n5. 試験の夢（09:23）＝[[試験の夢]]\n6. 反復夢（12:00）＝[[反復夢]]\n7. 覚えていない夢（14:30）＝[[夢の想起頻度]]\n8. 元恋人の夢（16:00）＝[[別れた相手の夢（カートライト）]]\n9. 亡くなった人の夢（18:33）＝[[故人の夢]]・[[継続する絆]]\n10. まとめと、見るべき3つの変化（23:00〜）＝[[夢は脳の日報（中身より見えかたの変化）]]・[[悪夢障害]]・[[イメージリハーサル療法]]・[[レム睡眠行動障害]]",
+    "動画が引く研究と、大河が確かめた結果": "!!食い違い!!を先に並べる。\n1. ==「あなたが夢を見ているレム睡眠」==＝夢は**ノンレム睡眠でも**見る（[[2017 Siclari]]）。中島の本も「レム睡眠＝夢は早計」と書く（[[睡眠の種間比較]]）\n2. ==「一晩の心理療法」を事実として==＝向きが逆の結果がある（[[2012 Baran]]・[[2015 Werner]]）。元の総説の題には「?」が付く\n3. ==「夢の中の出来事は脅威的なものが多い」「避難訓練」==＝生存の脅威が出る夢は2割未満、逃げられた夢は2%未満、犯罪の多い地域のほうが脅威の夢が少ない（[[2008 Malcolm-Smith]]）\n4. ==「落ちる夢は心ではなく体」==＝動画が歯の夢で引いた**同じ研究**で、落ちる夢は心理的苦痛と関連していた（[[2018 Rozen]]）\n5. ==「失敗する夢を見た学生のほうが成績が良かった」==＝比べたのは「試験の夢を見たか」。関係はごく小さい（R = 0.1）（[[2014 Arnulf]]）\n6. ==「元配偶者の夢を多く激しく見た人ほど回復」==＝確かめた論文で効いていたのは否定的な夢が夜の**前半**に来るか（[[1998 Cartwright]]）。研究は離婚の配偶者で、「何十年も会っていない元恋人」は範囲外\n7. ==「絆を持ち続けるほうが健康な悲嘆の形とされる」==＝総説は「一般にどちらとも言えない」（[[2005 Stroebe]]）\n8. 正確だったもの＝歯の夢（[[2018 Rozen]]）・反復夢（[[1998 Zadra]]）・故人の夢の型（[[2013 Wright]]）・悪夢の治療（[[2001 Krakow]]・[[2018 Morgenthaler]]）・レム睡眠行動障害（[[2019 Postuma]]＝12年で73.5%と、動画の言いかたより重い）\n9. 字幕の誤変換＝「王川」＝ウォーカー、「レボン」＝レヴォンスオ、「デム睡眠・ネム睡眠・M睡眠」＝レム睡眠",
+    "大河の見立て": "- ==いちばん良いところは結論＝「中身を占うな・見えかたの変化を見よ」==。証拠が固く、実際に役立つ（[[夢は脳の日報（中身より見えかたの変化）]]）\n- 弱いところは、8つの夢の「意味」の多くが、**論争中の2つの仮説**（脅威シミュレーション・一晩の心理療法）に乗っていること。夢占いを否定して、代わりに「科学の答え」を一つずつ置く語りの形が、まだ決着していない仮説まで**答え**に見せている\n- 動画自身の言葉「その答えはどれも夢占いより少し優しかったはず」は正直。==優しさを選んだぶん、確かさを少し削っている==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "悪夢障害",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Morgenthaler TI ほか (2018) Position paper for the treatment of nightmare disorder in adults - an American Academy of Sleep Medicine position paper. Journal of Clinical Sleep Medicine 14(6):1041-1055",
+     "url": "https://doi.org/10.5664/jcsm.7178",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2018 Morgenthaler]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/悪夢障害.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Nightmare disorder。==恐ろしい夢で何度も目が覚め、それが眠ることへの恐れや日中の苦痛を生んでいる状態==。睡眠医学では独立した睡眠障害として扱う。",
+    "研究で分かっていること": "- 大人の**約4%**（[[2018 Morgenthaler]]）\n- 単独でも、PTSD などほかの病気の一部としても起きる\n- 治療がある＝[[イメージリハーサル療法]]（アメリカ睡眠医学会がただ一つ「推奨」）",
+    "動画での使われ方（24:30〜26:00）": "- 「悪夢をたまに見るのは正常。だが週に何度も恐ろしい夢で目が覚め、眠ることが怖くなっている状態は、睡眠医学では1つの独立したサイン」\n- 「悪夢は耐えるものではなく編集できるもの」\n- 説明欄にも相談先の注意書きがある。正確",
+    "この地図で": "動画の結び＝**見るべきは夢の中身ではなく、夢の見えかたの変化**（[[夢は脳の日報（中身より見えかたの変化）]]）の1つめ。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "情動と感情の区別",
    "type": "用語",
    "confidence": "推測",
@@ -29061,6 +30269,34 @@ window.DATA = {
     "これは何か": "Anthropomorphism。『[[ソロモンの指環]]』で著者が繰り返し自分を戒める語。\n==動物の行動を人間の感情で説明したくなる誘惑と、それでも動物に感情が無いとは言えない、という板挟み==を、\n著者は「擬人化と言われるのを恐れずに」と断って書く場面がある（pp.90, 93 のコクマルガラスの求愛・嫉妬の記述）。",
     "この地図で": "- [[心の理論]] は「他者の心の状態を推測する」能力。動物に対してそれを使うとき、当たっているかを確かめる手が無い\n- [[構成主義的情動理論]]（バレット）は「ハエは恐れているか、は科学の問いではない。ハエは恐れを感じるか、なら答えられる（いいえ）」と言う。\n  ローレンツの板挟みの、現代の一つの答え。==本書の観察は、その問いの「材料」として今も読める==（大河の見立て）",
     "13_中島『動物心理学』での役どころ": "- [[知魚楽]]＝他者の心の了解可能性を論じるとき、他者がヒト以外の場合は擬人化の問題にも配慮すべき（p.ii）\n- ロマーニズの逸話法が「過度に擬人化されている」というモーガンの懸念から[[モーガンの公準]]（1894）。年表は公準を「擬人主義への戒め」と書く\n- グリフィンの認知動物行動学への批判＝定義なき「意識」「心的体験」・野外観察の主観的で擬人的な解釈（p.42）\n- [[ラットの救出行動]]・アリの救出行動に「共感」という語を用いるのは過度の擬人化（Hollis 2017, p.332）\n- 「イヌの人格」＝personの入った語を動物に適用すると擬人化の誹りを受けかねないので、動物では「行動の個体差」と言うのが普通だった（p.354）→ [[マダコのパーソナリティ]]\n==ローレンツの板挟み（恐れずに擬人化する）の、教科書側の作法がここにある。==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "故人の夢",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Black J・Belicki K・Emberley-Ralph J (2019) Who dreams of the deceased? The roles of dream recall, grief intensity, attachment, and openness to experience. Dreaming 29(1):57-78",
+     "url": "https://doi.org/10.1037/drm0000100",
+     "note": "書誌だけ照合（Crossref・要旨は取れず）。題が要因（夢の想起・悲嘆の強さ・愛着・開放性）を示す（2026-10-22）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/故人の夢.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "亡くなった家族や友人が夢に出てくること。日本語には「**夢枕に立つ**」という言いかたがある。",
+    "研究で分かっていること": "- 死別した278人の**58%**が故人の夢を見ていた。多くは楽しい夢か混ざった夢で、つらいだけの夢は少ない。**60%**が悲しみの過程に影響したと答えた（[[2013 Wright]]）\n- 型＝元気な姿・病気から解放された姿・あの世で穏やか・言葉を伝える・病気や死の場面の記憶\n- 恋人や配偶者を亡くした216人では、故人の夢に**心的外傷の処理・絆を保つ・感情を整える**の3つの働きがあり、**目覚めたあとの受け止めかた**が悲嘆に影響した（[[2020 Black]]）\n- 誰が見やすいか＝夢の想起・悲嘆の強さ・愛着・開放性（refs・題だけ）",
+    "動画での使われ方（18:33〜23:00）": "- 「多くは穏やかで慰めになる夢」「元気な姿・別れの挨拶・助言・ただそこにいる」＝研究の型とおおむね重なる\n- 「夢枕に立ったと思っていい。科学はその解釈を否定しない」「脳がその人をまだ人生の登場人物として扱い続けている」\n- 「恐ろしい形で何か月も続き、眠ることが怖いなら、一人で抱えない」＝[[2020 Black]] のつらい夢の働き・[[悪夢障害]] とつながる",
+    "大河の見立て": "動画でいちばん丁寧な章。ただ、動画の説明の柱は [[継続する絆]] で、そちらの「健康な形とされる」は研究の結論より強い。==夢がどう働くかは、**目が覚めたあとどう受け止めるか**にも左右される==（[[2020 Black]]）、というのが動画にない大事な一点。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -30133,6 +31369,34 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "『[[創造性と脳システム]]』の監訳者。神経内科医。著書に『ベッドサイドの神経心理学 改訂2版』『高次脳機能障害の考えかたと画像診断』（中外医学社）、訳書に『失語症 ── 治療へのアプローチ』『心的イメージとは何か』。\n\n2018年の認知神経科学会に著者ゴールドバーグを招いた縁で、著者から「できたら訳してもらえないか」と本書を渡された（訳者あとがき p.346）。5章・6章を自分で訳し、全体を統一。訳出で不明な点は著者に問い合わせた。\n\n==訳者あとがき（pp.343-346）で、**岡潔**の「三か月も続くと…ある日朝食後2時間半ほど座っているときに、どこをどうやればよいかがすっかりわかってしまった。わかったのは刹那である」を引き、「まったくわからないという状態で毎日努力している（＝前頭葉の高活性）」と「眠ってばかりいるという放心した状態（＝前頭葉の低活性）」の往復に重ねた。== → [[指向性のある放浪]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "歯が抜ける夢",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Rozen N ほか (2018) Dreams of teeth falling out - an empirical investigation of physiological and psychological correlates. Frontiers in Psychology 9:1812",
+     "url": "https://doi.org/10.3389/fpsyg.2018.01812",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2018 Rozen]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/歯が抜ける夢.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "歯がぽろぽろ抜ける・口の中で砕ける夢。世界中で報告される**典型夢**の一つ。夢占いでは家族の不幸・喪失、心理学でも長く不安の象徴とされてきた。",
+    "研究で分かっていること（[[2018 Rozen]]）": "- 大学生210人。==歯の夢は**起きたときの歯・歯ぐき・顎の緊張感**と関連し、心理的苦痛とは関連しなかった==\n- 食いしばりのような、眠っている間の**体の刺激を、脳が夢の映像に翻訳している**、という「歯の違和感仮説」を支持\n- 心理的苦痛と歯の違和感のあいだには小さな関係がある＝遠回りには心とつながる\n- 著者自身が「予備的」と書く",
+    "動画での使われ方（07:30〜09:00）": "- 「歯が抜ける夢は心の問題ではなく顎の問題」「最初に行くべきは占い師ではなく歯医者」\n- 研究の要約として正確。ただし「イスラエルの研究チーム」の一つの研究（210人の学生）だけの話",
+    "この地図で": "[[夢の継続性仮説]] の例外として、論文の著者自身が問題にしている。夢には**関心ごと**から来るものと、**ベッドの上の体**から来るものがある、という動画の整理の柱。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -32754,6 +34018,34 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "継続する絆",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Klass D・Silverman PR・Nickman SL (eds.) (1996) Continuing Bonds - New Understandings of Grief. Taylor & Francis",
+     "url": "https://doi.org/10.4324/9781315800790",
+     "note": "初版1996年（Taylor & Francis）。DOI は2014年の再刊（Crossref で照合）。動画の出典欄に挙がる。本は読んでいない"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/継続する絆.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Continuing bonds。==死別からの回復とは故人を**手放す**ことだ、という20世紀前半からの考え（フロイトの「喪の作業」）に対して、故人との絆を**形を変えて持ち続ける**ことも自然で健康でありうる==、とした考え。Klass・Silverman・Nickman の編著（1996）で広まった。",
+    "研究の状況": "- !![[2005 Stroebe]]＝絆を保つことも手放すことも、**一般に**役立つとは結論できない!!。どんな人に・どんな形で、を調べる必要がある\n- 絆の**形**を分ける研究がある＝内面化された絆（心の中で思い出す・価値を受け継ぐ）と、外在化された絆（姿や声を感じる）（[[2020 Black]] が測っている）。大河の記憶では、外在化された絆のほうが悲嘆の強さと結びつきやすい、という報告がある（未確認）",
+    "動画での使われ方（21:00〜22:30）": "- 「かつては個人を手放すことが回復だと考えられていた。だが現在の研究では、絆を形を変えて持ち続けることのほうが健康な悲嘆の形とされる」\n- 「亡くなった人が夢に出るのは、脳がその絆を新しい形に編み直している作業」\n- !!「健康な形とされる」は言いすぎ!!。研究の流れが「手放す」一辺倒から変わったのは確かだが、「持ち続けるほうが健康」とまでは言えていない",
+    "この地図で": "日本の「お盆」「仏壇」「夢枕に立つ」は、外から見れば**文化として制度化された継続する絆**。動画もこの点を挙げている。⚠[[2008 Malcolm-Smith]] のような文化差の研究が夢にあるのと同じく、絆の働きかたも文化で違うはず（大河の推測）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "綾部早穂",
    "type": "人物",
    "confidence": "推測",
@@ -33093,6 +34385,28 @@ window.DATA = {
     "扱える版は、もう分野になっている": "→ [[計算論的表現型]]（computational phenotyping）。Patzelt, Hartley & Gershman (2018)。\n\n> 行動データや神経データに当てはめたモデルから導かれるパラメータの集まりであり、\n> **個人を連続的なパラメータ空間の中の点として表現する**。\n\n**「8つの機能のどれが主か」ではなく「その人のパラメータの値は何か」を問う。**\n精度（precision）、学習率、計画の射程 ── そういう量として個人差を置く。\n\n**そしてその道具は、燻太さんが持っている本の中にある。**\n[[能動的推論_心_脳_行動の自由エネルギー原理]] の **第9章「モデルベースのデータ分析」**\n（メタベイズ法・変分ラプラス法・PEB、そして **9.7 誤推論のモデル**）が、まさにそれをやるための章。\n\n!!公平のために ── **この表現型はまだ再検査信頼性が十分でない**とされている。!!\nMBTIの「再検査で変わる」という弱点を、完全には免れていない。\n\n---",
     "使える形に落とすと": "燻太さんの2つ目の論点 ──「**無意識的な選好がどこの機能に帰属しがちなのかを知ること自体は、\n自分の脳の活動の癖を知って適切に社会的にふるまう上では意味のある取り組み**」── には同意する。\n\nただし、能動的推論の言葉に置き換えると、**同じ問いがもっと正直で、しかも自分で確かめられる形になる**。\n\n| MBTI式の問い | 置き換えた問い |\n|---|---|\n| 私は Ni 主機能か？ | **何を「もう決まったこと」として扱っているか**（動かさない事前信念はどれか） |\n| 私は Ne が強いか？ | **どんなとき、確かめに行くほうを選ぶか**（情報利得を高く見積もる先） |\n| 私は Fe か Fi か？ | **誰の選好に合わせているか**（自分のか、推論した相手のか） |\n\n**下の3つは、今週の自分の行動を思い出せば答え合わせができる。**\n「私はNi主機能だ」は、できない。\n**社会的に適切に振る舞うために自分の癖を知る**という目的には、下のほうが効くはずだ。",
     "燻太さんの考え": "（2026-08-31・この項目の出発点。本人の言葉のまま上に引用してある）"
+   },
+   "stub": false
+  },
+  {
+   "id": "脅威シミュレーション理論",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/脅威シミュレーション理論.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Threat Simulation Theory（TST）。[[アンティ・レヴォンスオ]] の説（[[2000 Revonsuo]]）。==夢は、**脅威の出来事を模擬して、脅威の知覚と回避を練習する**ために進化した==。祖先の環境は命が短く危険が多かったので、眠っている間に「避難訓練」ができる脳は有利だった、という筋。",
+    "研究の状況": "- 支持＝[[2005 Valli]]（重い心的外傷の子どもほど、脅威の夢が多く重い）。⚠提唱者の研究室\n- !!反する結果!!＝[[2008 Malcolm-Smith]]（犯罪の多い南アフリカの人のほうが**脅威の夢が少ない**。生存の脅威が出る夢は2割未満、逃げられたのは2%未満）\n- 進化の説明なので、直接の検証が難しい（大河）",
+    "動画での使われ方（03:00〜05:30）": "- 追われる夢＝「脳の避難訓練」「子どもは動物や怪物に、大人は人間に追われる」「強いストレスを抱えると追われる夢が増える」\n- 試験の夢（[[試験の夢]]）も「本番前の演習」として、同じ考えかたで説明される\n- ⚠「子どもは動物、大人は人間」は大河は当たっていない（Hall と Van de Castle の符号化を使った子どもの夢の研究で言われる話、という記憶）",
+    "大河の見立て": "- 「夢には嫌な出来事が多い」までは数えた研究がある。「それは**練習**のためだ」は解釈で、[[2008 Malcolm-Smith]] の「逃げられた夢は2%未満」は、練習としては**不出来**すぎる\n- ==脅威を**写す**ことと、脅威を**練習する**ことは別の主張==。前者は [[夢の継続性仮説]] でも説明できる",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -34942,6 +36256,33 @@ window.DATA = {
    "fields": {},
    "sections": {},
    "stub": true
+  },
+  {
+   "id": "試験の夢",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映08_夢の正体"
+   ],
+   "refs": [
+    {
+     "title": "Arnulf I ほか (2014) Will students pass a competitive exam that they failed in their dreams?. Consciousness and Cognition 29:36-47",
+     "url": "https://doi.org/10.1016/j.concog.2014.06.010",
+     "note": "要旨を確かめた（2026-10-22）。中身は論文ノード [[2014 Arnulf]]"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/試験の夢.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "試験の日なのに勉強していない・会場にたどり着けない・遅刻する夢。学校を出て何十年たっても見る典型夢。",
+    "研究で分かっていること（[[2014 Arnulf]]）": "- 医学部入試の前夜。答えた719人のうち60.4%が試験の夢を見て、その78%で問題（遅刻・答えを忘れる）が起きた\n- ==前夜に試験の夢を見た人のほうが成績が良く、前期に試験の夢を見た頻度も成績を予測した==。ただし関係は**ごく小さい**（R = 0.1）\n- 著者の解釈＝否定的な**エピソード的な模擬**が、認知的な得になる",
+    "動画での使われ方（09:23〜12:00）": "- 大人が試験の夢を見る理由＝「試験は人生で最初に他人に採点される体験。評価の場面が近づくと、脳は一番古い採点の記憶を引っ張り出す」\n- 「失敗する夢を見た学生のほうが成績が良かった」「むしろ見たほうがいい」\n- !!食い違い!!＝論文の比較は「試験の夢を見たか」で、関係は小さく、答えた3割の人の相関。勉強していて試験のことを考えている学生ほど夢に出る、という**第三の要因**でも説明できる（大河）\n- 「大人になっても見る理由」の部分は、動画の解釈（出典なし）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
   },
   {
    "id": "認知動物行動学",
@@ -37393,6 +38734,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "1986 Brown",
+   "target": "反復夢",
+   "rel": "いま見ている人・前に見ていた人・見ない人の3群",
+   "weight": "強"
+  },
+  {
    "source": "1987 Miller",
    "target": "ロバート・S・ミラー",
    "rel": "裏づけ",
@@ -37567,6 +38914,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "1991 Cartwright",
+   "target": "別れた相手の夢（カートライト）",
+   "rel": "ストレスの出来事が夢に取り込まれることと適応",
+   "weight": "強"
+  },
+  {
    "source": "1992 Kuper",
    "target": "カラハリ論争",
    "rel": "裏づけ",
@@ -37645,9 +38998,27 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "1998 Cartwright",
+   "target": "別れた相手の夢（カートライト）",
+   "rel": "夫婦の別居直後と1年後の睡眠と夢",
+   "weight": "強"
+  },
+  {
    "source": "1998 Poltorak",
    "target": "LPS（リポ多糖）",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "1998 Zadra",
+   "target": "反復夢",
+   "rel": "18〜21歳で追試＝反復夢の人は心の健康が低い",
+   "weight": "強"
+  },
+  {
+   "source": "1998 Zadra",
+   "target": "神経症的傾向",
+   "rel": "夢の元型らしさは神経症傾向と負の相関",
    "weight": "標準"
   },
   {
@@ -37735,6 +39106,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2000 Revonsuo",
+   "target": "脅威シミュレーション理論",
+   "rel": "提唱した原典",
+   "weight": "強"
+  },
+  {
    "source": "2000 Richards",
    "target": "感情の抑制",
    "rel": "裏づけ",
@@ -37757,6 +39134,18 @@ window.DATA = {
    "target": "呼びかけへの応答",
    "rel": "批判＝ゴットマンらの離婚予測（Gottman 1998）は交差検証が無く・別サンプルでは精度と予測価値が急落する",
    "weight": "強"
+  },
+  {
+   "source": "2001 Krakow",
+   "target": "イメージリハーサル療法",
+   "rel": "無作為化比較試験",
+   "weight": "強"
+  },
+  {
+   "source": "2001 Krakow",
+   "target": "悪夢障害",
+   "rel": "PTSDに伴う慢性の悪夢",
+   "weight": "標準"
   },
   {
    "source": "2001 Most",
@@ -37829,6 +39218,12 @@ window.DATA = {
    "target": "ゲーデルマシン",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2003 Schredl",
+   "target": "夢の継続性仮説",
+   "rel": "日記で起きている間の活動と夢を突き合わせた",
+   "weight": "強"
   },
   {
    "source": "2003 Wegner",
@@ -37960,6 +39355,18 @@ window.DATA = {
    "source": "2005 Pittenger",
    "target": "MBTI",
    "rel": "批判＝再検査でタイプが変わる・二分法の根拠が弱い・職業や相性の予測妥当性が示されていない",
+   "weight": "強"
+  },
+  {
+   "source": "2005 Stroebe",
+   "target": "継続する絆",
+   "rel": "絆を保つことが一般に良いとは言えないと結論＝一般化への批判",
+   "weight": "強"
+  },
+  {
+   "source": "2005 Valli",
+   "target": "脅威シミュレーション理論",
+   "rel": "心的外傷を受けた子どもほど脅威の夢が多く重い＝支持",
    "weight": "強"
   },
   {
@@ -38191,6 +39598,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2008 Malcolm-Smith",
+   "target": "脅威シミュレーション理論",
+   "rel": "犯罪の多い地域の人のほうが脅威の夢が少ない＝予測に反する結果で批判",
+   "weight": "強"
+  },
+  {
    "source": "2008 Marsh（扁桃体fMRI）",
    "target": "恐怖欠如仮説",
    "rel": "怯えた顔への扁桃体反応の低下",
@@ -38401,6 +39814,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2009 Walker",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "提唱した総説",
+   "weight": "強"
+  },
+  {
    "source": "2009 Zaki",
    "target": "共感的正確性",
    "rel": "裏づけ",
@@ -38569,10 +39988,22 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2011 van der Helm",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "レム睡眠の生理と扁桃体の反応の低下が結びついた＝支持",
+   "weight": "強"
+  },
+  {
    "source": "2011 von Philipsborn",
    "target": "部位ごとのモジュール制御",
    "rel": "比べる型（P1→pIP10＝求愛歌の専用の下行ニューロン）",
    "weight": "標準"
+  },
+  {
+   "source": "2012 Baran",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "睡眠はむしろ感情の反応を保つ＝向きが逆の結果で批判",
+   "weight": "強"
   },
   {
    "source": "2012 Bostrom",
@@ -38755,6 +40186,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2013 Wright",
+   "target": "故人の夢",
+   "rel": "死別した278人の調査",
+   "weight": "強"
+  },
+  {
    "source": "2013 Yudkowsky",
    "target": "知能爆発",
    "rel": "裏づけ",
@@ -38773,6 +40210,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2014 Arnulf",
+   "target": "試験の夢",
+   "rel": "医学部入試の前夜の夢と成績",
+   "weight": "強"
+  },
+  {
+   "source": "2014 Arnulf",
+   "target": "未来の記憶",
+   "rel": "夢の中の否定的な予行は先の出来事のエピソード的な模擬と著者",
+   "weight": "標準"
+  },
+  {
    "source": "2014 Cutuli",
    "target": "感情の抑制",
    "rel": "裏づけ",
@@ -38782,6 +40231,18 @@ window.DATA = {
    "source": "2014 Earp",
    "target": "嫌悪と道徳判断の追試問題",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2014 Eichenlaub",
+   "target": "夢の想起頻度",
+   "rel": "よく覚えている人は側頭頭頂接合部と内側前頭前野の血流が高い",
+   "weight": "強"
+  },
+  {
+   "source": "2014 Eichenlaub",
+   "target": "デフォルト・モード・ネットワーク",
+   "rel": "夢を作る側の候補として",
    "weight": "標準"
   },
   {
@@ -39073,6 +40534,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2015 Werner",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "長い嫌な映画では明け方のレム睡眠が長いほど翌朝の反応が強い＝対立する結果",
+   "weight": "強"
+  },
+  {
    "source": "2015 Wyatt",
    "target": "ヒトのフェロモン",
    "rel": "裏づけ",
@@ -39235,6 +40702,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2017 Siclari",
+   "target": "睡眠の種間比較",
+   "rel": "ノンレム睡眠でも夢を見る＝本の「レム睡眠＝夢は早計」の根拠の一つ",
+   "weight": "強"
+  },
+  {
+   "source": "2017 Siclari",
+   "target": "夢の想起頻度",
+   "rel": "夢を見たか見なかったかを脳波で当てた",
+   "weight": "標準"
+  },
+  {
    "source": "2017 Soto",
    "target": "HEXACOの外向性",
    "rel": "裏づけ",
@@ -39337,6 +40816,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2018 Morgenthaler",
+   "target": "悪夢障害",
+   "rel": "大人の約4%",
+   "weight": "強"
+  },
+  {
+   "source": "2018 Morgenthaler",
+   "target": "イメージリハーサル療法",
+   "rel": "ただ一つ推奨とされた治療",
+   "weight": "強"
+  },
+  {
    "source": "2018 Patzelt",
    "target": "能動的推論と認知機能",
    "rel": "裏づけ",
@@ -39355,10 +40846,28 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2018 Rozen",
+   "target": "歯が抜ける夢",
+   "rel": "歯の違和感と関連し心理的苦痛とは関連しない",
+   "weight": "強"
+  },
+  {
+   "source": "2018 Rozen",
+   "target": "入眠時ミオクローヌス",
+   "rel": "同じ研究で落ちる夢のほうは心理的苦痛と関連していた",
+   "weight": "標準"
+  },
+  {
    "source": "2018 Westgate",
    "target": "退屈",
    "rel": "MACモデル＝注意の欠け（刺激の少なすぎ・多すぎ）と意味の欠けが別々に退屈を生む",
    "weight": "強"
+  },
+  {
+   "source": "2018 Whitney",
+   "target": "入眠時ミオクローヌス",
+   "rel": "睡眠関連の運動障害としての総説",
+   "weight": "標準"
   },
   {
    "source": "2018 Wrangham",
@@ -39427,6 +40936,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2019 Postuma",
+   "target": "レム睡眠行動障害",
+   "rel": "国際的な多施設の追跡",
+   "weight": "強"
+  },
+  {
    "source": "2019 Sánchez de Ribera",
    "target": "サイコパシーと知能",
    "rel": "全体では小さな負の相関＝r −.07",
@@ -39454,6 +40969,18 @@ window.DATA = {
    "source": "2020 Bender",
    "target": "記号接地問題",
    "rel": "形式だけで訓練された系は意味を学べないという主張",
+   "weight": "標準"
+  },
+  {
+   "source": "2020 Black",
+   "target": "故人の夢",
+   "rel": "慰めの夢とつらい夢を分けて機能を3つ想定",
+   "weight": "強"
+  },
+  {
+   "source": "2020 Black",
+   "target": "継続する絆",
+   "rel": "内面化された絆と外在化された絆を測った",
    "weight": "標準"
   },
   {
@@ -40301,6 +41828,12 @@ window.DATA = {
    "target": "思考-感情",
    "rel": "この軸の機能",
    "weight": "標準"
+  },
+  {
+   "source": "G・ウィリアム・ドムホフ",
+   "target": "夢の継続性仮説",
+   "rel": "夢の内容分析と神経認知理論",
+   "weight": "強"
   },
   {
    "source": "HEXACO",
@@ -41299,6 +42832,24 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "アンティ・レヴォンスオ",
+   "target": "脅威シミュレーション理論",
+   "rel": "提唱",
+   "weight": "強"
+  },
+  {
+   "source": "アンティ・レヴォンスオ",
+   "target": "2000 Revonsuo",
+   "rel": "著者",
+   "weight": "強"
+  },
+  {
+   "source": "アンティ・レヴォンスオ",
+   "target": "2005 Valli",
+   "rel": "共著",
+   "weight": "標準"
+  },
+  {
    "source": "アントニオ・R・ダマシオ",
    "target": "ソマティック・マーカー仮説",
    "rel": "提唱",
@@ -41308,6 +42859,18 @@ window.DATA = {
    "source": "アントニオ・R・ダマシオ",
    "target": "情動と感情の区別",
    "rel": "提唱",
+   "weight": "標準"
+  },
+  {
+   "source": "アントニオ・ザドラ",
+   "target": "反復夢",
+   "rel": "研究",
+   "weight": "強"
+  },
+  {
+   "source": "アントニオ・ザドラ",
+   "target": "1998 Zadra",
+   "rel": "筆頭著者",
    "weight": "標準"
   },
   {
@@ -41356,6 +42919,18 @@ window.DATA = {
    "source": "イエバエ",
    "target": "作用トーン",
    "rel": "ハエにとっての部屋",
+   "weight": "標準"
+  },
+  {
+   "source": "イザベル・アルヌルフ",
+   "target": "2014 Arnulf",
+   "rel": "筆頭著者",
+   "weight": "強"
+  },
+  {
+   "source": "イザベル・アルヌルフ",
+   "target": "2019 Postuma",
+   "rel": "共著",
    "weight": "標準"
   },
   {
@@ -41434,6 +43009,12 @@ window.DATA = {
    "source": "イヌティアク",
    "target": "進化的良心",
    "rel": "進化的良心の多機能（リスク計算）の実例＝容認される攻撃と容認されない攻撃を鋭く見分けていた",
+   "weight": "標準"
+  },
+  {
+   "source": "イメージリハーサル療法",
+   "target": "認知的再評価",
+   "rel": "起きている間に筋書きを書き換えるという点で近い",
    "weight": "標準"
   },
   {
@@ -43477,6 +45058,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "バリー・クラコウ",
+   "target": "イメージリハーサル療法",
+   "rel": "無作為化試験",
+   "weight": "強"
+  },
+  {
+   "source": "バリー・クラコウ",
+   "target": "2001 Krakow",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
    "source": "バンド",
    "target": "カラハリ論争",
    "rel": "批判",
@@ -44089,6 +45682,24 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "マシュー・ウォーカー",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "提唱",
+   "weight": "強"
+  },
+  {
+   "source": "マシュー・ウォーカー",
+   "target": "2009 Walker",
+   "rel": "筆頭著者",
+   "weight": "強"
+  },
+  {
+   "source": "マシュー・ウォーカー",
+   "target": "2011 van der Helm",
+   "rel": "共著（最終著者）",
+   "weight": "標準"
+  },
+  {
    "source": "マシュー・リーバーマン",
    "target": "2007 Lieberman",
    "rel": "筆頭著者",
@@ -44188,6 +45799,18 @@ window.DATA = {
    "source": "ミハイ・チクセントミハイ",
    "target": "消費者の役割",
    "rel": "創造的行為は文化の文脈でのみ理解できる",
+   "weight": "標準"
+  },
+  {
+   "source": "ミヒャエル・シュレードル",
+   "target": "夢の継続性仮説",
+   "rel": "検証",
+   "weight": "強"
+  },
+  {
+   "source": "ミヒャエル・シュレードル",
+   "target": "2003 Schredl",
+   "rel": "筆頭著者",
    "weight": "標準"
   },
   {
@@ -44581,6 +46204,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "レム睡眠行動障害",
+   "target": "生物リズムと生物時計",
+   "rel": "睡眠の段階の仕組みの破れ",
+   "weight": "標準"
+  },
+  {
    "source": "レラ・ボロディツキー",
    "target": "2007 Winawer",
    "rel": "最終著者",
@@ -44590,6 +46219,24 @@ window.DATA = {
    "source": "レラ・ボロディツキー",
    "target": "サピア＝ウォーフ仮説",
    "rel": "弱い版の実証研究",
+   "weight": "標準"
+  },
+  {
+   "source": "ロザリンド・カートライト",
+   "target": "別れた相手の夢（カートライト）",
+   "rel": "研究",
+   "weight": "強"
+  },
+  {
+   "source": "ロザリンド・カートライト",
+   "target": "1998 Cartwright",
+   "rel": "筆頭著者",
+   "weight": "標準"
+  },
+  {
+   "source": "ロザリンド・カートライト",
+   "target": "1991 Cartwright",
+   "rel": "著者",
    "weight": "標準"
   },
   {
@@ -44692,6 +46339,18 @@ window.DATA = {
    "source": "ヴォルフガング・ケーラー",
    "target": "移調",
    "rel": "灰色カードの実験（1918）",
+   "weight": "標準"
+  },
+  {
+   "source": "一晩の心理療法（レム睡眠と感情記憶）",
+   "target": "認知的再評価",
+   "rel": "起きている間の感情の整えかたとの対比",
+   "weight": "標準"
+  },
+  {
+   "source": "一晩の心理療法（レム睡眠と感情記憶）",
+   "target": "ドーパミンとノルエピネフリンの相補的覚醒",
+   "rel": "レム睡眠中はノルアドレナリン系が止まるという前提",
    "weight": "標準"
   },
   {
@@ -45313,6 +46972,12 @@ window.DATA = {
    "weight": "弱"
   },
   {
+   "source": "入眠時ミオクローヌス",
+   "target": "生物リズムと生物時計",
+   "rel": "眠りに落ちる移り目の現象",
+   "weight": "標準"
+  },
+  {
    "source": "共感",
    "target": "経験の共有",
    "rel": "三つに割れるうちの一つ",
@@ -45568,6 +47233,18 @@ window.DATA = {
    "source": "判断-知覚",
    "target": "誠実性",
    "rel": "対応する",
+   "weight": "標準"
+  },
+  {
+   "source": "別れた相手の夢（カートライト）",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "眠りの中で気分を整えるという同じ系統の仮説",
+   "weight": "標準"
+  },
+  {
+   "source": "別れた相手の夢（カートライト）",
+   "target": "社会的痛み",
+   "rel": "別れの痛み",
    "weight": "標準"
   },
   {
@@ -46048,6 +47725,18 @@ window.DATA = {
    "source": "反射共和国",
    "target": "機能環",
    "rel": "機能環が一つか互いに独立な環世界",
+   "weight": "標準"
+  },
+  {
+   "source": "反復夢",
+   "target": "夢の継続性仮説",
+   "rel": "解けない関心ごとが繰り返し写る",
+   "weight": "標準"
+  },
+  {
+   "source": "反復夢",
+   "target": "神経症的傾向",
+   "rel": "反復夢の人の心の健康の低さ",
    "weight": "標準"
   },
   {
@@ -46618,6 +48307,48 @@ window.DATA = {
    "source": "多様性の免罪符化",
    "target": "モラル",
    "rel": "多様性とモラルの境界＝相手を傷つけない範囲で違いを認める",
+   "weight": "標準"
+  },
+  {
+   "source": "夢の想起頻度",
+   "target": "デフォルト・モード・ネットワーク",
+   "rel": "側頭頭頂接合部と内側前頭前野",
+   "weight": "標準"
+  },
+  {
+   "source": "夢の想起頻度",
+   "target": "メタ記憶",
+   "rel": "夢を覚えているかどうかの自己評価",
+   "weight": "標準"
+  },
+  {
+   "source": "夢の継続性仮説",
+   "target": "睡眠の種間比較",
+   "rel": "夢とレム睡眠の関係は別の問い",
+   "weight": "標準"
+  },
+  {
+   "source": "夢は脳の日報（中身より見えかたの変化）",
+   "target": "夢の継続性仮説",
+   "rel": "日報が書けるという前提",
+   "weight": "強"
+  },
+  {
+   "source": "夢は脳の日報（中身より見えかたの変化）",
+   "target": "悪夢障害",
+   "rel": "変化の1つめ＝悪夢の頻度",
+   "weight": "標準"
+  },
+  {
+   "source": "夢は脳の日報（中身より見えかたの変化）",
+   "target": "夢の想起頻度",
+   "rel": "変化の2つめ＝急に鮮明に覚える",
+   "weight": "標準"
+  },
+  {
+   "source": "夢は脳の日報（中身より見えかたの変化）",
+   "target": "レム睡眠行動障害",
+   "rel": "変化の3つめ＝夢に合わせて体が動く",
    "weight": "標準"
   },
   {
@@ -47224,6 +48955,120 @@ window.DATA = {
    "source": "恥と罪",
    "target": "共感",
    "rel": "良心と共感（同情）は別＝他者を気遣うことと内なる声を聞くことは同じでない（p.43-44）",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "夢の継続性仮説",
+   "rel": "01:30 何十年も確認されてきた知見",
+   "weight": "強"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "一晩の心理療法（レム睡眠と感情記憶）",
+   "rel": "02:30 夜の間に感情を整理する",
+   "weight": "強"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "脅威シミュレーション理論",
+   "rel": "03:00 追われる夢＝脳の避難訓練",
+   "weight": "強"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "レム睡眠行動障害",
+   "rel": "04:30 足が重い＝脱力が働いている／26:00 ブレーキが外れると",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "入眠時ミオクローヌス",
+   "rel": "05:32 落ちる夢の生理学",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "歯が抜ける夢",
+   "rel": "07:30 心ではなく顎の問題",
+   "weight": "強"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "試験の夢",
+   "rel": "09:23 大人になっても見る試験の夢",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "反復夢",
+   "rel": "12:00 未処理の案件の通知",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "夢の想起頻度",
+   "rel": "14:30 夢を見ないのではなく覚えていない",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "別れた相手の夢（カートライト）",
+   "rel": "16:00 元恋人の夢",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "故人の夢",
+   "rel": "18:33 亡くなった人が夢に出てくる意味",
+   "weight": "強"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "継続する絆",
+   "rel": "21:00 絆を編み直す",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "悪夢障害",
+   "rel": "24:30 見るべきは悪夢の頻度",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "イメージリハーサル療法",
+   "rel": "25:30 悪夢は編集できる",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "夢は脳の日報（中身より見えかたの変化）",
+   "rel": "23:00 まとめ＝動画の結論",
+   "weight": "強"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "睡眠の種間比較",
+   "rel": "レム睡眠＝夢という前提はすでに剥がされている",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "サイコパス・ソシオパス・ダークエンパスの視えてる世界（深淵回廊）",
+   "rel": "同じチャンネル（映07）",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢の正体（深淵回廊）",
+   "target": "本当に『相性の良い相手』の5つのサイン（深淵回廊）",
+   "rel": "同じチャンネル（映02）",
+   "weight": "標準"
+  },
+  {
+   "source": "悪夢障害",
+   "target": "ネガティビティ・バイアス",
+   "rel": "嫌な夢が多いことと、病気としての悪夢は別",
    "weight": "標準"
   },
   {
@@ -47857,6 +49702,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "故人の夢",
+   "target": "継続する絆",
+   "rel": "夢は絆を保つ働きの一つ",
+   "weight": "強"
+  },
+  {
+   "source": "故人の夢",
+   "target": "開放性",
+   "rel": "誰が故人の夢を見るか（Black 2019 の題）",
+   "weight": "標準"
+  },
+  {
    "source": "散逸構造",
    "target": "アロスタシス",
    "rel": "⚠流れを通して形を保つ点で似る（大河の見立て・水準の違う概念）",
@@ -48347,6 +50204,12 @@ window.DATA = {
    "target": "共感的正確性",
    "rel": "これを分解する道具",
    "weight": "強"
+  },
+  {
+   "source": "歯が抜ける夢",
+   "target": "夢の継続性仮説",
+   "rel": "関心ごとの写しでは説明しにくい典型夢",
+   "weight": "標準"
   },
   {
    "source": "残酷な優しさ（ASTRENCE）",
@@ -49795,6 +51658,24 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "脅威シミュレーション理論",
+   "target": "進化心理学",
+   "rel": "夢の機能を祖先の環境での適応で説明する",
+   "weight": "標準"
+  },
+  {
+   "source": "脅威シミュレーション理論",
+   "target": "ネガティビティ・バイアス",
+   "rel": "夢に嫌な出来事が多いことの説明候補",
+   "weight": "標準"
+  },
+  {
+   "source": "脅威シミュレーション理論",
+   "target": "観察による恐怖学習",
+   "rel": "実際に経験せずに危険を学ぶ仕組みの一つとして",
+   "weight": "標準"
+  },
+  {
    "source": "脳のなかの免疫、免疫のなかの心",
    "target": "モンティ・ライマン",
    "rel": "著者",
@@ -50674,6 +52555,18 @@ window.DATA = {
    "source": "記憶の二重貯蔵モデルと境界知能",
    "target": "メタ記憶",
    "rel": "方略の一つ。精神年齢8歳から",
+   "weight": "標準"
+  },
+  {
+   "source": "試験の夢",
+   "target": "脅威シミュレーション理論",
+   "rel": "本番前の演習という解釈",
+   "weight": "標準"
+  },
+  {
+   "source": "試験の夢",
+   "target": "未来の記憶",
+   "rel": "先の出来事を思い描く模擬として",
    "weight": "標準"
   },
   {
