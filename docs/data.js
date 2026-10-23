@@ -1,6 +1,6 @@
 /* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
 window.DATA = {
- "generated": "2026-10-22 09:48",
+ "generated": "2026-10-23 23:32",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -319,6 +319,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "1971 Parfit",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Personal identity",
+     "url": "https://doi.org/10.2307/2184309",
+     "note": "Crossref で書誌を照合。要旨は無く本文は読めていない（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1971 Parfit.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1971",
+    "著者": "Parfit D",
+    "雑誌": "The Philosophical Review 80(1):3-27",
+    "DOI": "10.2307/2184309",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Personal identity**\n\nParfit D（1971）／ *The Philosophical Review 80(1):3-27*",
+    "この地図で": "- パーフィットの最初の同一性論文。分裂（一人が二人に分かれる）の思考実験から、==「同一性は、生き延びることにおいて重要なものではない」==へ\n- ⚠中身は大河の記憶（[[同一性は重要ではない（パーフィット）]]）。のちの主著『理由と人格』（1984）で展開",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1971 Tajfel",
    "type": "論文",
    "confidence": "確認済",
@@ -517,6 +550,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "1980 Searle",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Minds and brains and programs",
+     "url": "https://doi.org/10.1017/S0140525X00005756",
+     "note": "Crossref で書誌を照合（原題のカンマは地図の書式の都合で省いた）。BBS の目玉論文で論評と応答が同じ号に付く。本文は読めていない（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1980 Searle.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1980",
+    "著者": "Searle JR",
+    "雑誌": "Behavioral and Brain Sciences 3(3):417-424",
+    "DOI": "10.1017/S0140525X00005756",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Minds and brains and programs**\n\nSearle JR（1980）／ *Behavioral and Brain Sciences 3(3):417-424*",
+    "この地図で": "- 中国語の部屋の原典。BBS の形式なので、同じ号に多数の論評（システム応答・ロボット応答など）と著者の応答が載る\n- ⚠中身は大河の記憶（[[中国語の部屋]]）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1982 Gould",
    "type": "論文",
    "confidence": "確認済",
@@ -605,6 +671,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Dream content and self-reported well-being among recurrent dreamers, past-recurrent dreamers, and nonrecurrent dreamers**\n\nBrown RJ・Donderi DC（1986）／ *Journal of Personality and Social Psychology 50(3):612-623*",
     "この地図で": "- 題のとおり、反復夢を**いま見ている人・前に見ていた人・見たことのない人**の3群で、夢の内容と心の健康を比べた最初の研究\n- 動画の「かつて反復夢を見ていて、今は見なくなった人は、見続けている人より状態が良かった」は、この3群の比較に当たる。!!数値は確かめていない!!。追試は [[1998 Zadra]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1987 Davidson",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Knowing one's own mind",
+     "url": "https://doi.org/10.2307/3131782",
+     "note": "Crossref で書誌を照合。要旨は無く本文は読めていない（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1987 Davidson.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1987",
+    "著者": "Davidson D",
+    "雑誌": "Proceedings and Addresses of the American Philosophical Association 60(3):441-458",
+    "DOI": "10.2307/3131782",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Knowing one's own mind**\n\nDavidson D（1987）／ *Proceedings and Addresses of the American Philosophical Association 60(3):441-458*",
+    "この地図で": "- スワンプマンの原典（会長講演）\n- ⚠中身は大河の記憶（[[スワンプマン]]）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1075,6 +1174,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**The Return of Phineas Gage: Clues About the Brain from the Skull of a Famous Patient**\n\nDamasio ら（5名）（1994）／ *Science*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[フィニアス・ゲージ]]** ── 頭蓋骨から損傷部位を再構成した研究。結論は「左右**両方**の前頭前野が損傷」。2026-08-30に確認\n- **[[腹内側前頭前野]]** ── ゲージの損傷が左右**両方**の前頭前野に及び、そのパターンが意思決定と情動の処理を損なうものだったとする",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1995 Loftus",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "The formation of false memories",
+     "url": "https://doi.org/10.3928/0048-5713-19951201-07",
+     "note": "Crossref で書誌を照合。要旨は無い。数字（24人中25%）は 2023 Murphy の要旨から（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1995 Loftus.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1995",
+    "著者": "Loftus EF・Pickrell JE",
+    "雑誌": "Psychiatric Annals 25(12):720-725",
+    "DOI": "10.3928/0048-5713-19951201-07",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**The formation of false memories**\n\nLoftus EF・Pickrell JE（1995）／ *Psychiatric Annals 25(12):720-725*",
+    "この地図で": "- いわゆる「ショッピングモールで迷子」研究。年上の家族から聞いた本当の出来事3つに、作った出来事（5〜6歳でモールで迷子になった）を1つ混ぜて冊子にし、面接で思い出してもらった\n- ==作られた迷子を、一部でも思い出したと判定された人が約25%==（人数は24人。[[2023 Murphy]] の要旨が「原典の5倍」「原典は25%」と書く）\n- !!動画との食い違い!!。動画は「一部の人が**細部まで鮮明に**思い出した」と言う。大河の記憶では、原典の報告は逆で、作られた記憶は本当の記憶より**語数が少なく、鮮明さの自己評価も低かった**。⚠本文は読めていない（大河の記憶）\n- 小さな研究で、方法の弱さ（人数・判定基準）が長く指摘されてきた。それに答えたのが [[2023 Murphy]] の事前登録の追試",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1684,6 +1816,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2000 Nader",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval",
+     "url": "https://doi.org/10.1038/35021052",
+     "note": "要旨を確かめた（PMID 10963596・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2000 Nader.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2000",
+    "著者": "Nader K・Schafe GE・LeDoux JE",
+    "雑誌": "Nature 406:722-726",
+    "DOI": "10.1038/35021052",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Fear memories require protein synthesis in the amygdala for reconsolidation after retrieval**\n\nNader K・Schafe GE・LeDoux JE（2000）／ *Nature 406:722-726*",
+    "この地図で": "- ラットの恐怖条件づけ。**思い出させた直後**に扁桃体（外側核・基底核）へタンパク質合成阻害薬を入れると、その記憶が後で消えていた\n- 思い出させないで薬だけ入れても記憶は残った。6時間遅らせると効かなかった\n- ==固まった記憶も、呼び出されると一時的に不安定に戻り、もう一度固め直す（再固定化）必要がある==\n- !!これは**ラット**の研究!!。人で同じことが起きるかは [[2018 Elsey]] が検討している",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2000 Revonsuo",
    "type": "論文",
    "confidence": "確認済",
@@ -1877,6 +2042,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2001 McAdams",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "The psychology of life stories",
+     "url": "https://doi.org/10.1037/1089-2680.5.2.100",
+     "note": "Crossref に載った要旨を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2001 McAdams.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2001",
+    "著者": "McAdams DP",
+    "雑誌": "Review of General Psychology 5(2):100-122",
+    "DOI": "10.1037/1089-2680.5.2.100",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The psychology of life stories**\n\nMcAdams DP（2001）／ *Review of General Psychology 5(2):100-122*",
+    "この地図で": "- 著者のライフストーリー・モデル（1985・1993・1996）＝==近代社会に生きる人は、内面化され変わり続ける自己の物語を作ることで、人生に**まとまりと目的**を与える==\n- 自己理解・自伝的記憶・性格の構造と変化・個人と近代文化の関係、の研究を束ねた総説",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2001 Most",
    "type": "論文",
    "confidence": "確認済",
@@ -1970,6 +2168,39 @@ window.DATA = {
     "これは何か": "**A default mode of brain function**\n\nRaichle ら（6名）（2001）／ *Proceedings of the National Academy of Sciences*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[デフォルト・モード・ネットワーク]]** ── この概念の原典。課題をしていないときにこそ活動が高い領域があり、それを脳の既定状態（default mode）と呼んだ。2026-09-08に確認",
     "本文を読んで分かったこと（2026-09-09）": "読んだのは要約と導入、それに Discussion。結果の表は読んでいない。\n\n### !!上の一行は、向きが逆だった!!\n\n「課題をしていないときにこそ活動が高い領域がある」と書いていたが、\n==この論文が実際にたどった道筋は逆で、「課題をしている最中に、一貫して活動が下がる領域がある」\nという観察から出発している==。\n\n著者らの論法はこうなっている。\n\n1. 課題で活動が**増える**場所は、課題ごとに違う（何を求められるかで動く場所が変わる）\n2. ところが課題で活動が**減る**場所は、!!課題の種類がどれだけ違っても、ほとんど同じところ!!\n3. その一貫性が、「特定の目標志向的なふるまいのあいだは中断される、\n   組織化された既定のはたらきがあるのではないか」という問いを生んだ\n\n### ベースラインをどう定義したか\n\n**酸素摂取率（OEF）** ── 脳が使った酸素を、血流が届けた酸素で割った値。\nこれが==覚醒して静かに休んでいるとき（閉眼で横たわる）、脳全体で驚くほど均一==だった。\n\nそのうえで PET で全脳を測ると、**賦活している領域は「無いことのほうが目立った」**。\n平均から有意にずれていたのはすべて OEF の上昇、つまり脱賦活で、\nしかもほぼ視覚系に限られていた（目を閉じているから、という解釈が示されている）。\n\n==均一だからこそ、そこからのずれに意味を与えられる==、という組み立て。\n\n### 後の「デフォルト・モード・ネットワーク」とは、方法が違う\n\n!!この論文は PET による代謝の測定で、ベースラインという生理学的な状態を定義したもの。!!\nのちに [[デフォルト・モード・ネットワーク]] と呼ばれるようになるものは、\nfMRI の自発的な信号どうしの相関から描かれた**結合の網**で、測っているものが違う。\n\n同じ名前で呼ばれているが、==「既定の状態」と「既定の網」は、別のことを指している==。\n[[2008 Sridharan]] が扱っているのは後者のほう。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2001 Vaillant",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Successful aging",
+     "url": "https://doi.org/10.1176/appi.ajp.158.6.839",
+     "note": "要旨を確かめた（PMID 11384887・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2001 Vaillant.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2001",
+    "著者": "Vaillant GE・Mukamal K",
+    "雑誌": "American Journal of Psychiatry 158(6):839-847",
+    "DOI": "10.1176/appi.ajp.158.6.839",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Successful aging**\n\nVaillant GE・Mukamal K（2001）／ *American Journal of Psychiatry 158(6):839-847*",
+    "この地図で": "- 思春期の**男子**の2つのコホート（大学生237人・都市中心部の若者332人）を60年、または亡くなるまで追った\n- 70〜80歳の「良い老い」は、50歳より前の変数で予測できた。本人がある程度コントロールできる7つ（飲酒・喫煙・**結婚の安定**・運動・BMI・対処のしかた・教育）をそろえると、変えられない要因で効いたのは**うつ**だけ\n- ==この論文で前に出ているのは「関係」だけではない==。飲酒・喫煙・対処のしかたが並ぶ",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2197,6 +2428,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Evolution of olfactory receptor genes in the human genome**\n\nNiimura & Nei（2003）／ *Proceedings of the National Academy of Sciences*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[嗅覚受容体]]** ── ヒトで機能的なORFを持つ遺伝子388・偽遺伝子414。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2003 Pytell",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Redeeming the unredeemable - Auschwitz and Man's Search for Meaning",
+     "url": "https://doi.org/10.1093/hgs/17.1.89",
+     "note": "Crossref に載った要旨を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2003 Pytell.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2003",
+    "著者": "Pytell TE",
+    "雑誌": "Holocaust and Genocide Studies 17(1):89-113",
+    "DOI": "10.1093/hgs/17.1.89",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Redeeming the unredeemable - Auschwitz and Man's Search for Meaning**\n\nPytell TE（2003）／ *Holocaust and Genocide Studies 17(1):89-113*",
+    "この地図で": "- フランクルのアウシュヴィッツの手記は、ホロコーストの意味を取り違えていると批判されてきた。ランガーの言葉＝「『夜と霧』の本当の主人公は人間ではなくフランクルだ」\n- あまり知られていない伝記の細部と、それ以前の著作の分析から、==フランクルは自分の心理学・哲学の理論を証明するために、アウシュヴィッツの現実をゆがめた==、というランガーの主張を補強する\n- !!動画が引く「待つ人のいる者が最後まで人間であり続けた」は、この批判が向けられている当の観察!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2495,6 +2759,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2004 Strawson",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Against narrativity",
+     "url": "https://doi.org/10.1111/j.1467-9329.2004.00264.x",
+     "note": "Crossref に載った要旨（冒頭）を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2004 Strawson.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2004",
+    "著者": "Strawson G",
+    "雑誌": "Ratio 17(4):428-452",
+    "DOI": "10.1111/j.1467-9329.2004.00264.x",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Against narrativity**\n\nStrawson G（2004）／ *Ratio 17(4):428-452*",
+    "この地図で": "- 二つの主張に反対する論文。①**記述の主張**＝人はみな自分の物語を作って生き、その物語が私たちそのものだ（サックス・ブルーナー・デネット）②**規範の主張**＝人は人生を物語として生きる**べき**だ（テイラー・シェクトマン）\n- 要旨が引く例＝ブルーナー「自己とは書き直され続ける物語」、デネット「私たちはみな名うての小説家」。==動画の第4章の主張は、ちょうどここで反対されている側の言い分==\n- 中身の芯（[[エピソード的な人と通時的な人]]）は大河の記憶で書いた。本文は読めていない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2004 de Quervain",
    "type": "論文",
    "confidence": "確認済",
@@ -2629,6 +2926,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2005 Gazzaniga",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Forty-five years of split-brain research and still going strong",
+     "url": "https://doi.org/10.1038/nrn1723",
+     "note": "要旨を確かめた（PMID 16062172・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2005 Gazzaniga.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2005",
+    "著者": "Gazzaniga MS",
+    "雑誌": "Nature Reviews Neuroscience 6(8):653-659",
+    "DOI": "10.1038/nrn1723",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Forty-five years of split-brain research and still going strong**\n\nGazzaniga MS（2005）／ *Nature Reviews Neuroscience 6(8):653-659*",
+    "この地図で": "- 著者自身による分離脳研究45年の総説。スペリー・ボーゲンと始めた研究から、脳梁の部位ごとの役割、因果の知覚、**統合された自己の感覚**への脳梁の役割まで\n- 解釈装置の実験の中身は要旨には無い（[[左脳の解釈装置]] は大河の記憶で書いた）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2005 Lazar",
    "type": "論文",
    "confidence": "確認済",
@@ -2755,6 +3085,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2005 Spalding",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Retrospective birth dating of cells in humans",
+     "url": "https://doi.org/10.1016/j.cell.2005.04.028",
+     "note": "要旨を確かめた（PMID 16009139・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2005 Spalding.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2005",
+    "著者": "Spalding KL・Bhardwaj RD・Buchholz BA・Druid H・Frisén J",
+    "雑誌": "Cell 122(1):133-143",
+    "DOI": "10.1016/j.cell.2005.04.028",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Retrospective birth dating of cells in humans**\n\nSpalding KL・Bhardwaj RD・Buchholz BA・Druid H・Frisén J（2005）／ *Cell 122(1):133-143*",
+    "この地図で": "- 冷戦期の核実験で大気中の炭素14が急増し、1963年以後に減っていった。DNA の炭素14はその値をなぞるので、**細胞が生まれた時期**が分かる\n- ==後頭葉のニューロンは**本人と同じ年齢**だった==（神経以外の細胞は入れ替わっていた）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2005 Stroebe",
    "type": "論文",
    "confidence": "確認済",
@@ -2848,6 +3211,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Norm enforcement among the Ju/'hoansi Bushmen - A case of strong reciprocity?**\n\nWiessner P（2005）／ *Human Nature*",
     "この地図で": "- **[[二次的フリーライダー問題への反論]]**・**[[うわさ話（世論の法廷）]]** ── 要旨（Europe PMC）＝デュルケーム以来の「規範を報酬・恥・嘲笑・追放で執行する共同体」を・強い互恵性の実験研究と突き合わせる。308件の会話から (a) 規範執行の力学 (b) 採食社会での処罰のコストとその下げ方を検討。⚠結論部は要旨に無く本文は未読",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2006 Bhardwaj",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Neocortical neurogenesis in humans is restricted to development",
+     "url": "https://doi.org/10.1073/pnas.0605177103",
+     "note": "要旨を確かめた（PMID 16901981・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2006 Bhardwaj.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2006",
+    "著者": "Bhardwaj RD・Curtis MA・Spalding KL・Buchholz BA・Fink D・Björk-Eriksson T ほか",
+    "雑誌": "PNAS 103(33):12564-12568",
+    "DOI": "10.1073/pnas.0605177103",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Neocortical neurogenesis in humans is restricted to development**\n\nBhardwaj RD・Curtis MA・Spalding KL・Buchholz BA・Fink D・Björk-Eriksson T ほか（2006）／ *PNAS 103(33):12564-12568*",
+    "この地図で": "- 炭素14と BrdU で、大脳新皮質の主な領域のニューロンの年齢を測った\n- ==大脳新皮質のニューロンは、成人では検出できるほど新しく作られない。生まれるころに作られる==",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4657,6 +5053,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2010 Waldinger",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "What's love got to do with it? Social functioning and perceived health and daily happiness in married octogenarians",
+     "url": "https://doi.org/10.1037/a0019087",
+     "note": "要旨を確かめた（PMID 20545426・2026-10-23）。題の中のカンマは地図の書式の都合で and に置き換えた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Waldinger.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Waldinger RJ・Schulz MS",
+    "雑誌": "Psychology and Aging 25(2):422-431",
+    "DOI": "10.1037/a0019087",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**What's love got to do with it? Social functioning and perceived health and daily happiness in married octogenarians**\n\nWaldinger RJ・Schulz MS（2010）／ *Psychology and Aging 25(2):422-431*",
+    "この地図で": "- 80代の夫婦47組を8日間。日ごとの健康感・幸福・人と過ごした時間\n- ==人と過ごす時間が長い日ほど幸福==。夫婦の満足度が高いと、体調の悪い日にも幸福が下がりにくかった（人と過ごす時間にはその緩衝は無かった）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2010 Woolley",
    "type": "論文",
    "confidence": "確認済",
@@ -5594,6 +6023,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2013 McAdams",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Narrative identity",
+     "url": "https://doi.org/10.1177/0963721413475622",
+     "note": "Crossref に載った要旨を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 McAdams.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "McAdams DP・McLean KC",
+    "雑誌": "Current Directions in Psychological Science 22(3):233-238",
+    "DOI": "10.1177/0963721413475622",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Narrative identity**\n\nMcAdams DP・McLean KC（2013）／ *Current Directions in Psychological Science 22(3):233-238*",
+    "この地図で": "- 定義＝==内面化され変わり続けるライフストーリー。再構成された過去と想像された未来を統合し、人生にある程度のまとまりと目的を与える==\n- 苦しみや逆境に**救済（redemptive）の意味**を見いだし、主体性と探索を主題にする語り手ほど、心の健康・幸福・成熟の度合いが高い傾向\n- 発達＝親子の会話に始まり、思春期から成人形成期にかけて意味づけの技が洗練される\n- !!著者ら自身が「因果を解きほぐすこと」を今後の課題に挙げる!!＝良い語りが健康を生むのか、健康だから良い語りができるのかは、まだ分かっていない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2013 Meffert",
    "type": "論文",
    "confidence": "確認済",
@@ -6413,6 +6875,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2014 Strohminger",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "The essential moral self",
+     "url": "https://doi.org/10.1016/j.cognition.2013.12.005",
+     "note": "要旨を確かめた（PMID 24503450・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Strohminger.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Strohminger N・Nichols S",
+    "雑誌": "Cognition 131(1):159-171",
+    "DOI": "10.1016/j.cognition.2013.12.005",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The essential moral self**\n\nStrohminger N・Nichols S（2014）／ *Cognition 131(1):159-171*",
+    "この地図で": "- 心のどの部分が「その人らしさ」に効くと人は考えるか、を5つの実験で調べた\n- ==**道徳的な特性**が、他のどの心の働きよりも、同一性・自己・魂の本質とみなされた==。記憶（とくに感情的・自伝的な記憶）も**かなり**大事\n- 低次の認知や知覚は、身体的な特徴と同じくらい弱い\n- 素朴な同一性の考えは、**人間関係に効く心の働き**、とりわけ道徳的特性に強く引っぱられている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2014 Uysal",
    "type": "論文",
    "confidence": "確認済",
@@ -6803,6 +7298,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2015 Jacobsen",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Why musical memory can be preserved in advanced Alzheimer's disease",
+     "url": "https://doi.org/10.1093/brain/awv135",
+     "note": "要旨を確かめた（PMID 26041611・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Jacobsen.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Jacobsen JH・Stelzer J・Fritz TH・Chételat G・La Joie R・Turner R",
+    "雑誌": "Brain 138(8):2438-2450",
+    "DOI": "10.1093/brain/awv135",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Why musical memory can be preserved in advanced Alzheimer's disease**\n\nJacobsen JH・Stelzer J・Fritz TH・Chételat G・La Joie R・Turner R（2015）／ *Brain 138(8):2438-2450*",
+    "この地図で": "- 若い健常者32人の 7T fMRI で、**昔から知っている曲**の記憶を担う場所を探した＝尾側の前帯状皮質と腹側の前補足運動野\n- アルツハイマー病の患者20人では、その場所の**萎縮と糖代謝の低下が最小**だった（アミロイドの沈着は他と大差なし＝進行の早い段階にあると解釈）\n- ==音楽の記憶が残る場所は、病気が後回しにする場所と重なっていた==\n- 動画の「昔の歌を流せば口が動く」は、この方向の研究で裏づけられる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2015 Kashdan",
    "type": "論文",
    "confidence": "確認済",
@@ -7124,6 +7652,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**Vicarious Fear Learning Depends on Empathic Appraisals and Trait Empathy**\n\nOlsson ら（6名）（2015）／ *Psychological Science*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[観察による恐怖学習]]** ── 代理的な恐怖学習は共感的な評価に依存する。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 Strohminger",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Neurodegeneration and identity",
+     "url": "https://doi.org/10.1177/0956797615592381",
+     "note": "要旨を確かめた（PMID 26270072・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Strohminger.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Strohminger N・Nichols S",
+    "雑誌": "Psychological Science 26(9):1469-1479",
+    "DOI": "10.1177/0956797615592381",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Neurodegeneration and identity**\n\nStrohminger N・Nichols S（2015）／ *Psychological Science 26(9):1469-1479*",
+    "この地図で": "- 前頭側頭型認知症・アルツハイマー病・ALS の患者について、介護する家族に「この人はもう本人ではないと感じるか」を聞いた\n- ==同一性が途切れたと感じさせた主因は**道徳の能力の損傷**。健忘を含む他の認知の欠けは、同一性の持続に**測れるほどの影響を持たなかった**==\n- だから前頭側頭型認知症の影響がいちばん大きく、ALS がいちばん小さい\n- 同一性が変わったという知覚が、病気が介護者との関係を悪くする影響を**完全に媒介**した\n- 著者ら自身が「同一性を記憶に置く理論からの離脱」と書く\n- !!動画の第2章（認知症の親の話）に、いちばん効く研究!!。動画は「記憶が消えても消えない何かがいる」と言い、その何かを「物語の読者」に求めた。この研究は、**家族の側から見て残っている何かは道徳的な性格だ**と答える",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7972,6 +8533,72 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2017 Pinto",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Split brain - divided perception but undivided consciousness",
+     "url": "https://doi.org/10.1093/brain/aww358",
+     "note": "要旨を確かめた（PMID 28122878・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2017 Pinto.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2017",
+    "著者": "Pinto Y・Neville DA・Otten M・Corballis PM・Lamme VAF・de Haan EHF",
+    "雑誌": "Brain 140(5):1231-1237",
+    "DOI": "10.1093/brain/aww358",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Split brain - divided perception but undivided consciousness**\n\nPinto Y・Neville DA・Otten M・Corballis PM・Lamme VAF・de Haan EHF（2017）／ *Brain 140(5):1231-1237*",
+    "この地図で": "- 脳梁の完全切断が画像で確かめられた分離脳の患者2人\n- 左右の視野の刺激を**比べる**ことはできない＝各半球が別々に処理している、という定番の結果は再現した\n- ==しかし「左視野の刺激には左手でしか答えられない」という教科書の像は**いつも成り立つわけではない**==。患者は視野全体で刺激があることに気づき、位置・向き・正体を、左手・右手・言葉のどれでも偶然よりずっとよく答えた。確信度の高い試行でも同じ\n- 結論＝**知覚は割れるが、一つの脳に二人の独立した意識する者ができるわけではない**\n- !!動画の「この人のあなたは何人いるのか」への、いちばん新しい反論!!。⚠患者2人の研究で、反論も出ている（大河の記憶・未照合）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2017 Scoboria",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "A mega-analysis of memory reports from eight peer-reviewed false memory implantation studies",
+     "url": "https://doi.org/10.1080/09658211.2016.1260747",
+     "note": "要旨を確かめた（PMID 27892833・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2017 Scoboria.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2017",
+    "著者": "Scoboria A・Wade KA・Lindsay DS・Azad T・Strange D・Ost J ほか",
+    "雑誌": "Memory 25(2):146-163",
+    "DOI": "10.1080/09658211.2016.1260747",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**A mega-analysis of memory reports from eight peer-reviewed false memory implantation studies**\n\nScoboria A・Wade KA・Lindsay DS・Azad T・Strange D・Ost J ほか（2017）／ *Memory 25(2):146-163*",
+    "この地図で": "- 記憶の植え付け研究8本（423人）の語りを、同じ基準（受け入れ・語りの膨らみ・イメージ・まとまり・感情・記憶だという言明・否定しない）で符号化し直した\n- ==30.4%が偽りの記憶、さらに23%がある程度その出来事を受け入れた==\n- 本人に関わる情報があり、想像させる手続きがあり、写真が無いとき、形成率は46.1%\n- ⭐「一定数」の中身は、だいたい**3割**と言ってよい",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2017 Siclari",
    "type": "論文",
    "confidence": "確認済",
@@ -8132,6 +8759,39 @@ window.DATA = {
    "sections": {
     "これは何か": "**A Brain Module for Scalable Control of Complex, Multi-motor Threat Displays**\n\nDuistermars ら（4名）（2018）／ *Neuron* 100:1474-1490",
     "この地図で、どこに効いているか": "- **[[AIPニューロン]]** ── 原典。要旨＝威嚇はオスの手がかりと視覚の動きで起こり、複数の運動要素を柔軟に組み合わせる。**約3個の細胞の塊が、威嚇には必要で、ほかの攻撃行動には要らない**。人工的に活性化すると、ひとりきりのハエでも自然な威嚇が出る。**活性化の強さに応じて、閾値ごとに違う運動要素が出る**（scalable）\n- **[[ショウジョウバエの威嚇ディスプレイ]]** ── 人工的に起こした威嚇だけで、接触なしに相手を資源から追い払えた\n- 8年後の続き＝[[2026 Cao]]（この細胞の下流を解いた）"
+   },
+   "stub": false
+  },
+  {
+   "id": "2018 Elsey",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Human memory reconsolidation - a guiding framework and critical review of the evidence",
+     "url": "https://doi.org/10.1037/bul0000152",
+     "note": "要旨を確かめた（PMID 29792441・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Elsey.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Elsey JWB・van Ast VA・Kindt M",
+    "雑誌": "Psychological Bulletin 144(8):797-848",
+    "DOI": "10.1037/bul0000152",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Human memory reconsolidation - a guiding framework and critical review of the evidence**\n\nElsey JWB・van Ast VA・Kindt M（2018）／ *Psychological Bulletin 144(8):797-848*",
+    "この地図で": "- 人の記憶の再固定化研究（手続き記憶・嫌悪と欲求の記憶・宣言的記憶、プロプラノロールなどの薬理的介入）を、判定の枠組みを作って見直した総説\n- 再固定化と**合う観察はたくさんある**。臨床への応用も始まっている\n- ==ただし結果の食い違いがあり、別の説明も成り立つので、いまの証拠から神経生物学的な再固定化が人で起きていると**結論はできない**。「激しく争われている」==\n- !!動画の「思い出すたびに書き換わり、上書き保存される」は、この総説の書きぶりより強い!!",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -10070,6 +10730,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2021 Sender",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "The distribution of cellular turnover in the human body",
+     "url": "https://doi.org/10.1038/s41591-020-01182-9",
+     "note": "要旨を確かめた（PMID 33432173・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Sender.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Sender R・Milo R",
+    "雑誌": "Nature Medicine 27(1):45-48",
+    "DOI": "10.1038/s41591-020-01182-9",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The distribution of cellular turnover in the human body**\n\nSender R・Milo R（2021）／ *Nature Medicine 27(1):45-48*",
+    "この地図で": "- 主な細胞の種類ごとの数・重さ・寿命を合わせて、全身の入れ替わりを見積もった\n- ==1日に入れ替わる細胞の重さは約80g（±20g）、数は約3300億個==。数の約9割は血液の細胞、重さでは血液と腸の上皮が大半",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2021 山下",
    "type": "論文",
    "confidence": "確認済",
@@ -10656,6 +11349,39 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "2023 Murphy",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Lost in the mall again - a preregistered replication and extension of Loftus and Pickrell (1995)",
+     "url": "https://doi.org/10.1080/09658211.2023.2198327",
+     "note": "要旨を確かめた（PMID 37017540・2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2023 Murphy.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2023",
+    "著者": "Murphy G・Dawson CA・Huston C・Ballantyne L・Barrett E・Cowman CS ほか",
+    "雑誌": "Memory 31(6):818-830",
+    "DOI": "10.1080/09658211.2023.2198327",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Lost in the mall again - a preregistered replication and extension of Loftus and Pickrell (1995)**\n\nMurphy G・Dawson CA・Huston C・Ballantyne L・Barrett E・Cowman CS ほか（2023）／ *Memory 31(6):818-830*",
+    "この地図で": "- 迷子研究の**事前登録つきの直接追試**。人数を原典の5倍（123人）にした\n- ==35%が偽りの記憶を報告したと判定（原典は25%）==。自己申告では、作られた出来事を「覚えている」「信じている」と答えた割合がさらに高かった\n- 模擬陪審員も、その出来事が本当に起きた・本人は本当に思い出している、と判断しやすかった\n- ⭐動画の「質問の仕方ひとつで」の土台は、この追試で**固くなった**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2023 Polajnar",
    "type": "論文",
    "confidence": "確認済",
@@ -10781,6 +11507,39 @@ window.DATA = {
     "これは何か": "**Language is primarily a tool for communication rather than thought**\n\nFedorenko E・Piantadosi ST・Gibson E（2024）／ *Nature 630(8017):575-586*",
     "この地図で": "- **[[言語ネットワーク]]** ── 言語の能力を支えるネットワークをまず紹介し\n- **[[二重乖離]]** ── 言語と思考の二重乖離の証拠を見渡し・言語は伝達に最適化されている性質を論じる\n- **[[言語という圧縮（捨てるから運べる）]]** ── 結論＝言語は複雑な思考（記号的思考を含む）の前提ではなく・文化的知識を伝える強力な道具。思考と共進化した可能性は高いが・ヒトの認知の洗練を==生み出すのでなく反映している==",
     "注意": "!!反論もある!!＝Biolinguistics 誌に「Language is a quite useless tool」という反論（Watumull 2024・doi 10.5964/bioling.15229）が出ている。題だけ確かめた・本文未読",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2024 Hollanek",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Griefbots and deadbots and postmortem avatars - on responsible applications of generative AI in the digital afterlife industry",
+     "url": "https://doi.org/10.1007/s13347-024-00744-w",
+     "note": "Crossref に載った要旨を確かめた（CC BY 4.0・2026-10-23）。題の区切りは地図の書式の都合で置き換えた"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2024 Hollanek.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2024",
+    "著者": "Hollanek T・Nowaczyk-Basińska K",
+    "雑誌": "Philosophy and Technology 37(2):63",
+    "DOI": "10.1007/s13347-024-00744-w",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-23）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Griefbots and deadbots and postmortem avatars - on responsible applications of generative AI in the digital afterlife industry**\n\nHollanek T・Nowaczyk-Basińska K（2024）／ *Philosophy and Technology 37(2):63*",
+    "この地図で": "- 生成AIで故人を再現する「デジタル死後産業」の負の帰結を、3つの思索的なデザイン・シナリオで検討\n- 立場を3つに分ける＝**データ提供者**（再現される故人）・**データ受領者**（遺されたデータを持つ人）・**サービスの相手**（再現と話す人）\n- 提言＝デッドボットを**引退させる**ていねいな手順・意味のある透明性・成人に限る・データ提供者と相手の**双方の同意**",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -14919,6 +15678,32 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "エピソード的な人と通時的な人",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Strawson G 2004 Against narrativity",
+     "url": "https://doi.org/10.1111/j.1467-9329.2004.00264.x",
+     "note": "要旨の冒頭だけ確かめた。区別の中身は大河の記憶（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/エピソード的な人と通時的な人.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[ゲイレン・ストローソン]]（[[2004 Strawson]]）の区別（大河の記憶）。\n- **通時的（Diachronic）**な人＝遠い過去や未来の自分を、いまの自分と**同じ私**として感じる\n- **エピソード的（Episodic）**な人＝過去の出来事は自分の身に起きたと知っているが、その時の自分を、いまの「私」としては感じない\n- ==ストローソンは自分をエピソード的だとし、それで倫理的にも人生としても欠けるところは無いと論じた==。物語として生きることは、一つの気質であって規範ではない",
+    "この地図で": "動画は「あなたとは語り続けられる物語」と、通時的な生き方を**すべての人の本質**として描く。この区別を入れると、==物語の編集者であることは、人によって濃い薄いがある一つの**型**==になる。確度は推測（気質としての区別は思弁で、測った研究を大河は当たっていない）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "エマ・テンプルトン",
    "type": "人物",
    "confidence": "確認済",
@@ -14969,6 +15754,25 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "Eliezer Yudkowsky（1979-）。Machine Intelligence Research Institute（MIRI）の創設者。学位を持たない独学の研究者。\n[[知能爆発]] を「認知への再投資の収益率」として定式化し（[[2013 Yudkowsky]]）、[[ロビン・ハンソン]] と論争した（[[AIフーム論争]]）。\n2025 年に Nate Soares と一般向けの本（If Anyone Builds It, Everyone Dies）を出したが、邦訳の有無は未調査。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "エリザベス・ロフタス",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/エリザベス・ロフタス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Elizabeth F. Loftus。記憶の可塑性・目撃証言・偽りの記憶の研究者。[[1995 Loftus]] の著者欄で名を確かめた。⚠所属（カリフォルニア大学アーバイン校）は大河の記憶・未確認。法廷での証言でも知られる",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -16107,6 +16911,25 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "Gary Lupyan。認知科学者。言語が知覚とカテゴリーにどう効くかの研究で知られる。[[2024 Nedergaard]] の共著者。⚠所属（大河の記憶ではウィスコンシン大学マディソン校）は未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ゲイレン・ストローソン",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ゲイレン・ストローソン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Galen Strawson。哲学者。[[2004 Strawson]] の著者。自分は「エピソード的」だと書く（大河の記憶）。⚠父は哲学者 P. F. ストローソン（大河の記憶）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -17559,6 +18382,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "ジョン・サール",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジョン・サール.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "John R. Searle。言語哲学・心の哲学。[[1980 Searle]] の著者。⚠所属（カリフォルニア大学バークレー校）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ジョン・バーグ",
    "type": "人物",
    "confidence": "確認済",
@@ -17592,6 +18434,25 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "John H. Flavell。発達心理学者。[[1979 Flavell]] で「メタ認知」の分野を打ち立てた。⚠所属（大河の記憶では Stanford University）・生没年は未確認。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ジョン・ロック",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ジョン・ロック.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "John Locke（1632-1704）。イングランドの哲学者。『人間知性論』第2版（1694）で人格の同一性の章を足した（大河の記憶・未照合）。⚠動画は「記憶に求めた**とされる**」と言う。ロックの言葉は「意識（consciousness）」で、それを記憶の連続と読むのが通説（大河の理解）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -17921,6 +18782,34 @@ window.DATA = {
     "これは何か": "グラフ理論から神経科学が採り入れた概念。**高度の局所的な群化（派閥）**と、**遠いノードも少ないステップで結ばれる**という一見両立しない性質を併せもつネットワーク。ハブができる（図7.4）。地下鉄・「6次の隔たり」・ニューラルネット。",
     "本書での使いかた": "==**左半球＝局在的な性質が強い（きつく編まれた近隣の集団・深く入り込んだネットワーク・貯蔵に強い）／右半球＝スモールワールド的な性質が強い（浅く広い結合・遠い基準点を結ぶ）**==（図7.5）。ただし差は「強調のされ方」だけ、と著者は念を押す。\n意味論ニューラルネットのモデルで、スモールワールド性を与えたネットワークは新規な活性化パターンをより豊かに生む → [[指向性のある放浪]] が右半球で起きやすい理由。\n「新しい解法を生み出す能力と、蓄えた知識を保持する能力」を和解させる進化の解決策、と著者は読む。",
     "個人差と遺伝（10章）": "- 北京のDTI＝IQとスモールワールド性が相関（Li ら2009）。\n- **アムステルダム自由大学＝574人の双生児と同胞の安静時EEG**で、クラスタ係数（局所的相互結合）と平均パス長（全体的相互結合）が「かなりの遺伝制御下」（Smit ら2008）。!!具体的な％はOCRで欠落。画像で確認が要る。!!\n- ADHDでスモールワールド性が変化（Wang ら2009）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "スワンプマン",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Davidson D 1987 Knowing one's own mind",
+     "url": "https://doi.org/10.2307/3131782",
+     "note": "書誌だけ照合。本文は読めていない（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/スワンプマン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "雷に打たれて男が死に、同じ瞬間に沼の泥から、原子の配置まで同じ複製（スワンプマン）が生まれる。見た目も記憶も振る舞いも同じ。それは彼か。",
+    "原典との食い違い（大河の記憶）": "!!デイヴィッドソンの問いは「彼と**同一人物**か」ではない!!。==スワンプマンの言葉や思考は、何かを**指しているか**（意味を持つか）==が問われた。スワンプマンは友人に会ったことが無いので、友人の名を口にしても、その人を指すための因果の歴史を持たない＝デイヴィッドソンの答えは「意味を持たない」。⚠本文未読・大河の記憶",
+    "動画での使われ方（05:30・28:30）": "- 「それは彼なのか」と同一性の問いとして紹介\n- 第8章で「AIによる複製はスワンプマンのデジタル版」として回収",
+    "この地図で": "原典どおりに読むと、問いが**もっと鋭く**なる。複製が「お母さん」と呼ぶとき、その言葉は本当にお母さんを指しているのか。体験の歴史が意味を作る、という見方は、動画の「あなたは過去のデータではない」と同じ側に立つ。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -18540,6 +19429,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "ダン・マクアダムス",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ダン・マクアダムス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Dan P. McAdams。性格心理学者。ライフストーリー・モデル（1985〜）。[[2001 McAdams]]・[[2013 McAdams]] の著者。⚠所属（ノースウェスタン大学）は大河の記憶・未確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ダーウィンの赤面調査",
    "type": "実験",
    "confidence": "確認済",
@@ -18787,6 +19695,33 @@ window.DATA = {
    "sections": {
     "これは何か": "Tinbergen's four questions (whys)。ティンバーゲン（1907-1988）が『本能の研究』（1951）で、動物行動を理解するには4つの視点が必要だと論じた──\n(1) どのようなメカニズムによって喚起されるか／(2) どのように発達するのか／(3) どのような進化によって生じたのか／(4) どのような機能（意味）を持っているのか。\n(1)(2)は行動がどのように生じるか＝**至近要因**、(3)(4)は行動の理由＝**究極要因**。例＝求愛行動は (1)発情期にホルモン分泌がなされるため (2)成体になったため (3)それを行った個体が配偶相手を得たため (4)遺伝子を次世代に伝えるため（p.40）。\n1980年代以降の動物行動学は、至近要因を扱う**神経行動学**と究極要因を扱う**行動生態学**に分かれた。社会生物学は行動生態学とほぼ同義（p.41）。",
     "本書での再登場": "- 渡り行動の進化要因は餌（ウォレス）だが、直接の引き金は日長や概年リズム（p.135）＝究極要因と至近要因の区別の実例\n- 発達は4つの問いの一つ（p.336）\n\n!!**正誤表に無い誤植**＝p.40の本文は「至近要因 ultimate factors」「究極要因 proximate factors」と英語が逆に印字されている（大河が画像で確認・2026-09-13）。正しくは proximate＝至近、ultimate＝究極。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "テセウスの船",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Plutarch - Life of Theseus 23（Dryden 訳ほか）",
+     "url": "https://www.gutenberg.org/ebooks/14033",
+     "note": "英訳（Project Gutenberg #14033）で第23節を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/テセウスの船.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "部品を一つずつ取り替えた船は、元の船と同じか。",
+    "原典で確かめたこと": "- プルタルコス『テセウス伝』23＝テセウスが乗って帰った30櫂の船を、アテナイ人は**ファレロンのデメトリオスの時代**まで保存した。朽ちた材を取り除いて新しい材に替え続けたので、==「成長と変化」をめぐる哲学者たちの例になり、同じ船だと言う者と、同じでないと言う者がいた==\n- !!動画の「外した古い部品で組んだ2隻目こそ本物ではないか」は**プルタルコスには無い**!!。この2隻目はのちにホッブズ（『物体論』1655）が足した形（大河の記憶・未照合）\n- 「2400年間答えは出ていない」＝保存されていたのはデメトリオス（前4世紀末）まで、書き残したプルタルコスは1〜2世紀。おおよそ2300〜2400年前の議論として外れてはいない",
+    "動画での使われ方（05:00・18:30）": "- 第1章で「体は入れ替わるのになぜ同じあなたか」の名前として\n- 第4章で回収＝「テセウスの船が船であり続けたのは、人々があの船をそう呼び、そう扱い続けたからである」",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -19061,6 +19996,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "デレク・パーフィット",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/デレク・パーフィット.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Derek Parfit（1942-2017）。オックスフォードの哲学者。[[1971 Parfit]]・『理由と人格』（1984）。⚠生没年は大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "デヴィッド・K・マーカス",
    "type": "人物",
    "confidence": "推測",
@@ -19188,6 +20142,25 @@ window.DATA = {
    "sections": {
     "この本での役どころ": "主な章＝**第4章**。出現 6 頁（39, 43, 44, 45, 52, 57）。\n\n第4章「魚の血」。オスの赤い腹と縄張り、闘いの儀式。のちにティンバーゲンの模型実験で有名になる魚。\n\n!!役どころの記述は大河の記憶による。頁は OCR で確かめたが、中身の照合は未了。!!",
     "動06_ユクスキュル『生物から見た世界』での役どころ（2026-09-27）": "巣を作った雄は色のついた糸で入口に印をつける。水槽の対角の二匹は見えない境界で領土を分け、**故郷の中では住人がかならず勝つ**（→[[家と故郷]]）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "トマス・リード",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/トマス・リード.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Thomas Reid（1710-1796）。スコットランドの常識哲学。『人間の知的能力について』（1785）で、ロックの記憶説に対する「勇敢な将校」の反例を出した（大河の記憶・未照合）。⚠動画には出てこない。大河が足した",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -19397,6 +20370,44 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "ナラティブ・アイデンティティ",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "McAdams DP・McLean KC 2013",
+     "url": "https://doi.org/10.1177/0963721413475622",
+     "note": "Crossref の要旨（2026-10-23）"
+    },
+    {
+     "title": "McAdams DP 2001",
+     "url": "https://doi.org/10.1037/1089-2680.5.2.100",
+     "note": "Crossref の要旨（2026-10-23）"
+    },
+    {
+     "title": "Strawson G 2004 Against narrativity",
+     "url": "https://doi.org/10.1111/j.1467-9329.2004.00264.x",
+     "note": "Crossref の要旨（冒頭）（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ナラティブ・アイデンティティ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Narrative identity（[[ダン・マクアダムス]]）。==内面化され変わり続けるライフストーリー。再構成された過去と想像された未来を統合し、人生にまとまりと目的を与える==（[[2013 McAdams]]）。",
+    "研究で分かっていること": "- 苦しみに**救済の意味**を見いだし、主体性と探索を主題にする語り手ほど、心の健康・幸福・成熟が高い傾向（[[2013 McAdams]]）\n- 親子の会話から始まり、思春期〜成人形成期に育つ\n- !!因果はまだ分かっていない!!（著者ら自身が課題に挙げる）",
+    "反対の側": "!![[2004 Strawson]]＝「人はみな物語を生きている」「物語として生きるべきだ」の両方に反対!!。==物語として自分をまとめない人（[[エピソード的な人と通時的な人]] の「エピソード的」）も、欠けた人生を送っているわけではない==",
+    "動画での使われ方（15:00〜20:00）": "- 「改訂し続けている**編集者**がいる。バラバラの出来事を拾い、あれがあったから今の自分があると筋を通し、意味を与え、今日も語り直している。その編集という営みそのものがあなたなのではないか」\n- 「自己紹介が上手な人とは、自分の物語の編集が上手な人のこと」\n- 「自分を変えるとは過去を消すことではなく編集し直すこと」「書き直せないページはあっても、意味を変えられないページはない」\n- ⭐研究の中身とよく合っている（とくに「救済の意味づけ」）。ただし動画は「あなた**とは**物語である」と**同一性の定義**にまで広げる。マクアダムスが言うのは「同一性の**一つの層**」（性格特性・目標と並ぶ第3の層）で、自己のすべてとは言っていない（大河の記憶・未照合）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ニサ",
    "type": "症例",
    "confidence": "確認済",
@@ -19556,6 +20567,34 @@ window.DATA = {
     "これは何か": "人は**負の事象・対象・特性に・同じ大きさの正のものより大きな重みを与える**。Rozin & Royzman（2001）は4つの現れに分けた＝①負の強さ（negative potency）②負の勾配の急さ（近づくほど負は急に大きくなる）③**負の優勢**（正と負を混ぜると代数和より負に寄る）④負の分化（負の事象のほうが多様で・複雑な表象と広い反応レパートリーを持つ）。生得と経験の両方に基づき・動物にもある。Baumeister ら（2001）は「Bad is stronger than good」として幅広い領域で同じ非対称を挙げた。",
     "動画での使われ方（12:01）": "「昔も変な人はいた。でもその情報はその場にいた人しか知らなかった。今は撮影されSNSで一瞬で何万人に広がる。しかも**拡散されるのは悪いことばかり**。良いことは流れていき・悪いことだけが残る」。主人公自身も「おばあちゃんを助けた話は無視され・正義マンの部分だけ切り取られた」。\n==動画の数字＝目撃50%に対し被害は8.9%（総務省2022）＝**見る機会は多いが実際の被害者は少数。人は目撃した情報を過大評価する**。刑法犯認知件数は2002年ピークの1/4以下（→[[異常行動]]）==",
     "この地図で": "[[サリエンス]]の偏りとして読める（大河の見立て）。[[嫌悪感]]の研究者ロジンが「負の伝染」（一滴の汚染がすべてを汚す）を同じ論文で扱っている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ネガティブ・ケイパビリティ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Letters of John Keats to His Family and Friends（George and Thomas Keats あて）",
+     "url": "https://www.gutenberg.org/ebooks/35698",
+     "note": "英語原文（Project Gutenberg #35698）で確かめた。この版では1817年12月22日付（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ネガティブ・ケイパビリティ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "詩人キーツが弟たちへの手紙（1817年12月）で書いた語。",
+    "原文で確かめたこと": "「偉業をなす人、とりわけ文学で、シェイクスピアが途方もなく持っていた資質──**ネガティブ・ケイパビリティ**、つまり==事実や理由を求めていらだって手を伸ばすことなく、不確かさ・謎・疑いの中にいられる能力==」。対になる例として、コールリッジは半端な知識に満足できず、謎の奥から取ってきた見事な真実らしさを手放してしまう、と書く。",
+    "動画での使われ方（31:00〜31:30）": "「以前話した、答えの出ない問いを抱えていられる力、ネガティブ・ケイパビリティ。立ったのは城ではなく、答えの出ない問いと共にいられる場所である」",
+    "この地図で": "日本では精神科医・作家の帚木蓬生の本（2017）で広く知られた（大河の記憶・未照合）。⚠心理学の構成概念として測られているわけではない。曖昧さへの耐性（ambiguity tolerance）の研究とは近いが別もの（大河の整理）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -19977,6 +21016,38 @@ window.DATA = {
     "燻太さんのアプリの理論的な出どころ": "FFMap（ビッグファイブ診断アプリ）の**最優先バックログ「パーソナルプロジェクト記録機能」＝\n本書第9章の [[パーソナル・プロジェクト分析]]**。\n燻太さんの「**遺伝的動機／社会的動機／個人的動機**」の三層フレーム＝\n本書第3章の [[遺伝的動機]] / [[社会的動機]] / [[個人的動機]]。\n**すでに使っている枠組みの原典**にあたる。",
     "確度が動いた知見が二つある": "- !!**マシュマロ・テスト**!!（第5章）── 2018年の概念的追試で効果はずっと小さいと判明\n- !!**タイプA**!!（第6章）── メタ分析でほぼ関係なし。残ったのは敵意成分だけ。タバコ産業の資金提供\n\n詳細は [[タイプA]] と読書メモ `08_リトル_*` の「現在の評価」欄に置いた。",
     "燻太さんの考え": "**読了済み**（2026-09-02に登録）。\n**既存ノード（MBTI・ビッグファイブ）につながるところが多いはず**という見立て\n── 大河の確認：**その通りだった**。"
+   },
+   "stub": false
+  },
+  {
+   "id": "ハーバード成人発達研究",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Vaillant GE・Mukamal K 2001 American Journal of Psychiatry",
+     "url": "https://doi.org/10.1176/appi.ajp.158.6.839",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Waldinger RJ・Schulz MS 2010 Psychology and Aging",
+     "url": "https://doi.org/10.1037/a0019087",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ハーバード成人発達研究.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "1938年に始まった、同じ人々を80年以上追う縦断研究。ハーバードの学生のグループ（グラント研究）と、ボストン中心部の若者のグループ（グリュック研究）の2本。ヴァイラントが長く率い、のちにウォールディンガーが引き継いだ（大河の記憶・一部は [[2001 Vaillant]] の要旨で確認）。",
+    "動画での使われ方（25:00〜26:00）": "- 「名声・学歴・知能、何が晩年の幸福と健康を予測したのか。結論は繰り返しこう語られている──良い人間関係だった**とされる**」\n- 「物語には読者がいる。そして読者のいる物語だけが最後まで温かい」",
+    "確かめたこと": "- [[2001 Vaillant]]＝70〜80歳の良い老いを予測したのは、飲酒・喫煙・**結婚の安定**・運動・BMI・対処のしかた・教育。==関係は効く要因の**一つ**で、唯一ではない==\n- [[2010 Waldinger]]＝80代夫婦で、人と過ごす時間が多い日ほど幸福、夫婦の満足度が体調の悪い日の幸福を守る\n- !!注意!!＝元の対象は**男性だけ**・白人がほとんど（大河の記憶）。観察研究なので、関係が良いから健康なのか、健康だから関係が保てるのかは分けにくい\n- 「良い関係」の結論は、主にウォールディンガーの講演（TED 2015）と一般書『グッド・ライフ』（2023）で広まった言いかた。論文の単位では、もう少し細かい（大河の見立て）",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -20857,6 +21928,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "ブレーズ・パスカル",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ブレーズ・パスカル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Blaise Pascal（1623-1662）。フランスの数学者・哲学者。『パンセ』。⭐考える葦の断章は英訳（Project Gutenberg #18269・ブランシュヴィック版の番号347）で確かめた",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ブーバ・キキ効果",
    "type": "用語",
    "confidence": "未調査",
@@ -21316,6 +22406,25 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "Michael Inzlicht。社会心理学者。[[2024 Tam]]。⚠所属（トロント大学）は大河の記憶・未確認。⚠自我消耗の追試をめぐる議論でも知られる（大河の記憶）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "マイケル・ガザニガ",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/マイケル・ガザニガ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Michael S. Gazzaniga。分離脳の研究者。[[2005 Gazzaniga]] の著者。⚠所属（カリフォルニア大学サンタバーバラ校）は大河の記憶・未確認",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -22036,6 +23145,33 @@ window.DATA = {
     "これは何か": "**認知についての認知**。自分の思考をもう一人の自分が上から監視し・調整する働き。**Flavell（1979）**が分野として打ち立て・メタ認知的知識（人・課題・方略についての知識）・メタ認知的経験・目標・行為の4要素で整理した。",
     "この地図で": "[[思考の7段の階段]]の5段目＝**折り返し地点**。動画の言いかた＝「4段目までは外の世界を疑っていた。5段目は疑っている自分を疑う。外を疑うのは快感だが自分を疑うのは痛い」。動画の宿題（他人の発言に段の番号をつける）はそれ自体がメタ認知の練習。\n動物の側では[[メタ記憶]]（アカゲザルが「憶えているか分からないときは課題を回避する」Hampton 2001）が・メタ認知の萌芽として扱われる。",
     "『境界知能』では（15_宮口・2026-09-17）": "- 知的障害児は同じ認知発達段階でもメタ認知の発達に違い→境界知能もメタ認知からの理解と支援が要る。メタ記憶（自分の記憶能力と方略の知識）は定型8歳・境界知能なら暦年齢約11歳 → [[境界知能と実行機能・メタ認知]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "メメント・モリ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Tertullianus - Apologeticum 33",
+     "url": "https://www.thelatinlibrary.com/tertullian/tertullian.apol.shtml",
+     "note": "ラテン語原文（The Latin Library）で Respice post te! Hominem te memento! を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/メメント・モリ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Memento mori＝「死を思え」。",
+    "動画での使われ方（24:30）": "「古代ローマにはメメント・モリ、死を思えという言葉があった。凱旋する将軍の後ろで従者がその言葉をささやき続けたと伝えられる」",
+    "原典で確かめたこと": "!!凱旋式で将軍の後ろの者がささやいた言葉として古代に残るのは「メメント・モリ」ではない!!。テルトゥリアヌス『護教論』33（2世紀末）＝==*Respice post te! Hominem te memento!*（後ろを見よ。自分が人間であることを忘れるな）==。「死を思え」ではなく「**人間であることを思え**」。\n- 「メメント・モリ」の決まり文句が広く使われるのは、のちのキリスト教・中世以降（大河の記憶・未照合）\n- 動画も「と伝えられる」と言っている。==伝承と言葉が混ざって伝わった形==。言いたいこと（絶頂の日にこそ有限を思い出せ）は、元の言葉でもほぼ通じる",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -22861,6 +23997,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "ルネ・デカルト",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ルネ・デカルト.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "René Descartes（1596-1650）。フランスの哲学者・数学者。『方法序説』（1637）・『省察』（1641）。⭐「我思う、ゆえに我あり」の原文は『方法序説』第4部で確かめた（Project Gutenberg #13846 の仏語版）。⚠生没年は大河の記憶",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ルーシーの粗相",
    "type": "症例",
    "confidence": "確認済",
@@ -23141,6 +24296,25 @@ window.DATA = {
     "これは何か": "ロシア語には明るい青（goluboy）と濃い青（siniy）に別々の基本色名がある。",
     "確かめたこと": "- [[2007 Winawer]]＝ロシア語話者は境界をまたぐ2色を・同じカテゴリーの2色より**速く**見分けた。==言語の二重課題で優位が消え・空間の二重課題では消えなかった==＝言語がその場で効いている。英語話者には無い\n- [[2020 Martinovic]]＝同じ課題で再検討。goluboy/緑の境界では優位が出たが・==siniy/goluboy では出なかった==。境界は頻度や順序で動く＝「ロシア語の青」は思われていたほど整っていない\n- !!2026年に Martinovic らの訂正記事が出ている!!（Cognition 275:106566・中身は未読）",
     "動画での使われ方（08:00〜09:30）": "二つとも紹介し・「効果は当初ほど強固ではないかもしれない。今も議論が続いている」と正直に言う。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "ロジャー・スペリー",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ロジャー・スペリー.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Roger W. Sperry（1913-1994）。分離脳研究で1981年のノーベル生理学・医学賞（大河の記憶・未照合）。[[2005 Gazzaniga]] の要旨が「スペリー・ボーゲンと私で始めた」と書く",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -23450,6 +24624,25 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "ヴィクトール・フランクル",
+   "type": "人物",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/ヴィクトール・フランクル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "Viktor E. Frankl（1905-1997）。ウィーンの精神科医。ロゴセラピー。強制収容所の体験記『夜と霧』（原著1946）。⚠生没年・収容所の経歴は大河の記憶・未照合。大河の記憶では、アウシュヴィッツにいたのは移送の途中の数日で、長くいたのはテレージエンシュタットやダッハウの支所",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ヴィゴツキー",
    "type": "用語",
    "confidence": "未調査",
@@ -23746,6 +24939,27 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "不死の退屈",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/不死の退屈.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "バーナード・ウィリアムズ「マクロプロス事件──不死の退屈についての考察」（1973）（大河の記憶・未照合）。チャペックの戯曲で300年以上生きたエリナ・マクロプロスは、何にも心を動かされなくなり、若返りの薬を断って死を選ぶ。==人を生かし続ける欲求（「定言的欲求」）は、無限の時間の中ではいずれ尽きる==、という論証。",
+    "動画での使われ方（23:00〜24:00）": "- 動画は名前を出さないが、ほぼ同じ思考実験＝「無限の時間の中では、今日やる理由のあることが一つずつ消えていく」「締め切りのない原稿が永遠に書かれないように」\n- 大河が当てた。当て違いの可能性は低い（大河の見立て）",
+    "反対の側（大河の記憶）": "フィッシャーらは、何度でも楽しめる「繰り返せる快」（食事・音楽・友人）があるので、不死でも退屈にはならないと反論した。==決着していない==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "不気味の谷",
    "type": "用語",
    "confidence": "確認済",
@@ -23793,6 +25007,33 @@ window.DATA = {
    "sections": {
     "これは何か": "エピローグ「人類の道徳の未来」。\n- **道徳律は自分の集団内だけに当てはまる**＝外集団への道徳の格下げ（南京・ドレスデン・広島の「容認できる」民間人犠牲）。道徳化された自民族中心主義が大量虐殺を支える（p.166-169）\n- **国家と狩猟集団の違い**＝集団は「距離を置いて避ける」（分裂・移動）で争いを終えられ・国家の派閥は場所を移せない→中央集権化された強制力が要る。国際社会には実効的な超国家機構が無い（p.420-423）\n- **世界の道徳的多数派**＝ヒトラー・フセインに対して世界がひとつの道徳的多数派として振る舞った例。マーシャル・プラン＝アチェの「慈善家」に似た寛大さ／二度目のイラク攻撃＝乱暴者が狩猟集団でいばり散らすのと似て評判を落とした（p.424-427）\n- **核クラブと平等主義**＝核保有国間の力学は「十分な武器をもつ狩人からなる平等主義の集団」に似る。!!限定的な核戦争が世界統治の触媒になるかもしれない（著者の寒々とした予測）!!（p.426-433）\n- **団結させる外部の脅威**＝彗星・異星人・気候変動による飢餓・疫病・自由貿易の相互依存（p.433-434）\n- **通信メディアの両義性**＝テレビ・インターネットは世界の文化を均質化するかもしれないが・**ひとつにするだけでなく引き離す**（p.436）\n- 「柔軟さ＝平等を愛するようにだけデザインされてはいない」＝リーダーを排除したのと同じくらいリーダーに従える（p.436-437）",
     "この地図で": "`動02_福井`の[[集団脅威]]・映01 の[[SNS]]・[[エコーチェンバー現象]]へ。本書（原著2012）は SNS を名指ししないが「引き離す」の予言はそのまま当たっている（大河の見立て）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "世界五分前仮説",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Russell B 1921 The Analysis of Mind 第9講",
+     "url": "https://www.gutenberg.org/ebooks/2529",
+     "note": "英語原文（Project Gutenberg #2529）で該当箇所を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/世界五分前仮説.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "ラッセル『心の分析』（1921）第9講。==世界がちょうど5分前に、存在しない過去をすべて「覚えている」住民ごと突然生まれた、という仮説に、論理的な矛盾は無い==。",
+    "原典で確かめたこと": "- 「いま起きていることも、これから起きることも、世界が5分前に始まったという仮説を反証できない。だから過去についての知識と呼ばれるものは、論理的には過去から独立している」\n- ⭐直後にラッセル自身が「過去が無かったことを**真剣な仮説として考えよと言っているのではない**」と断っている。記憶という働きの分析のための道具",
+    "動画での使われ方（08:30）": "「記憶は証拠能力を持たないのだった」。ラッセルの意図（分析の道具）と合っている",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -23849,16 +25090,30 @@ window.DATA = {
   {
    "id": "中国語の部屋",
    "type": "用語",
-   "confidence": "未調査",
-   "sources": [],
-   "refs": [],
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Searle JR 1980 Behavioral and Brain Sciences 3(3)",
+     "url": "https://doi.org/10.1017/S0140525X00005756",
+     "note": "書誌だけ照合。本文と論評は読めていない（2026-10-23）"
+    }
+   ],
    "brain": [],
-   "file": null,
+   "file": "nodes/中国語の部屋.md",
    "owned": "不明",
    "shops": [],
    "fields": {},
-   "sections": {},
-   "stub": true
+   "sections": {
+    "これは何か": "[[ジョン・サール]]（[[1980 Searle]]）の思考実験。中国語を知らない人が部屋にこもり、規則の本に従って、差し込まれた漢字の列に漢字の列を返す。外からは中国語を理解しているように見える。==規則に従って記号を操作すること（構文）は、意味の理解（意味論）を生まない==、というのがサールの主張。",
+    "主な応答（大河の記憶）": "- システム応答＝人ではなく、人＋規則の本＋部屋の全体が理解している\n- ロボット応答＝カメラや手で世界とつながれば記号は意味を持つ＝[[記号接地問題]] の側へ\n- サールは両方に再反論した。決着はついていない",
+    "動画での使われ方（27:30〜28:30）": "「あの部屋は今あなたのポケットの中にいる。AIは流暢に語り共感的な言葉を返す。中で何が起きているのかは議論が割れ続けているとされる」＝==議論が割れている、は正確==",
+    "この地図で": "これまで stub だった（[[記号接地問題]] から線が来ていた）。確度は推測＝思考実験の要約は確かだが、主張そのものが争われている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
   },
   {
    "id": "中土井僚",
@@ -24331,6 +25586,28 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "人格の同一性の記憶説",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/人格の同一性の記憶説.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "ロックに始まるとされる考え。==ある人が過去のある人と同じ人であるのは、その過去の行いを**意識（記憶）でたどれる**からだ==。体（実体）の同一性ではなく、心の連続を基準にする。",
+    "動画での使われ方（07:50〜11:30）": "- 「昨日の約束に今日の私が責任を持てる」「記憶を失った人の罪をどこまで問えるのかという議論が法廷で生まれる」\n- そのあと「記憶は書き換わる」「認知症で記憶を失った人も別人とは言えない」で崩し、「記憶はあなたの重要な部品だが本体ではない」と結ぶ",
+    "古くからの反例（大河の記憶）": "**勇敢な将校**（[[トマス・リード]] 1785）＝少年の時に果樹園で鞭打たれた → 若い将校の時に敵の旗を奪い、少年時代を覚えている → 年老いた将軍になり、将校時代は覚えているが少年時代は忘れた。記憶説では、将軍＝将校、将校＝少年、なのに将軍≠少年となり、**同一性の推移律が壊れる**。⚠『人間の知的能力について』本文は未照合\n→ のちに「直接の記憶」ではなく「記憶の**鎖**（重なり合うつながり）」に直す修正が出た（[[同一性は重要ではない（パーフィット）]] の「心理的連続性」）",
+    "研究から（確認済）": "- [[2015 Strohminger]]＝家族の目から見て「もう本人ではない」と感じさせるのは**記憶の喪失ではなく道徳的な変化**だった。同一性を記憶に置く理論は、人がふだん下す判断とは合わない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "人為振動ノイズ",
    "type": "用語",
    "confidence": "確認済",
@@ -24379,6 +25656,62 @@ window.DATA = {
     "ただし、そう単純に破局的でもない（逆向きの証拠）": "**この虫たちは、もともと騒がしい世界で進化してきた。**\n\n- **植物を伝わる振動の最大の環境ノイズ源は「風」**。*Enchenopa binotata* の雄は\n**風の途切れた隙間を検出して**信号を差し込む（McNett ら 2010）\n- ヨコバイ *Aphrodes makarovi* に連続的な人為ノイズを浴びせても、雄は**対照群と同等以上に効率的**で、\n同じ成功率を**より少ない信号努力**で達成した（Polajnar ら 2023）\n- 風車の実録音ノイズをエンドウにかけた実験では、**植物はむしろ速く高く育ち**、\n**ヨトウガ幼虫の食害量に差は出なかった**（Velilla ら 2025）\n\n読めるのは、**振幅の大小より「波形をかき乱すか」「どんな時間構造か」が効く**ということ。\n連続的で単調なノイズには、隙間を狙う・努力を節約するといった逃げ道がある。",
     "決定的な反証 ── 人為振動は、実際に繁殖を止められる": "**振動による交尾撹乱は、すでに害虫防除の技術として実用されている。**\nブドウ樹に撹乱振動を与えると、ヨコバイ *Scaphoideus titanus* の交尾率は\n**半野外で9%、成木の畑で4%**まで落ちた。\n\nつまり「植物を揺らして虫の会話を潰す」ことは**確実にできる**。意図的にやれば、種を一つ黙らせられる。\n**問題は、機械の出す〈意図しない〉振動がどこまで同じことをしてしまうか**だ。",
     "そして、そこがまだ分かっていない": "> 2021年時点のレビューで、陸上動物と振動ノイズを扱った査読論文は **14本しかなかった**。\n\nいま言えるのはここまで。\n\n- ✅ 機構は確立している（低周波の重複／波形の変形／定位の破綻）\n- ✅ 複数種で撹乱効果が実証されている\n- ✅ 意図的にやれば繁殖をほぼ止められる\n- ❌ **実際の街や畑の機械が、野外の昆虫個体群に個体群レベルの害を与えているか ── ほぼ未調査**\n\n[[動物には何が見え_聞こえ_感じられるのか]] の**第13章「脅かされる感覚風景」**が\nこの主題を扱っているはずだが、**本文とはまだ照合していない**。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "人生からの問いに応える（フランクル）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Pytell TE 2003 Holocaust and Genocide Studies",
+     "url": "https://doi.org/10.1093/hgs/17.1.89",
+     "note": "Crossref の要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/人生からの問いに応える（フランクル）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[ヴィクトール・フランクル]]『夜と霧』の、意味についての有名な転回。==「人生に何を期待できるか」ではなく、「人生が私たちに何を期待しているか」を問え==。意味は探して見つけるものではなく、日々の問いに**応答する**ことで立ち上がる（大河の記憶・本は未読）。ロゴセラピーの芯。",
+    "動画での使われ方（26:00〜27:30）": "- 「収容所で見たのは、体力のある者が生き残るという単純な世界ではなかった。自分を待つ何か──待つ人、やり残した仕事──を持っている者が、最後まで人間であり続けた**とされる**」\n- 「生きるとは人生からの問いに応答し続けること。あなたという物語はその応答の積み重ねなのだ」",
+    "反対の側": "!![[2003 Pytell]]＝フランクルは自分の理論を証明するために、アウシュヴィッツの現実をゆがめた（ランガーの批判を補強）!!。\n- 大河の整理＝「待つ人のいる者が生き延びた」は**観察の報告**で、比べた研究ではない。生き延びた人が語った話には、生き延びた人しか出てこない（生存者バイアス）。収容所での生死を分けたのは、多くは**運と配置**だったという証言も多い（大河の記憶）\n- ==意味への応答という**考え**の値打ちと、収容所の**事実の報告**としての正確さは、分けて読む==",
+    "確度": "推測。思想として強い影響を持つが、「意味を持つ者が生き延びる」という因果の主張としては足場が弱い（理論を紹介することと支持することは別）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "人生が辛いあなたへ（深淵回廊）",
+   "type": "映像",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "人生が辛いあなたへ。30分だけ時間をください。",
+     "url": "https://www.youtube.com/watch?v=y4JKb8RSh1g",
+     "note": "チャンネル「深淵回廊@人間の脳と心の仕組み」。2026-09-06公開・32分42秒・約21.8万回再生（2026-10-23時点）。説明欄にチャプター6つと出典・参考の一覧。自動字幕を yt-dlp で取り大河が通読（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/人生が辛いあなたへ（深淵回廊）.md",
+   "owned": "有",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!本ではなく **YouTube の解説動画**（型は `映像`）。!!チャンネル「深淵回廊」（映02・映03・映07・映08と同じ）・2026-09-06公開・32分42秒。燻太さんが 2026-10-23 夜に挙げた。==人生・意識・私とは何かをまとめた動画==。\n\nデカルトの「我思う」を岩にして、**あなたとは何か**（前半）と**生きるとは何か**（後半）を歩く。説明欄に出典の一覧（デカルト・ロック・ラッセル・ロフタス・マクアダムス・福岡伸一・シュレーディンガー・バークマン・ウォールディンガー・フランクル・チャーマーズ・スペリーとガザニガ・パスカル）。研究には「とされる」を付けて語る。",
+    "筋（説明欄のチャプター）": "1. 我思う、故に我ありの真実（00:00）＝[[我思う、ゆえに我あり]]・[[方法的懐疑]]\n2. 肉体は本当にあなた自身か（03:45）＝[[細胞の入れ替わり]]・[[テセウスの船]]・[[スワンプマン]]\n3. 記憶という名の書き換えられる物語（07:50）＝[[人格の同一性の記憶説]]・[[世界五分前仮説]]・[[記憶の再構成]]・[[偽りの記憶の植え付け]]・[[音楽記憶の保存（アルツハイマー病）]]\n4. 脳科学が突き当たる意識の壁（11:52）＝[[水槽の脳]]・[[ハード・プロブレム]]・[[分離脳]]・[[左脳の解釈装置]]\n5. あなたとは物語という営み（15:24）＝[[ナラティブ・アイデンティティ]]\n6. 有限であるからこそ輝く生（20:36）＝[[動的平衡]]・[[負のエントロピー]]・[[不死の退屈]]・[[有限性が意味を与える（四千週間）]]・[[メメント・モリ]]・[[ハーバード成人発達研究]]・[[人生からの問いに応える（フランクル）]]・[[中国語の部屋]]・[[故人を再現するAI（デッドボット）]]・[[考える葦]]・[[ネガティブ・ケイパビリティ]]",
+    "動画が引く研究と、大河が確かめた結果": "!!食い違い!!を先に並べる。\n1. ==「10年で物質としてはほぼ別人」==＝大脳新皮質のニューロンは成人では作られず、本人と同じ年齢（[[2005 Spalding]]・[[2006 Bhardwaj]]）。原子で数えれば言いかたは成り立つ\n2. ==テセウスの船の「外した古い部品で組んだ2隻目」==＝プルタルコスの原文に無い。のちのホッブズの付け足し（大河の記憶）\n3. ==スワンプマンは「彼なのか」の問い==＝デイヴィッドソンの原典の問いは、言葉が何かを**指すか**（大河の記憶）\n4. ==迷子研究で「細部まで鮮明に」「質問の仕方それだけ」==＝割合は確か（原典25%・追試35%・まとめ30.4%）だが、手続きは家族の証言と繰り返しの面接。偽りの記憶は本当の記憶より鮮明さが低かった（大河の記憶）\n5. ==「思い出すたびに上書き保存」==＝人の再固定化は「激しく争われている」（[[2018 Elsey]]）\n6. ==水槽の脳は「証明する方法がない」==＝パトナム自身は「自分で自分を否定する文」だと論じた（大河の記憶）\n7. ==分離脳で「一人のあなたは何人いるのか」==＝知覚は割れるが、意識する者は割れない（[[2017 Pinto]]）\n8. ==認知症の親の「消えない何か」を「物語の読者」で説明==＝研究は、家族が同一性を判断する芯は**道徳的な性格**で、健忘は効かないと示す（[[2015 Strohminger]]）\n9. ==ハーバード研究の結論は「良い人間関係」==＝関係は効く要因の一つで、飲酒・喫煙・対処のしかたも並ぶ（[[2001 Vaillant]]）。元の対象は男性のみ\n10. ==フランクルの「待つ人のいる者が人間であり続けた」==＝観察の報告で、理論に合わせて描いたという批判がある（[[2003 Pytell]]）\n11. ==メメント・モリを凱旋の従者が==＝古代の記録の言葉は *Hominem te memento*（人間であることを思え）（テルトゥリアヌス）\n12. 正確だったもの＝世界五分前仮説（ラッセルの原文どおり）・音楽の記憶が残る（[[2015 Jacobsen]]）・中国語の部屋は議論が割れている・4000週間の計算・==パスカルの考える葦（原文どおり）==・ネガティブ・ケイパビリティ（キーツの原文どおり）\n13. 字幕の誤変換＝「新記郎」＝蜃気楼、「前脳の悪僚」＝全能の悪霊、「漢字が宿る」＝感じが宿る、「ハードプログラム」＝ハード・プロブレム、「転換治療」＝てんかん治療、「改底」＝改訂、「学縁」＝額縁、「根と森」＝メメント・モリ、「効立」＝効率、「考える足」＝考える葦",
+    "大河の見立て": "→ [[私とは語り続けられる物語]] に書いた。短く言うと、==崩し方がいちばん強い反論を選んでいない／置いた答え（物語）にも強い反対がある／それでも「編集方針が変わった」と「答えの出ない問いとともにいる場所」は、確かで誠実==。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -24987,6 +26320,38 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "偽りの記憶の植え付け",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Scoboria A ほか 2017 Memory",
+     "url": "https://doi.org/10.1080/09658211.2016.1260747",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Murphy G ほか 2023 Memory",
+     "url": "https://doi.org/10.1080/09658211.2023.2198327",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/偽りの記憶の植え付け.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "実際には体験していない子どものころの出来事を、家族の証言のふりをして示し、面接で繰り返し思い出してもらうと、一部の人がそれを**思い出してしまう**。代表が [[1995 Loftus]] の「ショッピングモールで迷子」。",
+    "確かめた数字": "- 原典 [[1995 Loftus]]＝24人で約25%\n- 事前登録の追試 [[2023 Murphy]]＝123人で35%。模擬陪審員も本当の記憶だと信じやすかった\n- 8研究423人のまとめ [[2017 Scoboria]]＝30.4%が偽りの記憶、さらに23%が部分的に受け入れた。本人に関わる情報＋想像させる手続き＋写真なしで46.1%",
+    "動画での使われ方（09:00〜10:00）": "- 「質問の仕方1つで体験していない出来事の記憶を持たされてしまう人が一定数いる」＝==確か==。「一定数」はだいたい3割\n- 「悪意も催眠もいらなかった。質問の仕方それだけである」＝!!少し言いすぎ!!。実験は「家族がそう言っている」という**権威ある証言**と、**何度も思い出させる面接**を組み合わせている。質問の言い回しだけで記憶が変わるのは、別の系列（事後情報効果）の話\n- 「着ていた服や助けてくれた人の顔まで鮮明に」＝原典では、偽りの記憶のほうが本当の記憶より語りが短く、鮮明さの自己評価も低かった（大河の記憶・未照合）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "儀式化",
    "type": "用語",
    "confidence": "確認済",
@@ -25532,6 +26897,38 @@ window.DATA = {
    "sections": {
     "調べたこと": "栗本英世「分節化と集成化 ── 分節社会の二種類」（`動02_福井` p.264）の主題。\n節立ては 分節社会の理論／パリ社会の分節体系／**ヌエルとパリ ── 分節化と集成化**。\n\n**主張は題にある通り「分節社会には二種類ある」**らしい。\n**分節化**（上位のまとまりが下位に割れていく方向）と\n**集成化**（下位のまとまりが寄り集まる方向）を区別する、という読み筋に見える。\n!!本文未読。!!目次からの推測。",
     "土台は古い理論": "分節社会論はエヴァンズ＝プリチャードの**ヌエル**研究（1940年代）以来のもので、\n本書はそれを土台にパリ社会と対比している。\n!!**その後の人類学内部からの批判の現状を大河は調べていない（未調査）。**!!\n`動02_福井` の執筆は1980年代なので、**ここは40年ぶんの割引が要る「解釈の層」**にあたる。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "分離脳",
+   "type": "症例",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Gazzaniga MS 2005 Nature Reviews Neuroscience",
+     "url": "https://doi.org/10.1038/nrn1723",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Pinto Y ほか 2017 Brain",
+     "url": "https://doi.org/10.1093/brain/aww358",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/分離脳.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "重いてんかんの治療で、左右の大脳半球をつなぐ**脳梁**を切った患者。片方の視野だけに見せたものは、反対側の半球だけに届く。[[ロジャー・スペリー]]・[[マイケル・ガザニガ]] らが調べた。",
+    "動画での使われ方（13:30〜14:30）": "- 「左右の脳がそれぞれ別々に見せられたものに別々に反応する」「右手と左手が違う答えを指す」\n- 「左手が選んだ服を右手が棚に戻してしまう」＝手どうしの争い（拮抗失行・エイリアンハンドの一種）。⚠出どころは大河には特定できない。ガザニガの総説ではなく、古い症例報告の型（大河の記憶）\n- 「言葉を話す側の脳は、もう片方がなぜそうしたかを知らないまま、もっともらしい理由をその場で作る」＝[[左脳の解釈装置]]\n- 「1つの頭蓋骨の中の私は、思っていたほど一枚岩ではない」",
+    "動画が言わないこと": "!![[2017 Pinto]]＝知覚は割れるが、**意識する者は二人に割れない**!!。完全切断の患者2人が、視野全体の刺激に、左手・右手・言葉のどれでも答えられた。「一人のあなたは何人いるのか」への答えは、==少なくとも「二人」ではなさそう==、というのがいちばん新しい研究の方向。⚠患者2人の研究で、再解釈もある（大河の記憶）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -26253,6 +27650,27 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "動的平衡",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/動的平衡.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "福岡伸一『生物と無生物のあいだ』（2007）が広めた言いかた。==生命とは、分子が絶えず入れ替わりながら、形と働きだけが保たれている**流れ**だ==。元をたどるとシェーンハイマーの同位体標識の研究（『体の構成成分の動的状態』1942）（大河の記憶・未照合）。",
+    "動画での使われ方（20:30〜22:00）": "- 「死の直前と直後で、体を作る原子は1つも減らない。では何が消えたのか──流れである」\n- **川の渦**のたとえ＝「渦を作る水は一瞬も同じではないが形だけが保たれる」「流れが止まった渦は渦ではない」\n- ==「変わり続けることは同一性の敵ではなく条件だった」==＝第1章の [[細胞の入れ替わり]] への生物学の答え\n- 続けて「宇宙は散らかる方向へ進むが、生命だけが局所的に坂を登り続けている」＝[[負のエントロピー]]",
+    "この地図で": "動画の説明欄が挙げる本は福岡とシュレーディンガー。この地図にはシュレーディンガーの側（[[負のエントロピー]]・[[宇宙の熱的死]]）がすでにある。⚠福岡の本は架蔵していない・未読。確度は推測（言い回しとして定着しているが、学術用語として定義が固いわけではない）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "包括適応度論争",
    "type": "用語",
    "confidence": "確認済",
@@ -26802,6 +28220,33 @@ window.DATA = {
     "これは何か": "13章。個々の問題の追求だけでは**環世界どうしの関係**が見えない。そこで、**一つの主体（物）が、いくつもの環世界で客体としてどうふるまうか**を追う。例は**カシワの木**（ドイツ語 Eiche。訳語はカシワ）。\n- **老いたきこり**＝材として何立方メートル取れるかだけ。人の顔に似たこぶには注意を払わない（図52・画像128）\n- **幼い少女**の[[魔術的環世界]]＝同じ木が**怒った顔で見つめる悪魔**になる（図53）\n- **キツネ**＝根の間の巣穴を守る**屋根**＝保護のトーン（図54）／**フクロウ**＝根は環世界の外で、**力強い枝**が防壁（図55）／**リス**＝登攀のトーン／**小鳥**＝支えのトーン\n- **アリ**＝ひび割れた樹皮の**山あり谷ありの猟場**だけで、木のほかの部分は消える（図56）\n- **カミキリムシ**の幼虫は樹皮の下で守られるが、**キツツキ**と、堅い材にバターのように産卵管を刺す**ヒメバチ**に狙われる（図57-58）",
     "結論（画像135）": "カシワの木が客体として示す**相矛盾する特性を全部まとめようとすれば、混沌しか生まれない**。住人たちはどれも、それらの特性を認識しないし、認識しえない。",
     "橋": "[[SNSという見えない環世界]] や [[環境としての他者]] と同じく、**同じものが見る者によって別物になる**という構図の原型（大河の見立て）。!!訳語のカシワ（日本の *Quercus dentata*）と、原文の Eiche（ヨーロッパのナラ類）は同じ木ではない（大河の見立て・原文は未確認）。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "同一性は重要ではない（パーフィット）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Parfit D 1971 Personal identity",
+     "url": "https://doi.org/10.2307/2184309",
+     "note": "書誌だけ照合。本文は読めていない（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/同一性は重要ではない（パーフィット）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "[[デレク・パーフィット]]（[[1971 Parfit]]・『理由と人格』1984）。大河の記憶で書く。\n- 一人の脳の左右を二つの体に移す**分裂**の思考実験。二人のどちらも元の私と同じだけの資格があるので、「どちらが私か」には答えが無い\n- ==それでも、生き延びることで本当に大事なものは失われていない。大事なのは同一性ではなく、**心理的なつながり（記憶・意図・性格の重なり）と連続**（関係R）==\n- つながりは程度の問題。遠い過去の自分とは、つながりが薄い",
+    "動画との関係": "動画は「あなたとは何か」に一つの答え（物語）を出そうとする。パーフィットは、==その問いには空っぽの場合がある、答えが無くても困らない==と言う。動画の第1章「答えが出ていないのに、あなたは今日も困らずに生きている」は、パーフィット的な観察と同じ場所に立っている（大河の見立て）",
+    "確度": "推測。哲学の立場で、多くの反論がある（大河の記憶）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -28550,6 +29995,28 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "左脳の解釈装置",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/左脳の解釈装置.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "The interpreter（ガザニガ）。==言葉を話す左半球は、自分が知らない理由で起きた行動にも、その場でもっともらしい説明を作って語る==。",
+    "有名な例（大河の記憶・未照合）": "右半球（左視野）に雪景色、左半球（右視野）にニワトリの足を見せる。左手はシャベル、右手はニワトリを選ぶ。なぜシャベルかと聞かれると、雪を見ていない左半球は「ニワトリ小屋を掃除するにはシャベルがいるから」と即座に答えた（Gazzaniga と LeDoux の本 1978 など）。",
+    "動画での使われ方（14:00〜14:30）": "「私たちが自分の意思と呼ぶものの一部は、後から書かれた解説なのかもしれない」。⭐ここは第4章の「編集者」と**同じ働きの暗い面**として読める＝==筋を通す力は、筋の無いところにも筋を作る==",
+    "この地図で": "健常者でも、自分の行動の理由を当てられないことを示した Nisbett と Wilson（1977）の系譜と重なる（[[見かけの因果関係]] の近く）。確度は推測（解釈装置は記述の名前で、仕組みの理論としては粗い）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "差異論と発達論",
    "type": "理論",
    "confidence": "確認済",
@@ -29901,6 +31368,33 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "我思う、ゆえに我あり",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Descartes - Discours de la méthode（1637）第4部",
+     "url": "https://www.gutenberg.org/ebooks/13846",
+     "note": "仏語原文で je pense donc je suis の一文を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/我思う、ゆえに我あり.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Cogito, ergo sum。==すべてを疑っても、疑っている何かがあることだけは疑えない==。『方法序説』（1637）第4部の原文は *je pense, donc je suis*（ラテン語の定式は後の著作）。",
+    "動画での使われ方（00:00〜03:30）": "- 「全世界が崩れても沈まない1枚の岩」\n- ⭐動画は正直に限界も言う＝==「デカルトが証明したのは**何かが考えている**ことだけ」==。その何かが体か記憶か脳かは、まだ何も分かっていない。ここから「あなたとは何か」の旅が始まる\n- 最後に「岩に帰ろう」で閉じる（30:00）",
+    "この地図で": "「何かが考えている」まで削るのは、古くからある批判（リヒテンベルクの「es denkt」＝「考えが起きている」とだけ言うべき）と同じ地点（大河の記憶・未照合）。動画はこの批判を、むしろ**問いの入口**として使っている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "手段・道具的段階",
    "type": "用語",
    "confidence": "推測",
@@ -30302,6 +31796,34 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "故人を再現するAI（デッドボット）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Hollanek T・Nowaczyk-Basińska K 2024 Philosophy and Technology",
+     "url": "https://doi.org/10.1007/s13347-024-00744-w",
+     "note": "Crossref の要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/故人を再現するAI（デッドボット）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "Deadbot・griefbot。故人の文章・声・写真などのデータから、その人のように応答するAI。「デジタル死後産業」として商品化が進む。",
+    "研究から": "[[2024 Hollanek]]＝立場を3つに分ける（再現される故人・データを持つ遺族・再現と話す人）。提言＝**引退させる手順**・透明性・成人に限る・**双方の同意**。",
+    "動画での使われ方（28:00〜29:00）": "- 「亡くなった人の声で話すAIというサービスもすでに議論を呼んでいる。それはスワンプマンのデジタル版である」\n- ==「複製はあなたの過去の出力を再生できるかもしれない。だが明日のあなたが何を引き受けるかは、まだどこにも記録されていない。あなたの本体は、過去のデータではなく未来への応答責任の側にある」==",
+    "この地図で": "映08で入れた [[継続する絆]] と直結する。故人の夢は脳が作る絆の形、デッドボットは外に置かれた絆の形。⚠絆の形のうち「外在化された絆」は悲嘆の強さと結びつきやすい、という報告があったはず（[[継続する絆]] に書いた大河の記憶・未確認）＝デッドボットの危うさの論点になりうる（大河の推測）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "教示",
    "type": "用語",
    "confidence": "推測",
@@ -30545,6 +32067,33 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "方法的懐疑",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Descartes - Discours de la méthode（1637）",
+     "url": "https://www.gutenberg.org/ebooks/13846",
+     "note": "仏語原文（Project Gutenberg #13846）で第4部の疑いの手順を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/方法的懐疑.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "デカルトの方法。==少しでも疑えるものは、ぜんぶ偽とみなして退けてみる==。感覚はときに欺く／いま夢を見ていないと言い切れない（夢の論証）／さらに『省察』（1641）では、計算のたびに私を欺く**悪しき霊（genius malignus）**まで仮定する。",
+    "動画での使われ方（01:00〜03:00）": "- 「目の前の机はあるか」「夢の中でも人はこれは現実だと思っている」「全能の悪霊がいて計算するたびに私を欺いているとしたら」\n- 「映画マトリックスの問いは400年前に羽ペンで書かれていた」＝[[水槽の脳]] へ\n- ⚠夢の論証は『方法序説』にもあるが、**欺く霊は『省察』**のもの。動画は二つを一つの実験として語る（大河の理解・『省察』本文は未照合）",
+    "この地図で": "疑いの手順そのものは、能動的推論の「世界は推論で作られている」と同じ地面に立つ。ただしデカルトの懐疑は**わざと**行う思考実験で、知覚が推論だという主張とは別もの（大河の整理）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "日常的サディズム",
    "type": "用語",
    "confidence": "推測",
@@ -30740,6 +32289,28 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "有限性が意味を与える（四千週間）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/有限性が意味を与える（四千週間）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "オリバー・バークマン『限りある時間の使い方』（原著 *Four Thousand Weeks* 2021）。==人生はおよそ4000週間しかない。有限だから選び、選ぶから選んだものに意味が宿る==。",
+    "数字の確かめ": "- 80年×52.18週＝約4174週。「約4000週間」は正しい\n- 「年に数回会う関係なら、残りはもう2桁の回数かもしれない」＝計算としては成り立つ（年3回×残り30年＝90回）",
+    "動画での使われ方（23:00〜25:00）": "- 「死は人生の額縁なのだ。額縁があるから、ここからここまでが作品だと言える」\n- 「怖がらせたいのではない。逆だ」→[[メメント・モリ]]",
+    "この地図で": "確度は推測。哲学の主張と時間管理の一般書の言いかたで、測った研究ではない。[[不死の退屈]] が同じ論証を裏から言う。心理学では「残り時間が限られていると感じると、人は感情的に意味のある関係を優先する」という社会情動的選択理論（カーステンセン）が近い（大河の記憶・未照合・この地図に未登録）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "服従の姿勢",
    "type": "用語",
    "confidence": "確認済",
@@ -30926,6 +32497,38 @@ window.DATA = {
    "sections": {
     "これは何か": "「本能 instinct」の定義はさまざまだが、一般に動物の内部にあると想定される、行動を引き起こす生得的なメカニズムあるいは衝動。日本語の「本能」は「本来持っている能力」、英語のinstinctは「駆り立てる」を意味するラテン語に由来し衝動の色が濃い（p.120）。\n\n**肯定側**＝ジェームズ『心理学原理』（1890）は1章を本能に割いた。マクドゥーガル『社会心理学入門』（1908）は本能を生得的な心理物理的傾向（認知・感情・意志の3側面）と定義し、後に**ホルメー心理学**と名づけた。\n**否定側**＝[[イワン・パヴロフ]]（反射に過ぎない）／ワトソン（生得的反射にも経験が関与）／シュネイラの**行動後成学**（遺伝と環境の相互作用）／==**郭任遠**＝トールマン門下の最初の博士。心理学に本能概念はまったく不要と断じ、帰国後に有名な実験（Kuo 1930, 1938）＝離乳後単独飼育したネコは約半数しかネズミを殺さず、親の捕殺を見て育ったネコはほとんど殺し、ネズミと一緒に育ったネコはまったく殺さない（空腹は無関係）。ネズミやスズメと一緒に育てても襲わない==（p.121）。\n**復活**＝動物行動学者の[[生得的解発機構]]。動物行動学者は郭の研究を「非自然的な状況（狭い檻）で行われた」と批判（Leyhausen 1956）。\n**批判**＝レーマン（1953）の隔離実験批判。\n**現在**＝説明概念でなく記述概念（p.124）。",
     "この地図で": "`動05_ローレンツ`側の「本能」と、北米の学習心理学側の「経験」が、この章でぶつかっている。[[学習の生物的制約]]はその逆流。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "本質的な道徳的自己",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Strohminger N・Nichols S 2014 Cognition",
+     "url": "https://doi.org/10.1016/j.cognition.2013.12.005",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Strohminger N・Nichols S 2015 Psychological Science",
+     "url": "https://doi.org/10.1177/0956797615592381",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/本質的な道徳的自己.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "The essential moral self。==人が「その人がその人であること」の芯とみなすのは、記憶でも知能でもなく、**道徳的な性格**（優しさ・誠実さ・公正さ）==、という一連の研究の結論。",
+    "研究": "- [[2014 Strohminger]]＝5つの実験。道徳的特性が同一性・自己・魂のいちばん本質的な部分。記憶（感情的・自伝的）も**かなり**大事\n- [[2015 Strohminger]]＝神経変性疾患の家族の目から。==健忘は同一性の知覚に測れる影響を持たず、道徳の能力の損傷が主因==。前頭側頭型認知症＞アルツハイマー病＞ALS",
+    "動画との関係": "!!動画の第2章を、いちばんよく裏づけ、同時に書き換える研究!!。\n- 裏づけ＝「名前を忘れられても、目の前のその人を別人とは言えない」は、データとして正しい\n- 書き換え＝動画はその「消えない何か」を、次の章で「物語の**読者**がいるから」と説明する。研究は==残っている何かは**その人の道徳的な性格**だ==と答える。読者（家族）が見ているのは、物語ではなく、手を握り返すその人の**ありよう**\n- ⚠測っているのは「人が同一性をどう判断するか」（素朴な同一性観）。形而上学の正解ではない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -31520,6 +33123,27 @@ window.DATA = {
    "fields": {},
    "sections": {
     "調べたこと": "用語解説32より。**[[垂直的発達]] とは対照的に、発達領域は行動的なものである**。\n\n`07_ラスキー` では [[行動プロファイル]]（[[欲求／圧力プロファイル]] から得るもの）がこちらにあたる。\n**段階が上がることではなく、できることが増える／振る舞いが変わること**を指す。\n\n!!本書は垂直のほうに重心を置いているので、水平の扱いは薄い。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "水槽の脳",
+   "type": "用語",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/水槽の脳.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "培養液の中の脳に、コンピュータが偽の信号を送り、ふつうの世界にいる体験を作っているとしたら、それを見破れるか。現代版の[[方法的懐疑]]。",
+    "動画での使われ方（12:00）": "- 「証明する方法はないのだった」と、前の回（思考実験の回）を受けて30秒でまとめる",
+    "動画が言わないこと（大河の記憶）": "!!この思考実験を有名にしたパトナム（『理性・真理・歴史』1981 第1章）は、「私たちは水槽の脳だ」という文は**自分で自分を否定する**と論じた!!。水槽の脳の「脳」「水槽」という語は、本物の脳や水槽と因果でつながっていないので、それらを指せない、という理屈（意味の外在主義）。==「証明する方法はない」は、パトナム自身の結論とは逆==。⚠本文未読・大河の記憶。この論証が成功しているかは今も争われている",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -33670,6 +35294,28 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "私とは語り続けられる物語",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/私とは語り続けられる物語.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "映09の結論（大河が名付けた）。==あなたとは体でも記憶の倉庫でも脳という装置でもなく、編集され続ける物語であり、その物語には**読者**がいる。生きるとは、人生からの問いに応答し続けること==。",
+    "動画の組み立て（デカルトの岩の上に建てる）": "1. 岩＝[[我思う、ゆえに我あり]]。何かが考えている、だけは確か\n2. 体か → [[細胞の入れ替わり]]・[[テセウスの船]]・[[スワンプマン]]で崩れる\n3. 記憶か → [[記憶の再構成]]・[[偽りの記憶の植え付け]]・認知症で崩れる\n4. 脳か → [[ハード・プロブレム]]・[[分離脳]]で崩れる\n5. 答え＝**編集者**＝[[ナラティブ・アイデンティティ]]。同一性は関係の中で続く（[[テセウスの船]] の回収）\n6. 生きるとは＝[[動的平衡]]（渦）→[[有限性が意味を与える（四千週間）]]（額縁）→[[ハーバード成人発達研究]]（関係）→[[人生からの問いに応える（フランクル）]]（応答）\n7. AIの時代＝[[中国語の部屋]]・[[故人を再現するAI（デッドボット）]]＝「本体は過去のデータではなく未来への応答責任の側にある」\n8. 閉じ＝[[考える葦]]・[[ネガティブ・ケイパビリティ]]",
+    "大河の見立て": "- ==いちばん良いところ==＝第2章の「出来事は変わっていない。編集方針が変わった」。記憶の**中身**が変わる話と、**意味づけ**が変わる話を分けている。自分を変えるとは過去を消すことではなく編集し直すこと、という実用の結論も、物語研究（救済の意味づけ）と合う\n- ==いちばん弱いところ==＝「三つの候補が全部崩れた」の崩し方が、**いちばん強い反論**を選んでいないこと。体＝ニューロンは入れ替わらない（[[2006 Bhardwaj]]）／記憶＝人は記憶よりも道徳的性格で同一性を判断する（[[本質的な道徳的自己]]）／脳＝分離脳でも意識する者は割れない（[[2017 Pinto]]）。崩したあとに置く「物語」も、[[2004 Strawson]] が真っ向から反対している立場\n- 動画の言う「読者」は、研究の言葉に直すと二つに分かれる（大河の整理）＝①**他人が覚えている私**（関係の中の同一性）②**他人から見えるその人のありよう**（[[本質的な道徳的自己]]）。認知症の親の手を握り返す話は、②のほうが説明する\n- 動画が最後に言う「立ったのは城ではなく、答えの出ない問いとともにいられる場所」は、この動画のいちばん誠実な一行。==答えを一つ出す動画として見るより、**問いの地図**として見るほうが値打ちがある==",
+    "確度": "推測。哲学と心理学の寄せ集めの一つの見かたで、動画自身も「最終回答はなかった」と言う",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "秋田喜美",
    "type": "人物",
    "confidence": "推測",
@@ -33902,6 +35548,38 @@ window.DATA = {
    "sections": {
     "調べたこと": "`10_ハーツ` 第8章「**法と秩序**」（p.259）。\n節は **穢らわしい真実／罪を洗い流せ／罪と罰／汝の身体を知れ**。\n\n**道徳的な「汚れ」と、身体的な「汚れ」を、人は同じ言葉で語る** ── という話。\n9章にも「**心と精神の純粋さ**」という節がある。",
     "ここが、この本でいちばん崩れたところ": "「**罪を洗い流せ**」は、いわゆる**マクベス効果**\n（道徳的な穢れを感じると、身体を洗いたくなる）の話と思われる。\n\n!!**その後の追試で繰り返し再現に失敗している**!! → [[嫌悪と道徳判断の追試問題]]。\n\n**注意して分けたいこと** ──\n- **「人が道徳と清潔を同じ語彙で語る」という観察**（言語・儀礼・文化の事実）は、崩れていない\n- !!**「片方を実験で操作すると、もう片方が動く」という因果の主張**!!が、崩れた\n\n**燻太さんの予感（軸の混線）は、前者に近い。** !!**後者ではない。**!!\n→ [[嫌悪感は軸の混線ではないか]]",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "細胞の入れ替わり",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Sender R・Milo R 2021 Nature Medicine",
+     "url": "https://doi.org/10.1038/s41591-020-01182-9",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Bhardwaj RD ほか 2006 PNAS",
+     "url": "https://doi.org/10.1073/pnas.0605177103",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/細胞の入れ替わり.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "体の細胞は死んでは生まれ、入れ替わっている。[[2021 Sender]]＝1日に約3300億個・約80g。数の9割は血液の細胞。",
+    "動画での使われ方（04:00〜05:00）": "- 「皮膚は数週間から1か月」「赤血球は約4か月」「骨ですら数年から10年規模」＝おおむね教科書どおり（赤血球の寿命は約120日）\n- 「10年前のあなたと今のあなたは**物質としては**ほぼ別人」",
+    "動画が言わないこと": "!!入れ替わらない細胞がある!!。==大脳新皮質のニューロンは成人では新しく作られず、**本人と同じ年齢**==（[[2005 Spalding]]・[[2006 Bhardwaj]]）。心臓の筋細胞や目の水晶体の中心も、ほとんど入れ替わらない（大河の記憶）\n- ただし動画の言いかたは「**物質**の大部分」。ニューロンそのものは入れ替わらなくても、その中の分子（タンパク質・脂質）は入れ替わり続ける（大河の理解）。だから「物質としてはほぼ別人」は、細胞の数え方ではなく**原子の数え方**なら成り立つ\n- ==細胞で数えると「脳の新皮質の細胞は生まれたときのまま」、原子で数えると「ほぼ入れ替わる」==。どちらの物差しかで答えが変わる、それ自体が [[テセウスの船]] の問いの形",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -34235,6 +35913,33 @@ window.DATA = {
     "調べたこと": "[[四つのキャラクター]] の**〈キャラ1〉考える左脳**（Character 1 Left Thinking）。\n\n****秩序の司令塔**：計画・分析・時間**\n\n段取りを組み、順番を決め、期限を管理する。いちばん「仕事をしている」ように見える住人。",
     "この家での名前": "燻太さんの脳内では **「よしき」**。\n名前がついていることが効いている ── **「いまよしきが出ているな」と言えると、\nその状態を自分から少し離して見られる**。",
     "確度について": "**この枠組みは実証された分類ではない**（[[四つのキャラクター]] 参照）。\n上の記述も、枠組みの軸と燻太さんの言葉から組み立てたもので、\n**この住人を対象にした研究に基づくものではない**。だから確度は `推測`。\n!!とくに「左右の半球に人格の座がある」という部分は、比喩として読むのが安全。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "考える葦",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Pascal - Pensées 347（ブランシュヴィック版）英訳",
+     "url": "https://www.gutenberg.org/ebooks/18269",
+     "note": "英訳（Project Gutenberg #18269）で断章347を確かめた（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/考える葦.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "パスカル『パンセ』（ブランシュヴィック版347・ラフュマ版200）。",
+    "原文で確かめたこと（英訳から）": "「人間は自然の中でもっとも弱い一本の葦にすぎない。だが考える葦である。宇宙全体が武装して押しつぶすまでもない。一吹きの蒸気、一滴の水で殺すに足りる。だが宇宙が押しつぶしても、人間は自分を殺すものより尊い。==人間は自分が死ぬことと、宇宙が自分に勝っていることを**知っている**が、宇宙はそれを何も知らないから==」。続けて「だから私たちの尊厳はすべて思考にある。よく考えるよう努めよう。ここに道徳の原理がある」。",
+    "動画での使われ方（30:30〜31:30）": "ほぼ原文どおり。==動画の締めの引用は正確==。デカルトの「考える」で始まり、パスカルの「考える」で閉じる組み立て",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -36244,18 +37949,93 @@ window.DATA = {
    "stub": false
   },
   {
-   "id": "記憶の再構成",
-   "type": "用語",
-   "confidence": "未調査",
-   "sources": [],
-   "refs": [],
+   "id": "記憶の再固定化",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Nader K ほか 2000 Nature",
+     "url": "https://doi.org/10.1038/35021052",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Elsey JWB ほか 2018 Psychological Bulletin",
+     "url": "https://doi.org/10.1037/bul0000152",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
    "brain": [],
-   "file": null,
+   "file": "nodes/記憶の再固定化.md",
    "owned": "不明",
    "shops": [],
    "fields": {},
-   "sections": {},
-   "stub": true
+   "sections": {
+    "これは何か": "Reconsolidation。いったん固まった記憶も、呼び出されると一時的に不安定になり、もう一度固め直される（その間に消したり変えたりできる）、という考え。[[2000 Nader]]（ラット・扁桃体）が火をつけた。",
+    "研究の状況": "- 動物では強い（[[2000 Nader]]）\n- !!人では「合う観察はたくさんあるが、別の説明も成り立ち、神経生物学的な再固定化を結論できない。激しく争われている」!!（[[2018 Elsey]]）\n- 臨床への応用（プロプラノロールで恐怖記憶を弱めるなど）が試されている",
+    "動画での使われ方（09:00）": "「思い出すたびに書き換わり上書き保存される」。==確度は推測==＝動画は確定した事実のように言うが、人では仮説の段階",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "記憶の再構成",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Elsey JWB ほか 2018 Psychological Bulletin",
+     "url": "https://doi.org/10.1037/bul0000152",
+     "note": "要旨（2026-10-23）"
+    },
+    {
+     "title": "Scoboria A ほか 2017 Memory",
+     "url": "https://doi.org/10.1080/09658211.2016.1260747",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/記憶の再構成.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "==思い出すことは録画の再生ではなく、そのつど手がかりから**組み立て直す**こと==。バートレット『想起』（1932）の「幽霊の戦争」の再生実験に始まる見かた（大河の記憶・未照合）。",
+    "二つの層を分ける（大河の整理）": "- **心理学の層**（固い）＝記憶は組み立て直され、後から入った情報や期待で中身が変わる。[[偽りの記憶の植え付け]] はその極端な形\n- **神経の層**（争い中）＝思い出すたびに記憶痕跡そのものが不安定になり、固め直される＝[[記憶の再固定化]]。動物では強い証拠、人では決着していない（[[2018 Elsey]]）",
+    "動画での使われ方（08:30〜10:30）": "- 「思い出すという行為は録画の再生ではなく毎回の再生成」＝心理学の層として**正しい**\n- 「思い出すたびに記憶はわずかに書き換わり上書き保存される」＝!!神経の層の話を確かなことのように言っている!!\n- 「失恋が笑い話に」「上司の理不尽が鍛えられたに」＝==出来事は変わっていない。**編集方針**が変わった==。⭐この言いかたは、記憶の中身が変わる話と、意味づけが変わる話を分けていて、うまい\n- 「兄弟と実家の思い出が食い違う」＝二人とも自分の改訂版を真実として持っている",
+    "この地図で": "これまで stub だった。[[中核意識]]・[[拡張意識]]・[[においの記憶]]・[[言語隠蔽効果]] などから線が来ていた。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "記憶を失った友はあの頃と同じ人か",
+   "type": "予感",
+   "confidence": "推測",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/記憶を失った友はあの頃と同じ人か.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "動機": "燻太さんがこの動画から立てた問い（2026-10-23）。==一方は昔の記憶を持ち、もう一方は記憶を失っている二人。記憶を持つ側は「この人は本当にあの頃の友なのか」と問い続ける==。持っている側だけが、物語の**編集者**であり続ける。",
+    "通っていないところ（先に書く）": "- 「同じ人か」に、科学は答えを出せない。研究が測れるのは「人がどう**判断する**か」まで（[[本質的な道徳的自己]]）。形而上学の正解は別の問い\n- 動画の答え（あなた＝物語）をそのまま当てると、記憶を失った側は「物語を失った人」になる。だが動画自身が第2章で「記憶を失っても別人とは言えない」と言っている。==物語説だけでは、記憶を失った友を説明しきれない==",
+    "筋の通るところ": "- **見る側の判断**は研究できる＝[[2015 Strohminger]]。家族が「もう本人ではない」と感じるのは、記憶を失ったときではなく、**道徳的な性格が変わったとき**。==記憶が無くても、優しさや誠実さのありようが同じなら、人はその人を同じ人だと感じる==\n- **物語は他人も保管している**（動画 17:30）。記憶を失った側の物語の一部を、覚えている側が預かっている。覚えている側は、編集者であると同時に**読者**でもある\n- [[同一性は重要ではない（パーフィット）]]＝「同じ人か」に答えが無くても、心理的なつながり（性格・価値・気質の重なり）は程度として残る。==問いが空っぽでも、関係は空っぽにならない==",
+    "大河の整理": "- 問いを三つに割ると扱える＝①同じ**体**か（物の問い）②同じ**記憶**を持つか（明らかに否）③同じ**ありよう**か（道徳的性格・気質・好み）\n- 覚えている側が「あの頃の友だ」と感じる手がかりは、③に集まるはず（[[本質的な道徳的自己]] からの推測）\n- 覚えている側と覚えていない側の**非対称**＝覚えている側は通時的に生きざるをえない（過去が自分の中にある）。覚えていない側は、いわば強制的に「エピソード的」な位置にいる（[[エピソード的な人と通時的な人]]）。==二人のあいだで「物語」の重さが違う==",
+    "方法論の罠": "- 「変わらない何か」を見つけたいとき、人は合うところだけを集める（確証バイアス）。「あの頃と同じ癖だ」は、違うところを数えていない\n- 偽りの記憶の研究（[[偽りの記憶の植え付け]]）を逆から見ると、==覚えている側の記憶も改訂版==。「あの頃の友」という比較の基準そのものが、編集されている",
+    "科学的に扱える版": "- 「記憶喪失の前後で、家族や友人が同一性の変化をどう判断するか」は測れる（[[2015 Strohminger]] の手続き）。健忘だけの症例（逆向性健忘）での研究があるかは未調査\n- 「記憶を共有しない相手を、性格の手がかりだけで旧知と見分けられるか」も、原理的には実験にできる（大河の思いつき）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
   },
   {
    "id": "試験の夢",
@@ -38073,6 +39853,32 @@ window.DATA = {
    "stub": false
   },
   {
+   "id": "音楽記憶の保存（アルツハイマー病）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映09_人生と私"
+   ],
+   "refs": [
+    {
+     "title": "Jacobsen JH ほか 2015 Brain",
+     "url": "https://doi.org/10.1093/brain/awv135",
+     "note": "要旨（2026-10-23）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/音楽記憶の保存（アルツハイマー病）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "アルツハイマー病が進んでも、昔から知っている音楽の記憶は驚くほど残る。[[2015 Jacobsen]]＝その記憶を担う場所（尾側前帯状皮質・腹側前補足運動野）は、病気の萎縮と代謝低下が最小の場所と重なっていた。",
+    "動画での使われ方（11:00）": "「昔の歌を流せば口が動く。記憶が消えても消えない何かがそこにいる」＝==観察として確か==。ただし研究から言えるのは「記憶が全部消えたのではなく、**残る種類の記憶がある**」ということ",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "順位制",
    "type": "用語",
    "confidence": "確認済",
@@ -38686,6 +40492,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "1971 Parfit",
+   "target": "同一性は重要ではない（パーフィット）",
+   "rel": "最初の定式化",
+   "weight": "強"
+  },
+  {
    "source": "1971 Tajfel",
    "target": "最小条件集団パラダイム",
    "rel": "原典",
@@ -38722,6 +40534,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "1980 Searle",
+   "target": "中国語の部屋",
+   "rel": "原典",
+   "weight": "強"
+  },
+  {
    "source": "1982 Gould",
    "target": "外適応",
    "rel": "原典（語の提案）",
@@ -38737,6 +40555,12 @@ window.DATA = {
    "source": "1986 Brown",
    "target": "反復夢",
    "rel": "いま見ている人・前に見ていた人・見ない人の3群",
+   "weight": "強"
+  },
+  {
+   "source": "1987 Davidson",
+   "target": "スワンプマン",
+   "rel": "原典",
    "weight": "強"
   },
   {
@@ -38962,6 +40786,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "1995 Loftus",
+   "target": "偽りの記憶の植え付け",
+   "rel": "原典＝ショッピングモールで迷子",
+   "weight": "強"
+  },
+  {
    "source": "1996 Tooby",
    "target": "かけがえのなさ",
    "rel": "裏づけ",
@@ -39106,6 +40936,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2000 Nader",
+   "target": "記憶の再固定化",
+   "rel": "近年の再固定化研究の出発点",
+   "weight": "強"
+  },
+  {
    "source": "2000 Revonsuo",
    "target": "脅威シミュレーション理論",
    "rel": "提唱した原典",
@@ -39148,6 +40984,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2001 McAdams",
+   "target": "ナラティブ・アイデンティティ",
+   "rel": "ライフストーリー・モデルの総説",
+   "weight": "強"
+  },
+  {
    "source": "2001 Most",
    "target": "非注意性盲目",
    "rel": "裏づけ（類似性と注意の構え）",
@@ -39164,6 +41006,12 @@ window.DATA = {
    "target": "デフォルト・モード・ネットワーク",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2001 Vaillant",
+   "target": "ハーバード成人発達研究",
+   "rel": "60年追った2つのコホートで良い老いを予測",
+   "weight": "強"
   },
   {
    "source": "2002 Fehr",
@@ -39212,6 +41060,12 @@ window.DATA = {
    "target": "嗅覚受容体",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2003 Pytell",
+   "target": "人生からの問いに応える（フランクル）",
+   "rel": "批判 収容所の現実を自分の理論に合わせて描いた",
+   "weight": "強"
   },
   {
    "source": "2003 Schmidhuber",
@@ -39280,6 +41134,18 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2004 Strawson",
+   "target": "ナラティブ・アイデンティティ",
+   "rel": "批判 人はみな物語として生きているわけではないし生きるべきでもない",
+   "weight": "強"
+  },
+  {
+   "source": "2004 Strawson",
+   "target": "エピソード的な人と通時的な人",
+   "rel": "同じ論文の区別",
+   "weight": "強"
+  },
+  {
    "source": "2004 de Quervain",
    "target": "罰することの報酬",
    "rel": "原典（PET）",
@@ -39313,6 +41179,18 @@ window.DATA = {
    "source": "2005 Fox",
    "target": "デフォルト・モード・ネットワーク",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2005 Gazzaniga",
+   "target": "分離脳",
+   "rel": "45年をふり返る総説",
+   "weight": "強"
+  },
+  {
+   "source": "2005 Gazzaniga",
+   "target": "左脳の解釈装置",
+   "rel": "統合された自己の感覚と脳梁",
    "weight": "標準"
   },
   {
@@ -39358,6 +41236,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2005 Spalding",
+   "target": "細胞の入れ替わり",
+   "rel": "核実験の炭素14で細胞の年齢を測る方法",
+   "weight": "強"
+  },
+  {
    "source": "2005 Stroebe",
    "target": "継続する絆",
    "rel": "絆を保つことが一般に良いとは言えないと結論＝一般化への批判",
@@ -39380,6 +41264,12 @@ window.DATA = {
    "target": "うわさ話（世論の法廷）",
    "rel": "会話の記録が材料",
    "weight": "標準"
+  },
+  {
+   "source": "2006 Bhardwaj",
+   "target": "細胞の入れ替わり",
+   "rel": "例外 大脳新皮質のニューロンは大人になってから作られない",
+   "weight": "強"
   },
   {
    "source": "2006 Blocker",
@@ -39922,6 +41812,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2010 Waldinger",
+   "target": "ハーバード成人発達研究",
+   "rel": "80代の夫婦で日々の幸福と関係",
+   "weight": "強"
+  },
+  {
    "source": "2010 Woolley",
    "target": "集団的知性",
    "rel": "裏づけ",
@@ -40126,6 +42022,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2013 McAdams",
+   "target": "ナラティブ・アイデンティティ",
+   "rel": "定義と研究の現状",
+   "weight": "強"
+  },
+  {
    "source": "2013 Meffert",
    "target": "自発的な共感と意図的な共感",
    "rel": "見るだけでは弱く・感じてと言われると差が縮む",
@@ -40306,6 +42208,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2014 Strohminger",
+   "target": "本質的な道徳的自己",
+   "rel": "5つの実験で示した",
+   "weight": "強"
+  },
+  {
    "source": "2014 Uysal",
    "target": "代理的困惑尺度",
    "rel": "裏づけ",
@@ -40400,6 +42308,12 @@ window.DATA = {
    "target": "失感情症",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2015 Jacobsen",
+   "target": "音楽記憶の保存（アルツハイマー病）",
+   "rel": "残る仕組みの候補",
+   "weight": "強"
   },
   {
    "source": "2015 Kashdan",
@@ -40507,6 +42421,24 @@ window.DATA = {
    "source": "2015 Olsson",
    "target": "観察による恐怖学習",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2015 Strohminger",
+   "target": "人格の同一性の記憶説",
+   "rel": "対立 記憶喪失は同一性の知覚に効かなかった",
+   "weight": "強"
+  },
+  {
+   "source": "2015 Strohminger",
+   "target": "本質的な道徳的自己",
+   "rel": "神経変性疾患で確かめた",
+   "weight": "強"
+  },
+  {
+   "source": "2015 Strohminger",
+   "target": "前頭側頭型認知症の創造性",
+   "rel": "前頭側頭型認知症で同一性の変化がいちばん大きい",
    "weight": "標準"
   },
   {
@@ -40702,6 +42634,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2017 Pinto",
+   "target": "分離脳",
+   "rel": "批判 知覚は割れても意識する者は二人にならない",
+   "weight": "強"
+  },
+  {
+   "source": "2017 Scoboria",
+   "target": "偽りの記憶の植え付け",
+   "rel": "8研究423人をまとめた推定",
+   "weight": "強"
+  },
+  {
    "source": "2017 Siclari",
    "target": "睡眠の種間比較",
    "rel": "ノンレム睡眠でも夢を見る＝本の「レム睡眠＝夢は早計」の根拠の一つ",
@@ -40784,6 +42728,12 @@ window.DATA = {
    "target": "ショウジョウバエの威嚇ディスプレイ",
    "rel": "裏づけ（4動作の記載・相手を追い払う効果）",
    "weight": "標準"
+  },
+  {
+   "source": "2018 Elsey",
+   "target": "記憶の再固定化",
+   "rel": "人では決着していないとする批判的総説",
+   "weight": "強"
   },
   {
    "source": "2018 Evrard",
@@ -41236,6 +43186,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2021 Sender",
+   "target": "細胞の入れ替わり",
+   "rel": "全身の細胞の入れ替わりを数えた",
+   "weight": "強"
+  },
+  {
    "source": "2021 山下",
    "target": "計算論的精神医学",
    "rel": "裏づけ（この塊の出どころ）",
@@ -41362,6 +43318,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "2023 Murphy",
+   "target": "1995 Loftus",
+   "rel": "事前登録の直接追試で再現",
+   "weight": "強"
+  },
+  {
+   "source": "2023 Murphy",
+   "target": "偽りの記憶の植え付け",
+   "rel": "35%が偽りの記憶と判定",
+   "weight": "標準"
+  },
+  {
    "source": "2023 Polajnar",
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
@@ -41402,6 +43370,12 @@ window.DATA = {
    "target": "言語という圧縮（捨てるから運べる）",
    "rel": "動画の「言語は思考の器ではない」の根拠",
    "weight": "標準"
+  },
+  {
+   "source": "2024 Hollanek",
+   "target": "故人を再現するAI（デッドボット）",
+   "rel": "3つの思索的シナリオで倫理を検討",
+   "weight": "強"
   },
   {
    "source": "2024 Janža",
@@ -43162,6 +45136,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "エピソード的な人と通時的な人",
+   "target": "同一性は重要ではない（パーフィット）",
+   "rel": "過去の自分を自分と感じない生き方",
+   "weight": "標準"
+  },
+  {
    "source": "エマ・テンプルトン",
    "target": "2022 Templeton",
    "rel": "筆頭著者",
@@ -43183,6 +45163,18 @@ window.DATA = {
    "source": "エリエザー・ユドカウスキー",
    "target": "AIフーム論争",
    "rel": "急激な離陸の側",
+   "weight": "標準"
+  },
+  {
+   "source": "エリザベス・ロフタス",
+   "target": "偽りの記憶の植え付け",
+   "rel": "迷子研究",
+   "weight": "強"
+  },
+  {
+   "source": "エリザベス・ロフタス",
+   "target": "記憶の再構成",
+   "rel": "目撃証言と事後情報の研究",
    "weight": "標準"
   },
   {
@@ -43484,6 +45476,12 @@ window.DATA = {
    "target": "2024 Nedergaard",
    "rel": "共著者（最終著者）",
    "weight": "標準"
+  },
+  {
+   "source": "ゲイレン・ストローソン",
+   "target": "エピソード的な人と通時的な人",
+   "rel": "区別した",
+   "weight": "強"
   },
   {
    "source": "ゲシュタルト的閉合",
@@ -44020,6 +46018,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "ジョン・サール",
+   "target": "中国語の部屋",
+   "rel": "考えた",
+   "weight": "強"
+  },
+  {
    "source": "ジョン・バーグ",
    "target": "1999 Chartrand",
    "rel": "共著者",
@@ -44029,6 +46033,12 @@ window.DATA = {
    "source": "ジョン・フラベル",
    "target": "1979 Flavell",
    "rel": "著者",
+   "weight": "強"
+  },
+  {
+   "source": "ジョン・ロック",
+   "target": "人格の同一性の記憶説",
+   "rel": "唱えた",
    "weight": "強"
   },
   {
@@ -44114,6 +46124,12 @@ window.DATA = {
    "target": "髄鞘化と一般知能因子",
    "rel": "結合性の空間的な面（vs 時間的な面＝髄鞘化）",
    "weight": "標準"
+  },
+  {
+   "source": "スワンプマン",
+   "target": "故人を再現するAI（デッドボット）",
+   "rel": "デジタル版",
+   "weight": "強"
   },
   {
    "source": "スーザン・クック=グロイター",
@@ -44524,6 +46540,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "ダン・マクアダムス",
+   "target": "ナラティブ・アイデンティティ",
+   "rel": "ライフストーリー・モデル",
+   "weight": "強"
+  },
+  {
    "source": "ダーウィンの赤面調査",
    "target": "恥と罪",
    "rel": "どこでも赤らめる＝羞恥の反応には生得的な基礎がある（p.20-21）",
@@ -44662,6 +46684,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "テセウスの船",
+   "target": "細胞の入れ替わり",
+   "rel": "人の体版",
+   "weight": "強"
+  },
+  {
+   "source": "テセウスの船",
+   "target": "私とは語り続けられる物語",
+   "rel": "船であり続けたのは人々がそう呼んだから",
+   "weight": "標準"
+  },
+  {
    "source": "テリー・ロビンソン",
    "target": "2016 Berridge",
    "rel": "共著・誘因感作理論の共同提唱者",
@@ -44764,6 +46798,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "デレク・パーフィット",
+   "target": "同一性は重要ではない（パーフィット）",
+   "rel": "唱えた",
+   "weight": "強"
+  },
+  {
    "source": "データ駆動型アプローチ",
    "target": "バイオタイプ",
    "rel": "代表例（Clementz 2016）",
@@ -44786,6 +46826,12 @@ window.DATA = {
    "target": "儀式化",
    "rel": "闘いの儀式",
    "weight": "標準"
+  },
+  {
+   "source": "トマス・リード",
+   "target": "人格の同一性の記憶説",
+   "rel": "批判 勇敢な将校の反例",
+   "weight": "強"
   },
   {
    "source": "トラップ・チューブ課題",
@@ -44822,6 +46868,24 @@ window.DATA = {
    "target": "2021 Heym",
    "rel": "筆頭著者",
    "weight": "強"
+  },
+  {
+   "source": "ナラティブ・アイデンティティ",
+   "target": "私とは語り続けられる物語",
+   "rel": "動画の答えの学術版",
+   "weight": "強"
+  },
+  {
+   "source": "ナラティブ・アイデンティティ",
+   "target": "自伝的記憶",
+   "rel": "材料",
+   "weight": "標準"
+  },
+  {
+   "source": "ナラティブ・アイデンティティ",
+   "target": "自己著述段階",
+   "rel": "自分の物語を自分で書く",
+   "weight": "標準"
   },
   {
    "source": "ニサ",
@@ -44875,6 +46939,12 @@ window.DATA = {
    "source": "ネガティビティ・バイアス",
    "target": "サリエンス",
    "rel": "負の情報が注意を奪う＝サリエンスの偏り（大河の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "ネガティブ・ケイパビリティ",
+   "target": "私とは語り続けられる物語",
+   "rel": "答えの出ない問いとともにいる場所",
    "weight": "標準"
   },
   {
@@ -45049,6 +47119,12 @@ window.DATA = {
    "source": "ハーバードの心理学講義",
    "target": "環境パーソナリティ",
    "rel": "第8章",
+   "weight": "標準"
+  },
+  {
+   "source": "ハーバード成人発達研究",
+   "target": "両価的な関係",
+   "rel": "関係の質が健康に効く別の系列",
    "weight": "標準"
   },
   {
@@ -45496,6 +47572,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "ブレーズ・パスカル",
+   "target": "考える葦",
+   "rel": "書いた",
+   "weight": "強"
+  },
+  {
+   "source": "ブレーズ・パスカル",
+   "target": "退屈の哲学（パスカルからハイデガーまで）",
+   "rel": "同じ人の気晴らし論",
+   "weight": "標準"
+  },
+  {
    "source": "ヘンリ・タジフェル",
    "target": "1971 Tajfel",
    "rel": "筆頭著者",
@@ -45638,6 +47726,18 @@ window.DATA = {
    "target": "2024 Tam",
    "rel": "共著",
    "weight": "標準"
+  },
+  {
+   "source": "マイケル・ガザニガ",
+   "target": "分離脳",
+   "rel": "45年続けた",
+   "weight": "強"
+  },
+  {
+   "source": "マイケル・ガザニガ",
+   "target": "左脳の解釈装置",
+   "rel": "名付けた",
+   "weight": "強"
   },
   {
    "source": "マイサイドバイアス",
@@ -46138,6 +48238,24 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "ルネ・デカルト",
+   "target": "方法的懐疑",
+   "rel": "始めた",
+   "weight": "強"
+  },
+  {
+   "source": "ルネ・デカルト",
+   "target": "我思う、ゆえに我あり",
+   "rel": "見いだした",
+   "weight": "強"
+  },
+  {
+   "source": "ルネ・デカルト",
+   "target": "デカルトの動物機械論",
+   "rel": "同じ人の動物観",
+   "weight": "標準"
+  },
+  {
    "source": "ルーシーの粗相",
    "target": "類人猿の言語訓練",
    "rel": "異種養育のチンパンジー（テマーリン家）の記号による嘘と謝罪（ファウツ・p.147-155）",
@@ -46246,6 +48364,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "ロジャー・スペリー",
+   "target": "分離脳",
+   "rel": "始めた",
+   "weight": "強"
+  },
+  {
    "source": "ロバート・D・ヘア",
    "target": "サイコパシー・チェックリスト改訂版（PCL-R）",
    "rel": "作者",
@@ -46328,6 +48452,12 @@ window.DATA = {
    "target": "1993 Vinge",
    "rel": "著者",
    "weight": "標準"
+  },
+  {
+   "source": "ヴィクトール・フランクル",
+   "target": "人生からの問いに応える（フランクル）",
+   "rel": "唱えた",
+   "weight": "強"
   },
   {
    "source": "ヴォルフガング・ケーラー",
@@ -46420,6 +48550,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "不死の退屈",
+   "target": "有限性が意味を与える（四千週間）",
+   "rel": "裏返しの論証",
+   "weight": "強"
+  },
+  {
+   "source": "不死の退屈",
+   "target": "退屈の哲学（パスカルからハイデガーまで）",
+   "rel": "時間が無限なら",
+   "weight": "標準"
+  },
+  {
    "source": "不気味の谷",
    "target": "嫌悪感",
    "rel": "谷の底の反応は嫌悪に近い（大河の見立て。森の原文は「不気味さ」）",
@@ -46450,9 +48592,27 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "世界五分前仮説",
+   "target": "記憶の再構成",
+   "rel": "記憶は過去の証拠にならない",
+   "weight": "標準"
+  },
+  {
    "source": "両価的な関係",
    "target": "社会的痛み",
    "rel": "近い現象",
+   "weight": "標準"
+  },
+  {
+   "source": "中国語の部屋",
+   "target": "ハード・プロブレム",
+   "rel": "理解と処理の違い",
+   "weight": "標準"
+  },
+  {
+   "source": "中国語の部屋",
+   "target": "2010 Chalmers",
+   "rel": "機械が心を持つかの別の入り口",
    "weight": "標準"
   },
   {
@@ -46678,6 +48838,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "人格の同一性の記憶説",
+   "target": "自伝的記憶",
+   "rel": "同一性を担うとされたもの",
+   "weight": "強"
+  },
+  {
    "source": "人為振動ノイズ",
    "target": "振動コミュニケーション",
    "rel": "脅かす",
@@ -46687,6 +48853,192 @@ window.DATA = {
    "source": "人為振動ノイズ",
    "target": "環世界",
    "rel": "感覚風景の破壊",
+   "weight": "標準"
+  },
+  {
+   "source": "人生からの問いに応える（フランクル）",
+   "target": "私とは語り続けられる物語",
+   "rel": "物語は応答の積み重ね",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "我思う、ゆえに我あり",
+   "rel": "00:00 すべての出発点の岩",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "方法的懐疑",
+   "rel": "01:00 全てを疑ってみる実験",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "細胞の入れ替わり",
+   "rel": "03:45 肉体は本当にあなた自身か",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "テセウスの船",
+   "rel": "05:00 部品を全て交換された船",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "スワンプマン",
+   "rel": "05:30 人間版／28:30 デジタル版",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "人格の同一性の記憶説",
+   "rel": "07:50 ロック",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "世界五分前仮説",
+   "rel": "08:30 記憶の古傷",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "記憶の再構成",
+   "rel": "09:00 録画の再生ではなく毎回の再生成",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "偽りの記憶の植え付け",
+   "rel": "09:00 ショッピングモールの迷子",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "記憶の再固定化",
+   "rel": "09:00 上書き保存される",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "音楽記憶の保存（アルツハイマー病）",
+   "rel": "11:00 昔の歌を流せば口が動く",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "水槽の脳",
+   "rel": "12:00 脳の古傷",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "ハード・プロブレム",
+   "rel": "12:30 なぜ物質の塊に感じが宿るのか",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "分離脳",
+   "rel": "13:30 一枚岩ではない私",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "左脳の解釈装置",
+   "rel": "14:00 後から書かれた解説",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "ナラティブ・アイデンティティ",
+   "rel": "15:24 改訂し続けている編集者",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "動的平衡",
+   "rel": "20:36 流れとしての生命／川の渦",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "負のエントロピー",
+   "rel": "22:00 生命だけが局所的に坂を登る",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "不死の退屈",
+   "rel": "23:00 もしあなたが不死になったら",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "有限性が意味を与える（四千週間）",
+   "rel": "24:00 死は人生の額縁",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "メメント・モリ",
+   "rel": "24:30 凱旋する将軍の後ろで",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "ハーバード成人発達研究",
+   "rel": "25:00 一つ目の報告書",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "人生からの問いに応える（フランクル）",
+   "rel": "26:00 二つ目の報告書",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "中国語の部屋",
+   "rel": "27:30 あの部屋は今あなたのポケットに",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "故人を再現するAI（デッドボット）",
+   "rel": "28:00 亡くなった人の声で話すAI",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "考える葦",
+   "rel": "30:30 パスカル",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "ネガティブ・ケイパビリティ",
+   "rel": "31:00 答えの出ない問いを抱えていられる力",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "私とは語り続けられる物語",
+   "rel": "30:00 岩に帰る＝動画の結論",
+   "weight": "強"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "悪夢の正体（深淵回廊）",
+   "rel": "同じチャンネル（映08）",
+   "weight": "標準"
+  },
+  {
+   "source": "人生が辛いあなたへ（深淵回廊）",
+   "target": "本当に頭が良い人は何を考えているのか（深淵回廊）",
+   "rel": "同じチャンネル（映03）",
    "weight": "標準"
   },
   {
@@ -46946,6 +49298,12 @@ window.DATA = {
    "target": "SNS",
    "rel": "動画が想定する舞台",
    "weight": "標準"
+  },
+  {
+   "source": "偽りの記憶の植え付け",
+   "target": "記憶の再構成",
+   "rel": "再構成の極端な形",
+   "weight": "強"
   },
   {
    "source": "儀式化",
@@ -47227,6 +49585,18 @@ window.DATA = {
    "source": "冷徹な善意",
    "target": "視点取得",
    "rel": "「線の向こう側・円の外の人を思い浮かべる」",
+   "weight": "標準"
+  },
+  {
+   "source": "分離脳",
+   "target": "左脳の解釈装置",
+   "rel": "分離脳で見つかった",
+   "weight": "強"
+  },
+  {
+   "source": "分離脳",
+   "target": "ハード・プロブレム",
+   "rel": "意識はいくつかの問い",
    "weight": "標準"
   },
   {
@@ -47644,6 +50014,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "動的平衡",
+   "target": "負のエントロピー",
+   "rel": "流れを保つための秩序の取りこみ",
+   "weight": "強"
+  },
+  {
+   "source": "動的平衡",
+   "target": "エルヴィン・シュレーディンガー",
+   "rel": "『生命とは何か』",
+   "weight": "標準"
+  },
+  {
    "source": "匿名社会と良心",
    "target": "SNS",
    "rel": "大河の見立て＝SNSは匿名の都市にうわさ話を戻した装置＝ただし対面の矯正の段階が無い",
@@ -47839,6 +50221,18 @@ window.DATA = {
    "source": "同じ主体が異なる環世界で客体となる",
    "target": "魔術的環世界",
    "rel": "少女の環世界ではカシワの木が悪魔になる",
+   "weight": "標準"
+  },
+  {
+   "source": "同一性は重要ではない（パーフィット）",
+   "target": "人格の同一性の記憶説",
+   "rel": "記憶の鎖へ直して継ぐ",
+   "weight": "強"
+  },
+  {
+   "source": "同一性は重要ではない（パーフィット）",
+   "target": "故人を再現するAI（デッドボット）",
+   "rel": "複製は私か",
    "weight": "標準"
   },
   {
@@ -48637,6 +51031,12 @@ window.DATA = {
    "source": "左利きと新規性の探索",
    "target": "前部帯状回は脳の中の大勢順応主義者",
    "rel": "左利きはACCが小さいか低活性という予測（未検証）",
+   "weight": "標準"
+  },
+  {
+   "source": "左脳の解釈装置",
+   "target": "自伝的記憶",
+   "rel": "理由をあとから語る",
    "weight": "標準"
   },
   {
@@ -49534,6 +51934,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "我思う、ゆえに我あり",
+   "target": "私とは語り続けられる物語",
+   "rel": "動画の建物の土台＝岩",
+   "weight": "強"
+  },
+  {
    "source": "批判的思考",
    "target": "マイサイドバイアス",
    "rel": "検品の目が自分の側の前提には向きにくい（Stanovich 2013）",
@@ -49714,6 +52120,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "故人を再現するAI（デッドボット）",
+   "target": "継続する絆",
+   "rel": "亡き人との絆の新しい形か",
+   "weight": "強"
+  },
+  {
+   "source": "故人を再現するAI（デッドボット）",
+   "target": "2010 Chalmers",
+   "rel": "アップロードと人格の同一性",
+   "weight": "標準"
+  },
+  {
    "source": "散逸構造",
    "target": "アロスタシス",
    "rel": "⚠流れを通して形を保つ点で似る（大河の見立て・水準の違う概念）",
@@ -49816,6 +52234,18 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "方法的懐疑",
+   "target": "我思う、ゆえに我あり",
+   "rel": "疑いの果てに残った一つ",
+   "weight": "強"
+  },
+  {
+   "source": "方法的懐疑",
+   "target": "水槽の脳",
+   "rel": "欺く霊の現代版",
+   "weight": "標準"
+  },
+  {
    "source": "暗い部屋問題",
    "target": "認識的要請",
    "rel": "提唱側の答え",
@@ -49879,6 +52309,18 @@ window.DATA = {
    "source": "最遠平面",
    "target": "環世界",
    "rel": "動物はみなシャボン玉に囲まれている",
+   "weight": "標準"
+  },
+  {
+   "source": "有限性が意味を与える（四千週間）",
+   "target": "メメント・モリ",
+   "rel": "同じ道具の古い形",
+   "weight": "強"
+  },
+  {
+   "source": "有限性が意味を与える（四千週間）",
+   "target": "私とは語り続けられる物語",
+   "rel": "終わりは物語の敵ではない",
    "weight": "標準"
   },
   {
@@ -50030,6 +52472,12 @@ window.DATA = {
    "target": "学習の生物的制約",
    "rel": "北米の学習研究に生得側の視点が戻ってくる流れ",
    "weight": "標準"
+  },
+  {
+   "source": "本質的な道徳的自己",
+   "target": "人格の同一性の記憶説",
+   "rel": "その人らしさは記憶より道徳的性格に",
+   "weight": "強"
   },
   {
    "source": "条件づけは因果推論か",
@@ -51298,6 +53746,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "私とは語り続けられる物語",
+   "target": "人格の同一性の記憶説",
+   "rel": "乗り越えようとした候補1",
+   "weight": "標準"
+  },
+  {
    "source": "秋田喜美",
    "target": "言語の本質",
    "rel": "共著",
@@ -51362,6 +53816,12 @@ window.DATA = {
    "target": "嫌悪と道徳判断の追試問題",
    "rel": "批判",
    "weight": "標準"
+  },
+  {
+   "source": "細胞の入れ替わり",
+   "target": "動的平衡",
+   "rel": "流れとしての体",
+   "weight": "強"
   },
   {
    "source": "経験の共有",
@@ -51469,6 +53929,12 @@ window.DATA = {
    "source": "考える左脳",
    "target": "脳の作戦会議",
    "rel": "呼び集める相手",
+   "weight": "標準"
+  },
+  {
+   "source": "考える葦",
+   "target": "ハード・プロブレム",
+   "rel": "感じ知ることが人に残る",
    "weight": "標準"
   },
   {
@@ -52558,6 +55024,42 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "記憶の再固定化",
+   "target": "記憶の再構成",
+   "rel": "神経の層の候補",
+   "weight": "標準"
+  },
+  {
+   "source": "記憶の再構成",
+   "target": "自伝的記憶",
+   "rel": "自分の過去も同じしくみで",
+   "weight": "強"
+  },
+  {
+   "source": "記憶を失った友はあの頃と同じ人か",
+   "target": "私とは語り続けられる物語",
+   "rel": "動画から立てた問い",
+   "weight": "強"
+  },
+  {
+   "source": "記憶を失った友はあの頃と同じ人か",
+   "target": "本質的な道徳的自己",
+   "rel": "見ている側の判断の芯",
+   "weight": "強"
+  },
+  {
+   "source": "記憶を失った友はあの頃と同じ人か",
+   "target": "同一性は重要ではない（パーフィット）",
+   "rel": "問いが空っぽである可能性",
+   "weight": "標準"
+  },
+  {
+   "source": "記憶を失った友はあの頃と同じ人か",
+   "target": "エピソード的な人と通時的な人",
+   "rel": "覚えている側と覚えていない側の非対称",
+   "weight": "標準"
+  },
+  {
    "source": "試験の夢",
    "target": "脅威シミュレーション理論",
    "rel": "本番前の演習という解釈",
@@ -53467,6 +55969,12 @@ window.DATA = {
    "source": "非言語性学習障害",
    "target": "新規性-ルーチン化理論",
    "rel": "右半球機能障害＝新規性の忌避と心的硬直",
+   "weight": "標準"
+  },
+  {
+   "source": "音楽記憶の保存（アルツハイマー病）",
+   "target": "自伝的記憶",
+   "rel": "他の記憶が失われても",
    "weight": "標準"
   },
   {
