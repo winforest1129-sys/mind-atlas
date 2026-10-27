@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23 23:32",
+ "generated": "2026-10-27 21:27",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -994,6 +994,72 @@
    "stub": false
   },
   {
+   "id": "1991 Fava",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Prodromal symptoms in affective disorders",
+     "url": "https://doi.org/10.1176/ajp.148.7.823",
+     "note": "要旨を確かめた（PMID 2053620・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1991 Fava.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1991",
+    "著者": "Fava GA・Kellner R",
+    "雑誌": "American Journal of Psychiatry 148(7):823-830",
+    "DOI": "10.1176/ajp.148.7.823",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Prodromal symptoms in affective disorders**\n\nFava GA・Kellner R（1991）／ *American Journal of Psychiatry 148(7):823-830*",
+    "この地図で": "- 躁・うつ・パニック障害の**前駆症状**を扱った研究24本の総説\n- ==ほとんどの研究が前駆期を記述していた。前駆症状は、病気がそろう**数週から数か月前**に出ることがある==\n- 前駆症状に気づければ、**再発**を早く、たぶんより効果的に治療できる\n- 横断的な診断（DSM-III）に、前駆期と残遺期の見立てを足すべきだと提案\n- !!動画との食い違い!!＝動画は「ファバたちはうつ病になった人に、診断の前に何があったかを細かく聞き取った」と言う。この論文は**総説**で、聞き取りをしたのは集めた元の研究。「不安・いらだち・疲れやすさ・睡眠の変化」の並びは要旨に無い（本文は未読）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1991 Nolen-Hoeksema",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Responses to depression and their effects on the duration of depressive episodes",
+     "url": "https://doi.org/10.1037/0021-843X.100.4.569",
+     "note": "Crossref で書誌を照合。Europe PMC に無く要旨は取れなかった（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1991 Nolen-Hoeksema.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1991",
+    "著者": "Nolen-Hoeksema S",
+    "雑誌": "Journal of Abnormal Psychology 100(4):569-582",
+    "DOI": "10.1037/0021-843X.100.4.569",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Responses to depression and their effects on the duration of depressive episodes**\n\nNolen-Hoeksema S（1991）／ *Journal of Abnormal Psychology 100(4):569-582*",
+    "この地図で": "- **反応スタイル理論**の原典。落ち込んだときに、その気分と原因と結果に注意を向け続ける反応（**反芻**）は、うつのエピソードを**長引かせる**、という説\n- 気をそらす反応は短くする、とした\n- ⚠中身は大河の記憶と、[[2008 Nolen-Hoeksema]] の要旨（「1991年の理論」）から",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "1992 Kuper",
    "type": "論文",
    "confidence": "確認済",
@@ -1206,6 +1272,39 @@
    "sections": {
     "これは何か": "**The formation of false memories**\n\nLoftus EF・Pickrell JE（1995）／ *Psychiatric Annals 25(12):720-725*",
     "この地図で": "- いわゆる「ショッピングモールで迷子」研究。年上の家族から聞いた本当の出来事3つに、作った出来事（5〜6歳でモールで迷子になった）を1つ混ぜて冊子にし、面接で思い出してもらった\n- ==作られた迷子を、一部でも思い出したと判定された人が約25%==（人数は24人。[[2023 Murphy]] の要旨が「原典の5倍」「原典は25%」と書く）\n- !!動画との食い違い!!。動画は「一部の人が**細部まで鮮明に**思い出した」と言う。大河の記憶では、原典の報告は逆で、作られた記憶は本当の記憶より**語数が少なく、鮮明さの自己評価も低かった**。⚠本文は読めていない（大河の記憶）\n- 小さな研究で、方法の弱さ（人数・判定基準）が長く指摘されてきた。それに答えたのが [[2023 Murphy]] の事前登録の追試",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1995 Paykel",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Residual symptoms after partial remission - an important outcome in depression",
+     "url": "https://doi.org/10.1017/S0033291700033146",
+     "note": "要旨を確かめた（PMID 8637947・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1995 Paykel.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1995",
+    "著者": "Paykel ES・Ramana R・Cooper Z・Hayhurst H・Kerr J・Barocka A",
+    "雑誌": "Psychological Medicine 25(6):1171-1180",
+    "DOI": "10.1017/S0033291700033146",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Residual symptoms after partial remission - an important outcome in depression**\n\nPaykel ES・Ramana R・Cooper Z・Hayhurst H・Kerr J・Barocka A（1995）／ *Psychological Medicine 25(6):1171-1180*",
+    "この地図で": "- 大うつ病の患者を3か月ごとに追い、寛解の後も見た\n- 15か月までに寛解した60人のうち32%（19人）に、軽いが典型的な**残遺症状**（ハミルトン17項目で8点以上）\n- ==残遺症状のある人の **76%**（13/17）が早く再発。無い人は **25%**（10/40）==\n- ⭐「戻った」と「すっかり戻った」は違う。動画の「戻った人も気づかないまま戻る」の裏側",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1424,6 +1523,72 @@
    "sections": {
     "これは何か": "**Role of REM sleep and dream variables in the prediction of remission from depression**\n\nCartwright R・Young MA・Mercer P・Bears M（1998）／ *Psychiatry Research 80(3):249-255*",
     "この地図で": "- 夫婦が別居した**61人**を、別居の直後と1年後に、3晩ずつ睡眠を記録してベックの抑うつ尺度を測った\n- 1年後の抑うつの得点の分散の49%を、最初の抑うつの得点と、睡眠と夢の3つの変数（最初のレム睡眠の眼球運動の密度・最初の夢の感情の強さ・レム睡眠から起こして聞いた否定的な夢の数）で説明できた\n- ==最初に抑うつだった39人では、**夜の前半に否定的な夢が多く、後半に少ない**人ほど、1年後に回復していた==（判別分析で71.8%を正しく分類）\n- 著者の解釈＝夜の初めの否定的な夢は、眠りの中で気分を整える過程が進んでいるしるし。夜の終わりまで続くのは、その過程が終わりきらないしるし\n- !!動画との食い違い!!。動画は「元配偶者の夢をより多く、感情的により激しく見ていた人ほど回復が良かった」と言う。この論文で効いていたのは**夢の感情の強さ**と**否定的な夢が夜のどこに来るか**で、「元配偶者が出てくるか」は要旨に無い。元配偶者が夢に出ることの話は [[1991 Cartwright]] のほう",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1998 Furukawa",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Typus melancholicus in light of the five-factor model of personality",
+     "url": "https://doi.org/10.1007/s004060050019",
+     "note": "要旨を確かめた（PMID 9684914・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1998 Furukawa.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1998",
+    "著者": "Furukawa T・Yamada A・Tabuse H・Takahashi K・Hamanaka T・Kawai K ほか",
+    "雑誌": "European Archives of Psychiatry and Clinical Neuroscience 248(2):64-69",
+    "DOI": "10.1007/s004060050019",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Typus melancholicus in light of the five-factor model of personality**\n\nFurukawa T・Yamada A・Tabuse H・Takahashi K・Hamanaka T・Kawai K ほか（1998）／ *European Archives of Psychiatry and Clinical Neuroscience 248(2):64-69*",
+    "この地図で": "- ドイツと日本で、うつの**病前性格**として広く受け入れられてきたメランコリー親和型（Typus melancholicus）を、五因子モデルで見た\n- 外来患者140人について、近親者が2つの尺度（フォン・ツェルセンの F リスト・笠原の尺度）と NEO-FFI に答えた\n- ==メランコリー親和型は**誠実性が高く・協調性が高く**、やや外向性が高い==\n- 3つの特性を一つの型にまとめる意味があるかは、さらに調べる必要がある（著者ら）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1998 McEwen",
+   "type": "論文",
+   "confidence": "推測",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Protective and damaging effects of stress mediators",
+     "url": "https://doi.org/10.1056/NEJM199801153380307",
+     "note": "Crossref で書誌を照合。要旨は無い（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1998 McEwen.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1998",
+    "著者": "McEwen BS",
+    "雑誌": "New England Journal of Medicine 338(3):171-179",
+    "DOI": "10.1056/NEJM199801153380307",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "取得できず"
+   },
+   "sections": {
+    "これは何か": "**Protective and damaging effects of stress mediators**\n\nMcEwen BS（1998）／ *New England Journal of Medicine 338(3):171-179*",
+    "この地図で": "- ストレスの仲立ち（コルチゾール・アドレナリンなど）は、**短期には体を守り、長く続くと体を傷める**、という総説\n- ==中身は大河の記憶== で書いた。要旨が無く本文も読めていない。「アロスタティック負荷」の名の初出は McEwen & Stellar（1993）だというのも記憶",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -1908,6 +2073,39 @@
    "sections": {
     "これは何か": "**Emotion regulation and memory: the cognitive costs of keeping one's cool**\n\nRichards & Gross（2000）／ *Journal of personality and social psychology*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[感情の抑制]]** ── 抑制すると出来事の記憶が悪くなる。とくに社会的に重要な情報の記憶が落ちる。2026-08-30に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2000 Solomon",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Multiple recurrences of major depressive disorder",
+     "url": "https://doi.org/10.1176/appi.ajp.157.2.229",
+     "note": "要旨を確かめた（PMID 10671391・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2000 Solomon.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2000",
+    "著者": "Solomon DA・Keller MB・Leon AC・Mueller TI・Lavori PW・Shea MT ほか",
+    "雑誌": "American Journal of Psychiatry 157(2):229-233",
+    "DOI": "10.1176/appi.ajp.157.2.229",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Multiple recurrences of major depressive disorder**\n\nSolomon DA・Keller MB・Leon AC・Mueller TI・Lavori PW・Shea MT ほか（2000）／ *American Journal of Psychiatry 157(2):229-233*",
+    "この地図で": "- 単極性の大うつ病318人を10年追った多施設の自然経過研究\n- 3分の2近くが少なくとも1回再発した\n- ==再発を重ねるごとに次の再発のリスクが **16%** ずつ上がる。**寛解が長く続くほどリスクは下がっていく**==\n- 一人の中でも、次の再発までの時間はほとんど一定しない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2624,6 +2822,39 @@
    "stub": false
   },
   {
+   "id": "2004 Goetzel",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Health absence disability and presenteeism cost estimates of certain physical and mental health conditions affecting U.S. employers",
+     "url": "https://doi.org/10.1097/01.jom.0000121151.40413.bd",
+     "note": "要旨を確かめた（PMID 15076658・2026-10-27）。題のカンマは書式の都合で外した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2004 Goetzel.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2004",
+    "著者": "Goetzel RZ・Long SR・Ozminkowski RJ・Hawkins K・Wang S・Lynch W",
+    "雑誌": "Journal of Occupational and Environmental Medicine 46(4):398-412",
+    "DOI": "10.1097/01.jom.0000121151.40413.bd",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Health absence disability and presenteeism cost estimates of certain physical and mental health conditions affecting U.S. employers**\n\nGoetzel RZ・Long SR・Ozminkowski RJ・Hawkins K・Wang S・Lynch W（2004）／ *Journal of Occupational and Environmental Medicine 46(4):398-412*",
+    "この地図で": "- 10の健康状態について、医療費・欠勤・短期障害・生産性の損失をまとめて推計した\n- 従業員1人あたり年間の負担＝高血圧392ドル・心疾患368ドル・==うつとその他の精神疾患348ドル==・関節炎327ドル\n- ==プレゼンティーイズムの損失はほとんどの場合に**医療費より大きく**、全費用の18〜60%==\n- 著者ら自身が「どのデータ源の解釈にも注意」と書く\n- ⚠要旨が比べているのは**医療費**との大小。「欠勤よりはるかに大きい」は要旨からは言えない（日本では [[2018 Nagata]] がはっきり示す）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2004 Keller",
    "type": "論文",
    "confidence": "確認済",
@@ -3282,6 +3513,39 @@
    "stub": false
   },
   {
+   "id": "2006 Cacioppo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Loneliness as a specific risk factor for depressive symptoms - cross-sectional and longitudinal analyses",
+     "url": "https://doi.org/10.1037/0882-7974.21.1.140",
+     "note": "要旨を確かめた（PMID 16594799・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2006 Cacioppo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2006",
+    "著者": "Cacioppo JT・Hughes ME・Waite LJ・Hawkley LC・Thisted RA",
+    "雑誌": "Psychology and Aging 21(1):140-151",
+    "DOI": "10.1037/0882-7974.21.1.140",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Loneliness as a specific risk factor for depressive symptoms - cross-sectional and longitudinal analyses**\n\nCacioppo JT・Hughes ME・Waite LJ・Hawkley LC・Thisted RA（2006）／ *Psychology and Aging 21(1):140-151*",
+    "この地図で": "- 2つの集団研究（54歳以上の全国標本・50〜67歳のクック郡の標本）\n- 孤独感が強いほど抑うつ症状が多い。年齢・性別・収入・婚姻・社会的支援・知覚されたストレスを調整しても残る\n- ==3年の縦断で、孤独感と抑うつは**互いに**影響し合っていた==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2006 Donnellan",
    "type": "論文",
    "confidence": "確認済",
@@ -3446,6 +3710,39 @@
    "sections": {
     "これは何か": "**Intergroup Threat and Outgroup Attitudes: A Meta-Analytic Review**\n\nRiek ら（3名）（2006）／ *Personality and Social Psychology Review*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[嫌悪感は軸の混線ではないか]]** ── この予感の「集団の側の受け皿」が支持されていることの出典。95標本のメタ分析。5種の脅威がいずれも外集団への否定的態度と正の関係。2026-09-02に確認\n- **[[集団脅威]]** ── 95標本のメタ分析。5種類の脅威（現実的脅威・象徴的脅威・集団間不安・否定的ステレオタイプ・集団自尊心への脅威・独自性への脅威）がいずれも外集団への否定的態度と正の関係。統合脅威理論（Stephan & Stephan 2000）が土台。2026-09-02に確認\n- **[[集団脅威]]** ── 書誌。2026-09-02に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2006 Wittmann",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Social jetlag - misalignment of biological and social time",
+     "url": "https://doi.org/10.1080/07420520500545979",
+     "note": "要旨を確かめた（PMID 16687322・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2006 Wittmann.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2006",
+    "著者": "Wittmann M・Dinich J・Merrow M・Roenneberg T",
+    "雑誌": "Chronobiology International 23(1-2):497-509",
+    "DOI": "10.1080/07420520500545979",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Social jetlag - misalignment of biological and social time**\n\nWittmann M・Dinich J・Merrow M・Roenneberg T（2006）／ *Chronobiology International 23(1-2):497-509*",
+    "この地図で": "- 人の睡眠の時刻の好み＝**クロノタイプ**は体内時計がおもに決める。仕事や学校の時刻は多くの人の好みとずれる\n- 夜型ほど、仕事の日と休みの日の睡眠時刻の差が大きい＝平日に睡眠の借金をつくり、休日に返す\n- ==このずれ（社会的な時刻と体の時刻のずれ）を**社会的時差ぼけ**と呼んだ==\n- 501人。クロノタイプと心理的な調子・嗜好品（とくに喫煙）の関連は、クロノタイプそのものより**社会的時差ぼけ**の結果らしい",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -3807,6 +4104,39 @@
    "stub": false
   },
   {
+   "id": "2008 Beck",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "The evolution of the cognitive model of depression and its neurobiological correlates",
+     "url": "https://doi.org/10.1176/appi.ajp.2008.08050721",
+     "note": "要旨を確かめた（PMID 18628348・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2008 Beck.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2008",
+    "著者": "Beck AT",
+    "雑誌": "American Journal of Psychiatry 165(8):969-977",
+    "DOI": "10.1176/appi.ajp.2008.08050721",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The evolution of the cognitive model of depression and its neurobiological correlates**\n\nBeck AT（2008）／ *American Journal of Psychiatry 165(8):969-977*",
+    "この地図で": "- うつの認知モデルの40年を、提唱者本人がふり返った総説\n- モデルは段階的に広がった＝**自動思考・認知の歪み・非機能的な信念・情報処理の偏り**\n- 発達のモデル＝早期の外傷体験と非機能的な信念が素因、後年それに合うストレスが引き金\n- ==過敏な扁桃体と働きの弱い前頭前野の組み合わせが、認知的な評価の弱さとうつに結びつく==。遺伝子多型もストレスへの過剰反応と高コルチゾールに関わる（認知の歪みが仲立ちしているらしい）\n- ⚠「三徴」そのものは要旨に出てこない。三徴の中身は大河の記憶（1967年の本）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2008 Dantzer",
    "type": "論文",
    "confidence": "確認済",
@@ -4003,6 +4333,39 @@
    "stub": false
   },
   {
+   "id": "2008 Nolen-Hoeksema",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Rethinking rumination",
+     "url": "https://doi.org/10.1111/j.1745-6924.2008.00088.x",
+     "note": "要旨を確かめた（PMID 26158958・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2008 Nolen-Hoeksema.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2008",
+    "著者": "Nolen-Hoeksema S・Wisco BE・Lyubomirsky S",
+    "雑誌": "Perspectives on Psychological Science 3(5):400-424",
+    "DOI": "10.1111/j.1745-6924.2008.00088.x",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Rethinking rumination**\n\nNolen-Hoeksema S・Wisco BE・Lyubomirsky S（2008）／ *Perspectives on Psychological Science 3(5):400-424*",
+    "この地図で": "- よく支持された点＝反芻は**うつを悪化させ**、否定的な考えを強め、問題解決を損ない、行動を妨げ、社会的支援を削る\n- ==新しい知見＝反芻は、うつの**長さ**より**発症**を、より一貫して予測する==。長さを予測するのは、否定的な認知スタイルと組み合わさったとき\n- 予想に反し、気をそらすことと抑うつの低さは相関研究ではいつも結びつかない（実験では気分を和らげる）\n- 反芻はうつ以外にも、不安・過食・飲酒・自傷とつながる\n- ⭐動画の「反芻がうつを長引かせ深くする」は1991年の形。**2008年の見直しでは「発症の予測」のほうが固い**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2008 Ochsner",
    "type": "論文",
    "confidence": "確認済",
@@ -4065,6 +4428,39 @@
     "これは何か": "**A critical role for the right fronto-insular cortex in switching between central-executive and default-mode networks**\n\nSridharan ら（3名）（2008）／ *Proceedings of the National Academy of Sciences of the United States of America*",
     "この地図で、どこに効いているか": "**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[サリエンス・ネットワーク]]** ── ==3つの実験で、右前部島皮質がCENとDMNの切り替えに因果的な役割を果たすとした。==図9の「他の二つの回路を切り替えている」の出どころ。2026-09-08に確認\n- **[[セントラル・エグゼクティブ・ネットワーク]]** ── 課題中にCENが活動しDMNが非活動化する、その切り替えに右前部島皮質が関わる。2026-09-08に確認",
     "本文を読んで分かったこと（2026-09-09）": "読んだのは Discussion。Results と Materials and Methods の細部は読んでいない。\n\n### 右前部島皮質は「見分ける」だけでなく「切り替える」\n\nグレンジャー因果分析・潜時分析・ネットワーク分析を組み合わせて、\n==右前部島皮質（rFIC）が、[[セントラル・エグゼクティブ・ネットワーク]] と\n[[デフォルト・モード・ネットワーク]] のあいだの切り替えを引き起こす側にいる==と論じている。\n\n効きかたが強いのは、その一貫性のほう ──\n\n- 聴覚の課題でも、視覚の課題でも、**刺激の種類が変わっても rFIC からの因果的な流出が高い**\n- **課題を何もしない安静時でも同じことが起きた**。だから外からの刺激がなくても、\n  この場所は自発的に切り替えを始められる\n\n著者らはこれを、外から来る制御と内から起こる制御を一つの見取り図にまとめる材料だとしている。\n\n### !!なぜそこなのか!! ── 解剖のほうからの理由\n\n島皮質は感覚・運動・辺縁・連合の多くの領域と相互に結ばれていて、\n前部島皮質と前部帯状回は互いに強く結ばれた一組をなす。情報を集めるには都合がよい場所にある。\n\nそのうえで著者らが挙げるのが **フォン・エコノモ・ニューロン**（[[フォン・エコノモ・ニューロン]]）。\n==前部島皮質と前部帯状回にしか無い特殊な細胞==で、Allman らの提案では\n「そこで処理された情報から導かれた単純な信号を、脳のほかの部分へ**速く中継する**」のが役目。\n著者らは、これが切り替え信号の神経の実体かもしれないと述べている。\n\n!!ただし、これは提案であって、この論文が示した事実ではない。!!\n細胞の話と、fMRI で見た因果の話は、別の水準にある。\n\n### この地図での位置\n\n[[2007 Seeley]] が「サリエンス・ネットワークは重要さを見分ける装置だ」と述べたのに対し、\nこちらは==その先で何をするかを述べている==。見分けたあと、内向きの網を止めて外向きの網を起こす。\n[[島皮質]] を「情動の座」ではなく「切り替え装置」として読む見方は、ここが出どころ。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2008 Wirz-Justice",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Diurnal variation of depressive symptoms",
+     "url": "https://doi.org/10.31887/DCNS.2008.10.3/awjustice",
+     "note": "要旨を確かめた（PMID 18979947・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2008 Wirz-Justice.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2008",
+    "著者": "Wirz-Justice A",
+    "雑誌": "Dialogues in Clinical Neuroscience 10(3):337-343",
+    "DOI": "10.31887/DCNS.2008.10.3/awjustice",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Diurnal variation of depressive symptoms**\n\nWirz-Justice A（2008）／ *Dialogues in Clinical Neuroscience 10(3):337-343*",
+    "この地図で": "- 抑うつ症状の日内変動は、うつの**芯の一部**らしい\n- ==しかし一人の経過を追うと、型はほとんどそろわない。**朝が悪い・午後に落ちる・夕方に悪くなる**が、同じ一回のエピソードの中で全部起こりうる==\n- 治療への反応をいちばん予測するのは、気分の**揺れやすさ**そのもの\n- 気分も体温のように、体内時計と睡眠の恒常性の組み合わせで調節される。夜型（睡眠相の後退）が多い。断眠や睡眠相の前進には抗うつ効果がある\n- !!動画との食い違い!!＝動画の「朝が最も重く、夕方に少し軽くなる人が多い」は、教科書でいう**メランコリーの特徴**の型。この総説は、型は人によってまちまちだと言う",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -4670,6 +5066,39 @@
    "stub": false
   },
   {
+   "id": "2010 Cacioppo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Perceived social isolation makes me sad - 5-year cross-lagged analyses of loneliness and depressive symptomatology in the Chicago Health and Aging and Social Relations Study",
+     "url": "https://doi.org/10.1037/a0017216",
+     "note": "要旨を確かめた（PMID 20545429・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Cacioppo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Cacioppo JT・Hawkley LC・Thisted RA",
+    "雑誌": "Psychology and Aging 25(2):453-463",
+    "DOI": "10.1037/a0017216",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Perceived social isolation makes me sad - 5-year cross-lagged analyses of loneliness and depressive symptomatology in the Chicago Health and Aging and Social Relations Study**\n\nCacioppo JT・Hawkley LC・Thisted RA（2010）／ *Psychology and Aging 25(2):453-463*",
+    "この地図で": "- 50〜68歳の229人を5年追った。交差遅延パネルモデル\n- ==孤独感はのちの抑うつ症状の変化を予測した。**逆向き（抑うつ→孤独感）は見られなかった**==\n- 人口統計・客観的な社会的孤立・否定的な気質・ストレス・社会的支援では説明できなかった\n- !!動画との食い違い!!＝動画は「関係は双方向で、うつが孤独を作り孤独がうつを深める」と言い、説明欄はこの2010年の論文を挙げる。**この論文が示したのは一方向**（孤独感→抑うつ）。双方向の結果は [[2006 Cacioppo]] のほう。⚠対象は中高年",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2010 Chalmers",
    "type": "論文",
    "confidence": "確認済",
@@ -4830,6 +5259,39 @@
    "stub": false
   },
   {
+   "id": "2010 Gulliver",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Perceived barriers and facilitators to mental health help-seeking in young people - a systematic review",
+     "url": "https://doi.org/10.1186/1471-244X-10-113",
+     "note": "要旨を確かめた（PMID 21192795・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Gulliver.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Gulliver A・Griffiths KM・Christensen H",
+    "雑誌": "BMC Psychiatry 10:113",
+    "DOI": "10.1186/1471-244X-10-113",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Perceived barriers and facilitators to mental health help-seeking in young people - a systematic review**\n\nGulliver A・Griffiths KM・Christensen H（2010）／ *BMC Psychiatry 10:113*",
+    "この地図で": "- 若い人（思春期〜若年成人）の22研究\n- ==いちばん大きな壁＝**スティグマと恥ずかしさ**・**症状に気づけないこと**（メンタルヘルス・リテラシーの低さ）・**自分で頼りたい気持ち**==\n- 助けになるもの＝過去の良い経験・周りの支えと後押し（研究は少ない）\n- ⚠対象は若い人。働く世代にそのまま当てはまるかは別",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2010 Killingsworth",
    "type": "論文",
    "confidence": "確認済",
@@ -4859,6 +5321,39 @@
     "これは何か": "**A Wandering Mind Is an Unhappy Mind**\n\nKillingsworth MA・Gilbert DT（2010）／ *Science 330(6006):932*",
     "この地図で": "- **[[マインドワンダリング]]** ── スマホで思考・気分・行動を抜き取り調査。==いま起きていないことを考えている頻度は・起きていることを考える頻度とほぼ同じ==・そしてそのとき人は**ふだん不幸**",
     "注意": "!!動画の「2250人・46.9%」は要旨には出ない。数字は本文で照合していない（大河の記憶とは合う）!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2010 Kotov",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Linking big personality traits to anxiety depressive and substance use disorders - a meta-analysis",
+     "url": "https://doi.org/10.1037/a0020327",
+     "note": "要旨を確かめた（PMID 20804236・2026-10-27）。題のカンマと引用符は書式の都合で外した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2010 Kotov.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2010",
+    "著者": "Kotov R・Gamez W・Schmidt F・Watson D",
+    "雑誌": "Psychological Bulletin 136(5):768-821",
+    "DOI": "10.1037/a0020327",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Linking big personality traits to anxiety depressive and substance use disorders - a meta-analysis**\n\nKotov R・Gamez W・Schmidt F・Watson D（2010）／ *Psychological Bulletin 136(5):768-821*",
+    "この地図で": "- 大きな性格特性（神経症傾向・外向性・脱抑制・誠実性・協調性・開放性）と、うつ・不安・物質使用の各障害の関係。175研究・851の効果量・66のメタ分析\n- ==どの診断群も**神経症傾向が高く**（平均 d = 1.65）、**誠実性が低い**（平均 d = -1.01）==。気分変調症は外向性も低い（d = -1.47）\n- 結論＝ありふれた精神疾患は、性格と**強く**結びついている\n- 疫学標本では効果が小さく、患者標本では大きい\n- !!動画との食い違い（2つ）!!\n  - 動画は「その後の大規模な研究では、性格とうつの関係は言われてきたほど強くは出ていない」と言い、説明欄でこの論文を挙げる。==この論文の結論は逆で、関係は**強い**==\n  - 弱かったのは「**真面目**な人がなる」という向きのほう。メタ分析でうつと結びつくのは**誠実性の低さ**。メランコリー親和型は誠実性の高さとして測られる（[[1998 Furukawa]]）＝向きが反対（ここをつなげたのは大河の見立て）\n- ⚠留保＝多くは**横断**で、うつの状態そのものが性格の自己評価を押し下げている可能性がある（状態の効果。大河の理解）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5117,6 +5612,39 @@
    "stub": false
   },
   {
+   "id": "2011 Baglioni",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Insomnia as a predictor of depression - a meta-analytic evaluation of longitudinal epidemiological studies",
+     "url": "https://doi.org/10.1016/j.jad.2011.01.011",
+     "note": "要旨を確かめた（PMID 21300408・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2011 Baglioni.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2011",
+    "著者": "Baglioni C・Battagliese G・Feige B・Spiegelhalder K・Nissen C・Voderholzer U ほか",
+    "雑誌": "Journal of Affective Disorders 135(1-3):10-19",
+    "DOI": "10.1016/j.jad.2011.01.011",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Insomnia as a predictor of depression - a meta-analytic evaluation of longitudinal epidemiological studies**\n\nBaglioni C・Battagliese G・Feige B・Spiegelhalder K・Nissen C・Voderholzer U ほか（2011）／ *Journal of Affective Disorders 135(1-3):10-19*",
+    "この地図で": "- 1980〜2010年の**縦断の疫学研究21本**。うつでない人の不眠が、のちのうつを予測するか\n- ==オッズ比 2.60（ランダム効果・95%CI 1.98-3.42）。外れ値を除くと 2.10（1.86-2.38）==\n- 結論＝不眠のある人は、うつになるリスクが**約2倍**。不眠の早期治療は予防になりうる\n- !!限界!!＝間に入る他の要因を、研究がいつも考慮していたわけではない（著者ら）\n- ⭐動画の「約2倍」は要旨どおり",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2011 De Dreu",
    "type": "論文",
    "confidence": "確認済",
@@ -5243,6 +5771,39 @@
     "これは何か": "**Your Flaws Are My Pain: Linking Empathy To Vicarious Embarrassment**\n\nKrach ら（7名）（2011）／ *PLoS ONE*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[代理的困惑]]** ── ==fMRI。==前部帯状皮質と左前部島皮質が働き、その活動は特性共感の個人差と正に相関した。**相手が故意か偶然かによらず、また相手が自分の恥ずかしい状況に気づいているかどうかによらず、代理的困惑は生じた**。2026-09-04追記＝ここで使われた尺度はE-Scale（情動的共感と認知的共感の2下位尺度・25項目）で、個人的苦痛のような自己志向の下位尺度をそもそも持たない。相関はr=.13〜.28と小さく、情動側と認知側でほぼ同じ大きさだった。だからこの論文は①と②を切り分けられない。2026-09-03に確認",
     "本文を読んで分かったこと（2026-09-10）": "読んだのは Introduction・研究1と研究2の Results と Discussion・総合 Discussion。fMRI の前処理と GLM の細部は読んでいない。\n\n### 二つの研究の実体\n\n| | 研究1 | 研究2 |\n|---|---|---|\n| 人数 | **619 名**（女 480・男 139、平均 23.8 歳、86% が学部生） | **32 名**（学生、女 17） |\n| 刺激 | ==文章の小話（vignette）== | 線画のスケッチ＋一文 |\n| 測ったもの | 自分の代理的困惑と、**登場人物が感じているはずの困惑**（推定）を、それぞれ評定 | 評定＋fMRI |\n\n!!どちらも、本物の人が恥をかく場面を見ているのではない。== 読んで・見て・想像している==。!!\n[[代理的困惑]] に「相手が気づいていなくても生じた」と書いたが、正確には\n**「登場人物は気づいていない」と設定された小話でも生じた**、である。論理は同じ（送り手に情動が無い）だが、場面は紙の上。\n\n### 四つの型（この論文が作った枠）\n\n「故意か偶然か」×「本人が気づいているか」で 4 型。AA（偶然・気づいている）／AU（偶然・気づいていない）／IA（故意・気づいている）／IU（故意・気づいていない）。\n\n==AA だけは「本人の困惑（推定）＞見ている側の困惑」（d=−1.28）。他の 3 型では逆で、見ている側のほうが大きい（d=1.00〜1.73）。==\nつまり本人が恥じていない場面ほど、見ている側の感情が本人の感情を上回る。ここが「伝染ではない」の根拠。\n\n### 著者ら自身の言葉で、見ている側は「自己中心的」\n\nIntroduction で、見ている側は相手の心の中に入るだけでなく**自分の外側からの規範の見方**を持ち込み、\nその過程は ==「完全とは程遠く、相手の気持ちに集中するというより自己中心的（rather egocentric）」== と書いている（Epley らを引用）。\n[[代理的困惑]] の 2026-09-04 の結論（重心は②「自分だったら」の側）と、==この論文の著者自身の枠が一致している==。\n「共感が土台」と題に掲げた論文が、その共感を自己中心的なものとして描いている。\n\n### fMRI の結果と、その読み方\n\n- 4 型すべてで中立より強く働いたのは**左 ACC**と**左前部島皮質**（結合分析、FWE 補正）。視床・中脳水道周囲灰白質・小脳も\n- 型のあいだで ROI の活動に差は無かった（著者ら＝結合分析で選んだ領域なので当然、と明記）\n- 特性共感（E-Scale）と BOLD の相関は r=.33〜.50（n=32）\n- !!n=32 では、特性共感と評定の相関は AA でしか有意でなかった（p=.036）。!! 研究1（n=619）の r=.13〜.28 が、小さい標本では消える大きさ\n- 著者らは ACC と前部島皮質を「痛みマトリクスの情動成分」と呼び、代理的困惑を「社会的痛み」に位置づけている。\n  ==これは 2011 年当時の枠で、[[帯状皮質は痛みに特異的ではない]] の後に読むと「部位が重なった」以上のことは言えない==\n\n### この地図で、どう読むか\n\n- [[代理的困惑]] の「決定的な証拠」は本文でも支えられる。ただし==根拠は「設定された小話」での評定の非対称==で、実地の観察ではない\n- 著者らが用いた「二つの次元」（故意／気づき）は、この論文が提案したもの。**直交すると仮定している**が、検証は予備研究（File S1）のみ\n- 「共感が代理的困惑の前提」という結論は、相関（r=.13〜.28）と ROI の相関から言っている。**因果の操作は無い**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2011 Levandovski",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Depression scores associate with chronotype and social jetlag in a rural population",
+     "url": "https://doi.org/10.3109/07420528.2011.602445",
+     "note": "要旨を確かめた（PMID 21895489・2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2011 Levandovski.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2011",
+    "著者": "Levandovski R・Dantas G・Fernandes LC・Caumo W・Torres I・Roenneberg T ほか",
+    "雑誌": "Chronobiology International 28(9):771-778",
+    "DOI": "10.3109/07420528.2011.602445",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Depression scores associate with chronotype and social jetlag in a rural population**\n\nLevandovski R・Dantas G・Fernandes LC・Caumo W・Torres I・Roenneberg T ほか（2011）／ *Chronobiology International 28(9):771-778*",
+    "この地図で": "- ブラジルの農村の4051人。ベック抑うつ質問票（BDI）とミュンヘン・クロノタイプ質問票\n- 夜型ほど BDI が高い（喫煙とは独立）。==社会的時差ぼけが**2時間を超える**人で BDI が有意に高い==。31〜40歳でとくに目立つ\n- !!横断研究!!。因果は縦断研究で確かめるべきだと著者ら自身が書く",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5734,6 +6295,39 @@
    "stub": false
   },
   {
+   "id": "2012 Tsuchiya",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Impact of mental disorders on work performance in a community sample of workers in Japan - the World Mental Health Japan Survey 2002-2005",
+     "url": "https://doi.org/10.1016/j.psychres.2011.10.014",
+     "note": "要旨を確かめた（PMID 22374551・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2012 Tsuchiya.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2012",
+    "著者": "Tsuchiya M・Kawakami N・Ono Y・Nakane Y・Nakamura Y・Fukao A ほか",
+    "雑誌": "Psychiatry Research 198(1):140-145",
+    "DOI": "10.1016/j.psychres.2011.10.014",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Impact of mental disorders on work performance in a community sample of workers in Japan - the World Mental Health Japan Survey 2002-2005**\n\nTsuchiya M・Kawakami N・Ono Y・Nakane Y・Nakamura Y・Fukao A ほか（2012）／ *Psychiatry Research 198(1):140-145*",
+    "この地図で": "- 世界精神保健日本調査（WMHJ）の働く人530人（20〜60歳）。WHO の仕事のパフォーマンス質問票（HPQ）\n- ==大うつ病を含む気分障害とアルコール乱用・依存は、**仕事中の働き**を有意に下げた。病欠の日数とは有意な関連が無かった==\n- 失われた生産性はおよそ年に28〜30日分\n- ⭐動画の「仕事はできている＝正確には出勤はできている」の、日本でのいちばん近い裏づけ",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2012 Yamashita",
    "type": "論文",
    "confidence": "確認済",
@@ -5793,6 +6387,39 @@
    "sections": {
     "これは何か": "**On the Function of Boredom**\n\nBench SW・Lench HC（2013）／ *Behavioral Sciences 3(3):459-472*",
     "この地図で": "- **[[退屈]]** の**機能説**。==退屈しているとき (1) いまの課題への注意が下がり (2) 経験は負で嫌悪的 (3) 自律神経の覚醒が上がって代わりを追う準備をする==。動画の「3点セット」はこの要旨どおり\n- 著者ら自身が「**限られた既存文献**」と書き・実験研究を求めている＝動画の「有力な仮説であって定説ではない」と同じ温度",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2013 Cosci",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Staging of mental disorders - systematic review",
+     "url": "https://doi.org/10.1159/000342243",
+     "note": "要旨を確かめた（PMID 23147126・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2013 Cosci.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2013",
+    "著者": "Cosci F・Fava GA",
+    "雑誌": "Psychotherapy and Psychosomatics 82(1):20-34",
+    "DOI": "10.1159/000342243",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Staging of mental disorders - systematic review**\n\nCosci F・Fava GA（2013）／ *Psychotherapy and Psychosomatics 82(1):20-34*",
+    "この地図で": "- 精神疾患の**病期分類（staging）**の道具をまとめた系統的総説。78本\n- 単極性うつを含む多くの疾患で、経過や治療歴を**段階に分けられる**ことが文献から示される\n- 同じ診断名でも、段階によって予後と治療が大きく違う\n- ==「リスクがあるだけの0期」を置くのは、いまの研究の段階では正当化できない==\n- ⭐動画は「段階という考え方は診断基準に無い」と断ったうえで5段階を語る。**診断基準に無いのは正しい**が、研究の世界には病期の考え方がある",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -6907,6 +7534,39 @@
    "stub": false
   },
   {
+   "id": "2014 Uher",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Major depressive disorder in DSM-5 - implications for clinical practice and research of changes from DSM-IV",
+     "url": "https://doi.org/10.1002/da.22217",
+     "note": "要旨を確かめた（PMID 24272961・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Uher.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Uher R・Payne JL・Pavlova B・Perlis RH",
+    "雑誌": "Depression and Anxiety 31(6):459-471",
+    "DOI": "10.1002/da.22217",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Major depressive disorder in DSM-5 - implications for clinical practice and research of changes from DSM-IV**\n\nUher R・Payne JL・Pavlova B・Perlis RH（2014）／ *Depression and Anxiety 31(6):459-471*",
+    "この地図で": "- DSM-5 で大うつ病性障害は「抑うつ障害群」に入り、双極性障害と分かれた\n- 中核の気分の基準に「**絶望感**」の言い回しが加わった＝診断が広がりうる\n- 死別反応の除外が、臨床判断に置き換えられた\n- 「持続性抑うつ障害」（気分変調症と慢性うつをまとめたもの）が新設\n- ⚠「9症状のうち5つ以上が同じ2週間に」という基準の骨組みは要旨に無い（大河の記憶）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2014 Uysal",
    "type": "論文",
    "confidence": "確認済",
@@ -7325,6 +7985,39 @@
    "sections": {
     "これは何か": "**Why musical memory can be preserved in advanced Alzheimer's disease**\n\nJacobsen JH・Stelzer J・Fritz TH・Chételat G・La Joie R・Turner R（2015）／ *Brain 138(8):2438-2450*",
     "この地図で": "- 若い健常者32人の 7T fMRI で、**昔から知っている曲**の記憶を担う場所を探した＝尾側の前帯状皮質と腹側の前補足運動野\n- アルツハイマー病の患者20人では、その場所の**萎縮と糖代謝の低下が最小**だった（アミロイドの沈着は他と大差なし＝進行の早い段階にあると解釈）\n- ==音楽の記憶が残る場所は、病気が後回しにする場所と重なっていた==\n- 動画の「昔の歌を流せば口が動く」は、この方向の研究で裏づけられる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2015 Kanehara",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Barriers to mental health care in Japan - results from the World Mental Health Japan Survey",
+     "url": "https://doi.org/10.1111/pcn.12267",
+     "note": "要旨を確かめた（PMID 25523280・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2015 Kanehara.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2015",
+    "著者": "Kanehara A・Umeda M・Kawakami N・World Mental Health Japan Survey Group",
+    "雑誌": "Psychiatry and Clinical Neurosciences 69(9):523-533",
+    "DOI": "10.1111/pcn.12267",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Barriers to mental health care in Japan - results from the World Mental Health Japan Survey**\n\nKanehara A・Umeda M・Kawakami N・World Mental Health Japan Survey Group（2015）／ *Psychiatry and Clinical Neurosciences 69(9):523-533*",
+    "この地図で": "- WMHJ（2002〜2006年・4130人）。受診しない・遅れる・やめる理由\n- 受診しない理由のいちばんは「必要だと思わない」（63.9%）\n- ==受診が**遅れた**理由のいちばんは「**自分で何とかしたい**」（68.8%）==\n- 治療をやめた理由のいちばんも「必要だと思わない」（54.2%）\n- ⭐動画の「4つ目の\"自分なんかが\"が受診を止める」に、日本のデータでいちばん近い",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -7978,6 +8671,39 @@
    "stub": false
   },
   {
+   "id": "2016 Ishikawa",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Lifetime and 12-month prevalence severity and unmet need for treatment of common mental disorders in Japan - results from the final dataset of World Mental Health Japan Survey",
+     "url": "https://doi.org/10.1017/S2045796015000566",
+     "note": "要旨を確かめた（PMID 26148821・2026-10-27）。題のカンマとコロンは書式の都合で外した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Ishikawa.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Ishikawa H・Kawakami N・Kessler RC・World Mental Health Japan Survey Collaborators",
+    "雑誌": "Epidemiology and Psychiatric Sciences 25(3):217-229",
+    "DOI": "10.1017/S2045796015000566",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Lifetime and 12-month prevalence severity and unmet need for treatment of common mental disorders in Japan - results from the final dataset of World Mental Health Japan Survey**\n\nIshikawa H・Kawakami N・Kessler RC・World Mental Health Japan Survey Collaborators（2016）／ *Epidemiology and Psychiatric Sciences 25(3):217-229*",
+    "この地図で": "- 世界精神保健日本調査（WMHJ）2002〜2006年の最終データ。11地域の4130人・WMH-CIDI（構造化面接・DSM-IV）\n- ==大うつ病性障害の生涯有病率 **6.1%**・12か月有病率 **2.2%**==\n- 12か月に何かの障害がある人のうち、過去12か月に受診したのは21.9%。重症でも37.0%\n- ⭐動画の「一生に15人に1人・1年で50人に1人」は、この値とほぼ合う（6.1%＝16人に1人・2.2%＝45人に1人）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2016 Kappelmann",
    "type": "論文",
    "confidence": "確認済",
@@ -8038,6 +8764,72 @@
    "sections": {
     "これは何か": "**Somatic and vicarious pain are represented by dissociable multivariate brain patterns**\n\nKrishnan ら（10名）（2016）／ *eLife*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[代理の痛みの脳内表象]]** ── ==多変量パターン解析。==自分の痛みと、他人の痛みを見たときの強度を、それぞれ別のパターンが未見の個人で100%予測した。体部位再現も別で、自分の痛みは体性感覚系・代理の痛みはメンタライジング系に位置した。追加2研究で機械刺激・電気刺激への一般化と、この乖離の再現を示した。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2016 Kuyken",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Efficacy of mindfulness-based cognitive therapy in prevention of depressive relapse - an individual patient data meta-analysis from randomized trials",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2016.0076",
+     "note": "要旨を確かめた（PMID 27119968・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Kuyken.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Kuyken W・Warren FC・Taylor RS・Whalley B・Crane C・Bondolfi G ほか",
+    "雑誌": "JAMA Psychiatry 73(6):565-574",
+    "DOI": "10.1001/jamapsychiatry.2016.0076",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Efficacy of mindfulness-based cognitive therapy in prevention of depressive relapse - an individual patient data meta-analysis from randomized trials**\n\nKuyken W・Warren FC・Taylor RS・Whalley B・Crane C・Bondolfi G ほか（2016）／ *JAMA Psychiatry 73(6):565-574*",
+    "この地図で": "- 反復性うつの再発予防。マインドフルネス認知療法（MBCT）の無作為化試験9本・1258人の個人データ\n- ==60週までの再発リスク＝通常の治療と比べてハザード比 **0.69**（0.58-0.82）。抗うつ薬を含む他の積極的な治療と比べても 0.79（0.64-0.97）==\n- 治療前の残遺症状が重い人ほど、効果が大きい傾向",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2016 Li",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Insomnia and the risk of depression - a meta-analysis of prospective cohort studies",
+     "url": "https://doi.org/10.1186/s12888-016-1075-3",
+     "note": "要旨を確かめた（PMID 27816065・2026-10-27）。題のコロンは書式の都合でハイフンに"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Li.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Li L・Wu C・Gan Y・Qu X・Lu Z",
+    "雑誌": "BMC Psychiatry 16:375",
+    "DOI": "10.1186/s12888-016-1075-3",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Insomnia and the risk of depression - a meta-analysis of prospective cohort studies**\n\nLi L・Wu C・Gan Y・Qu X・Lu Z（2016）／ *BMC Psychiatry 16:375*",
+    "この地図で": "- 前向きコホート34本・17万2077人・平均追跡60.4か月\n- ==相対リスク 2.27（95%CI 1.89-2.71）==。ただし**異質性がとても大きい**（I² = 92.6%）\n- [[2011 Baglioni]] の「約2倍」を、数を増やして追認した形",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -8919,6 +9711,39 @@
    "stub": false
   },
   {
+   "id": "2018 Ishikawa",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Prevalence treatment and the correlates of common mental disorders in the mid 2010s in Japan - the results of the World Mental Health Japan 2nd Survey",
+     "url": "https://doi.org/10.1016/j.jad.2018.08.050",
+     "note": "要旨を確かめた（PMID 30153639・2026-10-27）。題のカンマとコロンとアポストロフィは書式の都合で外した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Ishikawa.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Ishikawa H・Tachimori H・Takeshima T・Umeda M・Miyamoto K・Shimoda H ほか",
+    "雑誌": "Journal of Affective Disorders 241:554-562",
+    "DOI": "10.1016/j.jad.2018.08.050",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Prevalence treatment and the correlates of common mental disorders in the mid 2010s in Japan - the results of the World Mental Health Japan 2nd Survey**\n\nIshikawa H・Tachimori H・Takeshima T・Umeda M・Miyamoto K・Shimoda H ほか（2018）／ *Journal of Affective Disorders 241:554-562*",
+    "この地図で": "- WMHJ 第2回（2013〜2015年・全国代表標本・20〜75歳・2450人）\n- ==大うつ病性障害の12か月有病率 **2.7%**==。第1回とほぼ同じ＝この10年で安定\n- 受診の割合は34%に上がった（中等症で増えた）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2018 Kupper",
    "type": "論文",
    "confidence": "確認済",
@@ -8981,6 +9806,39 @@
    "sections": {
     "これは何か": "**Position paper for the treatment of nightmare disorder in adults - an American Academy of Sleep Medicine position paper**\n\nMorgenthaler TI・Auerbach S・Casey KR・Kristo D・Maganti R・Ramar K・Zak R・Kartje R（2018）／ *Journal of Clinical Sleep Medicine 14(6):1041-1055*",
     "この地図で": "- アメリカ睡眠医学会（AASM）の立場表明。2009〜2017年の文献を見直した\n- ==悪夢障害は**大人の約4%**。単独でも、PTSD などほかの病気の一部としても起き、生活の質を大きく損なう==\n- ==**PTSDに伴う悪夢**と**悪夢障害**の両方に、**イメージリハーサル療法だけが「推奨（recommended）」**==\n- 「使ってよい（may be used）」は多い＝認知行動療法・EMDR・明晰夢の療法・催眠・プラゾシンなど。「推奨しない」はクロナゼパムとベンラファキシン",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2018 Nagata",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Total health-related costs due to absenteeism presenteeism and medical and pharmaceutical expenses in Japanese employers",
+     "url": "https://doi.org/10.1097/JOM.0000000000001291",
+     "note": "要旨を確かめた（PMID 29394196・2026-10-27）。題のカンマは書式の都合で外した"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Nagata.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Nagata T・Mori K・Ohtani M・Nagata M・Kajiki S・Fujino Y ほか",
+    "雑誌": "Journal of Occupational and Environmental Medicine 60(5):e273-e280",
+    "DOI": "10.1097/JOM.0000000000001291",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**Total health-related costs due to absenteeism presenteeism and medical and pharmaceutical expenses in Japanese employers**\n\nNagata T・Mori K・Ohtani M・Nagata M・Kajiki S・Fujino Y ほか（2018）／ *Journal of Occupational and Environmental Medicine 60(5):e273-e280*",
+    "この地図で": "- 日本の製薬会社4社の従業員の横断研究。欠勤とプレゼンティーイズムは自己記入、医療費はレセプト\n- ==1人あたり年間＝プレゼンティーイズム3055ドル（**64%**）・医療費と薬剤費1165ドル（25%）・欠勤520ドル（11%）==\n- 慢性疾患の中で負担が大きかったのは**精神（行動）の健康**と筋骨格系\n- ⭐動画の「出勤しているのに働けていない人の損失のほうがはるかに大きい」は、この研究で**裏づけられる**。説明欄の「約8割」（東京大学の2016年の調査）は大河は確かめていない。製薬4社の値は64%",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12001,6 +12859,39 @@
    "stub": false
   },
   {
+   "id": "2025 Ohmae",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "The rise and fall of Nippon no utsu-byo (the concept of Nippon depressive disease) in Japan",
+     "url": "https://doi.org/10.1002/pcn5.70147",
+     "note": "要旨を確かめた（PMID 40625343・2026-10-27）。原題の日本語部分は「ニッポンのうつ病」"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2025 Ohmae.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2025",
+    "著者": "Ohmae S",
+    "雑誌": "Psychiatry and Clinical Neurosciences Reports 4(3):e70147",
+    "DOI": "10.1002/pcn5.70147",
+    "書誌の出どころ": "Crossref(DOI)（2026-10-27）",
+    "本文": "要旨のみ"
+   },
+   "sections": {
+    "これは何か": "**The rise and fall of Nippon no utsu-byo (the concept of Nippon depressive disease) in Japan**\n\nOhmae S（2025）／ *Psychiatry and Clinical Neurosciences Reports 4(3):e70147*",
+    "この地図で": "- 1960〜2000年ごろ、日本の精神科医は独自の「うつ病」概念を使っていた（著者の呼び名で「ニッポンのうつ」）。米国の DSM の大うつ病性障害とは別で、**ドイツ・スイスの精神医学**に由来する\n- ==1990年ごろ、日本の精神医学はドイツ寄りから米国寄りに移り、同じころ SSRI が出た。以後、大うつ病性障害の概念が主流になった==\n- その源流＝軽症の内因性うつ病の記述は19世紀末（クレペリンの躁うつ病より前）にさかのぼる\n- ⭐動画の「この概念は古い」の、歴史の側からの裏づけ。⚠下田の執着気質・テレンバッハのメランコリー親和型が、この概念の中にどう位置づくかは要旨に無い",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2025 Seah",
    "type": "論文",
    "confidence": "確認済",
@@ -14059,6 +14950,34 @@
    "stub": false
   },
   {
+   "id": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "type": "映像",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "“あなたの心”は本当に大丈夫ですか?〜人の心が壊れるまで〜",
+     "url": "https://www.youtube.com/watch?v=EBi88jglxZ8",
+     "note": "チャンネル「深淵回廊@人間の脳と心の仕組み」。2026-10-25公開・23分32秒。説明欄に相談窓口・チャプター6つ・出典と参考の一覧・医療行為ではない旨の注意。自動字幕を yt-dlp で取り大河が通読（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/あなたの心は本当に大丈夫ですか（深淵回廊）.md",
+   "owned": "有",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "!!本ではなく **YouTube の解説動画**（型は `映像`）。!!チャンネル「深淵回廊」（映02・映03・映07・映08・映09と同じ）・2026-10-25公開・23分32秒。==うつになるまでの心と体の変化を、5つの段階として語る==。\n\n冒頭と結びは「最近疲れてない？」「大丈夫です」。==大丈夫ですとはっきり言えるのは、真ん中（3つ目と4つ目）の人だ==、が全体の骨。説明欄の冒頭に**相談窓口**（こころの健康相談統一ダイヤル・よりそいホットライン・いのちの電話・厚生労働省「まもろうよ こころ」）があり、「5つの段階は医学上の病期分類ではない」「2週間以上続くなら受診を」と断っている＝ていねい。",
+    "筋（説明欄のチャプター）": "1. 朝の違和感と「大丈夫」という嘘（00:00）＝[[うつ病（大うつ病性障害）]]・[[うつ病の病期モデル]]\n2. 第一段階＝回復に時間がかかる（02:05）＝[[アロスタティック負荷]]\n3. 第二段階＝睡眠が崩れる（03:19）＝[[不眠とうつ]]・[[前駆症状]]・[[社会的時差ぼけ]]\n4. 第三段階＝楽しめなくなるという空白（05:53）＝[[アンヘドニア]]・[[プレゼンティーイズム]]・[[孤独感と抑うつ]]\n5. 第四段階＝自分を責める思考のループ（11:19）＝[[認知の三徴]]・[[反芻]]・[[気分の日内変動]]・[[援助要請の壁]]\n6. 第五段階＝体が動かなくなる時（14:08）＝[[うつ病（大うつ病性障害）]]・[[メランコリー親和型と執着気質]]・[[性格は病気を作るのではなく隠す]]\n- 結び（17:00〜）＝[[物差しを外に置く（睡眠・2週間・他人の目）]]",
+    "動画が引く研究と、大河が確かめた結果": "!!食い違い!!を先に並べる。\n1. ==「性格とうつの関係は言われてきたほど強くない」==＝説明欄が挙げる [[2010 Kotov]] の結論は逆で、関係は**強い**（神経症傾向 d = 1.65）。弱いのは「**真面目**だからなる」の向き＝うつと結びつくのは誠実性の**低さ**\n2. ==孤独とうつは「双方向」==＝説明欄が挙げる [[2010 Cacioppo]] は**一方向**（孤独感→抑うつ）。双方向は [[2006 Cacioppo]]\n3. ==反芻は「うつを長引かせ深くする」==＝1991年の形。2008年の見直しでは「**発症**を予測する」のほうが固い（[[2008 Nolen-Hoeksema]]）\n4. ==「朝がもっとも重く夕方に軽くなる人が多い」==＝日内変動の型は人によって・時期によってまちまち（[[2008 Wirz-Justice]]）。出典欄にも無い\n5. ==「ファバたちが聞き取った」==＝[[1991 Fava]] は**総説**\n6. ==「楽しめなさが2週間続けば基準に入る」==＝それは**必要条件**。診断にはほかの症状と合わせて5つ以上（大河の記憶）。動画の言う「入り口」の意味なら正しい\n7. ==週末の寝だめで「ずれた時計が目覚ましの前に目を覚まさせる」==＝寝だめは時計を**遅らせる**ほうへずらすので、向きが合わない（大河の理解・未照合）\n8. 数字に出典が無いもの＝「週3回を超える週が2週」「前の1.5倍の時間と力」「プレゼンティーイズムは約8割」（最後は東京大学の調査とあるが大河は未確認。製薬4社の研究では64%＝[[2018 Nagata]]）\n9. 正確だったもの＝==日本の有病率（生涯6.1%・12か月2.2%＝[[2016 Ishikawa]]）・不眠で約2倍（[[2011 Baglioni]]）・プレゼンティーイズムのほうが欠勤より大きい（[[2018 Nagata]]・[[2012 Tsuchiya]]）・アンヘドニアがもう一つの入り口・病前性格論は古い（[[2025 Ohmae]]）==\n10. 字幕の誤変換＝「魔球案」＝マキューエン、「バリオニ」＝バリオーニ、「不民打つ」＝不眠とうつ、「精神会」＝精神科医、「全区」＝前駆、「会館少」＝快感消失、「歌たち」＝カシオポたち、「認知の山頂」＝認知の三徴、「農連ホクセマ」＝ノーレン＝ホークセマ、「半数」＝反芻、「受信」＝受診、「メランコリー神和」＝メランコリー親和型、「下田三蔵」＝下田光造、「新園回路」＝深淵回廊",
+    "大河の見立て": "- ==いちばん良いのは、性格の話を「原因」から「隠す要因」へ読み替えたところと、結論を**意思ではなく物差し**に置いたところ==。症状が判断を止める病気に対して、判断を外へ移すのは理にかなっている（[[物差しを外に置く（睡眠・2週間・他人の目）]]）\n- 弱いのは、説明欄に挙げた論文の結論を、ところどころ**逆に**要約していること（Kotov・Cacioppo 2010）。結論は大きくは揺るがないが、「研究によれば」の重みは割り引いて聞く必要がある\n- 動画が扱わないこと＝**再発**。一度戻った人には、この5段と3つの物差しが「前ぶれを見張る道具」になる（[[うつ病の再発と残遺症状]]・大河が足した）\n- 安全面＝希死念慮を「症状」と位置づけ、すぐ人に言うよう勧め、窓口を載せている。==この種の動画として誠実な作り==",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "あなたはなぜ嫌悪感をいだくのか",
    "type": "書物",
    "confidence": "確認済",
@@ -14107,6 +15026,105 @@
     "調べたこと": "**職場で他人が攻撃されるのを見ている側にも、健康と幸福感の影響が出る**という研究群。\n**燻太さんとお父さんの話に、現実の場面でいちばん近い研究。**\n\n**分かっていること**\n- **目撃することは、精神的健康・職務不満足・離職意図と有意に関連する**（横断研究）\n- **縦断研究**＝目撃者だった女性のうち、**18か月後に抑うつ症状を示した割合が男性より高かった**\n- **同性の同僚への無礼を目撃したときのほうが、否定的な感情が強かった**\n（男性は怒り・恐れ・不安、女性は意欲の低下で顕著）\n**＝「自分と重なるほど効く」という向きの証拠**\n- **介入したかどうかが、目撃と精神的健康問題の関係を調整した**",
     "ここがいちばん実際的": "**介入すると、目撃した側の害が和らぐ。**\n!!これは[[思いやり]]の研究（**共感的な苦痛は退かせ、思いやりは動かせる**）と同じ向きを指している。!!\n**動けたかどうかが、あとに残るものを変える。**",
     "著者ら自身が付けている留保（落とさない）": "**関連の本当の大きさを言うには、次を考慮しないといけない** ──\n①**因果の逆向き**（もともと不調な人が目撃と報告しやすい）\n②**目撃者自身も被害を受けていないか**\n③**標的への近さと、標的との同一視**\n④**援助行動をしたか**\n\n!!**③がまさに燻太さんの問いの分かれ目**!!（近さと同一視）。\n**この分野でも、そこはまだ分けきれていない。**"
+   },
+   "stub": false
+  },
+  {
+   "id": "うつ病の再発と残遺症状",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Paykel ES ほか 1995 Psychol Med",
+     "url": "https://doi.org/10.1017/S0033291700033146",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Solomon DA ほか 2000 Am J Psychiatry",
+     "url": "https://doi.org/10.1176/appi.ajp.157.2.229",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Kuyken W ほか 2016 JAMA Psychiatry",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2016.0076",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/うつ病の再発と残遺症状.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "うつは**再発しやすい**病気で、「戻った」の質がその後を左右する。\n- 10年の追跡＝3分の2近くが少なくとも1回再発。==再発を重ねるごとにリスクが **16%** ずつ上がり、**寛解が長く続くほどリスクは下がっていく**==（[[2000 Solomon]]）\n- ==寛解しても軽い症状が残る（**残遺症状**）人は、早い再発が **76%**。残らない人は **25%**==（[[1995 Paykel]]）\n- 再発予防＝マインドフルネス認知療法（MBCT）で、60週までの再発リスクがハザード比 0.69（通常の治療と比べて）。残遺症状が重い人ほど効果が大きい傾向（[[2016 Kuyken]]）\n- 前駆症状に気づけば、再発を早く治療できる（[[1991 Fava]]）",
+    "動画との関係": "動画は再発を扱わない。「3つ目や4つ目まで行っても戻れる。多くの人が戻っている」「戻った人も自分が3つ目にいたことに気づかないまま戻ることが多い」と言う。\n- ⭐大河が足した。動画の「物差しを外に置く」（[[物差しを外に置く（睡眠・2週間・他人の目）]]）は、一度戻った人にとっては**再発の前ぶれを見張る道具**として読める（大河の見立て）\n- ⭐「寛解が長く続くほどリスクは下がる」は、再発を怖がる人にとって大事な半分（同じ [[2000 Solomon]] の結果）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "うつ病の病期モデル",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Cosci F・Fava GA 2013 Psychother Psychosom",
+     "url": "https://doi.org/10.1159/000342243",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/うつ病の病期モデル.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "staging。がんの病期のように、精神疾患を**重さ・広がり・経過**で段階に分ける考え方。==同じ診断名でも、段階によって予後と治療が大きく違う==（[[2013 Cosci]]）。\n- 単極性うつにも提案がある（前駆期→急性期→残遺期→再発・慢性化、のような形。具体的な段の名は大河の記憶）\n- !!「リスクがあるだけの0期」はまだ正当化できない!!（同上）",
+    "動画での使われ方（映10・00:30〜01:00）": "動画は「今夜の5つの段階は医学の正式な分類ではない。診断基準に段階という考え方はない。研究と臨床の観察をもとに私が順番を整理したもの」と断る。説明欄にも同じ注意。\n- ==診断基準（DSM）に段階が無いのは正しい。研究の側には病期の考え方があり、動画の5段階はそれとは別の、語り手の整理==\n- 動画の5段＝①回復に時間がかかる（[[アロスタティック負荷]]）②睡眠が崩れる（[[不眠とうつ]]・[[前駆症状]]・[[社会的時差ぼけ]]）③楽しめなくなる（[[アンヘドニア]]・[[プレゼンティーイズム]]・[[孤独感と抑うつ]]）④自分を責める（[[認知の三徴]]・[[反芻]]・[[気分の日内変動]]）⑤動けなくなる（[[うつ病（大うつ病性障害）]]）\n- ⭐大河の見立て＝「一方向に順番に降りる」という形は、研究で示されたものではない。前駆症状の研究が示すのは「気分より先に睡眠や疲れが出ることが**多い**」まで。人によって順番は入れ替わるし、飛ぶこともあるはず（推測）。動画も「当てはまらなかったから安心とは言えない」と断っている",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "うつ病（大うつ病性障害）",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Ishikawa H ほか 2016 Epidemiol Psychiatr Sci",
+     "url": "https://doi.org/10.1017/S2045796015000566",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Uher R ほか 2014 Depress Anxiety",
+     "url": "https://doi.org/10.1002/da.22217",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "StatPearls Major Depressive Disorder（PMID 32644504）",
+     "url": "https://www.ncbi.nlm.nih.gov/books/NBK559078/",
+     "note": "書誌のみ。NCBI はロボット確認で本文を取れなかった（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/うつ病（大うつ病性障害）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "major depressive disorder。DSM の診断名。==気分の落ち込み（抑うつ気分）か、興味や喜びの喪失（[[アンヘドニア]]）の**どちらか**を含む症状が、**ほぼ毎日・ほぼ一日中・2週間以上**続き、生活に支障が出ている状態==。\n- 基準の骨組み（大河の記憶・DSM 本文は未照合）＝9つの症状（抑うつ気分・興味の喪失・体重や食欲の変化・不眠か過眠・焦燥か制止・疲れやすさ・無価値感か過剰な罪悪感・思考力や集中力の低下か決められなさ・死についての反復思考）のうち**5つ以上**が同じ2週間に\n- DSM-5 で「抑うつ障害群」として双極性障害から分かれた。中核の気分に「絶望感」の言い回しが加わった（[[2014 Uher]]）",
+    "日本でどのくらいか": "- ==生涯有病率 6.1%・12か月有病率 2.2%==（WMHJ 2002〜2006年・[[2016 Ishikawa]]）。第2回（2013〜2015年）でも12か月 2.7%＝ほぼ横ばい（[[2018 Ishikawa]]）\n- 12か月に障害のある人のうち受診したのは2〜3割（同上）。遅れる理由は [[援助要請の壁]]",
+    "動画での使われ方（映10・01:30〜02:00・14:00〜）": "- 「一生に15人に1人・1年で50人に1人」＝上の値とほぼ合う\n- 「2週間という物差し」＝基準どおり。!!ただし!!動画は「気分の落ち込みか楽しめなさの**どちらかが2週間**続くこと。これが入り口の条件」と言い、のちに「楽しめなさが2週間続けば**基準に入る**」とも言う。==その2つは**必要条件**で、それだけでは診断にならない==（ほかの症状と合わせて5つ以上・生活への支障）。動画が「入り口」と言うのは、その意味なら正しい\n- 「消えてしまいたい」は症状の一つ＝基準の9つ目（死についての反復思考）にあたる。==動画はここで、浮かんだら今すぐ誰かに言うよう勧め、説明欄に相談窓口を載せている==",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -14878,6 +15896,32 @@
    "sections": {
     "調べたこと": "**allostasis。「未来のホメオスタシスの要請を、先回りして取りに行く」こと**（Sterling 2012）。\n\n**ホメオスタシスとの違い** ──\n- **ホメオスタシス**＝値が範囲を外れたら**戻す**（負のフィードバック。事後的）\n- **アロスタシス**＝**これから必要になる状態を見越して、新しい行動レパートリーを作る**（事前的）\n\n**本書の例**＝喉の渇きを満たすために、**美味しいワインを生産したり購入したりする**。\n!!**これは固定した反射では出てこない。**!!",
     "この地図での位置": "[[認識的要請]]と同じボックス（3.3）に出てくる。\n**どちらも「サプライズ最小化＝じっとしていること」ではない、という論点の一部。**\n\n!!**確度を `推測` にしている理由**!!＝本書での言及は短く、\n**アロスタシス概念そのものの検証状況（Sterling の原典、批判）にまだ当たっていない。**\n**バレット（[[構成主義的情動理論]]）もアロスタシスを中心に据えているので、突き合わせる価値がある。**"
+   },
+   "stub": false
+  },
+  {
+   "id": "アロスタティック負荷",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "McEwen BS 1998 N Engl J Med 338:171-179",
+     "url": "https://doi.org/10.1056/NEJM199801153380307",
+     "note": "書誌のみ。要旨は無い（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/アロスタティック負荷.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "allostatic load。[[アロスタシス]]（先回りして体の状態を変える調節）を何度も・長く使い続けた結果、**体にたまっていく消耗**のこと。マキューエンの用語（[[1998 McEwen]]）。\n- ストレスの仲立ち（コルチゾール・アドレナリン・炎症のサイトカインなど）は、==短期には体を守り、長く続くと体を傷める==\n- 負荷になる型（大河の記憶）＝ストレスが繰り返す／慣れない／止めるべきときに止まらない／反応が足りない（ほかの系が過剰になる）\n- ⚠中身は大河の記憶。要旨も本文も読めていない。だから確度は推測にした",
+    "動画での使われ方（映10・02:00〜03:00）": "「戦う体制が解除される前に次のストレスが来る。1回1回の負荷は処理できるが、処理が終わる前に次が重なると処理の速度が少しずつ落ちる」＝概念の説明としておおむね合う。\n- 動画の第1段の印「回復に前より時間がかかる」は、この概念から語り手が引いた見立て。==「回復の遅れがうつの入り口になる」ことを直接示した研究は、説明欄に無い==",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -21960,6 +23004,42 @@
    "stub": true
   },
   {
+   "id": "プレゼンティーイズム",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Goetzel RZ ほか 2004 J Occup Environ Med",
+     "url": "https://doi.org/10.1097/01.jom.0000121151.40413.bd",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Nagata T ほか 2018 J Occup Environ Med",
+     "url": "https://doi.org/10.1097/JOM.0000000000001291",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Tsuchiya M ほか 2012 Psychiatry Res",
+     "url": "https://doi.org/10.1016/j.psychres.2011.10.014",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/プレゼンティーイズム.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "presenteeism。==休んではいない。出勤している。けれど健康の問題で、本来の力で働けていない状態==。欠勤（absenteeism）の反対側の語。\n- 米国の10疾患＝プレゼンティーイズムの損失はほとんどの場合**医療費より大きく**、全費用の18〜60%（[[2004 Goetzel]]）\n- 日本の製薬4社＝==プレゼンティーイズム **64%**・医療費と薬剤費 25%・欠勤 11%==。負担の大きい慢性疾患は精神の健康と筋骨格系（[[2018 Nagata]]）\n- 日本の地域の働く人＝==うつを含む気分障害は**仕事中の働き**を下げたが、**病欠の日数**とは関連が無かった==。年に28〜30日分（[[2012 Tsuchiya]]）",
+    "動画での使われ方（映10・08:30〜09:30）": "「仕事はできている、は正確には**出勤はできている**だ」。\n- 「プレゼンティーイズムの損失のほうがはるかに大きい」＝日本のデータ（[[2018 Nagata]]）で裏づけられる。⚠説明欄の「約8割」（東京大学 2016年）は大河は確かめていない\n- ⚠「同じ量をこなすのに前の1.5倍の時間と力」は語り手の例えで、出典は無い\n- ⭐[[2012 Tsuchiya]] の「病欠とは関連が無い」が、動画の芯（**休んでいないから大丈夫、は物差しにならない**）をいちばん直接に支える",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ヘイターのプロファイル",
    "type": "用語",
    "confidence": "推測",
@@ -23171,6 +24251,43 @@
     "これは何か": "Memento mori＝「死を思え」。",
     "動画での使われ方（24:30）": "「古代ローマにはメメント・モリ、死を思えという言葉があった。凱旋する将軍の後ろで従者がその言葉をささやき続けたと伝えられる」",
     "原典で確かめたこと": "!!凱旋式で将軍の後ろの者がささやいた言葉として古代に残るのは「メメント・モリ」ではない!!。テルトゥリアヌス『護教論』33（2世紀末）＝==*Respice post te! Hominem te memento!*（後ろを見よ。自分が人間であることを忘れるな）==。「死を思え」ではなく「**人間であることを思え**」。\n- 「メメント・モリ」の決まり文句が広く使われるのは、のちのキリスト教・中世以降（大河の記憶・未照合）\n- 動画も「と伝えられる」と言っている。==伝承と言葉が混ざって伝わった形==。言いたいこと（絶頂の日にこそ有限を思い出せ）は、元の言葉でもほぼ通じる",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "メランコリー親和型と執着気質",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Furukawa T ほか 1998 Eur Arch Psychiatry Clin Neurosci",
+     "url": "https://doi.org/10.1007/s004060050019",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Kotov R ほか 2010 Psychol Bull",
+     "url": "https://doi.org/10.1037/a0020327",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Ohmae S 2025 PCN Rep",
+     "url": "https://doi.org/10.1002/pcn5.70147",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/メランコリー親和型と執着気質.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "うつに**なりやすい性格**（病前性格）として、ドイツと日本の精神医学で長く使われてきた2つの型。\n- **メランコリー親和型**（Typus melancholicus）＝ドイツの精神科医テレンバッハ（『メランコリー』1961）。秩序を重んじ、几帳面で、他人との関係で負い目を作らないよう尽くす（中身は大河の記憶）\n- **執着気質**＝日本の精神科医・下田光造。仕事熱心・凝り性・徹底的・正直・几帳面・責任感が強い（中身と年は大河の記憶。説明欄は1941年の論文を挙げ、動画は「1930年代」と言う＝下田の最初の提唱は1930年代とされるが、大河は確かめていない）\n- 五因子モデルで測ると＝==メランコリー親和型は**誠実性が高く・協調性が高い**==（[[1998 Furukawa]]）",
+    "その後の研究": "- ==大きなメタ分析では、うつは**神経症傾向の高さ**と**誠実性の低さ**に結びつく==（[[2010 Kotov]]）。メランコリー親和型（誠実性が高い）とは**向きが反対**（この2つをつないだのは大河の見立て）\n- 歴史＝1960〜2000年ごろの日本の「うつ病」概念はドイツ・スイスの精神医学に由来した。1990年ごろに米国の DSM と SSRI が入り、主流が入れ替わった（[[2025 Ohmae]]）\n- ⚠留保＝[[2010 Kotov]] の多くは横断で、うつの状態が性格の自己評価を下げる可能性がある。前向きの研究なら違う絵になるかもしれない（大河は前向きの研究をまだ当たっていない）",
+    "動画での使われ方（映10・15:30〜16:30）": "「真面目な人ほどうつになりやすい、という考えには元がある……ただ正直に言うと、この概念は古い。その後の大規模な研究では性格とうつの関係は言われてきたほど強くは出ていない」。\n- ⭐結論（**真面目だからうつになるは支持されていない**）は、研究と合う\n- !!理由の言いかたが逆!!＝弱かったのは「性格とうつの関係」ではなく「**真面目さ**とうつの関係」。性格とうつの関係そのものは**強い**（[[2010 Kotov]]・神経症傾向 d = 1.65）。動画は自分が引いた論文の結論を逆に要約している\n- そこから動画は [[性格は病気を作るのではなく隠す]] へ進む",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -24980,6 +26097,37 @@
    "sections": {
     "これは何か": "森政弘（1970）＝人型ロボットへの**親近感**は人らしさが増すほど上がるが・==**人にそっくりなのに届かないところで急に不気味さに転じ**・完全に人に近づくと再び戻る==。その落ち込みが「谷」。**動きがある**と谷は深くなる（義手が動く例）。1970年の随筆で・2005年にMacDormanが英訳・2012年に改訳（familiarity→affinity）して広まった。",
     "この地図で": "[[Detroit Become Human]] のアンドロイドは**谷を越えた先**（人と区別がつかない）にいる。だから物語の問いは「見た目が不気味か」ではなく「中身が人と同じか」（→[[ハード・プロブレム]]）に移る。\n谷の底の反応は[[嫌悪感]]に近いというのは大河の見立て（森の原文は「不気味」）。谷の手前で人らしさが親近感を生むのは[[擬人化]]の側。⏳谷の存在自体は実験で再現されているか・どの要因（目・動き・不一致）が効くかは未調査。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "不眠とうつ",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Baglioni C ほか 2011 J Affect Disord",
+     "url": "https://doi.org/10.1016/j.jad.2011.01.011",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Li L ほか 2016 BMC Psychiatry",
+     "url": "https://doi.org/10.1186/s12888-016-1075-3",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/不眠とうつ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "==うつでない人の**不眠**は、のちのうつのリスクを**約2倍**にする==。\n- 縦断21本＝オッズ比 2.60（外れ値を除くと 2.10）（[[2011 Baglioni]]）\n- 前向きコホート34本・17万人＝相対リスク 2.27。ただし異質性がとても大きい（[[2016 Li]]）\n- 不眠はうつの**症状**でもあり、寛解の後まで残ることも多い（[[2011 Baglioni]] の背景の節）",
+    "動画での使われ方（映10・03:00〜05:30）": "- 「バリオニたちが21本をまとめた・約2倍」＝要旨どおり\n- 「関係は双方向で、不眠が原因だと言い切れない」＝正しい断り\n- ==動画の勧め「起きる時間を平日と同じにする。眠ければ昼に短く寝る」==は、[[社会的時差ぼけ]] の考えに沿う。⚠それで「2つ目から1つ目へ戻る人は少なくない」は、出典が示されていない\n- ⚠動画の物差し「目覚ましの前に起きた日が週3回を超える週が2週続いたら」は**語り手が作った目安**で、研究の閾値ではない（説明欄にも出典なし）。⭐目安として使うのは悪くないが、数字に根拠があるわけではない",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -27252,6 +28400,32 @@
    "stub": false
   },
   {
+   "id": "前駆症状",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Fava GA・Kellner R 1991 Am J Psychiatry",
+     "url": "https://doi.org/10.1176/ajp.148.7.823",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/前駆症状.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "prodromal symptoms。病気がそろう前に出る、まだ軽く、はっきりしない症状。==うつ・躁・パニックでは、本番の**数週から数か月前**に出ることがある==（[[1991 Fava]]・24研究の総説）。\n- 気づければ、**再発**を早く、より効果的に治療できる（同上）\n- 横断的な診断に、前駆期と残遺期の見立てを足すべきだという主張は、のちの [[うつ病の病期モデル]] につながる",
+    "動画での使われ方（映10・04:00〜04:30）": "「多くの人が気分の落ち込みより先に不安・いらだち・疲れやすさ・睡眠の変化を挙げた」。\n- !!食い違い!!＝動画は「ファバたちが聞き取った」と言うが、この論文は**総説**。症状の並びは要旨に無い（本文未読）\n- ⭐芯の主張「気分より先に体の変化が来ることが多い」は、要旨の書きぶりと矛盾しない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "前／超の誤謬",
    "type": "用語",
    "confidence": "確認済",
@@ -27984,6 +29158,37 @@
     "これは何か": "antisocial personality disorder（ASPD）。==精神医学の診断基準（DSM-5）に載っている名前==。サイコパスもソシオパスも正式な診断名ではなく、対応する診断名はこれ。\n\n- 他人の権利を無視し侵害する行動の広がった型（法を守らない・嘘・衝動性・攻撃性・無責任・良心の呵責の欠如）\n- **18歳以上**であること、**15歳より前に素行症**の証拠があること\n\n!!診断基準の細部は大河の記憶!!。外部の情報源には当たっていない。",
     "動画との差": "- 動画は「行動のパターンが15歳以前から続いている人につく名前」と言う。15歳は**素行症の始まり**の条件で、診断そのものは18歳以上（大河の記憶）\n- 動画は「サイコパスは診断基準に載っていない」と言う。本編の診断基準ではそのとおりだが、DSM-5 第III部の [[DSM-5代替モデル]] には ASPD に「**サイコパス的特徴をともなう**」という特定子がある（大河の記憶）",
     "サイコパシーとの違い": "ASPD は**行動**で決まり、サイコパシーは**情動と対人の特徴**（浅い感情・共感の欠如・表面的な魅力）を重く見る。だから受刑者では ASPD のほうがずっと多い、というのが大河の理解。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "反芻",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Nolen-Hoeksema S 1991 J Abnorm Psychol 100:569-582",
+     "url": "https://doi.org/10.1037/0021-843X.100.4.569",
+     "note": "書誌のみ（2026-10-27）"
+    },
+    {
+     "title": "Nolen-Hoeksema S ほか 2008 Perspect Psychol Sci",
+     "url": "https://doi.org/10.1111/j.1745-6924.2008.00088.x",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/反芻.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "rumination。落ち込んだとき、その気分と原因と結果について、同じ考えを**くり返し**めぐらせる反応。ノーレン＝ホークセマの**反応スタイル理論**（[[1991 Nolen-Hoeksema]]）。\n- 支持された点＝反芻は**うつを悪化させ**、否定的な考えを強め、問題解決を損ない、行動を妨げ、社会的支援を削る（[[2008 Nolen-Hoeksema]]）\n- ==見直された点＝反芻は、うつの**長さ**より**発症**を、より一貫して予測する==（同上）。長さを予測するのは否定的な認知スタイルと組み合わさったとき\n- うつに限らない＝不安・過食・飲酒・自傷とも結びつく（同上）\n- 気をそらすことは、実験では気分を和らげるが、相関研究ではいつも抑うつの低さと結びつくわけではない（同上）",
+    "動画での使われ方（映10・12:00〜13:30）": "「同じ考えを何度も繰り返す反芻が、うつを長引かせ深くすることを長い追跡で示した」＝1991年の形。⭐2008年の見直しでは「長引かせる」より「**始まりを予測する**」のほうが固い\n- 夜の描写（返せなかったメール→相手の評価→先週の会議→先月のミス→3年前→「自分はずっとこうだった」）は、反芻の形をよく描いている（大河の感想）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -29330,6 +30535,37 @@
    "stub": false
   },
   {
+   "id": "孤独感と抑うつ",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Cacioppo JT ほか 2006 Psychol Aging",
+     "url": "https://doi.org/10.1037/0882-7974.21.1.140",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Cacioppo JT ほか 2010 Psychol Aging",
+     "url": "https://doi.org/10.1037/a0017216",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/孤独感と抑うつ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "==孤独感（**主観的な**社会的孤立）は、抑うつ症状の**独立した**危険因子==。社会的支援やストレスを調整しても残る（[[2006 Cacioppo]]）。\n- 向き＝2006年の3年の縦断では**互いに**影響した。2010年の5年の縦断では**孤独感→抑うつ**の一方向で、逆は見られなかった（[[2010 Cacioppo]]）\n- 効くのは**客観的な孤立（人数）ではなく、感じている孤独**（2010年）\n- ⚠どちらも50〜68歳ごろの中高年",
+    "動画での使われ方（映10・09:30〜10:30）": "「孤独感が強い人はその後うつの症状が増えやすかった。これも関係は双方向で、うつが孤独を作り孤独がうつを深める」。\n- !!食い違い!!＝説明欄が挙げる [[2010 Cacioppo]] は**一方向**の結果。双方向は [[2006 Cacioppo]]。結論の向きは逆ではないが、引いた論文と言っていることが合っていない\n- ⭐動画の筋（第3段で人から離れることが第4段への坂になる）は、孤独感→抑うつの向きなら、むしろ**2010年の結果のほうが強く支える**",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "学習の生物的制約",
    "type": "理論",
    "confidence": "確認済",
@@ -30565,6 +31801,28 @@
    "stub": false
   },
   {
+   "id": "性格は病気を作るのではなく隠す",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/性格は病気を作るのではなく隠す.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "映10の語り手の主張（16:00〜16:30）。==「真面目さはうつの原因ではない。だが真面目さは3つ目と4つ目を**見えなくする**。頑張れる人は3つ目で仕事をこなし続けられるから周りに気づかれない。責任感の強い人は4つ目で、自分が休んだら迷惑だと考えるから受診しない。性格が病気を作るのではなく、性格が病気を隠す」==。名前は大河がつけた。",
+    "筋の通るところ": "- 前半（原因ではない）＝[[2010 Kotov]] でうつと結びつくのは誠実性の**低さ**。真面目さが原因という説は支持されない\n- 後半の材料＝受診が遅れる理由のいちばんが「自分で何とかしたい」（[[2015 Kanehara]]）。うつは病欠より**仕事中の働き**を下げる（[[2012 Tsuchiya]]）＝休まずに出勤し続ける人がいる",
+    "切れるところ": "- ==「真面目な人ほど気づかれにくく、受診が遅れる」を**直接**調べた研究を、大河はまだ見ていない==。誠実性と受診の遅れ・誠実性とプレゼンティーイズムの研究を当たれば、確かめられる\n- 古い病前性格論を「原因」から「隠す要因」へ読み替えるのは魅力的だが、両方とも臨床の観察から出た説で、読み替えた形も同じくらい未検証（大河の見立て）",
+    "科学的に扱える版": "「誠実性の高い人は、うつの症状が同じでも、受診までの時間が長い／プレゼンティーイズムの期間が長い」＝縦断データで検証できる問い",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "性選択",
    "type": "理論",
    "confidence": "確認済",
@@ -31729,6 +32987,37 @@
     "歯止め＝価値転移説": "!!心的表象を必要としない説明も可能＝**価値転移説**（von Fersen 1991）＝訓練でペア呈示される際に項目間で誘因価が転移する。Aの誘因価100がBに少し転移し、Cの小さい誘因価がDに少し転移するので、BとDでBが選ばれる。末端項目効果も象徴距離効果も説明できる（p.287）。!!",
     "社会との関係（p.287-288）": "群れの新入りAが最強のBを打ち負かす現場を見たCは、Aに挑戦しないほうが賢明＝同種他個体間のやりとりを眺めて自分の社会的地位を間接的に判断する能力は、ベルベットモンキー・キツネザル・ニシコクマルガラス・ハイイロガン・マツカケス・ニワトリ・ティラピアで確認。\n==推移的推論能力は複雑な社会構造への適応として進化したという仮説＝群れ社会のワオキツネザルはペア型のマングースキツネザルより成績が良い（MacLean 2008）／50〜500羽の群れのマツカケスはペア型のアメリカカケスより良い（Bond 2003）／カラス科4種で群れが大きいほど良い（Bond 2010）==。",
     "この地図で": "`動05_ローレンツ`の[[順位制]]と、9章の[[社会的知性]]（社会脳仮説）をつなぐ橋。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "援助要請の壁",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Kanehara A ほか 2015 Psychiatry Clin Neurosci",
+     "url": "https://doi.org/10.1111/pcn.12267",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Gulliver A ほか 2010 BMC Psychiatry",
+     "url": "https://doi.org/10.1186/1471-244X-10-113",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/援助要請の壁.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "help-seeking の壁。心の不調があっても、人は助けを求めない・遅れる・やめる。\n- 日本（WMHJ・4130人）＝受診しない理由のいちばんは「必要だと思わない」63.9%。==受診が**遅れた**理由のいちばんは「**自分で何とかしたい**」68.8%==（[[2015 Kanehara]]）\n- 若い人（22研究）＝壁は**スティグマと恥ずかしさ**・**症状に気づけないこと**・**自分で頼りたい気持ち**。助けになるのは過去の良い経験と周りの後押し（[[2010 Gulliver]]）",
+    "動画での使われ方（映10・13:30〜14:00・19:00〜22:00）": "- 「4つ目にいる人の多くはまだ受診していない。自分なんかが病院に行くほどではない。もっと辛い人がいる。この考えそのものが症状だ。症状が治療を止めている」\n- ⭐「必要だと思わない」「自分で何とかしたい」が日本でいちばん多い理由だという [[2015 Kanehara]] は、動画の筋と合う。⚠ただし、それが**症状**（自責）から来るのか、**ふつうの判断**から来るのかを分けた研究ではない\n- 動画の処方＝「相談ではなく報告でいい。天気の話と同じ重さで\"最近眠れなくてさ\"と言う」。周りには「大丈夫？ではなく観察を言う（\"最近2次会来ないね\"）」「頑張ってと言わない」「\"病院に行ったら\"より\"一回話を聞いてもらったら\"」\n- ⚠この処方の一つ一つに出典は示されていない。大河の見立て＝壁の研究の「スティグマ」「自分で頼りたい」を下げる工夫として、筋は通る（推測）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -33108,6 +34397,32 @@
    "stub": false
   },
   {
+   "id": "気分の日内変動",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Wirz-Justice A 2008 Dialogues Clin Neurosci",
+     "url": "https://doi.org/10.31887/DCNS.2008.10.3/awjustice",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/気分の日内変動.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "diurnal variation。一日のうちで、抑うつの重さが時間帯によって変わること。==うつの**芯の一部**らしいが、型は人によって、同じ人でも時期によってまちまち==（[[2008 Wirz-Justice]]）。\n- 朝が悪い・午後に落ちる・夕方に悪くなる＝同じ一回のエピソードの中で全部起こりうる\n- 治療への反応をいちばん予測するのは、気分の**揺れやすさ**そのもの\n- 気分も体温と同じく、体内時計と睡眠の恒常性の組み合わせで調節される。断眠や睡眠相の前進には抗うつ効果がある",
+    "動画での使われ方（映10・12:00〜12:30）": "「うつには気分が一日の中で変わる日内変動があり、朝がもっとも重く夕方に少し軽くなる人が多い」。\n- !!言いすぎ!!＝「朝が重い」はメランコリーの特徴の型として教科書に載る（大河の記憶）が、総説は**型がそろわない**と言う。動画の出典欄にもこの項目は無い\n- ⭐「夕方に少し動ける→夜に明日こそはと思う→翌朝また起き上がれない」の描写は、日内変動が**自分を責める燃料になる**仕組みとして筋が通る（大河の感想）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "水平的発達",
    "type": "用語",
    "confidence": "推測",
@@ -33587,6 +34902,26 @@
     "何をした観察か": "個体Aの行動をBが模倣し、BをCが…の繰り返しで同じ行動が個体間に伝播する。一時的なら流行、長く続くと**文化**と呼ばれることがある（p.320）。野生動物の有名な二例──\n- **牛乳瓶のフタ開け**＝1921年に英国の小さな町で1羽のシジュウカラが牛乳瓶のフタを破って飲んでいるのが目撃され、近隣にも広がり、次第に英国中に（Fisher&Hinde 1949; Hinde&Fisher 1951, 図9-7）\n- **イモ洗い**＝砂のついた芋をニホンザルが海水で洗って食べる行動が群れに広まった。最初の報告は川村（1954）、河合雅雄の英文論文（Kawai 1965）で国際的に有名に",
     "留保": "==**牛乳瓶**＝実際に行動伝播かどうかは議論がある。破れたフタは目立つので**刺激強調**により他の鳥がフタをいじる行動が増え、破り開ける行動を学習しやすくなったのかもしれない。同じ科のアメリカコガラの実験室研究はこの可能性を支持する（Sherry&Galef 1984, 1990）==。しかし刺激強調を[[2行為手続き]]で排除した実験でアオガラが真の模倣を示すとの報告もあり（Aplin 2013）、真の模倣の繰り返しによる伝播も否定できない（p.321）。\n==**イモ洗い**＝真の模倣学習による行動伝播であるかは疑問視する研究者も少なくない（Hirata 2008）。同じマカク属のカニクイザルの野外観察では刺激強調によって説明できると結論されている（Visalberghi&Fragaszy 1990）==。",
     "この地図で": "`動05_ローレンツ`の[[動物の伝統]]・`動03_河合`のニホンザル研究の系譜（今西→伊谷→河合）に、「文化と呼べるか」の留保をつける。年表では1965年＝河合の英文報告と杉山の[[子殺し]]が並ぶ。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [],
+   "brain": [],
+   "file": "nodes/物差しを外に置く（睡眠・2週間・他人の目）.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "映10の結論（大河が名付けた）。==自分の感覚は3つ目以降当てにならない。だから戻るのに必要なのは意思ではなく**物差し**で、物差しは**外に置く**==。\n1. **睡眠を数える**＝目覚ましの前に起きた日にカレンダーで印。週3回を超える週が2週続いたら偶然ではない（「気分を聞かれるとまあまあと答える。印の数を聞かれると答えは数字になる。数字は大丈夫ですと言わない」）\n2. **2週間**＝楽しくない・落ち込むが2週間続いているか。「最後に心から楽しいと思ったのはいつか。思い出せなければそれ自体が答え」\n3. **人に言う**＝相談ではなく報告で。「最近眠れなくてさ」。他人は自分では見えない3つ目をたまに見ている\n- 周りの人へ＝「大丈夫？」は質問として働かない（3つ目の人は本当に大丈夫だと思い、4つ目の人は大丈夫じゃないと言うのが迷惑だと思う）。==評価ではなく**観察**を言う==。「頑張って」は4つ目の自責に燃料を足す。気分ではなく**睡眠**を聞く",
+    "大河の見立て": "- ==いちばん良いのは「症状が判断を止めるなら、判断を症状に任せない」という組み立て==。内側の物差しが壊れる病気に、外側の物差しで備える＝筋が通っている\n- 物差し1（睡眠）は [[不眠とうつ]] の研究に支えられる。⚠ただし「週3回・2週」の数字は語り手の目安で、研究の閾値ではない\n- 物差し2（2週間）は診断基準の数字。⚠「思い出せなければ答え」は、うつで**楽しかった記憶が思い出しにくくなる**ことを逆手に取った問い。気分に合った記憶ばかり思い出す偏り（気分一致効果）は知られている（大河の記憶）ので、問いとしては筋が通る\n- 物差し3（人に言う）は [[援助要請の壁]] に向けた工夫。⚠効果を測った研究は示されていない\n- ⭐一度戻った人にとっては、この3つは**再発の前ぶれを見張る道具**になる（[[うつ病の再発と残遺症状]]・[[前駆症状]]）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -35103,6 +36438,37 @@
    "sections": {
     "調べたこと": "sociogenic。[[自由特性理論]] の三つの動機源の第二。**文化が要求するもの**にあたる。\n\n`08_リトル` 第3章の節（目次より）──\n- **文化によって「評価されるパーソナリティ」は違う**\n- !!**「遺伝」と「社会」が別のパーソナリティを要求した場合**!!\n\n**同じ気質でも、住む文化によって「よい性格」にも「困った性格」にもなる**、という話。\n!!だから「性格がよい／悪い」は文化を抜きには言えないことになる。!!",
     "燻太さんの見立てとの関係": "燻太さんの三層フレームでは、社会的動機は**意識しないと影響を感じにくく、変えにくい**層。\n**だから集団学・分化的影響・社会心理学を書籍で勉強中**、という位置づけになっている。\nこの地図の `動02_福井`（[[集団とは何か]]）と `動03_河合`（[[フィールドにみえた社会性のゆらぎ]]）は、\nまさにその勉強の一部にあたる。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "社会的時差ぼけ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Wittmann M ほか 2006 Chronobiol Int",
+     "url": "https://doi.org/10.1080/07420520500545979",
+     "note": "要旨（2026-10-27）"
+    },
+    {
+     "title": "Levandovski R ほか 2011 Chronobiol Int",
+     "url": "https://doi.org/10.3109/07420528.2011.602445",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/社会的時差ぼけ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "social jetlag。==仕事や学校の日と休みの日で、眠る時刻がずれること＝**社会の時刻と体の時刻のずれ**==。毎週末に時差のある土地へ行って戻ってくるのと似ている、という名づけ（[[2006 Wittmann]]）。\n- 夜型（クロノタイプが遅い人）ほど大きい。平日に睡眠の借金をつくり、休日に返す\n- 4051人の横断研究で、社会的時差ぼけが2時間を超える人は抑うつ得点が有意に高かった（[[2011 Levandovski]]）。!!横断なので因果は未確定!!",
+    "動画での使われ方（映10・04:30〜05:30）": "「週末に寝だめをする。それは睡眠の借金を返すように見えて、体内時計を毎週ずらしている。ずれた時計は月曜の朝、目覚ましの前に目を覚まさせる」。\n- 前半（寝だめが体内時計をずらす）は、この概念の説明として合う\n- ⚠後半（ずれた時計が**早朝覚醒**を起こす）は、大河の理解では向きが逆。週末に遅く寝起きすると時計は**遅れる**方へずれ、月曜は「起きられない・寝つけない」のほうが起きやすい。早朝覚醒はむしろうつそのものの症状として知られる（大河の記憶・未照合）\n- 動画は語を出していない。説明欄にも出典なし。名前を足したのは大河",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -38064,6 +39430,32 @@
    "stub": false
   },
   {
+   "id": "認知の三徴",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "映10_うつの5段階"
+   ],
+   "refs": [
+    {
+     "title": "Beck AT 2008 Am J Psychiatry",
+     "url": "https://doi.org/10.1176/appi.ajp.2008.08050721",
+     "note": "要旨（2026-10-27）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/認知の三徴.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "cognitive triad。ベックの認知モデルで、うつの人の考えに共通する3つの向き＝==**自分**について（自分はだめだ）・**周り**について（世界は自分に厳しい）・**未来**について（この先も良くならない）==。\n- !!三徴の中身は大河の記憶!!（Beck 1967 の本は読めていない）。だから確度は推測にした\n- モデルはその後、自動思考・認知の歪み・非機能的な信念・情報処理の偏りへ広がり、脳と遺伝子の知見とつながった（[[2008 Beck]]）\n- 治療としての認知療法（認知行動療法）の出発点",
+    "動画での使われ方（映10・11:30〜12:00）": "「迷惑をかけている。自分がいないほうが仕事が回る。こんなことで休むのは甘えだ」＝自分についての向き。動画の三徴の説明は、大河の記憶とも合う",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "認知動物行動学",
    "type": "理論",
    "confidence": "確認済",
@@ -40743,6 +42135,18 @@
    "weight": "強"
   },
   {
+   "source": "1991 Fava",
+   "target": "前駆症状",
+   "rel": "気分障害と不安障害の前駆期の総説",
+   "weight": "強"
+  },
+  {
+   "source": "1991 Nolen-Hoeksema",
+   "target": "反芻",
+   "rel": "反応スタイル理論の原典",
+   "weight": "強"
+  },
+  {
    "source": "1992 Kuper",
    "target": "カラハリ論争",
    "rel": "裏づけ",
@@ -40791,6 +42195,12 @@
    "weight": "強"
   },
   {
+   "source": "1995 Paykel",
+   "target": "うつ病の再発と残遺症状",
+   "rel": "残遺症状は早い再発の強い予測因子",
+   "weight": "強"
+  },
+  {
    "source": "1996 Tooby",
    "target": "かけがえのなさ",
    "rel": "裏づけ",
@@ -40830,6 +42240,24 @@
    "source": "1998 Cartwright",
    "target": "別れた相手の夢（カートライト）",
    "rel": "夫婦の別居直後と1年後の睡眠と夢",
+   "weight": "強"
+  },
+  {
+   "source": "1998 Furukawa",
+   "target": "メランコリー親和型と執着気質",
+   "rel": "五因子モデルで測ると誠実性と協調性が高い",
+   "weight": "強"
+  },
+  {
+   "source": "1998 Furukawa",
+   "target": "誠実性",
+   "rel": "メランコリー親和型の芯",
+   "weight": "標準"
+  },
+  {
+   "source": "1998 McEwen",
+   "target": "アロスタティック負荷",
+   "rel": "動画の説明欄が引く総説",
    "weight": "強"
   },
   {
@@ -40951,6 +42379,12 @@
    "target": "感情の抑制",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2000 Solomon",
+   "target": "うつ病の再発と残遺症状",
+   "rel": "10年の追跡で再発ごとにリスクが16%上がり寛解が長いほど下がる",
+   "weight": "強"
   },
   {
    "source": "2001 Baron-Cohen",
@@ -41100,6 +42534,12 @@
    "source": "2004 Gable",
    "target": "良い知らせへの応答（キャピタリゼーション）",
    "rel": "提唱",
+   "weight": "強"
+  },
+  {
+   "source": "2004 Goetzel",
+   "target": "プレゼンティーイズム",
+   "rel": "米国の雇用主にとっての10疾患の損失",
    "weight": "強"
   },
   {
@@ -41277,6 +42717,12 @@
    "weight": "強"
   },
   {
+   "source": "2006 Cacioppo",
+   "target": "孤独感と抑うつ",
+   "rel": "孤独感は抑うつの独立した危険因子で影響は双方向",
+   "weight": "強"
+  },
+  {
    "source": "2006 Donnellan",
    "target": "ビッグファイブ",
    "rel": "裏づけ",
@@ -41311,6 +42757,12 @@
    "target": "集団脅威",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2006 Wittmann",
+   "target": "社会的時差ぼけ",
+   "rel": "名付けた論文",
+   "weight": "強"
   },
   {
    "source": "2007 Ashton",
@@ -41407,6 +42859,12 @@
    "target": "正直さ-謙虚さ",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2008 Beck",
+   "target": "認知の三徴",
+   "rel": "本人による認知モデルの40年",
+   "weight": "強"
   },
   {
    "source": "2008 Dantzer",
@@ -41511,6 +42969,12 @@
    "weight": "強"
   },
   {
+   "source": "2008 Nolen-Hoeksema",
+   "target": "反芻",
+   "rel": "反応スタイル理論の17年後の見直し",
+   "weight": "強"
+  },
+  {
    "source": "2008 Ochsner",
    "target": "認知的再評価",
    "rel": "裏づけ",
@@ -41539,6 +43003,12 @@
    "target": "フォン・エコノモ・ニューロン",
    "rel": "切り替えの担い手として提案",
    "weight": "標準"
+  },
+  {
+   "source": "2008 Wirz-Justice",
+   "target": "気分の日内変動",
+   "rel": "日内変動はうつの芯だが人によって形はまちまち",
+   "weight": "強"
   },
   {
    "source": "2008 Zaki",
@@ -41721,6 +43191,12 @@
    "weight": "強"
   },
   {
+   "source": "2010 Cacioppo",
+   "target": "孤独感と抑うつ",
+   "rel": "5年の縦断で孤独感が先行した",
+   "weight": "強"
+  },
+  {
    "source": "2010 Chalmers",
    "target": "比例テーゼ",
    "rel": "裏づけ",
@@ -41769,9 +43245,33 @@
    "weight": "標準"
   },
   {
+   "source": "2010 Gulliver",
+   "target": "援助要請の壁",
+   "rel": "若い人の援助要請の壁と助けの系統的総説",
+   "weight": "標準"
+  },
+  {
    "source": "2010 Killingsworth",
    "target": "マインドワンダリング",
    "rel": "原典（経験サンプリング）",
+   "weight": "強"
+  },
+  {
+   "source": "2010 Kotov",
+   "target": "メランコリー親和型と執着気質",
+   "rel": "批判 うつは誠実性の高さでなく低さと結びつく",
+   "weight": "強"
+  },
+  {
+   "source": "2010 Kotov",
+   "target": "神経症的傾向",
+   "rel": "すべての診断群で高い（平均 d = 1.65）",
+   "weight": "強"
+  },
+  {
+   "source": "2010 Kotov",
+   "target": "誠実性",
+   "rel": "すべての診断群で低い（平均 d = -1.01）",
    "weight": "強"
   },
   {
@@ -41823,6 +43323,12 @@
    "weight": "標準"
   },
   {
+   "source": "2011 Baglioni",
+   "target": "不眠とうつ",
+   "rel": "縦断研究21本のメタ分析",
+   "weight": "強"
+  },
+  {
    "source": "2011 De Dreu",
    "target": "内集団バイアス",
    "rel": "オキシトシンは身内びいきを強め・外集団の蔑視は弱めにしか強めない",
@@ -41845,6 +43351,12 @@
    "target": "代理的困惑",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2011 Levandovski",
+   "target": "社会的時差ぼけ",
+   "rel": "抑うつ得点との関連",
+   "weight": "強"
   },
   {
    "source": "2011 Menon",
@@ -41961,6 +43473,12 @@
    "weight": "標準"
   },
   {
+   "source": "2012 Tsuchiya",
+   "target": "プレゼンティーイズム",
+   "rel": "日本の地域の働く人でうつは欠勤でなく仕事中の働きを下げた",
+   "weight": "強"
+  },
+  {
    "source": "2012 Yamashita",
    "target": "自発的予測誤差",
    "rel": "裏づけ",
@@ -41970,6 +43488,12 @@
    "source": "2013 Bench",
    "target": "退屈",
    "rel": "機能説＝前の目標が益を生まなくなったとき新しい目標を追わせる",
+   "weight": "強"
+  },
+  {
+   "source": "2013 Cosci",
+   "target": "うつ病の病期モデル",
+   "rel": "精神疾患の病期分類の系統的総説",
    "weight": "強"
   },
   {
@@ -42213,6 +43737,12 @@
    "weight": "強"
   },
   {
+   "source": "2014 Uher",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "DSM-IV から DSM-5 での診断基準の変化",
+   "weight": "標準"
+  },
+  {
    "source": "2014 Uysal",
    "target": "代理的困惑尺度",
    "rel": "裏づけ",
@@ -42312,6 +43842,12 @@
    "source": "2015 Jacobsen",
    "target": "音楽記憶の保存（アルツハイマー病）",
    "rel": "残る仕組みの候補",
+   "weight": "強"
+  },
+  {
+   "source": "2015 Kanehara",
+   "target": "援助要請の壁",
+   "rel": "日本で受診が遅れるいちばんの理由は自分で何とかしたい",
    "weight": "強"
   },
   {
@@ -42507,6 +44043,12 @@
    "weight": "強"
   },
   {
+   "source": "2016 Ishikawa",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "日本の生涯有病率6.1%・12か月2.2%",
+   "weight": "強"
+  },
+  {
    "source": "2016 Kappelmann",
    "target": "炎症性うつ",
    "rel": "慢性炎症の病気の人ではサイトカイン阻害で気分も上がる",
@@ -42517,6 +44059,18 @@
    "target": "代理の痛みの脳内表象",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2016 Kuyken",
+   "target": "うつ病の再発と残遺症状",
+   "rel": "再発予防のマインドフルネス認知療法の個人データメタ分析",
+   "weight": "強"
+  },
+  {
+   "source": "2016 Li",
+   "target": "不眠とうつ",
+   "rel": "34コホートで更新したメタ分析",
+   "weight": "強"
   },
   {
    "source": "2016 Marcus",
@@ -42759,6 +44313,12 @@
    "weight": "標準"
   },
   {
+   "source": "2018 Ishikawa",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "2013〜2015年の第2回調査で12か月2.7%",
+   "weight": "標準"
+  },
+  {
    "source": "2018 Kupper",
    "target": "タイプD",
    "rel": "裏づけ",
@@ -42774,6 +44334,12 @@
    "source": "2018 Morgenthaler",
    "target": "イメージリハーサル療法",
    "rel": "ただ一つ推奨とされた治療",
+   "weight": "強"
+  },
+  {
+   "source": "2018 Nagata",
+   "target": "プレゼンティーイズム",
+   "rel": "日本の製薬4社の内訳",
    "weight": "強"
   },
   {
@@ -43471,6 +45037,12 @@
    "target": "ダーウィン・ゲーデルマシン",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2025 Ohmae",
+   "target": "メランコリー親和型と執着気質",
+   "rel": "日本独自のうつ病概念の盛衰",
+   "weight": "強"
   },
   {
    "source": "2025 Seah",
@@ -44439,6 +46011,120 @@
    "weight": "標準"
   },
   {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "うつ病の病期モデル",
+   "rel": "00:30 5つの段階は医学の正式な分類ではない",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "01:30 15人に1人・2週間の物差し",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "アロスタティック負荷",
+   "rel": "02:00 第1段 回復に時間がかかる",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "不眠とうつ",
+   "rel": "03:19 第2段 睡眠が崩れる",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "前駆症状",
+   "rel": "04:00 本番の前の段階",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "社会的時差ぼけ",
+   "rel": "04:30 週末の寝だめが時計をずらす",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "アンヘドニア",
+   "rel": "05:53 第3段 楽しめなくなるという空白",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "プレゼンティーイズム",
+   "rel": "08:30 仕事はできている＝出勤はできている",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "孤独感と抑うつ",
+   "rel": "09:30 人から離れていく段階",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "認知の三徴",
+   "rel": "11:19 第4段 自分を責める",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "反芻",
+   "rel": "12:00 考えるほど気分が下がる",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "気分の日内変動",
+   "rel": "12:00 朝がいちばんつらい",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "援助要請の壁",
+   "rel": "13:30 症状が治療を止めている",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "メランコリー親和型と執着気質",
+   "rel": "15:30 真面目な人ほどなりやすいは古い",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "性格は病気を作るのではなく隠す",
+   "rel": "16:00 頑張れる人ほど危ないの本当の意味",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "rel": "17:30 動画の結論",
+   "weight": "強"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "2011 Treadway",
+   "rel": "説明欄の出典（アンヘドニア）",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "人生が辛いあなたへ（深淵回廊）",
+   "rel": "同じチャンネル（映09）",
+   "weight": "標準"
+  },
+  {
+   "source": "あなたの心は本当に大丈夫ですか（深淵回廊）",
+   "target": "悪夢の正体（深淵回廊）",
+   "rel": "同じチャンネル（映08）",
+   "weight": "標準"
+  },
+  {
    "source": "あなたはなぜ嫌悪感をいだくのか",
    "target": "レイチェル・ハーツ",
    "rel": "著者",
@@ -44502,6 +46188,48 @@
    "source": "いじめの目撃",
    "target": "思いやり",
    "rel": "介入すると目撃者の害が和らぐ",
+   "weight": "標準"
+  },
+  {
+   "source": "うつ病の再発と残遺症状",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "うつは再発しやすい病気",
+   "weight": "強"
+  },
+  {
+   "source": "うつ病の再発と残遺症状",
+   "target": "前駆症状",
+   "rel": "再発の前ぶれに気づく",
+   "weight": "標準"
+  },
+  {
+   "source": "うつ病の病期モデル",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "同じ診断名を経過の段階で分ける",
+   "weight": "強"
+  },
+  {
+   "source": "うつ病の病期モデル",
+   "target": "前駆症状",
+   "rel": "病期の前の段",
+   "weight": "標準"
+  },
+  {
+   "source": "うつ病（大うつ病性障害）",
+   "target": "アンヘドニア",
+   "rel": "中核症状の二つ目",
+   "weight": "強"
+  },
+  {
+   "source": "うつ病（大うつ病性障害）",
+   "target": "炎症性うつ",
+   "rel": "うつの中の一つの型（の候補）",
+   "weight": "標準"
+  },
+  {
+   "source": "うつ病（大うつ病性障害）",
+   "target": "学習性無力感",
+   "rel": "古典的な動物モデル",
    "weight": "標準"
   },
   {
@@ -44802,6 +46530,18 @@
    "source": "アレクサンドル・ルリヤ",
    "target": "認知的習慣",
    "rel": "文化と認知の研究（読み書きできない社会の三段論法）",
+   "weight": "標準"
+  },
+  {
+   "source": "アロスタティック負荷",
+   "target": "アロスタシス",
+   "rel": "先回りの調節が続きすぎたときの代償",
+   "weight": "強"
+  },
+  {
+   "source": "アロスタティック負荷",
+   "target": "疾病行動",
+   "rel": "体の側から気分を変える別の道",
    "weight": "標準"
   },
   {
@@ -47583,6 +49323,18 @@
    "weight": "標準"
   },
   {
+   "source": "プレゼンティーイズム",
+   "target": "感情労働",
+   "rel": "働く場で外から見えない消耗のもう一つ",
+   "weight": "標準"
+  },
+  {
+   "source": "プレゼンティーイズム",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "休まずに働けなくなる形",
+   "weight": "強"
+  },
+  {
    "source": "ヘンリ・タジフェル",
    "target": "1971 Tajfel",
    "rel": "筆頭著者",
@@ -47958,6 +49710,24 @@
    "source": "メタ認知",
    "target": "弁証法思考",
    "rel": "自分の思考の枠組み自体を見る＝ラスキーの認知的発達の上位形式と重なる（大河の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "メランコリー親和型と執着気質",
+   "target": "誠実性",
+   "rel": "病前性格として測ると誠実性が高い",
+   "weight": "強"
+  },
+  {
+   "source": "メランコリー親和型と執着気質",
+   "target": "ビッグファイブ",
+   "rel": "五因子で測り直された",
+   "weight": "標準"
+  },
+  {
+   "source": "メランコリー親和型と執着気質",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "うつの病前性格とされてきた",
    "weight": "標準"
   },
   {
@@ -48570,6 +50340,24 @@
    "source": "不気味の谷",
    "target": "擬人化",
    "rel": "谷の手前では人らしさが親近感を生む＝擬人化の側",
+   "weight": "標準"
+  },
+  {
+   "source": "不眠とうつ",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "不眠はうつの前にも来る",
+   "weight": "強"
+  },
+  {
+   "source": "不眠とうつ",
+   "target": "前駆症状",
+   "rel": "睡眠の変化は前駆症状の一つ",
+   "weight": "標準"
+  },
+  {
+   "source": "不眠とうつ",
+   "target": "生物リズムと生物時計",
+   "rel": "睡眠を決めるもう一つの軸",
    "weight": "標準"
   },
   {
@@ -49725,6 +51513,12 @@
    "weight": "標準"
   },
   {
+   "source": "前駆症状",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "本番の前に来る",
+   "weight": "強"
+  },
+  {
    "source": "前／超の誤謬",
    "target": "ケン・ウィルバー",
    "rel": "名付けた",
@@ -50131,6 +51925,12 @@
    "target": "DSM-5代替モデル",
    "rel": "代替モデルでは「サイコパス的特徴」の特定子がつく",
    "weight": "標準"
+  },
+  {
+   "source": "反芻",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "発症を予測する",
+   "weight": "強"
   },
   {
    "source": "反響定位",
@@ -50805,6 +52605,18 @@
    "weight": "標準"
   },
   {
+   "source": "孤独感と抑うつ",
+   "target": "社会的痛み",
+   "rel": "人から切り離された感じの痛み",
+   "weight": "強"
+  },
+  {
+   "source": "孤独感と抑うつ",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "危険因子の一つ",
+   "weight": "標準"
+  },
+  {
    "source": "学習の生物的制約",
    "target": "ガルシア効果",
    "rel": "選択的連合",
@@ -51324,6 +53136,24 @@
    "source": "思考の7段の階段",
    "target": "認知的再評価",
    "rel": "落下対策＝怒った瞬間に何段落ちるか。判断に名前をつける＝再評価の入口（大河の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "性格は病気を作るのではなく隠す",
+   "target": "メランコリー親和型と執着気質",
+   "rel": "古い病前性格論の読み替え",
+   "weight": "強"
+  },
+  {
+   "source": "性格は病気を作るのではなく隠す",
+   "target": "援助要請の壁",
+   "rel": "責任感が受診を遅らせる",
+   "weight": "強"
+  },
+  {
+   "source": "性格は病気を作るのではなく隠す",
+   "target": "プレゼンティーイズム",
+   "rel": "頑張れる人は出勤し続ける",
    "weight": "標準"
   },
   {
@@ -52095,6 +53925,18 @@
    "weight": "標準"
   },
   {
+   "source": "援助要請の壁",
+   "target": "相談する力",
+   "rel": "相談するのにも力が要る",
+   "weight": "強"
+  },
+  {
+   "source": "援助要請の壁",
+   "target": "偏見",
+   "rel": "スティグマが壁のいちばん大きなもの",
+   "weight": "標準"
+  },
+  {
    "source": "擬人化",
    "target": "心の理論",
    "rel": "動物に心を読み込む問題",
@@ -52815,6 +54657,18 @@
    "weight": "標準"
   },
   {
+   "source": "気分の日内変動",
+   "target": "生物リズムと生物時計",
+   "rel": "気分も体内時計と睡眠で調節される",
+   "weight": "強"
+  },
+  {
+   "source": "気分の日内変動",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "うつの芯の一部らしい",
+   "weight": "標準"
+  },
+  {
    "source": "洞察",
    "target": "トラップ・チューブ課題",
    "rel": "道具の原理の理解を問う現代版",
@@ -52992,6 +54846,36 @@
    "source": "牛乳瓶とイモ洗い",
    "target": "ニホンザル",
    "rel": "イモ洗い",
+   "weight": "標準"
+  },
+  {
+   "source": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "target": "性格は病気を作るのではなく隠す",
+   "rel": "内の感覚が当てにならないから外へ",
+   "weight": "強"
+  },
+  {
+   "source": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "target": "不眠とうつ",
+   "rel": "物差し1＝睡眠を数える",
+   "weight": "強"
+  },
+  {
+   "source": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "target": "うつ病（大うつ病性障害）",
+   "rel": "物差し2＝2週間",
+   "weight": "強"
+  },
+  {
+   "source": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "target": "援助要請の壁",
+   "rel": "物差し3＝人に言う",
+   "weight": "強"
+  },
+  {
+   "source": "物差しを外に置く（睡眠・2週間・他人の目）",
+   "target": "メタ認知",
+   "rel": "自分の状態を外から見る",
    "weight": "標準"
   },
   {
@@ -53646,6 +55530,18 @@
    "source": "社会的制裁（さらし）",
    "target": "いじめの目撃",
    "rel": "晒される側だけでなく見ている側にも影響が出る",
+   "weight": "標準"
+  },
+  {
+   "source": "社会的時差ぼけ",
+   "target": "生物リズムと生物時計",
+   "rel": "社会の時刻と体内時計のずれ",
+   "weight": "強"
+  },
+  {
+   "source": "社会的時差ぼけ",
+   "target": "不眠とうつ",
+   "rel": "週末の寝だめが平日の睡眠を崩す",
    "weight": "標準"
   },
   {
@@ -55068,6 +56964,18 @@
    "source": "試験の夢",
    "target": "未来の記憶",
    "rel": "先の出来事を思い描く模擬として",
+   "weight": "標準"
+  },
+  {
+   "source": "認知の三徴",
+   "target": "学習性無力感",
+   "rel": "もう一つの古典的なうつの心理モデル",
+   "weight": "標準"
+  },
+  {
+   "source": "認知の三徴",
+   "target": "反芻",
+   "rel": "三徴が頭の中で回る形",
    "weight": "標準"
   },
   {
