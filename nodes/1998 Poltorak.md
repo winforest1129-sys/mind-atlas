@@ -9,6 +9,7 @@ DOI: 10.1126/science.282.5396.2085
 書誌の出どころ: Crossref(DOI)
 links:
   - {to: LPS（リポ多糖）, rel: 裏づけ}
+  - {to: パターン認識受容体, rel: 予言の確認（本の言い方では点火の火花）}
 refs:
   - {title: Defective LPS Signaling in C3H/HeJ and C57BL/10ScCr Mice: Mutations in <i>Tlr4</i> Gene, url: https://doi.org/10.1126/science.282.5396.2085, note: 書誌は Crossref(DOI) で確かめた（2026-10-07）}
 ---
