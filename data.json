@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31 17:27",
+ "generated": "2026-10-31 17:48",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -1884,6 +1884,43 @@
    "stub": false
   },
   {
+   "id": "2000 Berdoy",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Berdoy M, Webster JP, Macdonald DW 2000, Fatal attraction in rats infected with Toxoplasma gondii（Proc R Soc B 267:1591-1594）",
+     "url": "https://doi.org/10.1098/rspb.2000.1182",
+     "note": "ラットはふつうネコのいる気配を避けるが、T. gondii に感染したラットでは、その生まれつきの嫌悪が場合によって無謀なひきつけに変わった。ほかの行動の種類や全般の健康は保たれ、変化は選択的。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.92〜93",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2000 Berdoy.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2000",
+    "著者": "Berdoy, Webster & Macdonald（3名）",
+    "雑誌": "Proceedings of the Royal Society B",
+    "DOI": "10.1098/rspb.2000.1182",
+    "書誌の出どころ": "PubMed(PMID 11007336)"
+   },
+   "sections": {
+    "これは何か": "**Fatal attraction in rats infected with Toxoplasma gondii**\n\nBerdoy, Webster & Macdonald（2000）／ *Proc R Soc B* 267:1591-1594（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- **[[トキソプラズマ]]** の「中間宿主の行動が変わる」実例。==ラットはふつうネコの気配を避けるが、感染したラットではその生まれつきの嫌悪が、場合によって無謀なひきつけに変わった==（PubMed の要旨）\n- ==変化は選択的＝ほかの行動の種類と全般の健康は保たれる==。ほかの寄生虫に見られる粗い障害とは違う、と著者は書く\n- 本の例は「ネズミのジェリー」だが、この論文の被験動物は**ラット**。!!本は論文名を挙げていない。この論文が本の念頭にあるかは確かめていない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2000 Calder",
    "type": "論文",
    "confidence": "確認済",
@@ -3022,6 +3059,43 @@
    "stub": false
   },
   {
+   "id": "2004 Sudo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Sudo N ら 2004, Postnatal microbial colonization programs the hypothalamic-pituitary-adrenal system for stress response in mice（J Physiol 558:263-275）",
+     "url": "https://doi.org/10.1113/jphysiol.2004.063388",
+     "note": "九州大学のグループ。無菌マウスは拘束ストレスで ACTH とコルチコステロンが SPF マウスより大きく上がり、皮質と海馬の BDNF が少ない。ビフィドバクテリウム・インファンティスで是正、病原性大腸菌（EPEC）の単独定着は反応を強めた。SPF の糞便による是正は早い時期だけ有効。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.98",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2004 Sudo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2004",
+    "著者": "Sudo, Chida, Aiba ら（8名）",
+    "雑誌": "The Journal of Physiology",
+    "DOI": "10.1113/jphysiol.2004.063388",
+    "書誌の出どころ": "PubMed(PMID 15133062)"
+   },
+   "sections": {
+    "これは何か": "**Postnatal microbial colonization programs the hypothalamic-pituitary-adrenal system for stress response in mice**\n\nSudo ら（九州大学・心療内科）（2004）／ *J Physiol* 558:263-275（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- **[[無菌マウス]]** の話の出発点として本が引く「二〇〇四年に、日本の科学者のグループが行った画期的な研究」（p.98）\n- 要旨＝無菌（GF）マウスは拘束ストレスで **ACTH とコルチコステロン**が SPF（特定病原体なし）マウスより大きく上がる。皮質と海馬の BDNF（脳由来神経栄養因子）が少ない\n- ==ビフィドバクテリウム・インファンティスを与えると是正された。病原性の大腸菌（EPEC）だけを定着させると、逆にストレス反応が強まった==\n- ==SPF の糞便による是正は、**早い時期にだけ**有効。あとからでは戻らない＝臨界期がある==（本の言う「生後数週間のうち」と一致）\n- 本の「大腸菌を与えた場合には無菌状態を上回るストレス反応」は、要旨の「腸管病原性大腸菌 EPEC」のこと。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2004 de Quervain",
    "type": "論文",
    "confidence": "確認済",
@@ -4068,6 +4142,43 @@
    "sections": {
     "これは何か": "**The classical complement cascade mediates CNS synapse elimination**\n\nStevens ら（16名・最終著者 Ben A. Barres）（2007）／ *Cell* 131:1164-1178",
     "この地図で、どこに効いているか": "- **[[シナプス刈り込み]]** ── 補体の始まりのタンパク質 **C1q** が、未熟なアストロサイトに促されて生後のニューロンで作られ、シナプスに乗る。C1q や C3 を欠くマウスでは、発達期のシナプス除去が大きく損なわれる。成体では C1q は減るが、緑内障モデルでは病気の初期に再び増えてシナプスに集まる＝==要らないシナプスに補体が目印をつけ、それが神経変性で誤って再起動するかもしれない==（PubMed の要旨）\n\n本の中では第2章 p.48（ライマン本の参考文献にも載る）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2007 Torrey",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Torrey EF, Bartko JJ, Lun ZR, Yolken RH 2007, Antibodies to Toxoplasma gondii in patients with schizophrenia - a meta-analysis（Schizophr Bull 33:729-736）",
+     "url": "https://doi.org/10.1093/schbul/sbl050",
+     "note": "42研究のうち基準を満たした23でのメタ分析。統合オッズ比 2.73（95%CI 2.10〜3.60）＝統合失調症の人で T. gondii 抗体の保有が多い。要旨自身が、因果が証明できれば、と留保。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.106",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2007 Torrey.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2007",
+    "著者": "Torrey, Bartko, Lun & Yolken（4名）",
+    "雑誌": "Schizophrenia Bulletin",
+    "DOI": "10.1093/schbul/sbl050",
+    "書誌の出どころ": "PubMed(PMID 17085743)"
+   },
+   "sections": {
+    "これは何か": "**Antibodies to Toxoplasma gondii in patients with schizophrenia: a meta-analysis**\n\nTorrey, Bartko, Lun & Yolken（2007・オンライン公開は2006年11月）／ *Schizophr Bull* 33:729-736",
+    "この地図で、どこに効いているか": "- **[[トキソプラズマ]]** とヒトの精神疾患をつなぐ、よく引かれるメタ分析。42研究のうち基準を満たした23で、統合オッズ比 **2.73**（95%CI 2.10〜3.60）＝統合失調症の人で T. gondii 抗体の保有が多い（PubMed の要旨）\n- ==要旨自身が「オッズ比2.73は控えめ」としつつ、「因果が証明できれば」と留保する==\n- !!本は p.106 で「神経炎症から精神病に移行しかねないとする説もある」と書く。この論文は**関連**を示すもので、感染が原因だとは言えない。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -5677,6 +5788,43 @@
    "stub": false
   },
   {
+   "id": "2011 Bravo",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Bravo JA ら 2011, Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve（PNAS 108:16050-16055）",
+     "url": "https://doi.org/10.1073/pnas.1102999108",
+     "note": "L. rhamnosus（JB-1）を慢性投与したマウスで、脳の領域ごとの GABA 受容体 mRNA が変わり、ストレスで上がるコルチコステロンと不安・うつ様行動が減った。迷走神経を切ったマウスでは神経化学的・行動的な効果が消えた。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.100",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2011 Bravo.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2011",
+    "著者": "Bravo, Forsythe, Chew ら（8名・最終著者 Cryan）",
+    "雑誌": "PNAS",
+    "DOI": "10.1073/pnas.1102999108",
+    "書誌の出どころ": "PubMed(PMID 21876150)"
+   },
+   "sections": {
+    "これは何か": "**Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve**\n\nBravo, Forsythe, Chew ら（コーク大学 APC・最終著者 John F. Cryan）（2011）／ *PNAS* 108:16050-16055（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本が p.100 で書く「ラクトバチルス・ラムノサスを与えると、ストレスへの反応が弱まる。迷走神経を切断するとその効果がすべて消える」の元論文とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝L. rhamnosus（JB-1）の慢性投与で、領域ごとに GABA 受容体の mRNA が変わった（GABAB1b は帯状回・前辺縁皮質で増え、海馬・扁桃体・青斑核で減る。GABAAα2 は前頭前野と扁桃体で減り、海馬で増える）。==ストレスで上がるコルチコステロンと、不安・うつ様行動が減った。迷走神経を切ったマウスではこれらの効果が見られなかった==\n- 迷走神経が「腸に曝露された細菌と脳のあいだの主要な、恒常的な伝達経路」と読める、と著者",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2011 De Dreu",
    "type": "論文",
    "confidence": "確認済",
@@ -7177,6 +7325,43 @@
    "stub": false
   },
   {
+   "id": "2014 Desbonnet",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Desbonnet L ら 2014, Microbiota is essential for social development in the mouse（Mol Psychiatry 19:146-148）",
+     "url": "https://doi.org/10.1038/mp.2013.65",
+     "note": "PubMed に要旨は無い（Letter）。題と索引語（無菌・社会行動・常同行動・臨界期・離乳）から内容を推した。オンライン公開は2013年5月。2026-10-31に書誌を確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.102・113",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2014 Desbonnet.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2014",
+    "著者": "Desbonnet, Clarke, Shanahan, Dinan & Cryan（5名）",
+    "雑誌": "Molecular Psychiatry",
+    "DOI": "10.1038/mp.2013.65",
+    "書誌の出どころ": "PubMed(PMID 23689536)"
+   },
+   "sections": {
+    "これは何か": "**Microbiota is essential for social development in the mouse**\n\nDesbonnet, Clarke, Shanahan, Dinan & Cryan（2014・オンライン公開は2013年5月）／ *Mol Psychiatry* 19:146-148",
+    "この地図で、どこに効いているか": "- **[[無菌マウス]]** の社会性の話（本 p.102・113）に近い論文。PubMed に要旨は無く（Letter）、索引語（無菌・社会行動・常同行動・臨界期・離乳）から、無菌マウスの社会行動と、微生物を入れる時期の関係を調べたものと読める\n- !!本は p.102 で「二〇一一年に発表された研究」と書くが、この論文は2013〜14年で**年が合わない**。この論文が本の念頭にあるかは確かめていない。本の「毛づくろいを繰り返す」の出どころも未確認。!!\n- ⏳全文（PMC）が読める。本の2011年の研究が何かも含め、あとで照合する",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2014 Earp",
    "type": "論文",
    "confidence": "確認済",
@@ -8670,6 +8855,43 @@
    "stub": false
   },
   {
+   "id": "2016 Hoban",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Hoban AE ら 2016, Regulation of prefrontal cortex myelination by the microbiota（Transl Psychiatry 6:e774）",
+     "url": "https://doi.org/10.1038/tp.2016.42",
+     "note": "無菌マウスの前頭前野で、髄鞘形成と髄鞘の可塑性に関わる遺伝子が協調して上がり、電子顕微鏡で過剰に髄鞘化した軸索が見えた。離乳後に通常の微生物叢を定着させると戻った。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.101〜102",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Hoban.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Hoban, Stilling, Ryan ら（8名・最終著者 Cryan）",
+    "雑誌": "Translational Psychiatry",
+    "DOI": "10.1038/tp.2016.42",
+    "書誌の出どころ": "PubMed(PMID 27045844)"
+   },
+   "sections": {
+    "これは何か": "**Regulation of prefrontal cortex myelination by the microbiota**\n\nHoban, Stilling, Ryan ら（コーク大学 APC）（2016）／ *Transl Psychiatry* 6:e774（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.101〜102 の「二〇一六年の研究」＝無菌で育てたマウスの**前頭前野**は特殊で、電子顕微鏡で見ると「自然界ではまれにしか生じない髄鞘の過剰形成」がある、の元論文とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝無菌マウスの前頭前野で、髄鞘形成と髄鞘の可塑性に関わる遺伝子が協調して上がり、過剰に髄鞘化した軸索が見えた。==離乳後に通常の微生物叢を定着させると戻った==\n- !!本の「大半の心の不調には前頭前野の機能不全が関与」は強い言いかた。論文自身は、うつ・統合失調症・自閉症など前頭前野が関わる疾患に「潜在的な標的」と書くにとどまる。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2016 Hoppenbrouwers",
    "type": "論文",
    "confidence": "確認済",
@@ -8764,6 +8986,43 @@
    "sections": {
     "これは何か": "**Antidepressant activity of anti-cytokine treatment - a systematic review and meta-analysis of clinical trials of chronic inflammatory conditions**\n\nKappelmann N・Lewis G・Dantzer R・Jones PB・Khandaker GM（2016）／ *Molecular Psychiatry 23(2):335-343*",
     "この地図で": "- 関節リウマチや乾癬など**慢性炎症の病気**の試験で、副次的に測られた抑うつ症状を集めた（無作為化7試験・2,370人）\n- ==サイトカイン阻害薬はプラセボより抑うつ症状を改善（SMD 0.40）。**体の病気の改善の度合いとは関係しなかった**==＝「体が楽になったから気分も上がった」だけでは説明しにくい\n- 著者ら（Dantzer を含む）は、炎症の高い**体の病気の無い**人で、うつを主な評価項目にした試験が必要だと結ぶ",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2016 Kelly",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Kelly JR ら 2016, Transferring the blues - depression-associated gut microbiota induces neurobehavioural changes in the rat（J Psychiatr Res 82:109-118）",
+     "url": "https://doi.org/10.1016/j.jpsychires.2016.07.019",
+     "note": "大うつ病の34人と健康な対照33人。うつ病では腸内細菌の豊かさと多様性が低い。患者の糞便を微生物を除いたラットに移植すると、アンヘドニアと不安様行動、トリプトファン代謝の変化が起きた。腸内細菌がうつの特徴の発生に因果的に関わる可能性、と要旨。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.102〜103",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Kelly.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Kelly, Borre, O’Brien ら（17名・最終著者 Dinan）",
+    "雑誌": "Journal of Psychiatric Research",
+    "DOI": "10.1016/j.jpsychires.2016.07.019",
+    "書誌の出どころ": "PubMed(PMID 27491067)"
+   },
+   "sections": {
+    "これは何か": "**Transferring the blues: Depression-associated gut microbiota induces neurobehavioural changes in the rat**\n\nKelly, Borre, O'Brien ら（コーク大学 APC・最終著者 Timothy Dinan）（2016）／ *J Psychiatr Res* 82:109-118",
+    "この地図で、どこに効いているか": "- 本 p.102〜103「抑うつ状態を抱えたヒトの微生物叢をラットに移植し、うつ行動が引き起こされた」＝本が言う「抑うつ状態の**異種移植**」の元論文とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝大うつ病の34人と対照33人。==うつ病では腸内細菌の豊かさと多様性が低い。患者の糞便を微生物を除いたラットに移すと、アンヘドニアと不安様行動、トリプトファン代謝の変化が起きた==\n- !!要旨は「腸内細菌がうつの特徴の発生に因果的に関わるかもしれない」と控えめに書く。ラットで起きたのは「うつの**特徴**」で、ラットがうつ病になったとは言えない。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -8867,6 +9126,43 @@
    "stub": false
   },
   {
+   "id": "2016 Luczynski",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Luczynski P ら 2016, Adult microbiota-deficient mice have distinct dendritic morphological changes - differential effects in the amygdala and hippocampus（Eur J Neurosci 44:2654-2666）",
+     "url": "https://doi.org/10.1111/ejn.13291",
+     "note": "無菌マウスでは扁桃体と海馬の体積が通常のマウスより大きい。基底外側扁桃体の神経細胞は樹状突起が肥大、腹側海馬の錐体細胞は短く枝分かれが少ない。ストレス応答と行動の異常に関わりうる。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.101",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Luczynski.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Luczynski, Whelan, O’Sullivan ら（7名・最終著者 Cryan）",
+    "雑誌": "European Journal of Neuroscience",
+    "DOI": "10.1111/ejn.13291",
+    "書誌の出どころ": "PubMed(PMID 27256072)"
+   },
+   "sections": {
+    "これは何か": "**Adult microbiota-deficient mice have distinct dendritic morphological changes: differential effects in the amygdala and hippocampus**\n\nLuczynski ら（コーク大学 APC）（2016）／ *Eur J Neurosci* 44:2654-2666（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.101「無菌マウスの扁桃体は特別大きく、構造にも複数の異常が認められる」の元論文とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝無菌（GF）マウスは通常定着（CC）マウスより**扁桃体と海馬の体積が大きい**。基底外側扁桃体では介在ニューロンも錐体細胞も樹状突起が肥大。==反対に、腹側海馬の錐体細胞は短く枝分かれが少ない==\n- つまり**どちらも大きくなる単純な話ではない**。ストレス応答や行動の異常に関わりうる、と著者は書く（原因とまでは言っていない）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2016 Marcus",
    "type": "論文",
    "confidence": "確認済",
@@ -8924,6 +9220,43 @@
    "sections": {
     "これは何か": "**Mating disruption of a grapevine pest using mechanical vibrations: from laboratory to the field**\n\nPolajnar ら（4名）（2016）／ *Journal of Pest Science*",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[人為振動ノイズ]]** ── 人為振動が繁殖をほぼ止められることの実証。ブドウ樹に撹乱振動を与えるとヨコバイ Scaphoideus titanus の交尾率は半野外で9%、成木の畑で4%まで低下した（数値は Polajnar ら2016の総括章 doi 10.1007/978-3-319-31800-4_9 の記載による）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2016 Sender",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Sender R, Fuchs S, Milo R 2016, Revised estimates for the number of human and bacteria cells in the body（PLoS Biol 14:e1002533）",
+     "url": "https://doi.org/10.1371/journal.pbio.1002533",
+     "note": "70kg の標準的な成人男性で、細菌は約 3.8×10の13乗、ヒト細胞は約 3.0×10の13乗。よく引かれる 10:1 を改め、細菌の数はヒト細胞と同じ桁。細菌の総重量は約0.2kg。ヒト細胞の約90%は造血系。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.103",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2016 Sender.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2016",
+    "著者": "Sender, Fuchs & Milo（3名）",
+    "雑誌": "PLoS Biology",
+    "DOI": "10.1371/journal.pbio.1002533",
+    "書誌の出どころ": "PubMed(PMID 27541692)"
+   },
+   "sections": {
+    "これは何か": "**Revised Estimates for the Number of Human and Bacteria Cells in the Body**\n\nSender, Fuchs & Milo（ワイツマン科学研究所）（2016）／ *PLoS Biol* 14:e1002533（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.103「人体を構成する細胞と微生物の数をめぐってよく聞くのは、ヒトの細胞は10パーセントしかないという言説だが、これは最近見直されて50パーセントになった」の元論文とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝70kg の標準的な成人男性で、細菌は約3.8×10の13乗、ヒト細胞は約3.0×10の13乗。==よく引かれる10:1は改められ、細菌の数はヒト細胞と同じ桁==。細菌の総重量は約0.2kg\n- !!本の「遺伝子の99パーセントは微生物のもの」は、この論文の要旨に無い。確かめていない。!!\n- 同じ Milo の研究室の別の論文が、地図の [[2021 Sender]]（全身の細胞の入れ替わり）。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -9808,6 +10141,43 @@
    "stub": false
   },
   {
+   "id": "2018 Kaelberer",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Kaelberer MM ら 2018, A gut-brain neural circuit for nutrient sensory transduction（Science 361:eaat5236）",
+     "url": "https://doi.org/10.1126/science.aat5236",
+     "note": "マウスで、腸の腸内分泌細胞が迷走神経の神経細胞とシナプスをつくり、グルタミン酸を伝達物質として、腸の中の信号を数ミリ秒で伝える。この細胞をニューロポッド細胞と呼ぶ。腸の内腔から脳幹へ1シナプスで届く。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.108",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Kaelberer.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Kaelberer, Buchanan, Klein ら（7名・最終著者 Bohórquez）",
+    "雑誌": "Science",
+    "DOI": "10.1126/science.aat5236",
+    "書誌の出どころ": "PubMed(PMID 30237325)"
+   },
+   "sections": {
+    "これは何か": "**A gut-brain neural circuit for nutrient sensory transduction**\n\nKaelberer, Buchanan, Klein ら（デューク大学・最終著者 Diego Bohórquez）（2018）／ *Science* 361:eaat5236（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.108 の **ニューロポッド細胞**「腸の環境をチェックし、脳に直接信号を伝える細胞」の元論文とみられる。要旨＝腸の腸内分泌細胞が迷走神経の神経細胞と**シナプス**をつくり、==グルタミン酸で、腸の中の信号を数ミリ秒で伝える。腸の内腔から脳幹まで、1つのシナプスでつながる==\n- !!本は「二〇一五年」と書く。大河が確かめたのは2018年の Science 論文。この細胞の名前と存在の最初の報告は別の年かもしれないが、確かめていない。!!\n- !!本は p.108 で「人工甘味料より天然糖を好む理由の説明」とも書く。この論文の要旨にはその話は無い（別の論文の話とみられる・未確認）。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2018 Kupper",
    "type": "論文",
    "confidence": "確認済",
@@ -10000,6 +10370,43 @@
    "sections": {
     "これは何か": "**Dreams of teeth falling out - an empirical investigation of physiological and psychological correlates**\n\nRozen N・Soffer-Dudek N（2018）／ *Frontiers in Psychology 9:1812*",
     "この地図で": "- 大学生210人。夢のテーマ・歯の違和感・心理的苦痛・睡眠の質を質問紙で\n- ==歯が抜ける・腐る夢は、**起きたときの歯・歯ぐき・顎の緊張感**と関連した。心理的苦痛とは関連しなかった==。ほかの夢のテーマは歯の違和感と関連しなかった\n- 心理的苦痛と歯の違和感のあいだには、小さいが有意な関係があった＝動画の「食いしばりはストレスで増えるので遠回りに心と繋がってはいる」と合う\n- !!動画との食い違い!!。同じ研究で、==**落ちる夢**と**息が詰まる夢**は心理的苦痛と**関連していた**==。動画は落ちる夢を「心ではなく体」と言い切るが、この研究は逆を示す\n- 著者自身が「予備的（preliminary）」と書く。横断的な質問紙で、因果は言えない",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2018 Stewart",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Stewart CJ ら 2018, Temporal development of the gut microbiome in early childhood from the TEDDY study（Nature 562:583-588）",
+     "url": "https://doi.org/10.1038/s41586-018-0617-x",
+     "note": "903人の子どもの便（3〜46か月・16S で12,005検体）。腸内細菌は発達期（3〜14か月）・移行期（15〜30か月）・安定期（31〜46か月）の三相で進む。母乳（完全でも部分でも）が最も大きい要因で、ビフィズス菌と関連、授乳をやめると成熟が早まる。分娩方法は発達期に有意で、経膣分娩はバクテロイデス（特に B. fragilis）が多い。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.111〜113",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2018 Stewart.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2018",
+    "著者": "Stewart, Ajami, O’Brien ら（TEDDY 研究）",
+    "雑誌": "Nature",
+    "DOI": "10.1038/s41586-018-0617-x",
+    "書誌の出どころ": "PubMed(PMID 30356187)"
+   },
+   "sections": {
+    "これは何か": "**Temporal development of the gut microbiome in early childhood from the TEDDY study**\n\nStewart, Ajami, O'Brien ら（ベイラー医科大学ほか・TEDDY 研究）（2018）／ *Nature* 562:583-588（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.111「約一〇〇〇人の乳児から一定期間にわたって採取した便サンプル一万二〇〇〇件を解析した研究」＝903人・16S 12,005検体の元論文とみられる（!!本は論文名を挙げていない・大河の同定。TEDDY 研究は本来、1型糖尿病の研究!!）\n- 要旨＝腸内細菌は三相で進む＝**発達期（3〜14か月）・移行期（15〜30か月）・安定期（31〜46か月）**。本 p.112〜113 の「3〜14か月」「15〜30か月」と一致\n- ==母乳（完全でも部分でも）が、腸内細菌の構造と最も強く関連した要因。ビフィズス菌（B. breve・B. bifidum）が多く、授乳をやめると成熟が早まる==\n- ==分娩方法は発達期に有意。経膣分娩の乳児はバクテロイデス（特に B. fragilis）が多い。バクテロイデスが多いと、分娩方法によらず多様性と成熟が進んだ==。地域・きょうだい・ペットも関係\n- !!要旨は「母乳が最大の要因」の理由を述べない。本の「母乳は腸内細菌の餌」は別の知識（本の説明）。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -10201,6 +10608,43 @@
    "stub": false
   },
   {
+   "id": "2019 Cryan",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Cryan JF ら 2019, The microbiota-gut-brain axis（Physiol Rev 99:1877-2013）",
+     "url": "https://doi.org/10.1152/physrev.00018.2018",
+     "note": "総説（Cryan らのコークのグループ）。微生物叢と脳は、免疫系・トリプトファン代謝・迷走神経・腸管神経系を介して通信する。短鎖脂肪酸・分岐鎖アミノ酸・ペプチドグリカンなどの代謝物が関わる。出生様式・抗生物質・栄養・ストレスが初期の組成に影響し、加齢で多様性が減る。自閉症・不安・肥満・統合失調症・パーキンソン病・アルツハイマー病との関連が論じられている。人での研究は進行中。2026-10-31にPubMedの要旨で確認。DOI は PubMed の記録どおり（10.1152/physrev.00018.2018）"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.108〜109",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Cryan.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Cryan, O’Riordan, Cowan ら（Dinan を含む）",
+    "雑誌": "Physiological Reviews",
+    "DOI": "10.1152/physrev.00018.2018",
+    "書誌の出どころ": "PubMed(PMID 31460832)"
+   },
+   "sections": {
+    "これは何か": "**The Microbiota-Gut-Brain Axis**\n\nCryan, O'Riordan, Cowan ら（コーク大学 APC）（2019）／ *Physiol Rev* 99:1877-2013（総説）",
+    "この地図で、どこに効いているか": "- **[[腸脳相関]]** の標準的な総説。本が p.108〜109 で四つの経路（神経・内分泌・代謝・免疫）と説明するものに対応する。総説の要旨は、微生物叢と脳が**免疫系・トリプトファン代謝・迷走神経・腸管神経系**を介して通信し、短鎖脂肪酸・分岐鎖アミノ酸・ペプチドグリカンなどの代謝物が関わる、と書く\n- 初期の組成に影響する要因として、**感染・出生様式・抗生物質・栄養・環境ストレス・宿主の遺伝**を挙げ、加齢で多様性が減る、ストレスは人生のどの段階でも影響する、とも書く\n- 動物モデルが、神経新生や髄鞘形成のような基本的な過程を、微生物叢によるミクログリアの活性化に結びつけてきた。ヒトの研究は進行中で、==機構の理解がこれからの課題==（要旨）\n- 本が引く「二〇一五年の〜」「二〇二二年の〜」のような個別の論文は、この総説にまとまっている話と重なる。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2019 Gehrlach",
    "type": "論文",
    "confidence": "確認済",
@@ -10389,6 +10833,43 @@
    "sections": {
     "これは何か": "**Risk and predictors of dementia and parkinsonism in idiopathic REM sleep behaviour disorder - a multicentre study**\n\nPostuma RB・Iranzo A・Hu M・Högl B・Boeve BF・Manni R・Oertel WH・Arnulf I ほか（2019）／ *Brain 142(3):744-759*",
     "この地図で": "- 国際RBD研究グループの**24施設・1280人**。睡眠ポリグラフで確かめた特発性のレム睡眠行動障害で、まだパーキンソン症状も認知症もない人を追った。平均66.3歳・**82.5%が男性**・平均4.6年追跡\n- ==神経変性の病気（パーキンソン病・レビー小体型認知症・多系統萎縮症）へ移る率は**年6.3%**、**12年で73.5%**==\n- 移りやすさを予測したのは、運動の検査の異常・**嗅覚の低下**・軽度認知障害・勃起障害・便秘・色覚の異常・レム睡眠の脱力の消失・年齢など\n- 動画の「特に中高年の男性」「神経の病気の早期のサインになりうる」は合う。==数字で見ると「なりうる」より**かなり高い**==\n- ⭐著者の Arnulf I は、試験の夢の [[2014 Arnulf]] と同じ人と大河は見ている（所属の照合はしていない）",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2019 Sharon",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Sharon G ら 2019, Human gut microbiota from autism spectrum disorder promote behavioral symptoms in mice（Cell 177:1600-1618）",
+     "url": "https://doi.org/10.1016/j.cell.2019.05.004",
+     "note": "カリフォルニア工科大学ほか。ASD の人と定型発達の人の腸内細菌を無菌マウスに移植。ASD 由来の群で特徴的な行動が出て、脳では ASD 関連遺伝子の選択的スプライシングが変わった。微生物の代謝物（候補）を ASD モデルマウスに与えると行動の異常が改善。要旨は代謝物の名前を挙げない。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.114",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2019 Sharon.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2019",
+    "著者": "Sharon, Cruz, Kang ら（21名・最終著者 Mazmanian）",
+    "雑誌": "Cell",
+    "DOI": "10.1016/j.cell.2019.05.004",
+    "書誌の出どころ": "PubMed(PMID 31150625)"
+   },
+   "sections": {
+    "これは何か": "**Human Gut Microbiota from Autism Spectrum Disorder Promote Behavioral Symptoms in Mice**\n\nSharon, Cruz, Kang ら（カリフォルニア工科大学ほか・最終著者 Sarkis Mazmanian）（2019）／ *Cell* 177:1600-1618（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.114「二〇一九年、カリフォルニア工科大学のチームは、腸マイクロバイオームに一因がある可能性を示した」の元論文\n- 要旨＝ASD の人と定型発達（TD）の人の腸内細菌を**無菌マウス**に移植。==ASD 由来の群では、特徴的な自閉的行動が出た。脳では ASD に関連する遺伝子の選択的スプライシングが変わった==。微生物の代謝物（候補）を ASD のモデルマウスに与えると、行動の異常が改善した\n- 本は「5-アミノバレリアン酸とタウリンが少なかった」と書く。!!この2つの名前は要旨に無い（本文で確かめていない）。本は「若いマウス」と書くが、要旨は「無菌マウス」。!!\n- ==著者は「腸内細菌が神経活性のある代謝物をつくることで行動を調節する」と提案する。症状の原因だと断ってはいない==",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -11196,6 +11677,43 @@
    "stub": false
   },
   {
+   "id": "2021 Boehme",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Boehme M ら 2021, Microbiota from young mice counteracts selective age-associated behavioral deficits（Nat Aging 1:666-676）",
+     "url": "https://doi.org/10.1038/s43587-021-00093-9",
+     "note": "ユニバーシティ・カレッジ・コーク。若いマウス（3〜4か月）または老いたマウス（19〜20か月）の糞便を、老いたマウスに移植。若い donor の微生物叢は、末梢と脳の免疫、海馬の代謝物と転写の加齢変化を戻し、選択的な認知行動の低下を弱めた。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.116",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Boehme.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Boehme, Guzzetta, Bastiaanssen ら（最終著者 Cryan）",
+    "雑誌": "Nature Aging",
+    "DOI": "10.1038/s43587-021-00093-9",
+    "書誌の出どころ": "PubMed(PMID 37117767)"
+   },
+   "sections": {
+    "これは何か": "**Microbiota from young mice counteracts selective age-associated behavioral deficits**\n\nBoehme, Guzzetta, Bastiaanssen ら（コーク大学 APC・最終著者 John F. Cryan）（2021）／ *Nat Aging* 1:666-676",
+    "この地図で、どこに効いているか": "- 本 p.116「若いマウスのマイクロバイオームを高齢のマウスに移植することで、脳に見られる加齢に伴う免疫機能の衰えを回復させたほか、認知機能や老化に関連した不安を改善させた。二〇二一年の発表」の元論文\n- 要旨＝老いたマウス（19〜20か月）に、若い donor（3〜4か月）または老いた donor の糞便を移植。==若い donor の微生物叢は、末梢と脳の免疫、海馬の代謝物と転写の加齢変化を戻し、選択的な認知行動の低下を弱めた==\n- !!要旨の「**選択的な**」（すべての低下が戻ったのではない）に注意。本の「不安を改善」の部分が要旨に出ない。「別々の二チームによる追試で再現」も確かめていない。!!\n- 本の言い添え＝「中高年の人に若者のうんちを勧めている？　まだそこまでは行っていません」（Cryan・p.116）。動物の結果であって、ヒトの確証は待つ、と本も書く（p.116〜117）。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2021 Brady",
    "type": "論文",
    "confidence": "確認済",
@@ -11387,6 +11905,43 @@
    "sections": {
     "これは何か": "**Skull and vertebral bone marrow are myeloid cell reservoirs for the meninges and CNS parenchyma**\n\nCugurra ら（17名）（2021）／ *Science*",
     "この地図で、どこに効いているか": "⭐**引いているのは 2 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[頭蓋骨の骨髄]]** ── 髄膜の単球と好中球は血液からでなく頭蓋骨と椎骨の骨髄から供給される。病気のときに中枢神経に入る骨髄系細胞も脳の縁から来ることがあり、血液由来とは遺伝子発現が違う。2026-10-07にPubMedの要旨で確認\n- **[[髄膜]]** ── マウスの髄膜には単球と好中球の貯えがあり、血液からでなく隣の頭蓋骨と椎骨の骨髄から供給されている。2026-10-07にPubMedの要旨で確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2021 Dinan",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Dinan TG ら 2021, Altered stress responses in adults born by Caesarean section（Neurobiol Stress 16:100425）",
+     "url": "https://doi.org/10.1016/j.ynstr.2021.100425",
+     "note": "ユニバーシティ・カレッジ・コーク。健康な若い男子学生で、経膣分娩40人と帝王切開36人を比べた。トリーア社会的ストレステストと試験期間のストレス。帝王切開で生まれた人は急性ストレスへの心理的脆弱性が高く、試験期のストレスが長引き、ポジティブな感情が低い。唾液コルチゾールの目覚め反応は差なし・認知課題も同じ。IL-1β と IL-10 は帝王切開群で高い。分娩方法による腸内細菌の差は大人ではわずか。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.110",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2021 Dinan.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2021",
+    "著者": "Dinan, Kennedy, Morais ら（最終著者 Cryan）",
+    "雑誌": "Neurobiology of Stress",
+    "DOI": "10.1016/j.ynstr.2021.100425",
+    "書誌の出どころ": "PubMed(PMID 35024387)"
+   },
+   "sections": {
+    "これは何か": "**Altered stress responses in adults born by Caesarean section**\n\nDinan, Kennedy, Morais ら（コーク大学 APC）（2021）／ *Neurobiol Stress* 16:100425（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.110「二〇一三年の研究によれば、帝王切開で生まれた人（成人の被験者）は、短期的なストレス要因、また試験期間中などある程度長期にわたってストレスを受けた場合のどちらでも、より激しい免疫応答はもとより、より強い心理的ストレス反応を示す傾向が見られた（ただし、それぞれが数十人という小規模の調査）」に**内容が近い**研究\n- !!ただし年が合わない（本は2013年・これは2021年）。同じ研究かは確かめていない。!!\n- 要旨＝健康な若い男子学生で、経膣分娩40人と帝王切開36人を比べた。==帝王切開の群は、急性ストレス（トリーア社会的ストレステスト）への心理的脆弱性が高く、試験期のストレスも長引き、ポジティブな感情が低かった。IL-1β と IL-10 も高い==\n- ==差が出なかったもの＝唾液コルチゾールの目覚め反応・認知課題の成績。分娩方法による腸内細菌の差は、大人ではわずかだった==\n- 要旨は「分娩方法の方針に関して、精神衛生への含意をさらに研究する必要」と結ぶ。**帝王切開を避けるべきという話ではない**（本も p.110〜111 で明言する）",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -12018,6 +12573,43 @@
    "stub": false
   },
   {
+   "id": "2022 Radford-Smith",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Radford-Smith DE ら 2022, Modifying the maternal microbiota alters the gut-brain metabolome and prevents emotional dysfunction in the adult offspring of obese dams（PNAS 119:e2108581119）",
+     "url": "https://doi.org/10.1073/pnas.2108581119",
+     "note": "オックスフォード大学。高脂肪食で肥満にした母マウスは、腸の短鎖脂肪酸が減り炎症マーカーが上がり、授乳中の乳の神経活性代謝物が減る。その子は不安様行動が増えたが、周産期のプロバイオティクスで防げた。子の腸の酪酸と脳の乳酸が増え、不安への耐性は脳の乳酸の多さと最も関連した。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.111〜112",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2022 Radford-Smith.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2022",
+    "著者": "Radford-Smith, Probert, Burnet & Anthony（4名）",
+    "雑誌": "PNAS",
+    "DOI": "10.1073/pnas.2108581119",
+    "書誌の出どころ": "PubMed(PMID 35197280)"
+   },
+   "sections": {
+    "これは何か": "**Modifying the maternal microbiota alters the gut-brain metabolome and prevents emotional dysfunction in the adult offspring of obese dams**\n\nRadford-Smith, Probert, Burnet & Anthony（オックスフォード大学）（2022）／ *PNAS* 119:e2108581119（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.111〜112「オックスフォード大学のダニエル・ラドフォード＝スミス」の研究とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝高脂肪食の母マウス（肥満）は、腸の**短鎖脂肪酸**が減り、炎症マーカーが上がり、授乳中の乳の神経活性代謝物が減る。その子は不安様行動が増えたが、==周産期のプロバイオティクスで防げた。子の腸の酪酸と脳の乳酸が増え、不安への耐性は脳の乳酸の多さと最も関連した==\n- !!本は「母乳に含まれる微生物由来の短鎖脂肪酸の濃度を上昇させた」と書く。要旨は「母親の腸の短鎖脂肪酸」と「乳の神経活性代謝物」で、**乳の短鎖脂肪酸**とは書いていない。細部が合わない（全文で確認が要る）。!!\n- 本が続けて書く「イギリス人の個人記録の大規模データベースで、乳酸など血中のエネルギー代謝の分子が高い人は、のちに抑うつになりにくい」は、この論文の外の話。確かめていない。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "2022 Roberts",
    "type": "論文",
    "confidence": "確認済",
@@ -12144,6 +12736,43 @@
    "sections": {
     "これは何か": "**Fast response times signal social connection in conversation**\n\nTempleton EM・Chang LJ・Reynolds EA・Cone LeBeaumont MD・Wheatley T（2022）／ *PNAS*",
     "この地図で": "- **[[返事の速さと通じ合い]]** ── 友人・初対面とも応答の速さが通じ合いを予測。主に相手の応答性。第三者も同じ手がかりで判断",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2022 Trevelline",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "Trevelline BK, Kohl KD 2022, The gut microbiome influences host diet selection behavior（PNAS 119:e2117537119）",
+     "url": "https://doi.org/10.1073/pnas.2117537119",
+     "note": "ピッツバーグ大学。三つの齧歯類種（植物食・雑食・肉食）の腸内細菌を無菌マウスに定着させると、食べものの選びかた（タンパク質:炭水化物の比）が donor 種の型で違った。草食型は高たんぱく、雑食・肉食型は低たんぱく（炭水化物寄り）を選んだ。トリプトファン代謝との相関。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.106〜107",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2022 Trevelline.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2022",
+    "著者": "Trevelline & Kohl（2名）",
+    "雑誌": "PNAS",
+    "DOI": "10.1073/pnas.2117537119",
+    "書誌の出どころ": "PubMed(PMID 35439064)"
+   },
+   "sections": {
+    "これは何か": "**The gut microbiome influences host diet selection behavior**\n\nTrevelline & Kohl（ピッツバーグ大学）（2022）／ *PNAS* 119:e2117537119（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 本 p.106「ピッツバーグ大学の研究者らが二〇二二年に発表した重要な研究」の元論文\n- 要旨＝植物食・雑食・肉食の3種の齧歯類の腸内細菌を**無菌マウス**に定着させ、食べものを選ばせた。==草食型の定着マウスはタンパク質の多い食べものを、雑食・肉食型は炭水化物寄りを選んだ==。トリプトファン代謝との関連があり、微生物が必須アミノ酸の利用を介して食の選択に影響するのかもしれない、と著者\n- !!本が書く「無菌マウスは糖に底なしの食欲を示すが、移植後は弱まった」は、要旨に無い（本文で確かめていない）。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -16600,6 +17229,31 @@
    "stub": false
   },
   {
+   "id": "イリヤ・メチニコフ",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.94〜97・115",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/イリヤ・メチニコフ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**Ilya Metchnikoff（1845年生まれ）。ロシア生まれの免疫学者。** ハリコフ近郊に生まれ、驚異的な知性で学士課程を2年で修了。のちオデッサ大学で教え、パスツールに招かれてパリのパスツール研究所に移った（本 p.94）。\n\n**本の筋立て**\n- ヒトの免疫細胞が病原性細菌を取り込んで分解・除去するしくみ、**食作用**を明らかにした。==1908年、63歳でノーベル生理学・医学賞==（p.94）\n- 晩年は老化を遅らせることに集中。ブルガリアの農村に100歳超の住民が多いように見えることに着目し、==農民が「ヤーウルト」という発酵乳をよく食べていることが長寿の原因だと説いた==（p.94〜95）\n- 当時の通念＝細菌はみな体に悪く、腸内微生物による食物の分解は腐敗。フランスの医師シャルル・ブシャール（OCR は「プシャール」・おそらく Charles Bouchard で、未確認）は結腸を「毒物の実験室」と呼んだ。ところがメチニコフは、マウスにブルガリアのヨーグルトを与えると丈夫に育ち多産になることを示した（p.95）\n- 乳酸だけを与えても効果はなく、ヨーグルトの**細菌**から恩恵を受けているらしいとわかり、彼は *ラクトバチルス・ブルガリクス* を単離した（p.95）\n- 1907年の著書『長寿の研究』＝==「あらゆる微生物は有害である、というのが世間一般の信じるところである。しかしながら、この通念は誤りである。有益な微生物は多数存在し、その中でも乳酸菌は名誉ある地位を占める」「体内の微生物叢を変化させ、有害な微生物を有益な微生物に置き換えるような手段を講じることは可能である」==（p.96）\n- ==この先見の明は「残念ながら**100年近く早すぎた**」==（p.96）。技術が無かった、病原体説で社会が無菌と消毒に傾いた（スペインかぜ・ペニシリン）、微生物は敵という考えが強まった。本は「病原菌戦争の犠牲」と書く（p.96〜97）\n- 100年後、Cryan のコークのチームがこの課題を引き継ぎ、老化と腸内細菌を調べる（p.115〜116）→[[腸内細菌と老化]]\n\n!!本は共同受賞に触れない（大河の記憶ではエールリッヒと同時受賞だが、確かめていない）。「ブルガリアの農民の長寿がヨーグルトのためか」は、メチニコフの説として紹介され、本は検証していない。個々のヨーグルトの効果は、今も議論が続く分野。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "イワン・パヴロフ",
    "type": "人物",
    "confidence": "確認済",
@@ -19695,6 +20349,41 @@
    "stub": false
   },
   {
+   "id": "ジョン・クライアン",
+   "type": "人物",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.99〜100・113〜117",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Bravo JA ら 2011, Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve（PNAS 108:16050-16055）",
+     "url": "https://doi.org/10.1073/pnas.1102999108",
+     "note": "L. rhamnosus（JB-1）を慢性投与したマウスで、脳の領域ごとの GABA 受容体 mRNA が変わり、ストレスで上がるコルチコステロンと不安・うつ様行動が減った。迷走神経を切ったマウスでは神経化学的・行動的な効果が消えた。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Boehme M ら 2021, Microbiota from young mice counteracts selective age-associated behavioral deficits（Nat Aging 1:666-676）",
+     "url": "https://doi.org/10.1038/s43587-021-00093-9",
+     "note": "ユニバーシティ・カレッジ・コーク。若いマウス（3〜4か月）または老いたマウス（19〜20か月）の糞便を、老いたマウスに移植。若い donor の微生物叢は、末梢と脳の免疫、海馬の代謝物と転写の加齢変化を戻し、選択的な認知行動の低下を弱めた。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ジョン・クライアン.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**John F. Cryan。アイルランド・ユニバーシティ・カレッジ・コークの神経科学者。** 本は「腸－微生物－脳相関の権威」として、著者（ライマン）のビデオ通話のインタビューを交えて紹介する（p.99〜）。PubMed の著者所属は、コーク大学の APC Microbiome Ireland と解剖学・神経科学部門（Bravo 2011・Boehme 2021 など）。\n\n**本の中の足跡**\n- もとは「筋金入りの神経生物学者、神経薬理学者」。アメリカとオーストラリアで博士研究員をしたのち、2005年にアイルランドに帰り、ストレスが齧歯類の脳と行動にどう影響するかを研究。同僚の影響でマイクロバイオームの世界に入る（p.99）\n- 2007年＝幼若期にストレスを受けた動物では腸内微生物の組成が違うことを確認（p.99）\n- ==無菌マウスの脳と行動、ラクトバチルスと迷走神経、幼若期の臨界期、扁桃体と前頭前野、糞便移植、老化==（p.99〜117）\n- 当初は反応が薄かった。2012年のアメリカのアルツハイマー学会の講演では聴衆がまったく関心を持たなかったが、今は神経科学や精神医学の学会でマイクロバイオームが出ないことはない。「荒野の洗礼者ヨハネのような気持ちは少し薄まった。弟子が増えているから」（p.117）\n- ==心と免疫系とマイクロバイオームを、アイルランドのシャムロックの三つの葉にたとえる==（p.118）\n\n!!PubMed で確かめたのは、論文の著者所属（2011〜2021年の記録）まで。現在の所属と役職は確かめていない。インタビューの発言は本の引用で、原文は確かめていない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "ジョン・ゴットマン",
    "type": "人物",
    "confidence": "確認済",
@@ -21114,6 +21803,36 @@
    "stub": false
   },
   {
+   "id": "ディスバイオシス",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.104・110・117〜118",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Cryan JF ら 2019, The microbiota-gut-brain axis（Physiol Rev 99:1877-2013）",
+     "url": "https://doi.org/10.1152/physrev.00018.2018",
+     "note": "総説（Cryan らのコークのグループ）。微生物叢と脳は、免疫系・トリプトファン代謝・迷走神経・腸管神経系を介して通信する。短鎖脂肪酸・分岐鎖アミノ酸・ペプチドグリカンなどの代謝物が関わる。出生様式・抗生物質・栄養・ストレスが初期の組成に影響し、加齢で多様性が減る。自閉症・不安・肥満・統合失調症・パーキンソン病・アルツハイマー病との関連が論じられている。人での研究は進行中。2026-10-31にPubMedの要旨で確認。DOI は PubMed の記録どおり（10.1152/physrev.00018.2018）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/ディスバイオシス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**dysbiosis（腸内菌共生バランス失調）。マイクロバイオームの偏り**（本 p.110）。\n\n**本が挙げる例**\n- 抗生物質を長く使うと、腸の *C. difficile* が増えやすい（p.104）＝健康なマイクロバイオームがないと病原体から守れない\n- ==**早期のディスバイオシス**＝帝王切開で生まれた赤ちゃんは、多様性が不十分で日和見病原体が定着していることがあり、少なくとも生後1年は続く。若手の免疫細胞が「腸の士官学校」で十分な訓練を受けられず、**免疫寛容**が育たず、刺激に炎症マーカーを極端に多く出す==（p.110）→[[帝王切開とマイクロバイオーム]]\n- 動物では、マイクロバイオームの欠如や偏りで、免疫系と心に深刻な影響が出る（p.117〜118）。ヒトでも確認されはじめた、と本は予告する\n\n**本の比喩**（p.118）＝Cryan は心・免疫系・マイクロバイオームを「同じプロセスの三つの部分」＝アイルランドの**シャムロック**にたとえる。うまくいかない状態を「三位不一体」と呼ぶ＝==ストレス調節の障害と炎症とディスバイオシスが合わさった状態==。\n\n!!「何が正常なマイクロバイオームか」は決まっておらず、ディスバイオシスの定義は文脈でゆれる（大河の見立て・Cryan の総説も、病気ごとの違いが大きいと整理する）。本はこの語を病気の原因とは書かず、関連と動物実験の話として扱う。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "デイヴィッド・T・リッケン",
    "type": "人物",
    "confidence": "推測",
@@ -21477,6 +22196,41 @@
    },
    "sections": {
     "この本での役どころ": "主な章＝**第4章**。出現 5 頁（39, 43, 45, 47, 50）。\n\n第4章。闘魚。ヒレを広げる誇示の儀式が「血を流さない闘い」の例。\n\n!!役どころの記述は大河の記憶による。頁は OCR で確かめたが、中身の照合は未了。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "トキソプラズマ",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.92〜93・106",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Berdoy M, Webster JP, Macdonald DW 2000, Fatal attraction in rats infected with Toxoplasma gondii（Proc R Soc B 267:1591-1594）",
+     "url": "https://doi.org/10.1098/rspb.2000.1182",
+     "note": "ラットはふつうネコのいる気配を避けるが、T. gondii に感染したラットでは、その生まれつきの嫌悪が場合によって無謀なひきつけに変わった。ほかの行動の種類や全般の健康は保たれ、変化は選択的。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Torrey EF, Bartko JJ, Lun ZR, Yolken RH 2007, Antibodies to Toxoplasma gondii in patients with schizophrenia - a meta-analysis（Schizophr Bull 33:729-736）",
+     "url": "https://doi.org/10.1093/schbul/sbl050",
+     "note": "42研究のうち基準を満たした23でのメタ分析。統合オッズ比 2.73（95%CI 2.10〜3.60）＝統合失調症の人で T. gondii 抗体の保有が多い。要旨自身が、因果が証明できれば、と留保。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/トキソプラズマ.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**Toxoplasma gondii。ネコ科の動物の腸の中でだけ有性生殖する原虫（寄生虫の一種）。** 本は第5章を「トムとジェリーとテリー」の話で始める（p.92〜93）。テリー＝トキソプラズマ。\n\n**本の筋立て**\n- ネコ（トム）の腸で生まれ、糞便から外に出る。**中間宿主**のネズミ（ジェリー）が知らずに飲み込む\n- 寄生虫はジェリーの脳に侵入して炎症を起こし、行動を変える。ジェリーは「シャンパンを何杯か空けた人」のように警戒が緩み、==捕食者への恐怖とネコのにおいへの嫌悪が弱まる==。トムは捕まえて食べるだけ。成熟したテリーはトムの腸に帰還する\n- ==本は「この行動変化の経路は**まだ科学的に解明されていない**」と書く==（p.93）\n- 本はこれを、微生物が「人形使い」となって宿主の意思を曲げる、「わかりやすそうな」例として挙げる。==ヒトの心を直接操る病原体は**ごく少ない**==（ほかに狂犬病ウイルス＝攻撃性）。むしろ本章は、**ヒトと微生物の関係はほとんどの場合、相互に有益**だと続ける（p.93）\n\n**一次資料で確かめたこと**（PubMed の要旨・2026-10-31）\n- Berdoy ら 2000（ラット）＝感染ラットで、ネコの気配への生まれつきの嫌悪が、場合によって無謀なひきつけに変わった。ほかの行動と全般の健康は保たれる（選択的）\n- ヒトについて、本は「ヒトがトキソプラズマに感染した場合でも、ネコのにおいにひきつけられるように行動が変化し、感染により生じる神経炎症から精神病に移行しかねないとする説もある」と書く（p.106）。Torrey ら 2007 のメタ分析は、統合失調症の人で抗体の保有が多い（OR 2.73）ことを示す\n\n!!ヒトで起きるのは**関連**の話で、感染が精神病の原因だとは言えない（Torrey の要旨自身が「因果が証明できれば」と留保）。ネコのにおいへのひきつけがヒトでも起きるかは確かめていない。本の「ネズミ」は論文では「ラット」。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -23822,6 +24576,41 @@
    "fields": {},
    "sections": {
     "調べたこと": "Paul W. Eastwick。所属＝2017年・2020年の論文時点で **University of California・Davis・Department of Psychology**（著者欄）。スピードデートを使った初期の魅力の研究で知られ・Joel・Finkel と組んで属性から相性が予測できないことを示した。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "マイクロバイオーム",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.93・103〜106",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Sender R, Fuchs S, Milo R 2016, Revised estimates for the number of human and bacteria cells in the body（PLoS Biol 14:e1002533）",
+     "url": "https://doi.org/10.1371/journal.pbio.1002533",
+     "note": "70kg の標準的な成人男性で、細菌は約 3.8×10の13乗、ヒト細胞は約 3.0×10の13乗。よく引かれる 10:1 を改め、細菌の数はヒト細胞と同じ桁。細菌の総重量は約0.2kg。ヒト細胞の約90%は造血系。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Cryan JF ら 2019, The microbiota-gut-brain axis（Physiol Rev 99:1877-2013）",
+     "url": "https://doi.org/10.1152/physrev.00018.2018",
+     "note": "総説（Cryan らのコークのグループ）。微生物叢と脳は、免疫系・トリプトファン代謝・迷走神経・腸管神経系を介して通信する。短鎖脂肪酸・分岐鎖アミノ酸・ペプチドグリカンなどの代謝物が関わる。出生様式・抗生物質・栄養・ストレスが初期の組成に影響し、加齢で多様性が減る。自閉症・不安・肥満・統合失調症・パーキンソン病・アルツハイマー病との関連が論じられている。人での研究は進行中。2026-10-31にPubMedの要旨で確認。DOI は PubMed の記録どおり（10.1152/physrev.00018.2018）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/マイクロバイオーム.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**microbiome。ヒトの体内と体表にいる微生物をひとまとめにした呼び名**（本 p.93）。本章の主張＝ヒトと微生物の関係はほとんどの場合**相互に有益**で、==私たちの心は微生物を必要としている==。\n\n**数**（p.103）\n- 体内の微生物は何十兆個。ヒトの細胞と少なくとも同じ数、おそらくはそれ以上。本は「ヒトの細胞は10%」という通説が「最近見直されて50%になった」と書く。遺伝子の数でいえば**99%は微生物のもの**。!!あくまで推定で、結論は出ていない（本も「砂漠で砂粒の数を数えるようなもの」と断る）!!\n- 一次資料＝Sender ら 2016（[[2016 Sender]]）。70kg の成人男性で細菌は約3.8×10の13乗、ヒト細胞は約3.0×10の13乗。10:1は改められ、同じ桁。!!「遺伝子の99%」は確かめていない!!\n\n**腸の微生物の働き**（p.104〜106）\n- **相利共生**の微生物（プロバイオティクス）と、**片利共生**の微生物（直接の利益はなくても、病原体が定着する場所を与えないことで感染を減らす）\n- 大半は9メートルの消化管、とくに腸にいる。糞便の約60%は微生物由来の物質（!!本の記述・未確認!!）\n- ==腸マイクロバイオームは**隠れた器官**＝発酵工場==。ヒトが分解できない食物繊維などを分解し、短鎖脂肪酸のような分子を作る。この分子はホルモンのように体を回り、免疫と代謝に作用する。必要な分子の産生が、事実上微生物に外注されている\n- ==**免疫器官**でもある==。抗生物質を長く使うと、*C. difficile*（クロストリジウム・ディフィシル）が増えやすい。腸とその周りの免疫細胞は、血液と骨髄の合計より多い（!!本の記述・未確認!!）。免疫細胞は多様なマイクロバイオームから、病原体には炎症を起こし、味方には**免疫寛容**で抑えることを教わる＝本の比喩で「士官学校」\n- ヒトと微生物の取引＝「微生物が快適に生きていける環境を用意するので、ヒトが快適に生きていけるよう助けてほしい」。==微生物にとって快適な環境は、人間にとっても望ましい==（p.105〜106）\n\n**地図の中で**＝[[防御のスーパーシステム]] の三つ目の層（本 p.117）。[[衛生仮説]] の「訓練の場」。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -30000,6 +30789,7 @@
     "これは何か": "Classical conditioning（パヴロフ型・レスポンデント条件づけ）。空腹のイヌにメトロノーム音を聞かせてから餌を与える**対呈示**を繰り返すと、音に唾液分泌が生じる。餌＝**無条件刺激（US）**、音＝**条件刺激（CS）**、餌への唾液＝無条件反応（UR）、音への唾液＝**条件反応（CR）**。CSを呈示してもUSを与えないとCRは消失＝**消去**（p.160）。\nイヌ・餌・メトロノーム・唾液以外でも生じる（味覚嫌悪学習＝味がCS・気分不快がUS・忌避がCR）。\n- **2次条件づけ**＝訓練後のCSを使って別の刺激に反応を形成／**感性予備条件づけ**＝順序を逆に／高次条件づけ＝パヴロフは3次まで（5次の報告 Finch&Culler 1934 は統制を満たさない）\n- **疑似条件づけ**の排除＝非対呈示群より大きいことを示す。[[真にランダムな統制]]\n- **痕跡条件づけ**＝CS終了とUS開始の間に空白（パヴロフの命名）。!!痕跡間隔の長さは種よりCRの種類に依存するので記憶力の指標にならない（p.200）!!。空白に**ブリッジ**を入れるとCR形成が促進",
     "この地図で": "[[レスコーラ=ワグナー・モデル]]がこの分野の主流理論。[[条件づけは因果推論か]]という問いが2000年代から。[[オペラント条件づけ]]と合わせて**連合学習**と総称される（p.162）。",
     "16_ライマン（2026）での扱い": "第4章 p.84〜85。ベルと唾液の実験を説明して「この過程は〈古典的条件づけ〉と呼ばれるが、実際には予測をしていることになる」と読み替え、免疫系にまで広げた [[条件づけ免疫抑制]]（エイダー）へつなぐ。地図の [[条件づけは因果推論か]] と同じ向きの読み。",
+    "16_ライマン（2026）第5章での扱い（p.100〜101）": "無菌マウスの恐怖の想起の話で、パヴロフの古典的条件づけが出る。==通常のマウスは音のあとにショックを与えられると、音だけでもショックを予期して体をこわばらせる。無菌マウスは音と痛みの結びつきを学習せず、行動が変わらなかった==。腸内細菌を移植すると正常な不安反応になるが、効くのは幼若期だけ。→[[無菌マウス]]\n!!本は論文名を挙げていない。確かめていない。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -32007,6 +32797,41 @@
    "stub": false
   },
   {
+   "id": "帝王切開とマイクロバイオーム",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.109〜111",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Stewart CJ ら 2018, Temporal development of the gut microbiome in early childhood from the TEDDY study（Nature 562:583-588）",
+     "url": "https://doi.org/10.1038/s41586-018-0617-x",
+     "note": "903人の子どもの便（3〜46か月・16S で12,005検体）。腸内細菌は発達期（3〜14か月）・移行期（15〜30か月）・安定期（31〜46か月）の三相で進む。母乳（完全でも部分でも）が最も大きい要因で、ビフィズス菌と関連、授乳をやめると成熟が早まる。分娩方法は発達期に有意で、経膣分娩はバクテロイデス（特に B. fragilis）が多い。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Dinan TG ら 2021, Altered stress responses in adults born by Caesarean section（Neurobiol Stress 16:100425）",
+     "url": "https://doi.org/10.1016/j.ynstr.2021.100425",
+     "note": "ユニバーシティ・カレッジ・コーク。健康な若い男子学生で、経膣分娩40人と帝王切開36人を比べた。トリーア社会的ストレステストと試験期間のストレス。帝王切開で生まれた人は急性ストレスへの心理的脆弱性が高く、試験期のストレスが長引き、ポジティブな感情が低い。唾液コルチゾールの目覚め反応は差なし・認知課題も同じ。IL-1β と IL-10 は帝王切開群で高い。分娩方法による腸内細菌の差は大人ではわずか。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/帝王切開とマイクロバイオーム.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**分娩の方法と、赤ちゃんの腸内細菌・免疫・のちのストレス反応の関係**（本 p.109〜111）。\n\n**本の筋立て**\n- 母親の産道のマイクロバイオームは妊娠中に変わり、**ラクトバチルス**属が増えて微生物の「スターターキット」が強化される\n- 帝王切開で生まれた赤ちゃんは、成長してからアレルギーを発症しやすいようだ。ただし==本は「分娩方法自体が原因か、母親がもともと健康問題を抱えていたためか、判断が難しい」と断る==\n- 帝王切開の赤ちゃんは、マイクロバイオームのバランスが悪く、多様性が不十分で、日和見病原体が定着している恐れがある。少なくとも生後1年は続く。若手の免疫細胞が訓練不足になり、刺激に炎症マーカーを極端に多く出す（免疫寛容が育たない）→[[ディスバイオシス]]\n- 「2013年の研究」＝帝王切開で生まれた成人は、短期のストレスと試験期間の長いストレスのどちらでも、より激しい免疫応答とより強い心理的ストレス反応を示す傾向（それぞれ数十人の小規模）\n- ==本は明言する＝「帝王切開を思いとどまらせるつもりは毛頭ない。それが命を救う選択になることも間違いなくある。帝王切開で出産した人に宿命論的な暗い影を投げかけることもしたくない」。免疫系はそんな単純ではなく、マイクロバイオーム自体が状況をよいほうに変えられる==（p.110〜111）\n\n**一次資料で確かめたこと**（PubMed の要旨）\n- Stewart ら 2018（TEDDY・903人）＝分娩方法は**発達期（3〜14か月）に**腸内細菌と有意に関連し、経膣分娩の乳児はバクテロイデス（B. fragilis）が多い。バクテロイデスが多いと、分娩方法によらず多様性と成熟が進む\n- Dinan ら 2021（若い男子学生・経膣40人対帝王切開36人）＝帝王切開の群は急性ストレスへの心理的脆弱性が高い。唾液コルチゾールの目覚め反応は差なし・認知課題も同じ。==分娩方法による腸内細菌の差は、大人ではわずか==\n\n!!本の「2013年の研究」が Dinan ら 2021 と同じ研究かは確かめていない（年が合わない）。どちらも小規模・観察で、**分娩方法が原因とは言えない**（母親の状態や家庭環境が混ざる）。個人の分娩の選択に結びつけて読まないこと。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "帯状皮質は痛みに特異的ではない",
    "type": "用語",
    "confidence": "確認済",
@@ -33401,6 +34226,38 @@
     "これは何か": "Cogito, ergo sum。==すべてを疑っても、疑っている何かがあることだけは疑えない==。『方法序説』（1637）第4部の原文は *je pense, donc je suis*（ラテン語の定式は後の著作）。",
     "動画での使われ方（00:00〜03:30）": "- 「全世界が崩れても沈まない1枚の岩」\n- ⭐動画は正直に限界も言う＝==「デカルトが証明したのは**何かが考えている**ことだけ」==。その何かが体か記憶か脳かは、まだ何も分かっていない。ここから「あなたとは何か」の旅が始まる\n- 最後に「岩に帰ろう」で閉じる（30:00）",
     "この地図で": "「何かが考えている」まで削るのは、古くからある批判（リヒテンベルクの「es denkt」＝「考えが起きている」とだけ言うべき）と同じ地点（大河の記憶・未照合）。動画はこの批判を、むしろ**問いの入口**として使っている。",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "扁桃体",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.101",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Luczynski P ら 2016, Adult microbiota-deficient mice have distinct dendritic morphological changes - differential effects in the amygdala and hippocampus（Eur J Neurosci 44:2654-2666）",
+     "url": "https://doi.org/10.1111/ejn.13291",
+     "note": "無菌マウスでは扁桃体と海馬の体積が通常のマウスより大きい。基底外側扁桃体の神経細胞は樹状突起が肥大、腹側海馬の錐体細胞は短く枝分かれが少ない。ストレス応答と行動の異常に関わりうる。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [
+    "amygdala"
+   ],
+   "file": "nodes/扁桃体.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**amygdala。目の奥あたりにある、左右対称のアーモンド形の神経細胞の集まり。** 英語の amygdala はギリシャ語の「アーモンド」から（本 p.101。扁桃はアーモンドの和名）。「闘争・逃走反応」をはじめ、刺激への**情動反応の処理**に深く関わる。\n\n**第5章で出る場面**＝無菌マウスの扁桃体は「特別大きく、構造にも複数の異常が認められる」（p.101）。無菌マウスが恐怖に関わる想起（脅威になる刺激を見分ける力）に障害を持つことの、脳の側の手がかりとして出る。\n\n**一次資料**（PubMed の要旨・[[2016 Luczynski]]）＝無菌マウスは扁桃体と海馬の体積が大きく、基底外側扁桃体では樹状突起が肥大している。==ただし腹側海馬は逆に枝分かれが少ない==。ストレス応答と行動の異常に関わりうる、と著者は書く。\n\n!!扁桃体の体積や樹状突起が大きいことと、「不安」や「恐怖の学習の障害」が直接結びつく証拠は、要旨には無い。「関わりうる」の段階。!!\n地図には、ヒトの扁桃体の研究として [[2008 Marsh（扁桃体fMRI）]] がある。",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -35113,6 +35970,41 @@
    "stub": false
   },
   {
+   "id": "母乳と腸内細菌",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.109〜113",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Stewart CJ ら 2018, Temporal development of the gut microbiome in early childhood from the TEDDY study（Nature 562:583-588）",
+     "url": "https://doi.org/10.1038/s41586-018-0617-x",
+     "note": "903人の子どもの便（3〜46か月・16S で12,005検体）。腸内細菌は発達期（3〜14か月）・移行期（15〜30か月）・安定期（31〜46か月）の三相で進む。母乳（完全でも部分でも）が最も大きい要因で、ビフィズス菌と関連、授乳をやめると成熟が早まる。分娩方法は発達期に有意で、経膣分娩はバクテロイデス（特に B. fragilis）が多い。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Radford-Smith DE ら 2022, Modifying the maternal microbiota alters the gut-brain metabolome and prevents emotional dysfunction in the adult offspring of obese dams（PNAS 119:e2108581119）",
+     "url": "https://doi.org/10.1073/pnas.2108581119",
+     "note": "オックスフォード大学。高脂肪食で肥満にした母マウスは、腸の短鎖脂肪酸が減り炎症マーカーが上がり、授乳中の乳の神経活性代謝物が減る。その子は不安様行動が増えたが、周産期のプロバイオティクスで防げた。子の腸の酪酸と脳の乳酸が増え、不安への耐性は脳の乳酸の多さと最も関連した。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/母乳と腸内細菌.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**乳児の腸内細菌がつくられるとき、母乳が最も大きな要因になる**、という話（本 p.111）。\n\n**本の筋立て**（p.109〜113）\n- 出産は微生物との出会い＝産道の細菌が最初の贈り物（p.109〜110）\n- ==約1000人の乳児から取った便1万2000件の解析で、腸マイクロバイオームに**最大の影響を与える因子は母乳栄養**==（p.111・→[[2018 Stewart]]）\n- ==母乳には、ヒトが分解できない複雑な糖（オリゴ糖）が多い。それを分解できるのは腸内細菌。つまり母乳のかなりの部分は**赤ちゃんの栄養ではなく、腸内細菌の餌**==（p.111）。母乳中には細菌もいる（母親の腸由来かもしれない）\n- 母乳育児は、心の健康も含めてポジティブな健康効果と強く関連し、子どもと10代の認知力向上につながるとされる。社会経済的要因を勘案しても揺らがない（!!本の記述・論文は確かめていない!!）\n- 発達の時期＝母乳栄養の3〜14か月に第一の発達期（豊かだが多様性は低い）、15〜30か月に移行期で多様化して安定。乳児が何でも口に入れるのは、環境を体内に取り入れて微生物叢を多様化させ、免疫系を訓練する一つのやりかたかもしれない、と本は推測する（p.112〜113・←この「かもしれない」は本の見立て）。3歳ごろまでに防御態勢は整う\n\n**母マウスの研究**（p.111〜112・[[2022 Radford-Smith]]）＝母マウスのマイクロバイオームを整えると、子に長く続く効果が出る。子の脳の乳酸が増え、不安への耐性が高まった。本は「親が子に免疫学的・心理的にベストなスタートを切らせられるようになる期待」と書くが、「ヒトでの実験はまだ」と断る。\n\n!!細部の食い違いに注意＝本は「母乳の短鎖脂肪酸」と書き、要旨は「母親の腸の短鎖脂肪酸」と「乳の神経活性代謝物」と書く。Stewart の要旨は「母乳が最大の要因」とは言うが、その理由（細菌の餌）は書かない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "比例テーゼ",
    "type": "用語",
    "confidence": "確認済",
@@ -35700,6 +36592,46 @@
    "sections": {
     "調べたこと": "原題 *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*（1999）。\n邦訳は講談社、2003年。訳は田中三彦。手元にあるのは2011年の第6刷。\n\n前著『生存する脳』（*Descartes' Error*, 1994）が「情動なしに理性は働かない」を論じたのに対し、\n本書は一歩進んで **意識そのものがどう生まれるか** を神経科学の問題として立てている。\n\n読書メモ本体は `心理学/読書メモ/01_ダマシオ_無意識の脳自己意識の脳.md`。",
     "燻太さんの考え": "高校生ごろに読んだ。一般書で心理学・神経科学に興味を持ち始めた**後**に手にした一冊。\n入口の本ではなく、入口の次に踏み込んだ本という位置づけ。"
+   },
+   "stub": false
+  },
+  {
+   "id": "無菌マウス",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.97〜103・113",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Sudo N ら 2004, Postnatal microbial colonization programs the hypothalamic-pituitary-adrenal system for stress response in mice（J Physiol 558:263-275）",
+     "url": "https://doi.org/10.1113/jphysiol.2004.063388",
+     "note": "九州大学のグループ。無菌マウスは拘束ストレスで ACTH とコルチコステロンが SPF マウスより大きく上がり、皮質と海馬の BDNF が少ない。ビフィドバクテリウム・インファンティスで是正、病原性大腸菌（EPEC）の単独定着は反応を強めた。SPF の糞便による是正は早い時期だけ有効。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Hoban AE ら 2016, Regulation of prefrontal cortex myelination by the microbiota（Transl Psychiatry 6:e774）",
+     "url": "https://doi.org/10.1038/tp.2016.42",
+     "note": "無菌マウスの前頭前野で、髄鞘形成と髄鞘の可塑性に関わる遺伝子が協調して上がり、電子顕微鏡で過剰に髄鞘化した軸索が見えた。離乳後に通常の微生物叢を定着させると戻った。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Luczynski P ら 2016, Adult microbiota-deficient mice have distinct dendritic morphological changes - differential effects in the amygdala and hippocampus（Eur J Neurosci 44:2654-2666）",
+     "url": "https://doi.org/10.1111/ejn.13291",
+     "note": "無菌マウスでは扁桃体と海馬の体積が通常のマウスより大きい。基底外側扁桃体の神経細胞は樹状突起が肥大、腹側海馬の錐体細胞は短く枝分かれが少ない。ストレス応答と行動の異常に関わりうる。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/無菌マウス.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**germ-free mice。環境中の微生物をシャットアウトした無菌の飼育装置で育てた、体内と体表に検出できる微生物が一つもないマウス**（本 p.97）。雑菌が混ざらないので、感染や微生物の影響を調べるとき「生物学的には純粋な白紙」として使える。\n\n**本の筋立て**（p.97〜103）\n- 20世紀の終わりにかけて、この「至極クリーンなマウス」は**健康の鑑ではない**ことがわかった。1990年代の研究は、腸内微生物が腸の健康によく、宿主に栄養素を与え、発達中の免疫系を微調整することを示した（メチニコフの説が一部正しい）\n- そして21世紀に入る頃、==無菌マウスは**行動が異なる**==ことに研究者が気づいた\n\n**ストレス**（p.98）＝2004年に日本のグループ（[[2004 Sudo]]）が、無菌マウスではストレスホルモン（コルチコステロン）が異常に高く、ストレス反応が過敏なことを示した。ビフィズス菌で是正され、病原性の大腸菌では悪化した。BDNF が少ない。==是正できるのは**生後数週間のうち**だけ＝幼若期は微生物が脳のストレス回路を整える重要な段階==\n\n**不安と恐怖**（p.100〜101）＝無菌マウスは不安に類似した行動は**少ない**（一見都合がよい）が、==恐怖に関連する想起が損なわれている==。通常のマウスは音のあとにショックを与えられると音だけでもすくむが（パヴロフの古典的条件づけ）、無菌マウスは音と痛みの結びつきを学習しない。腸内細菌を移植すると正常な不安反応になるが、**これも幼若期にだけ**効く\n\n**脳の構造**（p.101〜102）＝[[扁桃体]] が特別大きく構造に異常がある（→[[2016 Luczynski]]）。前頭前野で髄鞘が過剰に形成されている（→[[2016 Hoban]]）。離乳後に微生物を定着させると戻る可能性\n\n**社会性**（p.102・113）＝無菌マウスは単独行動を好み、コミュニケーションが乏しく、周囲を探索しようとしない（本）。健康なマウスの微生物叢の移植で急にいきいきと探索を始めた。Cryan「マウスはふつう社交的で、すでに知っているマウスより新しい仲間と遊びたがる。無菌マウスは冒険的なところがほとんどなく、自分で毛づくろいを繰り返した」（→[[2014 Desbonnet]]）\n\n!!ここは動物の話。本自身も「ヒトにおける効果の有無を調べる前に作用のメカニズムを確立する上で、動物モデルは欠くことができない」と書く（p.98）。無菌マウスは**生涯まったく微生物がいない極端な状態**で、ヒトの腸内細菌が少し偏った状態とは違う。!!\n!!無菌マウスの恐怖条件づけの論文は、本が名前を挙げておらず、確かめていない（大河の記憶ではコークのグループの報告）。!!",
+    "燻太さんの考え": ""
    },
    "stub": false
   },
@@ -38459,6 +39391,7 @@
     "第2章の結論（p.52）": "==「今日、脳が**免疫器官**であることは明白で、この言い方は決して言いすぎではない」==。脳は身体の免疫部隊と何本もの連絡線を保ち、頭蓋骨と髄膜に強力な駐屯地を構え、ミクログリアという独自の傭兵部隊まで抱えている。リンパ管・血管・神経でひとつにつながり、**同じ言葉を話す**。==この結びつきは進化の偶然ではなく、適応的な目的を果たしているに違いない==──そこから第3章の「なぜ」（[[疾病行動]]）へ進む。\n本の言い方では、私たちはこのつながりを本能では感じているのに、**情報を区切って分類したがる理性**（専門分野の分かれ方・医学教育の順序）のせいで見えなかった。",
     "第3章の芯（p.68〜69）": "==「免疫系は脳を変化させるだけにとどまらず、**心をも変化させる**。そうでなければならないのだ」==。脳と免疫系は組み合わさって、感染を避けるのを助け、感染したら回復を助ける**ひとつの防御システム**になる。社会のレベルでは、感染の鎖を断つ強い行動を促す。人間は自分たちの社会的現実（哲学・政治・権威）を知性と理性でつくったと思っているが、**微生物との戦いから湧き上がる感情**に大きく影響されている、と著者は書く。\n!!最後の主張は射程が大きい。本の実例（顔・におい・体臭と偏見）はどれも小規模か相関で、著者自身もそう断っている。!!",
     "第4章の芯（p.70〜91）": "==「免疫系と脳（心）には、解剖学と生理学のレベル、そしてまた臨床のレベルで密接な関係がある。いまこそ、これらが**概念のレベルで同一のシステム**を構成していることを理解すべき時だ」==（p.71）。道具は二つ＝[[予測処理]]（知覚は脳の予測と感覚の交差点）と [[防御のスーパーシステム]]（神経と免疫は一つの防御）。治療もトップダウン（モデルを変える）とボトムアップ（現実を変える）の両側から、と著者は書く（p.83・91）。\n!!第4章は本の中でいちばん理論の色が濃い。材料（条件づけ免疫抑制・ストレスで炎症・感染と気分障害）は確かめられるが、まとめ方は著者の提案。実例の黒死病研究には反論がある（[[2025 Barton]]）。!!",
+    "第5章の芯（p.92〜119）": "==「腸マイクロバイオームを統一された身体の防御システムを構成する要素だと考えてもまったく差し支えないと思う。心と免疫系の上にさらに重なる層というわけだ」==（p.117）。第5章は、第4章で心（脳）と免疫を一つの防御に束ねた議論に、**腸の微生物**を三つ目の層として足す。本はまず、微生物が宿主を操る話（トキソプラズマ）を出し、それが**ごくまれ**で、ふつうは相互に有益だと言い換える。\n!!材料の大半は**マウスやラットの動物実験**（無菌マウス・糞便移植）で、本も「ヒトの試験で確証が得られるまで待つ必要がある」（p.116〜117）と何度も断る。一次資料と照らすと、本の「2013年」「2011年」「2015年」など年が合わない箇所がいくつかあり、そのまま同じ研究と決められない（各ノードに注記）。個人の食事や分娩の選択に結びつけて読まない。!!",
     "地図の中での位置（大河の見立て）": "この地図では、身体と心のつながりは [[島皮質]]（内受容感覚）・[[ソマティック・マーカー仮説]]・[[ボイコットする身体]]（心身症）のあたりに集まっている。\n**免疫という第三の系**が入ってくるのは、この本がはじめてになる。読み進めるうちに、そこへ橋が架かるかもしれない。",
     "燻太さんの考え": ""
    },
@@ -38600,6 +39533,141 @@
     "免疫の側から見た脳脊髄液（ここが第3章の話）": "==**脳脊髄液は、脳の状態を外へ知らせる「伝言の液」でもある。**==\n\n1. **出口** ── 脳脊髄液は [[髄膜リンパ管]] に吸われ、**首のリンパ節（深頸リンパ節）**へ流れていく（Aspelund ら2015・Louveau ら2015）。免疫細胞も一緒に運ばれる。脳の中身の情報が、免疫の「司令部」であるリンパ節に届く道になる。\n2. **骨髄への直通路** ── 脳脊髄液は、硬膜と頭蓋骨のあいだの小さな通路を通って **[[頭蓋骨の骨髄]] に直接しみこむ**。そして中のタンパク質が骨髄の細胞に信号を送り、**脊髄が傷つくと、骨髄が免疫細胞を増やして髄膜へ送り出す**（Mazzitelli ら2022）。\n   → ==**脳が、すぐ隣の骨髄に「助けが要る」と知らせる経路**==、と読める。",
     "線の注意": "- どちらもマウスの結果が中心。\n- [[グリンパティック系]]（脳の中を脳脊髄液が流れて洗う、という説）は**いま強く争われている**。そちらのノードに赤線を引いた。",
     "本の中で（16_ライマン）": "**第2章 p.38・41〜44**（ほかに p.128）。\n- p.38 ＝くも膜下腔を満たす透明な液\n- p.41〜42 ＝頭への衝撃のクッション。==2012年に**マイケン・ネダーガード**らが、脳脊髄液は脳の実質に入って脳を「水洗い」し、老廃物の処理にも働くことを示した==（→[[グリンパティック系]]）\n- p.43 ＝「汚れた」脳脊髄液は免疫細胞の多い硬膜を通って [[髄膜リンパ管]] へ出る。その中の小さな分子が、脳の状態を髄膜の免疫細胞に知らせる\n- p.44 ＝2022年のキプニスらの研究＝脳脊髄液が頭蓋チャネルに流れ込み、[[頭蓋骨の骨髄]] の免疫細胞にも情報を渡す（本の参考文献に Mazzitelli ら 2022 が載る）\n\n**大河が書いた中身との照合**＝食い違いなし。!!章は第2章。!!\n\n!!頁は手元のスキャンの OCR で引いた（2026-10-31 照合）。言い回しは要約で、本文の逐語ではない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "腸内細菌と老化",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.115〜117",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Boehme M ら 2021, Microbiota from young mice counteracts selective age-associated behavioral deficits（Nat Aging 1:666-676）",
+     "url": "https://doi.org/10.1038/s43587-021-00093-9",
+     "note": "ユニバーシティ・カレッジ・コーク。若いマウス（3〜4か月）または老いたマウス（19〜20か月）の糞便を、老いたマウスに移植。若い donor の微生物叢は、末梢と脳の免疫、海馬の代謝物と転写の加齢変化を戻し、選択的な認知行動の低下を弱めた。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/腸内細菌と老化.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**微生物叢の多様性が加齢で下がることと、脳の老化の関係**（本 p.115〜117）。メチニコフ（[[イリヤ・メチニコフ]]）が追った「老化の衰えを食い止める」問いを、Cryan のチームが引き継いだ。\n\n**本の筋立て**\n- Cryan の言葉＝2013年の同僚の研究で、**高齢者の集団では微生物叢の多様性が不足し、それがフレイル（加齢による心身の活力低下）や健康の悪化と相関**する。味気ないベージュ色の食べものに偏った食生活のせいではと考えられた（!!本の記述・論文は確かめていない!!）\n- 老化マウスでは、認知の低下に加えて、腸管バリアの透過性の上昇・炎症・マイクロバイオームの変化が見つかった\n- 中年マウスにイヌリン（チコリやポロネギのプレバイオティクス）を与えると、脳の炎症の進行を遅らせた（2020年・!!論文は確かめていない!!）。Cryan＝「中年の危機かもと思ったら、バイクを買わずにネギに頼れ」\n- ==若いマウスの微生物叢を老いたマウスに移植すると、脳の加齢に伴う免疫機能の衰えを戻し、認知と老化に関連した不安を改善した==（2021・別の2チームが追試で再現とあるが、確かめていない）\n\n**一次資料で確かめたこと**＝Boehme ら 2021（[[2021 Boehme]]）。若い donor の移植で、末梢と脳の免疫、海馬の代謝物と転写の加齢変化が戻り、==**選択的な**認知行動の低下が弱まった==。\n\n!!動物（マウス）の結果で、ヒトの高齢者には移していない。本も「ヒトの試験で確証が得られるまで待つ」と書く。「老化を逆転」のような表現は本にも論文にも無い。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "腸内細菌と食の選択",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.106〜107",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Trevelline BK, Kohl KD 2022, The gut microbiome influences host diet selection behavior（PNAS 119:e2117537119）",
+     "url": "https://doi.org/10.1073/pnas.2117537119",
+     "note": "ピッツバーグ大学。三つの齧歯類種（植物食・雑食・肉食）の腸内細菌を無菌マウスに定着させると、食べものの選びかた（タンパク質:炭水化物の比）が donor 種の型で違った。草食型は高たんぱく、雑食・肉食型は低たんぱく（炭水化物寄り）を選んだ。トリプトファン代謝との相関。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/腸内細菌と食の選択.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**腸内の微生物が、宿主が何を食べたがるかに影響しているのではないか**、という仮説（本 p.106〜107）。\n\n**本の筋立て**\n- 病原体が自らの生存のために人間の行動を操る明白な例は少ないが、「新しい研究によると、人間のごく日常的な行動の多く、**特に食べるものの選択**は、腸内微生物にその必要があれば乗っ取りができてしまう」（p.106）\n- ピッツバーグ大学の2022年の研究（[[2022 Trevelline]]）＝食性の違う野生の齧歯類（植物食・肉食・雑食）の微生物叢を無菌マウスに移すと、受け手の採餌の型と選ぶ食べものが、donor から推定できた\n- 微生物ごとに好みが違う。バクテロイデス属は脂質、プレボテラ属は炭水化物、ビフィズス菌は食物繊維（!!本の記述・論文は確かめていない!!）\n- 本の飛躍＝「**ファストフード中毒は、ある程度までは、腸の中の脂質好き・糖好きの微生物たちがひっきりなしにデリバリーのオーダーをしているせいかもしれない**」。行動の一端は微生物で決まる以上、意志の力だけに頼るより、微生物の環境を整えるほうがよいかもしれない（p.107）\n- 本は「ヒトを対象とした決定的な研究報告はまだない」と断る\n\n**一次資料**＝Trevelline & Kohl 2022（PubMed の要旨）。==草食型の微生物叢を定着させたマウスはたんぱく質の多い食べものを、雑食・肉食型は炭水化物寄りを選んだ==。トリプトファン代謝との相関があり、微生物が必須アミノ酸の利用を介するのかもしれない、と著者。\n\n!!なぜ「推測」か＝マウスで、食べものの選びかたの**傾向**が微生物叢で動く、という段階。ヒトで「何を食べたがるか」が微生物で決まる証拠はない。本の「ファストフード」は、ヒトに延ばした大河から見ても大きな飛躍で、本人も「かもしれない」と書く。「意志の力は要らない」という話ではない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "腸内細菌叢移植",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.102〜103・114・116",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Kelly JR ら 2016, Transferring the blues - depression-associated gut microbiota induces neurobehavioural changes in the rat（J Psychiatr Res 82:109-118）",
+     "url": "https://doi.org/10.1016/j.jpsychires.2016.07.019",
+     "note": "大うつ病の34人と健康な対照33人。うつ病では腸内細菌の豊かさと多様性が低い。患者の糞便を微生物を除いたラットに移植すると、アンヘドニアと不安様行動、トリプトファン代謝の変化が起きた。腸内細菌がうつの特徴の発生に因果的に関わる可能性、と要旨。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Sharon G ら 2019, Human gut microbiota from autism spectrum disorder promote behavioral symptoms in mice（Cell 177:1600-1618）",
+     "url": "https://doi.org/10.1016/j.cell.2019.05.004",
+     "note": "カリフォルニア工科大学ほか。ASD の人と定型発達の人の腸内細菌を無菌マウスに移植。ASD 由来の群で特徴的な行動が出て、脳では ASD 関連遺伝子の選択的スプライシングが変わった。微生物の代謝物（候補）を ASD モデルマウスに与えると行動の異常が改善。要旨は代謝物の名前を挙げない。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Boehme M ら 2021, Microbiota from young mice counteracts selective age-associated behavioral deficits（Nat Aging 1:666-676）",
+     "url": "https://doi.org/10.1038/s43587-021-00093-9",
+     "note": "ユニバーシティ・カレッジ・コーク。若いマウス（3〜4か月）または老いたマウス（19〜20か月）の糞便を、老いたマウスに移植。若い donor の微生物叢は、末梢と脳の免疫、海馬の代謝物と転写の加齢変化を戻し、選択的な認知行動の低下を弱めた。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/腸内細菌叢移植.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**fecal microbiota transplantation（本では「マイクロバイオーム移植」）。** 凍結乾燥したドナーの便を、経口または直腸から受け手の腸に入れる方法（本 p.102）。==移植のあとに行動が変わったなら、その変化の少なくとも一部は、移された微生物によると示唆される==。\n\n**第5章に出る4つの使いかた**\n- **無菌マウスの社会性の正常化**（p.102・本は「2011年の研究」）→ 論文は確かめていない（[[2014 Desbonnet]] とは年が合わない）\n- **うつ病の腸内細菌をラットへ**（p.102〜103・[[2016 Kelly]]）＝受け手が微生物を除いたラットで、アンヘドニアと不安様行動が出た。本は「抑うつ状態の**異種移植**」と呼ぶ\n- **ASD の腸内細菌を無菌マウスへ**（p.114・[[2019 Sharon]]）＝自閉的な行動と、脳の遺伝子のスプライシングの変化\n- **若い微生物叢を老いたマウスへ**（p.116・[[2021 Boehme]]）＝脳の免疫の衰えと認知の低下の一部が戻った\n\n**本の控えめな言い添え**（p.116〜117）＝「中高年の人に若者のうんちを勧めている……？　まだそこまでは行っていません」。将来の「糞便の売買」への冗談のあと、==「動物実験の結果は説得力があるけれども、私たちはヒトの試験で確証が得られるまで待つ必要がある」==。\n\n!!読むときの注意（大河）＝受け手は**無菌または抗生物質で微生物を空にした動物**で、ふつうの腸とは違う。移植で行動が変わっても、どの微生物のどの分子が効くかは別の話。動物の「うつの特徴」「自閉的な行動」が、ヒトの病気そのものと同じとは言えない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "腸脳相関",
+   "type": "理論",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.107〜109",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Cryan JF ら 2019, The microbiota-gut-brain axis（Physiol Rev 99:1877-2013）",
+     "url": "https://doi.org/10.1152/physrev.00018.2018",
+     "note": "総説（Cryan らのコークのグループ）。微生物叢と脳は、免疫系・トリプトファン代謝・迷走神経・腸管神経系を介して通信する。短鎖脂肪酸・分岐鎖アミノ酸・ペプチドグリカンなどの代謝物が関わる。出生様式・抗生物質・栄養・ストレスが初期の組成に影響し、加齢で多様性が減る。自閉症・不安・肥満・統合失調症・パーキンソン病・アルツハイマー病との関連が論じられている。人での研究は進行中。2026-10-31にPubMedの要旨で確認。DOI は PubMed の記録どおり（10.1152/physrev.00018.2018）"
+    },
+    {
+     "title": "Kaelberer MM ら 2018, A gut-brain neural circuit for nutrient sensory transduction（Science 361:eaat5236）",
+     "url": "https://doi.org/10.1126/science.aat5236",
+     "note": "マウスで、腸の腸内分泌細胞が迷走神経の神経細胞とシナプスをつくり、グルタミン酸を伝達物質として、腸の中の信号を数ミリ秒で伝える。この細胞をニューロポッド細胞と呼ぶ。腸の内腔から脳幹へ1シナプスで届く。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/腸脳相関.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**microbiota-gut-brain axis。腸内の微生物・腸・脳が、双方向に通信している、という考え。**\n\n**本の入口**（p.107〜108）＝心と腸の結びつきは、言葉にも表れている（英語 *go with your gut*・日本語の「断腸の思い」「腹の虫が治まらない」）。概念としても筋が通る。脳は予測マシンで、脳と免疫は敵味方を識別する。腸の内膜は体外との**最大の境界面**で、腸マイクロバイオームはその主要な要素。==腸と脳の通信が、バランスの最適化と生き残りのために重要なのは当然==（p.108）\n\n**四つの経路**（p.108〜109）\n- **神経系**＝腸には脊髄より多い神経があり（**腸管神経系**・「第二の脳」）、**迷走神経**で脳と直結する。迷走神経の「足」に、腸の環境をチェックして脳に信号を伝える**ニューロポッド細胞**がある（→[[2018 Kaelberer]]）\n- **内分泌系**＝微生物由来の分子が腸内分泌細胞を刺激してホルモンを出させ、迷走神経と脳に作用し、空腹感や食べものの選択を左右する\n- **代謝系**＝短鎖脂肪酸は脳と直接やりとりでき、微生物はセロトニン・ドーパミン・ノルアドレナリン・GABA などの**前駆体**を作れる\n- **免疫系**＝サイトカインや免疫細胞の形でさざ波が脳に届く\n\n==双方向＝腸の痛みを感じるニューロンは細菌の分子を検出できるだけでなく、細菌の種類を増減させる分子を作って微生物叢を調整できる（本 p.109）。==\n\n**一次資料**＝Cryan ら 2019 の総説（[[2019 Cryan]]）が、免疫系・トリプトファン代謝・迷走神経・腸管神経系を通り道に挙げる。!!本の四区分（神経・内分泌・代謝・免疫）と完全には一致しない（総説は腸管神経系とトリプトファン代謝を別に立てる）。!!\n\n!!本の例は**マウスやラットの動物実験**が中心で、本自身も「ヒトを対象とした決定的な研究報告はまだない」「ヒトでの確証を待つ必要がある」と繰り返す（p.107・116〜117）。p.109 の「発表された二つの研究」（腸の痛みを感じるニューロンが細菌の分子を検出し、微生物叢を調整するという話・年は OCR で読めない）の論文は確かめていない。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -39307,6 +40375,36 @@
    "stub": false
   },
   {
+   "id": "自閉スペクトラム症と腸内細菌",
+   "type": "理論",
+   "confidence": "推測",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.113〜114",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Sharon G ら 2019, Human gut microbiota from autism spectrum disorder promote behavioral symptoms in mice（Cell 177:1600-1618）",
+     "url": "https://doi.org/10.1016/j.cell.2019.05.004",
+     "note": "カリフォルニア工科大学ほか。ASD の人と定型発達の人の腸内細菌を無菌マウスに移植。ASD 由来の群で特徴的な行動が出て、脳では ASD 関連遺伝子の選択的スプライシングが変わった。微生物の代謝物（候補）を ASD モデルマウスに与えると行動の異常が改善。要旨は代謝物の名前を挙げない。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/自閉スペクトラム症と腸内細菌.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**自閉スペクトラム症（ASD）と腸内細菌の関係**（本 p.113〜114）。無菌マウスは社会性に乏しいという動物の観察から、社会行動に関わる状態（ASD から社交不安症まで）の理解に影響するかもしれない、と本は書く。\n\n**本の慎重な書きかた**（p.113）\n- ==「どれも幅広い状態を含めた診断名であるので、単一の要素でひとくくりにしたり、動物実験の結果から行きすぎた推測をしたりするのは危険だ」==\n- ==「どのような研究であろうと、自閉症を人間の思考の多様性ととらえる立場（ニューロダイバーシティ）に立つ大勢の人々の訴えをないがしろにしてはならない」==\n\n**本の材料**（p.113〜114）\n- ASD の有病率はここ数十年で大幅に増えたが、診断数の増加だけでは十分に説明がつかない（!!本の記述・確かめていない!!）\n- 2019年のカリフォルニア工科大学（[[2019 Sharon]]）＝ASD の人の微生物叢を移すと、マウスに反復行動と社会性の低下\n- 母親に炎症を起こさせた子マウスが ASD 様の行動をとるとき、健康な腸内細菌を与えると減った（!!論文は確かめていない!!）\n- ==本の結論＝「マウスはヒトではないし、腸ディスバイオシスが自閉症の原因あるいは一因であるという有力なエビデンスはまだ存在しない」==。ASD の人は腸マイクロバイオームの多様性が低いことに広く意見が一致しているが、**食生活と無関係か、好き嫌いが激しいからか**は論点（p.114）\n\n**一次資料**（Sharon ら 2019・要旨）＝ASD の人の微生物叢を無菌マウスに移すと、自閉的な行動が出た。微生物の代謝物（候補）が行動を調節する、と著者は提案する。\n\n!!なぜ「推測」か＝**関連と動物実験の段階**。ヒトの ASD の原因や治療に結びつく証拠はまだない。微生物叢を ASD の「治療」にしたい話ではなく、「違いの一部を説明するかもしれない」程度。ニューロダイバーシティの立場からは、そもそも治療対象にする見方に異論がある。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "良い知らせへの応答（キャピタリゼーション）",
    "type": "用語",
    "confidence": "確認済",
@@ -39637,6 +40735,7 @@
    "fields": {},
    "sections": {
     "調べたこと": "**hygiene hypothesis。衛生的で抗生物質を多く使う現代社会では、幼いころに免疫系が「味方（食べもの・善玉菌）と敵（病原体）」を見分ける訓練を受ける機会が減り、アレルギーや自己免疫疾患が増えた、という考え**（本 p.90）。\n\n- 本の言いかた＝自己と非自己、安全なものと脅威の**予測の精度**を上げる機会が限られる（第4章の予測の言葉で言い直している）\n- ==誤解の歯止め＝「病原体に感染しよう」ではなく、**身体の内外に豊かな微生物叢を保つ**ほうがよい、という話==。詳しくは次の第5章（p.92〜）\n- 心とストレスも同じ形＝祖先は命にかかわる危険に短く強く応じた。いまはゆっくりたまるストレスが不都合な免疫応答を起こす（p.90）\n\n**なぜ「推測」にしたか**＝出発点の Strachan 1989 は書誌だけ確認し、中身（きょうだいが多いほど花粉症が少ない）は大河の記憶。!!本は「広く認められている」と書くが、いまは「旧友仮説」（微生物との共生を重く見る言い直し）が出ている、というのも大河の記憶。第5章を読むときに照合する。!!",
+    "第5章との接続（p.105〜106・110・113）": "本は p.90 で「次章で詳しく」と予告し、第5章で**訓練の場＝腸のマイクロバイオーム**に答えを置く。==免疫細胞は生涯を通じて（とくに幼い頃に）、多様なマイクロバイオームから「病原体には炎症、味方には免疫寛容」を教わる==（p.105）。帝王切開などの早期のディスバイオシスは、若い免疫細胞の訓練不足になりうる（p.110）。乳児が何でも口に入れるのは、環境を取り入れて微生物叢を多様化させる一つのやりかたかもしれない、と本は推測する（p.113）。\n!!「訓練不足がアレルギーを増やした」という筋は、本も推測として書く。旧友仮説への言い直しの有無は未照合。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -41111,6 +42210,43 @@
    "stub": false
   },
   {
+   "id": "迷走神経",
+   "type": "用語",
+   "confidence": "確認済",
+   "sources": [
+    "16_ライマン"
+   ],
+   "refs": [
+    {
+     "title": "モンティ・ライマン『脳のなかの免疫、免疫のなかの心』塩﨑香織 訳（みすず書房 2026・手元は第3刷） 第5章 p.100・108〜109・第2章 p.50〜51",
+     "url": "https://www.msz.co.jp/book/detail/09837/",
+     "note": "手元のOCR本文で確認（2026-10-31）"
+    },
+    {
+     "title": "Bravo JA ら 2011, Ingestion of Lactobacillus strain regulates emotional behavior and central GABA receptor expression in a mouse via the vagus nerve（PNAS 108:16050-16055）",
+     "url": "https://doi.org/10.1073/pnas.1102999108",
+     "note": "L. rhamnosus（JB-1）を慢性投与したマウスで、脳の領域ごとの GABA 受容体 mRNA が変わり、ストレスで上がるコルチコステロンと不安・うつ様行動が減った。迷走神経を切ったマウスでは神経化学的・行動的な効果が消えた。2026-10-31にPubMedの要旨で確認"
+    },
+    {
+     "title": "Kaelberer MM ら 2018, A gut-brain neural circuit for nutrient sensory transduction（Science 361:eaat5236）",
+     "url": "https://doi.org/10.1126/science.aat5236",
+     "note": "マウスで、腸の腸内分泌細胞が迷走神経の神経細胞とシナプスをつくり、グルタミン酸を伝達物質として、腸の中の信号を数ミリ秒で伝える。この細胞をニューロポッド細胞と呼ぶ。腸の内腔から脳幹へ1シナプスで届く。2026-10-31にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [
+    "brainstem"
+   ],
+   "file": "nodes/迷走神経.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "調べたこと": "**vagus nerve。脳幹から出て複雑に走る長い神経で、腸を含む大部分の内臓に連絡する**（本 p.100・第2章 p.50〜51）。本は第2章で炎症反射とともに触れ、第5章で**腸と脳の通り道**として使う。\n\n**第5章で出る場面**\n- 迷走神経は、腸から脳へ**微生物の信号**も伝える。==腸内細菌が産生する分子が迷走神経を介して脳で感知され、脳と心の健康に影響しうる==（p.100）。Cryan の言葉＝「よく言うのですが、迷走神経の中で何かあれば必ずばれます」\n- ==ラクトバチルス菌が脳と行動とストレスに影響しても、迷走神経を切ると効果がすべて消えた==（p.100・→[[2011 Bravo]]）\n- 腸の内膜に長い「足」を食い込ませ、その先の**ニューロポッド細胞**が腸の環境をチェックして脳に直接信号を送る（p.108・→[[2018 Kaelberer]]）。ここでは腸の細胞とシナプスをつくり、グルタミン酸で数ミリ秒で伝える\n\n!!本は第2章と第5章でこの神経に触れる（索引は p.51・100・108〜109）。迷走神経そのものの解剖の説明は短い。「迷走神経を切るとすべて消える」はマウスの1つの実験で、ほかの経路（内分泌・免疫・代謝）の寄与がゼロとは言えない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
    "id": "追う人と逃げる人",
    "type": "用語",
    "confidence": "確認済",
@@ -42015,6 +43151,7 @@
    "fields": {},
    "sections": {
     "調べたこと": "**著者ライマンの中心の考え**（本 p.84）。脳（心）と免疫系を別々のシステムとせず、==生きながらえる・脅威から身を守るという一つの目的のもとで選ばれてきた「**スーパーシステム**（システムのシステム）」＝「防御のシステム」==として見る。\n\n**本の筋立て**（第4章 p.83〜91）\n- 見かけは、神経系が「**マクロの**」脅威（腹を空かせたライオン・熱い鍋・人）、免疫系が「**ミクロの**」脅威を担う。==でも二つはたいてい**セットで来た**。ライオンに噛まれた傷には微生物が付く==（p.84）\n- **心理的ストレスで免疫が動く**＝難しい計算問題や、敵対的な審査員の前でのプレゼンをさせる実験（p.84）。「免疫細胞はあなたの気持ちを聞いている」。逆に、免疫が戦うと痛み・思考・気分・行動が変わる\n- 統一的に予測するマシン＝[[条件づけ免疫抑制]]（エイダー）と、フリストンのチームの理論（[[2021 Bhat]]）（p.84〜87）\n- **防衛省の比喩**（p.87〜88）＝国（脳と身体）の国防を担う省。敵は公然の敵国（人・大型動物）・ならず者国家やテロ組織（病原微生物）・秘密工作員（細胞内の細菌やウイルス）。兵器は大量だが、副次的被害とエネルギー予算のために慎重に使う。==神経の電話線は速く、サイトカインやホルモンの電子メールや郵便は少し遅い==\n- **過敏な防御**＝圧政的な警察国家に変わった国のように、防御が過敏になると自分を攻撃する。免疫ではアレルギー・自己免疫疾患、心では PTSD・恐怖症（p.88）\n- だから**免疫の不調と心の不調は一緒に起こりやすい**（p.88）＝本は「子どもの頃の感染症の多さ→大人の心の不調」と「幼少期の心理的ストレス→のちの炎症」を「しっかり確認されている」と書く\n- 現代の先進国の慢性免疫疾患と心の不調の増加は、**アンバランスな防御システムのパンデミック**かもしれない（p.88〜89）→ [[炎症性バイアス]]・[[衛生仮説]]\n- 現代のストレスは本物の暴力でなく、忙しさ・失業・ローン・不眠・SNS の比較のように**ゆっくりたまる**もの＝慢性炎症につながりうる（p.90）\n\n**一次資料で確かめたこと**（PubMed の要旨・2026-10-31）\n- 心理的ストレスで炎症＝Steptoe ら 2007 のメタ分析（30研究）で、急性ストレス後に **IL-6（r=0.19）・IL-1β（r=0.58）** が上がる。CRP はわずか。!!本の「計算問題と敵対的な審査員」は、トリーア社会的ストレステストの形に見える（名前は本に無い・大河の見立て）。!!\n- 感染→気分障害＝Benros ら 2013（デンマーク356万人）。感染症での入院歴で**1.62倍**・自己免疫疾患で1.45倍・両方で2.35倍、回数に応じて上がる。!!ただしこれは**子ども時代に限らない**。本の言う「子どもの頃の感染」の研究そのものは確かめていない。!!\n- 幼少期の逆境→炎症＝Danese ら 2007（ダニーデン）。子どもの頃の虐待で、32歳の高CRPのリスクが**1.80倍**。ほかの要因を調整しても残る\n\n**なぜ「推測」にしたか**＝個々の材料（ストレスで炎症・感染と気分障害の結びつき・条件づけ免疫抑制）は確かめられた。==でも「脳と免疫は**概念のレベルで同一のシステム**」（p.71）というまとめ方は、著者の**見方の提案**==で、それ自体を検証した研究があるわけではない。比喩（防衛省）は分かりやすいが、比喩は証拠ではない。",
+    "第5章での拡張（p.117〜119）": "==「腸マイクロバイオームを統一された身体の防御システムを構成する要素だと考えてもまったく差し支えないと思う。心と免疫系の上にさらに重なる層というわけだ」（p.117）==。Cryan は、心と免疫系とマイクロバイオームを、アイルランドのシャムロックの三つの葉＝「同じプロセスの三つの部分」にたとえる（p.118）。うまくいかないときは「三位一体」ならぬ「**三位不一体**」＝ストレス調節の障害と炎症とディスバイオシスが合わさった状態（→[[ディスバイオシス]]）。\n- 影響は双方向＝免疫系や心へのストレスから、マイクロバイオームの構成も変わる（p.118）\n- 本は、自分の体を「生態系の世話係」と見て、マイクロバイオームを庭のように手入れすることを勧め、本の終盤で「サイコバイオティクス」の食事療法を検討すると予告する（p.119）\n- 地球上の微生物は1兆種・個体総数は10の30乗とされる、という驚きの話も添える（!!本の記述・未確認!!）\n!!「三つの葉」は Cryan の比喩で、本も「ヒトでも確認されはじめた」と書く段階。この三要素が一つのシステムだという仮説自体は、検証された理論ではなく**見方の提案**（このノードの確度が「推測」の理由）。!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -43424,6 +44561,12 @@
    "weight": "標準"
   },
   {
+   "source": "2000 Berdoy",
+   "target": "トキソプラズマ",
+   "rel": "感染ラットの行動変化（ネコへのひきつけ）",
+   "weight": "強"
+  },
+  {
    "source": "2000 Calder",
    "target": "島皮質",
    "rel": "裏づけ",
@@ -43661,6 +44804,12 @@
    "source": "2004 Strawson",
    "target": "エピソード的な人と通時的な人",
    "rel": "同じ論文の区別",
+   "weight": "強"
+  },
+  {
+   "source": "2004 Sudo",
+   "target": "無菌マウス",
+   "rel": "無菌マウスのストレス過敏の最初の実験",
    "weight": "強"
   },
   {
@@ -43920,6 +45069,12 @@
    "target": "シナプス刈り込み",
    "rel": "裏づけ（補体が刈り込みを担う）",
    "weight": "強"
+  },
+  {
+   "source": "2007 Torrey",
+   "target": "トキソプラズマ",
+   "rel": "統合失調症の人で抗体の保有が多い（相関）",
+   "weight": "標準"
   },
   {
    "source": "2007 Winawer",
@@ -44414,6 +45569,18 @@
    "weight": "強"
   },
   {
+   "source": "2011 Bravo",
+   "target": "迷走神経",
+   "rel": "腸の細菌の効果は迷走神経を切ると消えた",
+   "weight": "強"
+  },
+  {
+   "source": "2011 Bravo",
+   "target": "ジョン・クライアン",
+   "rel": "最終著者",
+   "weight": "標準"
+  },
+  {
    "source": "2011 De Dreu",
    "target": "内集団バイアス",
    "rel": "オキシトシンは身内びいきを強め・外集団の蔑視は弱めにしか強めない",
@@ -44741,6 +45908,12 @@
    "source": "2014 Cutuli",
    "target": "感情の抑制",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2014 Desbonnet",
+   "target": "無菌マウス",
+   "rel": "社会行動と常同行動（本 p.102・113の話に近い）",
    "weight": "標準"
   },
   {
@@ -45128,6 +46301,12 @@
    "weight": "標準"
   },
   {
+   "source": "2016 Hoban",
+   "target": "無菌マウス",
+   "rel": "前頭前野の髄鞘が過剰になる",
+   "weight": "標準"
+  },
+  {
    "source": "2016 Hoppenbrouwers",
    "target": "恐怖欠如仮説",
    "rel": "恐怖をひとまとめにした証拠の読みへの批判",
@@ -45144,6 +46323,12 @@
    "target": "炎症性うつ",
    "rel": "慢性炎症の病気の人ではサイトカイン阻害で気分も上がる",
    "weight": "標準"
+  },
+  {
+   "source": "2016 Kelly",
+   "target": "腸内細菌叢移植",
+   "rel": "うつ病の腸内細菌をラットに移すとうつの特徴",
+   "weight": "強"
   },
   {
    "source": "2016 Krishnan",
@@ -45164,6 +46349,18 @@
    "weight": "強"
   },
   {
+   "source": "2016 Luczynski",
+   "target": "扁桃体",
+   "rel": "無菌マウスで体積と樹状突起が変わる",
+   "weight": "強"
+  },
+  {
+   "source": "2016 Luczynski",
+   "target": "無菌マウス",
+   "rel": "扁桃体と海馬の形が変わる",
+   "weight": "標準"
+  },
+  {
    "source": "2016 Marcus",
    "target": "DSM-5代替モデル",
    "rel": "裏づけ",
@@ -45179,6 +46376,12 @@
    "source": "2016 Polajnar",
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2016 Sender",
+   "target": "マイクロバイオーム",
+   "rel": "ヒト細胞と細菌の数を見直し（10:1は誤り）",
    "weight": "標準"
   },
   {
@@ -45416,6 +46619,12 @@
    "weight": "標準"
   },
   {
+   "source": "2018 Kaelberer",
+   "target": "迷走神経",
+   "rel": "腸の細胞が迷走神経とシナプスをつくる（ニューロポッド細胞）",
+   "weight": "強"
+  },
+  {
    "source": "2018 Kupper",
    "target": "タイプD",
    "rel": "裏づけ",
@@ -45470,6 +46679,18 @@
    "weight": "標準"
   },
   {
+   "source": "2018 Stewart",
+   "target": "母乳と腸内細菌",
+   "rel": "母乳が腸内細菌の構造への最大の要因",
+   "weight": "強"
+  },
+  {
+   "source": "2018 Stewart",
+   "target": "帝王切開とマイクロバイオーム",
+   "rel": "分娩方法は発達期に有意",
+   "weight": "標準"
+  },
+  {
    "source": "2018 Westgate",
    "target": "退屈",
    "rel": "MACモデル＝注意の欠け（刺激の少なすぎ・多すぎ）と意味の欠けが別々に退屈を生む",
@@ -45512,6 +46733,12 @@
    "weight": "標準"
   },
   {
+   "source": "2019 Cryan",
+   "target": "腸脳相関",
+   "rel": "総説（経路と、人生の各段階の影響）",
+   "weight": "強"
+  },
+  {
    "source": "2019 Gehrlach",
    "target": "島皮質",
    "rel": "裏づけ",
@@ -45552,6 +46779,18 @@
    "target": "レム睡眠行動障害",
    "rel": "国際的な多施設の追跡",
    "weight": "強"
+  },
+  {
+   "source": "2019 Sharon",
+   "target": "自閉スペクトラム症と腸内細菌",
+   "rel": "ASD の人の腸内細菌を無菌マウスに移すと自閉的な行動",
+   "weight": "強"
+  },
+  {
+   "source": "2019 Sharon",
+   "target": "腸内細菌叢移植",
+   "rel": "ASD 由来の移植",
+   "weight": "標準"
   },
   {
    "source": "2019 Sánchez de Ribera",
@@ -45740,6 +46979,18 @@
    "weight": "強"
   },
   {
+   "source": "2021 Boehme",
+   "target": "腸内細菌と老化",
+   "rel": "若い微生物叢が老いたマウスの脳の免疫と認知を戻した",
+   "weight": "強"
+  },
+  {
+   "source": "2021 Boehme",
+   "target": "腸内細菌叢移植",
+   "rel": "若い donor から老いた受け手へ",
+   "weight": "標準"
+  },
+  {
    "source": "2021 Brady",
    "target": "道徳的義憤",
    "rel": "義憤の表明は社会的な報酬で強化され・周りの規範にそろう",
@@ -45786,6 +47037,12 @@
    "target": "髄膜",
    "rel": "裏づけ",
    "weight": "標準"
+  },
+  {
+   "source": "2021 Dinan",
+   "target": "帝王切開とマイクロバイオーム",
+   "rel": "帝王切開で生まれた若い成人はストレスへの脆弱性が高い（小規模）",
+   "weight": "強"
   },
   {
    "source": "2021 Friston",
@@ -45938,6 +47195,12 @@
    "weight": "標準"
   },
   {
+   "source": "2022 Radford-Smith",
+   "target": "母乳と腸内細菌",
+   "rel": "母マウスの微生物叢を整えると子の脳の代謝と不安が変わる",
+   "weight": "標準"
+  },
+  {
    "source": "2022 Roberts",
    "target": "人為振動ノイズ",
    "rel": "裏づけ",
@@ -45959,6 +47222,12 @@
    "source": "2022 Templeton",
    "target": "返事の速さと通じ合い",
    "rel": "原典＝250ms未満の応答が通じ合いの正直な信号",
+   "weight": "強"
+  },
+  {
+   "source": "2022 Trevelline",
+   "target": "腸内細菌と食の選択",
+   "rel": "無菌マウスの食べものの選びかたが donor の腸内細菌で変わる",
    "weight": "強"
   },
   {
@@ -47876,6 +49145,24 @@
    "weight": "強"
   },
   {
+   "source": "イリヤ・メチニコフ",
+   "target": "病原体説",
+   "rel": "病原体説の時代に、有益な微生物を唱えた",
+   "weight": "標準"
+  },
+  {
+   "source": "イリヤ・メチニコフ",
+   "target": "マイクロバイオーム",
+   "rel": "有益な腸内細菌の先駆け",
+   "weight": "強"
+  },
+  {
+   "source": "イリヤ・メチニコフ",
+   "target": "マクロファージ",
+   "rel": "食作用の発見者（本 p.94）",
+   "weight": "標準"
+  },
+  {
    "source": "イワン・パヴロフ",
    "target": "古典的条件づけ",
    "rel": "条件反射の発見者",
@@ -48914,6 +50201,18 @@
    "weight": "標準"
   },
   {
+   "source": "ジョン・クライアン",
+   "target": "腸脳相関",
+   "rel": "腸・微生物・脳の相関の研究者",
+   "weight": "強"
+  },
+  {
+   "source": "ジョン・クライアン",
+   "target": "無菌マウス",
+   "rel": "無菌マウスの行動研究を主導",
+   "weight": "標準"
+  },
+  {
    "source": "ジョン・ゴットマン",
    "target": "呼びかけへの応答",
    "rel": "bids と turn toward の提唱",
@@ -49616,6 +50915,12 @@
    "weight": "標準"
   },
   {
+   "source": "ディスバイオシス",
+   "target": "防御のスーパーシステム",
+   "rel": "ストレス調節の障害・炎症と合わさって三位不一体（本 p.118）",
+   "weight": "標準"
+  },
+  {
    "source": "デイヴィッド・T・リッケン",
    "target": "1957 Lykken",
    "rel": "著者",
@@ -49733,6 +51038,12 @@
    "source": "トウギョ",
    "target": "儀式化",
    "rel": "誇示の儀式",
+   "weight": "標準"
+  },
+  {
+   "source": "トキソプラズマ",
+   "target": "マイクロバイオーム",
+   "rel": "本は逆の例として置く（ふつうの関係は相利共生）",
    "weight": "標準"
   },
   {
@@ -50657,6 +51968,18 @@
    "source": "ポール・イーストウィック",
    "target": "2011 Ireland",
    "rel": "共著者",
+   "weight": "標準"
+  },
+  {
+   "source": "マイクロバイオーム",
+   "target": "腸脳相関",
+   "rel": "腸内の微生物と脳の通信",
+   "weight": "強"
+  },
+  {
+   "source": "マイクロバイオーム",
+   "target": "ディスバイオシス",
+   "rel": "偏るとこう呼ばれる",
    "weight": "標準"
   },
   {
@@ -54176,6 +55499,12 @@
    "weight": "標準"
   },
   {
+   "source": "帝王切開とマイクロバイオーム",
+   "target": "ディスバイオシス",
+   "rel": "早期のディスバイオシスの一因",
+   "weight": "強"
+  },
+  {
    "source": "帯状皮質は痛みに特異的ではない",
    "target": "社会的痛み",
    "rel": "批判",
@@ -55958,6 +57287,12 @@
    "weight": "標準"
   },
   {
+   "source": "母乳と腸内細菌",
+   "target": "マイクロバイオーム",
+   "rel": "乳児期の微生物叢をつくる最大の要因",
+   "weight": "標準"
+  },
+  {
    "source": "比例テーゼ",
    "target": "デイヴィッド・チャーマーズ",
    "rel": "名付けた",
@@ -56171,6 +57506,24 @@
    "source": "無意識の脳 自己意識の脳",
    "target": "生存する脳",
    "rel": "前著",
+   "weight": "標準"
+  },
+  {
+   "source": "無菌マウス",
+   "target": "腸脳相関",
+   "rel": "脳と行動に微生物が要る証拠",
+   "weight": "強"
+  },
+  {
+   "source": "無菌マウス",
+   "target": "古典的条件づけ",
+   "rel": "無菌マウスは音とショックの結びつきを学習しない（本 p.100〜101）",
+   "weight": "標準"
+  },
+  {
+   "source": "無菌マウス",
+   "target": "扁桃体",
+   "rel": "無菌マウスでは大きく構造が異なる",
    "weight": "標準"
   },
   {
@@ -57603,6 +58956,84 @@
   },
   {
    "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "トキソプラズマ",
+   "rel": "第5章 p.92〜93・106",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "イリヤ・メチニコフ",
+   "rel": "第5章 p.94〜97",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "無菌マウス",
+   "rel": "第5章 p.97〜103",
+   "weight": "強"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "ジョン・クライアン",
+   "rel": "第5章 p.99〜100・113〜117",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "マイクロバイオーム",
+   "rel": "第5章 p.93・103〜106",
+   "weight": "強"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "腸脳相関",
+   "rel": "第5章 p.107〜109",
+   "weight": "強"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "腸内細菌と食の選択",
+   "rel": "第5章 p.106〜107",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "帝王切開とマイクロバイオーム",
+   "rel": "第5章 p.109〜111",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "母乳と腸内細菌",
+   "rel": "第5章 p.111〜113",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "自閉スペクトラム症と腸内細菌",
+   "rel": "第5章 p.113〜114",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "腸内細菌と老化",
+   "rel": "第5章 p.115〜117",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "腸内細菌叢移植",
+   "rel": "第5章 p.102・114・116",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
+   "target": "ディスバイオシス",
+   "rel": "第5章 p.104・110・118",
+   "weight": "標準"
+  },
+  {
+   "source": "脳のなかの免疫、免疫のなかの心",
    "target": "デカルトの動物機械論",
    "rel": "第1章 p.32〜33・心身二元論への挑戦が本の軸",
    "weight": "標準"
@@ -57743,6 +59174,42 @@
    "source": "脳脊髄液",
    "target": "グリンパティック系",
    "rel": "血管のまわりを通って脳の中を流れるという説",
+   "weight": "標準"
+  },
+  {
+   "source": "腸内細菌と老化",
+   "target": "腸内細菌叢移植",
+   "rel": "若い donor から老いた受け手へ",
+   "weight": "標準"
+  },
+  {
+   "source": "腸内細菌と食の選択",
+   "target": "マイクロバイオーム",
+   "rel": "食べるものの選択にも関わるかもしれない",
+   "weight": "標準"
+  },
+  {
+   "source": "腸内細菌叢移植",
+   "target": "腸脳相関",
+   "rel": "微生物が原因かを調べる道具",
+   "weight": "強"
+  },
+  {
+   "source": "腸脳相関",
+   "target": "迷走神経",
+   "rel": "神経の経路",
+   "weight": "強"
+  },
+  {
+   "source": "腸脳相関",
+   "target": "内受容感覚",
+   "rel": "腸の感覚も内受容の一部（大河の見立て）",
+   "weight": "標準"
+  },
+  {
+   "source": "腸脳相関",
+   "target": "防御のスーパーシステム",
+   "rel": "微生物叢が三つ目の層として加わる",
    "weight": "標準"
   },
   {
@@ -57974,6 +59441,12 @@
    "weight": "標準"
   },
   {
+   "source": "自閉スペクトラム症と腸内細菌",
+   "target": "腸脳相関",
+   "rel": "動物実験で行動に関わるとされる",
+   "weight": "標準"
+  },
+  {
    "source": "良い知らせへの応答（キャピタリゼーション）",
    "target": "フレネミー",
    "rel": "見分けの手がかり「良い知らせへの反応」を裏づける",
@@ -58061,6 +59534,12 @@
    "source": "行為主体感",
    "target": "退屈",
    "rel": "退屈は行為主体感がくじかれた状態（ダンカートとイーストウッドの見方として動画が紹介）",
+   "weight": "標準"
+  },
+  {
+   "source": "衛生仮説",
+   "target": "マイクロバイオーム",
+   "rel": "訓練の場（第5章 p.105）",
    "weight": "標準"
   },
   {
@@ -58814,6 +60293,12 @@
    "weight": "標準"
   },
   {
+   "source": "迷走神経",
+   "target": "炎症反射",
+   "rel": "迷走神経が免疫を抑える反射の通り道（第2章）",
+   "weight": "標準"
+  },
+  {
    "source": "追う人と逃げる人",
    "target": "安全基地",
    "rel": "愛着の不安型と回避型の組み合わせ＝安心の取り戻しかたが正反対",
@@ -59340,6 +60825,12 @@
    "target": "社会的痛み",
    "rel": "仲間はずれは社会的痛みを起こす",
    "weight": "標準"
+  },
+  {
+   "source": "防御のスーパーシステム",
+   "target": "マイクロバイオーム",
+   "rel": "第5章 p.117〜119・三つ目の層",
+   "weight": "強"
   },
   {
    "source": "防御のスーパーシステム",
