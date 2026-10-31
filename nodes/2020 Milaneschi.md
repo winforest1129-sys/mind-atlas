@@ -9,6 +9,7 @@ DOI: 10.1016/j.biopsych.2020.01.014
 書誌の出どころ: Crossref(DOI)（2026-10-22）
 本文: 要旨のみ
 links:
+  - {to: 免疫代謝性うつ, rel: 提案した総説}
   - {to: 炎症性うつ, rel: 免疫代謝型うつ＝炎症と代謝の乱れが非定型の症状と束になる, 強さ: 強}
 refs:
   - {title: Depression heterogeneity and its biological underpinnings - toward immunometabolic depression, url: https://doi.org/10.1016/j.biopsych.2020.01.014, note: 要旨を確かめた（PMID 32247527）（2026-10-22）}
