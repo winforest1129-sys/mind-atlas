@@ -8,6 +8,7 @@ type: 論文
 DOI: 10.1016/j.neuron.2012.03.026
 書誌の出どころ: Crossref(DOI)
 links:
+  - {to: シナプス刈り込み, rel: 裏づけ（食べるのはミクログリア）}
   - {to: ミクログリア, rel: 裏づけ}
 refs:
   - {title: Microglia Sculpt Postnatal Neural Circuits in an Activity and Complement-Dependent Manner, url: https://doi.org/10.1016/j.neuron.2012.03.026, note: 書誌は Crossref(DOI) で確かめた（2026-10-07）}
