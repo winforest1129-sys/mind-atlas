@@ -1,6 +1,6 @@
 /* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
 window.DATA = {
- "generated": "2026-11-01 20:20",
+ "generated": "2026-11-02 18:41",
  "nodes": [
   {
    "id": "1948 Shannon",
@@ -1181,6 +1181,36 @@ window.DATA = {
    "sections": {
     "これは何か": "**Emotional Contagion**\n\nHatfield ら（3名）（1993）",
     "この地図で、どこに効いているか": "**引いているのは 1 か所。**引用元に書かれていた「何を確かめたか」を、そのまま並べる。\n\n- **[[情動伝染]]** ── 原典。人は相手の表情・声・姿勢・動作を自動的に模倣し同期し、その模倣からのフィードバックで自分の情動体験が刻々と変わる、という定式化。2026-09-03に確認",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "1993 Kirschbaum",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Kirschbaum C, Pirke KM, Hellhammer DH 1993, The Trier Social Stress Test - a tool for investigating psychobiological stress responses in a laboratory setting（Neuropsychobiology 28:76-81）",
+     "url": "https://doi.org/10.1159/000119004",
+     "note": "トリーア大学 心理生物学・心身医学研究所。実験室で中程度の心理的ストレスを起こす手順。準備の10分と本番の10分で、本番は聴衆の前での自由なスピーチと暗算。6つの独立した研究で ACTH・コルチゾール（血清と唾液）・成長ホルモン・プロラクチン・心拍数がはっきり上がった。唾液のコルチゾールはふだんの2〜4倍。性別・遺伝・喫煙が反応の強さを変え、性格特性はコルチゾールの反応と相関しなかった。2026-11-02にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/1993 Kirschbaum.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "1993",
+    "著者": "Kirschbaum, Pirke & Hellhammer（3名）",
+    "雑誌": "Neuropsychobiology",
+    "DOI": "10.1159/000119004",
+    "書誌の出どころ": "PubMed(PMID 8255414)"
+   },
+   "sections": {
+    "これは何か": "**The 'Trier Social Stress Test' — a tool for investigating psychobiological stress responses in a laboratory setting**\n\nKirschbaum, Pirke & Hellhammer（トリーア大学）（1993）／ *Neuropsychobiology* 28:76–81",
+    "この地図で、どこに効いているか": "- 【トリーア社会的ストレステスト】の原著。準備10分＋本番10分（聴衆の前のスピーチと暗算）\n- ==唾液のコルチゾールがふだんの2〜4倍==。ACTH・成長ホルモン・プロラクチン・心拍数も上がる\n- 性別・遺伝・喫煙が反応を変え、!!性格特性はコルチゾールの反応と相関しなかった!!",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -2928,6 +2958,36 @@ window.DATA = {
     "これは何か": "**Making the case for a developmental perspective（Cook-Greuter 2004）**",
     "この地図で、どこに効いているか": "- **[[行動論理]]** ── 7つの行動論理の定義表（何が何を支配するか）\n- **[[発達段階の分布]]** ── n=4,510 の割合。Magician 2.0%",
     "読んで分かったこと": "- 実務家向けの短い論文（8頁）。数字は「私のハーバードの研究から」とだけあり、==標本の取り方・年・採点者間一致は書かれていない==\n- 表II「フィードバックの受け取り方」が段階ごとに並ぶ＝Opportunist は攻撃と受け取り、Magician は「生きた系の自然な一部として、話半分に」\n- 「慣習的 75〜80%／脱慣習的 10〜20%」の総括は、表の数字と整合する",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2004 Dickerson",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Dickerson SS, Kemeny ME 2004, Acute stressors and cortisol responses - a theoretical integration and synthesis of laboratory research（Psychol Bull 130:355-391）",
+     "url": "https://doi.org/10.1037/0033-2909.130.3.355",
+     "note": "カリフォルニア大学ロサンゼルス校。実験室の急性心理ストレス208研究のメタ分析。コルチゾールは上がるが課題によって大きく違う。方法の要因を揃えても、課題が制御できないか、社会的評価の脅威（他人に低く評価されうる）を含むときにコルチゾールが上がった。両方を含む課題で、コルチゾールと ACTH の変化がいちばん大きく、回復にいちばん長くかかった。「コルチゾールはどんなストレスにも反応する」という見方と合わない。2026-11-02にPubMedの要旨で確認"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2004 Dickerson.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2004",
+    "著者": "Dickerson & Kemeny（2名）",
+    "雑誌": "Psychological Bulletin",
+    "DOI": "10.1037/0033-2909.130.3.355",
+    "書誌の出どころ": "PubMed(PMID 15122924)"
+   },
+   "sections": {
+    "これは何か": "**Acute stressors and cortisol responses: a theoretical integration and synthesis of laboratory research**\n\nDickerson & Kemeny（カリフォルニア大学ロサンゼルス校）（2004）／ *Psychol Bull* 130:355–391",
+    "この地図で、どこに効いているか": "- 実験室の急性心理ストレス**208研究**のメタ分析\n- ==コルチゾールを上げるのは、課題が**制御できない**か、**社会的評価の脅威**を含むとき。両方そろうと、コルチゾールと ACTH の変化がいちばん大きく、回復もいちばん遅い==\n- 「コルチゾールはどんなストレスにも反応する」という見方と合わない、と著者。動物の「制御できない社会的脅威」の研究とも合う\n- 【トリーア社会的ストレステスト】がよく効く理由の説明になる",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -10830,6 +10890,36 @@ window.DATA = {
    "sections": {
     "これは何か": "**Prevalence and clinical characteristics of serum neuronal cell surface antibodies in first-episode psychosis: a case-control study**\n\nLennox, Palmer-Cooper, Pollak ら（オックスフォード大学ほか・35の精神保健サービス）（2016年12月公開・2017年1月号）／ *Lancet Psychiatry* 4:42-48（PMC で全文が読める）",
     "この地図で、どこに効いているか": "- 本 p.134「二〇一〇年代に、レノックス教授が率いるチームは、精神病のエピソードを初めて体験した人が脳を攻撃する抗体を有している割合を調べる大がかりな研究を行い、約九パーセントという結果を得た」の元論文とみられる（!!本は論文名を挙げていない・大河の同定!!）\n- 要旨＝14〜35歳の初発精神病**228人**と健康対照105人。ニューロン表面抗体は**患者の9%（20人）**、対照の4%（4人）。==ただしこの差は有意でない（調整前オッズ比2.4・95%CI 0.8〜7.3）。有意だったのは NMDAR 抗体だけで、患者7人（3%）・対照0人==\n- ==抗体陽性の患者は、PANSS の陽性症状・合計・緊張病の得点が**低かった**。6か月の転帰にも差はなかった==。著者は「この抗体を見つける唯一の方法は、初診の全員をスクリーニングすることだ」と結ぶ\n- !!本の「約9%」は、**何かの抗体が陽性**の割合。NMDAR に限ると3%。かつ対照にも4%いて、抗体が病気の原因だとは言えない（本も p.135 で「抗体が精神病の主な原因ではないことは明らか」と書く）。「5〜10%」「オーストラリアの113人」の研究は確かめていない。!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "2017 Marsland",
+   "type": "論文",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Marsland AL, Walsh C, Lockwood K, John-Henderson NA 2017, The effects of acute psychological stress on circulating and stimulated inflammatory markers - a systematic review and meta-analysis（Brain Behav Immun 64:208-219）",
+     "url": "https://doi.org/10.1016/j.bbi.2017.01.011",
+     "note": "ピッツバーグ大学ほか。血中の炎症マーカーを測った34研究と刺激した産生量を測った15研究のメタ分析。実験室のストレスのあと血中の IL-1β（d=0.66）・IL-6（d=0.35）・IL-10（d=0.69）・TNF-α（d=0.28）が上がった。IL-1ra・IL-2・IFN-γ・CRP は上がらなかった。IL-6 はストレスの90分後がいちばん大きい（d=0.70）。IL-6 の反応の大きさは、社会的評価のストレスとそれ以外で差がなかった。Steptoe 2007 のメタ分析を広げた。2026-11-02にPubMedの要旨で確認（PMC で全文が読める）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/2017 Marsland.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {
+    "年": "2017",
+    "著者": "Marsland, Walsh, Lockwood & John-Henderson（4名）",
+    "雑誌": "Brain, Behavior, and Immunity",
+    "DOI": "10.1016/j.bbi.2017.01.011",
+    "書誌の出どころ": "PubMed(PMID 28089638)"
+   },
+   "sections": {
+    "これは何か": "**The effects of acute psychological stress on circulating and stimulated inflammatory markers: A systematic review and meta-analysis**\n\nMarsland, Walsh, Lockwood & John-Henderson（ピッツバーグ大学ほか）（2017）／ *Brain Behav Immun* 64:208–219（PMC で全文が読める）",
+    "この地図で、どこに効いているか": "- 血中の炎症マーカー34研究＋刺激した産生量15研究のメタ分析\n- ==実験室のストレスのあと、血中の IL-1β（d=0.66）・IL-6（d=0.35）・IL-10（d=0.69）・TNF-α（d=0.28）が上がる。IL-6 は**90分後**が最大（d=0.70）==\n- !!CRP・IL-2・IFN-γ・IL-1ra は上がらなかった!!\n- !!IL-6 の反応は、社会的評価のストレスとそれ以外で**差がなかった**＝【2004 Dickerson】のコルチゾールの話とは違う!!\n- 【トリーア社会的ストレステスト】の免疫の側。Steptoe 2007 のメタ分析（【防御のスーパーシステム】の refs）を広げたもの",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -25392,6 +25482,43 @@ window.DATA = {
    "sections": {
     "調べたこと": "`09_ウィリアムズ` 第7章「**トリガーイベントと憎悪行為の増減**」（p.221）。\n**憎悪行為を増やしたり減らしたりする出来事**のこと。\n\n節（目次より）── **憎悪の引き金を明らかにする**／**私たちの心理とトリガーイベント**。\n\n**「増減」と書いてあるのが大事**（大河の見立て）。\n!!**憎悪は一定量あるのではなく、出来事に反応して波打つ**!!、という捉え方になる。\nだとすれば**憎悪は状態にも近い**ことになり、[[憎悪のティッピングポイント]] の考え方と噛み合う。\n\n**「私たちの心理と」と書かれているのも効いている。**\n!!**引き金を引かれるのは特別な人ではなく「私たち」**!!、という立て方。",
     "未調査": "**どんな出来事が引き金になるとされているのか**（テロ事件・選挙・報道など？）は本文で確認。\n!!**大河は推測を書かない。**!!",
+    "燻太さんの考え": ""
+   },
+   "stub": false
+  },
+  {
+   "id": "トリーア社会的ストレステスト",
+   "type": "実験",
+   "confidence": "確認済",
+   "sources": [],
+   "refs": [
+    {
+     "title": "Kirschbaum C, Pirke KM, Hellhammer DH 1993, The Trier Social Stress Test - a tool for investigating psychobiological stress responses in a laboratory setting（Neuropsychobiology 28:76-81）",
+     "url": "https://doi.org/10.1159/000119004",
+     "note": "トリーア大学 心理生物学・心身医学研究所。実験室で中程度の心理的ストレスを起こす手順。準備の10分と本番の10分で、本番は聴衆の前での自由なスピーチと暗算。6つの独立した研究で ACTH・コルチゾール（血清と唾液）・成長ホルモン・プロラクチン・心拍数がはっきり上がった。唾液のコルチゾールはふだんの2〜4倍。性別・遺伝・喫煙が反応の強さを変え、性格特性はコルチゾールの反応と相関しなかった。2026-11-02にPubMedの要旨で確認"
+    },
+    {
+     "title": "Dickerson SS, Kemeny ME 2004, Acute stressors and cortisol responses - a theoretical integration and synthesis of laboratory research（Psychol Bull 130:355-391）",
+     "url": "https://doi.org/10.1037/0033-2909.130.3.355",
+     "note": "カリフォルニア大学ロサンゼルス校。実験室の急性心理ストレス208研究のメタ分析。コルチゾールは上がるが課題によって大きく違う。方法の要因を揃えても、課題が制御できないか、社会的評価の脅威（他人に低く評価されうる）を含むときにコルチゾールが上がった。両方を含む課題で、コルチゾールと ACTH の変化がいちばん大きく、回復にいちばん長くかかった。「コルチゾールはどんなストレスにも反応する」という見方と合わない。2026-11-02にPubMedの要旨で確認"
+    },
+    {
+     "title": "Marsland AL, Walsh C, Lockwood K, John-Henderson NA 2017, The effects of acute psychological stress on circulating and stimulated inflammatory markers - a systematic review and meta-analysis（Brain Behav Immun 64:208-219）",
+     "url": "https://doi.org/10.1016/j.bbi.2017.01.011",
+     "note": "ピッツバーグ大学ほか。血中の炎症マーカーを測った34研究と刺激した産生量を測った15研究のメタ分析。実験室のストレスのあと血中の IL-1β（d=0.66）・IL-6（d=0.35）・IL-10（d=0.69）・TNF-α（d=0.28）が上がった。IL-1ra・IL-2・IFN-γ・CRP は上がらなかった。IL-6 はストレスの90分後がいちばん大きい（d=0.70）。IL-6 の反応の大きさは、社会的評価のストレスとそれ以外で差がなかった。Steptoe 2007 のメタ分析を広げた。2026-11-02にPubMedの要旨で確認（PMC で全文が読める）"
+    }
+   ],
+   "brain": [],
+   "file": "nodes/トリーア社会的ストレステスト.md",
+   "owned": "不明",
+   "shops": [],
+   "fields": {},
+   "sections": {
+    "これは何か": "**Trier Social Stress Test（TSST）**。人に**ほどよい心理的ストレス**を実験室でかけるための手順。1993年にドイツのトリーア大学の Kirschbaum・Pirke・Hellhammer が発表した（【1993 Kirschbaum】）。\n\n- 原著の要旨＝==**準備の10分**と**本番の10分**。本番は**聴衆の前で自由にスピーチ**し、続けて**暗算**をする==\n- ==唾液のコルチゾールがふだんの**2〜4倍**に上がる==。ACTH・成長ホルモン・プロラクチン・心拍数も上がる\n- 反応の強さは性別・遺伝・喫煙で変わり、性格特性とは相関しなかった（原著）",
+    "よく知られている細部（!!要旨には無い・大河の記憶!!）": "- スピーチの題は「架空の就職面接での自己アピール」が定番\n- 聞き手は2〜3人。白衣で無表情を通し、励ましの反応を返さない。ビデオで撮られていると告げられる\n- 暗算は「2023 から 17 ずつ引く」が有名。間違えると最初からやり直し",
+    "なぜ効くのか": "==【2004 Dickerson】（208研究のメタ分析）＝コルチゾールを上げるのは課題の難しさではなく、**制御できなさ**と**社会的評価の脅威**（他人に低く評価されうる）。両方そろうと反応がいちばん大きく、回復もいちばん遅い==。TSST はこの2つを両方入れた設計になっている。\n- 制御できなさ → 【ローカス・オブ・コントロール】【学習性無力感】と同じ筋（大河の見立て）\n- 社会的評価の脅威 → 【社会的痛み】の隣（大河の橋）",
+    "免疫の側から": "【2017 Marsland】（実験室ストレスのメタ分析）＝ストレスのあと血中の IL-1β・IL-6・IL-10・TNF-α が上がる（IL-6 は90分後が最大）。CRP は上がらない。\n- !!ただし IL-6 の反応の大きさは、**社会的評価のストレスとそれ以外で差がなかった**。コルチゾールで言われる「社会的評価がいちばん効く」は、炎症の指標にはそのまま当てはまらない!!\n- !!Marsland は TSST だけでなく実験室のストレス課題全般をまとめたもの!!",
+    "この地図で使われているところ": "- 【2021 Dinan】＝帝王切開で生まれた若い成人は、TSST での心理的な反応が強かった（小規模）\n- 本（16_ライマン）の本文には TSST の名前は出てこない（OCR 本文を「トリーア」「TSST」で検索・2026-11-02）。第8章の【ストレス応答】【急性ストレスと免疫】の話を、人の実験室で測るときの道具",
     "燻太さんの考え": ""
    },
    "stub": false
@@ -49658,6 +49785,12 @@ window.DATA = {
    "weight": "標準"
   },
   {
+   "source": "1993 Kirschbaum",
+   "target": "トリーア社会的ストレステスト",
+   "rel": "原著（手順の提案と6研究のまとめ）",
+   "weight": "強"
+  },
+  {
    "source": "1993 Vinge",
    "target": "技術的特異点",
    "rel": "裏づけ",
@@ -50051,6 +50184,18 @@ window.DATA = {
    "source": "2004 Cook-Greuter",
    "target": "発達段階の分布",
    "rel": "裏づけ",
+   "weight": "標準"
+  },
+  {
+   "source": "2004 Dickerson",
+   "target": "トリーア社会的ストレステスト",
+   "rel": "なぜ効くか（制御できなさと社会的評価の脅威）",
+   "weight": "強"
+  },
+  {
+   "source": "2004 Dickerson",
+   "target": "ローカス・オブ・コントロール",
+   "rel": "制御できない課題でコルチゾールが上がる（大河の橋）",
    "weight": "標準"
   },
   {
@@ -51974,6 +52119,12 @@ window.DATA = {
    "weight": "強"
   },
   {
+   "source": "2017 Marsland",
+   "target": "急性ストレスと免疫",
+   "rel": "実験室の急性ストレスで血中の IL-6 などが上がる（メタ分析）",
+   "weight": "強"
+  },
+  {
    "source": "2017 McGann",
    "target": "ヒトの嗅覚は劣るという神話",
    "rel": "裏づけ",
@@ -52632,6 +52783,12 @@ window.DATA = {
    "target": "帝王切開とマイクロバイオーム",
    "rel": "帝王切開で生まれた若い成人はストレスへの脆弱性が高い（小規模）",
    "weight": "強"
+  },
+  {
+   "source": "2021 Dinan",
+   "target": "トリーア社会的ストレステスト",
+   "rel": "この手順で急性ストレスへの反応を比べた",
+   "weight": "標準"
   },
   {
    "source": "2021 Friston",
@@ -57053,6 +57210,24 @@ window.DATA = {
    "source": "トランザクティブ・メモリー",
    "target": "集団的知性",
    "rel": "先行する概念",
+   "weight": "標準"
+  },
+  {
+   "source": "トリーア社会的ストレステスト",
+   "target": "ストレス応答",
+   "rel": "実験室でストレス応答を起こす標準の手順",
+   "weight": "強"
+  },
+  {
+   "source": "トリーア社会的ストレステスト",
+   "target": "急性ストレスと免疫",
+   "rel": "人で急性ストレスの免疫の変化を見る手段",
+   "weight": "標準"
+  },
+  {
+   "source": "トリーア社会的ストレステスト",
+   "target": "社会的痛み",
+   "rel": "社会的評価の脅威（大河の橋）",
    "weight": "標準"
   },
   {
