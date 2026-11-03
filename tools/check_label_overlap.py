@@ -64,6 +64,17 @@ window.addEventListener('error', e => window.__ERR.push(String(e.message)));
           total += c;
         });
         out.per = per; out.total = total;
+        // 禁則（LABELWRAP-MIND-2026-11-03）：行頭の閉じかっこ・行末の開きかっこ・折れた札の数
+        if (typeof WRAP_NO_START !== 'undefined'){
+          const bad = []; let wrapped = 0, maxLines = 0;
+          real.forEach(n => { const wl = String(n.data('wl') || ''); const ls = wl.split('\n');
+            if (ls.length > 1) wrapped++; if (ls.length > maxLines) maxLines = ls.length;
+            ls.forEach((l, k) => {
+              if (k > 0 && WRAP_NO_START.indexOf(l[0]) >= 0) bad.push('行頭 ' + wl.replace(/\n/g, '／'));
+              if (k < ls.length - 1 && WRAP_NO_END.indexOf(l[l.length - 1]) >= 0) bad.push('行末 ' + wl.replace(/\n/g, '／'));
+            }); });
+          out.wrap = { wrapped:wrapped, maxLines:maxLines, bad:bad.length, ex:bad.slice(0, 8) };
+        }
         const bb = real.boundingBox({ includeLabels:false }); out.extent = [Math.round(bb.w), Math.round(bb.h)];
         // 絵のために島を拡大
         const sel = real.filter(n => FOCUS_ISLES.indexOf(typeOf(n)) >= 0);
@@ -128,6 +139,10 @@ def main():
     o = json.loads(m.group(1))
     print('変種', VAR, ' Uncaught', len(o['err']), o['err'][:3])
     print('札の重なり（同じ島の中の組）合計', o.get('total'), ' 広がり', o.get('extent'))
+    if o.get('wrap'):
+        w = o['wrap']
+        print('禁則: 折れた札 %d・最大 %d 行・禁則やぶり %d' % (w['wrapped'], w['maxLines'], w['bad']))
+        for e in w['ex']: print('   ' + e)
     for t, v in sorted(o.get('per', {}).items(), key=lambda kv: -kv[1]['pairs']):
         print('  %-8s %4d個  重なり%4d組  札の最大 %d×%d  例 %s' % (t, v['n'], v['pairs'], v['maxW'], v['maxH'], ' / '.join(v['ex'][:2])))
     if PNG: print('絵', PNG)

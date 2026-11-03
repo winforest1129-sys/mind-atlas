@@ -480,12 +480,13 @@ function boot(data){
     //   その4回が不揃いだと**5回目から感度が約20倍に跳ね上がる**。
     style: [
       { selector:'node', style:{
-          'label':'data(label)', 'font-size':11, 'color':INK,
+          /* ⭐ LABELWRAP-MIND-2026-11-03 ── 日本語の名前には空白が無いので、既定（空白でだけ折る）では
+             1 行も折れず、隣の名前に重なっていた（島の中で 328 組）。
+             改行は wrapLabel() が禁則つきで先に入れておく（data の wl）。⚠「どの文字でも折る」
+             （text-overflow-wrap:anywhere）だと「）」だけの行が出る＝燻太さんの決めで NG。 */
+          'label': e => e.data('wl') || e.data('label'), 'font-size':11, 'color':INK,
           'text-valign':'bottom', 'text-margin-y':4, 'text-wrap':'wrap',
           'text-max-width':92, 'width':26, 'height':26, 'border-width':0,
-          /* ⭐ LABELWRAP-MIND-2026-11-03 ── 日本語の名前には空白が無いので、既定（空白でだけ折る）では
-             1 行も折れず、隣の名前に重なっていた（島の中で 328 組）。どの文字でも折れるようにする。 */
-          'text-overflow-wrap':'anywhere',
           'text-background-color':BG, 'text-background-opacity':0.72,
           'text-background-padding':2, 'text-background-shape':'roundrectangle',
           'min-zoomed-font-size':7,
@@ -537,6 +538,7 @@ function boot(data){
     // ⭐保存した位置があるなら計算しない。下で座標を置いてから並べる
     layout: { name:'preset' }
   });
+  applyLabelWrap();   // LABELWRAP-MIND-2026-11-03
 
   /* ⭐⭐最初の並べかた（2026-09-04）。
      ⚠**保存した位置があるかどうかで、やることが丸ごと変わる。**
@@ -1039,6 +1041,45 @@ function fitIsleLabels(){
 }
 
 /* 全体（島）では線を出さない。⚠フォーカス中・張り直し中は触らない（隣は見えている線ぞいに数えるため） */
+/* ⭐ LABELWRAP-MIND-2026-11-03 ── 名前の札の改行を、字の幅を計って先に入れる（禁則つき）。
+   ・行頭に来てはいけない字（閉じかっこ・句読点・長音・小さい仮名）は前の行にぶら下げる（2字まで）
+   ・行末に来てはいけない字（開きかっこ）は次の行へ追い出す
+   ・英数字の語は、1行に収まるなら途中で切らない
+   輪（フォーカス）と光らせたときは fitLitLabels() がもとの名前（data の label）に戻す。 */
+const WRAP_NO_START = '）)」』】〕］]｝}〉》、。，．,.・：:；;！!？?ー々ぁぃぅぇぉっゃゅょゎァィゥェォッャュョヮ';
+const WRAP_NO_END = '（(「『【〔［[｛{〈《';
+function wrapLabel(text, measure, maxW){
+  const s = Array.from(String(text));
+  if (measure(s.join('')) <= maxW) return s.join('');
+  const isW = c => /[A-Za-z0-9]/.test(c);
+  const lines = []; let i = 0;
+  while (i < s.length){
+    let j = i, w = 0;
+    while (j < s.length){ const cw = measure(s[j]); if (j > i && w + cw > maxW) break; w += cw; j++; }
+    let h = 0; while (j < s.length && h < 2 && WRAP_NO_START.indexOf(s[j]) >= 0){ j++; h++; }   // ぶら下げ
+    if (j >= s.length){ lines.push(s.slice(i).join('')); break; }
+    if (isW(s[j]) && isW(s[j - 1])){                                                          // 語を切らない
+      let k = j; while (k > i && isW(s[k - 1])) k--;
+      let e = j; while (e < s.length && isW(s[e])) e++;
+      if (k > i && measure(s.slice(k, e).join('')) <= maxW) j = k;
+    }
+    while (j - 1 > i && WRAP_NO_END.indexOf(s[j - 1]) >= 0) j--;                              // 追い出し
+    lines.push(s.slice(i, j).join('')); i = j;
+  }
+  return lines.join('\n');
+}
+function applyLabelWrap(){
+  if (!cy) return;
+  const real = cy.nodes().not('.isletick').not('.ringtick');
+  if (!real.length) return;
+  const n0 = real[0];
+  const ctx = document.createElement('canvas').getContext('2d');
+  ctx.font = n0.pstyle('font-style').strValue + ' ' + n0.pstyle('font-weight').strValue + ' 11px ' + n0.pstyle('font-family').strValue;
+  const memo = {};
+  const measure = t => (t in memo ? memo[t] : (memo[t] = ctx.measureText(t).width));
+  cy.batch(() => real.forEach(n => n.data('wl', wrapLabel(n.data('label'), measure, 92))));
+}
+
 function hideIsleEdges(){
   if (!cy || !ISLE_MODE) return;
   if (typeof FOCUS !== 'undefined' && (FOCUS || FOCUS_BUSY)) return;
@@ -1622,9 +1663,10 @@ function fitLitLabels(){
   const z = cy.zoom() || 1;
   const f = Math.max(11, Math.min(28, 11.5 / z));
   const tgt = (FOCUS ? cy.nodes(':visible') : cy.nodes().not('.dim')).not('.ringtick').not('.isletick');   // HEXISLE-MIND-2026-09-17
-  /* LABELWRAP-MIND-2026-11-03 ── 字を大きくしても幅は 92 のままなので、「どの文字でも折る」だと
-     細い柱になる（輪で実測）。輪と光らせたときは前どおり空白でだけ折る。 */
-  tgt.style({ 'font-size': f, 'min-zoomed-font-size': 0, 'text-overflow-wrap':'whitespace' });
+  tgt.style({ 'font-size': f, 'min-zoomed-font-size': 0 });
+  /* LABELWRAP-MIND-2026-11-03 ── 字を大きくしても幅は 92 のままなので、島の改行のままだと
+     細い柱になる（輪で実測）。輪と光らせたときは前どおり、もとの名前（空白でだけ折る）。 */
+  tgt.forEach(n => { n.style('label', n.data('label')); });
   cy.nodes('.ringtick').style(
     { 'font-size': Math.max(15, Math.min(38, 17 / z)), 'min-zoomed-font-size': 0 });
   /* ⭐⭐**線の名前（rel）も読める大きさにする**（2026-09-09・絵で見て足した）。
@@ -1638,7 +1680,7 @@ function clearLitLabels(){
   if (!cy) return;
   cy.nodes().not('.isletick').removeStyle('font-size');            // HEXISLE-MIND-2026-09-17 島の札の字は zoom で当てるので触らない
   cy.nodes().not('.isletick').removeStyle('min-zoomed-font-size');
-  cy.nodes().not('.isletick').removeStyle('text-overflow-wrap');   // LABELWRAP-MIND-2026-11-03 島に戻ると「どの文字でも折る」に戻る
+  cy.nodes().not('.isletick').not('.ringtick').removeStyle('label');   // LABELWRAP-MIND-2026-11-03 島に戻ると禁則つきの改行（wl）に戻る
   cy.edges().removeStyle('font-size');       // ⚠線のほうも必ず戻す
   cy.edges().removeStyle('min-zoomed-font-size');
 }

@@ -1,6 +1,6 @@
 /* 生成物（tools/build_map.py）。手で直さない。data.json と同じ中身 */
 window.DATA = {
- "generated": "2026-11-03 12:17",
+ "generated": "2026-11-03 12:21",
  "nodes": [
   {
    "id": "1948 Shannon",
