@@ -324,7 +324,7 @@
     <p class="empty">ノードをクリックすると、ここに中身が出る。<br><br>
       <b>全体は「型ごとの島」</b>＝種類ごとに六角形に詰めて並べてある（何が登録されているかの一覧。線は出さない）。
       <b>つながりはフォーカス（下）で読む</b>。検索で光らせたときは、そのノードの線だけ出る。<br><br>
-      形は種類で分けてある。丸＝用語、角丸四角＝書物、<b>角を落とした四角＝映像（動画）</b>、<b>平行四辺形＝遊戯（ゲーム）</b>、六角＝人物、菱形＝理論、三角＝実験、八角＝症例、五角＝生物（本に登場した動物）、
+      形は種類で分けてある。丸＝用語、角丸四角＝書物、<b>角を落とした四角＝映像（動画）</b>、<b>平行四辺形＝遊戯（ゲーム）</b>、六角＝人物、<b>札の形＝肩書</b>（心理学者・哲学者など。押すとその肩書の人が輪になって並ぶ。人物の島も肩書ごとに分けて並べてある）、菱形＝理論、三角＝実験、八角＝症例、五角＝生物（本に登場した動物）、
       <b>星＝予感</b>。<br>
       <b>予感</b>だけ性格が違う。<b>燻太さんが「関連がありそう」と感じたところ</b>から生まれた項目で、
       まだ主張ではない。筋の通るところと切れるところを並べて置いてある。<br><br>
@@ -380,7 +380,9 @@ const TYPE_SHAPE = {
   '生物':'pentagon',   // 本に登場した動物・植物（2026-09-12）
   // MEDIA-2026-09-23 ⭐動画とゲーム（それまで書物で代用していた）。どちらも四角の仲間＝
   //   「どこから来たか」の側であることは書物と同じ・形で見分ける
-  '映像':'cut-rectangle', '遊戯':'rhomboid'
+  '映像':'cut-rectangle', '遊戯':'rhomboid',
+  // PERSONCAT-MIND-2026-11-03 ⭐人物の肩書（心理学者・哲学者…）＝札の形
+  '肩書':'tag'
 };
 const TYPE_COLOR = {
   '用語':'#7a6da8','人物':'#4f8a6b','理論':'#c07a3e','実験':'#3f8b96','症例':'#8a6250','書物':'#3d5a80',
@@ -393,7 +395,9 @@ const TYPE_COLOR = {
   // MEDIA-2026-09-23 映像（動画）と遊戯（ゲーム）。⭐空いていた色相に入れた＝
   //   映像＝赤紫（用語の紫 #7a6da8 と予感の桃 #a8577a のあいだ）／遊戯＝オリーブ（生物の
   //   からし #b8962e と人物の緑 #4f8a6b のあいだ）。⚠赤（対立の線 #b4483f）は使わない
-  '映像':'#9c4a94', '遊戯':'#6f8f3c'
+  '映像':'#9c4a94', '遊戯':'#6f8f3c',
+  // PERSONCAT-MIND-2026-11-03 肩書＝人物の緑 #4f8a6b を明るくした色（人物の仲間だと分かるように）
+  '肩書':'#78b394'
 };
 const DARK = window.matchMedia('(prefers-color-scheme:dark)').matches;
 const INK  = DARK ? '#e6e2da' : '#2f2b26';
@@ -965,9 +969,22 @@ function applyIsleLayout(){
   const all = cy.nodes().not('.ringtick').not('.isletick');
   const groups = isleTypes().map(t => ({ type:t, list: isleSort(t, all.filter(n => isleTypeOf(n) === t).toArray()) }))
                            .filter(g => g.list.length);
-  // ① 島ごとに六角格子の席を作る
+  // ① 島ごとに六角格子の席を作る（人物だけは肩書ごとの小島を束ねる＝PERSONCAT-MIND-2026-11-03）
   const isles = groups.map(g => {
-    const list = g.list, N = list.length;
+    if (g.type === '人物') return personIsle(g.list, hexW, hexH);
+    const h = hexIsle(g.list.length, hexW, hexH);
+    return { type:g.type, list:g.list, rel:h.rel, w:h.w, h:h.h, x:0, y:0 };
+  });
+  // ② 島を 2 段に並べる（円詰めは小島が寄り合って札が重なるのでしない＝LAND で踏んだ）
+  //   ⭐肩書の島は小さくても上の段（人物のとなり）に置く＝PERSONCAT-MIND-2026-11-03
+  const maxN = Math.max.apply(null, isles.map(c => c.list.length));
+  const isBig = c => c.list.length >= maxN / 4 || c.type === '肩書';
+  const bigs = isles.filter(isBig), smalls = isles.filter(c => !isBig(c));
+  placeIsles(isles, bigs, smalls, hexW, hexH);
+}
+
+/* N 個を六角格子に詰めた席（中心からの相対座標）と、島の幅・高さ */
+function hexIsle(N, hexW, hexH){
     let R = 0; while (1 + 3 * R * (R + 1) < N) R++;
     let rows = []; for (let k = -R; k <= R; k++) rows.push(2 * R + 1 - Math.abs(k));
     let top = 0, bot = 0;
@@ -987,13 +1004,54 @@ function applyIsleLayout(){
     const used = cells.length ? cells[cells.length - 1].r + 1 : 1;
     const wide = Math.max.apply(null, rows.slice(0, used));
     const w = wide * hexW, h = used * hexH;
-    const rel = list.map((n, j) => { const cl = cells[j];
-      return { x:(cl.c - (cl.len - 1) / 2) * hexW, y:(cl.r - (used - 1) / 2) * hexH }; });
-    return { type:g.type, list:list, rel:rel, w:w, h:h, x:0, y:0 };
-  });
-  // ② 島を 2 段に並べる（円詰めは小島が寄り合って札が重なるのでしない＝LAND で踏んだ）
-  const maxN = Math.max.apply(null, isles.map(c => c.list.length));
-  const bigs = isles.filter(c => c.list.length >= maxN / 4), smalls = isles.filter(c => c.list.length < maxN / 4);
+    const rel = cells.map(cl => ({ x:(cl.c - (cl.len - 1) / 2) * hexW, y:(cl.r - (used - 1) / 2) * hexH }));
+    return { rel:rel, w:w, h:h };
+}
+
+/* ⭐ PERSONCAT-MIND-2026-11-03 ── 人物の肩書。肩書ノード（型「肩書」）から人物へ線を引いて束ねる。
+   ・1人が複数の肩書を持ってよい（燻太さんの決め）。島で置くのは「主な肩書」1つの小島だけ。
+     主な肩書＝線の強さが「強」のもの。無ければ PERSON_CATS の順で最初のもの。肩書が無ければ「未分類」。
+   ・ほかの肩書からも見たいときは、肩書ノードを押す（フォーカス＝その肩書の人が輪に並ぶ）。 */
+const PERSON_CATS = ['心理学者','神経科学者','生物学者','医師','哲学者','数理・計算機科学者',
+                     '社会科学者','物理学者・化学者','書き手','芸術家','その他'];
+function personPrimaryCat(n){
+  const es = n.incomers('edge').filter(e => e.source().data('type') === '肩書');
+  if (!es.length) return '未分類';
+  const strong = es.filter(e => e.data('w') === '強');
+  const pick = (strong.length ? strong : es).map(e => e.source().data('label'));
+  pick.sort((a, b) => (PERSON_CATS.indexOf(a) + 99) % 99 - (PERSON_CATS.indexOf(b) + 99) % 99);
+  return pick[0];
+}
+/* 人物の島＝肩書ごとの小島を、横に折り返しながら束ねた一つのかたまり。札用に小島の位置（subs）も返す */
+function personIsle(list, hexW, hexH){
+  const order = PERSON_CATS.concat(['未分類']);
+  const by = {};
+  list.forEach(n => { const c = personPrimaryCat(n); (by[c] = by[c] || []).push(n); });
+  const cats = Object.keys(by).sort((a, b) => {
+    const ia = order.indexOf(a), ib = order.indexOf(b);
+    return (ia < 0 ? 98 : ia) - (ib < 0 ? 98 : ib) || a.localeCompare(b, 'ja'); });
+  const subs = cats.map(c => Object.assign({ cat:c, list:by[c] }, hexIsle(by[c].length, hexW, hexH)));
+  const gx = hexW * 1.6, gy = hexH * 2.6;        // 小島のあいだ（横＝名前の札が触れない・縦＝小島の札が入る）
+  const area = subs.reduce((a, s) => a + (s.w + gx) * (s.h + gy), 0);
+  const maxRow = Math.max(Math.sqrt(area) * 1.5, Math.max.apply(null, subs.map(s => s.w)));
+  const rows = []; let cur = [], cw = 0;
+  subs.forEach(s => { if (cur.length && cw + gx + s.w > maxRow){ rows.push(cur); cur = []; cw = 0; }
+                      cw += (cur.length ? gx : 0) + s.w; cur.push(s); });
+  if (cur.length) rows.push(cur);
+  let y = 0; const rowsInfo = rows.map(r => { const h = Math.max.apply(null, r.map(s => s.h));
+    const w = r.reduce((a, s) => a + s.w, 0) + gx * (r.length - 1);
+    const info = { r:r, w:w, h:h, y:y + h / 2 }; y += h + gy; return info; });
+  const H = y - gy, W = Math.max.apply(null, rowsInfo.map(i => i.w));
+  rowsInfo.forEach(i => { let x = -i.w / 2;
+    i.r.forEach(s => { s.cx = x + s.w / 2; s.cy = i.y - H / 2; x += s.w + gx; }); });
+  const outList = [], rel = [];
+  subs.forEach(s => s.list.forEach((n, j) => { outList.push(n); rel.push({ x:s.cx + s.rel[j].x, y:s.cy + s.rel[j].y }); }));
+  return { type:'人物', list:outList, rel:rel, w:W, h:H, x:0, y:0,
+           subs:subs.map(s => ({ cat:s.cat, n:s.list.length, x:s.cx, y:s.cy, w:s.w, h:s.h })) };
+}
+
+/* 島を 2 段に並べて置き、札を立てる */
+function placeIsles(isles, bigs, smalls, hexW, hexH){
   const gap = hexW * 1.2, minPitch = hexW * 16;
   const rowPlace = (arr, y, pitchMin) => {
     let x = 0; const xs = [];
@@ -1012,7 +1070,7 @@ function applyIsleLayout(){
   cy.batch(() => {
     isles.forEach(c => c.list.forEach((n, j) => n.position({ x:c.x + c.rel[j].x, y:c.y + c.rel[j].y })));
   });
-  ISLES = isles.map(c => ({ type:c.type, n:c.list.length, x:c.x, y:c.y, w:c.w, h:c.h }));
+  ISLES = isles.map(c => ({ type:c.type, n:c.list.length, x:c.x, y:c.y, w:c.w, h:c.h, subs:c.subs || null }));
   ISLE_MODE = true;
   addIsleLabels();
   hideIsleEdges();
@@ -1030,6 +1088,13 @@ function addIsleLabels(){
            color:(c.type === 'これから調べる' ? SUB : (TYPE_COLOR[c.type] || '#c08a3e')) },
     position:{ x:c.x, y:c.y - c.h / 2 - hexH * 0.75 },
     grabbable:false, selectable:false })));
+  // PERSONCAT-MIND-2026-11-03 人物の島の中の小島（肩書ごと）の札＝一回り小さい
+  const subTicks = [];
+  ISLES.forEach(c => (c.subs || []).forEach(s => subTicks.push({ group:'nodes', classes:'isletick isletick-sub',
+    data:{ id:'__isle_' + c.type + '_' + s.cat, label:s.cat + ' ' + s.n, color:TYPE_COLOR[c.type] || '#c08a3e' },
+    position:{ x:c.x + s.x, y:c.y + s.y - s.h / 2 - hexH * 0.85 },
+    grabbable:false, selectable:false })));
+  if (subTicks.length) cy.add(subTicks);
   fitIsleLabels();
 }
 
@@ -1037,10 +1102,10 @@ function addIsleLabels(){
 function fitIsleLabels(){
   if (!cy || !ISLE_MODE) return;
   const z = cy.zoom() || 1;
-  cy.nodes('.isletick').style({ 'font-size': Math.max(44, Math.min(640, 22 / z)), 'min-zoomed-font-size': 0 });
+  cy.nodes('.isletick').not('.isletick-sub').style({ 'font-size': Math.max(44, Math.min(640, 22 / z)), 'min-zoomed-font-size': 0 });
+  cy.nodes('.isletick-sub').style({ 'font-size': Math.max(24, Math.min(200, 13 / z)), 'min-zoomed-font-size': 0 });   // PERSONCAT-MIND-2026-11-03
 }
 
-/* 全体（島）では線を出さない。⚠フォーカス中・張り直し中は触らない（隣は見えている線ぞいに数えるため） */
 /* ⭐ LABELWRAP-MIND-2026-11-03 ── 名前の札の改行を、字の幅を計って先に入れる（禁則つき）。
    ・行頭に来てはいけない字（閉じかっこ・句読点・長音・小さい仮名）は前の行にぶら下げる（2字まで）
    ・行末に来てはいけない字（開きかっこ）は次の行へ追い出す
@@ -1080,6 +1145,7 @@ function applyLabelWrap(){
   cy.batch(() => real.forEach(n => n.data('wl', wrapLabel(n.data('label'), measure, 92))));
 }
 
+/* 全体（島）では線を出さない。⚠フォーカス中・張り直し中は触らない（隣は見えている線ぞいに数えるため） */
 function hideIsleEdges(){
   if (!cy || !ISLE_MODE) return;
   if (typeof FOCUS !== 'undefined' && (FOCUS || FOCUS_BUSY)) return;
@@ -1152,7 +1218,7 @@ function buildFilters(data){
 // ---- ① 一覧パネル ----------------------------------------------------
 // ⭐論文は書物のとなり（どちらも「どこから来たか」の側）。⭐輪の並びもこの順を使う
 // MEDIA-2026-09-23 映像・遊戯は書物のとなり（本・動画・ゲーム＝「どこから来たか」の三つ）
-const ORDER = ['予感','書物','映像','遊戯','論文','人物','理論','症例','生物','実験','用語'];
+const ORDER = ['予感','書物','映像','遊戯','論文','肩書','人物','理論','症例','生物','実験','用語'];   // PERSONCAT-MIND-2026-11-03 肩書は人物のとなり
 
 function buildList(data){
   /* 「出典でしぼる」= 出典ノードごとのチェックボックス。キーは その出典の値（sources[0]）。

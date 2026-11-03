@@ -14,4 +14,7 @@ David K. Marcus。`03_ジーグラーヒル` の共編者。
 
 !!所属や経歴は調べていない。!!上は本書の目次から読み取れる範囲。
 
+## 肩書（2026-11-03 確認）
+- 臨床心理学者（ワシントン州立大学のニュースによる）。（[資料](https://news.wsu.edu/2018/09/19/psychology-professor-named-apa-group-psychologist-year/)）
+
 ## 燻太さんの考え

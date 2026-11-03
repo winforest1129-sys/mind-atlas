@@ -10,4 +10,7 @@ refs:
 ## 調べたこと
 David T. Lykken。行動遺伝学者。[[1957 Lykken]] の電気ショック予期の実験。*The Antisocial Personalities*（1995）で一次性・二次性サイコパスとソシオパスを分けた。⚠所属（ミネソタ大学）は大河の記憶・未確認
 
+## 肩書（2026-11-03 確認）
+- 心理学者・行動遺伝学者（Association for Psychological Science の追悼記事による）。（[資料](https://www.psychologicalscience.org/observer/in-memoriam-david-lykken-1928-2006)）
+
 ## 燻太さんの考え

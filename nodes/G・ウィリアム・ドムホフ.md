@@ -9,4 +9,7 @@ refs:
 ## 調べたこと
 G. William Domhoff。夢の内容の量的分析（Hall と Van de Castle の符号化法）を引き継いだ研究者。夢は起きている間の**関心ごと**を写すという神経認知理論。⚠この地図では論文を当たっていない（Crossref で *A new neurocognitive theory of dreams*（Dreaming 2001）と著書 *The Neurocognitive Theory of Dreaming*（MIT Press 2022）の書誌だけ見た）。⚠所属（カリフォルニア大学サンタクルーズ校）は大河の記憶・未確認。権力構造の社会学者としても知られる（大河の記憶）
 
+## 肩書（2026-11-03 確認）
+- 心理学者・社会学者（心理学の博士号。夢研究と権力構造の研究で知られる。カリフォルニア大学サンタクルーズ校の紹介ページによる）。（[資料](https://dreams.ucsc.edu/About/bill.html)）
+
 ## 燻太さんの考え

@@ -44,7 +44,8 @@ OUT = os.path.join(ROOT, 'data.json')
 #   「この本に出てくる動物」「図鑑で出会いたい動物」として引くための型。
 # MEDIA-2026-09-23 映像＝動画（映NN）・遊戯＝ゲーム（遊NN）。それまで書物で代用していた。
 #   ⚠index.html の TYPE_SHAPE・TYPE_COLOR・ORDER・SRC_GROUPS と必ず揃える
-VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論', '予感', '論文', '生物', '映像', '遊戯']
+VALID_TYPES = ['用語', '人物', '実験', '症例', '書物', '理論', '予感', '論文', '生物', '映像', '遊戯',
+               '肩書']   # ⭐PERSONCAT-MIND-2026-11-03 人物の肩書（心理学者・哲学者…）。肩書→人物 の線で束ねる
 BIO_FIELDS = ['学名', '分類', '図鑑']
 # ⭐MIND-PAPER-TYPE：論文ノードが持てる欄（2026-09-09）。
 #   ⚠ここに無い欄は data.json に通らない（型ごとの決まった欄だけを通す作り）。
@@ -181,7 +182,7 @@ def main():
             conf = '未調査'
 
         refs = meta.get('refs', [])
-        if conf == '確認済' and not refs and ntype not in ('書物', '人物'):
+        if conf == '確認済' and not refs and ntype not in ('書物', '人物', '肩書'):
             warnings.append(fn + ': 確度が「確認済」なのに refs が無い（出典を書くか、推測に落とす）')
 
         owned = meta.get('所持', '不明')

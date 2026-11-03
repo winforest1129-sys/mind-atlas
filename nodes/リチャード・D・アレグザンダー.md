@@ -15,4 +15,7 @@ Richard D. Alexander。本書で最も多く引かれる理論家。『道徳シ
 - 「評判による選択」はボームが一般読者向けに言い換えた語で・原語はアレグザンダーの「互恵性による選択」
 - ⚠所属は本書に記載なし（大河の記憶ではミシガン大学の進化生物学者だが**未確認**）
 
+## 肩書（2026-11-03 確認）
+- 進化生物学者（ミシガン大学 生態学・進化生物学科の追悼記事による）。（[資料](https://prod.lsa.umich.edu/eeb/news-events/all-news/archived-news/201622/02/in-memoriam--the-great-dick-alexander-s-legacy-spread-far--wide-.html)）
+
 ## 燻太さんの考え
