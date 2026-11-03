@@ -484,6 +484,9 @@ function boot(data){
           'label':'data(label)', 'font-size':11, 'color':INK,
           'text-valign':'bottom', 'text-margin-y':4, 'text-wrap':'wrap',
           'text-max-width':92, 'width':26, 'height':26, 'border-width':0,
+          /* ⭐ LABELWRAP-MIND-2026-11-03 ── 日本語の名前には空白が無いので、既定（空白でだけ折る）では
+             1 行も折れず、隣の名前に重なっていた（島の中で 328 組）。どの文字でも折れるようにする。 */
+          'text-overflow-wrap':'anywhere',
           'text-background-color':BG, 'text-background-opacity':0.72,
           'text-background-padding':2, 'text-background-shape':'roundrectangle',
           'min-zoomed-font-size':7,
@@ -509,6 +512,7 @@ function boot(data){
           'background-opacity':0, 'border-width':0, 'events':'no',
           'color':'#c08a3e', 'font-size':16, 'font-weight':'bold',
           'min-zoomed-font-size':0, 'text-wrap':'wrap', 'text-max-width':120,
+          'text-overflow-wrap':'whitespace',
           'text-valign':'center', 'text-halign':'center',
           'text-background-color':BG, 'text-background-opacity':0.86,
           'text-background-padding':3, 'text-background-shape':'roundrectangle' } },
@@ -519,6 +523,7 @@ function boot(data){
           'background-opacity':0, 'border-width':0, 'events':'no',
           'color':'data(color)', 'font-size':44, 'font-weight':'bold',
           'min-zoomed-font-size':0, 'text-wrap':'wrap', 'text-max-width':9999,
+          'text-overflow-wrap':'whitespace',
           'text-justification':'center', 'line-height':1.15,
           'text-valign':'center', 'text-halign':'center',
           'text-background-color':BG, 'text-background-opacity':0.86,
@@ -1618,7 +1623,9 @@ function fitLitLabels(){
   const z = cy.zoom() || 1;
   const f = Math.max(11, Math.min(28, 11.5 / z));
   const tgt = (FOCUS ? cy.nodes(':visible') : cy.nodes().not('.dim')).not('.ringtick').not('.isletick');   // HEXISLE-MIND-2026-09-17
-  tgt.style({ 'font-size': f, 'min-zoomed-font-size': 0 });
+  /* LABELWRAP-MIND-2026-11-03 ── 字を大きくしても幅は 92 のままなので、「どの文字でも折る」だと
+     細い柱になる（輪で実測）。輪と光らせたときは前どおり空白でだけ折る。 */
+  tgt.style({ 'font-size': f, 'min-zoomed-font-size': 0, 'text-overflow-wrap':'whitespace' });
   cy.nodes('.ringtick').style(
     { 'font-size': Math.max(15, Math.min(38, 17 / z)), 'min-zoomed-font-size': 0 });
   /* ⭐⭐**線の名前（rel）も読める大きさにする**（2026-09-09・絵で見て足した）。
@@ -1632,6 +1639,7 @@ function clearLitLabels(){
   if (!cy) return;
   cy.nodes().not('.isletick').removeStyle('font-size');            // HEXISLE-MIND-2026-09-17 島の札の字は zoom で当てるので触らない
   cy.nodes().not('.isletick').removeStyle('min-zoomed-font-size');
+  cy.nodes().not('.isletick').removeStyle('text-overflow-wrap');   // LABELWRAP-MIND-2026-11-03 島に戻ると「どの文字でも折る」に戻る
   cy.edges().removeStyle('font-size');       // ⚠線のほうも必ず戻す
   cy.edges().removeStyle('min-zoomed-font-size');
 }
